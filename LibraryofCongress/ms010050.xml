@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010050">loc.mss/eadmss.ms010050</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>George E. Belknap Papers</titleproper>
+            <subtitle>A Finding Aid to the Papers in the Naval Historical
+			 Foundation Collection in the Library of Congress </subtitle>
+            <author>Prepared by Ruth S. Nicholson</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2009" encodinganalog="260$c" era="ce" calendar="gregorian">2009</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm70052696">https://lccn.loc.gov/mm70052696</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2010">2010</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Glenn R. Gardner</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">George E. Belknap Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1857/1903">1857-1903</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1857/1903"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1857-1903</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS52696</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Belknap, George E.
+			 (George Eugene), 1832-1903</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">1,400
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">4 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">1.6 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+		       </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Naval officer.
+		  Correspondence, articles, memoranda, and miscellaneous papers relating to
+		  Belknap’s naval career.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20171121164834.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Ammen, Daniel, 1820-1898--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Belknap family.</part>
+            </famname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Belknap, George E. (George Eugene), 1832-1903.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Brooke, John M. (John Mercer), 1826-1906--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Goodrich, Caspar F. (Caspar Frederick), 1847-1925--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lowell, Samuel W.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Remey, George Collier, 1841-1928--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Riddle, John A.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Roe, Francis Asbury, 1823-1901--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy--Foreign service--China--Guangzhou.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy--Foreign service--Hawaii.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy. Asiatic Fleet.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Genealogy.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Hydrography.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Oceanography.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Sea stories.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Economic policy.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865--Naval operations.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--19th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Social policy.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Naval officers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of George E. Belknap, naval officer, were deposited in the
+		  Library of Congress by the Naval Historical Foundation in 1959 and converted to
+		  a gift in 1998.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of George E. Belknap were arranged and described in 1969.
+		  The finding aid was revised in 2009.</p>
+      </processinfo>
+      <otherfindaid encodinganalog="555">
+         <head>Additional Guides</head>
+         <p>In 1969, the Library published 
+		<title localtype="simple">
+                           <part>George Eugene Belknap, Reginald Rowan Belknap, a Register of Their
+		  Papers in the Library of Congress</part>
+                        </title>. </p>
+      </otherfindaid>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of George E.
+		  Belknap is governed by the Copyright Law of the United States (Title 17,
+		  U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of George E. Belknap are open to research. Researchers are
+		  advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, George E. Belknap Papers, Naval
+		  Historical Foundation Collection, Manuscript Division, Library of Congress,
+		  Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1832, Jan. 22</datesingle>
+               <event>Born, Newport, N.H.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1847</datesingle>
+               <event>Appointed midshipman</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1847</fromdate>
+                              <todate>1850</todate>
+                           </daterange>
+               <event>Duty in USS <emph render="italic">Porpoise</emph>, Africa
+				Squadron</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1850</fromdate>
+                              <todate>1853</todate>
+                           </daterange>
+               <event>Duty in USS <emph render="italic">Raritan</emph>, Pacific
+				Squadron</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1853</fromdate>
+                              <todate>1854</todate>
+                           </daterange>
+               <event>Attended United States Naval Academy, Annapolis, Md.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1854</fromdate>
+                              <todate>1855</todate>
+                           </daterange>
+               <event>Duty in USS <emph render="italic">Falmouth</emph>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1856</fromdate>
+                              <todate>1858</todate>
+                           </daterange>
+               <event>Duty in USS <emph render="italic">Portsmouth</emph>, Asiatic
+				Squadron</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1859</fromdate>
+                              <todate>1861</todate>
+                           </daterange>
+               <event>Duty in USS <emph render="italic">St. Louis</emph>, Home
+				Squadron</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1861</datesingle>
+               <event>Married Ellen D. Reed</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1861</fromdate>
+                              <todate>1862</todate>
+                           </daterange>
+               <event>Duty in USS <emph render="italic">Huron</emph>, South Atlantic
+				Blockade Squadron</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1863</fromdate>
+                              <todate>1864</todate>
+                           </daterange>
+               <event>Duty in USS <emph render="italic">Seneca</emph>, North
+				Atlantic Blockade Squadron</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1864</fromdate>
+                              <todate>1865</todate>
+                           </daterange>
+               <event>Commanded USS <emph render="italic">Canonicus</emph>, North
+				Atlantic Squadron</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1865</fromdate>
+                              <todate>1867</todate>
+                           </daterange>
+               <event>Duty in USS <emph render="italic">Shenandoah</emph>, Asiatic
+				Squadron</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1866</datesingle>
+               <event>Married Frances Georgiana Prescott</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1867</fromdate>
+                              <todate>1868</todate>
+                           </daterange>
+               <event>Commanded USS <emph render="italic">Hartford</emph>, Asiatic
+				Squadron</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1868</fromdate>
+                              <todate>1869</todate>
+                           </daterange>
+               <event>Duty at New York Naval Rendezvous</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1869</fromdate>
+                              <todate>1872</todate>
+                           </daterange>
+               <event>Duty in Boston Navy Yard</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1872</fromdate>
+                              <todate>1874</todate>
+                           </daterange>
+               <event>Commanded USS <emph render="italic">Tuscarora</emph>, Africa
+				Squadron</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1874</datesingle>
+               <event>Duty as a hydrographic inspector</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1875</fromdate>
+                              <todate>1881</todate>
+                           </daterange>
+               <event>Commanded Pensacola Navy Yard</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1881</fromdate>
+                              <todate>1883</todate>
+                           </daterange>
+               <event>Commanded USS <emph render="italic">Alaska</emph>, Pacific
+				Squadron</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1883</datesingle>
+               <event>Commanded Norfolk Navy Yard</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1883</fromdate>
+                              <todate>1884</todate>
+                           </daterange>
+               <event>President, Naval Torpedo Board</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1885</datesingle>
+               <event>Promoted to commodore</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1885</fromdate>
+                              <todate>1886</todate>
+                           </daterange>
+               <event>Superintendent, Naval Observatory, Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1886</fromdate>
+                              <todate>1889</todate>
+                           </daterange>
+               <event>Commanded Mare Island Navy Yard</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1889</datesingle>
+               <event>Promoted to rear admiral</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1889</fromdate>
+                              <todate>1892</todate>
+                           </daterange>
+               <event>Commanded Naval Forces, Asiatic Station</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1892</fromdate>
+                              <todate>1894</todate>
+                           </daterange>
+               <event>President, Naval Board of Inspection</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1893</datesingle>
+               <event>Naval representative, Chicago World’s Fair, Chicago, Ill.
+				</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1894</datesingle>
+               <event>Retired from the navy</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1898</datesingle>
+               <event>Recalled to active duty as President of the Naval Coaling
+				Board</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1903, Apr. 7</datesingle>
+               <event>Died, Key West, Fla.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of George Eugene Belknap (1832-1903) span the years
+		  1857-1903, and consist of correspondence, speeches, articles, and miscellaneous
+		  material. The papers reflect Belknap’s naval career including duty in the
+		  barrier forts at Canton, China, in the 1850s, combat duty in the Civil War, a
+		  tour of duty in Hawaii, and his command of the Asiatic Fleet. His interest in
+		  hydrographical and oceanographical matters as well as contemporary social,
+		  political, and economic questions is demonstrated by correspondence with his
+		  colleagues. Principal among these are Daniel Ammen, John M. Brooke, Caspar F.
+		  Goodrich, Samuel W. Lowell, George Collier Remey, John A. Riddle, and Francis
+		  Asbury Roe. There is also a grouping of notes and memoranda apparently intended
+		  for use in an autobiography, some research in Belknap family genealogy, a small
+		  amount of family correspondence, and recollections and writings about the
+		  sea.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged by type of material.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Correspondence, 
+				 <date>1857-1903, undated</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1857-1903, undated</unitdate>
+               <physdesc encodinganalog="300$a">(11
+				folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Letterpress book, 
+				 <date>1879</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1879</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Speech and article file, 
+				 <date>1893-1902, undated</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1893-1902, undated</unitdate>
+               <physdesc encodinganalog="300$a">(11
+				folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Miscellaneous writings and
+				recollections, 
+				 <date>undated </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated </unitdate>
+               <physdesc encodinganalog="300$a">(8
+				folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Miscellany, 
+				 <date>1874-1903</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1874-1903</unitdate>
+               <physdesc encodinganalog="300$a">(5
+				folders)</physdesc>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

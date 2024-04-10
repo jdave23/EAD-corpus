@@ -1,0 +1,1963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms003036">loc.mss/eadmss.ms003036</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Benjamin B. French Family Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/> Manuscript Division, Library
+               of Congress </publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm80021550">https://lccn.loc.gov/mm80021550</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-05">2023 May</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-02">2020-02</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2019-10">2019 October</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Addition added</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2013-01">2013 January</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Oversize added</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Controlaccess updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2010-01">2010 January</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Title, controlaccess, arrangement revised</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2008-01">2008 January</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Oversize adjusted</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2004-07-23">2004-07-23</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>converted from EAD 1.0 to EAD 2002</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2003">2003</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Benjamin B. French Family Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1778/1940">1778-1940</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1813/1893">1813-1893</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1778/1940"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1778-1940</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1813/1893"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1813-1893</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS21550</unitid>
+         <origination label="Creator">
+            <persname source="lcnaf" encodinganalog="100">
+               <part>French, Benjamin B. (Benjamin Brown), 1800-1870</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">6,500 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">38 containers plus 6 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">17.2 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">16 microfilm reels</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English </p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">New Hampshire politician, clerk of the
+            United States House of Representatives, and Commissioner of Public Buildings in
+            Washington, D.C. Journals, personal correspondence, writings, and miscellaneous papers
+            chiefly relating to family matters and including commentary on political events and
+            social life in Washington in the nineteenth century. Other prominent family members
+            represented in the papers include Francis O. French, banker, and Amos Tuck,
+            congressman.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220928171823.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Fahnestock, Harris C. (Harris Charles), 1835-1914--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>French family.</part>
+            </famname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>French, Benjamin B. (Benjamin Brown), 1800-1870.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>French, Daniel Chester, 1850-1931--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>French, Francis O. (Francis Ormond), 1837-1893. Francis O. French
+                  papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>French, Henry F. (Henry Flagg), 1813-1885--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lincoln, Abraham, 1809-1865--Assassination.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lincoln, Abraham, 1809-1865.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>McCulloch, Hugh, 1808-1895--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Morrill, Lot M. (Lot Myrick), 1812-1883--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pierce, Franklin, 1804-1869.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Richardson, William A. (William Adams), 1821-1896--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Richardson, William Merchant, 1774-1838. William Merchant Richardson
+                  papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sherman, John, 1823-1900--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Tuck, Amos, 1810-1879. Amos Tuck papers.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Harvard College (1780- )</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Magnetic Telegraph Company.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Phillips Exeter Academy.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Rittenhouse Academy.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Congress.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Freemasonry.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Private schools--New Hampshire--Exeter.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Private schools--Washington (D.C.)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Reconstruction (U.S. history, 1865-1877)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Universities and colleges--Massachusetts--Cambridge.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Confederate States of America--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Middle West--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New Hampshire--Politics and government.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New York (N.Y.)--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Southern States--History--1865-1877.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--1865-1898.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--19th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Washington (D.C.)--Social life and customs.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="246" source="lcnaf">
+               <part>French family papers</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Clerks, U.S. House of Representatives.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Judges.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Justices, State.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Politicians.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Public officials.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> Part I of the papers of the Benjamin B. French Family, including the papers of Benjamin
+            B. French, New Hampshire politician, clerk of the United States House of
+            Representatives, and Commissioner of Public Buildings in Washington, D.C., were given to
+            the Library of Congress by Daniel Chester French, Henry H. French, Prentiss French,
+            Margaret French Cresson, and S. LeRoy French between 1922 and 1974. Additional items
+            were obtained by gift and purchase from various sources from 1924 to 1975. Part II
+            comprises additional papers of Benjamin B. French and other family members including
+            Francis O. French, banker, and Amos Tuck, congressman, and were given to the Library by
+            Peter S. and Katherine P. French between 1991 and 1994. Additional items in Part II were
+            transferred from the National Archives and Records Administration in 1985 and purchased
+            in 2006. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p> Part I of the papers of the Benjamin B. French Family was arranged and described by
+            Allan Teichroew in 1980. Additional material received between 1985 and 1994 was
+            processed as Part II by Michael Spangler in 2000. Material received in 2006 was
+            processed as an Addition to Part II by Laney Stevenson in 2019. The finding aid was
+            updated in 2023 by Maria Farmer as part of a division-wide remediation project by the
+            Inclusive Description Working Group.</p>
+      </processinfo>
+      <otherfindaid encodinganalog="555">
+         <head>Additional Guides</head>
+         <p>The papers of the Benjamin B. French Family have been described in <title localtype="simple">
+               <part>Quarterly Journal of the Library of Congress</part>
+            </title>, vol. 28, Oct. 1971, pp. 287-289, and in <title localtype="simple">
+               <part>Library of Congress Acquisitions: Manuscript Division, 1991</part>
+            </title>, pp. 12-17. </p>
+      </otherfindaid>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p> Most prints and photographs have been transferred to the Library's Prints and
+            Photographs Division where they are identified as part of these papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p> The donors have dedicated to the public any literary rights which they may possess in
+            the family papers of Benjamin B. French. </p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of the Benjamin B. French Family are open to research. Researchers are
+            advised to contact the Manuscript Reading Room prior to visiting. Many collections are
+            stored off-site and advance notice is needed to retrieve these items for research
+            use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p> A microfilm edition of Part I of these papers is available on thirteen reels for
+            purchase from the Library's Photoduplication Service subject to the Copyright Law of the
+            United States (Title 17, U.S.C.) An additional microfilm edition consisting of only the
+            journals in Part I is also available on three reels for purchase subject to the same
+            conditions. These microfilm editions may also be requested on interlibrary loan through
+            the Library's Loan Division. No more than ten reels may be requested at a time for a
+            loan period of one month. A copy of an early version of the finding aid for Part I of
+            the Benjamin B. French Family Papers is available on reel one of the microfilm edition
+            of Part I. </p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p> Researchers wishing to cite this collection should include the following information:
+            Roman numeral designating the Part followed by colon and container number, Benjamin B.
+            French Family Papers, Manuscript Division, Library of Congress, Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Notes</head>
+         <bioghist encodinganalog="545">
+            <head>Benjamin B. French</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1800, Sept. 4</datesingle>
+                  <event>Born, Chester, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1825</datesingle>
+                  <event>Married Elizabeth Richardson (died 1861)</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1828</fromdate>
+                     <todate>1830</todate>
+                  </daterange>
+                  <event>Assistant clerk, New Hampshire state senate</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1831</fromdate>
+                     <todate>1833</todate>
+                  </daterange>
+                  <event>Representative, New Hampshire legislature</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1833</datesingle>
+                  <event>Accepted appointment in clerk's department of the United States House of
+                     Representatives</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1845</fromdate>
+                     <todate>1847</todate>
+                  </daterange>
+                  <event>Clerk of the United States House of Representatives</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1847</fromdate>
+                     <todate>1850</todate>
+                  </daterange>
+                  <event>President, Magnetic Telegraph Co.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1853</datesingle>
+                  <event>Appointed commissioner of public buildings by President Franklin Pierce
+                     (resigned 1855)</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1857</datesingle>
+                  <event>President, Republican Association of Washington, Washington, D.C.</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1859</fromdate>
+                     <todate>1865</todate>
+                  </daterange>
+                  <event>Grand master of Templars of the United States</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1861</datesingle>
+                  <event>Chief marshal of District of Columbia at inauguration of Abraham
+                     Lincoln</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1861</fromdate>
+                     <todate>1867</todate>
+                  </daterange>
+                  <event>Commissioner of public buildings under presidents Abraham Lincoln and
+                     Andrew Johnson</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1862</datesingle>
+                  <event>Married Mary Ellen Brady</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1870, Aug. 12</datesingle>
+                  <event>Died, Washington, D.C.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist encodinganalog="545">
+            <head>Francis O. French</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1837, Sept. 12</datesingle>
+                  <event>Born, Chester, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1857</datesingle>
+                  <event>Graduated, Harvard College, Cambridge, Mass.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1859</datesingle>
+                  <event>LL.B., Harvard Law School, Cambridge, Mass.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1861</datesingle>
+                  <event>Married Ellen Tuck</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1862</datesingle>
+                  <event>Appointed deputy naval officer of customs, Boston, Mass.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1865</datesingle>
+                  <event>Joined banking firm Samuel A. Way &amp; Co., Boston, Mass.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1870</datesingle>
+                  <event>Joined banking firm Jay Cooke &amp; Co., New York, N.Y.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1873</datesingle>
+                  <event>Promoted to partner, Jay Cooke &amp; Co.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1874</datesingle>
+                  <event>Member of a group that acquired control of the First National Bank of New
+                     York</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1880</datesingle>
+                  <event>Disposed of his interest in First National Bank of New York and
+                     retired</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1888</fromdate>
+                     <todate>1893</todate>
+                  </daterange>
+                  <event>President, Manhattan Trust Co., New York, N.Y.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1893, Feb. 26</datesingle>
+                  <event>Died, Tuxedo Park, N.Y.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist encodinganalog="545">
+            <head>Amos Tuck</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1810, Aug. 2</datesingle>
+                  <event>Born, Parsonsfield, Maine</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1834</datesingle>
+                  <event>Married Sarah Nudd (died 1847)</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1835</datesingle>
+                  <event>Graduated, Dartmouth College, Hanover, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1838</datesingle>
+                  <event>Began law practice in Exeter, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1842</datesingle>
+                  <event>Representative, New Hampshire legislature</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1847</datesingle>
+                  <event>Married Catherine Townsend Shephard (died 1876)</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1847</fromdate>
+                     <todate>1853</todate>
+                  </daterange>
+                  <event>Member, United States House of Representatives</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1853</fromdate>
+                     <todate>1854</todate>
+                  </daterange>
+                  <event>Assisted in founding the Republican party</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1860</datesingle>
+                  <event>Member, platform committee, Republican party national convention, Chicago,
+                     Ill.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1861</datesingle>
+                  <event>Delegate, Peace Congress, Washington, D.C.</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1861</fromdate>
+                     <todate>1865</todate>
+                  </daterange>
+                  <event>Naval officer of the district of Boston and Charlestown, Mass.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1865</datesingle>
+                  <event>Resumed law practice</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1879, Dec. 11</datesingle>
+                  <event>Died, Exeter, N.H.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>
+            <emph render="bold">Part I</emph>
+         </p>
+         <p>Part I of the papers of the Benjamin Brown French Family spans the years 1802-1924, with
+            the bulk of the items concentrated in the period 1826-1870. Papers of Benjamin Brown
+            French (1800-1870) comprising Part I are organized in the following series: <ref target="journ1" show="replace" actuate="onrequest">Journals</ref>, <ref target="corr1" show="replace" actuate="onrequest">Correspondence</ref>, and a <ref target="misc1" show="replace" actuate="onrequest">Miscellany</ref> consisting of
+            poems and other occasional writings, printed matter, and a scrapbook of clippings.</p>
+         <p>Benjamin B. French came to Washington, D.C., in 1833 from his native New Hampshire. He
+            had already served briefly as clerk and representative in the New Hampshire state
+            legislature when friends in the state secured him an appointment in the Clerk's
+            Department of the United States House of Representatives. He kept this post twelve
+            years, was elected clerk of the house in 1845, and in 1847 joined Samuel F. B. Morse in
+            the operation of the Magnetic Telegraph Company. President Franklin Pierce appointed him
+            Commissioner of Public Buildings in 1853, an office French resigned in 1855 only to be
+            reappointed by President Lincoln in 1861. French made the acquaintance of twelve
+            presidents, from Andrew Jackson to Ulysses S. Grant, but it was Lincoln to whom he was
+            most devoted. One of his duties as Commissioner of Public Buildings was to attend
+            semiweekly White House receptions and introduce Mary Lincoln to visitors. When Willie
+            Lincoln died on February 20, 1862, French was called upon to take charge of the funeral
+            arrangements. At Gettysburg he was on the speaker's stand when Lincoln dedicated the
+            national cemetery in Pennsylvania on November 19, 1863, and in April 1865 he stood by
+            the dying president's bedside.</p>
+         <p>French's private <ref target="journ1" show="replace" actuate="onrequest">journals</ref>,
+            which date from 1803 because of the enclosure of early family manuscripts, were begun by
+            French in August 1828 and continue intermittently until August 1870. In addition to
+            commentary on New Hampshire politics during the Jacksonian era, they contain extended
+            discussion of freemasonry, the Magnetic Telegraph Company, and the day-to-day life of a
+            man of affairs close to the central figures of his time. Cabinet officers, Congressmen,
+            military leaders, and people of the arts and society appear frequently and sometimes on
+            intimate terms throughout these pages. Included are comments on the presidency of
+            Franklin Pierce, with whom French had been politically identified prior to his bolting
+            to the Republican side in the late 1850s, and numerous passages illuminating French's
+            regard for Lincoln. A hymn by French was sung at the Gettysburg dedication ceremony, and
+            later he wrote a twelve-page retrospective of the event. His journals also portray other
+            turning points of the Civil War, including a graphic description of the reception in the
+            capital to news of the fall of Richmond. Lincoln's assassination is fully recorded, as
+            are the acrimonious days following the war. The journals, edited by Donald B. Cole and
+            John J. McDonough, were published in <title localtype="simple">
+               <part>Witness to the Young Republic: A Yankee's Journal, 1828-1870</part>
+            </title> (Hanover, N.H.: University Press of New England, 1989).</p>
+         <p>Almost all of the items in the <ref target="corr1" show="replace" actuate="onrequest">Correspondence</ref> series in Part I consists of French's letters to and from his
+            half brother, Henry Flagg French, a judge in Exeter, New Hampshire. Much like the
+            journals, they contain accounts of the interior and exterior lives of nineteenth century
+            Americans who observed much and recorded what they saw. Benjamin's letters treat
+            religion, politics, art, and literature and are especially illuminating for their asides
+            about events on the floor of the House of Representatives or in the halls of Congress.
+            Observing fisticuffs between two congressmen which ended in cravats being pulled and
+            vest buttons popped, he attended quietly to his minutetaking, kept his composure, and in
+            a report to his brother noted that throughout the pandemonium he was "calm as a summer
+            morning."</p>
+         <p>The <ref target="misc1" show="replace" actuate="onrequest">Miscellany</ref> files
+            include a scrapbook of French's writings and holograph and printed poems.</p>
+         <p>
+            <emph render="bold">Part II</emph>
+         </p>
+         <p>Part II of the Benjamin B. French Family Papers spans the years 1778-1940, with the bulk
+            of the material dating from 1813 to 1893. Benjamin B. French, Francis Ormond French
+            (1837-1893), and Amos Tuck (1810-1879) are the principal figures represented. The
+            material is organized in the following series: <ref target="journ2" show="replace" actuate="onrequest">Journals</ref>, <ref target="corr2" show="replace" actuate="onrequest">Correspondence</ref>, <ref target="misc2" show="replace" actuate="onrequest">Miscellany</ref>, <ref target="add" show="replace" actuate="onrequest">2019 Addition</ref>, and <ref target="ovsz2" show="replace" actuate="onrequest">Oversize</ref> material.</p>
+         <p>
+            <ref target="journ2" show="replace" actuate="onrequest">Journals</ref> of Francis O.
+            French, the older son of Benjamin B. French contain an account of a youth from a
+            prominent family growing up in the nation's capital in the mid-nineteenth century.
+            Beginning in 1850 when he was twelve years old, “Frank” French regularly kept his
+            journals through 1856, a period during which he attended Mr. Wight's Rittenhouse Academy
+            in Washington and Phillips Exeter Academy, Exeter, New Hampshire, and began his studies
+            at Harvard College. Entries range from jottings on typical, day-to-day neighborhood and
+            student activities to extended remarks on significant events, such as the deaths of
+            prominent American political figures and the fire in the United States Capitol which
+            destroyed the Library of Congress in 1851. Additionally the journals record the comings
+            and goings of numerous family members who visited the French family. The first volume of
+            these journals was edited by John J. McDonough and published as <title localtype="simple">
+               <part>Growing Up on Capitol Hill: A Young Washingtonian's Journal, 1850-1852 /Francis
+                  O. French</part>
+            </title> (Washington, D.C.: Library of Congress, 1997). Also included are journals kept
+            by Francis French in 1864 and 1870-1871, in which he recorded a visit to his dying
+            father in Washington, and fragments of journals by Benjamin French and Amos Tuck.</p>
+         <p>The <ref target="corr2" show="replace" actuate="onrequest">Correspondence</ref> series
+            comprises chiefly the personal letters of Benjamin B. French, Francis O. French, and
+            Amos Tuck and is organized largely to reflect the original arrangement of the bound
+            volumes from which the material was removed. Complementing his papers in Part I, the
+            correspondence of Benjamin B. French with various family members includes news and
+            observations similar to those in his journal. In frequent letters to his son Francis, he
+            interlaces news from home and fatherly advice with observations and commentary on
+            political figures, government officials, and significant events. The letters reveal
+            French's growing anxiety as the nation drifted toward dissolution, tempered by his
+            determined faith that the Union would prevail. Even though an admirer of Abraham
+            Lincoln, French was still critical of Lincoln's “shilly shally” during the months
+            leading up to the war. French's letters to his son Francis in April 1865 provide an
+            important account of events surrounding Lincoln's death, including French's assertion
+            that John Wilkes Booth had created an unusual disturbance at Lincoln's second
+            inauguration. French's correspondence also includes a miscellaneous group of incoming
+            letters relating primarily to his Masonic activities. </p>
+         <p>The personal letters of Francis O. French also constitute a significant portion of the
+               <ref target="corr2" show="replace" actuate="onrequest">Correspondence</ref> series.
+            Francis French trained as a lawyer at Harvard and after the Civil War established a
+            successful career in international finance. In 1870 he joined Jay Cooke &amp; Co.,
+            survived its collapse in 1873, and joined a group with controlling interest in the First
+            National Bank of New York. In 1880 he sold his interest in First National and, in
+            failing health, traveled extensively in his final years. His correspondence offers less
+            striking commentary than his father, but provides insight into the life of a prosperous
+            American family of the late nineteenth century and includes letters received from
+            prominent men in finance and government as well as family members. Correspondents
+            include Harris C. Fahnestock (banker), Daniel Chester French (a cousin), and secretaries
+            of the treasury Lot M. Morrill, Hugh McCulloch, William A. Richardson (a cousin), and
+            John Sherman.</p>
+         <p>The <ref target="corr2" show="replace" actuate="onrequest">Correspondence</ref> also
+            contains family correspondence of Amos Tuck, whose daughter Ellen married Francis French
+            in 1861. An inhabitant of New Hampshire, Tuck studied law, served as a representative in
+            Congress from 1847 to 1853, and was involved in the founding of the Republican party in
+            1853-1854. His letters to family members include commentary on politics, his travels in
+            the Midwest in the 1851, and the devastation of the South after the Civil War. There are
+            also a few personal letters of William Merchant Richardson, father of Benjamin B.
+            French's first wife and a chief justice of the New Hampshire Superior Court. The
+            Correspondence series contains a small number of photocopies of original letters,
+            invitations, and related documents from prominent figures received by Benjamin B. and
+            Francis O. French but not included among these papers.</p>
+         <p>Among the speeches and writings in the <ref target="misc2">Miscellany</ref> series is
+            Benjamin B. French's memoir of his early years as a clerk in the House of
+            Representatives and a Fourth of July speech prepared by William Merchant Richardson in
+            1808 discussing Thomas Jefferson and the Embargo Act. Other items among the Miscellany
+            include biographical material, certificates, a commonplace book, memorials, memorabilia,
+            and scrapbooks.</p>
+         <p>The <ref target="add">2019 Addition</ref> series consists of a letter dated July 15,
+            1850, to Benjamin B. French from employees of the Magnetic Telegraph Company regarding
+            the failure of his re-election as president.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Organization of the Papers</head>
+         <p>The collection is arranged in two parts composed of eight series:</p>
+         <p>Part I:</p>
+         <list>
+            <item>
+               <ref target="journ1" show="replace" actuate="onrequest">Journals, 1803-1870</ref>
+            </item>
+            <item>
+               <ref target="corr1" show="replace" actuate="onrequest">Correspondence,
+                  1826-1924</ref>
+            </item>
+            <item>
+               <ref target="misc1" show="replace" actuate="onrequest">Miscellany, 1802-1977</ref>
+            </item>
+         </list>
+         <p>Part II:</p>
+         <list>
+            <item>
+               <ref target="journ2" show="replace" actuate="onrequest">Journals, 1837-1879</ref>
+            </item>
+            <item>
+               <ref target="corr2" show="replace" actuate="onrequest">Correspondence,
+                  1778-1940</ref>
+            </item>
+            <item>
+               <ref target="misc2" show="replace" actuate="onrequest">Miscellany, 1787-1938</ref>
+            </item>
+            <item>
+               <ref target="add">2019 Addition, 1850</ref>
+            </item>
+            <item>
+               <ref target="ovsz2" show="replace" actuate="onrequest">Oversize, 1819-1893</ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <p>Microfilm shelf no. 18,483. Containers I:1-4 also available on microfilm shelf no.
+            15,260.</p>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Box</entry>
+               <entry morerows="0">Reel</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">I:1-4</container>
+               <container localtype="reel">1-3</container>
+               <unittitle id="journ1" encodinganalog="245$a">Part I: Journals, <date localtype="inclusive" normal="1803/1870">1803-1870</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1803/1870" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1803-1870</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Bound volumes of private journals kept by Benjamin B. French. Entries begin in
+                  1828, with earlier material consisting of family items enclosed by Amos Tuck
+                  French. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged in approximate chronological order.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1803-1845, July </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1803-1845, July </unitdate>
+                  <physdesc encodinganalog="300">(4 vols.)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:2</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1845, July-1858, Feb. </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1845, July-1858, Feb. </unitdate>
+                  <physdesc encodinganalog="300">(2 vols.)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1858, Mar.-1861, Jan.</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1858, Mar.-1861,
+                     Jan.</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:3</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1861, Jan.-1865, Dec. </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1861, Jan.-1865, Dec. </unitdate>
+                  <physdesc encodinganalog="300">(2 vols.)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:4</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1866, Jan.-1870, Aug. </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1866, Jan.-1870, Aug. </unitdate>
+                  <physdesc encodinganalog="300">(2 vols.)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">I:5-13</container>
+               <container localtype="reel">4-12</container>
+               <unittitle id="corr1" encodinganalog="245$a">Part I: Correspondence, <date localtype="inclusive" normal="1826/1924">1826-1924</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1826/1924" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1826-1924</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Bound volumes of letters between Benjamin B. French and his half brother, Henry
+                  Flagg French. Arranged in three categories: original correspondence, typewritten
+                  transcripts by Amos Tuck French, and an abridged published edition of Benjamin
+                  French's journals and letters edited by Amos Tuck French. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>The letters are in chronological order and include correspondence with other
+                  family members.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:5</container>
+                  <container localtype="reel">4</container>
+                  <unittitle encodinganalog="245$a">Originals</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Henry Flagg French (half
+                        brother)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1826, Feb. 19-1850, Nov. 29 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1826, Feb.
+                           19-1850, Nov. 29 </unitdate>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:6</container>
+                        <container localtype="reel">5</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1851, Jan. 22-1862, Oct. 1 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1851, Jan.
+                           22-1862, Oct. 1 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="reel">6</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1862, Oct. 12-1870, Aug. 15 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1862, Oct.
+                           12-1870, Aug. 15 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:7</container>
+                     <container localtype="reel">6</container>
+                     <unittitle encodinganalog="245$a">From Henry Flagg French</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1833, Nov. 22-1851, Apr. 20</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1833, Nov.
+                           22-1851, Apr. 20</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:8</container>
+                        <container localtype="reel">7</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1851, May 10-1858, Oct. 3</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1851, May 10-1858,
+                           Oct. 3</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:9</container>
+                        <container localtype="reel">7</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1858, Oct. 13-1870, Apr. 6</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1858, Oct.
+                           13-1870, Apr. 6</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:10</container>
+                     <container localtype="reel">8</container>
+                     <unittitle encodinganalog="245$a">To Henry Flagg French</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1826-1849 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1826-1849 </unitdate>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:11</container>
+                        <container localtype="reel">9</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1850-1858 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1850-1858
+                        </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="reel">10</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1859-1870 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1859-1870
+                        </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:12</container>
+                     <container localtype="reel">10</container>
+                     <unittitle encodinganalog="245$a">From Henry Flagg French</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1833-1844</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1833-1844</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="reel">11</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1845-1855</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1845-1855</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:13</container>
+                        <container localtype="reel">12</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1856-1914</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1856-1914</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Published</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">French, Amos Tuck, editor, <title localtype="simple">
+                           <part>From the Diary and Correspondence of Benjamin Brown French</part>
+                        </title> (New York: privately printed, 1904), with inscription and tipped in
+                        letter by the editor, <date encodinganalog="245$f">1924</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1924</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">I:14</container>
+               <container localtype="reel">12-13</container>
+               <unittitle id="misc1" encodinganalog="245$a">Part I: Miscellany, <date localtype="inclusive" normal="1802/1977">1802-1977</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1802/1977" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1802-1977</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Handwritten or printed poems by Benjamin B. French and other occasional writings,
+                  miscellaneous printed matter, and a scrapbook of clippings. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:14</container>
+                  <container localtype="reel">12</container>
+                  <unittitle encodinganalog="245$a">Poems and other occasional writings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Friends and family, <date encodinganalog="245$f">1841-1870, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1841-1870,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Masonic, <date encodinganalog="245$f">1858-1870, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1858-1870,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">New Hampshire, <date encodinganalog="245$f">1849-1858, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1849-1858,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="reel">13</container>
+                     <unittitle encodinganalog="245$a">People and politics, <date encodinganalog="245$f">1835-1870, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1835-1870,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Special events, <date encodinganalog="245$f">1861-1869</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1861-1869</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Printed matter, <date encodinganalog="245$f">1802-1877</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1802-1877</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Scrapbook, <date encodinganalog="245$f">1834-1870</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1834-1870</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:1-2</container>
+               <container label="not filmed"/>
+               <unittitle id="journ2" encodinganalog="245$a">Part II: Journals, <date localtype="inclusive" normal="1837/1879">1837-1879</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1837/1879" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1837-1879</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Bound volumes of private journals kept by Benjamin B. French, Francis O. French,
+                  and Amos Tuck. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by name of creator and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:1</container>
+                  <unittitle encodinganalog="245$a">French, Benjamin B.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1837, May</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1837, May</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">French, Francis O.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1850, Jan.-1854, July </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1850, Jan.-1854, July </unitdate>
+                     <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1854, Aug.-1856, Feb.</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1854, Aug.-1856,
+                        Feb.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1864, Jan.-May</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1864,
+                        Jan.-May</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1870, Aug.-1871, Jan.</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1870, Aug.-1871,
+                        Jan.</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:2</container>
+                  <unittitle encodinganalog="245$a">Tuck, Amos</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1879, May-July</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1879,
+                        May-July</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:2-20</container>
+               <unittitle id="corr2" encodinganalog="245$a">Part II: Correspondence, <date localtype="inclusive" normal="1778/1940">1778-1940 </date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1778/1940" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1778-1940 </unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent and received chiefly by Benjamin B. French, Francis O. French, and
+                  Amos Tuck. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by name of person and chronologically thereunder.
+                  Correspondence of Benjamin B. French is additionally grouped into family and
+                  miscellaneous correspondence. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:2</container>
+                  <unittitle encodinganalog="245$a">French, Benjamin B.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Family</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Brown, Mary (grandmother), <date encodinganalog="245$f">1818-1838, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1818-1838, undated </unitdate>
+                        <physdesc encodinganalog="300">(11 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">French, Elizabeth R. (wife)</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1822-1836 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1822-1836 </unitdate>
+                           <physdesc encodinganalog="300">(5 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">II:3</container>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1837-1860, undated </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1837-1860,
+                              undated </unitdate>
+                           <physdesc encodinganalog="300">(13 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="fofii3" encodinganalog="245$a">French, Francis O. (son) <ref target="fbfii11" show="replace" actuate="onrequest">
+                              <emph render="italic">See also Containers II:11-12,</emph> French,
+                              Benjamin B.</ref>
+                        </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1845-1852 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1845-1852 </unitdate>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1853</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1853</unitdate>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">
+                                 <date encodinganalog="245$f">Jan.-May </date>
+                              </unittitle>
+                              <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan.-May </unitdate>
+                              <physdesc encodinganalog="300">(2 folders)</physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">II:4</container>
+                              <unittitle encodinganalog="245$a">
+                                 <date encodinganalog="245$f">June-Dec. </date>
+                              </unittitle>
+                              <unitdate encodinganalog="245$f" unitdatetype="inclusive">June-Dec. </unitdate>
+                              <physdesc encodinganalog="300">(2 folders)</physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1854-1859 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1854-1859 </unitdate>
+                           <physdesc encodinganalog="300">(19 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">II:5</container>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1860-1868 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1860-1868 </unitdate>
+                           <physdesc encodinganalog="300">(20 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">II:6</container>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1869-1870, undated </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1869-1870,
+                              undated </unitdate>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1800-1836 </date>
+                              <ref show="replace" actuate="onrequest" target="miscov1">
+                                 <emph render="italic">See also Oversize</emph>
+                              </ref>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1800-1836 </unitdate>
+                           <physdesc encodinganalog="300">(18 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">II:7</container>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1837-1843 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1837-1843 </unitdate>
+                           <physdesc encodinganalog="300">(17 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">II:8</container>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1844-1870 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1844-1870 </unitdate>
+                           <physdesc encodinganalog="300">(15 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1824-1858 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1824-1858 </unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1859</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1859</unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">Jan.-Apr. </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan.-Apr. </unitdate>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">II:9</container>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">May-Dec. </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">May-Dec. </unitdate>
+                           <physdesc encodinganalog="300">(4 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1860-1870 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1860-1870 </unitdate>
+                        <physdesc encodinganalog="300">(11 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:10</container>
+                  <unittitle encodinganalog="245$a">French, Francis O.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">French, Amos T. (son)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1873, 1883-1891 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1873, 1883-1891 </unitdate>
+                        <physdesc encodinganalog="300">(14 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">II:11</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1892-1893 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1892-1893 </unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="fbfii11" encodinganalog="245$a">French, Benjamin B. (father),
+                        Elizabeth R. (mother), and Mary E. (stepmother) <ref target="fofii3" show="replace" actuate="onrequest">
+                           <emph render="italic">See also Containers II:3-6,</emph> French, Francis
+                           O.</ref>
+                     </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1845-1861 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1845-1861 </unitdate>
+                        <physdesc encodinganalog="300">(15 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">II:12</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1862-1890, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1862-1890, undated </unitdate>
+                        <physdesc encodinganalog="300">(16 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">II:13</container>
+                     <unittitle encodinganalog="245$a">French, Ellen T. (wife)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1853-1884 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1853-1884 </unitdate>
+                        <physdesc encodinganalog="300">(13 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">II:14</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1885-1890 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1885-1890 </unitdate>
+                        <physdesc encodinganalog="300">(16 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">II:15</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1891-1893 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1891-1893 </unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1844-1869 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1844-1869 </unitdate>
+                        <physdesc encodinganalog="300">(9 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">II:16</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1870-1880 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1870-1880 </unitdate>
+                        <physdesc encodinganalog="300">(14 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">II:17</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1881-1892 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1881-1892 </unitdate>
+                        <physdesc encodinganalog="300">(15 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">II:18</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1893</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1893</unitdate>
+                        <physdesc encodinganalog="300">(8 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous photocopies, <date encodinganalog="245$f">1778-1940, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1778-1940, undated </unitdate>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Richardson, William Merchant, and family, <date encodinganalog="245$f">1813-1820 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1813-1820 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:19</container>
+                  <unittitle encodinganalog="245$a">Tuck, Amos, and family</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1845-1870 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1845-1870 </unitdate>
+                     <physdesc encodinganalog="300">(19 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">II:20</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1871-1902, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1871-1902,
+                        undated</unitdate>
+                     <physdesc encodinganalog="300">(21 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:21-24</container>
+               <container label="not filmed"/>
+               <unittitle id="misc2" encodinganalog="245$a">Part II: Miscellany, <date localtype="inclusive" normal="1787/1938">1787-1938</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1787/1938" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1787-1938</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Autograph book, biographical material, certificates, clippings, commonplace book,
+                  memorabilia, school records, scrapbooks, and speeches and writings. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by type of material and therein alphabetically by name of
+                  creator.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:21</container>
+                  <unittitle encodinganalog="245$a">Autograph book, <date encodinganalog="245$f">1850</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1850</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Biographical material, <date encodinganalog="245$f">undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Certificates and awards</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="bfrenchii21" encodinganalog="245$a">French, Benjamin B., <date encodinganalog="245$f">1819-1870 </date>
+                        <ref target="bfrenchiiov1" show="replace" actuate="onrequest">
+                           <emph render="italic">See also Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1819-1870 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">French, Francis O., <date encodinganalog="245$f">1862-1878</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1862-1878</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Child's cut-out toys, <date encodinganalog="245$f">1840s</date>
+                     <ref target="toysiiov2" show="replace" actuate="onrequest">
+                        <emph render="italic">See Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1840s</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Clippings, <date encodinganalog="245$f">1902-1909</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1902-1909</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Commonplace book, Sarah M. Richardson, <date encodinganalog="245$f">1824-1827</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1824-1827</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Genealogy, <date encodinganalog="245$f">undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hair, locks of, <date encodinganalog="245$f">1855-1893, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1855-1893,
+                     undated</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Memorabilia, <date encodinganalog="245$f">1787-1895, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1787-1895, undated </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Memorials and obituaries</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">French, Francis O., <date encodinganalog="245$f">1893</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1893</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Tuck, Amos, <date encodinganalog="245$f">1879</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1879</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Music copy book, Benjamin B. French, <date encodinganalog="245$f">1819-1825, 1856</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1819-1825,
+                     1856</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:22</container>
+                  <unittitle encodinganalog="245$a">School and university file, Francis O. French,
+                        <date encodinganalog="245$f">1848-1859 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1848-1859 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Scrapbooks</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">French, Francis O.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Vol. 1, <date encodinganalog="245$f">1843-1893</date>
+                           <ref target="fofriiov3" show="replace" actuate="onrequest">
+                              <emph render="italic">See Oversize</emph>
+                           </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1843-1893</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Vol. 2, <date encodinganalog="245$f">circa
+                              1850-1892</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">circa
+                           1850-1892</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">II:23</container>
+                        <unittitle encodinganalog="245$a">Vol. 3, <date encodinganalog="245$f">1866-1893</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1866-1893</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Tuck, Amos, <date encodinganalog="245$f">1833-1938</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1833-1938</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:24</container>
+                  <unittitle encodinganalog="245$a">Speeches and writings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="bbfrii24" encodinganalog="245$a">French, Benjamin B., <date encodinganalog="245$f">1845-1868, undated</date>
+                        <ref target="bbfriiov4" show="replace" actuate="onrequest">
+                           <emph render="italic">See also Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1845-1868,
+                        undated</unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">French, Francis O., <date encodinganalog="245$f">1857, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1857,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Richardson, William Merchant, <date encodinganalog="245$f">1797-1818, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1797-1818, undated </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Tuck, Amos, <date encodinganalog="245$f">1861-1875, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1861-1875, undated </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Visiting cards, <date encodinganalog="245$f">1852-1853, 1866, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1852-1853, 1866,
+                     undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:24</container>
+               <unittitle encodinganalog="245$a" id="add">Part II: 2019 Addition, <date encodinganalog="245$f">1850</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1850</unitdate>
+            </did>
+            <scopecontent>
+               <p>Autograph letter to Benjamin B. French from employees of the Magnetic Telegraph
+                  Company. </p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:24</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">French, Benjamin B., <date encodinganalog="245$f">1850, July 15</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1850, July
+                        15</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:OV 1-6</container>
+               <container label="not filmed"/>
+               <unittitle id="ovsz2" encodinganalog="245$a">Part II: Oversize, <date localtype="inclusive" normal="1819/1893">1819-1893</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1819/1893" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1819-1893</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>War Department broadside announcing reward for capture of Lincoln's assassins,
+                  certificates, a letter, child's cut-out toys, scrapbook, and a draft of a memoir.
+               </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged and described according to the series, containers, and folders from which
+                  the items were removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:OV 1</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Family</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="miscov1">Miscellany, <date encodinganalog="245$f">1836</date> (Container II:6)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1836</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:OV 2</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Certificates and awards</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="bfrenchiiov1" encodinganalog="245$a">French, Benjamin B.,
+                              <date encodinganalog="245$f">1819-1870</date> (Container II:21) </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1819-1870</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">II:OV 3</container>
+                     <unittitle id="toysiiov2" encodinganalog="245$a">Child's cut-out toys, <date encodinganalog="245$f">1840s</date> (Container II:21)</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1840s</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">II:OV 4</container>
+                     <unittitle encodinganalog="245$a">Scrapbooks, French, Francis O.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="fofriiov3" encodinganalog="245$a">Vol. 1, <date encodinganalog="245$f">1843-1893</date> (Container II:22)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1843-1893</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">II:OV 5</container>
+                     <unittitle>Broadside, reward for capture of President Lincoln's assassins,
+                           <date encodinganalog="245$f">1865, April 20</date> (Container II:OV
+                        4)</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1865, April
+                        20</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">II:OV 6</container>
+                     <unittitle encodinganalog="245$a">Speeches and writings</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="bbfriiov4" encodinganalog="245$a">French, Benjamin B., draft
+                           of memoir, <date encodinganalog="245$f">1856</date> (Container II:24) </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1856</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

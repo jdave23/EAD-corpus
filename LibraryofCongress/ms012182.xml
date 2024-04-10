@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms012182">loc.mss/eadmss.ms012182</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>E. B. O'Callaghan Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by Charles Cooney</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+					                      <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+					Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2012" encodinganalog="260$c" era="ce" calendar="gregorian">2012</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm79035014">https://lccn.loc.gov/mm79035014</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2012">2012</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">E. B. O'Callaghan Papers  <date altrender="Span Dates" localtype="inclusive" normal="1830/1876">1830-1876 </date> 
+                        <date altrender="Bulk Dates" localtype="bulk" normal="1845/1860">(bulk
+				1845-1860)</date> 
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1830/1876"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1830-1876 </unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1845/1860"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk
+				1845-1860)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS35014</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>O'Callaghan, E. B. (Edmund Bailey),
+					1797-1880</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">2,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">20 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">4.4 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <language encodinganalog="041" langcode="fre">French</language>
+                        <descriptivenote>
+                           <p>Collection material in English and French
+			      </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852">
+				                    <corpname>
+                           <part>
+                Manuscript Division,  Library of Congress</part>
+                        </corpname>
+				                    <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+			                  </repository>
+         <abstract label="Summary" encodinganalog="520$a">Physician, historian, and
+				bibliographer. Correspondence pertaining primarily to O'Callaghan's career as a
+				physician, legislator in Lower Canada, and editor of the <emph render="italic">Montreal
+					Vindicator</emph>. Also concerns bibliographic matters including records of New
+				York state, rare bibliographic Americana, editions of the Bible, and material
+				relating to America found in European archives. Includes a draft of his <emph render="italic">History of New Netherland</emph> (1846-1848). </abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20201027102021.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Allen, Edward G.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Alofsen, Solomon, 1808-1876--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Armstrong, Edward, 1846-1928--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bancroft, George, 1800-1891--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Beach, Elizabeth T. Porter--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Beck, Theodric Romeyn, 1791-1855--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Brodhead, John Romeyn, 1814-1873--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Brown, John Carter, 1797-1874--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Deane, Charles, 1813-1889--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Drake, Samuel Gardner, 1798-1875--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Draper, Lyman Copeland, 1815-1891--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Ewbank, Thomas, 1792-1870--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Fabre, Hector, 1834-1901--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Fabre, Édouard Raymond, 1799-1854--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Garneau, F.-X. (François-Xavier), 1809-1866--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Gowans, William, 1803-1870--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Harris, Thaddeus William, 1795-1856--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Haven, Samuel F. (Samuel Foster), 1806-1881--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hoadly, Charles J. (Charles Jeremy), 1828-1900--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lenox, James, 1800-1880--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Livermore, George, 1809-1865--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Mackenzie, William Lyon, 1795-1861--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Martin, Benj. N. (Benjamin Nicholas), 1816-1883--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Moore, George Henry, 1823-1892--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Murphy, Henry Cruse, 1810-1882--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>O'Callaghan, E. B. (Edmund Bailey), 1797-1880.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>O'Callaghan, E. B. (Edmund Bailey), 1797-1880. History of New Netherland. 1846-1848.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Papineau, Louis Joseph, 1786-1871--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Parkman, Francis, 1823-1893--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Perrault, Louis, 1807-1866--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Richardson, Charles Benjamin, 1832-1891--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Shea, John Gilmary, 1824-1892--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Todd, Alpheus, 1821-1884--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Valentine, D. T. (David Thomas), 1801-1869--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Ward, Townsend, 1817?-1885--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Whitehead, William A. (William Adee), 1810-1884--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Lower Canada. Legislature. House of Assembly.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>New York (State). Secretary's Office.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Americana--Bibliography.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Archives--Europe.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Canadian newspapers.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Editions.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Lower Canada--Politics and government.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New York (State)--History--Colonial period, ca. 1600-1775.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Colonial period, ca. 1600-1775.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Bible.</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Montreal vindicator (Newspaper)</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Archivists.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Bibliographers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Historians.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Journalists.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Legislators--Lower Canada.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Physicians.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of E. B. O'Callaghan, physician and historian, were purchased by the
+					Library of Congress in 1904. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of E. B. O'Callaghan were arranged and described in 1977. The
+					finding aid was expanded and revised in 2012.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of E. B. O'Callaghan is
+					governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of E. B. O'Callaghan are open to research. Researchers are advised to
+					contact the Manuscript Reading Room prior to visiting. Many collections are
+					stored off-site and advance notice is needed to retrieve these items for
+					research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following
+					information: Container number, E. B. O'Callaghan Papers, Manuscript Division,
+					Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1797, Feb. 28</datesingle>
+               <event>Born, Mallow (near Cork), Ireland</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1820</datesingle>
+               <event>Began study of medicine, Paris, France</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1823</datesingle>
+               <event>Emigrated to Canada to complete studies; admitted to medical
+						practice</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1830</datesingle>
+               <event>Moved from Quebec to Montreal, Canada </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1834</datesingle>
+               <event>Became editor of <title localtype="simple">
+                                 <part>Montreal Vindicator</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1835</datesingle>
+               <event>Elected to assembly of Upper Canada from Yamaska</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1837</datesingle>
+               <event>Participated in revolutionary action at St. Denis; fled Canada to avoid
+						prosecution and settled in Albany, N. Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1837</fromdate>
+                              <todate>1848</todate>
+                           </daterange>
+               <event>Practiced medicine</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1846</fromdate>
+                              <todate>1848</todate>
+                           </daterange>
+               <event>Published <title localtype="simple">
+                                 <part>History of New Netherland</part>
+                              </title>. New York: D.
+						Appleton. 2 vols.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1848</fromdate>
+                              <todate>1870</todate>
+                           </daterange>
+               <event>Devoted full time to editing New York state records </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1850</fromdate>
+                              <todate>1851</todate>
+                           </daterange>
+               <event>Published <title localtype="simple">
+                                 <part>The Documentary History of the State of New
+						York</part>
+                              </title>. Albany, N.Y.: Weed, Parsons. 4 vols.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1852(?)</fromdate>
+                              <todate>1870</todate>
+                           </daterange>
+               <event>Edited colonial archives while attached to the office of the New York
+						secretary of state</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1870</fromdate>
+                              <todate>1877</todate>
+                           </daterange>
+               <event>Moved to New York, N.Y., to arrange and translate the municipal archives
+					</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1880, May 29</datesingle>
+               <event>Died, New York, N.Y</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Edmund Bailey O'Callaghan (1797-1830), span the years 1830-1876, with
+				the bulk of the material falling between 1845 and 1860. The papers consist of
+				correspondence, a partial draft of O'Callaghan's <title localtype="simple">
+                           <part>History of New
+					Netherland</part>
+                        </title>, lists, records, and bibliographical material. </p>
+         <p>O'Callaghan's diversified career as historian, bibliographer, legislator, physician,
+				and journalist is only partially documented by this collection. After emigrating
+				from Ireland in 1823, O'Callaghan became prominent in Canadian politics and was
+				associated with the revolutionary party. At the same time he was active in the
+				founding of the Society of the Friends of Ireland and was editor of the <title localtype="simple">
+                           <part>Montreal Vindicator</part>
+                        </title>. His political career in Canada reached its zenith
+				when, in 1835, he was elected to the assembly of Upper Canada. His political career,
+				however, was cut short by his participation in the Insurrection of 1837. With a
+				reward offered for his capture, O'Callaghan found it expedient to flee to the United
+				States. The Canadian phase of O'Callaghan's career is survived by only one document,
+				but there are references to his activities in Canada in later correspondence,
+				particularly with William Lyon MacKenzie.</p>
+         <p> O'Callaghan's first years in the United States were taken up with the practice of
+				medicine and with editing the <title localtype="simple">
+                           <part>Northern Light</part>
+                        </title>, an industrial journal.
+				Apparently in connection with the latter occupation, O'Callaghan had reason to
+				examine the state records of New York. Finding a wealth of material among them,
+				O'Callaghan embarked upon a new career as historian and bibliographer. In 1846 he
+				published the first volume of his <title localtype="simple">
+                           <part>History of New Netherland</part>
+                        </title>. Despite
+				financial losses on that volume, he came out with a second in 1849. The draft of
+				volume two (books 4-6 and appendices) is present in his papers, as well as related
+				correspondence. </p>
+         <p>As a result of this work O'Callaghan was commissioned to edit the <title localtype="simple">
+                           <part>Documentary
+					History of the State of New York</part>
+                        </title>. A voluminous amount of correspondence
+				concerning the collection of historical material on New York is contained in the
+				collection. Additional correspondence deals with other bibliographic matters, with
+				Americana rarities, editions of the Bible, and O'Callaghan's duties in the office of
+				the secretary of state of New York. </p>
+         <p>Prominent correspondents include Solomon Alofsen, Edward G. Allen, Edward Armstrong,
+				George Bancroft, Elizabeth T. Porter Beach, Theodric Romeyn Beck, John Romeyn
+				Brodhead, John Carter Brown (1797-1874), Charles Deane, Samuel Gardner Drake, Lyman
+				Copeland Draper, Thomas Ewbank, Édouard Raymond Fabre, Hector Fabre, F.-X. Garneau,
+				William Gowans, Thaddeus William Harris, Samuel F. Haven, Charles J. Hoadly, James
+				Lenox, George Livermore, William Lyons MacKenzie, Benj. N. Martin, Gregory Henry
+				Moore, Henry Cruse Murphy, Francis Parkman, Louis Joseph Papineau, Louis Perrault,
+				Charles Benjamin Richardson, John Gilmary Shea, Alpheus Todd, D. T. Valentine,
+				Townsend Ward, and William A. Whitehead.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is organized chronologically with drafts of the <title localtype="simple">
+                           <part>History of New
+					Netherland</part>
+                        </title> files at the end.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1830, Jan.
+							18-1845, May 13</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1830, Jan.
+							18-1845, May 13</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1845, May
+							15-1846, Dec. 18 </date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1845, May
+							15-1846, Dec. 18 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1847, Jan.
+							2-1848, July 26</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1847, Jan.
+							2-1848, July 26</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1848, July
+							31-1850, Sept. 9</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1848, July
+							31-1850, Sept. 9</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1850, Sept.
+							12-1851, Aug. 19</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1850, Sept.
+							12-1851, Aug. 19</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1851, Aug.
+							20-1852, June 9 </date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1851, Aug.
+							20-1852, June 9 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1852, June
+							11-1853, Apr. 2</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1852, June
+							11-1853, Apr. 2</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">8</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1853, Apr.
+							3-1854, Apr. 10</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1853, Apr.
+							3-1854, Apr. 10</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">9</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1854, Apr.
+							11-Nov. 3</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1854, Apr.
+							11-Nov. 3</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">10</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1854, Nov.
+							4-1855, Oct. 1</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1854, Nov.
+							4-1855, Oct. 1</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">11</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1855, Oct.
+							4-1856, Oct. 15</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1855, Oct.
+							4-1856, Oct. 15</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">12</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1856, Oct.
+							21-1857, Sept. 5 </date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1856, Oct.
+							21-1857, Sept. 5 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">13</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1857, Sept.
+							6-1858, Apr. 26</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1857, Sept.
+							6-1858, Apr. 26</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">14</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1858, Apr.
+							27-Dec.. 21</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1858, Apr.
+							27-Dec.. 21</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">15</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1858, Dec.
+							22-1859, June 6 </date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1858, Dec.
+							22-1859, June 6 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">16</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1859, June
+							8-1860, Feb. 6</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1859, June
+							8-1860, Feb. 6</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">17</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1860, Feb.
+							7-Sept.. 6</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1860, Feb.
+							7-Sept.. 6</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">18</container>
+               <unittitle encodinganalog="245$a">
+						                        <date>1860, Sept.
+							7-1876, Feb. 7</date> 
+					                      </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1860, Sept.
+							7-1876, Feb. 7</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">19</container>
+               <unittitle encodinganalog="245$a">
+                              <title localtype="simple">
+                                 <part>History of New Netherland</part>
+                              </title>
+						(drafts)</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <unittitle encodinganalog="245$a">Vol. 2, books 4 and 5 </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Vol. 2, book 6</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Appendices </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

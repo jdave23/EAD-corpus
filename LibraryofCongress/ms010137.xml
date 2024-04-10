@@ -1,0 +1,2590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010137">loc.mss/eadmss.ms010137</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Shippen Family Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2022" encodinganalog="260$c" era="ce" calendar="gregorian">2022</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm80039859">https://lccn.loc.gov/mm80039859</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2022-05">2022 May</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Collection-level link and links added to digitized content</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2022-02">2022 February</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Scope and content note expanded, and biographical notes
+               added</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2021-11">2021 November</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Corrections made for online preparation</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2010">2010</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Shippen Family Papers <date altrender="Inclusive Dates" localtype="inclusive" normal="1671/1936">1671-1936</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1671/1936"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian"
+                   id="mfer6100b70767bf4251b5b870c5ce945979">1671-1936</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS39859</unitid>
+         <origination label="Creator">
+            <famname encodinganalog="100" source="lcnaf">
+               <part>Shippen family</part>
+            </famname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">6,500 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">26 containers plus 2 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">11.5 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">15 microfilm reels</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Correspondence, diaries, account books,
+            memorandum books, legal and business records, indentures, and miscellaneous papers of
+            Thomas Lee Shippen, William Shippen Jr., Anne Home Shippen Livingston, Edward Shippen,
+            and other family members. Also included are papers of the Nicholson family.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220202183817.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Byrd family.</part>
+            </famname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Carter family.</part>
+            </famname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Izard family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jefferson, Thomas, 1743-1826--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Key, Francis Scott, 1779-1843--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lee family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lee, Arthur, 1740-1792--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lee, Richard Henry, 1732-1794--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Livingston, Anne Home Shippen, 1763-1841--Marriage.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Livingston, Anne Home Shippen, 1763-1841. Anne Home Shippen Livingston
+                  papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Livingston, Henry Beekman, 1750-1831--Marriage.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Livingston, Margaret, 1781-1864.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Macon, Nathaniel, 1758-1837--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Madison, James, 1749-1812--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Nicholson family.</part>
+            </famname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Nicholson, Joseph Hopper, 1770-1817. Joseph Hopper Nicholson papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Nicholson, Joseph, Jr., -1786. Joseph Nicholson Jr. papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Nicholson, Rebecca Lloyd, 1771-1847. Rebecca Lloyd Nicholson papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Otto, Louis-Guillaume, comte de Mosloy, 1754-1817.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Randolph, John, 1773-1833--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Roberdeau family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Rodney, C. A. (Caesar Augustus), 1772-1824--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Rush, Richard, 1780-1859--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Shippen family.</part>
+            </famname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Shippen, Alice Lee, 1736-1817. Alice Lee Shippen papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Shippen, Edward, 1826-1911. Edward Shippen papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Shippen, Thomas Lee, 1765-1798. Thomas Lee Shippen papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Shippen, William, Jr., 1736-1808. William Shippen Jr. papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Shippen, William, Sr., 1712-1801. William Shippen Sr. papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Short, William, 1759-1849--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Washington, George, 1732-1799--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Washington, George, 1732-1799.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Embroidery--Patterns.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Medicine--Practice--Pennsylvania--Philadelphia.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Real estate investment--Pennsylvania--Philadelphia.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Women--Pennsylvania--Philadelphia.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Pennsylvania--History--Revolution, 1775-1783.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Pennsylvania--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Pennsylvania--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Philadelphia (Pa.)--History--Revolution, 1775-1783.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Philadelphia (Pa.)--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Philadelphia (Pa.)--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--1783-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--19th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Colonial period, ca. 1600-1775.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Revolution, 1775-1783.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--1775-1783.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--1783-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--To 1775.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Colonial officials.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Delegates, U.S. Continental Congress--Pennsylvania.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Judges</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Landowners</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Lawyers</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Merchants</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Physicians</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Representatives, U.S. Congress--Maryland.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of the Shippen family were deposited in the Library of Congress by Lloyd P.
+            Shippen from 1930 to 1946 and converted to a gift in 1975.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of the Shippen family were processed and prepared for microfilming in 1971.
+            The finding aid was revised in 2009. The scope and content note was expanded to include
+            additional description from Julie Miller in 2021.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Other Repositories</head>
+         <p>Shippen family correspondence can be located at other libraries, including the
+            Historical Society of Pennsylvania and the American Philosophical Society, both in
+            Philadelphia.</p>
+      </separatedmaterial>
+      <relatedmaterial encodinganalog="544 1">
+         <head>Related Material</head>
+         <p>Related collections in the Manuscript Division include those of Joseph Hopper Nicholson,
+            and a number of Shippen family members. A fuller list of related collections is
+            available under related resources at <ref href="https://hdl.loc.gov/loc.mss/collmss.ms000084">https://hdl.loc.gov/loc.mss/collmss.ms000084</ref>
+         </p>
+      </relatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of the Shippen family is governed by
+            the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of the Shippen family are open to research. Researchers are advised to
+            contact the Manuscript Reading Room prior to visiting. Many collections are stored
+            off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p>A microfilm edition of these papers is available on fifteen reels. Consult reference
+            staff in the Manuscript Division concerning availability for purchase and interlibrary
+            loan. <emph render="italic">To promote preservation of the originals, researchers are
+               required to consult the microfilm edition as available.</emph>
+         </p>
+      </altformavail>
+      <altformavail encodinganalog="530">
+         <head>Online Content</head>
+         <p>The Shippen family papers are available on the Library of Congress Web site at <ref show="new" actuate="onrequest"
+                 href="https://hdl.loc.gov/loc.mss/collmss.ms000084">https://hdl.loc.gov/loc.mss/collmss.ms000084</ref>. <emph render="italic">To promote
+               preservation of the originals, researchers are required to consult the online edition
+               as available.</emph>
+         </p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container or reel number, Shippen Family Papers, Manuscript Division, Library of
+            Congress, Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Notes</head>
+         <bioghist encodinganalog="545">
+            <head>William Shippen Jr.</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1736, Oct. 21 </datesingle>
+                  <event>Born, Philadelphia, Pa.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1750</datesingle>
+                  <event>Entered the College of New Jersey, Princeton, N.J. (later reorganized as
+                     the Princeton University)</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1754</datesingle>
+                  <event>Graduated, College of New Jersey</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1758</datesingle>
+                  <event>Traveled to Europe to study medicine</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1760</datesingle>
+                  <event>Married Alice Lee (died 1801)</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1761</datesingle>
+                  <event>M.D., University of Edinburgh, Scotland</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1762</datesingle>
+                  <event>Returned to Philadelphia, entered medical practice there with his father,
+                     and began teaching anatomy and midwifery</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1765</datesingle>
+                  <event>Began teaching surgery and anatomy at the newly organized medical school of
+                     the College of Philadelphia (later reorganized as the University of
+                     Pennsylvania). </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1777</datesingle>
+                  <event>Appointed director of Continental Army hospitals during the Revolutionary
+                     War</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1780</datesingle>
+                  <event>Court-martialed for speculating in hospital supplies, acquitted</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1781</datesingle>
+                  <event>Resigned from his directorship of the Continental Army hospitals</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1791</datesingle>
+                  <event>Joined the staff of the Pennsylvania Hospital; remained until 1802</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1805</datesingle>
+                  <event>Became president, College of Physicians of Philadelphia</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1808, July 11</datesingle>
+                  <event>Died, Philadelphia, Pa.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist>
+            <head>Ann ("Nancy") Home Shippen Livingston</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1763, Feb. 24</datesingle>
+                  <event>Born, Shippensburg, Pa.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1781</datesingle>
+                  <chronitemset>
+                     <event>Engaged to Louis-Guillaume Otto of the French delegation in
+                        Philadelphia. Married, and separated from, Henry Beekman Livingston</event>
+                     <event>Birth of daughter Margaret ("Peggy") Beekman Livingston </event>
+                  </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1783</datesingle>
+                  <event>Shared custody of Peggy Livingston with Livingston family after Peggy went
+                     to live with her Livingston grandmother in New York</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1841, Aug. 25</datesingle>
+                  <event>Died, Philadelphia, Pa.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist>
+            <head>Thomas Lee Shippen</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1765</datesingle>
+                  <event>Born, Philadelphia, Pa.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1784</datesingle>
+                  <event>Returned to Philadelphia after studying law in Williamsburg, Va.</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1785</fromdate>
+                     <todate>1789</todate>
+                  </daterange>
+                  <event>Traveled in Europe; met Thomas Jefferson in Paris and received advice from
+                     him about travel; studied law at the Middle Temple, London</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1789</datesingle>
+                  <event>Returned to Philadelphia</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1791</datesingle>
+                  <event>Married Elizabeth Carter Farley Bannister</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1798, Feb. 4</datesingle>
+                  <event>Died, Charleston, S.C.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of the Shippen family span the years 1671-1936. They consist of
+            correspondence, diaries, account books, memorandum books, legal and business papers,
+            indentures, and miscellaneous papers. Family members primarily represented include
+            William Shippen Jr. (1736-1808); his wife Alice Lee Shippen (1736-1817); their children
+            Anne ("Nancy") Home (or Hume) Shippen Livingston (1763-1841) and Thomas Lee Shippen
+            (1765-1798); and William's father, William Shippen Sr. (1712-1801) Papers of the
+            Nicholson family (1671-1860) are also included. The collection is organized in six
+            series: <ref show="replace" actuate="onrequest" target="diarandjourn">Diaries and
+               Journals</ref>, <ref show="replace" actuate="onrequest" target="corresp">Correspondence</ref>, <ref show="replace" actuate="onrequest" target="fampap">Family
+               Papers</ref>, <ref show="replace" actuate="onrequest" target="miscell">Miscellany</ref>, <ref show="replace" actuate="onrequest" target="nichfampap">Nicholson Family Papers</ref>, and <ref show="replace" actuate="onrequest" target="overs">Oversize.</ref>
+         </p>
+         <p>The papers chiefly document the family of William Shippen Jr. They reflect the family’s
+            experiences during the Revolutionary War, their participation in the Philadelphia social
+            circle that surrounded George Washington during his presidency, and the family’s
+            engagement with national politics. They cover William Shippen Jr.’s medical practice,
+            the family’s dealings in Philadelphia real estate, the administration of family estates,
+            and the private lives of family members. The papers are notable for their documentation
+            of the lives of the women of the family, in diaries, letters, and such ephemera as
+            embroidery patterns. Correspondence with and material from members of the Carter, Lee,
+            Nicholson, Roberdeau, other families, some of whom are related, is included.</p>
+         <p>Correspondents of note include Thomas Jefferson, Francis Scott Key (to Rebecca
+            Nicholson), James Madison (1749-1812), Richard Rush (who appears to have administered
+            the estates of William Shippen Jr. and his son, Thomas Lee Shippen), William Short, and
+            George Washington (two letters to William Shippen Jr, May 3, 1777, and May 7, 1789).</p>
+         <p>Ann ("Nancy") Home Shippen Livingston’s life is documented by diaries, correspondence,
+            and letterbooks. These document her romance with French diplomat Louis-Guillaume Otto,
+            comte de Mosloy, her unhappy marriage to Henry Beekman Livingston, her separation from
+            Livingston and loss of custody of her child, Margaret "Peggy" Beekman Livingston, her
+            observations on women’s position in society, her life in and around Philadelphia,
+            travels to New York to see her daughter, and more. Her correspondence is with her
+            parents, husband, daughter, uncles Arthur Lee and Richard Henry Lee, and members of the
+            Livingston family.</p>
+         <p>The diaries and correspondence of Thomas Lee Shippen document his travels in Europe
+            during the 1780s, and subsequent family life until his death in 1798. Correspondence of
+            his wife, Elizabeth Carter (Farley) Bannister Shippen, is also included. (A young widow
+            at the time of their marriage, Elizabeth Shippen married George Izard after Thomas Lee
+            Shippen's death.) Thomas Lee Shippen’s correspondence includes letters from Thomas
+            Jefferson advising him on his European travels, including a detailed itinerary, dated
+            June 19, 1788. There is substantial correspondence on political and family topics
+            between members of the family and Alice Lee Shippen’s brothers, particularly diplomat
+            Arthur Lee and Revolutionary War figure and United States Senator Richard Henry Lee.
+            Alice Lee Shippen’s correspondence is largely to her children and to her niece, Lucy
+            Carter.</p>
+         <p>Also included is a substantial group of papers of Joseph Hopper Nicholson (1770-1817), a
+            Maryland congressman (1799-1806) and subsequently a judge; his wife, Rebecca Lloyd
+            Nicholson; father, Joseph Nicholson Jr., and other members of their family. Joseph
+            Hopper Nicholson’s correspondence includes letters from congressional colleagues,
+            including Nathaniel Macon, John Randolph, and C. A. Rodney. There are also letters from
+            Frances Few, niece of Hannah Nicholson Gallatin and Albert Gallatin.</p>
+         <p>Two oversized account books, 1763-1776 and 1776-1793, maintained by William Shippen Jr.,
+            contain, among his routine household accounts, records of his medical practice,
+            including purchases of drugs and payments from patients with brief notes on their
+            conditions. Shippen’s correspondence includes letters concerning his hospital post
+            during the Revolutionary War, and exchanges with his children, Edward Shippen, and
+            others.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in six series: </p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="diarandjourn">Diaries and Journals,
+                  1783-1890</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="corresp">Correspondence,
+                  1776-1817</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="fampap">Family Papers,
+                  1754-1936</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="miscell">Miscellany, 1693-1875</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="nichfampap">Nicholson Family Papers,
+                  1671-1860</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="overs">Oversize, 1759-1793</ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <p>Available on microfilm. Shelf no. 14,051</p>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-2</container>
+               <container localtype="reel">1-2</container>
+               <unittitle encodinganalog="245$a" id="diarandjourn">Diaries and Journals, <date normal="1783/1890">1783-1890</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1783/1890"
+                         id="mfer02119a8e2f234e9d8529afd4a5e5d2d7">1783-1890</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Diaries, journals, memorandum books, and account books of family members Ann
+                  ("Nancy") Shippen Livingston, Howard Post, Mary Elizabeth Roberdeau, Edward
+                  Shippen, and Thomas Lee Shippen.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged by name of family member and therein by type of material and
+                  chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Shippen, Thomas Lee </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <container localtype="reel">1</container>
+                     <unittitle encodinganalog="245$a">Diaries kept during stay in Europe,
+                           <date>1786-1789 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mfercfb89a8091a74733b57909d3a82c859f"
+                               normal="1786/1789">1786-1789 </unitdate>
+                     <physdesc encodinganalog="300$a">(7 vols.)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0001">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <container localtype="reel">1</container>
+                     <unittitle encodinganalog="245$a">Journals of travels in Europe,
+                           <date>1788</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mferbb5e0855ed884b208195c40fe1768554"
+                               normal="1788">1788</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0002">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <container localtype="reel">1</container>
+                     <unittitle encodinganalog="245$a">Journal of travels to Ireland and Italy,
+                           <date>1788-1789</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mferf67310e382094fb8ac76a768efe4fedc"
+                               normal="1788/1789">1788-1789</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0003">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <container localtype="reel">1</container>
+                     <unittitle encodinganalog="245$a">Diaries, <date>1795-1797</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mfer66790c8f305c43289bd31a4fad75321e"
+                               normal="1795/1797">1795-1797</unitdate>
+                     <physdesc encodinganalog="300$a"> (7 vols.)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0004">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <container localtype="reel">1</container>
+                     <unittitle encodinganalog="245$a">Account books, <date>1786, </date>
+                        <date>1791-1797</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mfer5152b64fb1d242828b33c65adfc46084"
+                               normal="1786">1786, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mferd4750c68652e4fa4ac85d9a6626edb1e"
+                               normal="1791/1797">1791-1797</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0005">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <container localtype="reel">1</container>
+                     <unittitle encodinganalog="245$a">Memorandum book, <date>1791</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mfer9b1ccf352d604d8994522110be000335"
+                               normal="1791">1791</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0006">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Livingston, Anne Home Shippen, diaries,
+                        <date>1783-1812</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer514752543f0a4d9085a41a01551fc069"
+                            normal="1783/1812">1783-1812</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0007">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Shippen, Edward, diaries, <date>1888-1890</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer284ee3127c63493487f27ae95066c3d6"
+                            normal="1888/1890">1888-1890</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0008">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Post, Howard, songbooks, memorandum books,
+                        <date>1880, </date>
+                     <date>1885</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfere845f90d78274eadb5c4e78009309b2b"
+                            normal="1880">1880, </unitdate>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferba94e79fbcf144f2af3681a09099243a"
+                            normal="1885">1885</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0009">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Roberdeau, Mary Elizabeth, legal notebook,
+                     undated</unittitle>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0010">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous memorandum books, <date normal="1811/1824">1811-1824</date>
+                  </unittitle>
+                  <unitdate normal="1811/1824" id="mfer04ea78e808a54e109c4e75d3c7e5f3b2">1811-1824</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0011">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2</container>
+               <container localtype="reel">2-3</container>
+               <unittitle encodinganalog="245$a" id="corresp">Correspondence, <date normal="1776/1817">1776-1817</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1776/1817"
+                         id="mfer199c74c3fc6d4285b0c9761945877147">1776-1817</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters received by members of the Cutting, Farley, Lee, and Shippen families.
+                  Includes letters from Francis Scott Key, Lord Lansdowne, Arthur Lee, Richard Henry
+                  Lee, James Madison (1749-1812), and George Washington.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by name of correspondent and therein chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Carter, M. C., <date>1814</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer6c6d85a3af444fe596bb71b73f6fd0c0"
+                            normal="1814">1814</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0012">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Cutting, John B., Arthur Lee, and William Short,
+                        <date>1787-1788</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferbaed5137755f4b81a16caa66619758a5"
+                            normal="1787/1788">1787-1788</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0013">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Byrd and Carter family letters,
+                        <date>1814-1817</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferb3305b4315e141f7b327678f4b0f169d"
+                            normal="1814/1817">1814-1817</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0014">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Jefferson, Thomas, letters and travel notes,
+                        <date>1785-1789</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer0a937b4a030540279b5d8235e4051caf"
+                            normal="1785/1789">1785-1789</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0015">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Key, Francis Scott, <date>1815-1817</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer31c80958db144750ba91a79e315f3de8"
+                            normal="1815/1817">1815-1817</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0016">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Lansdowne, Lord, <date>1786-1788</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferad2621c8cc0b4e63befa0d2d994983fc"
+                            normal="1786/1788">1786-1788</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0017">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Lee, Arthur, <date>1779-1992</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer8dd2db2c61d940e992e3c46dc5697aa6"
+                            normal="1779/1992">1779-1992</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0018">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">Lee, Richard Henry, <date>1776-1794 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer4336d0cbed1e4a39a0d48ef1de026496"
+                            normal="1776/1794">1776-1794 </unitdate>
+                  <physdesc encodinganalog="300$a">(7 folders)</physdesc>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0019">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">Lee, Lud., Francis Lightfoot Lee, C. Lee,
+                     Richard Henry Lee, and William Lee, <date>1783-1787, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer403c744b32734f2cb6a40cc3d311abfa"
+                            normal="1783/1787">1783-1787,
+                     undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0020">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">Madison, James (1749-1812), C. Lee,
+                        <date>1791</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferfcb248504da44ee08d908bdac6ea0092"
+                            normal="1791">1791</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0021">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">Washington, B., <date>1784</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer8164de33a25c44ffbc424d8cf9bbdf7a"
+                            normal="1784">1784</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0022">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">Washington, George, <date>1777, </date>
+                     <date>1789</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferd5b60e21e5eb4b288bc021f8cfc1ba40"
+                            normal="1777">1777, </unitdate>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferd51dbb824e254fa4b9e7e306fec4ac35"
+                            normal="1789">1789</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0023">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">Unidentified, <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferebc474fc7c3147088a8b35a54547daff">undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0024">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">3-15</container>
+               <container localtype="reel">3-10</container>
+               <unittitle encodinganalog="245$a" id="fampap">Family Papers, <date normal="1754/1936">1754-1936</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1754/1936"
+                         id="mfer2d23a9333c16414d9972919dbdc56d33">1754-1936</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, memorandum books, financial and legal documents, and miscellaneous
+                  material chiefly of members of the family of William Shippen Jr, including Alice
+                  Lee Shippen, Ann Home Shippen Livingston, Thomas Lee Shippen, and others. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by name of family member and therein by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">Shippen, William, Sr., deed of partition,
+                     indenture, and will, <date normal="1802">1802</date>
+                  </unittitle>
+                  <unitdate normal="1802" id="mfer9fe35f0c12f147709a4ff17555f3ff32">1802</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0025">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">Shippen, William, Jr., correspondence,
+                        <date>1754-1808</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferae35435f5ab547b3ad917803c8b7648e"
+                            normal="1754/1808">1754-1808</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0026">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">Shippen, William, Jr., estate of,
+                        <date>1808-1811</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer451fa1b511764686a9b1fb409fc5f4ab"
+                            normal="1808/1811">1808-1811</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0027">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">Shippen, William, Jr., miscellaneous papers,
+                        <date>1754-1809, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer2be9c6db0a6a4ac28aa4694f76680a5f"
+                            normal="1754/1809">1754-1809,
+                     undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0028">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">Shippen, Alice Lee (wife of William Jr.),
+                     correspondence, <date>1811-1816, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferb56ed737f60a4344bba9ed75d04a8c3e"
+                            normal="1811/1816">1811-1816,
+                     undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0029">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">Livingston, Anne Home Shippen</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <container localtype="reel">3</container>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <container localtype="reel">3</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1773-1801</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mferab40ef8044f74b3ab99b175a4e9450e3"
+                                  normal="1773/1801">1773-1801</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0030">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <container localtype="reel">3</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1783-1820, undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfer3e1a49ebb7364126b16bff05cf55fb87"
+                                  normal="1783/1820">1783-1820,
+                           undated</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0031">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <container localtype="reel">3</container>
+                     <unittitle encodinganalog="245$a">Letterbooks</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <container localtype="reel">3</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1786-1789, undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfer502027c4a2934fc587c1b860a77623b0"
+                                  normal="1786/1789">1786-1789,
+                           undated</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0032">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <container localtype="reel">3</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1790-1794</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfer68f6a74b26794f4085358464d2e8bbaf"
+                                  normal="1790/1794">1790-1794</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0033">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <container localtype="reel">3</container>
+                     <unittitle encodinganalog="245$a">Miscellany, <date>1816, </date>
+                        <date>1832, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mfer0f7dbfad6d0e43ffaf1314682439c1ea"
+                               normal="1816">1816, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mfer4a513e2e631149a5acb0b8059402ad4f"
+                               normal="1832">1832,
+                        undated</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0034">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">4</container>
+                  <unittitle encodinganalog="245$a">Livingston, Margaret B., miscellany</unittitle>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0035">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">4</container>
+                  <unittitle encodinganalog="245$a">Shippen, Thomas Lee</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <container localtype="reel">4</container>
+                     <unittitle encodinganalog="245$a">Correspondence with father (William
+                        Jr.)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <container localtype="reel">4</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1779-1788, undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfer433e517ec2f24566a5c92619a98d2f83"
+                                  normal="1779/1788">1779-1788,
+                           undated</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0036">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <container localtype="reel">4</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1786-1797, undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfer93809569f86d4a1683bf61d86179eebc"
+                                  normal="1786/1797">1786-1797,
+                           undated</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0037">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <container localtype="reel">4</container>
+                     <unittitle encodinganalog="245$a">Letters to wife, father, and sister,
+                           <date>1790-1793</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mferc7fd5b0ace31444090a2d4cf365fbd0d"
+                               normal="1790/1793">1790-1793</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0038">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <container localtype="reel">4</container>
+                     <unittitle encodinganalog="245$a">Letters to sister, <date>1779-1794</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mferd72c68c6c2ac46c0bea8c9f184a8c216"
+                               normal="1779/1794">1779-1794</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0039">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <container localtype="reel">5</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <date>1781-1798</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mferd3dcbc9ce2734fb7b5d9b8ec20eaef2a"
+                               normal="1781/1798">1781-1798</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0040">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <container localtype="reel">5</container>
+                     <unittitle encodinganalog="245$a">Letterbook, <date>1786-1789</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mferf8fcc2382d8b4d63a0d4693665c0c391"
+                               normal="1786/1789">1786-1789</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0041">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <container localtype="reel">5</container>
+                     <unittitle encodinganalog="245$a">Memoranda books, <date>1779-1796</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mfer215cea1452774a2c8c532e47652a717d"
+                               normal="1779/1796">1779-1796</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0042">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <container localtype="reel">5</container>
+                  <unittitle encodinganalog="245$a">Shippen, Elizabeth Carter Farley Bannister (wife
+                     of Thomas Lee Shippen), correspondence, <date normal="1791/1802">1791-1802,
+                        undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferdc0451f3efec4c418f9f599e4b61a227"
+                            normal="1791/1802">1791-1802,
+                     undate</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0043">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <container localtype="reel">5</container>
+                  <unittitle encodinganalog="245$a">Izard, Elizabeth Carter Farley Shippen (wife of
+                     George Izard), letters to son William, <date>1806-1826</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer65c054cb56914db98aa7e065a17480dd"
+                            normal="1806/1826">1806-1826</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0044">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <container localtype="reel">5</container>
+                  <unittitle encodinganalog="245$a">Shippen, Ann, letters to Elizabeth Carter Farley
+                     Bannister (wife of Thomas Lee Shippen), <date>1798-1801</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer629bda5d73994ce9a9eddf12f83c2ebf"
+                            normal="1798/1801">1798-1801</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0045">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <container localtype="reel">6</container>
+                  <unittitle encodinganalog="245$a">Shippen, Thomas Lee, Jr., letters from
+                     Princeton, N.J., <date>1808-1809</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferc9df91ffd8f84a4c97bb67a47b8a44dd"
+                            normal="1808/1809">1808-1809</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0046">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <container localtype="reel">6</container>
+                  <unittitle encodinganalog="245$a">Shippen, William, III</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <container localtype="reel">6</container>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <container localtype="reel">6</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1806-1817</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfer1f6e30e694494faf95d3485c40505b38"
+                                  normal="1806/1817">1806-1817</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0047">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">10</container>
+                        <container localtype="reel">6</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1818-1825</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfer7968991750e744ae885c1e998e7fe95d"
+                                  normal="1818/1825">1818-1825</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0048">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">11</container>
+                        <container localtype="reel">7</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1826-1842</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfer94069366d62a405fa68d697bed2a6077"
+                                  normal="1826/1842">1826-1842</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0049">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">12</container>
+                        <container localtype="reel">7</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1843-1850, undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfere3ec395e2ac94bbdb7810824455fa1e7"
+                                  normal="1843/1850">1843-1850,
+                           undated</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0050">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <container localtype="reel">7</container>
+                     <unittitle encodinganalog="245$a">Letters and papers, <date>1810-1857,
+                           undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mfer5171052676e34dfeac1b6c57134beef9"
+                               normal="1810/1857">1810-1857,
+                        undated</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0051">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <container localtype="reel">7</container>
+                     <unittitle encodinganalog="245$a">Legal papers</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">12</container>
+                        <container localtype="reel">7</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1826-1848</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfer9cff09694e9848589e94220835ce351a"
+                                  normal="1826/1848">1826-1848</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0052">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">13</container>
+                        <container localtype="reel">8</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1849-1856, undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfer49f97d04241a48039d8e64eeb2d0e62a"
+                                  normal="1849/1856">1849-1856,
+                           undated</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0053">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <container localtype="reel">8</container>
+                     <unittitle encodinganalog="245$a">Memorandum books, <date>1832-1834</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mfer5bfe0856a432411a8a15ad2a5f2d0cb6"
+                               normal="1832/1834">1832-1834</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0054">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <container localtype="reel">8</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous receipts, <date>1850s</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mfer195098dc410a465cbafb8d9ede2930b9"
+                               normal="1850/1859">1850s</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0055">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Shippen, Mary Louisa Shore (wife of William
+                     III), correspondence, <date>1799-1832, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer370b2aed81f449aba27c27bd65a3a6d7"
+                            normal="1799/1832">1799-1832,
+                     undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0056">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Shippen, Thomas Lee, III, correspondence,
+                        <date>1843-1849</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer18280097c4004ca1bf7f41be1eedff60"
+                            normal="1843/1849">1843-1849</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0057">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Shippen, Edward</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <container localtype="reel">8</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <date>1851-1895,
+                           undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mfer5b685bd60921440bac31c0a2165abd5b"
+                               normal="1851/1895">1851-1895,
+                        undated</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0058">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <container localtype="reel">8</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous papers</unittitle>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0059">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <container localtype="reel">9</container>
+                     <unittitle encodinganalog="245$a">Letters to Miss McElroy,
+                           <date>1866-1867</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mferd74f958702364147919e6645212f6ad5"
+                               normal="1866/1867">1866-1867</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0060">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container localtype="reel">9</container>
+                  <unittitle encodinganalog="245$a">Shippen, Mrs. Edward, correspondence,
+                        <date>1882-1916</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferb6aee4b8d3bf4bb8851ed9dbe7eacf76"
+                            normal="1882/1916">1882-1916</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0061">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <container localtype="reel">10</container>
+                  <unittitle encodinganalog="245$a">Shippen, Lloyd P., letters from Ethel Armes,
+                        <date>1934-1936</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer0d9781188ea14150a7a419111bdbaf77"
+                            normal="1934/1936">1934-1936</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0062">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <container localtype="reel">10</container>
+                  <unittitle encodinganalog="245$a">Shippen, Joseph, to Elizabeth Harmer,
+                        <date>1776</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer59693e2f28cb484bba819ac3626f63c4"
+                            normal="1776">1776</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0063">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">15-21</container>
+               <container localtype="reel">10-12</container>
+               <unittitle encodinganalog="245$a" id="miscell">Miscellany, <date normal="1693/1804">1693-1875</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1693/1804"
+                         id="mfer326b88f13868434bb799fe71a0df392f">1693-1875</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Financial and legal records, miscellaneous correspondence, genealogical material,
+                  memorabilia, poetry, printed matter, and other miscellaneous items. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <container localtype="reel">10</container>
+                  <unittitle encodinganalog="245$a">Accounts, <date>1734-1804</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferbd551509271b46d9aa0d832c9d2e365b"
+                            normal="1734/1804">1734-1804</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0064">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <container localtype="reel">10</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous and Thomas Lee Shippen
+                     correspondence, <date>1763-1825</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer9dedfb64dcf14bbabb5c23e487ae72a6"
+                            normal="1763/1825">1763-1825</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0065">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <container localtype="reel">10</container>
+                  <unittitle encodinganalog="245$a">Deeds, indentures, and related
+                     matter</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <container localtype="reel">10</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1693-1748</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mferf986e064acf54108be1594ed3ea5a23e"
+                               normal="1693/1748">1693-1748</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0066">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <container localtype="reel">10</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1693-1748</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mferd8cefd5e28b24ce198338181d9401244"
+                               normal="1693/1748">1693-1748</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0067">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <container localtype="reel">11</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1750-1787</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mfer9a56370e21a0481fa8d7eb6533e4e79b"
+                               normal="1750/1787">1750-1787</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0068">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <container localtype="reel">11</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1788-1854, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mferec41f363d7c8466a80258a8851e3acf0"
+                               normal="1788/1854">1788-1854,
+                        undated</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0069">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <container localtype="reel">11</container>
+                  <unittitle encodinganalog="245$a">Deeds and wills</unittitle>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0070">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <container localtype="reel">11</container>
+                  <unittitle encodinganalog="245$a">Estate of Edward Wharton</unittitle>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0071">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <container localtype="reel">11</container>
+                  <unittitle encodinganalog="245$a">Embroidery patterns</unittitle>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0072">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <container localtype="reel">11</container>
+                  <unittitle encodinganalog="245$a">Financial papers, <date>1790-1839</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer801067ae85fb4c82bcb8a26c91194390"
+                            normal="1790/1839">1790-1839</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0073">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <container localtype="reel">12</container>
+                  <unittitle encodinganalog="245$a">Genealogical material</unittitle>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0074">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <container localtype="reel">12</container>
+                  <unittitle encodinganalog="245$a">Memorabilia</unittitle>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0075">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <container localtype="reel">12</container>
+                  <unittitle encodinganalog="245$a">Newspapers</unittitle>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0076">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <container localtype="reel">12</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous papers, <date>1784-1875,
+                        undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferc2623370bf0b4b969324e73f5a26aa7c"
+                            normal="1784/1875">1784-1875,
+                     undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0077">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <container localtype="reel">12</container>
+                  <unittitle encodinganalog="245$a">Photographs</unittitle>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0078">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <container localtype="reel">12</container>
+                  <unittitle encodinganalog="245$a">Poems</unittitle>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0079">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <container localtype="reel">12</container>
+                  <unittitle encodinganalog="245$a">Printed matter and miscellaneous
+                     correspondence</unittitle>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0080">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <container localtype="reel">12</container>
+                  <unittitle encodinganalog="245$a">“The Star Spangled Banner” and
+                     memorabilia</unittitle>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0081">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">21-26</container>
+               <container localtype="reel">12-15</container>
+               <unittitle encodinganalog="245$a" id="nichfampap">Nicholson Family Papers, <date normal="1671/1860">1671-1860</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1671/1860"
+                         id="mferba2486c564084b6281b29c3cfa781ea9">1671-1860</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Chiefly correspondence with some legal material and miscellany. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by name of family member and therein by type of material and
+                  chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <container localtype="reel">12</container>
+                  <unittitle encodinganalog="245$a">Lloyd, Rebecca, correspondence, <date>1788-1792,
+                        undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferfdca1804f001436c906b63a99712213f"
+                            normal="1788/1792">1788-1792,
+                     undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0082">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <container localtype="reel">12</container>
+                  <unittitle encodinganalog="245$a">Nicholson, Rebecca Lloyd (wife of Joseph
+                     Hopper)</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <container localtype="reel">12</container>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">21</container>
+                        <container localtype="reel">12</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1793-1818</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mferc03f8924101b454a9319ec6b380e8024"
+                                  normal="1793/1818">1793-1818</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0083">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <container localtype="reel">13</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1819-1847, undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfer63f65fa5b17f4b9c924cfb3146dae2ab"
+                                  normal="1819/1847">1819-1847,
+                           undated</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0084">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <container localtype="reel">13</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>Undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mferee1fa9ab4dbd42ddaedcea057f046e6d">Undated</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0085">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <container localtype="reel">13</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous correspondence and papers,
+                           <date>1781-1836, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mferc6399e160c254ce5bf8e938ba2701dcb"
+                               normal="1781/1836">1781-1836,
+                        undated</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0086">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <container localtype="reel">13</container>
+                  <unittitle encodinganalog="245$a">Nicholson, Joseph, Jr., correspondence,
+                        <date>1730-1788</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer748b65e082844a0a8f6debc2a8c24ac8"
+                            normal="1730/1788">1730-1788</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0087">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <container localtype="reel">13</container>
+                  <unittitle encodinganalog="245$a">Nicholson, Joseph H.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <container localtype="reel">13</container>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <container localtype="reel">13</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1779, </date>
+                           <date>1793-1799</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfer95a537f9f39640e781e9362fcf9e3316"
+                                  normal="1779">1779, </unitdate>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfer61e0418fb3c94fea848653cadc461bd0"
+                                  normal="1793/1799">1793-1799</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0088">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <container localtype="reel">14</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1799-1815</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mferb082f9a84c2443778dacfadb53994b72"
+                                  normal="1799/1815">1799-1815</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0089">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <container localtype="reel">14</container>
+                        <unittitle id="correspcont" encodinganalog="245$a">
+                           <date>1816-1817, </date>
+                           <date>1786-1808</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mferce41d9c1f0a8402fa6e1ca18b4afb153"
+                                  normal="1816/1817">1816-1817, </unitdate>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                                  id="mfera61fba8c1a9a4d799ab372878b867a46"
+                                  normal="1786/1808">1786-1808</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0090">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <container localtype="reel">14</container>
+                     <unittitle encodinganalog="245$a">Extracts of cases argued, <date>1813,
+                           undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               id="mfere19d4a7abb444e758524706a26da7ba1"
+                               normal="1813">1813,
+                        undated</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0091">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <container localtype="reel">14</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous, <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer8846a06a755e4b66a18fccd793a95789">undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0092">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <container localtype="reel">15</container>
+                  <unittitle encodinganalog="245$a">Nicholson, James Macon, correspondence,
+                        <date>1817-1848, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer642c8063f88847679d96889c500ba158"
+                            normal="1817/1848">1817-1848,
+                     undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0093">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <container localtype="reel">15</container>
+                  <unittitle encodinganalog="245$a">Nicholson, Ainthia Darby Parker (wife of James
+                     Macon), correspondence, <date>1854-1860</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferd242b8b564f0421cac5c17154e7b2537"
+                            normal="1854/1860">1854-1860</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0094">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <container localtype="reel">15</container>
+                  <unittitle encodinganalog="245$a">Nicholson, Joseph H., Esq., correspondence,
+                        <date>1843-1857</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer988e2f6d38b34d1fb90c411598cb7fff"
+                            normal="1843/1857">1843-1857</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0095">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <container localtype="reel">15</container>
+                  <unittitle encodinganalog="245$a">Nicholson miscellany, <date>1671-1814,
+                        undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferadadf861df944d0a99a8528894720a1b"
+                            normal="1671/1814">1671-1814,
+                     undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0096">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <container localtype="reel">15</container>
+                  <unittitle encodinganalog="245$a">Nicholson photograph of portrait, <date>circa
+                        1810</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfera46254008dd549099b12f76f46e4e4f5"
+                            normal="1810">circa 1810</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0097">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">27-28</container>
+               <container localtype="reel">15</container>
+               <unittitle encodinganalog="245$a" id="overs">Oversize, <date normal="1759/1793">1759-1793</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1759/1793"
+                         id="mfer587948a464714ce49de89f9a9835abc6">1759-1793</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Three volumes containing financial records and patient records, kept by William
+                  Shippen Sr. and his son, William Shippen Jr. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by size.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <container localtype="reel">15</container>
+                  <unittitle encodinganalog="245$a">Account book labeled Q, <date>circa
+                        1759-1765</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer94abafb877c94afd938b9cfac55f86f4"
+                            normal="1759/1765">circa
+                     1759-1765</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0098">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <container localtype="reel">15</container>
+                  <unittitle encodinganalog="245$a">Account book of William Shippen Sr.,
+                        <date>1763-1776</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mferc381aad69fd34b0fa8f55335960616b1"
+                            normal="1763/1776">1763-1776</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0099">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <container localtype="reel">15</container>
+                  <unittitle encodinganalog="245$a">Account book labeled C [William Shippen Jr.],
+                        <date>circa 1775-1793</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            id="mfer093c8839d366481a93836faf2b6c7c22"
+                            normal="1775/1793">circa
+                     1775-1793</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms010137.mss39859.0100">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms008046">loc.mss/eadmss.ms008046</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Jubal Anderson Early Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Marilyn K. Parr and David Mathisen<lb/>Revised and expanded by
+               Patrick Kerwin</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2008" encodinganalog="260$c" era="ce" calendar="gregorian">2008</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78019356">https://lccn.loc.gov/mm78019356</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2021-08">2021 August</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Corrections made</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2019-09">2019 September</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Links added to digitized content</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2015-10">2015 October</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Container List expanded</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Title, controlaccess updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2008">2008</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Jubal Anderson Early Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1829/1930"
+                  id="mfer2e2d15390c7545fbb0eb683fd2adbf96">1829-1930</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1829/1930"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1829-1930</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS19356</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Early, Jubal Anderson, 1816-1894</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300"> 5,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">16 containers plus 2 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">9 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">1 microfilm reel</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English </p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">United States and Confederate Army
+            officer, lawyer, and state legislator of Virginia. Correspondence, diaries, military
+            papers, speeches and articles, clippings, a scrapbook, printed matter, and maps dated
+            largely after the Civil War.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20210908091013.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Beauregard, G. T. (Gustave Toutant), 1818-1893--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Beauregard, G. T. (Gustave Toutant), 1818-1893.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Cabell, Henry Ann, approximately 1784-1843--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Cabell, John J., 1772-1834--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Colston, Raleigh Edward, 1825-1896.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Daniel, John W. (John Warwick), 1842-1910--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Davis, Jefferson, 1808-1889--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Davis, Jefferson, 1808-1889--Family.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Davis, Varina, 1826-1906--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Early, Jubal Anderson, 1816-1894.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Evans, Clement A. (Clement Anselm), 1833-1911.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hays, Harry T. (Harry Thompson), 1820-1876.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hill, D. H. (Daniel Harvey), 1821-1889--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jackson, Stonewall, 1824-1863--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Johnson, Bradley T. (Bradley Tyler), 1829-1903--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Johnston, Joseph E. (Joseph Eggleston), 1807-1891--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lee, Fitzhugh, 1835-1905--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lee, Robert E. (Robert Edward), 1807-1870--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Maury, Dabney Herndon, 1822-1900--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Mosby, John Singleton, 1833-1916--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Trimble, Isaac Ridgeway, 1802-1888.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Van Dorn, Earl, 1820-1863--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Confederate States of America. Army of Northern Virginia.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Confederate States of America. Army--Officers.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Southern Historical Society.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States Military Academy.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army--Officers.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Bull Run, 1st Battle of, Va., 1861.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Bull Run, 2nd Battle of, Va., 1862.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Gettysburg Campaign, 1863.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Lotteries--Louisiana.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Mine Run Campaign, Va., 1863.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Practice of law--Virginia.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Reconstruction (U.S. history, 1865-1877)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Shenandoah Valley Campaign, 1864 (August-November)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Shenandoah Valley Campaign, 1864 (May-August)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Williamsburg, Battle of, Williamsburg, Va., 1862.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865--Campaigns.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Virginia--Politics and government.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Washington (D.C.)--History--Civil War, 1861-1865.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="740">
+               <part>Jubal Anderson Early Papers at the Library of Congress</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Army officers, Confederate.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Lawyers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Legislators--Virginia.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of Jubal Anderson Early, army officer, lawyer, and state legislator of
+            Virginia, were given to the Library of Congress in 1923 by A. S. Perham and Ruth H.
+            Early. Additional materials were given in 1932 and 1934 by Evelyn R. Early; in 1966 by
+            Henrianne C. Early, and in 1992 by T. Keister Greer. Further material was purchased in
+            1932.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Jubal Anderson Early were arranged and described in 1973. The collection
+            was expanded and revised in 1990 and 2000. The finding aid was revised in 2008.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Some maps have been transferred to the Geography and Map Division where they are
+            identified as part of the Jubal Anderson Early Papers.</p>
+      </separatedmaterial>
+      <relatedmaterial encodinganalog="544 1">
+         <head>Related Materials</head>
+         <p>Significant collections of Early’s papers can also be found at the Virginia Historical
+            Society, Richmond, Virginia; the Huntington Library, San Marino, California; Jones
+            Memorial Library, Lynchburg, Virginia; and the National Archives and Records
+            Administration, Washington, D.C.</p>
+      </relatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Jubal Anderson Early is governed
+            by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Jubal Anderson Early are open to research. Researchers are advised to
+            contact the Manuscript Reading Room prior to visiting. Many collections are stored
+            off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p>A microfilm edition of part of these papers is available on one reel. Consult reference
+            staff in the Manuscript Division concerning availability for purchase or interlibrary
+            loan. To promote preservation of the originals, researchers are required to consult the
+            microfilm edition as available.</p>
+      </altformavail>
+      <altformavail encodinganalog="530">
+         <head>Online Content</head>
+         <p> The Jubal Anderson Early Papers are available on the Library of Congress Web site at
+               <ref show="new" actuate="onrequest"
+                 href="https://hdl.loc.gov/loc.mss/collmss.ms000090">http://hdl.loc.gov/loc.mss/collmss.ms000090</ref>. <emph render="italic">To promote
+               preservation of the originals, researchers are required to consult the online edition
+               as available.</emph>
+         </p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container or reel number, Jubal Anderson Early Papers, Manuscript Division, Library of
+            Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1816, Nov. 3</datesingle>
+               <event>Born, Rocky Mount, Va.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1837</datesingle>
+               <event>Graduated, United States Military Academy, West Point, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1837</fromdate>
+                  <todate>1838</todate>
+               </daterange>
+               <chronitemset>
+                  <event>Officer, Third Artillery, United States Army</event>
+                  <event>Served in Seminole Wars</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1838</datesingle>
+               <event>Resigned, United States Army</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1840</datesingle>
+               <event>Admitted to the bar of Virginia</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1846</fromdate>
+                  <todate>1848</todate>
+               </daterange>
+               <chronitemset>
+                  <event>Major, First Virginia Regiment, United States Army</event>
+                  <event>Served in Mexican War</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1861</datesingle>
+               <chronitemset>
+                  <event>Colonel, Confederate States of America Army</event>
+                  <event>Organized volunteers in Lynchburg, Va.</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1862</datesingle>
+               <event>Wounded, Battle of Williamsburg, Va.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1863</datesingle>
+               <event>Promoted to major general</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1864</datesingle>
+               <event>Conducted operations in Maryland and near Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1865</datesingle>
+               <event>Moved to Mexico</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1865</fromdate>
+                  <todate>1869</todate>
+               </daterange>
+               <event>Lived in Canada</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1866</datesingle>
+               <event>Published <title localtype="simple">
+                     <part>A Memoir of the Last Year of the War of Independence, in the Confederate
+                        States of America</part>
+                  </title>. Toronto: Lovell &amp; Gibson</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1870</datesingle>
+               <event>Resumed law practice, Lynchburg, Va.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1877</datesingle>
+               <event>Commissioner, Louisiana lottery</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1894, Mar. 2</datesingle>
+               <event>Died, Lynchburg, Va.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Jubal Anderson Early (1816-1894) span the years 1829-1930 and include
+            correspondence, diaries, military papers, speeches and articles, clippings, a scrapbook,
+            printed matter, and maps relating to his military, legal, and political careers.</p>
+         <p> The papers are divided into three series, <ref show="replace" actuate="onrequest" target="chro">Chronological File</ref>, <ref show="replace" actuate="onrequest" target="addi">Addition</ref>, and <ref show="replace" actuate="onrequest" target="over">Oversize</ref>. Material prior to the Civil War reflects Early’s years
+            as a cadet at the United States Military Academy, his army service, law practice, and
+            Virginia political activities. Included are letters from John J. Cabell to his wife
+            Henry Ann Cabell. Papers relating to Early’s experiences during the Civil War include
+            items concerning his participation in the battles of First Bull Run and Williamsburg,
+            the Gettysburg Campaign, and the Shenandoah Valley Campaign of 1864. Also in the papers
+            are a report on the performance of General Isaac Trimble’s brigade in the Battle of
+            Second Bull Run, reports by Generals Harry T. Hays and Clement A. Evans on skirmishes in
+            the Mine Run Campaign, a list of units in G. T. Beauregard’s I Corps, Army of Northern
+            Virginia (1862), and a return of troops commanded by Joseph E. Johnston in the spring of
+            1862. Postwar material, which comprises the bulk of the collection, includes papers on
+            Early’s business affairs, especially the Louisiana lottery, his activities at the
+            Southern Historical Society, and aid extended to Confederate families, including that of
+            Jefferson Davis.</p>
+         <p> Correspondents include G. T. Beauregard, Raleigh E. Colston, John W. Daniel, Jefferson
+            Davis, Varina Davis, Daniel Harvey Hill, Stonewall Jackson, Bradley T. Johnson, Joseph
+            E. Johnston, Fitzhugh Lee, Robert E. Lee, Dabney Herndon Maury, John Singleton Mosby,
+            and Earl Van Dorn. </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in three series: </p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="chro">Chronological File,
+                  1829-1911</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="addi">Addition, 1833-1930</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="over">Oversize, 1833-1930</ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <p>Selections available on microfilm. Shelf no. 4,221.</p>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-15</container>
+               <unittitle encodinganalog="245$a" id="chro">Chronological File, <date normal="1829/1911" id="mfer9943c95110e449228540c86dd1038491">1829-1911</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1829/1911">1829-1911</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Correspondence, military papers, and other material. </p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged chronologically in bound volumes.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1829-12-21/1841-10-23" id="mfera99e9e0ff8ae4d8298df0e43ef9db32d">1829, Dec. 21-1841, Oct. 23</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1829-12-21/1841-10-23">1829, Dec. 21-1841, Oct. 23</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.001">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mfer672dae26486d4b0ea2b84cda37ac3031" normal="1841-12-02/1861-01-21">1841, Dec. 2-1861, Jan. 21</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1841-12-02/1861-01-21">1841, Dec. 2-1861, Jan. 21</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.002">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mferb36b3789f12947d3a598f576f7f3bbab" normal="1861-03-15/1862-10-30">1861, Mar. 15-1862, Oct. 30</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1861-03-15/1862-10-30">1861, Mar. 15-1862, Oct. 30</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.003">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mfer523e8b0d5e9e4136b83c80f88f8c43f8" normal="1863-01-07/1867-11-25">1863, Jan. 7-1867, Nov. 25</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1863-01-07/1867-11-25">1863, Jan. 7-1867, Nov. 25</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.004">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mfered158f9e9dc64b239e36ff77612267aa" normal="1868-02-07/1876-04-24">1868, Feb. 7-1876, Apr. 24</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1868-02-07/1876-04-24">1868, Feb. 7-1876, Apr. 24</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.005">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mfer8c05e93fcc7242ea988eafeec33c6326" normal="1871-05-06/1873-04-29">1871, May 6-1873, Apr. 29</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1871-05-06/1873-04-29">1871, May 6-1873, Apr. 29</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.006">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mfer1a76d91b2e554ca5a4043aa3e24bb713" normal="1873-05-05/1875-09-30">1873, May 5-1875, Sept. 30</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1873-05-05/1875-09-30">1873, May 5-1875, Sept. 30</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.007">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mfer7869ffb810de41378dc5b683ad9c9291" normal="1875-10-02/1876-12-29">1875, Oct. 2-1876, Dec. 29</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1875-10-02/1876-12-29">1875, Oct. 2-1876, Dec. 29</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.008">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mferfaf1315a4ea841e89fa81a2c02fe32a9" normal="1877-01-03/1878-04-20">1877, Jan. 3-1878, Apr. 20</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1877-01-03/1878-04-20">1877, Jan. 3-1878, Apr. 20</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.009">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mfer26b9c24e92834bafb61dd8b68b1de19c" normal="1878-05-02/1880-04-19">1878, May 2-1880, Apr. 19</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1878-05-02/1880-04-19">1878, May 2-1880, Apr. 19</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.010">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mferc420f11a606a43ef802f7d39a4b53207" normal="1880-05-01/1882-12-31">1880, May 1-1882, Dec. 31</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1880-05-01/1882-12-31">1880, May 1-1882, Dec. 31</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.011">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mfer349128ccf01a476ea83e9ff948ab1a1d" normal="1883-01-09/1884-07-20">1883, Jan. 9-1884, July 20</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1883-01-09/1884-07-20">1883, Jan. 9-1884, July 20</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.012">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mfer3940638b11b84ebe8aea0cb4d9ca3da7" normal="1884-08-04/1888-02-20">1884, Aug. 4-1888, Feb. 20</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1884-08-04/1888-02-20">1884, Aug. 4-1888, Feb. 20</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.013">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mfera0d89d0c04254904aa8cad9b56c68882" normal="1888-03-03/1891-07-29">1888, Mar. 3-1891, July 29</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1888-03-03/1891-07-29">1888, Mar. 3-1891, July 29</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.014">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">
+                     <date id="mfer9afd910066b44456a2979f70cc861a2a" normal="1891-08-10/1911-07-13">1891, Aug. 10-1911, July 13, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1891-08-10/1911-07-13">1891, Aug. 10-1911, July 13, undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.015">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">16</container>
+               <unittitle encodinganalog="245$a" id="addi">Addition, <date normal="1833/1930" id="mfere3a700b1be5f4f83a1579e5895def2d0">1833-1930</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1833/1930">1833-1930</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, a diary, military papers, printed matter, a scrapbook, and
+                  speeches and writings. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Correspondence and military papers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">
+                        <date id="mferb7c90289934b4626ab35c6a37f10b7af" normal="1847/1848">1847-1848</date>, <date id="mfer4ad6cdcc9b0e4cd884fef8b5c1d80e8e" normal="1861">1861</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f" normal="1847/1848">1847-1848</unitdate>
+                     <unitdate normal="1861">1861</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.016">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">
+                        <date id="mfer736eec68b3884ebd9578b1170bf7f7b8" normal="1862/1915">1862-1915, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f" normal="1862/1915">1862-1915,
+                        undated</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.017">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Diary, <date id="mfer81c3b13828c24a93aa7e23325fd71fc5" normal="1865">1865</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1865">1865</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.018">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Lists, <date id="mfer2a621c89e3844805ab1998dfc6e03836">undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.019">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Printed matter, <date id="mfer7f47334364db4229bbcaeefafb21b9e1" normal="1866/1911">1866-1911,
+                        undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1866/1911">1866-1911, undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.020">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Scrapbook, <date id="mfer4f790fddca7c4e94a02ada0a3e467652" normal="1833/1930">1833-1930</date>
+                     <ref show="replace" actuate="onrequest" target="scrapiov1">
+                        <emph render="italic">See Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1833/1930">1833-1930</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Speeches and writings, <date id="mfer11299fc8c6de4cf6988ff07eb69e494d">undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">1 of 2</unittitle>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.022">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">2 of 2</unittitle>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.023">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1-OV 2</container>
+               <unittitle encodinganalog="245$a" id="over">Oversize, <date normal="1833/1930" id="mfer7e77692b1b75413da49928bc0c5d7887">1833-1930</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1833/1930">1833-1930</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Scrapbook</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Addition</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="scrapiov1">Scrapbook, <date id="mferfc0e78016b3f48479cc78e3104cfa65d" normal="1833/1930">1833-1930</date> (Container 16) </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1833/1930">1833-1930</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 1</container>
+                        <unittitle>Part I</unittitle>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.024">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 2</container>
+                        <unittitle>Part II</unittitle>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms008046.mss19356.025">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

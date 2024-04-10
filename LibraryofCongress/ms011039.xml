@@ -1,0 +1,3346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms011039">loc.mss/eadmss.ms011039</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Frederick D. Patterson Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm89077597">https://lccn.loc.gov/mm89077597</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-08">2023 August</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>collection title corrected</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-07">2023 July</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2022-10">2022 October</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>WP replacement</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2011">2011</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Frederick D. Patterson Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1861/1988">1861-1988</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1965/1988">1965-1988</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1861/1988"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1861-1988</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1965/1988"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1965-1988</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS77597</unitid>
+         <origination label="Creator">
+            <persname source="lcnaf" encodinganalog="100">
+               <part>Patterson, Frederick D. (Frederick Douglass), 1901-1988</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">15,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">41 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">18.5 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">African American educational administrator
+            and advocate. Correspondence, journal, writings and speeches, notes, reports,
+            organizational records, clippings, printed materials, memorabilia, and miscellaneous
+            items relating chiefly to Patterson's efforts, following his retirement as president of
+            Tuskegee Institute in 1953, to preserve and develop African American institutions of
+            higher learning.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220929172521.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Carver, George Washington, 1864?-1943.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Clayton, Robert L.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Colley, Nathaniel Sextus, 1918- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Foster, Luther H. (Luther Hilton), 1913- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Harriman, E. Roland (Edward Roland), 1895-1978--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Harris, Patricia, 1924-1985--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jenkins, Matthew--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Mays, Benjamin E. (Benjamin Elijah), 1894-1984--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Moon, Henry Lee, 1901-1985--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Moton, Robert Russa, 1867-1940.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Patterson, Frederick D. (Frederick Douglass), 1901-1988.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pierce, Ponchitta Anne, 1942- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Player, Willa B.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Price, Hollis F., 1904- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Purves, Robert Ogden, 1895-1976--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Simon, Paul, 1928-2003--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Springer, Maida--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Weinberger, Caspar W.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Williams, Franklin, 1917- --Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Phelps-Stokes Fund.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Robert R. Moton Memorial Institute.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Tuskegee Institute.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Tuskegee Institute. School of Veterinary Medicine.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>African American universities and colleges.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>African Americans--Civil rights.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>African Americans--Education.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Education--Africa.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Education--Nigeria.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Endowments--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Federal aid to higher education.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Segregation--United States.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Southern States.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>College administrators.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of Frederick D. Patterson, African American educational administrator and
+            advocate, were donated to the Library of Congress by Patterson's son, Frederick D.
+            Patterson II, in 1988, 1989, and 1991.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The Patterson Papers were processed by Michael Spangler in 1991. The finding aid was
+            revised in 2010. The finding aid was updated in 2023 by Maria Farmer as part of a
+            division-wide remediation project by the Inclusive Description Working Group.</p>
+      </processinfo>
+      <altformavail>
+         <head>Transfers</head>
+         <p>Photographs have been transferred to the Prints and Photographs Division of the Library
+            where they are identified as part of these papers.</p>
+      </altformavail>
+      <relatedmaterial encodinganalog="544 1">
+         <head>Related Material</head>
+         <p>The Patterson Papers form part of a sizable group of materials in the Manuscript
+            Division relating to Black educators and the African American community. The Division's
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms998017">Booker T. Washington
+               Papers</ref>, <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms998025">Moton Family
+               Papers</ref>, and Frederick D. Patterson Papers constitute an important group of
+            research materials relating to the first three presidents of Tuskegee Institute. The
+            Moton Family Papers include correspondence between Patterson and Robert Russa Moton
+            during the 1930s.</p>
+      </relatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of Frederick D. Patterson in these papers and in
+            other collections of papers in the custody of the Library of Congress has been dedicated
+            to the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506">
+         <head>Access and Restrictions</head>
+         <p>The papers of Frederick D. Patterson are open to research. Researchers are advised to
+            contact the Manuscript Reading Room prior to visiting. Many collections are stored
+            off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Frederick D. Patterson, Manuscript Division, Library of Congress,
+            Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1901, Oct. 10</datesingle>
+               <event>Born, Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1923</datesingle>
+               <event>Doctor of veterinary medicine, Iowa State College, Ames, Iowa</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1923</fromdate>
+                  <todate>1927</todate>
+               </daterange>
+               <event>Instructor, veterinary science, Virginia State College, Petersburg,
+                  Va.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1927</datesingle>
+               <event>Master of science, Iowa State College, Ames, Iowa</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1927</fromdate>
+                  <todate>1928</todate>
+               </daterange>
+               <event>Director of agriculture, Virginia State College, Petersburg, Va.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1928</fromdate>
+                  <todate>1933</todate>
+               </daterange>
+               <event>Head, Veterinary Division, Tuskegee Institute, Tuskegee, Ala.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1932</datesingle>
+               <event>Doctor of philosophy, Cornell University, Ithaca, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1933</fromdate>
+                  <todate>1935</todate>
+               </daterange>
+               <event>Director, School of Agriculture, Tuskegee Institute, Tuskegee, Ala. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1935</datesingle>
+               <event>Married Catherine E. Moton, daughter of Robert Russa Moton, second president
+                  of Tuskegee Institute, Tuskegee, Ala.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1935</fromdate>
+                  <todate>1953</todate>
+               </daterange>
+               <event>President, Tuskegee Institute, Tuskegee, Ala.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1943</fromdate>
+                  <todate>1944</todate>
+               </daterange>
+               <event>Established United Negro College Fund</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1944</datesingle>
+               <event>Published essay in <title localtype="simple">
+                     <part>What the Negro Wants</part>
+                  </title>, edited by Rayford W. Logan (Chapel Hill, N.C.: University of North
+                  Carolina Press. 352 pp.)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1953</fromdate>
+                  <todate>1954</todate>
+               </daterange>
+               <event>Inspected and evaluated educational resources in Nigeria on behalf of the
+                  World Bank/International Bank Commission</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1953</fromdate>
+                  <todate>1958</todate>
+               </daterange>
+               <event>Director of Education, Phelps-Stokes Fund, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1956</datesingle>
+               <event>Co-editor with William Hardin Hughes of <title localtype="simple">
+                     <part>Robert Russa Moton of Hampton and Tuskegee </part>
+                  </title>(Chapel Hill, N.C.: University of North Carolina Press. 238 pp.)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1958</fromdate>
+                  <todate>1970</todate>
+               </daterange>
+               <event>President, Phelps-Stokes Fund</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1964</fromdate>
+                  <todate>1966</todate>
+               </daterange>
+               <event>President, United Negro College Fund, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1969</fromdate>
+                  <todate>1973</todate>
+               </daterange>
+               <event>President, Robert Russa Moton Memorial Institute, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1973</fromdate>
+                  <todate>1984</todate>
+               </daterange>
+               <event>Director, College Endowment Funding Plan, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1976</datesingle>
+               <event>Published <title localtype="simple">
+                     <part>College Endowment Funding Plan</part>
+                  </title> (Washington, D.C.: American Council on Education. 120 pp.)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1985</datesingle>
+               <event>Received White House Private Sector Initiative Commendation</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1987</datesingle>
+               <event>Awarded the Presidential Medal of Freedom</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1988, Apr. 26</datesingle>
+               <event>Died, New Rochelle, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1991</datesingle>
+               <event>Posthumous publication of Patterson's autobiography, <title localtype="simple">
+                     <part>Chronicles of Faith</part>
+                  </title>, edited by Martia Graham Goodson (Tuscaloosa, Ala.: University of Alabama
+                  Press. 220 pp.)</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Frederick Douglass Patterson (1901-1988) span the years 1861-1988, with
+            the largest group of materials dating from the period after 1965. The collection is
+            composed of the personal papers of Patterson, third president of Tuskegee Institute and
+            founder of the United Negro College Fund. They largely reflect his career following his
+            retirement from Tuskegee in 1953 and highlight his efforts to preserve and develop
+            historically Black institutions of higher learning. The bulk of the collection consists
+            of correspondence, reports, organizational records, printed materials, writings and
+            speeches, notes, clippings, memorabilia, and other miscellaneous items.</p>
+         <p>The <ref show="replace" actuate="onrequest" target="correspond">Correspondence</ref>
+            series of the Patterson Papers contains separate groupings of personal and general
+            correspondence. Included in the personal correspondence are felicitations regarding
+            Patterson's election to the presidency of Tuskegee Institute in 1935, his White House
+            Private Sector Initiative Commendation in 1982, and his receipt of the Presidential
+            Medal of Freedom from President Ronald Reagan in 1987. A few family letters from the
+            early 1930s are also contained in this portion of the file. Items in the general
+            correspondence include communications with organizations and individuals concerned with
+            education, educational administration, business, fund-raising, and government. </p>
+         <p>The greatest concentration of materials in the Patterson Papers is found in the <ref show="replace" actuate="onrequest" target="subfile">Subject File</ref>. The papers in
+            this series cluster chiefly around Patterson's association with the Robert Russa Moton
+            Memorial Institute and the College Endowment Funding Plan. Established by Patterson in
+            the late 1950s in memory of his father-in-law and second president of Tuskegee
+            Institute, the Robert Russa Moton Memorial Institute provided financial planning and
+            training for historically Black colleges. Operating under the auspices of the institute
+            was the College Endowment Funding Plan, devised by Patterson to endow small, poorly
+            financed Black colleges, thereby securing their long-term stability. The file pertaining
+            to the College Endowment Funding Plan traces the development of this program throughout
+            the 1970s and 1980s, focusing on the passage of legislation that established federal
+            matching grants for Black colleges. The materials document Patterson's work with
+            educational administrators, financial officers, and government officials. Prominent
+            correspondents include Caspar W. Weinberger, Willa B. Player of the United States Office
+            of Education, and Congressman, later Senator, Paul Simon. </p>
+         <p>Other papers in the <ref show="replace" actuate="onrequest" target="subfile">Subject
+               File</ref> relate to the latter years of Patterson's tenure as president of the
+            Phelps-Stokes Fund, a foundation devoted to improving housing and educational
+            opportunities for African Americans and other disadvantaged people. Franklin H.
+            Williams, Patterson's successor, is a prominent correspondent in the papers relating to
+            the fund. A key file pertains to education in Africa, including a handwritten journal of
+            Patterson's travels through Nigeria in 1953-1954 inspecting educational resources on
+            behalf of the International Bank Commission. Materials relating to Tuskegee Institute in
+            the Subject File reflect Patterson's continued interest in the school and include
+            extensive correspondence with his successor as president, Luther H. Foster. Also present
+            are brief items relating to aviation and low-cost housing at Tuskegee, as well as a
+            sizable file concerning the institute's veterinary medicine school. Patterson's interest
+            in Robert Russa Moton and botanist George Washington Carver is also exhibited in the
+            Subject File. A typescript draft of a biography of Moton is among various biographical
+            materials found in the file. Patterson served as executor of Carver's estate and
+            participated in various memorials recognizing his achievements. The file contains copies
+            of Patterson's speeches honoring Carver. Also included are transcripts of oral history
+            interviews with Patterson conducted in 1980 and 1981 for the Phelps-Stokes Fund and the
+            United Negro College Fund.</p>
+         <p>The <ref show="replace" actuate="onrequest" target="clipfile">Clippings File</ref>
+            consists of newspaper clippings and magazine articles from the late 1930s through the
+            1970s, which Patterson annotated and organized according to a detailed classification
+            system. Topics treated include civil rights, desegregation, regional education, the
+            South, higher education, philanthropy, and other related issues. Also included are a
+            significant group of draft and printed copies of Patterson's writings and speeches, as
+            well as notes relating to various topics. Other writings and speeches not included in
+            this classification scheme are located in the <ref show="replace" actuate="onrequest" target="miscella">Miscellany</ref> series.</p>
+         <p>The <ref show="replace" actuate="onrequest" target="miscella">Miscellany</ref> series
+            holds, among other materials, a collection of personal clippings relating to Patterson's
+            career and his work with the College Endowment Funding Plan. Included also are draft and
+            print copies of speeches and writings by Patterson, as well as a small group of his
+            published articles among the printed matter. Other materials include certificates,
+            biographical data, telegrams, and memorabilia.</p>
+         <p>Prominent or frequent correspondents include Robert L. Clayton, Nathaniel Sextus Colley,
+            E. Roland Harriman, Patricia Harris, Matthew Jenkins, Maida Springer Kemp, Benjamin E.
+            Mays, Henry Lee Moon, Ponchitta Anne Pierce, Hollis F. Price, and Robert Ogden Purves.
+         </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>The collection is arranged in four series:</p>
+         <list listtype="unordered" mark="circle">
+            <item>
+               <ref show="replace" actuate="onrequest" target="correspond">Correspondence,
+                  1931-1988</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="subfile">Subject File,
+                  1909-1988</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="clipfile">Clippings File,
+                  1939-1981</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="miscella">Miscellany, 1861-1988</ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Box</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-5</container>
+               <unittitle id="correspond" encodinganalog="245$a">Correspondence, <date normal="1931/1988">1931-1988</date>
+               </unittitle>
+               <unitdate normal="1931/1988" encodinganalog="245$f" era="ce" calendar="gregorian">1931-1988</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Personal and general correspondence, with attached and related matter, organized
+                  into separate groupings and alphabetically therein by name of person or
+                  organization or by type of material.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Chronologically arranged within folders.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Personal</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Congratulatory</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date localtype="inclusive" encodinganalog="245$f">1935</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1935</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date localtype="inclusive" encodinganalog="245$f">1973-1988 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1988 </unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Family, <date localtype="inclusive" encodinganalog="245$f">1931-1935</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1931-1935</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">General</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"A-B" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1969-1988 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1988 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle id="con2clayton" encodinganalog="245$a">Clayton, Robert L., <date localtype="inclusive" encodinganalog="245$f">1977-1985</date>
+                        <ref show="replace" actuate="onrequest" target="con16moton">
+                           <emph render="italic">See also Container 16</emph>, Moton, Robert
+                           Russa</ref>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1977-1985</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Colley, Nathaniel Sextus, <date localtype="inclusive" encodinganalog="245$f">1970-1987 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1987 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Cowley, W. H., <date localtype="inclusive" encodinganalog="245$f">1970-1978</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1978</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"C" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1971-1988 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971-1988 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Davis, Lincoln J., <date localtype="inclusive" encodinganalog="245$f">1972-1977, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972-1977,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dawson, William L., <date localtype="inclusive" encodinganalog="245$f">1981-1985</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1981-1985</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dillon, Wilton S., <date localtype="inclusive" encodinganalog="245$f">1974-1983</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1974-1983</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"D-F" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1971-1988 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971-1988 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gandy, Stewart B., <date localtype="inclusive" encodinganalog="245$f">1976-1978</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1976-1978</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Garcia, Jose, <date localtype="inclusive" encodinganalog="245$f">1972-1974</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972-1974</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gibson, Jessie, <date localtype="inclusive" encodinganalog="245$f">1972-1974</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972-1974</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Glick, G. Wayne, <date localtype="inclusive" encodinganalog="245$f">1978-1987, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1978-1987,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gossett, William T., <date localtype="inclusive" encodinganalog="245$f">1971-1985</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971-1985</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"G" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1972-1988</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972-1988</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Harriman, E. Roland, <date localtype="inclusive" encodinganalog="245$f">1972-1988</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972-1988</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Harris, Patricia, <date localtype="inclusive" encodinganalog="245$f">1978</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1978</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hastings, Lawrence B., Sr., <date localtype="inclusive" encodinganalog="245$f">1973-1975</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1975</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hogan, Lawrence, <date localtype="inclusive" encodinganalog="245$f">1975-1984</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1975-1984</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Howard, Oscar C., <date localtype="inclusive" encodinganalog="245$f">1973-1984</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1984</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"H" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1971-1988 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971-1988 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Iowa State University, Ames, Iowa, <date localtype="inclusive" encodinganalog="245$f">1980-1984</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1980-1984</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"I" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1977-1980 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1977-1980 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jenkins, Matthew, <date localtype="inclusive" encodinganalog="245$f">1979-1988</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1979-1988</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"J" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1971-1987</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971-1987</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kemp, Maida Springer, <date localtype="inclusive" encodinganalog="245$f">1973-1974</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1974</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"K-L" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1970-1985 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1985 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Martz &amp; Lundy, Inc., <date localtype="inclusive" encodinganalog="245$f">1976-1980</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1976-1980</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Mays, Benjamin E., <date localtype="inclusive" encodinganalog="245$f">1974-1984</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1974-1984</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Melady, Thomas R., <date localtype="inclusive" encodinganalog="245$f">1983-1987</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1983-1987</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miner, Ernest, <date localtype="inclusive" encodinganalog="245$f">1984-1986</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1984-1986</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Moon, Henry Lee, <date localtype="inclusive" encodinganalog="245$f">1973-1985</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1985</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Moton, Laura, <date localtype="inclusive" encodinganalog="245$f">1977</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"M" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1956-1988 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1956-1988 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">National Association for the Advancement of
+                        Colored People, <date localtype="inclusive" encodinganalog="245$f">1973-1980</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1980</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"N-O" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1971-1988 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971-1988 </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Perspectives International, <date localtype="inclusive" encodinganalog="245$f">1979-1981, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1979-1981,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pierce, Ponchitta Anne, <date localtype="inclusive" encodinganalog="245$f">1973</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Player, Willa B., <date localtype="inclusive" encodinganalog="245$f">1975-1988</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1975-1988</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pray, Frances, <date localtype="inclusive" encodinganalog="245$f">1969-1982</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1982</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Price, Hollis F., <date localtype="inclusive" encodinganalog="245$f">1975-1982</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1975-1982</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Purves, Robert Ogden, <date localtype="inclusive" encodinganalog="245$f">1973-1976</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1976</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"P" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1971-1986</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971-1986</unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Richardson, Harry V., <date localtype="inclusive" encodinganalog="245$f">1972-1984</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972-1984</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rivinus, David, <date localtype="inclusive" encodinganalog="245$f">1970-1973</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1973</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rowe, William, <date localtype="inclusive" encodinganalog="245$f">1982-1987</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1982-1987</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"R" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1972-1987</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972-1987</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Stillman College, Tuscaloosa, Ala., <date localtype="inclusive" encodinganalog="245$f">1981-1987</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1981-1987</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">"S" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1955-1987 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1955-1987 </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Texas Association of Developing Colleges,
+                           <date localtype="inclusive" encodinganalog="245$f">1974-1977</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1974-1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"T-V" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1970-1987 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1987 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Walker, Grace, <date localtype="inclusive" encodinganalog="245$f">1969-1975</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1975</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"W-Z" miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1955-1988 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1955-1988 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unidentified, <date localtype="inclusive" encodinganalog="245$f">1955-1982, undated </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1955-1982, undated
+                     </unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">6-32</container>
+               <unittitle id="subfile" encodinganalog="245$a">Subject File, <date normal="1909/1988">1909-1988</date>
+               </unittitle>
+               <unitdate normal="1909/1988" encodinganalog="245$f" era="ce" calendar="gregorian">1909-1988</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, reports, memoranda, circular letters, minutes, financial records,
+                  printed materials, occasional writings and speeches, notes, and miscellaneous
+                  items.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p> Organized alphabetically by topic or name of organization and within these
+                  headings by subject or type of material. Chronologically arranged within
+                  folders.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Academy for Educational Development, <date localtype="inclusive" encodinganalog="245$f">1985</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1985</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="con6-7africa" encodinganalog="245$a">Africa <ref show="replace" actuate="onrequest" target="con17-21phelps">
+                        <emph render="italic">See also Containers 17-21, Phelps-Stokes Fund</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Africare, <date localtype="inclusive" encodinganalog="245$f">1973-1984</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1984</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">General correspondence, <date localtype="inclusive" encodinganalog="245$f">1957-1978</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1957-1978</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Manuscript notes, <date localtype="inclusive" encodinganalog="245$f">1959</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1959</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous documents, <date localtype="inclusive" encodinganalog="245$f">1961, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1961,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Nigeria</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Handwritten journal, <date localtype="inclusive" encodinganalog="245$f">1953-1954</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1953-1954</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Preliminary Report on Education in Nigeria</part>
+                           </title>, by Patterson, <date localtype="inclusive" encodinganalog="245$f">1953-1954</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1953-1954</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Printed materials, <date localtype="inclusive" encodinganalog="245$f">1961-1970</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1961-1970</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Report on visit to ten African countries by
+                        E. B. Evans and Patterson, <date localtype="inclusive" encodinganalog="245$f">1969</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">United Nations Economic Commission for
+                        Africa, <date localtype="inclusive" encodinganalog="245$f">1970</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Proceedings</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Reports</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">American Council on Education</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Annual meeting, <date localtype="inclusive" encodinganalog="245$f">1976</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1976</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1974-1978, 1983-1984 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1974-1978, 1983-1984 </unitdate>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous items, <date localtype="inclusive" encodinganalog="245$f">1972-1978, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972-1978,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Office of Leadership Development in Higher
+                        Education, <date localtype="inclusive" encodinganalog="245$f">1973-1978
+                        </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1978 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed materials, <date localtype="inclusive" encodinganalog="245$f">1973-1978 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1978 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Architects</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1968-1979</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1968-1979</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Drawings, <date localtype="inclusive" encodinganalog="245$f">1972</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Benjamin E. Mays National Educational Resource
+                     Center, Washington, D.C., <date localtype="inclusive" encodinganalog="245$f">1983-1984</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1983-1984</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bennett College, Greensboro, N.C.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Board of trustees, minutes and reports, <date localtype="inclusive" encodinganalog="245$f">1963-1977</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1963-1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1960-1982</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1960-1982</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Investment and finance committees, minutes
+                        and reports, <date localtype="inclusive" encodinganalog="245$f">1973-1981</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1981</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous items, <date localtype="inclusive" encodinganalog="245$f">1956-1974, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1956-1974,
+                        undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Black higher education, reports</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"The Case for Private Black Colleges," by
+                        Kenneth S. Tollett, [<date localtype="inclusive" encodinganalog="245$f">1982?</date>]</unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1982?</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Public Policy and Private Black Higher
+                        Education," [<date localtype="inclusive" encodinganalog="245$f">1985</date>]</unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1985</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Black Retail Action Group, <date localtype="inclusive" encodinganalog="245$f">1985-1986</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1985-1986</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Booker T. Washington Foundation, board of
+                     trustees</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Annual meeting, <date localtype="inclusive" encodinganalog="245$f">1973</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bylaws and personnel manual, <date localtype="inclusive" encodinganalog="245$f">1977-1980</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1977-1980</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Contract résumés, <date localtype="inclusive" encodinganalog="245$f">1975-1979 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1975-1979 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1968-1984 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1968-1984 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Financial documents, <date localtype="inclusive" encodinganalog="245$f">1974-1978</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1974-1978</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Memoranda, <date localtype="inclusive" encodinganalog="245$f">1969-1981</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1981</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Minutes, <date localtype="inclusive" encodinganalog="245$f">1970-1982 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1982 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous reports, <date localtype="inclusive" encodinganalog="245$f">1975-1981, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1975-1981,
+                        undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cablecommunications Resource Center, <date localtype="inclusive" encodinganalog="245$f">1974</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1974</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Carver, George Washington</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Biography, correspondence and contract, <date localtype="inclusive" encodinganalog="245$f">1939-1944</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1939-1944</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">George Washington Carver Foundation, <date localtype="inclusive" encodinganalog="245$f">1940-1974</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1940-1974</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Memorials to Carver, correspondence, <date localtype="inclusive" encodinganalog="245$f">1970-1979</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1979</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">Printed materials, <date localtype="inclusive" encodinganalog="245$f">1970-1977, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1977,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Speeches and notes by Patterson, <date localtype="inclusive" encodinganalog="245$f">1946-1977, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1946-1977,
+                        undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Charles Stewart Mott Foundation, Black College
+                     Advisory Committee, minutes and reports, <date localtype="inclusive" encodinganalog="245$f">1980-1984 </date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1980-1984 </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">College Endowment Funding Plan</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Challenge Grant Amendment of 1983, <date localtype="inclusive" encodinganalog="245$f">1977-1986</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1977-1986</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date localtype="inclusive" encodinganalog="245$f">1971-1976</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971-1976</unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">13</container>
+                        <unittitle encodinganalog="245$a">
+                           <date localtype="inclusive" encodinganalog="245$f">1977-1987, undated
+                           </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1977-1987, undated </unitdate>
+                        <physdesc encodinganalog="300">(9 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1978</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1978</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Statements and writings, <date localtype="inclusive" encodinganalog="245$f">1972-1983, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972-1983,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">White House Initiative, Private Sector
+                        Partnership, <date localtype="inclusive" encodinganalog="245$f">1982</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1982</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Council on Foreign Relations</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Circular letters, <date localtype="inclusive" encodinganalog="245$f">1970-1979</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1979</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1973-1980</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1980</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed materials, <date localtype="inclusive" encodinganalog="245$f">1972-1980, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972-1980,
+                        undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Flemmie P. Kittrell Endowment Fund</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1958-1976</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1958-1976</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed materials, <date localtype="inclusive" encodinganalog="245$f">1946-1968</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1946-1968</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ford Foundation, <date localtype="inclusive" encodinganalog="245$f">1965-1979 </date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1965-1979 </unitdate>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Foundation Center, <date localtype="inclusive" encodinganalog="245$f">1969-1974</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1974</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Health, Education, and Welfare, Department
+                     of</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Office of Education</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Advisory Council on Developing
+                           Institutions, annual report, <date localtype="inclusive" encodinganalog="245$f">1977</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1977</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1970-1973</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1973</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Developing Institutions Study Group, <date localtype="inclusive" encodinganalog="245$f">1977</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1977</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">National Advisory Committee on Black
+                           Higher Education and Black Colleges and Universities, <date localtype="inclusive" encodinganalog="245$f">1977-1982 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1977-1982 </unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Interdenominational Theological
+                     Center</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1970-1984</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1984</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reports, memoranda, etc., <date localtype="inclusive" encodinganalog="245$f">1961, 1971-1975 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1961, 1971-1975 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Management consultants, <date localtype="inclusive" encodinganalog="245$f">1969-1978, undated</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1978,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="con16moton" encodinganalog="245$a">Moton, Robert Russa, biography
+                     of <ref show="replace" actuate="onrequest" target="con2clayton">
+                        <emph render="italic">See also Container 2</emph>, Clayton, Robert L.</ref>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1963-1977</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1963-1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous printed materials, <date localtype="inclusive" encodinganalog="245$f">1917-1986, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1917-1986,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript draft and notes,
+                        undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">National Association for Equal Opportunity in
+                     Higher Education</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1975-1986</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1975-1986</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed materials, <date localtype="inclusive" encodinganalog="245$f">1977-1988</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1977-1988</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reports and statements, <date localtype="inclusive" encodinganalog="245$f">1970-1975</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1975</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">National Business League</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Board of directors, minutes, <date localtype="inclusive" encodinganalog="245$f">1960, 1970-1980</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1960,
+                        1970-1980</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence and memoranda, <date localtype="inclusive" encodinganalog="245$f">1957-1981 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1957-1981 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">National Business League</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed materials, <date localtype="inclusive" encodinganalog="245$f">1960-1981, undated </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1960-1981, undated </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reports, <date localtype="inclusive" encodinganalog="245$f">1960-1978, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1960-1978,
+                        undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">National Medical Fellowships, Inc., <date localtype="inclusive" encodinganalog="245$f">1974</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1974</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">New School for Social Research, <date localtype="inclusive" encodinganalog="245$f">1963</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1963</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="con17-21phelps" encodinganalog="245$a">Phelps-Stokes Fund <ref show="replace" actuate="onrequest" target="con6-7africa">
+                        <emph render="italic">See also Containers 6-7</emph>, Africa</ref>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">African Student Aid Fund</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Benefactors, correspondence
+                           with</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Charles Merrill Trust, <date localtype="inclusive" encodinganalog="245$f">1967-1972,
+                                 undated</date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1967-1972,
+                              undated</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Edgar J. Kaufman Charitable Trust,
+                                 <date localtype="inclusive" encodinganalog="245$f">1969-1972</date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1972</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Mary Harriman Trust, <date localtype="inclusive" encodinganalog="245$f">1967-1971</date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1967-1971</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Board of directors, minutes, <date localtype="inclusive" encodinganalog="245$f">1970-1980 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1980 </unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Bylaws and certificate of incorporation,
+                              <date localtype="inclusive" encodinganalog="245$f">1966</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1966</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1970-1988</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1988</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">History, <date localtype="inclusive" encodinganalog="245$f">1975</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1975</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellaneous items, <date localtype="inclusive" encodinganalog="245$f">1970-1974, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1974,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Board of trustees</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Bylaws, <date localtype="inclusive" encodinganalog="245$f">1931-1976</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1931-1976</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence and memoranda, <date localtype="inclusive" encodinganalog="245$f">1953-1988 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1953-1988 </unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Finance Committee, <date localtype="inclusive" encodinganalog="245$f">1955, 1982</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1955,
+                           1982</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Membership, <date localtype="inclusive" encodinganalog="245$f">1957-1987, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1957-1987,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Minutes </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date localtype="inclusive" encodinganalog="245$f">1953-1976 </date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1953-1976 </unitdate>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">19</container>
+                           <unittitle encodinganalog="245$a">
+                              <date localtype="inclusive" encodinganalog="245$f">1978-1987 </date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1978-1987 </unitdate>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Newsletters, <date localtype="inclusive" encodinganalog="245$f">1954-1956</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1954-1956</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">President's reports, <date localtype="inclusive" encodinganalog="245$f">1955-1979 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1955-1979
+                        </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Cooperative College Development
+                        Program</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Conference schedules, <date localtype="inclusive" encodinganalog="245$f">1965-1968</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1965-1968</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence and memoranda, <date localtype="inclusive" encodinganalog="245$f">1965-1975, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1965-1975,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Directory of institutions, [<date localtype="inclusive" encodinganalog="245$f">1968?</date>]</unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1968?</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">History, <date localtype="inclusive" encodinganalog="245$f">1964-1968</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1964-1968</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Matching grant requests, <date localtype="inclusive" encodinganalog="245$f">1965-1970</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1965-1970</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous items, <date localtype="inclusive" encodinganalog="245$f">1964-1972, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1964-1972,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Progress report, <date localtype="inclusive" encodinganalog="245$f">1967-1974</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1967-1974</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Writings, notes, and speeches, <date localtype="inclusive" encodinganalog="245$f">1966-1969, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1966-1969,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">History by Ponchitta Anne Pierce, [<date localtype="inclusive" encodinganalog="245$f">1973</date>] </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973</unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Negro handbook, <date localtype="inclusive" encodinganalog="245$f">1960-1962, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1960-1962,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Negro reference book, <date localtype="inclusive" encodinganalog="245$f">1967-1969, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1967-1969,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Oral history interview with Patterson, <date localtype="inclusive" encodinganalog="245$f">1981</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1981</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ralph J. Bunche Memorial Project, <date localtype="inclusive" encodinganalog="245$f">1976-1978, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1976-1978,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reports and writings </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Booker Washington Institute" [Liberia],
+                           by Patterson, <date localtype="inclusive" encodinganalog="245$f">1959</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1959</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date localtype="inclusive" encodinganalog="245$f">1947-1976</date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1947-1976</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">21</container>
+                           <unittitle encodinganalog="245$a">
+                              <date localtype="inclusive" encodinganalog="245$f">1979-1980,
+                                 undated</date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1979-1980,
+                              undated</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Self-Study of the Phelps-Stokes Fund,"
+                              <date localtype="inclusive" encodinganalog="245$f">1979</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1979</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Professional Institute of American Management
+                     Associations, <date localtype="inclusive" encodinganalog="245$f">1975-1978</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1975-1978</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Robert Russa Moton Memorial
+                     Institute</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">African students, <date localtype="inclusive" encodinganalog="245$f">1966-1975</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1966-1975</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bylaws and personnel manual, <date localtype="inclusive" encodinganalog="245$f">1972</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Financial documents</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Auditor's report, <date localtype="inclusive" encodinganalog="245$f">1978</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1978</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Income and expenses reports, <date localtype="inclusive" encodinganalog="245$f">1969-1973</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1973</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellaneous items, <date localtype="inclusive" encodinganalog="245$f">1962-1988, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1962-1988,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Treasurer's reports, <date localtype="inclusive" encodinganalog="245$f">1969-1973</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1973</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">History, <date localtype="inclusive" encodinganalog="245$f">1957-1962, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1957-1962,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1964-1980</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1964-1980</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Moton College Service Bureau</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1967-1971</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1967-1971</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Reports, <date localtype="inclusive" encodinganalog="245$f">1971, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">Moton colleges and universities (institutions
+                        participating in Moton Institute development programs), correspondence and
+                        grant request forms</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Clark College, Atlanta, Ga., <date localtype="inclusive" encodinganalog="245$f">1970-1985</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1985</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Dillard University, New Orleans, La.,
+                              <date localtype="inclusive" encodinganalog="245$f">1970-1984</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1984</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Fiske University, Nashville, Tenn., <date localtype="inclusive" encodinganalog="245$f">1971-1977</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971-1977</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Florida A &amp; M University, Tallahassee,
+                           Fla., <date localtype="inclusive" encodinganalog="245$f">1970-1983</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1983</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Hampton University, Hampton, Va., <date localtype="inclusive" encodinganalog="245$f">1970-1985</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1985</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Huston-Tillotson University, Austin, Tex.,
+                              <date localtype="inclusive" encodinganalog="245$f">1970-1984</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1984</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Jackson State College, Jackson, Miss.,
+                              <date localtype="inclusive" encodinganalog="245$f">1969-1984</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1984</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Kentucky State College, Frankfort, Ky.,
+                              <date localtype="inclusive" encodinganalog="245$f">1970-1972</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1972</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Morehouse College, Atlanta, Ga., <date localtype="inclusive" encodinganalog="245$f">1967-1988</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1967-1988</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Morris Brown College, Atlanta, Ga., <date localtype="inclusive" encodinganalog="245$f">1970-1986</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1986</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">North Carolina A &amp; T State University,
+                           Greensboro, N.C., <date localtype="inclusive" encodinganalog="245$f">1970-1978</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1978</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">North Carolina Central University, Durham,
+                           N.C., <date localtype="inclusive" encodinganalog="245$f">1970-1981,
+                              undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1981,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Paine College, Augusta, Ga., <date localtype="inclusive" encodinganalog="245$f">1970-1980</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1980</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Rust College, Holly Springs, Miss., <date localtype="inclusive" encodinganalog="245$f">1971-1986</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971-1986</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Saint Augustine's College, Raleigh, N.C.,
+                              <date localtype="inclusive" encodinganalog="245$f">1956-1982</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1956-1982</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Tuskegee University, Tuskegee, Ala., <date localtype="inclusive" encodinganalog="245$f">1970-1986</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1956-1982</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Virginia Union University, Richmond, Va.,
+                              <date localtype="inclusive" encodinganalog="245$f">1957-1979</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1957-1979</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Xavier University, New Orleans, La., <date localtype="inclusive" encodinganalog="245$f">1970-1987</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970-1987</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellaneous </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">A-L, <date localtype="inclusive" encodinganalog="245$f">1969-1987</date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1987</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">23</container>
+                           <unittitle encodinganalog="245$a">M-W, <date localtype="inclusive" encodinganalog="245$f">1957-1983</date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1957-1983</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Moton Conference Center, Capahosic,
+                        Va.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Library, <date localtype="inclusive" encodinganalog="245$f">1968-1971, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1968-1971,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Management, <date localtype="inclusive" encodinganalog="245$f">1959-1975, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1959-1975,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Physical facilities</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Architectural drawings, <date localtype="inclusive" encodinganalog="245$f">1966-1971,
+                                 undated</date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1966-1971,
+                              undated</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Contracts and proposals, <date localtype="inclusive" encodinganalog="245$f">1964-1973,
+                                 undated</date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1964-1973,
+                              undated</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1965-1976</date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1965-1976</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1965, undated</date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1965,
+                              undated</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Moton Development Consortium</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1971-1976</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971-1976</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Reports and notes, <date localtype="inclusive" encodinganalog="245$f">1971, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed materials, <date localtype="inclusive" encodinganalog="245$f">1982-1985, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1982-1985,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Projects and proposals, <date localtype="inclusive" encodinganalog="245$f">1958-1971</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1958-1971</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">Reports</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Black Colleges and Federal Support of
+                           Higher Education," [<date localtype="inclusive" encodinganalog="245$f">1971?</date>]</unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971?</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Title III of the Higher Education Act of
+                           1965 Up-dated," by Willa B. Player, <date localtype="inclusive" encodinganalog="245$f">1983</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1983</unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Study, "Growing Federal Role in Support
+                              of Higher Education," notes and clippings, [<date localtype="inclusive" encodinganalog="245$f">1972</date>] </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rockefeller Foundation, <date localtype="inclusive" encodinganalog="245$f">1965-1966</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1965-1966</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Sloan Foundation, <date localtype="inclusive" encodinganalog="245$f">1969-1971</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1971</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Southern Education Foundation </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Board of directors, minutes, <date localtype="inclusive" encodinganalog="245$f">1965-1983 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1965-1983 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence and memoranda </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date localtype="inclusive" encodinganalog="245$f">1965-1968 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1965-1968 </unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">
+                           <date localtype="inclusive" encodinganalog="245$f">1969-1983 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1983 </unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Financial documents, <date localtype="inclusive" encodinganalog="245$f">1965-1969, 1975</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1965-1969,
+                        1975</unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Internship program, <date localtype="inclusive" encodinganalog="245$f">1972</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous items, <date localtype="inclusive" encodinganalog="245$f">1969-1972, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1972,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed materials, <date localtype="inclusive" encodinganalog="245$f">1976-1987</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1976-1987</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reports</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Federal Funds and Black Colleges," by
+                           Virginia Frank, <date localtype="inclusive" encodinganalog="245$f">1972</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Some Information on Supply and Demand
+                           Related to Child Care and Development in the South," [<date localtype="inclusive" encodinganalog="245$f">1971</date>]</unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Technical Assistance Consortium to Improve
+                     College Services, <date localtype="inclusive" encodinganalog="245$f">1976-1981</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1976-1981</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tuskegee Institute, Tuskegee, Ala.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Army Air Corps, <date localtype="inclusive" encodinganalog="245$f">1943, 1983</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1943, 1983</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Aviation at Tuskegee Institute, <date localtype="inclusive" encodinganalog="245$f">1968, 1979</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1968, 1979</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Board of trustees</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Memoranda, <date localtype="inclusive" encodinganalog="245$f">1967-1987 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1967-1987 </unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Minutes</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date localtype="inclusive" encodinganalog="245$f">1965-1977</date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1965-1977</unitdate>
+                           <physdesc encodinganalog="300">(7 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">28</container>
+                           <unittitle encodinganalog="245$a">
+                              <date localtype="inclusive" encodinganalog="245$f">1978-1986 </date>
+                           </unittitle>
+                           <unitdate unitdatetype="inclusive" encodinganalog="245$f">1978-1986 </unitdate>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Centennial campaign, <date localtype="inclusive" encodinganalog="245$f">1977</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date localtype="inclusive" encodinganalog="245$f">1931-1966 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1931-1966 </unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">
+                           <date localtype="inclusive" encodinganalog="245$f">1967-1988 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1967-1988 </unitdate>
+                        <physdesc encodinganalog="300">(10 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous items, <date localtype="inclusive" encodinganalog="245$f">1909-1987</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1909-1987</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">30</container>
+                     <unittitle encodinganalog="245$a">President's reports, <date localtype="inclusive" encodinganalog="245$f">1969-1985 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1969-1985 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed material</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"A Black Institution Pioneering Adult
+                           Education: Tuskegee Institute Past and Present, 1881-1973," doctoral
+                           dissertation by Velma L. Blackwell, <date localtype="inclusive" encodinganalog="245$f">1973</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>The Changing Status of Southern Agriculture</part>
+                           </title>, <date localtype="inclusive" encodinganalog="245$f">1972</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Low Cash Cost Housing</part>
+                           </title>, <date localtype="inclusive" encodinganalog="245$f">1950</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1950</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Report of the Tuskegee Institute Task Force on its Visit to the
+                                 Republic of South Africa</part>
+                           </title>, <date localtype="inclusive" encodinganalog="245$f">1974</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1974</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Rural America and Its People: The Forgotten Area and the
+                                 Forgotten Species</part>
+                           </title>, <date localtype="inclusive" encodinganalog="245$f">1978</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1978</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Tuskegee in Indonesia</part>
+                           </title>, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Tuskegee Institute: The First Fifty Years</part>
+                           </title>, by Anson Phelps Stokes, <date localtype="inclusive" encodinganalog="245$f">1931</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1931</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellaneous printed items, <date localtype="inclusive" encodinganalog="245$f">1909-1983, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1909-1983,
+                           undated</unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">31</container>
+                     <unittitle encodinganalog="245$a">Punch, Pauline and Vernon, <date localtype="inclusive" encodinganalog="245$f">1951-1972</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1951-1972</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">School of Veterinary Medicine</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Architectural plans, <date localtype="inclusive" encodinganalog="245$f">1974</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1974</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1943-1982 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1943-1982 </unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellaneous items, <date localtype="inclusive" encodinganalog="245$f">1970, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1970,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Newsletters, <date localtype="inclusive" encodinganalog="245$f">1974-1986</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1974-1986</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Printed materials, <date localtype="inclusive" encodinganalog="245$f">1971-1977 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971-1977 </unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Southern Observer</part>
+                        </title>, Tuskegee Institute</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Articles by Patterson, <date localtype="inclusive" encodinganalog="245$f">1959, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1959,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1959</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1959</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Notes, <date localtype="inclusive" encodinganalog="245$f">1958-1959, undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1958-1959,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Tuskegee Institute National Historical Park,
+                           <date localtype="inclusive" encodinganalog="245$f">1972</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Voting rights in Tuskegee, Ala., circa 1940s,
+                        typescript, <date localtype="inclusive" encodinganalog="245$f">undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">United Methodist Church, Black College Fund,
+                        <date localtype="inclusive" encodinganalog="245$f">1973-1984, undated</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1984,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">United Negro College Fund</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1974-1988, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1974-1988,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Oral history interview with
+                        Patterson</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1980-1982</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1980-1982</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Transcript, <date localtype="inclusive" encodinganalog="245$f">1981</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1981</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed materials, <date localtype="inclusive" encodinganalog="245$f">1973-1983</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1973-1983</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Thirtieth anniversary dinner, <date localtype="inclusive" encodinganalog="245$f">1974</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1974</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Wilson-Clark Institutional Services, <date localtype="inclusive" encodinganalog="245$f">1974</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1974</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">33-37</container>
+               <unittitle id="clipfile" encodinganalog="245$a">Clippings File, <date normal="1939/1981">1939-1981</date>
+               </unittitle>
+               <unitdate normal="1939/1981" encodinganalog="245$f" era="ce" calendar="gregorian">1939-1981</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Newspaper clippings, pamphlets, and articles culled from academic journals and
+                  popular magazines. Also included are a number of draft and printed copies of
+                  Patterson's writings and speeches located primarily under the headings "Authors"
+                  and "Frederick D. Patterson" and scattered elsewhere in the series under various
+                  topics. Patterson's original subject classification scheme has largely been
+                  maintained. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Materials are arranged alphabetically first by broad subject headings and then
+                  narrower ones. A list of the subheadings with their assigned numerical
+                  classifications is located at the beginning of the first folder of each broad
+                  heading. Also, a master index is located in the first folder of the series. Items
+                  in the "Authors" and "Public Figures" folders are not filed by the original
+                  classification number but have been rearranged alphabetically by name. Similarly,
+                  the "Frederick D. Patterson" file under the "Authors" heading has been rearranged
+                  so that the materials are filed chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">33</container>
+                  <unittitle encodinganalog="245$a">Index</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">African affairs, <date localtype="inclusive" encodinganalog="245$f">1949-1976</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1949-1976</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Authors, <date localtype="inclusive" encodinganalog="245$f">1942-1979 </date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1942-1979 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"A-O" miscellaneous </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="con33patter" encodinganalog="245$a">Patterson, Frederick D. <ref show="replace" actuate="onrequest" target="con35patter">
+                           <emph render="italic">See also Container 35</emph>, same heading</ref>;
+                           <ref show="replace" actuate="onrequest" target="con39article">
+                           <emph render="italic">Container 39</emph>, Articles by Patterson</ref>;
+                        and <ref show="replace" actuate="onrequest" target="con41speech">
+                           <emph render="italic">Container 41</emph>, Speeches and writings by
+                           Patterson </ref>
+                     </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date localtype="inclusive" encodinganalog="245$f">1945-1963 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1945-1963 </unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">34</container>
+                        <unittitle encodinganalog="245$a">
+                           <date localtype="inclusive" encodinganalog="245$f">1967-1976 </date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1967-1976 </unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"P-W" miscellaneous </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Board memberships, <date localtype="inclusive" encodinganalog="245$f">1952-1957 </date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1952-1957 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Democracy, <date localtype="inclusive" encodinganalog="245$f">1949-1964</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1949-1964</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Educational institutions, <date localtype="inclusive" encodinganalog="245$f">1945-1976 </date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1945-1976 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">35</container>
+                  <unittitle encodinganalog="245$a">Foundations, <date localtype="inclusive" encodinganalog="245$f">1948-1981 </date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1948-1981 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Higher education, <date localtype="inclusive" encodinganalog="245$f">1948-1962</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1948-1962</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">National affairs, <date localtype="inclusive" encodinganalog="245$f">1951-1952, undated</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1951-1952,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Negroes, <date localtype="inclusive" encodinganalog="245$f">1949</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1949</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="con35patter" encodinganalog="245$a">Patterson, Frederick D., <date localtype="inclusive" encodinganalog="245$f">1949-1976 </date>
+                     <ref show="replace" actuate="onrequest" target="con33patter">
+                        <emph render="italic">See also Container 33</emph>, same heading</ref>; and
+                        <ref show="replace" actuate="onrequest" target="con40clip">
+                        <emph render="italic">Container 40</emph>, Clippings about Patterson</ref>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1949-1976 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Philanthropy, <date localtype="inclusive" encodinganalog="245$f">1950-1977</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1950-1977</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Public figures, <date localtype="inclusive" encodinganalog="245$f">1948-1975 </date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1948-1975 </unitdate>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">36</container>
+                  <unittitle encodinganalog="245$a">Red Cross, <date localtype="inclusive" encodinganalog="245$f">1950-1951</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1950-1951</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Regionalism, <date localtype="inclusive" encodinganalog="245$f">1949-1955</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1949-1955</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Religion, <date localtype="inclusive" encodinganalog="245$f">undated</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">The South, <date localtype="inclusive" encodinganalog="245$f">1939-1965 </date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1939-1965 </unitdate>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tuskegee Institute, Tuskegee, Ala., <date localtype="inclusive" encodinganalog="245$f">1948-1973 </date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1948-1973 </unitdate>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">37</container>
+                  <unittitle encodinganalog="245$a">United Negro College Fund, <date localtype="inclusive" encodinganalog="245$f">1948-1968 </date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1948-1968 </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous, <date localtype="inclusive" encodinganalog="245$f">1944-1967 </date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1944-1967 </unitdate>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">38-41</container>
+               <unittitle id="miscella" encodinganalog="245$a">Miscellany, <date normal="1861/1988">1861-1988</date>
+               </unittitle>
+               <unitdate normal="1861/1988" encodinganalog="245$f" era="ce" calendar="gregorian">1861-1988</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Draft and printed copies of speeches and writings, personal clippings, printed
+                  materials, notes, land and financial documents, biographical materials,
+                  certificates and awards, and assorted memorabilia.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by topic, name of organization, or type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">38</container>
+                  <unittitle encodinganalog="245$a">Address books, [<date localtype="inclusive" encodinganalog="245$f">1950-1964?</date>]</unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1950-1964?</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Biographical materials</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Materials related to memoirs, <title localtype="simple">
+                           <part>Chronicles of Faith</part>
+                        </title>
+                     </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date localtype="inclusive" encodinganalog="245$f">1985-1988</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">1985-1988</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Notes, drafts, etc., <date localtype="inclusive" encodinganalog="245$f">undated</date>
+                        </unittitle>
+                        <unitdate unitdatetype="inclusive" encodinganalog="245$f">undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Résumés and related items, <date localtype="inclusive" encodinganalog="245$f">1935-1988</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1935-1988</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Certificates, <date localtype="inclusive" encodinganalog="245$f">1923-1987</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1923-1987</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Financial documents, <date localtype="inclusive" encodinganalog="245$f">1938-1971</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1938-1971</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Funeral services for Patterson, <date localtype="inclusive" encodinganalog="245$f">1988</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1988</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Identification and calling cards, <date localtype="inclusive" encodinganalog="245$f">1953-1982, undated</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1953-1982,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">39</container>
+                  <unittitle encodinganalog="245$a">Invitations, <date localtype="inclusive" encodinganalog="245$f">1957-1988, undated </date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1957-1988, undated </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Land and pension documents, <date localtype="inclusive" encodinganalog="245$f">1861-1951</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1861-1951</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous items, <date localtype="inclusive" encodinganalog="245$f">1959-1979, undated</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1959-1979,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notes and unidentified drafts, <date localtype="inclusive" encodinganalog="245$f">1959-1981, undated </date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1959-1981, undated </unitdate>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40</container>
+                  <unittitle encodinganalog="245$a">Printed material</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="con39article" encodinganalog="245$a">Articles by Patterson,
+                           <date localtype="inclusive" encodinganalog="245$f">1943-1975,
+                           undated</date>
+                        <ref show="replace" actuate="onrequest" target="con33patter">
+                           <emph render="italic">See also Container 33</emph>, Patterson, Frederick
+                           D</ref>.; and <ref show="replace" actuate="onrequest" target="con41speech">
+                           <emph render="italic">Container 41</emph>, Speeches and writings by
+                           Patterson</ref>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1943-1975,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Awards and memorial publications, <date localtype="inclusive" encodinganalog="245$f">1953-1987</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1953-1987</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="con40clip" encodinganalog="245$a">Clippings about Patterson,
+                           <date localtype="inclusive" encodinganalog="245$f">1935, 1946-1988,
+                           undated</date>
+                        <ref show="replace" actuate="onrequest" target="con33patter">
+                           <emph render="italic">See also Container 33</emph>, Patterson, Frederick
+                           D.</ref>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1935, 1946-1988,
+                        undated</unitdate>
+                     <physdesc encodinganalog="300">(9 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous items, <date localtype="inclusive" encodinganalog="245$f">1940-1985</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1940-1985</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">41</container>
+                     <unittitle encodinganalog="245$a">Programs, <date localtype="inclusive" encodinganalog="245$f">1953-1986</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1953-1986</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Signs and Services Co., <date localtype="inclusive" encodinganalog="245$f">1966-1973</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1966-1973</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="con41speech" encodinganalog="245$a">Speeches and writings by
+                     Patterson</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Black colleges, <date localtype="inclusive" encodinganalog="245$f">1959-1979, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1959-1979,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">College speeches, <date localtype="inclusive" encodinganalog="245$f">1963-1984</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1963-1984</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Eulogies for Black leaders, <date localtype="inclusive" encodinganalog="245$f">1971-1977</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1971-1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Letters to editors, <date localtype="inclusive" encodinganalog="245$f">1963-1987</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1963-1987</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous items, <date localtype="inclusive" encodinganalog="245$f">1972-1982, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1972-1982,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Personal notes," <date localtype="inclusive" encodinganalog="245$f">1963-1968</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1963-1968</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Spirit of Moton," <date localtype="inclusive" encodinganalog="245$f">undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Tuskegee Institute, Tuskegee, Ala., <date localtype="inclusive" encodinganalog="245$f">1935-1983 </date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1935-1983 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">United Negro College Fund, <date localtype="inclusive" encodinganalog="245$f">1963-1985, undated</date>
+                     </unittitle>
+                     <unitdate unitdatetype="inclusive" encodinganalog="245$f">1963-1985,
+                        undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Telegrams, <date localtype="inclusive" encodinganalog="245$f">1956-1979</date>
+                  </unittitle>
+                  <unitdate unitdatetype="inclusive" encodinganalog="245$f">1956-1979</unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

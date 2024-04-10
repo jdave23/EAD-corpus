@@ -1,0 +1,3407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms011005">loc.mss/eadmss.ms011005</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Louise Bates Ames Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm79010868">https://lccn.loc.gov/mm79010868</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-01">2023 January</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2011">2011</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Louise Bates Ames Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1915/1989">1915-1989</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1950/1975">1950-1975</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1915/1989"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1915-1989</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1950/1975"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1950-1975</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS10868</unitid>
+         <origination label="Creator">
+            <persname source="lcnaf" encodinganalog="100">
+               <part>Ames, Louise Bates</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">14,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">52 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">20.4 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Child psychologist and educator. Personal
+            and professional correspondence, diaries, manuscripts of articles and books, lectures
+            and speeches, subject files, bibliography, photographs, newspaper clippings,
+            biographical material on the Bates family, and other papers chiefly documenting Ames's
+            career as a child psychologist.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220930170140.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Ames, Louise Bates.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bates family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bates, Annie E.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Chase, Joan Ames--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Culbertson, James T. (James Thomas), 1911- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Dodson, Fitzhugh, 1923- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Elicker, Paul H.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Gesell, Arnold, 1880-1961--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Gesell, Gerhard Alden, 1910-1993--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Ilg, Frances L. (Frances Lillian), 1902-1981. Frances Lillian Ilg
+                  papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Johnson, Eric W.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lye, Len, 1901-1980--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Mead, Margaret, 1901-1978--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Moynihan, Daniel P. (Daniel Patrick), 1927-2003--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Métraux, Guy S. (Guy Serge)--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Métraux, Ruth W.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Packard, Vance, 1914-1996--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pitcher, Evelyn Goodenough--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Slosson, Richard L.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Spock, Benjamin, 1903-1998--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Zingg, Robert M. (Robert Mowry), 1900-1957. Robert M. Zingg research
+                  files.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Gesell Institute of Child Development.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Department of Health, Education, and Welfare.</part>
+            </corpname>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>White House Conference on Children (1970 : Washington, D.C.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Yale University. Child Study Center.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Yale University. Clinic of Child Development.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Advice columns.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Child development.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Child psychology.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Feral children.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Mental health facilities--Connecticut--New Haven.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Child psychologists.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Educators.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of Louise Bates Ames, child psychologist and educator, were given to the
+            Library of Congress by Ames and Frances Lillian Ilg in 1964. Ames made subsequent gifts
+            between 1966 and 1996.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The Ames Papers were processed by David Mathisen in 1996. The finding aid was revised
+            and expanded by Margaret McAleer with the assistance of John Monagle in 2010. The
+            finding aid was updated in 2023 by Maria Farmer as part of a division-wide remediation
+            project by the Inclusive Description Working Group.</p>
+      </processinfo>
+      <separatedmaterial>
+         <head>Transfers</head>
+         <p> Items have been transferred from the Manuscript Division to other custodial divisions
+            of the Library. Some photographs were transferred to the Prints and Photographs
+            Division. Sound and video recordings were transferred to the Motion Picture,
+            Broadcasting, and Recorded Sound Division. All transfers are identified in these
+            divisions as part of the Louise Bates Ames Papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of Louise Bates Ames in these papers and in other
+            collections of papers in the custody of the Library of Congress has been dedicated to
+            the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506">
+         <head>Access and Restrictions</head>
+         <p>The papers of Louise Bates Ames are open to research. Researchers are advised to contact
+            the Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Louis Bates Ames Papers, Manuscript Division, Library of Congress,
+            Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1908, Oct. 29</datesingle>
+               <event>Born, Portland, Maine</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1930</datesingle>
+               <chronitemset>
+                  <event>Married Smith Whittier Ames (divorced 1937)</event>
+                  <event>B.A., University of Maine, Orono, Maine</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1933</datesingle>
+               <event>M.A., University of Maine, Orono, Maine</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1933</fromdate>
+                  <todate>1936</todate>
+               </daterange>
+               <event>Research secretary and personal assistant to Arnold Gesell, Clinic of Child
+                  Development, Yale University, New Haven, Conn.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1936</datesingle>
+               <event>Ph.D., Yale University, New Haven, Conn.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1938</datesingle>
+               <event>Produced first film, "How Behavior Grows: The Sequential Patterning of Prone
+                  Progression"</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1940</fromdate>
+                  <todate>1944</todate>
+               </daterange>
+               <event>Instructor, Clinic of Child Development, Yale University, New Haven,
+                  Conn.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1943</datesingle>
+               <event>Published with Arnold Gesell, Frances Lillian Ilg, and Janet Learned <title localtype="simple">
+                     <part> Infant and Child in the Culture of Today: The Guidance of Development in
+                        Home and Nursery School</part>
+                  </title> (New York: Harper &amp; Brothers. 405 pp.)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1944</fromdate>
+                  <todate>1950</todate>
+               </daterange>
+               <event>Assistant Professor and curator of the Yale Films of Child Development, Clinic
+                  of Child Development, Yale University, New Haven, Conn.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1946</datesingle>
+               <event>Published with Arnold Gesell, Frances Lillian Ilg, and Glenna E. Bullis <emph render="italic">Child from Five to Ten</emph> (New York: Harper &amp; Brothers.
+                  458 pp.)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1950</datesingle>
+               <event>Founded with Frances Lillian Ilg the Gesell Institute of Child Development,
+                  New Haven, Conn.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1950</fromdate>
+                  <todate>1968</todate>
+               </daterange>
+               <event>Director of research and secretary-treasurer, Gesell Institute of Child
+                  Development, New Haven, Conn.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1951</fromdate>
+                  <todate>1973</todate>
+               </daterange>
+               <event>Coauthor of syndicated newspaper column Child Behavior (after 1962 called
+                  Parents Ask)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1952</fromdate>
+                  <todate>1955</todate>
+               </daterange>
+               <event>Weekly television series, Child Behavior </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1960</fromdate>
+                  <todate>1961</todate>
+               </daterange>
+               <event>Weekly television series, The Gesell Institute Reports: Your Child and You
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1965</datesingle>
+               <event>Published with Frances Lillian Ilg <title localtype="simple">
+                     <part>School Readiness: Behavior Tests Used at the Gesell Institute</part>
+                  </title> (New York: Harper &amp; Row. 396 pp.)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1968</datesingle>
+               <event>Associate director and chief psychologist, Gesell Institute of Child
+                  Development, New Haven, Conn.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1970</datesingle>
+               <event>Published <emph render="italic">Child Care and Development</emph>
+                  (Philadelphia: Lippincott Co. 426 pp.)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1971</fromdate>
+                  <todate>1977</todate>
+               </daterange>
+               <event>Codirector, Gesell Institute of Child Development, New Haven, Conn.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1973</datesingle>
+               <event>Published <title localtype="simple">
+                     <part>Rorschach Responses in Old Age</part>
+                  </title> (New York: Brunner/Mazel. 219 pp.)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1974</datesingle>
+               <event>Published with Joan Ames Chase <title localtype="simple">
+                     <part>Don't Push Your Pre-schooler</part>
+                  </title> (New York: Harper &amp; Row. 212 pp.)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1976</datesingle>
+               <event>Published series on child development with Frances Lillian Ilg, beginning with
+                     <title localtype="simple">
+                     <part>Your Two-Year-Old: Terrible or Tender</part>
+                  </title> (New York: Delacorte Press. 149 pp.)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1978</datesingle>
+               <event>Gesell Institute of Child Development, New Haven, Conn., renamed Gesell
+                  Institute of Human Development, New Haven, Conn.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1989</datesingle>
+               <event>Published <title localtype="simple">
+                     <part>Arnold Gesell: Themes of His Work</part>
+                  </title> (New York: Human Sciences Press. 334 pp.)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1990</datesingle>
+               <event>Reaffiliation of the Gesell Institute of Human Development with Yale
+                  University, New Haven, Conn.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1991</datesingle>
+               <event>Lecturer, Child Study Center, Yale University, New Haven, Conn.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1996, Oct. 31</datesingle>
+               <event>Died, Cincinnati, Ohio</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Louise Bates Ames (1908-1996) span the period 1915-1989, with the bulk of
+            the material dating from 1950 to 1975. The collection consists primarily of
+            correspondence and manuscript material relating to Ames's career as a child
+            psychologist, cofounder and codirector of the Gesell Institute of Child Development, and
+            author of numerous books and articles on child behavior and child development. Included
+            in the collection are family correspondence, correspondence with friends and
+            professional associates, a sampling of letters related to the syndicated newspaper
+            column Parents Ask, and manuscripts and related correspondence for several of Ames's
+            books and articles. The collection is organized in six original series and five
+            additions. The original series include <ref show="replace" actuate="onrequest" target="famcorres"> Family Correspondence </ref>, <ref show="replace" actuate="onrequest" target="speccorres"> Special Correspondence </ref>, <ref show="replace" actuate="onrequest" target="gencorres"> General Correspondence </ref>,
+               <ref show="replace" actuate="onrequest" target="parentsask"> "Parents Ask" Newspaper
+               Column </ref>, <ref show="replace" actuate="onrequest" target="writs"> Writings
+            </ref>, and <ref show="replace" actuate="onrequest" target="miscella"> Miscellany
+            </ref>. The additions are dated according to the year of their arrangement and contain
+            material organized in the same schema as the original part.</p>
+         <p>Ames's career as a child psychologist began in 1933 when she joined the staff of the
+            Yale Clinic of Child Development as research secretary and personal assistant to the
+            director, Arnold Gesell, with whom she worked until 1948. She received her doctorate in
+            psychology from Yale University in 1936; was curator of the Yale Films of Child
+            Development, 1944-1950; and participated in the development of articles, books, and
+            research projects in the field of child psychology. Material in the collection which
+            relates to this period may be found in the following series: <ref show="replace" actuate="onrequest" target="famcorres"> Family Correspondence </ref>, especially
+            letters to Annie E. Bates; <ref show="replace" actuate="onrequest" target="speccorres">
+               Special Correspondence </ref>, in particular correspondence with James T. Culbertson,
+            Paul H. Elicker, Guy S. Métraux, and Ruth W. Métraux; <ref show="replace" actuate="onrequest" target="writs"> Writings File </ref>, "Guide to the Yale Films of
+            Child Development" by Louise Bates Ames; and <ref show="replace" actuate="onrequest" target="miscella"> Miscellany </ref> containing a diary, 1928-1937, and annual
+            reports, 1939-1949.</p>
+         <p>After Gesell's retirement, the clinic separated from Yale University, and in 1950, Ames
+            and her associate, Frances Lillian Ilg, founded the Gesell Institute of Child
+            Development. The institute's name changed to the Gesell Institute of Human Development
+            in 1978. The Gesell Institute is a private, nonprofit corporation for clinical research
+            in the field of child psychology. Ames was Director of Research at the Institute until
+            1968 when she became codirector. In conjunction with her study of children's behavior at
+            successive age intervals, Ames became one of the pioneers of rorschach psychological
+            testing. References to this and other aspects of her work may be found in the <ref show="replace" actuate="onrequest" target="famcorres"> Family </ref> and <ref show="replace" actuate="onrequest" target="speccorres"> Special Correspondence </ref>
+            series, in particular, the letters of Annie E. Bates, Joan Ames Chase, Len Lye, Guy S.
+            Métraux, Ruth W. Métraux, and Evelyn Goodenough Pitcher. More detailed information about
+            rorschach testing may be found in Ames's numerous books and articles, bibliographies of
+            which are in <ref show="replace" actuate="onrequest" target="miscella"> Miscellany
+            </ref>.</p>
+         <p>As the work of the Gesell Institute became increasingly recognized, requests for
+            lectures, television appearances, and articles began to increase as well. This aspect of
+            Ames's career is well documented in her papers. In the <ref show="replace" actuate="onrequest" target="speccorres"> Special Correspondence </ref> series are
+            files relating to her two television series, <title localtype="simple">
+               <part>Child Behavior</part>
+            </title> and <title localtype="simple">
+               <part>The Gesell Institute Reports: Your Child and You</part>
+            </title>. In 1951, Ames and Ilg began their syndicated newspaper column, Child Behavior,
+            which in 1962 became known as Parents Ask. A sampling of unedited letters from the
+            column for the period 1954-1964 is included in the collection as well as two sets of the
+            edited and published columns covering the years 1967-1968. Research files of Robert M.
+            Zingg on "wolf-children" are included in the <ref show="replace" actuate="onrequest" target="addit77"> 1977 addition </ref>.</p>
+         <p>Ames corresponded with numerous friends, colleagues, and associates, many of whom were
+            prominent in their fields. Among those whose letters are contained in the <ref show="replace" actuate="onrequest" target="speccorres"> Special Correspondence </ref>
+            series are Fitzhugh Dodson, Arnold Gesell, Gerhard Alden Gesell, Len Lye, Margaret Mead,
+            Daniel P. Moynihan, Vance Packard, and Benjamin Spock. Also in the <ref show="replace" actuate="onrequest" target="speccorres"> Special Correspondence </ref> series are
+            files concerning Ames's work with the Department of Health, Education, and Welfare and
+            the White House Conference on Children and Youth in 1970-1971.</p>
+         <p>Among the papers are drafts, readers' proofs, and publishers' correspondence for seven
+            of Ames's books: <title localtype="simple">
+               <part> Child Care and Development </part>
+            </title>(1970), <title localtype="simple">
+               <part>Don't Push Your Pre-Schooler</part>
+            </title> (1973), <title localtype="simple" render="italic">
+               <part>Infant and Child in the Culture of Today</part>
+            </title> (revised edition 1974), <title localtype="simple">
+               <part>Is Your Child in the Wrong Grade?</part>
+            </title> (1967), <title localtype="simple">
+               <part>Mosaic Patterns of American Children</part>
+            </title> (1962), <title localtype="simple">
+               <part>School Readiness</part>
+            </title> (1964), and <title localtype="simple">
+               <part>Stop School Failure</part>
+            </title> (1972). In addition, there is correspondence relating to several book reviews
+            and a draft essay for inclusion in the book <title localtype="simple">
+               <part>Summerhill: For and Against</part>
+            </title>, published in 1970 by Hart Publishing Company.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>The collection is arranged in eleven series:</p>
+         <list listtype="unordered" mark="circle">
+            <item>
+               <ref show="replace" actuate="onrequest" target="famcorres"> Family Correspondence,
+                  1915-1975 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="speccorres"> Special Correspondence,
+                  1935-1975 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="gencorres"> General Correspondence,
+                  1941-1974 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="parentsask"> "Parents Ask" Newspaper
+                  Column, 1954-1968 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="writs"> Writings, 1947-1974 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="miscella"> Miscellany, 1922-1975
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="addit77"> 1977 Addition, 1937-1977
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="addit84"> 1984 Addition, 1940-1983
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="addit87"> 1987 Addition,1941-1986
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="addit88"> 1988 Addition, 1941-1988
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="addit96"> 1996 Addition, circa
+                  1945-1996 </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Box</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-2</container>
+               <unittitle id="famcorres" encodinganalog="245$a">Family Correspondence, <date normal="1915/1975">1915-1975</date>
+               </unittitle>
+               <unitdate normal="1915/1975" encodinganalog="245$f" era="ce" calendar="gregorian">1915-1975</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence to and from family members, in particular Ames's mother, Annie E.
+                  Bates, and daughter, Joan Ames Chase. Included are Bates's rorschach responses
+                  that became the basis for Ames's <title localtype="simple">
+                     <part>Rorschach Responses in Old Age</part>
+                  </title>. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by name of correspondent.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Ames, Smith Whittier (former husband), <date encodinganalog="245$f">1946-1975</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1946-1975</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bates, Annie E. (mother)</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1915-1916, 1932-1944, 1954-1963 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1915-1916, 1932-1944,
+                        1954-1963 </unitdate>
+                     <physdesc encodinganalog="300">(13 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Rorschach responses, <date encodinganalog="245$f">1948-1963</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1948-1963</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bates, Kay (sister-in-law), <date encodinganalog="245$f">1957</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1957</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Chase, Joan Ames (daughter), <date encodinganalog="245$f">1953-1970 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1953-1970 </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Spaulding, Ella (aunt), <date encodinganalog="245$f">1957-1960</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1957-1960</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2-7</container>
+               <unittitle id="speccorres" encodinganalog="245$a">Special Correspondence, <date normal="1935/1975">1935-1975</date>
+               </unittitle>
+               <unitdate normal="1935/1975" encodinganalog="245$f" era="ce" calendar="gregorian">1935-1975</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence to and from friends, colleagues, child psychologists, authors,
+                  newspaper editors, television producers, and government officials. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by name of correspondent.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Boppert, Walter T., <date encodinganalog="245$f">1971-1975 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1971-1975 </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Collier, Herbert L., <date encodinganalog="245$f">1971-1973</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1971-1973</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Culbertson, James T.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1937-1940 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1937-1940 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1941-1946, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1941-1946, undated </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Dodd, Thomas J., <date encodinganalog="245$f">1961-1964</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1961-1964</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Dodson, Fitzhugh, <date encodinganalog="245$f">1969-1973</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1969-1973</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Elicker, Paul H., <date encodinganalog="245$f">1943-1946</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1943-1946</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Gesell, Arnold, <date encodinganalog="245$f">1935-1964</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1935-1964</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Gesell, Gerhard Alden, <date encodinganalog="245$f">1964</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1964</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Goodenough, Evelyn <ref show="replace" actuate="onrequest" target="con7pticher">
+                        <emph render="italic">See Container 7</emph>, Pitcher, Evelyn
+                        Goodenough</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hall Newspaper Syndicate</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1951-1958 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1951-1958 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1959-1969 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1959-1969 </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hart Publishing Co., regarding <title localtype="simple">
+                        <part> Summerhill: For and Against</part>
+                     </title>, <date encodinganalog="245$f">1969-1970</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1969-1970</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Health, Education, and Welfare, Department of,
+                        <date encodinganalog="245$f">1962-1968</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1962-1968</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ilg, Frances Lillian, <date encodinganalog="245$f">1945-1961</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1945-1961</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Johnson, Eric W., <date encodinganalog="245$f">1968-1974</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1968-1974</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Larson, R. K. T. (Kit), <date encodinganalog="245$f">1960-1971</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1960-1971</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Lye, Len, <date encodinganalog="245$f">1945-1967, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1945-1967, undated </unitdate>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Mead, Margaret, <date encodinganalog="245$f">1952-1954</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1952-1954</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Métraux, Ruth W. and Guy S., <date encodinganalog="245$f">1942-1974 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1942-1974 </unitdate>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Moore, Raymond S., <date encodinganalog="245$f">1972-1974</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1972-1974</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Moynihan, Daniel P., <date encodinganalog="245$f">1969-1970</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1969-1970</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Packard, Vance, <date encodinganalog="245$f">1965-1969</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1965-1969</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Perris, Donald L., <date encodinganalog="245$f">1960-1969</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1960-1969</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle id="con7pticher" encodinganalog="245$a">Pitcher, Evelyn Goodenough,
+                        <date encodinganalog="245$f">1959-1964</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1959-1964</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Sands, Alan, <date encodinganalog="245$f">1955-1958 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1955-1958 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">See, Harold P., <date encodinganalog="245$f">1961-1964 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1961-1964 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Silberberg, Norman E., <date encodinganalog="245$f">1969-1974</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1969-1974</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Silverthorne, Henry, <date encodinganalog="245$f">1954-1963</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1954-1963</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Slosson, Richard L., <date encodinganalog="245$f">1961-1967</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1961-1967</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Spock, Benjamin, <date encodinganalog="245$f">1961-1962</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1961-1962</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Taylor, John I., <date encodinganalog="245$f">1952-1957</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1952-1957</unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">U.S. Public Health Service, <date encodinganalog="245$f">1948</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1948</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">White House Conference on Children and Youth,
+                        <date encodinganalog="245$f">1970-1971 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970-1971 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">8-9</container>
+               <unittitle id="gencorres" encodinganalog="245$a">General Correspondence, <date normal="1941/1974">1941-1974</date>
+               </unittitle>
+               <unitdate normal="1941/1974" encodinganalog="245$f" era="ce" calendar="gregorian">1941-1974</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters to and from the general public regarding the column Parents Ask and from
+                  psychologists and students concerning research projects and books. Some business
+                  correspondence is also included.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1941-1963 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1941-1963 </unitdate>
+                  <physdesc encodinganalog="300">(11 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1964-1974, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1964-1974, undated </unitdate>
+                  <physdesc encodinganalog="300">(11 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">10-16</container>
+               <unittitle id="parentsask" encodinganalog="245$a">"Parents Ask" Newspaper Column,
+                     <date normal="1954/1968">1954-1968</date>
+               </unittitle>
+               <unitdate normal="1954/1968" encodinganalog="245$f" era="ce" calendar="gregorian">1954-1968</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>A sampling of letters to and from readers of the syndicated column Parents Ask
+                  (called Child Behavior until 1962) and a set of columns for the years 1967-1968.
+               </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Letters are arranged chronologically by year and thereunder alphabetically by name
+                  of correspondent. Columns are arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Letters from readers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1954-1956 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1954-1956 </unitdate>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1957</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1957</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">11</container>
+                        <unittitle encodinganalog="245$a">M-W</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1958-1960 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1958-1960 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1961</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1961</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">12</container>
+                        <unittitle encodinganalog="245$a">D-Y and anonymous </unittitle>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1962</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1962</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-L </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">13</container>
+                        <unittitle encodinganalog="245$a">L-Y and anonymous </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1963</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1963</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Ac-Mc </unittitle>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a">Me-Wo and anonymous </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1964</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1964</unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Column</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1967</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1967</unitdate>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1968</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1968</unitdate>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">17-26</container>
+               <unittitle id="writs" encodinganalog="245$a">Writings, <date normal="1947/1974">1947-1974</date>
+               </unittitle>
+               <unitdate normal="1947/1974" encodinganalog="245$f" era="ce" calendar="gregorian">1947-1974</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Drafts, proofs, and publishers' correspondence relating to Ames's books and a
+                  small collection of articles written by others. Books are arranged alphabetically
+                  by title. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Articles are arranged alphabetically by name of author.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>Child Care and Development</part>
+                     </title>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Rand McNally and Co., <date encodinganalog="245$f">1966-1970 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966-1970 </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">J. B. Lippincott Co., <date encodinganalog="245$f">1968-1970</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1968-1970</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Preliminary chapter outlines, <date encodinganalog="245$f">1966-1969</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966-1969</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Draft </unittitle>
+                     <physdesc encodinganalog="300">(9 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Draft </unittitle>
+                     <physdesc encodinganalog="300">(17 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>Don't Push Your Pre-Schooler</part>
+                     </title>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript </unittitle>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Carbon copy </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reader's proof </unittitle>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>Infant and Child in the Culture of Today</part>
+                     </title>, typescript for revised edition, <date encodinganalog="245$f">1974</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974</unitdate>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>Is Your Child in the Wrong Grade?</part>
+                     </title>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, Harper &amp; Row, Publishers,
+                           <date encodinganalog="245$f">1966</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Outlines</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">First draft </unittitle>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printer's copy </unittitle>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>Mosaic Patterns of American Children</part>
+                     </title>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1950-1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1950-1964 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript </unittitle>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">Typescript </unittitle>
+                     <physdesc encodinganalog="300">(7 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>School Readiness</part>
+                     </title>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typescript</unittitle>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">Typescript</unittitle>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Carbon copy </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">Carbon copy </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>Stop School Failure</part>
+                     </title>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Harper &amp; Row, Publishers, <date encodinganalog="245$f">1970-1972</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970-1972</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">J. B. Lippincott Co., <date encodinganalog="245$f">1969-1970</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1969-1970</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Manuscript No. 1 </unittitle>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">Manuscript No. 2 </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reader's proof </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>Guide to the Yale Films of Child Development</part>
+                     </title>, 1947</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Blanchard, Irene</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"A Study of Articulation Tests Suitable for
+                        Use with Institutionalized Mentally Retarded Children"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">"Diagnostic Patterns of
+                        Articulation"</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cohen, Wilbur J., and Wallace K. Babington,
+                     "Implications of 1965 Federal Legislation for Mental Retardation"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Crouch, Zilpha B., "Various Aspects of Teaching
+                     the Mentally Retarded Child with Emphasis on Information Value to the Speech
+                     Therapist"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Waldon, Edgar F.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"The Baby Cry Test: A Meaningful Acoustic
+                        Signal for Testing Subnormal Children"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"The Baby Cry Test (BCT): A New Audiometric
+                        Technique for Testing Very Young Children"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Testing Hearing of Subnormal
+                        Children"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Testing of Infants: Implications for
+                        Audio-Reflexometry"</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">26</container>
+               <unittitle id="miscella" encodinganalog="245$a">Miscellany, <date normal="1922/1975">1922-1975</date>
+               </unittitle>
+               <unitdate normal="1922/1975" encodinganalog="245$f" era="ce" calendar="gregorian">1922-1975</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Annual reports, awards, a diary, appointment calendars, lists of lectures,
+                  newspaper clippings, and receipts.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <unittitle encodinganalog="245$a">Annual reports, <date encodinganalog="245$f">1939-1949</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1939-1949</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Appointment calendars, <date encodinganalog="245$f">1953, 1960</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1953, 1960</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Awards, bibliographies, and biographies, <date encodinganalog="245$f">1957-1974 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1957-1974 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bibliography, <date encodinganalog="245$f">1933-1965</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1933-1965</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Certification, American Psychological
+                     Association, <date encodinganalog="245$f">1943</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1943</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Diary, <date encodinganalog="245$f">1928-1937</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1928-1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lists of lectures, <date encodinganalog="245$f">1952-1975</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1952-1975</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Journal of lectures, <date encodinganalog="245$f">1966-1967</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966-1967</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">News clippings, <date encodinganalog="245$f">1964-1965, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1964-1965,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pamphlets, <date encodinganalog="245$f">1951-1952, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1951-1952,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Poem, <date encodinganalog="245$f">1922</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1922</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Receipts, <date encodinganalog="245$f">1957-1963</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1957-1963</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">27-31</container>
+               <unittitle id="addit77" encodinganalog="245$a">1977 Addition, <date normal="1937/1977">1937-1977</date>
+               </unittitle>
+               <unitdate normal="1937/1977" encodinganalog="245$f" era="ce" calendar="gregorian">1937-1977</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence with family, friends, colleagues, publishers, and the public; a
+                  subject file concerning the television program <title localtype="simple">
+                     <part>Playmates/Schoolmates</part>
+                  </title>; a writings file largely concerning <title localtype="simple">
+                     <part>Don't Push Your Pre-schooler</part>
+                  </title>; and miscellany. Also included are research files of Robert M. Zingg on
+                  "wolf-children."</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p> Arranged by family correspondence, special correspondence, general
+                  correspondence, subject file, writings file, miscellany, and the Robert M. Zingg
+                  Papers and alphabetically thereunder by name of person, subject, or type of
+                  material. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <unittitle encodinganalog="245$a">Family correspondence, Ames, Smith Whittier
+                     (former husband), <date encodinganalog="245$f">1937-1977</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1937-1977</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Special correspondence </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Arthur, Phyllis-Marie, <date encodinganalog="245$f">1945-1977</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1945-1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dickinson, Alice, <date encodinganalog="245$f">1974-1977</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974-1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hobson, Dick, <date encodinganalog="245$f">1948-1957</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1948-1957</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lowenfeld, Margaret, <date encodinganalog="245$f">1966-1970</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966-1970</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lye, Ann and Len, <date encodinganalog="245$f">1962-1975</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1962-1975</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Métraux, Ruth W., <date encodinganalog="245$f">1966-1967</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966-1967</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ostler, Renée, <date encodinganalog="245$f">1967</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1967</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Perris, Donald L. and Barbara, <date encodinganalog="245$f">1964-1977</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1964-1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rodell, Fred and Janet, <date encodinganalog="245$f">1953-1976</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1953-1976</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Von Hilsheimer, George, <date encodinganalog="245$f">1967-1977</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1967-1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wunderlich, Ray C., <date encodinganalog="245$f">1965-1975</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1965-1975</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">General correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"A-Z" miscellaneous, <date encodinganalog="245$f">1968-1977 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1968-1977 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence with publisher regarding books
+                        reviewed by Ames, <date encodinganalog="245$f">1962-1974</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1962-1974</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Letters from fans, <date encodinganalog="245$f">1952-1977</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1952-1977</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Subject file, <title localtype="simple">
+                        <part>Playmates/Schoolmates, </part>
+                     </title>television program, <date encodinganalog="245$f">1975-1976</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1975-1976</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Writings file </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Don't Push Your Pre-schooler</part>
+                        </title>, by Ames and Joan Ames Chase, correspondence, <date encodinganalog="245$f">1972-1975</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1972-1975</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Robert L. Lewin/Mill Pond Press project,
+                           <date encodinganalog="245$f">1972-1977 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1972-1977 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Letter from Arnold Gesell to Joan Ames Chase,
+                           <date encodinganalog="245$f">1952</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1952</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Schedule of lecture and television
+                        appearances, <date encodinganalog="245$f">1976-1977</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1976-1977</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Robert M. Zingg papers </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1937-1945</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1937-1945</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"A-Z" miscellaneous </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Allen &amp; Unwin Ltd.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>American Journal of Psychology</part>
+                           </title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>The American Weekly</part>
+                           </title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Davis, Kingsley</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Dennis, Wayne</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Eckels, Richard P.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Gates, R. R. </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Gesell, Arnold</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">30</container>
+                        <unittitle encodinganalog="245$a">Harper &amp; Brothers</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Hollander, Sidney</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Houghton Mifflin Co.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Hutton, J. H.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Life</part>
+                           </title> magazine</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Literary Services-Mondiale
+                           Ltd.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Maxfield, Francis</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Pakenham, Walsh H.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Redfield, Robert</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Singh, J. A. L.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Singh, Mrs. J. A. L.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Vanguard Press </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Wirth, Louis</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Subject file</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Baboon" boy of South Africa</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">The "Tarzancito" case</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">31</container>
+                     <unittitle encodinganalog="245$a">Writings file</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Gesell, Arnold, chronology of the
+                           "wolf-children" </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellany </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Singh, J. A. L., "Diary of the
+                           wolf-children of Midnapore" </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Zingg, Robert M. </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Newspaper clippings regarding
+                           "wolf-children"</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Photographs of "wolf-children"</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Printed matter and bibliographic
+                           notes</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">32-40</container>
+               <unittitle id="addit84" encodinganalog="245$a">1984 Addition, <date normal="1940/1983">1940-1983</date>
+               </unittitle>
+               <unitdate normal="1940/1983" encodinganalog="245$f" era="ce" calendar="gregorian">1940-1983</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence with friends, colleagues, publishers, and the public; diary
+                  excerpts, photographs, biographical material, and printed matter; condolence
+                  letters on the death of Ames's daughter; correspondence of Frances Lillian Ilg;
+                  research, lectures, and writings by Ames and Arnold Gesell; and files concerning
+                  the Gesell Institute of Child Development, White House Conference on Children and
+                  Youth, and Ames's radio and television programs. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by special correspondence, condolences, general correspondence, diary
+                  excerpts, subject file, speeches and lectures file, writings file, and miscellany
+                  and alphabetically thereunder by name of person, subject, title, or type of
+                  material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">Special correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Balkany, Robert de, <date encodinganalog="245$f">1951-1968</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1951-1968</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Brilliant, Ira, <date encodinganalog="245$f">1959-1961</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1959-1961</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bull, Nina, <date encodinganalog="245$f">1942-1947</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1942-1947</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Cox, Don and Jo, <date encodinganalog="245$f">1974-1977</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974-1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Culbertson, James T., <date encodinganalog="245$f">1941-1976</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1941-1976</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Curnow, Wystan, regarding Len Lye, <date encodinganalog="245$f">1982</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1982</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ertel, Paul Y. and Inta, <date encodinganalog="245$f">1974-1978</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974-1978</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gesell, Arnold, <date encodinganalog="245$f">1955-1960</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1955-1960</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Homberger, Gin and Freddy, <date encodinganalog="245$f">1943-1981 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1943-1981 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ilg, Frances Lillian</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">With Ames, <date encodinganalog="245$f">1965-1978</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1965-1978</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">With Margaret Mead, <date encodinganalog="245$f">1946-1966</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1946-1966</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">33</container>
+                     <unittitle encodinganalog="245$a">Métraux, Ruth W. and Guy S., <date encodinganalog="245$f">1943-1982 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1943-1982 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Scharbert, Beatrice, <date encodinganalog="245$f">1970-1976</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970-1976</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sheldon, William H., <date encodinganalog="245$f">1950-1978</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1950-1978</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Silverthorne, Pen, <date encodinganalog="245$f">1958-1964</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1958-1964</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Taylor, John I., <date encodinganalog="245$f">circa 1951-1975</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">circa
+                        1951-1975</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Webb, Rachel, <date encodinganalog="245$f">1973-1979</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1973-1979</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wunderlich, Ray C., <date encodinganalog="245$f">1964-1965</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1964-1965</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">34</container>
+                  <unittitle encodinganalog="245$a">Condolences on death of daughter, son-in-law,
+                     and grandson, <date encodinganalog="245$f">1974</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">General correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Of Ames, <date encodinganalog="245$f">1944-1983, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1944-1983, undated </unitdate>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Of Frances Lillian Ilg</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1944-1951</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1944-1951</unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">35</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1952-1970 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1952-1970 </unitdate>
+                        <physdesc encodinganalog="300">(9 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Undated and Ilg miscellany</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">36</container>
+                  <unittitle encodinganalog="245$a">Diary excerpts, 1945-1982</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Subject file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Adolescent rorschach responses, <date encodinganalog="245$f">1950-1959</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1950-1959</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Books received for review, <date encodinganalog="245$f">1951-1978</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1951-1978</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Child Care and Development</part>
+                        </title>, <date encodinganalog="245$f">1976-1981</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1976-1981</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Child from Five to Ten</part>
+                        </title>, by Frances Lillian Ilg, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Controversies with Yale University, New
+                        Haven, Conn.; Bernard B. Shapiro; <title localtype="simple">
+                           <part>Life</part>
+                        </title> magazine; and others, <date encodinganalog="245$f">1957-1980</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1957-1980</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>First Five Years of Life</part>
+                        </title>, <date encodinganalog="245$f">1978-1979</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1978-1979</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gesell, Arnold</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Genius, Giftedness and Intelligence</part>
+                           </title>, <date encodinganalog="245$f">undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="con36sigma" encodinganalog="245$a">Sigma Xi lectures, <date encodinganalog="245$f">1947-1949 </date>
+                           <ref show="replace" actuate="onrequest" target="con38geselllec">
+                              <emph render="italic">See also Container 38</emph>, Lectures by Arnold
+                              Gesell</ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1947-1949
+                        </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Translations of books by, <date encodinganalog="245$f">1956-1958</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1956-1958</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">37</container>
+                     <unittitle encodinganalog="245$a">Harper &amp; Row, Publishers, <date encodinganalog="245$f">1967-1981</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1967-1981</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Infant and Child</part>
+                        </title>, <date encodinganalog="245$f">1972-1973</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1972-1973</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Journal of Learning Disabilities</part>
+                        </title>, <date encodinganalog="245$f">1967-1977</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1967-1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Marks, Philip A., <date encodinganalog="245$f">1974-1977</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974-1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Playmates/Schoolmates</part>
+                        </title> television program, <date encodinganalog="245$f">1975-1976</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1975-1976</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Radio series, <date encodinganalog="245$f">1968</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1968</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>School Readiness</part>
+                        </title>, <date encodinganalog="245$f">1956-1966</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1956-1966</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Screen gems, <date encodinganalog="245$f">1970-1972</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970-1972</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Society of Protective Techniques, <date encodinganalog="245$f">1968-1972</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1968-1972</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">White House Conference on Children and Youth,
+                           <date encodinganalog="245$f">1970</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">38</container>
+                  <unittitle encodinganalog="245$a">Speeches and lectures file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="con38geselllec" encodinganalog="245$a">Lectures by Arnold
+                        Gesell, <date encodinganalog="245$f">1948-1949 </date>
+                        <ref show="replace" actuate="onrequest" target="con36sigma">
+                           <emph render="italic">See also Container 36</emph>, Sigma Xi
+                           lectures</ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1948-1949 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lists of Ames's lectures, <date encodinganalog="245$f">1940-1983</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1940-1983</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Writings file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Articles by Ames regarding her books
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Book reviews, <date encodinganalog="245$f">1970-1975</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970-1975</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Development of Motor Coordination</part>
+                        </title>, <title localtype="simple">
+                           <part>from Birth to Two Years</part>
+                        </title>, typescript </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">39</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Infant and Child in the Culture of Today</part>
+                        </title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Your Two Year Old</part>
+                        </title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Your Three Year Old</part>
+                        </title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Your Four Year Old</part>
+                        </title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Your Six Year Old</part>
+                        </title>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Photographs </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Album</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">40</container>
+                     <unittitle encodinganalog="245$a">General </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed matter</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Biographical file</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Clippings and general printed
+                           matter</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Infancy and Human Growth</part>
+                           </title>, by Arnold Gesell</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">41-42</container>
+               <unittitle id="addit87" encodinganalog="245$a">1987 Addition, <date normal="1941/1986">1941-1986</date>
+               </unittitle>
+               <unitdate normal="1941/1986" encodinganalog="245$f" era="ce" calendar="gregorian">1941-1986</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence with family, friends, colleagues, publishers, and the public; dream
+                  diaries; articles; lecture schedule; and biographical and genealogical
+                  information.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by subject file, correspondence, writings file, and miscellany and
+                  alphabetically thereunder by name of person, subject, title, or type of
+                  material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">41</container>
+                  <unittitle encodinganalog="245$a">Subject file </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dream diaries, <date encodinganalog="245$f">1941-1984 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1941-1984 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Correspondence </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Babcock, Katherine Bradbury, <date encodinganalog="245$f">1974-1977</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974-1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Haber, Carol Chase (granddaughter), <date encodinganalog="245$f">1959-1985 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1959-1985 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">42</container>
+                     <unittitle encodinganalog="245$a">Harper &amp; Row, Publishers, <date encodinganalog="245$f">1979-1986</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1979-1986</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Métraux, Ruth W. and Guy S., <date encodinganalog="245$f">1982-1986</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1982-1986</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany, <date encodinganalog="245$f">1966-1986 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966-1986 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Stone, Warren, <date encodinganalog="245$f">1970-1986</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970-1986</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Treadwell, Peter, <date encodinganalog="245$f">1949-1983 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1949-1983 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Writings file </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"A Day with Margaret Mead"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Dreams of Pregnancy"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Every Child Develops at His Own Rate,"
+                        chapter from <title localtype="simple">
+                           <part>The Experts Speak</part>
+                        </title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"What Am I Doing in This Grade?"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"What Do They Mean I'm
+                        Difficult?"</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Biographical and genealogical file, <date encodinganalog="245$f">1982-1986</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1982-1986</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gesell Institute of Human Development, New
+                        Haven, Conn., history, <date encodinganalog="245$f">1983,
+                        undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1983,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lecture schedule, <date encodinganalog="245$f">1983-1985</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1983-1985</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">43-44</container>
+               <unittitle id="addit88" encodinganalog="245$a">1988 Addition, <date normal="1941/1988">1941-1988</date>
+               </unittitle>
+               <unitdate normal="1941/1988" encodinganalog="245$f" era="ce" calendar="gregorian">1941-1988</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence with family, friends, colleagues, and publishers. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by name of correspondent. Also includes Ames's Parents Ask
+                  newspaper column, 1986-1988.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">43</container>
+                  <unittitle encodinganalog="245$a">Ames, Smith Whittier (husband), <date encodinganalog="245$f">1941-1988, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1941-1988,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Armstrong, Thomas, <date encodinganalog="245$f">1984-1987</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1984-1987</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Buch, Mary, <date encodinganalog="245$f">1985-1987</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1985-1987</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Dickinson, Alice, <date encodinganalog="245$f">1977-1984</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1977-1984</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ertel, Paul Y., <date encodinganalog="245$f">1978-1986, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1978-1986,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Gesell Portrait Fund, <date encodinganalog="245$f">1950</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1950</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Harper &amp; Row, Publishers, regarding <title localtype="simple">
+                        <part>Youth: The Years from Ten to Sixteen</part>
+                     </title>, <date encodinganalog="245$f">1979-1986</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1979-1986</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ilg, Frances Lillian, memorial fund, <date encodinganalog="245$f">1981</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1981</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Perticone, Eugene X., and Renée M. Tembeckjian,
+                        <date encodinganalog="245$f">1985-1987</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1985-1987</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Scharbert, Beatrice, <date encodinganalog="245$f">1975-1983, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1975-1983,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Shiff, Eileen, <date encodinganalog="245$f">1984-1988</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1984-1988</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">44</container>
+                  <unittitle encodinganalog="245$a">Webb, Rachel, <date encodinganalog="245$f">1949-1960 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1949-1960 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany, <date encodinganalog="245$f">1981-1987</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1981-1987</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Parents Ask newspaper column, <date encodinganalog="245$f">1986-1988</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1986-1988</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">45-52</container>
+               <unittitle id="addit96" encodinganalog="245$a">1996 Addition, <date normal="1945/1996">circa 1945-1996</date>
+               </unittitle>
+               <unitdate normal="1945/1996" encodinganalog="245$f" era="ce" calendar="gregorian">circa 1945-1996</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, biographical information, dream diaries, family history, fan
+                  letters, interviews, photographs, reminiscences, and writings. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by family correspondence, general correspondence, subject file, and
+                  writings and alphabetically thereunder by name of person, subject, title, or type
+                  of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">45</container>
+                  <unittitle encodinganalog="245$a">Family correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bates, Silas and Kay (brother and
+                        sister-in-law), <date encodinganalog="245$f">1987-1995</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1987-1995</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Chase, Clifford (grandson), <date encodinganalog="245$f">1974-1996, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974-1996, undated </unitdate>
+                     <physdesc encodinganalog="300">(10 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Chase, Joan Ames (daughter), <date encodinganalog="245$f">1952-1973</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1952-1973</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">46</container>
+                     <unittitle encodinganalog="245$a">Haber, Carol Chase (granddaughter), <date encodinganalog="245$f">1985-1995 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1985-1995 </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">General correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"A" miscellaneous, <date encodinganalog="245$f">1974-1994</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974-1994</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Barry, Laurel D., <date encodinganalog="245$f">1989-1992</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1989-1992</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"B-C" miscellaneous, <date encodinganalog="245$f">1974-1995, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974-1995,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dodson, Fitzhugh, <date encodinganalog="245$f">1977-1978</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1977-1978</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"D-E" miscellaneous, <date encodinganalog="245$f">1970-1995</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970-1995</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fagan, Tom, <date encodinganalog="245$f">1983</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1983</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"F" miscellaneous, <date encodinganalog="245$f">1970-1991</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970-1991</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gillespie, Clyde, <date encodinganalog="245$f">1994</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1994</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gold, Svrea J., <date encodinganalog="245$f">1986-1990</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1986-1990</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"G" miscellaneous, <date encodinganalog="245$f">1959-1993</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1959-1993</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">47</container>
+                     <unittitle encodinganalog="245$a">Heimgartner, Norm, <date encodinganalog="245$f">1989-1995</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1989-1995</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Homberger, Freddy, <date encodinganalog="245$f">1978-1995, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1978-1995,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"H" miscellaneous, <date encodinganalog="245$f">1976-1991</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1976-1991</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Institutes for the Achievement of Human
+                        Potential, <date encodinganalog="245$f">1967-1993</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1967-1993</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"I-L" miscellaneous, <date encodinganalog="245$f">1977-1996</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1977-1996</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Métraux, Ruth W. and Guy S., <date encodinganalog="245$f">1986-1996</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1986-1996</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"M-O" miscellaneous, <date encodinganalog="245$f">1970-1993, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970-1993,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Perris, Donald L., <date encodinganalog="245$f">1960-1995 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1960-1995 </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"P" miscellaneous, <date encodinganalog="245$f">1970-1987</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970-1987</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">48</container>
+                     <unittitle encodinganalog="245$a">Rimland, Bernard, <date encodinganalog="245$f">1978-1989</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1978-1989</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"R" miscellaneous, <date encodinganalog="245$f">1948-1993</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1948-1993</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Senn, Milton J. E., <date encodinganalog="245$f">1948-1957</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1948-1957</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"S" miscellaneous, <date encodinganalog="245$f">1973-1995</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1973-1995</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Tembeckjian, Renée M., <date encodinganalog="245$f">1988-1990</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1988-1990</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Treadwell, Peter and Licie, <date encodinganalog="245$f">1985-1987</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1985-1987</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"T-V" miscellaneous, <date encodinganalog="245$f">1970-1991</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970-1991</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Webb, Rachel</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1960-1986 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1960-1986 </unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">49</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1987-1995, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1987-1995, undated </unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wozniak, Robert H., <date encodinganalog="245$f">1984-1989</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1984-1989</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"W" miscellaneous, <date encodinganalog="245$f">1977-1992, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1977-1992,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Zigler, Edward, <date encodinganalog="245$f">1988-1992</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1988-1992</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Subject file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Biographical information, <date encodinganalog="245$f">1966-1993</date>
+                        <ref show="replace" actuate="onrequest" target="con52art">
+                           <emph render="italic">See also Container 52</emph>, Articles, 1993</ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966-1993</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Child Behavior newspaper column, <date encodinganalog="245$f">1956, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1956,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Department of Health Services, Hartford,
+                        Conn., expiration of psychologist's license, <date encodinganalog="245$f">1984-1986</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1984-1986</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dream diaries, <date encodinganalog="245$f">1984-1993 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1984-1993 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">European trips, <date encodinganalog="245$f">1949-1981</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1949-1981</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Family history, <date encodinganalog="245$f">undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">50</container>
+                     <unittitle encodinganalog="245$a">Fan letters, <date encodinganalog="245$f">1952-1991, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1952-1991, undated </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gesell, Arnold</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Evaluation of Gesell's work by Ames, <date encodinganalog="245$f">1973-1974</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1973-1974</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Writings on Gesell by others, <date encodinganalog="245$f">1987-1993, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1987-1993, undated </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gesell Institute of Child Development, New
+                        Haven, Conn.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Board of directors, <date encodinganalog="245$f">1964-1977</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1964-1977</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Grants and gifts, <date encodinganalog="245$f">1952-1970</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1952-1970</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gesell Institute of Human Development, New
+                        Haven, Conn.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Board of directors, <date encodinganalog="245$f">1978-1980</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1978-1980</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Privately-printed history by Ames, <date encodinganalog="245$f">1994</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1994</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Update</part>
+                           </title> newsletter, 1980-1986</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Yale University, New Haven, Conn., <date encodinganalog="245$f">1990-1993</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1990-1993</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Harper &amp; Row, Publishers, <date encodinganalog="245$f">1958-1986</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1958-1986</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">51</container>
+                     <unittitle encodinganalog="245$a">Ilg, Frances Lillian, files</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Annual reports, <date encodinganalog="245$f">1962-1968</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1962-1968</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">General correspondence, <date encodinganalog="245$f">circa 1945-1980</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">circa
+                           1945-1980</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Laramore, Joyce, regarding Ilg biography,
+                              <date encodinganalog="245$f">1976</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1976</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Pilpel, Harriet F., attorney for the
+                           Gesell Institute of Child Development, New Haven, Conn., <date encodinganalog="245$f">1952-1966</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1952-1966</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Proposed consultation with architectural
+                           firm, <date encodinganalog="245$f">1951-1952</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1951-1952</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Instituto Psicopedagogico "Gesell,"
+                        Maracaibo, Venezuela, <date encodinganalog="245$f">1962,
+                        1981</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1962, 1981</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Interviews, <date encodinganalog="245$f">1980-1989</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1980-1989</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Parents' Magazine</part>
+                        </title>, <date encodinganalog="245$f">1953</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1953</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Photographs, <date encodinganalog="245$f">1953-1987</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1953-1987</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reminiscences re</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Associations with notable people, <date encodinganalog="245$f">undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Books written with Frances Lillian Ilg,
+                              <date encodinganalog="245$f">undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Requests for commentary on books, <date encodinganalog="245$f">1977-1994</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1977-1994</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Research proposed but not undertaken, <date encodinganalog="245$f">1951-1954</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1951-1954</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Writings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Articles</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1971-1991 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1971-1991 </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">52</container>
+                        <unittitle id="con52art" encodinganalog="245$a">
+                           <date encodinganalog="245$f">1993-1994, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1993-1994, undated </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Books</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Reviews, <date encodinganalog="245$f">1970, 1992</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970,
+                           1992</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Your One [Two] [Three] [Four] Year Old</part>
+                           </title> series</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1974-1989</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974-1989</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Pamphlet layout, <date encodinganalog="245$f">undated</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">undated</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Introductions and prefaces, <date encodinganalog="245$f">1959-1988</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1959-1988</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

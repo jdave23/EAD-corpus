@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010271">loc.mss/eadmss.ms010271</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Elisha Hunt Allen Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Manuscript Division Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm73010447">https://lccn.loc.gov/mm73010447</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2010">2010</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Elisha Hunt Allen Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1849/1934">1849-1934</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1867/1882">(bulk 1867-1882)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1849/1934"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1849-1934</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1867/1882"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1867-1882)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS10447</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Allen, Elisha Hunt,
+			 1804-1883</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">2,000
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">6 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">3 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+		       </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Diplomat, jurist,
+		  lawyer, and United States representative from Maine. Correspondence, speeches
+		  and writings, notes, photographs, printed matter, and miscellaneous material
+		  largely concerning Hawaiian economic and political conditions, sugar
+		  plantations and trade, Chinese labor, the Hawaiian supreme court, of which
+		  Allen was chief justice, and the United States-Hawaiian Reciprocity Treaty of
+		  1876.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20211013132549.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Allen family--Correspondence.</part>
+            </famname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Allen, Elisha Hunt, 1804-1883.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Allen, Mary Hobbs, 1829-1880--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bishop, Charles Reed, 1822-1915--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Green, William Lowthian, 1819-1890--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Harris, Charles Coffin, 1822-1881--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Kalakaua, David, King of Hawaii, 1836-1891--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Severance, Henry W., 1828-1908--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Welch, Andrew, Sr., approximately 1838-1889--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Hawaii. Supreme Court.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Chinese--Hawaii.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Courts--Hawaii.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Labor--Hawaii.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Plantations--Hawaii.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Reciprocity (Commerce)--Hawaii.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Reciprocity (Commerce)--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Sugar trade--Hawaii.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Working class--Hawaii.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Hawaii--Commerce--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Hawaii--Economic conditions.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Hawaii--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Hawaii--Politics and government--To 1893.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Maine--Politics and government.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Commerce--Hawaii.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Hawaii.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Treaties.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Diplomats.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Judges.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Justices, State--Hawaii.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Lawyers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Representatives, U.S. Congress--Maine.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Elisha Hunt Allen, diplomat, jurist, lawyer, and United
+		  States representative from Maine, were given to the Library of Congress by Mary
+		  Jane Allen and Frederick Allen in 1935.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Elisha Hunt Allen were arranged and described in 1963.
+		  The finding aid was revised in 2010.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Elisha Hunt
+		  Allen is governed by the Copyright Law of the United States (Title 17,
+		  U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Elisha Hunt Allen are open to research. Researchers are
+		  advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Elisha Hunt Allen Papers, Manuscript
+		  Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1804, Jan. 28</datesingle>
+               <event>Born, New Salem, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1823</datesingle>
+               <event>Graduated Williams College, Williamstown, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1826</datesingle>
+               <event>Admitted to Massachusetts bar</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1828</datesingle>
+               <event>Married Sarah Elizabeth Fessenden (died 1845)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1835</fromdate>
+                              <todate>1840</todate>
+                           </daterange>
+               <event>Member, Maine House of Representatives</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1841</fromdate>
+                              <todate>1843</todate>
+                           </daterange>
+               <event>Member, United States House of Representatives from
+				Maine</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1849</datesingle>
+               <event>Member, Massachusetts House of Representatives</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1850</fromdate>
+                              <todate>1853</todate>
+                           </daterange>
+               <event>United States consul to Hawaii</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1853</fromdate>
+                              <todate>1857</todate>
+                           </daterange>
+               <event>Minister of finance, Kingdom of Hawaii</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1857</datesingle>
+               <event>Married Mary Harrod Hobbs</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1857</fromdate>
+                              <todate>1877</todate>
+                           </daterange>
+               <event>Chancellor and Chief Justice of the Kingdom of Hawaii Supreme
+				Court</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1876</datesingle>
+               <event>Negotiated the United States-Hawaii Reciprocity Treaty</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1876</fromdate>
+                              <todate>1883</todate>
+                           </daterange>
+               <event>United States minister to Hawaii</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1883, Jan. 1</datesingle>
+               <event>Died, Washington, D.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Elisha Hunt Allen (1804-1883) span the years 1849-1934,
+		  with the bulk of the material dating from 1867 to 1882. The papers consist of
+		  correspondence, speeches and writings, notes, awards and diplomas, invitations,
+		  passports, photographs, statistical tables, printed matter, and miscellaneous
+		  items and are organized into the following series: 
+		  <ref show="replace" actuate="onrequest" target="fam">
+                Family
+			 Correspondence 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="genl">
+                General
+			 Correspondence 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="hawa">
+                Hawaiian Legation
+			 Correspondence 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="subj">
+                Subject
+			 File 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="misc">
+                Miscellany 
+            </ref>,
+		  and 
+		  <ref show="replace" actuate="onrequest" target="over">
+                Oversize 
+            </ref>.</p>
+         <p> The 
+		  <ref show="replace" actuate="onrequest" target="fam">
+                 Family
+			 Correspondence 
+            </ref> contains letters from Allen to his second wife, Mary Hobbs
+		  Allen, and a few letters to other members of the Allen family. Correspondents
+		  in the 
+		  <ref show="replace" actuate="onrequest" target="genl">
+                General
+			 Correspondence 
+            </ref> include Charles Reed Bishop, W. L. Green, Charles Coffin
+		  Harris, Henry W. Severance, and Andrew Welch. The 
+		  <ref show="replace" actuate="onrequest" target="hawa">
+                Hawaiian Legation
+			 Correspondence 
+            </ref> contains drafts and a letterbook of official letters sent
+		  from the Hawaiian Legation. Subjects of interest covered in the several
+		  correspondence series as well as in the 
+		  <ref show="replace" actuate="onrequest" target="subj">
+                Subject
+			 File 
+            </ref> and 
+		  <ref show="replace" actuate="onrequest" target="misc">
+                Miscellany 
+            </ref>
+		  include the United States-Hawaiian Reciprocity Treaty of 1876, the Hawaiian
+		  supreme court, sugar plantations and trade, Chinese labor, and Hawaiian
+		  economic and political conditions from 1850 to 1882.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in six series: </p>
+         <list>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="fam">
+                   Family
+				Correspondence, 1849-1934 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="genl">
+                   General
+				Correspondence, 1857-1882 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="hawa">
+                   Hawaiian
+				Legation Correspondence, 1877-1883 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="subj">
+                   Subject File,
+				1853-1882 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="misc">
+                   Miscellany,
+				1867-1883 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="over">
+                   Oversize,
+				1867-1880 
+               </ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-2</container>
+               <unittitle encodinganalog="245$a" id="fam">Family Correspondence, 
+				 <date normal="1849/1934"> 1849-1934</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1849/1934"> 1849-1934</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Letters from Allen to family members including his second wife,
+				Mary Hobbs Allen.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by name of family member.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Allen, Elisha H., Jr., 
+				   <date>1877-1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1877-1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Allen, Mary Hobbs</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1849-1871</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1849-1871</unitdate>
+                     <physdesc encodinganalog="300">(7
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1872-1880</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1872-1880</unitdate>
+                     <physdesc encodinganalog="300">(6
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Allen, William F., 
+				   <date>1867-1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1867-1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous, 
+				   <date>1861-1934</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1861-1934</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">3-4</container>
+               <unittitle encodinganalog="245$a" id="genl">General Correspondence, 
+				 <date normal="1857/1882">1857-1882</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1857/1882">1857-1882</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence and miscellaneous items.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by name of correspondent.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Bishop, Charles Reed., 
+				   <date>1869-1880</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1869-1880</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Carter, H. A . P., 
+				   <date>1875-1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1875-1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Cheng Tsao Ju, 
+				   <date>1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Frelinghuysen, Frederick T., 
+				   <date>1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Gibson, Walter Murray, 
+				   <date>1879-1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1879-1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Green, W. L., 
+				   <date>1874-1881</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1874-1881</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Harris, Charles Coffin, 
+				   <date>1857-1881</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1857-1881</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Hitt, Robert R., 
+				   <date>1881</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1881</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Kalakaua, David, King of Hawaii, 
+				   <date>1876-1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1876-1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Severance, Henry W., 
+				   <date>1878-1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1878-1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Smith, J. Mott, 
+				   <date>1869-1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1869-1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Welch, Andrew, 
+				   <date>
+					 1875-1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1875-1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous, A-Y, 
+				   <date>1867-1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1867-1882</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a" id="hawa">Hawaiian Legation
+				Correspondence, 
+				 <date normal="1877/1883">1877-1883</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1877/1883">1877-1883</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent and received and letterbook.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Letters received on death of
+				  Allen, 
+				   <date>1883</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1883</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Letters sent, drafts, 
+				   <date>1877-1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1877-1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Letterbook, 
+				   <date>1877-1879</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1877-1879</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a" id="subj">Subject File, 
+				 <date normal="1853/1882">1853-1882</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1853/1882">1853-1882</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Treaties, trade records, and miscellaneous items.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by subject.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Trade, 
+				   <date>1857-1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1857-1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Treaties, miscellaneous, 
+				   <date>1853-1880</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1853-1880</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Treaty, U.S.-Hawaii, 
+				   <date>1855-1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1855-1882</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany, 
+				 <date normal="1867/1883">1867-1883</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1867/1883">1867-1883</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Invitations, passports, photographs, speeches and writings,
+				statistical tables, and printed matter.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Biographical material</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a"> Commissions, statistical tables,
+				  and letters of credence, 
+				   <date>1867, 1874-1880</date>  
+				                             <ref show="replace" actuate="onrequest" target="oversz">
+                                    <emph render="italic">See Oversize</emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1867, 1874-1880</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Invitations</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Obituaries, 
+				   <date>
+					 1883</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1883</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Passports</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Photographs</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Speeches and other
+				  writings</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Printed matter</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Allen family</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Hawaii</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Portrait of Allen</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Hawaiian royal
+					 family</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a" id="over">Oversize, 
+				 <date normal="1867/1880">1867-1880</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1867/1880">1867-1880</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Commissions, statistical tables, and letters of credence</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged and described according to the series, containers, and
+				folders from which the items were removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="oversz">Commissions,
+					 statistical tables, and letters of credence, 
+					  <date>1867, 1874-1880</date>  (Container 6)</unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1867, 1874-1880</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

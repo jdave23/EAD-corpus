@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010094">loc.mss/eadmss.ms010094</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Edith Benham Helm Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division Staff </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78025700">https://lccn.loc.gov/mm78025700</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2022-08">2022 August</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Container list oversize adjusted</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2010">2010</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Edith Benham Helm Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1915/1961">1915-1961</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1915/1961"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1915-1961</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS25700</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Helm, Edith Benham, 1874-1962</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">10,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">28 containers plus 4 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">14 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Social secretary at the White House.
+            Letters, notes, scrapbooks, and photographs documenting Helm's career as social secretary
+            at the White House during the Woodrow Wilson, Franklin D. Roosevelt, and Harry S. Truman
+            administrations.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220712155501.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Helm, Edith Benham, 1874-1962.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Truman, Harry S., 1884-1972.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Wilson, Woodrow, 1856-1924.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>Paris Peace Conference (1919-1920)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>White House (Washington, D.C.)</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1914-1918--Peace.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Washington (D.C.)--Social life and customs.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Social secretaries.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of Edith Benham Helm, social secretary at the White House, were given to the
+            Library of Congress by Helm between 1940 and 1962.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Edith Benham Helm were arranged and described in 1962. The finding aid was
+            revised in 1980 and 2010.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Edith Benham Helm in these papers
+            and in other collections of papers in the custody of the Library of Congress has been
+            dedicated to the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Edith Benham Helm are open to research. Researchers are advised to contact
+            the Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Edith Benham Helm Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1874</datesingle>
+               <event>Born, Staten Island, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1915</fromdate>
+                  <todate>1919</todate>
+               </daterange>
+               <event>Social secretary to Edith Bolling Galt Wilson</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1919</datesingle>
+               <event>Accompanied the presidential party to the Peace Conference, Paris,
+                  France</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1920</datesingle>
+               <event>Married Rear Admiral James M. Helm (died 1927)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1933</fromdate>
+                  <todate>1953</todate>
+               </daterange>
+               <event>White House social secretary to Eleanor Roosevelt and Bess Wallace
+                  Truman</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1954</datesingle>
+               <event> Published <title localtype="simple">
+                     <part>The Captains and the Kings</part>
+                  </title>. New York: G.P. Putnam's Sons</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1962, Aug. 7</datesingle>
+               <event>Died, Washington, D.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Edith Benham Helm (1874-1962) span the years 1915-1961 and pertain to her
+            career as social secretary to the White House during the administrations of Woodrow
+            Wilson, Franklin D. Roosevelt, and Harry S. Truman. The papers are organized into three
+            series: <ref show="replace" actuate="onrequest" target="ppc"> Paris Peace Conference
+            </ref>, <ref show="replace" actuate="onrequest" target="whs"> White House Scrapbooks
+            </ref>, and <ref show="replace" actuate="onrequest" target="mis"> Miscellany </ref>.</p>
+         <p>Among the items in <ref show="replace" actuate="onrequest" target="ppc"> Paris Peace
+               Conference </ref> series is Edith Benham Helm's daily accounts of her two trips to
+            Europe as a member of the party accompanying President Woodrow Wilson to the Peace
+            Conference in Paris. She served as as secretary to his wife, Edith Bolling Galt Wilson.
+            The <ref show="replace" actuate="onrequest" target="whs"> White House Scrapbooks
+            </ref>include Helms's personal scrapbooks containing invitations and other memorabilia,
+            as well as scrapbooks documenting official social functions at the White House. Among
+            the <ref show="replace" actuate="onrequest" target="mis"> Miscellany </ref> is
+            information about Bess Wallace Truman's activities that were compiled for press
+            briefings. </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in three series: </p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="ppc"> Paris Peace Conference,
+                  1918-1920 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="whs"> White House Scrapbooks,
+                  1915-1961 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="mis"> Miscellany, 1919-1961 </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-6</container>
+               <unittitle encodinganalog="245$a" id="ppc">Paris Peace Conference, <date normal="1918/1920">1918-1920</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1918/1920">1918-1920</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Notes, scrapbook, photographs, and newspaper clippings.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged by type of material</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Notes </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> Typewritten, <date>Dec. 1918-July 1919
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Dec. 1918-July
+                        1919 </unitdate>
+                     <physdesc encodinganalog="300$a">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> Holograph</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>Dec. 1918-May 1919 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Dec. 1918-May
+                           1919 </unitdate>
+                        <physdesc encodinganalog="300$a">(7 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>May-July 1919 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">May-July 1919 </unitdate>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Scrapbook</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Photographs </unittitle>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Photographs </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Photographs </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 5</container>
+                     <unittitle encodinganalog="245$a">Photographs, scrapbook</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 6</container>
+                     <unittitle encodinganalog="245$a">Newspaper clippings, scrapbook</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">7-31</container>
+               <unittitle encodinganalog="245$a" id="whs">White House Scrapbooks, <date normal="1915/1961">1915-1961</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1915/1961">1915-1961</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Scrapbooks containing correspondence, invitations and other memorabilia, and
+                  material relating to social functions.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged according to type of material and therein chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>7 Mar. 1916-15 May 1951</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">7 Mar. 1916-15
+                        May 1951</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>5 May 1955-20 Dec. 1961 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">5 May 1955-20
+                        Dec. 1961 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Invitations and other memorabilia</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Dec. 1915-May 1930</date> , includes articles Helm wrote for <title localtype="simple">
+                           <part>Cosmopolitan</part>
+                        </title> about the White House and the Paris Peace Conference,
+                           <date>Aug.-Oct. 1930</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Dec. 1915-May
+                        1930</unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Aug.-Oct.
+                        1930</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Nov. 1936-Aug. 1943</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Nov. 1936-Aug.
+                        1943</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Oct. 1937-June 1938, includes “Making the Wheels Go Round” by Eleanor
+                           Roosevelt</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct. 1937-June
+                        1938, includes “Making the Wheels Go Round” by Eleanor Roosevelt</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Social events attended by Helm, <date>
+                           1938-1939</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+                        1938-1939</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Nov. 1939-Sept. 1942</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Nov. 1939-Sept.
+                        1942</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Nov. 1940-Aug. 1941</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Nov. 1940-Aug.
+                        1941</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Oct. 1943-Feb. 1949</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct. 1943-Feb.
+                        1949</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Oct. 1944-Dec. 1945 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct. 1944-Dec.
+                        1945 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Dec. 1945-Dec. 1947</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Dec. 1945-Dec.
+                        1947</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1949-Aug. 1950</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1949-Aug.
+                        1950</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Oct. 1950-May 1952</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct. 1950-May
+                        1952</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>May 1952-Sept. 1961</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">May 1952-Sept.
+                        1961</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Social functions</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Mar. 1933-Oct. 1934</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Mar. 1933-Oct.
+                        1934</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Sept. 1934-July 1935</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Sept. 1934-July
+                        1935</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 22</container>
+                     <unittitle encodinganalog="245$a">White House season, <date>Aug. 1935-June
+                           1936</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Aug. 1935-June
+                        1936</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">Social season, <date>1936-1937</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936-1937</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>June 1937-June 1938</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">June 1937-June
+                        1938</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>June 1938-Aug. 1939</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">June 1938-Aug.
+                        1939</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Oct. 1939-Aug. 1940</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct. 1939-Aug.
+                        1940</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Oct. 1939-Aug. 1940</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct. 1939-Aug.
+                        1940</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Oct. 1941-July 1943</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct. 1941-July
+                        1943</unitdate>
+                     <physdesc encodinganalog="300$a">(2 volumes)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">28</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Sept. 1943-May 1945</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Sept. 1943-May
+                        1945</unitdate>
+                     <physdesc encodinganalog="300$a">(2 volumes)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">28</container>
+                     <unittitle encodinganalog="245$a">Franklin D. Roosevelt funeral,
+                           <date>1945</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">29</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>May 1945-July 1947 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">May 1945-July
+                        1947 </unitdate>
+                     <physdesc encodinganalog="300$a">(2 volumes)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">30</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Oct. 1947-Sept. 1949</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct. 1947-Sept.
+                        1949</unitdate>
+                     <physdesc encodinganalog="300$a">(2 volumes)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 31</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Oct. 1949-Jan. 1953</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct. 1949-Jan.
+                        1953</unitdate>
+                     <physdesc encodinganalog="300$a">(2 volumes)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">32</container>
+               <unittitle encodinganalog="245$a" id="mis">Miscellany, <date normal="1919/1961">1919-1961</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1919/1961">1919-1961</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Press briefing material and accounts of events.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of material and therein chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">Press briefing material, <date>1945-1953</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945-1953</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">Accounts of events</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">32</container>
+                     <unittitle encodinganalog="245$a">Report of conversations concerning the
+                        resignation of Secretary of State Robert Lansing, <date>18 Feb. 1920 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">18 Feb. 1920
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">32</container>
+                     <unittitle encodinganalog="245$a">Lord Grey not being received at White House,
+                        newspaper clipping, and note to Benham from D. Tynell, <date>undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">32</container>
+                     <unittitle encodinganalog="245$a">Craufurd-Stuart Affair, memorandum,
+                           <date>1919 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">32</container>
+                     <unittitle encodinganalog="245$a">Memorandum concerning Madame Chiang-Kai-Chek,
+                           <date>1961</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

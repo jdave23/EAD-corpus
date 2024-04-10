@@ -1,0 +1,1662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms009306">loc.mss/eadmss.ms009306</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Titus Coan Family
+			 Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of
+			 Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by Anita Nolen</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2009" encodinganalog="260$c" era="ce" calendar="gregorian">2009</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm74076760">https://lccn.loc.gov/mm74076760</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2021-04">2021 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Correction made</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2009">2009</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Titus Coan Family Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1806/1923">1806-1923</date>  
+		           <date altrender="Bulk Dates" localtype="bulk" normal="1832/1882">(bulk 1832-1882)</date>  
+         </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1806/1923"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1806-1923</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1832/1882"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1832-1882)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS76760</unitid>
+         <origination label="Creator">
+            <persname source="lcnaf" encodinganalog="100">
+               <part>Coan, Titus,
+			 1801-1882</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">5,000
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">31 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">10.3 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <language encodinganalog="041" langcode="haw">Hawaiian</language>
+            <descriptivenote>
+               <p>Collection material in
+		English, with
+		Hawaiian
+		       </p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <part> 
+                Manuscript Division,  Library of
+			 Congress</part>
+            </corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address> 
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Family and general
+		  correspondence, diaries, journals, books and writings by Coan on Hawaii, and
+		  Coan family material relating mainly to Coan's missionary work in Hawaii,
+		  Patagonia, and the Marquesas Islands. </abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20161007070351.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <famname encodinganalog="600" relator="subject" source="unspecified">
+               <part>Coan family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Coan, Fidelia Church, 1810-1872.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Coan, Harriet Fidelia, 1839-1906.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Coan, Lydia Bingham.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Coan, Samuel Latimer, 1846-1887.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Coan, Titus, 1801-1882.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Du Pont, Sophie Madeleine, 1810-1888--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lyman, Chester Smith, 1814-1890--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Oliphant, Mary--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Oliphant, Sarah--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Robinson, Maria Church.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Missions--French Polynesia--Marquesas Islands.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Missions--Hawaii--Hilo.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Missions--Patagonia (Argentina and Chile)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Presbyterian Church--Missions.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Religion.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Volcanoes--Hawaii.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Kilauea Volcano (Hawaii)</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Clergy.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Missionaries.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The family papers of Titus Coan, Presbyterian minister and missionary,
+		  were given to the Library of Congress by the Sarah Coan Acheson in 1969.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The collection was processed in 1975. The finding aid was revised in
+		  2009.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Other Repositories</head>
+         <p>The New-York Historical Society, New York, N.Y., has a collection of
+		  Titus Coan papers and also of his son, Titus Munson Coan (1836-1921). Duplicate
+		  and extraneous printed matter deemed inappropriate for retention in the
+		  Library's Titus Coan Papers was transferred to the Lyman Museum, Hilo,
+		  Hawaii.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of Titus Coan Family papers and
+		  in other collections of papers in the custody of the Library of Congress has
+		  been dedicated to the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506">
+         <head>Access and Restrictions</head>
+         <p>The Coan Family Papers are open to research. Researchers are advised
+		  to contact the Manuscript Reading Room prior to visiting. Many collections are
+		  stored off-site and advance notice is needed to retrieve these items for
+		  research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Titus Coan Family Papers, Manuscript
+		  Division, Library of Congress, Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1801, Feb. 1</datesingle>
+               <event>Born, Killingworth, Conn.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1819</fromdate>
+                  <todate>1826</todate>
+               </daterange>
+               <event>Taught school in Connecticut</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1826</fromdate>
+                  <todate>1830</todate>
+               </daterange>
+               <event>Taught school, Riga, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1828</datesingle>
+               <event>Received into Presbyterian Church, Riga, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1831</fromdate>
+                  <todate>1933</todate>
+               </daterange>
+               <event>Attended Auburn Theological Seminary, Auburn, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1833</datesingle>
+               <chronitemset>
+                  <event>Licensed as a minister by Cayuga County, N.Y.
+				  Presbytery</event>
+                  <event>Ordained a missionary by American Board of Foreign
+				  Missions</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1833</fromdate>
+                  <todate>1834</todate>
+               </daterange>
+               <event>Went on missionary expedition to Patagonia</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1834</datesingle>
+               <event>Married Fidelia Church (1810-1872)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1834</datesingle>
+               <event>Sailed for Hawaii</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1834</fromdate>
+                  <todate>1882</todate>
+               </daterange>
+               <event>Missionary, Hilo, Hawaii</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1836</datesingle>
+               <event>Birth of son, Titus Munson Coan (died 1921)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1839</datesingle>
+               <event>Birth of daughter, Harriet Fidelia Coan (died 1906)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1843</datesingle>
+               <event>Birth of daughter, Sarah Eliza Coan (died 1916)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1846</datesingle>
+               <event>Birth of son, Samuel Latimer Coan (died 1887)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1860 and 1867</datesingle>
+               <event>Made voyages to Marquesas Islands for Hawaiian Missionary
+				Society</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1870</fromdate>
+                  <todate>1871</todate>
+               </daterange>
+               <event>Visited the United States</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1873</datesingle>
+               <event>Married Lydia Bingham (died 1915)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1880</datesingle>
+               <event>Published <title localtype="simple">
+                     <part>Adventures in Patagonia</part>
+                  </title>. New York; Dodd, Mead</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1882</datesingle>
+               <event>Published <title localtype="simple">
+                     <part>Life in Hawaii</part>
+                  </title>. New York: A. D. F. Randolph</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1882, Dec. 1</datesingle>
+               <event>Died, Hilo, Hawaii</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of the Titus Coan family span the period 1806-1923, with
+		  the bulk from 1832 to 1882. Consisting mainly of correspondence between members
+		  of the families of Titus Coan and his wife, Fidelia Church Coan, these letters
+		  document the Coans' lives in Hilo, Hawaii, from 1834 to 1882 and reflect the
+		  missionary spirit of that period. The collection organized in five series: 
+		  <ref target="diaj1">
+                Diaries and Journals 
+            </ref>, 
+		  <ref target="famc2">
+                Family Correspondence 
+            </ref>, 
+		  <ref target="genc14">
+                General Correspondence 
+            </ref>, 
+		  <ref target="misc17">
+                Miscellany 
+            </ref>, and 
+		  <ref target="prim19">
+                Printed Matter 
+            </ref>.</p>
+         <p>Titus Coan's journals tell of his travels to distant lands in
+		  missionary endeavors. In 1833-1834 he recorded a trip to Patagonia to explore
+		  the possibility of mission fields in that region. Much of this journal was
+		  published in his book <title localtype="simple">
+               <part>Adventures in Patagonia</part>
+            </title>. Journals of two trips to the Marquesas Islands made in 1860 and 1867
+		describe the land and its inhabitants as well as the progress of missions
+		there, while other journals tell of his journey and early years of residence in
+		Hawaii, where he served for over forty-five years. These experiences were
+		further amplified in his autobiography, <title localtype="simple">
+               <part>Life in Hawaii</part>
+            </title>.</p>
+         <p>The Coans' correspondence is primarily with family members, including
+		  their daughter, Harriet Fidelia Coan, a teacher at Punahou, Hawaii, and their
+		  son, Samuel Latimer Coan, who was living in San Francisco in the late 1860s and
+		  the 1870s, and describes the day-to-day events of their lives. Other
+		  correspondence relating to missionary work is that with Fidelia Coan's sister,
+		  Maria Church Robinson, who served with her husband as missionary to Siam from
+		  1834 to 1847, at the same time that the Coans were beginning their service in
+		  Hawaii.</p>
+         <p>The 
+		  <ref target="genc14">
+                General Correspondence 
+            </ref> series also reflects
+		  the religious feeling and missionary endeavors of the period. The Coans
+		  corresponded with other missionaries in the Hawaiian Islands and with friends
+		  at home, many of whom were active in societies that supported such work.
+		  Correspondents include Sophie Madeleine Du Pont (wife of Admiral Samuel Francis
+		  Du Pont), Chester Smith Lyman, Mary Oliphant, and Sara Oliphant.</p>
+         <p>An extensive collection of printed matter is preserved with the
+		  collection. Much of this constitutes, in effect, an article file for Titus Coan
+		  consisting of journals to which he contributed. He was particularly interested
+		  in volcanoes and wrote many observations on the eruptions of Kilauea, the
+		  volcano on the slope of Mauna Loa on the island of Hawaii. These he contributed
+		  to the <title localtype="simple">
+               <part>American Journal of Science and Arts</part>
+            </title>. He also contributed extensively to missionary journals such as <title localtype="simple">
+               <part>Missionary Herald </part>
+            </title>and <title localtype="simple">
+               <part>The Friend</part>
+            </title>.</p>
+         <p>Copies of Titus Coan's two books are included in the 
+		  <ref target="misc17">
+                Miscellany 
+            </ref> series along with numerous
+		  clippings and articles about him, a copy of <title localtype="simple">
+               <part>Titus Coan; a Memorial</part>
+            </title> (Chicago, Revell [1884] 248 pp.) by his second wife, Lydia Bingham
+		Coan, and some material written in Hawaiian.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Organization of the Papers</head>
+         <p>The collection is arranged in five series:</p>
+         <list listtype="unordered" mark="circle">
+            <item> 
+			                        <ref target="diaj1" show="replace" actuate="onrequest">
+                   Diaries and
+				Journals, 1818-1881 
+               </ref> 
+                        </item>
+            <item> 
+			                        <ref target="famc2" show="replace" actuate="onrequest">
+                   Family
+				Correspondence, 1818-1916 
+               </ref> 
+                        </item>
+            <item> 
+			                        <ref target="genc14" show="replace" actuate="onrequest">
+                   General
+				Correspondence, 1828-1915 
+               </ref> 
+                        </item>
+            <item> 
+			                        <ref target="misc17" show="replace" actuate="onrequest">
+                   Miscellany,
+				1832-1957 
+               </ref> 
+                        </item>
+            <item> 
+			                        <ref target="prim19" show="replace" actuate="onrequest">
+                   Printed
+				Matter, 1806-1923 
+               </ref> 
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle id="diaj1" encodinganalog="245$a">Diaries and Journals, 
+				 <date normal="1818/1881">1818-1881</date>  
+               </unittitle>
+               <unitdate normal="1818/1881" encodinganalog="245$f" era="ce" calendar="gregorian">1818-1881</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Diaries and journals of Titus Coan and his wife, Fidelia Church
+				Coan. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">“Waymarks,” notations of
+				  events by Titus Coan, 1818-1881 </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Patagonian journal, 1833, Aug.
+				  16-1834, May</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Trip to Hawaii, 1834, Dec.
+				  5-1835, Jan.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Journal of Fidelia Church Coan,
+				  1834-1837</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Early residence in
+				  Hawaii</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1835, Jan. 6-1839,
+					 Apr.10</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1840, Aug. 20-1841, Mar.
+					 5</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Account of baptism of Titus
+				  Munson Coan, 1836, Nov. 13</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Diary of Fidelia Church Coan,
+				  1837-1838, 1841</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Register of letters by Fidelia
+				  Church Coan, 1838-1872</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Visit to Kilauea, 1855, July
+				  1</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Trip to Marquesas Islands, 1860,
+				  Mar. 17-May 16</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Voyage to Marquesas Islands,
+				  1867, Apr. 3-June 6</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Second voyage to the Marquesas
+				  Islands, 1867, Apr. 3-May 23</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2-13</container>
+               <unittitle id="famc2" encodinganalog="245$a">Family Correspondence, 
+				 <date normal="1818/1916">1818-1916</date>  
+               </unittitle>
+               <unitdate normal="1818/1916" encodinganalog="245$f" era="ce" calendar="gregorian">1818-1916</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters received and sent between family members. Arranged
+				alphabetically by writer of letter. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Typed copies of correspondence between Titus and his wife, Fidelia
+				Church Coan, 1832-1872, are arranged chronologically at the end of the
+				series.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Brown, Emma Smith, to Fidelia
+				  Church Coan, 1837-1851</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Carver, Amanda Church, to Titus
+				  and Fidelia Church Coan, 1832-1864</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Casey, Anna Munson Church Hill,
+				  to Titus and Fidelia Church Coan, 1833-1867</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Church, Barbara and Horace, to
+				  Fidelia Church Coan, 1841-1846</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Church family, miscellaneous
+				  correspondence, 1822; 1869</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Church, Jared O.,
+				  1833-1876</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Church, Samuel Clemon,
+				  1832-1857</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Clark, Almira Church, 1832-1876;
+				  undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Clark, Maria, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Clark, Samuel, 1838</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Coan family, miscellaneous correspondence, 1832,
+							1882</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Coan, Fidelia Church</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Titus Coan,
+					 undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Horace Church,
+					 undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Coan, Gaylord, 1818,
+				  1814</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Coan, George and Mabel,
+				  1831-1834</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Coan, Harriet Fidelia</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To parents</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">1844-1864</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">1865-1870</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To father</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">1873</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">1874-1881</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To parents, undated and
+					 fragments</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To brothers and nephew,
+					 1856-1905</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Samuel L. Coan (brother),
+					 1863-1865; undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Coan, Samuel L.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To parents</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">1849-1865</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a">1866-1872</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Harriet Fidelia Coan
+					 (sister)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">1854-1871</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a">1872-1875, 1885</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Titus Munson Coan (brother),
+					 1869</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Coan, Titus and
+				  Fidelia</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Harriet Fidelia Coan
+					 (daughter)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">1844-1855</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">1856-1864</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">To Harriet Fidelia
+					 Coan</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">1865-1868</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">10</container>
+                        <unittitle encodinganalog="245$a">1869-1872,
+						undated</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Coan, Titus</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Harriet Fidelia Coan,
+					 1873-1876</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Fidelia Coan, 1866;
+					 1870-1871</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Samuel L. Coan (son),
+					 1868-1871</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Titus Munson Coan (son),
+					 1855-1872; undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Connie Ferson (niece), 1864;
+					 1870-1882</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To William G. Ferson (nephew),
+					 1864; 1870-1882</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To other family,
+					 1835-1866</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Coan, Titus or
+				  Fidelia</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To George and Mabel Coan
+					 (brother), 1825-1877</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To George M. Coan (nephew),
+					 1840; 1870-1879</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Amanda Church Carver,
+					 1836-1875</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Jared O. Church,
+					 1835-1872</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Almira Church Clark,
+					 1833-1854</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Anna Munson Church Hill
+					 Casey, 1835-1848</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Samuel Clemon Church,
+					 1832-1837</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Maria Church Robinson,
+					 1831-1879</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Gaylord Coan (father),
+					 1833-1852</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Sylvanus and Heman Coan
+					 (brothers), 1834-1835</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Elizur Coan (brother),
+					 1832-1846</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Mary J. Coan (sister),
+					 1835-1839</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Ezra and Fanny Coan,
+					 1835-1862</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Fanny Coan,
+					 1863-1882</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">To Lottie Fancher (niece),
+					 1881-1882</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Sally Arnold (sister),
+					 1835</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To other Church family members,
+					 1835-1859</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To other Coan family members,
+					 1837-1880</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes and abstracts of letters, 1836–1882</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Coan, Titus Munson, to mother,
+				  1864</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Robinson, Maria
+				  Church</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Titus and Fidelia Coan,
+					 1833-1882; undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Harriet F. Coan and Titus
+					 Munson Coan, 1881; undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Smith-Bagg, Abigail Church, 1864;
+				  1868</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Waters, Sarah Coan</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Harriet Fidelia Coan
+					 (sister), 1852-1872</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To Philip M. Coan,
+					 1916</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Letters of condolence on death
+					 of, 1916</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous family and
+				  unidentified or unknown relationship; fragments</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Letters of Titus and Fidelia
+				  Church Coan</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Typed copies,
+					 1849-1872</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Extracts, 1832-1836;
+					 undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">14-16</container>
+               <unittitle id="genc14" encodinganalog="245$a">General Correspondence,
+				
+				 <date normal="1828/1915">1828-1915</date>  
+               </unittitle>
+               <unitdate normal="1828/1915" encodinganalog="245$f" era="ce" calendar="gregorian">1828-1915</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence with persons other than family members. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">1828-1841</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">1842-1861</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">1862-1915, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Poems</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">17-18</container>
+               <unittitle id="misc17" encodinganalog="245$a">Miscellany, 
+				 <date normal="1832/1957">1832-1957</date>  
+               </unittitle>
+               <unitdate normal="1832/1957" encodinganalog="245$f" era="ce" calendar="gregorian">1832-1957</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Clippings about Titus Coan, wills, drafts of writings by members
+				of the Coan family, and pamphlets and copies of books by Titus Coan. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Certificates, passports, and
+				  indenture</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Clippings about Titus Coan and
+				  Hawaii</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Coan, Fidelia Church</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Drafts of verse</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Drafts of writings</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Coan, Harriet Fidelia</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Death and estate,
+					 1906</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Material in Hawaiian</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lists of letters</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Manuscripts</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes concerning
+					 correspondence</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notes on last illness of Titus
+				  Coan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pamphlets written by Titus Coan,
+				  1846-1862</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Pamphlets containing references
+				  to Titus Coan, 1818-1957</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Speeches not by Titus
+				  Coan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Titus Coan memorial</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                     <title localtype="simple">
+                        <part>Titus Coan; A Memorial</part>
+                     </title> by Lydia (Bingham Coan)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Waters, Sarah Coan, will and
+				  estate, 1916</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Writings of Titus
+				  Coan</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                        <title localtype="simple">
+                           <part>Life in Hawaii</part>
+                        </title> 
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                        <title localtype="simple">
+                           <part>Adventures in Patagonia</part>
+                        </title> 
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">19-31</container>
+               <unittitle id="prim19" encodinganalog="245$a">Printed Matter, 
+				 <date normal="1806/1923">1806-1923</date>  
+               </unittitle>
+               <unitdate normal="1806/1923" encodinganalog="245$f" era="ce" calendar="gregorian">1806-1923</unitdate>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">19-26</container>
+                  <unittitle id="serp19" encodinganalog="245$a">Serial Publications, 
+				   <date normal="1822/1923">1822-1923</date>  
+                  </unittitle>
+                  <unitdate normal="1822/1923" encodinganalog="245$f" era="ce" calendar="gregorian">1822-1923</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Journals, magazines, and serials publications containing
+				  writings of Titus Coan or references to him. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged by title and therein chronologically.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a"> 
+                        <title localtype="simple">
+                           <part>American Journal of Science and Arts</part>
+                        </title> 
+                     </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">1879, Mar.-1858,
+						Jan.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">1858, Nov.-1870,
+						Mar.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">21</container>
+                        <unittitle encodinganalog="245$a">1870, May-1880,
+						July</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                        <title localtype="simple">
+                           <part>Maile Quarterly</part>
+                        </title>, 1865, Sept.-1866, Oct.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a"> 
+                        <title localtype="simple">
+                           <part>Missionary Herald</part>
+                        </title> 
+                     </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">1822-1839, Jan.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">1840, July-1859,
+						Sept.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">1860, May-1885,
+						Feb.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">Hawaiian Mission Children's
+					 Society</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a"> 
+                           <title localtype="simple">
+                              <part>Annual Reports</part>
+                           </title> 
+                        </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">1853-1903</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">26</container>
+                           <unittitle encodinganalog="245$a">1904-1911</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                        <title localtype="simple">
+                           <part>The Friend</part>
+                        </title>, 1852-1855, 1923</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                        <title localtype="simple">
+                           <part>Hawaiian Forester and Agriculturist</part>
+                        </title>, 1905</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">27-31</container>
+                  <unittitle id="book27" encodinganalog="245$a">Books, 
+				   <date normal="1806/1911">1806-1911</date>  
+                  </unittitle>
+                  <unitdate normal="1806/1911" encodinganalog="245$f" era="ce" calendar="gregorian">1806-1911</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Books relating to missionary work Hawaii and Polynesia, and
+				  containing references to Titus Coan and his work in Hawaii. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Unarranged.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">Brigham, William T., <title localtype="simple">
+                           <part>The Volcanoes of Kilauea and Mauna Loa on the Island of
+						Hawaii </part>
+                        </title> (Honolulu, Bishop Museum Press, 1909. 222 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pickering, William H., <title localtype="simple">
+                           <part>Lunar and Hawaiian Physical Features Compared</part>
+                        </title> (1906. 179 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Brigham, William T., <title localtype="simple">
+                           <part>Notes on the Volcanoes of the Hawaiian Islands
+						</part>
+                        </title> (Cambridge, Riverside Press, 1868)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Griffin, A. P. C., <title localtype="simple">
+                           <part>List of Books Relating to Hawaii </part>
+                        </title> (Washington, Govt. Print Off., 1898. 26 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">U.S. Department of Commerce and
+					 Labor, <title localtype="simple">
+                           <part>The International Metric System of Weights and Measures
+						</part>
+                        </title> (Washington, Govt. Print. Off., 1906. 15 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                        <title localtype="simple">
+                           <part>A Geography of the Hawaiian Islands </part>
+                        </title> (New York, A.S. Barnes, 1889. 26 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                        <title localtype="simple">
+                           <part>The New England Medical Gazette </part>
+                        </title> (v.8, no. 2, Feb. 1873)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Churchill, William, <title localtype="simple">
+                           <part>Beach-La-Mar</part>
+                        </title> (Washington, Carnegie Institution of Washington, 1911. 54
+					 pp)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hitchcock, Charles H., <title localtype="simple">
+                           <part>Hawaii and Its Volcanoes </part>
+                        </title> (Honolulu, Hawaiian Gazette, 1909. 314 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">28</container>
+                     <unittitle encodinganalog="245$a">Anderson, Rufus, <title localtype="simple">
+                           <part>Foreign Missions </part>
+                        </title> (New York, C. Scribner's Sons, 1869. 373 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wise, Lt., <title localtype="simple">
+                           <part>Los Gringos </part>
+                        </title> (New York, Baker and Scribner, 1849. 453 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Featherman, A., <title localtype="simple">
+                           <part>Social History of the Races of Mankind:
+						Oceano-Melanesians </part>
+                        </title> (London, Triibner, 1888. 420 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Cumming, C. F. Gordon, <title localtype="simple">
+                           <part>Fire Fountains </part>
+                        </title> (London, W. Blackwood, 1883. 2 v.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bishop, Isabella Bird, <title localtype="simple">
+                           <part>Six Months Among the Palm Groves, Coral Reefs, and
+						Volcanoes of the Sandwich Islands </part>
+                        </title> (New York, G. P. Putnam's Sons, 1894)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">29</container>
+                     <unittitle encodinganalog="245$a">Melville, Herman, <title localtype="simple">
+                           <part>Omoo</part>
+                        </title> (New York, United States Book, 1892. 365 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bliss, William R., <title localtype="simple">
+                           <part>Paradise in the Pacific </part>
+                        </title> (New York, Sheldon, 1873. 207 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hawaiian Mission Children's
+					 Society, <title localtype="simple">
+                           <part>Jubilee Celebration of the Arrival of the Missionary
+						Reinforcement of 1837 </part>
+                        </title> (Honolulu, Daily Bulletin Steam Print, 1887. 204 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Mariner, William, <title localtype="simple">
+                           <part>An Account of the Natives of the Tonga Islands in
+						the</part>
+                        </title> 
+                        <title localtype="simple">
+                           <part>South Pacific Ocean</part>
+                        </title> (Edinburgh, Constable, 1827. 2 v.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                        <title localtype="simple">
+                           <part>Life in Feejee, or Five Years Among the
+						Cannibals</part>
+                        </title>, by a lady (Boston, W. Heath, 1851. 423 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kotzebue, Otto von, A New
+					 Voyage Round the World (London, H. Colburn and R. Bentley, 1830. 2
+					 v.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Grant, M. Forsyth, <title localtype="simple">
+                           <part>Scenes in Hawaii, or Life in the Sandwich Islands
+						</part>
+                        </title> (Toronto, Hart, 1888. 203 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Stevenson, Robert Louis, <title localtype="simple">
+                           <part>In the South Seas </part>
+                        </title> (New York, C. Scribner's Sons, 1908. 370 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">30</container>
+                     <unittitle encodinganalog="245$a"> 
+                        <title localtype="simple">
+                           <part>A Memoir of Daniel Wheeler </part>
+                        </title> (Philadelphia, Book Association of Friends, 1885. 250 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Tyerman, Daniel, a George
+					 Bennet, <title localtype="simple">
+                           <part>Journal of Voyages and Travels</part>
+                        </title>, compiled by James Montgomery (New York, J. Leavitt, 1832. 3
+					 v.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Anderson, Rufus, <title localtype="simple">
+                           <part>History of the Sandwich Islands Mission </part>
+                        </title> (Boston, Congregational Pub. Society, 1870. 408 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Anderson, Rufus, <title localtype="simple">
+                           <part>The Hawaiian Islands</part>
+                        </title>: <title localtype="simple">
+                           <part>Their Progress and Condition Under Missionary Labors
+						</part>
+                        </title> (Boston, Gould and Lincoln, 1865. 450 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ellis, William, <title localtype="simple">
+                           <part>Narrative of a Tour Through Hawaii </part>
+                        </title> (London, H. Fisher, Son, and P. Jackson, 1826. 442 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">31</container>
+                     <unittitle encodinganalog="245$a"> 
+                        <title localtype="simple">
+                           <part>Memoirs of Marmontel </part>
+                        </title> (London, Longman, Hurst, Rees, and Orme, 1806. 4 v.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                        <title localtype="simple">
+                           <part>The Sugar Producing Capacity of the Hawaiian Islands
+						</part>
+                        </title> (Judd and Detweiler, Printers, 14 pp.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ellis, William, <title localtype="simple">
+                           <part>Polynesian Researches </part>
+                        </title> (Fisher, Son, and P. Jackson, 1831. 4 v.)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

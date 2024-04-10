@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.gmd/eadgmd.gm018009">loc.gmd/eadgmd.gm018009</recordid>
+      <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Frank Farrell map collection </titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by Ryan Moore</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Geography and Map
+               Division<lb/>Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="2018" era="ce" calendar="gregorian">2018</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.gmd/gmd.contact">http://hdl.loc.gov/loc.gmd/gmd.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/2018585082">https://lccn.loc.gov/2018585082</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+      <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020">2021-08</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Geography and Map Division</agent>
+            <eventdescription>Updated summary</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2018">2018</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by the Library of Congress Geography and Map
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Frank Farrell map collection. <date altrender="Span Dates" localtype="inclusive" normal="1930/1965">1930-1965</date>
+         </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1930/1965"
+                   encodinganalog="245$f"
+                   datechar="creation">1930-1965</unitdate>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">G7821.S7 coll Farrell</unitid>
+         <physdesc label="Extent" encodinganalog="300">21 maps : some colored ; various sizes </physdesc>
+         <physdesc label="Extent" encodinganalog="300">1 folder </physdesc>
+         <langmaterial label="Language">
+            <language langcode="eng" encodinganalog="041">English</language>
+            <descriptivenote>
+               <p>Collection material in English </p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Geography and Map Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Frank Farrell served in the Marine Corps
+            as an interrogator and prosecutor for the International Military Tribunal for the Far
+            East, Shanghai, China. His collection includes a map from World War II that depicts the
+            military situation in China, maps of Guangxi Province, and various tourist maps. Some
+            maps have annotations on the reverse in English and French and other maps are in
+            Chinese.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20210831112851.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Farrell, Frank, 1912-1983, collector.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Military intelligence--China--maps.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--China--Maps.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Guangxi--maps.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="lcgft.">
+               <part>Military maps</part>
+            </genreform>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The materials were originally part of the Frank Farrell papers and transferred from the
+            Manuscript Division.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The collection was arranged and described by Ryan Moore in 2018. </p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright of the Frank Farrell map collection is governed by the
+            Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The Frank Farrell map collection is open to research. Researchers are advised to
+            contact the Geography and Map Reading Room prior to visiting. Many collections are
+            stored off-site and advance notice is needed to retrieve these items for research
+            use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Frank Farrell map collection, Geography and Map Division, Library of
+            Congress, Washington, D.C. </p>
+      </prefercite>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The collection includes a map from World War II that depicts the military situation in China, maps of
+            Guangxi Province, and various tourist maps. Some maps have annotations on the reverse in
+            English and French and other maps are in Chinese. </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Collection</head>
+         <p>The collection is organized into three series </p>
+         <list listtype="unordered" mark="circle">
+            <item>
+               <ref show="replace" actuate="onrequest" target="ser1">Series I</ref> World War II
+               intelligence maps of China </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="ser2">Series II</ref> Maps of Chinese
+               provinces and cities </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="ser3">Series III</ref> Various
+               tourist maps </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <unittitle id="ser1" encodinganalog="245$a">World War II intelligence maps of
+                  China</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">1</container>
+                  <unittitle encodinganalog="245$a"> Map of China's war resistance in the rear of
+                     the enemy, <date normal="1945"> 1945 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1945"> 1945
+                  </unitdate>
+               </did>
+               <odd>
+                  <p>XX Bombing Command E8E Section. </p>
+                  <p>Stamped "secret". </p>
+                  <p>Shows areas of communist guerilla activity. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">2</container>
+                  <unittitle encodinganalog="245$a"> Strategic Situation Map of China - Sheet 3,
+                        <date normal="1945"> 1945 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1945"> 1945
+                  </unitdate>
+               </did>
+               <odd>
+                  <p>Office of Strategic Services ("OSS"). </p>
+                  <p>Stamped "secret". </p>
+                  <p>Shows communist, nationalist, and Japanese forces. </p>
+                  <p>Shows military airfields. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">3</container>
+                  <unittitle encodinganalog="245$a"> Strategic Situation Map of China - Sheet 4,
+                        <date normal="1945"> 1945 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1945"> 1945
+                  </unitdate>
+               </did>
+               <odd>
+                  <p>OSS. </p>
+                  <p>Stamped "secret control". </p>
+                  <p>Shows communist, nationalist, and Japanese forces. </p>
+                  <p>Shows military airfields. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">4</container>
+                  <unittitle encodinganalog="245$a"> Greater China No. 3448-R &amp; A, <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944
+                  </unitdate>
+               </did>
+               <odd>
+                  <p>OSS. </p>
+                  <p>Provisional edition. </p>
+                  <p>Inset map: "Comparison of Greater China with the United States. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">5</container>
+                  <unittitle encodinganalog="245$a"> Situation -- Shantung April <date normal="1945"> 1945 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1945"> 1945
+                  </unitdate>
+               </did>
+               <odd>
+                  <p>OSS. </p>
+                  <p>Stamped "secret". </p>
+                  <p>Shows communist, nationalist, and Japanese forces. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">6</container>
+                  <unittitle encodinganalog="245$a"> Canton -- International Map of the World
+                     1:1,000,000, <date normal="1942"> 1942 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1942"> 1942
+                  </unitdate>
+               </did>
+               <odd>
+                  <p>Survey of India. </p>
+                  <p>Stamped "For official use only". </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">7</container>
+                  <unittitle encodinganalog="245$a"> Hong Kong &amp; Canton - China Scale 1:250,000,
+                        <date normal="1934"> 1934 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1934"> 1934
+                  </unitdate>
+               </did>
+               <odd>
+                  <p>War Office. </p>
+                  <p>GSGS 3825. </p>
+               </odd>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="ser2" encodinganalog="245$a">Maps of Chinese provinces and cities
+               </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">8</container>
+                  <unittitle encodinganalog="245$a"> Foreign Traveller's Guide Map of Shanghai,
+                        <date normal="1947"> 1947 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1947"> 1947
+                  </unitdate>
+               </did>
+               <odd>
+                  <p>Oriental Publishing House Shanghai. </p>
+                  <p>Includes Shanghai Road Index on front and reverse. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">9</container>
+                  <unittitle encodinganalog="245$a">[Merchants map of Shanghai], n.d. </unittitle>
+               </did>
+               <odd>
+                  <p>Advertisements along edges of map. </p>
+                  <p>Includes index to streets. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">10</container>
+                  <unittitle encodinganalog="245$a">China, <date normal="1945"> 1945 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1945"> 1945
+                  </unitdate>
+               </did>
+               <odd>
+                  <p>National Geographic. </p>
+                  <p>1:7,000,000. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">11</container>
+                  <unittitle encodinganalog="245$a">Canton Harbour, <date normal="1939"> 1939
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1939"> 1939 </unitdate>
+                  <didnote encodinganalog="500">Locations identified in English and Chinese.
+                  </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">12</container>
+                  <unittitle encodinganalog="245$a">Whampoa Anchorage, <date normal="1939"> 1939
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1939"> 1939 </unitdate>
+                  <didnote encodinganalog="500">Locations identified in English and Chinese.
+                  </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">13</container>
+                  <unittitle encodinganalog="245$a"> Shanghai Central District, n.d. </unittitle>
+                  <didnote encodinganalog="500">Small map. </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">14</container>
+                  <unittitle encodinganalog="245$a">[193? Map of Nanning City Bombing], <date normal="1930">1930 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1930">1930
+                  </unitdate>
+               </did>
+               <odd>
+                  <p>Depicts bombing. </p>
+                  <p>In Chinese. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">15</container>
+                  <unittitle encodinganalog="245$a">[Guilin City], <date normal="1931">1931
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1931">1931
+                  </unitdate>
+               </did>
+               <odd>
+                  <p>Index of merchants. </p>
+                  <p>In Chinese. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">16</container>
+                  <unittitle encodinganalog="245$a">[Colored map of Guangxi Province], <date normal="1930">1930 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1930">1930
+                  </unitdate>
+               </did>
+               <odd>
+                  <p>Inset maps of cities and rivers. </p>
+                  <p>In Chinese. </p>
+                  <p>Annotations on reverse in French and Chinese.</p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">17</container>
+                  <unittitle encodinganalog="245$a">[Guangzhou Administrative Map], <date normal="1930">1930? </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1930">
+                     1930? </unitdate>
+               </did>
+               <odd>
+                  <p>Shows districts and streets. </p>
+                  <p>In Chinese </p>
+                  <p>Annotations on reverse in German and Chinese.</p>
+               </odd>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="ser3" encodinganalog="245$a">Various tourist maps </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">18</container>
+                  <unittitle encodinganalog="245$a">Map of Ireland. Scale: 12 miles to 1 inch. All
+                     Roads Classified..., <date normal="1949">1949</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1949">
+                     1949</unitdate>
+               </did>
+               <odd>
+                  <p>Irish Tourist Association, Inc., Dublin.</p>
+                  <p>Ordnance Survey Office... Revised 1949. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">19</container>
+                  <unittitle encodinganalog="245$a">Dolph's indexed street map of the Palm Beaches:
+                     Jupiter thru Lake Worth, Florida, n.d. </unittitle>
+               </did>
+               <odd>
+                  <p>Dolph Map Co., Inc.</p>
+                  <p>color map on front and black-and-white map on reverse. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">20</container>
+                  <unittitle encodinganalog="245$a">Champion Map of Palm Beach County, Florida,
+                     n.d. </unittitle>
+               </did>
+               <odd>
+                  <p>Includes street index.</p>
+                  <p>Color map on front and reverse. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">21</container>
+                  <unittitle encodinganalog="245$a">Esso -- New York City and Long Island map and
+                     visitor's guide, <date normal="1965">1965 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1965">1965
+                  </unitdate>
+               </did>
+               <odd>
+                  <p>Includes street index.</p>
+                  <p>Color map on front and reverse. </p>
+               </odd>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

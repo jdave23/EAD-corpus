@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xml" href="../styles/upstate.xsl"?>
+
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "../ead/ead.dtd">
+
+<!-- TEMPLATE VERSION 1.2, 2 Dec Oct 2015 -->
+
+
+
+<ead relatedencoding="MARC21">
+<!-- All items are required unless marked OPT.  Any optional items not used should be commented out so that they don't appear in the viewable document.-->
+
+   <eadheader audience="internal" langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="DC">
+      <eadid countrycode="US" mainagencycode="NSySU-M">academic_affairs</eadid>
+   
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="Title">Office of Academic Affairs Records</titleproper>
+            <subtitle>An inventory of its records at SUNY Upstate Medical University Health Sciences Library</subtitle>
+            <author encodinganalog="Creator">Elise DeAndrea</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="Publisher">Archives and Special Collections at the SUNY
+               Upstate Health Sciences Library</publisher>
+            <address><addressline>SUNY Upstate Medical University</addressline><addressline>766 Irving Avenue</addressline><addressline>Syracuse, NY 13210</addressline></address>
+         </publicationstmt>
+      </filedesc>
+   
+      <profiledesc>
+         <creation>ED<date normal="2021-12-17">17 December 2021
+                </date>
+         </creation>
+         <langusage>
+            <language langcode="eng" encodinganalog="Language">English</language>
+         </langusage>
+      </profiledesc>
+
+      <revisiondesc>
+         <change>
+            <date>02 February 2022</date>
+            <item>First publication</item>
+         </change>
+      </revisiondesc>
+   
+   </eadheader>
+   
+   <archdesc level="collection" type="inventory" relatedencoding="MARC21">
+      <did>
+         <head>Overview of the Collection</head>
+         <repository encodinganalog="852$a" label="Repository: ">
+            <address><addressline>SUNY Upstate Medical University</addressline><addressline>766 Irving Avenue</addressline><addressline>Syracuse, NY 13210</addressline></address>
+         </repository>
+         <origination label="Creator: ">
+            <!--choose ONE, either persname or corpname-->
+            <corpname encodinganalog="110">Upstate Medical University (N.Y.) Office of Academic Affairs</corpname>
+         </origination>
+         <unittitle encodinganalog="245$a" label="Title: ">Office of Academic Affairs Records</unittitle>
+         <unitdate encodinganalog="245$f" normal="####/####" type="inclusive" label="Inclusive Dates: ">1972-2011</unitdate>
+            <physdesc encodinganalog="300$a" label="Quantity: "><extent>7.5 linear ft.</extent></physdesc>
+         <abstract encodinganalog="520$a" label="Abstract: ">This collection consists of records produced by the Office of Academic Affairs at SUNY Upstate Medical University. 
+            Currently, there is one series within the collection consisting of accreditation materials. Additional materials will be added over time. </abstract>
+         <unitid encodinganalog="099" label="Identification: " countrycode="US" repositorycode="NSySU-M">2014.0004, 2021.0008</unitid>
+         <langmaterial label="Language: " encodinganalog="546"><!--Use iso 639.2 for languages and @langcode attribute -->
+             Collection materials are in <language langcode="eng">English</language>.
+         </langmaterial>
+      </did>
+            
+      <bioghist encodinganalog="545">
+         <head>Historical Note</head>
+         <!-- To insert an embedded image, use <ptr>.  You MUST fill out show, title, and href attributes, for example:
+         <ptr show="embed" title="Photo of John Smith" href="jsmith.png"/> -->
+         <p> The Office of Academic affairs works behind the scenes with the president,
+            vice presidents, deans, faculty and staff across the colleges to support university accreditation,
+            institutional and strategic planning regarding education,
+            and individual educational program development and approval process through SUNY and the New York Office of Education.
+            The Office also supports academic policy development
+            and revision, the measurement of student learning outcomes and evaluation of educational programs, honorary degrees, and various faculty awards.
+            </p></bioghist>
+      
+      <scopecontent encodinganalog="520">
+         <head>Scope and Contents of the Collection</head>
+         <p>Records in this collection were produced by the Office of Academic Affairs. There is currently one series on accreditation.</p>
+         <p>Accreditation: this series includes materials relating to LCME and Middle States studies conducted at Upstate Medical University from 1972 through 2011.
+            Consists mostly of reports and meeting minutes. </p>
+      </scopecontent>
+      
+   <!--   <altformavail encodinganalog="530">
+         <head>Other Formats Available</head>
+         <p>## MARC 530 (OPT)</p>
+      </altformavail>-->
+      
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Collection</head>
+         <p>The collection currently has one series that is arranged chronologically within each subseries.</p>
+      </arrangement>
+      
+      <!--<relatedmaterial encodinganalog="544 1">
+         <head>Related Material</head>
+         <p>## MARC 544 1 (OPT)</p>
+      </relatedmaterial>-->
+      
+     <!-- <!-\-Use archref, not extref, to link to related collections.-\->
+      <separatedmaterial encodinganalog="544 0">
+         <head>Separated Material</head>
+         <p>## MARC 544 0 (OPT)</p>
+      </separatedmaterial>-->
+      
+      <!--<otherfindaid encodinganalog="555">
+         <head>Other Related Finding Aids</head>
+         <p>## MARC 555 (OPT)</p>
+      </otherfindaid>-->
+      
+      <controlaccess>
+         <head>Subject and Genre Headings</head>
+         <!-- For each, include @source (aat, lcsh, local, etc).  The most common defaults are here in the template. -->
+        <!-- <persname encodinganalog="600" source="lcnaf">##</persname>
+         <famname encodinganalog="600" source="lcnaf">##</famname>-->
+         <corpname encodinganalog="610" source="lcnaf">SUNY Upstate Medical University</corpname>
+        <!-- <title encodinganalog="630" source="lcnaf">##</title>-->
+         <subject encodinganalog="650" source="lcsh">Universities and colleges--Departments</subject>
+         <subject encodinganalog="650" source="lcsh">Accreditation (Education)</subject>
+         <geogname encodinganalog="651" source="lcsh">Syracuse,(N.Y.)</geogname>
+       <!--  <genreform encodinganalog="655" source="aat">##</genreform>
+         <occupation encodinganalog="656" source="lcsh">##</occupation>
+         <function encodinganalog="657">##</function>-->
+      </controlaccess>
+      
+      <accessrestrict encodinganalog="506">
+         <head>Access Restrictions</head>
+         <!-- Edit as appropriate -->
+         <p>These materials are restricted to use by the University only. Permission to access records must be granted by the Office of Academic Affairs.</p>
+      </accessrestrict>
+      
+      <userestrict encodinganalog="540">
+         <head>Use Restrictions</head>
+         <!-- Edit as appropriate -->
+         <p>Written permission must be obtained from SUNY Upstate Medical University Health Sciences Library 
+            and all relevant rights holders before publishing quotations, excerpts or images from any 
+            materials in this collection.</p>
+      </userestrict>
+      
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Preferred citation for this material is as follows:</p>
+         <p>[Office of Academic Affairs Records], Archives and Special Collections in the Health Sciences Library,
+            SUNY Upstate Medical University</p>
+      </prefercite>
+      
+ <!--     <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <!-\- Example: "Gift of  Jane Doe, 1987." or "Purchase, 1987."   Use one or more as appropriate.  If acquisition source is not known, say "Unknown." -\->
+         <p>Gift of [## donor], [## year].</p>
+         <p>Purchase, [## year].</p>
+      </acqinfo>-->
+      
+   <!--   <appraisal encodinganalog="583">
+         <head>Appraisal Information</head>
+         <p>## MARC 583 (OPT)</p>
+      </appraisal>-->
+      <!--
+      <accruals encodinganalog="584">
+         <head>Accruals</head>
+         <p>## MARC 584 (OPT)</p>
+      </accruals>-->
+      
+      <dsc type="combined">
+         <head>Inventory</head>
+         <!--C01 @LEVEL must be set to 'series' to show up in TOC.-->
+         <c01 level="series"><did><unittitle>Accreditation</unittitle></did>
+            <!-- Permissible values for @TYPE for first CONTAINER are: Box, Cabinet, Carton, Oversize, Package, Volume -->
+            <!-- Permissible values for @TYPE for second CONTAINER are: Folder, Page, Drawer, or Reel -->
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 1</container>
+                  <unitdate normal="1978" type="inclusive">1978</unitdate>
+                  <!--To insert a digital object, use <dao>.  You MUST fill out the title, href, id, role, and show attributes. 
+                  The ID must match the ID of the object in your digital asset management system. -->
+                  <!--<dao title="Happy dancing cat" id="template-001" show="new" role="image/jpeg" href="happycat.jpg"/>-->
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 2</container>
+                  <unitdate normal="1978" type="inclusive">1978</unitdate>
+               </did>
+               </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 3</container>
+                  <unitdate normal="1981/1983" type="inclusive">1981-1983</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 4</container>
+                  <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 5</container>
+                  <unitdate normal="1988" type="inclusive">1988</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 6</container>
+                  <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 7</container>
+                  <unitdate normal="1989" type="inclusive">1989</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 8</container>
+                  <unitdate normal="1989" type="inclusive">1989</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 9</container>
+                  <unitdate normal="1989" type="inclusive">1989</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 10</container>
+                  <unitdate normal="1989" type="inclusive">1989</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 11</container>
+                  <unitdate normal="1990" type="inclusive">1990</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 12</container>
+                  <unitdate normal="1992/1994" type="inclusive">1992-1994</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 13</container>
+                  <unitdate normal="1995" type="inclusive">1995</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 14</container>
+                  <unitdate normal="1996" type="inclusive">1996</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 15</container>
+                  <unitdate normal="1996" type="inclusive">1996</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 16</container>
+                  <unitdate normal="1996" type="inclusive">1996</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 17</container>
+                  <unitdate normal="2000/2003" type="inclusive">2000-2003</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 18</container>
+                  <unitdate normal="2002/2003" type="inclusive">2002-2003</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>LCME</unittitle>
+                  <container type="Box">Box 19</container>
+                  <unitdate normal="2010/2011" type="inclusive">2010-2011</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>Middle States</unittitle>
+                  <container type="Box">Box 20</container>
+                  <unitdate normal="1972/1999" type="inclusive">1972-1999</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>Middle States</unittitle>
+                  <container type="Box">Box 21</container>
+                  <unitdate normal="1997/1999" type="inclusive">1997-1999</unitdate>
+               </did>
+            </c02>
+            <c02>
+               <did><unittitle>Middle States</unittitle>
+                  <container type="Box">Box 22</container>
+                  <unitdate normal="2004/2009" type="inclusive">2004-2009</unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

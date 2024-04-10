@@ -1,0 +1,2348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010319">loc.mss/eadmss.ms010319</recordid>
+      <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper encodinganalog="245$a">George Dewey Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by Allan H. Kitchens<lb/>Revised and expanded by
+               Michael Spangler with the assistance of Deloris Butler and Sherralyn McCoy</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78018366">https://lccn.loc.gov/mm78018366</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+      <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2021-09">2021 September</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Add link to map collection</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2010">2010</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">George Dewey Papers <date altrender="Inclusive Dates" localtype="inclusive" normal="1805/1949">1805-1949</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1885/1931">1885-1931</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1805/1949"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1805-1949</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1885/1931"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1885-1931</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS18366</unitid>
+         <origination label="Creator">
+            <persname source="lcnaf" encodinganalog="100">
+               <part>Dewey, George, 1837-1917</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">25,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">86 containers plus 6 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">42.8 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English </p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part> Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Naval officer. Correspondence,
+            letterbooks, diaries, journal, military papers, financial papers, scrapbooks, and
+            photographs chiefly relating to Dewey's activities as naval commander in the Far East
+            during the Spanish-American War, especially at the battle of Manila Bay; as admiral and
+            president of the General Board of the Navy ; president of the court of inquiry
+            concerning Winfield Scott Schley; and commander-in-chief of naval winter
+            maneuvers.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230326151350.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bonaparte, Charles J. (Charles Joseph), 1851-1921--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bugher, Frederick M. (Frederick McLean)--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Chandler, William E. (William Eaton), 1835-1917--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Cortelyou, George B. (George Bruce), 1862-1940--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Creel, George, 1876-1953--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Daniels, Josephus, 1862-1948--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Dewey family--Correspondence.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Dewey, George G. (George Goodwin), -1963--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Dewey, George, 1837-1917.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Dewey, Julius Y. (Julius Yemans)--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Dewey, Mary Perrin, -1843?--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Dewey, Mildred McLean Hazen, 1850-1931. Mildred McLean Hazen Dewey papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Dodge, Grenville M., 1831-1916--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Garfield, James A. (James Abram), 1831-1881--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hay, John, 1838-1905--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hazen, William Babcock, 1830-1887--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lansing, Robert, 1864-1928--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lodge, Henry Cabot, 1850-1924--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Long, John Davis, 1838-1915--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Mahan, A. T. (Alfred Thayer), 1840-1914--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>McLean, John R. (John Roll), 1848-1916--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Moody, William H. (William Henry), 1853-1917--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Morton, Paul, 1857-1911--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Newberry, Truman Handy, 1864-1945--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Poe, Elisabeth Ellicott, 1886-1947--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Proctor, Redfield, 1831-1908--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Roosevelt, Theodore, 1858-1919--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Root, Elihu, 1845-1937--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sargent, Nathan, 1849-1907.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Schley, Winfield Scott, 1839-1911.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sherman, William T. (William Tecumseh), 1820-1891--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Untermyer, Alvin, 1882-1963--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Williams, Oscar Fitzalan, 1843-1909--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Mayflower (Yacht)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Olympia (Cruiser)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Pensacola (Screw steamer)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Rosiclare Lead and Fluorspar Mining Company.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy--History--Spanish-American War, 1898.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy--Maneuvers.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy. Asiatic Squadron.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy. European Station.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy. General Board.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Courts-martial and courts of inquiry--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Manila Bay, Battle of, Philippines, 1898.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Spanish-American War, 1898--Campaigns.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Naval officers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquistion Information</head>
+         <p>The papers of George Dewey, naval officer, were deposited in the Library of Congress by
+            his son, George G. Dewey, from 1933 to 1937 and were converted to a gift in 1952.
+            Additional material was given to the Library in 1940 by J. O. Thorn and in 1963 by the
+            estate of George G. Dewey. Further additions were transferred to the Library by the
+            National Museum of American History, Smithsonian Institution, in 1990 and 1992.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The Dewey Papers were processed in 1963 and revised and expanded in 1997. The finding
+            aid was revised again in 2010.</p>
+      </processinfo>
+      <altformavail>
+         <head>Related Material</head>
+         <p>The Manuscript Division also holds a separate collection of George Dewey papers as part
+            of its Naval Historical Foundation Collection.</p>
+      </altformavail>
+      <altformavail>
+         <head>Transfers</head>
+         <p>Items have been transferred from the Manuscript Division to other custodial divisions of
+            the Library. Maps and atlases have been transferred to the Geography and Map Division,
+            where a finding aid to this material is available at <ref href="https://hdl.loc.gov/loc.gmd/eadgmd.gm017003">https://hdl.loc.gov/loc.gmd/eadgmd.gm017003.</ref> Photographs have been transferred
+            to the Prints and Photographs Division. All transfers are identified in these divisions
+            as part of the George Dewey Papers.</p>
+      </altformavail>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of George Dewey in these papers and in other
+            collections of papers in the custody of the Library of Congress has been dedicated to
+            the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506">
+         <head>Access and Restrictions</head>
+         <p>The papers of George Dewey are open to research. Researchers are advised to contact the
+            Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, George Dewey Papers, Manuscript Division, Library of Congress,
+            Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1837, Dec. 26</datesingle>
+               <event>Born, Montpelier, Vt.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1854</datesingle>
+               <event>M.M.S., Norwich University, Northfield, Vt.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1858</datesingle>
+               <event>Graduated, U.S. Naval Academy, Annapolis, Md.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1858</fromdate>
+                  <todate>1861</todate>
+               </daterange>
+               <event>Attached to steam frigate <title localtype="simple">
+                     <part>Wabash</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1861</datesingle>
+               <chronitemset>
+                  <event>Promoted to lieutenant, U.S. Navy</event>
+                  <event>Assigned as executive officer on the steam sloop-of-war <title localtype="simple">
+                        <part>Mississippi</part>
+                     </title>
+                  </event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1861</fromdate>
+                  <todate>1865</todate>
+               </daterange>
+               <event>Took part in Civil War naval engagements at Fort St. Phillip and Fort Jackson,
+                  1862; Port Hudson, 1862; New Orleans, 1862; Donaldsonville, 1863; and Fort Fisher,
+                  1864-1865; also served with the North Atlantic Blockading Squadron and on the
+                     <title localtype="simple">
+                     <part>Mississippi</part>
+                  </title>, <title localtype="simple">
+                     <part>Monogahela</part>
+                  </title>, <title localtype="simple">
+                     <part>Brooklyn</part>
+                  </title>, <title localtype="simple">
+                     <part>Minnesota</part>
+                  </title>, <title localtype="simple">
+                     <part>Colorado</part>
+                  </title>, and <title localtype="simple">
+                     <part>Agawam</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1865</datesingle>
+               <event>Promoted to lieutenant commander</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1865</fromdate>
+                  <todate>1867</todate>
+               </daterange>
+               <event>Served on the <title localtype="simple">
+                     <part>Kearsarge</part>
+                  </title> and the <title localtype="simple">
+                     <part>Canandaigua</part>
+                  </title> and commanded the steam frigate <title localtype="simple">
+                     <part>Colorado</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1867</datesingle>
+               <event>Married Susie Goodwin (died 1872)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1867</fromdate>
+                  <todate>1869</todate>
+               </daterange>
+               <event>Assigned to the U.S. Naval Academy, Annapolis, Md.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1870</fromdate>
+                  <todate>1875</todate>
+               </daterange>
+               <event>Commanded the sloop <title localtype="simple">
+                     <part>Narragansett</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1872</datesingle>
+               <event>Promoted to commander</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1875</fromdate>
+                  <todate>1882</todate>
+               </daterange>
+               <event>Assigned to the Lighthouse Board</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1882</fromdate>
+                  <todate>1884</todate>
+               </daterange>
+               <event>Commanded the steam sloop <title localtype="simple">
+                     <part>Juaniata</part>
+                  </title> of the Asiatic Squadron</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1884</datesingle>
+               <event>Promoted to captain</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1885</fromdate>
+                  <todate>1888</todate>
+               </daterange>
+               <event>Commanded the screw steamer <title localtype="simple">
+                     <part>Pensacola</part>
+                  </title>, flagship of the European Squadron</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1889</fromdate>
+                  <todate>1896</todate>
+               </daterange>
+               <event>Chief, Navy Department's Bureau of Equipment, and served on the Lighthouse
+                  Board</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1895</fromdate>
+                  <todate>1897</todate>
+               </daterange>
+               <event>President, Board of Inspection and Survey, U.S. Navy</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1896</datesingle>
+               <event>Promoted to commodore</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1898</fromdate>
+                  <todate>1899</todate>
+               </daterange>
+               <event>Commanded Asiatic Squadron from flagship <title localtype="simple">
+                     <part>Olympia</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1898, May 1</datesingle>
+               <event>Battle of Manila Bay</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1898, May 7</datesingle>
+               <event>Promoted to rear admiral</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1898, Aug. 18</datesingle>
+               <event>Assisted Major-General Wesley Merritt, U.S. Army, in the capture of Manila,
+                  Philippines</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1899</datesingle>
+               <chronitemset>
+                  <event>Promoted to admiral</event>
+                  <event>Married Mildred McLean Hazen</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1900</fromdate>
+                  <todate>1917</todate>
+               </daterange>
+               <event>President, General Board of the Navy</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1901</datesingle>
+               <event>President, Schley Court of Inquiry</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1902</fromdate>
+                  <todate>1903</todate>
+               </daterange>
+               <event>Commander-in-chief, combined U.S. naval force assembled at Culebra, Puerto
+                  Rico, for winter maneuvers</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1917, Jan. 16</datesingle>
+               <event>Died, Washington, D.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of George Dewey (1837-1917) span the years 1805-1949, with the bulk of the
+            material concentrated in the period 1885-1931. The collection primarily concerns Dewey's
+            naval career after 1885 and consists of diaries, correspondence, letterbooks, military
+            papers, clippings, printed matter, financial records, scrapbooks, and memorial volumes
+            comprising the following series: <ref show="replace" actuate="onrequest" target="diary">
+               Diaries </ref>, <ref show="replace" actuate="onrequest" target="generalc"> General
+               Correspondence </ref>, <ref show="replace" actuate="onrequest" target="militaryf">
+               Military File </ref>, <ref show="replace" actuate="onrequest" target="finfanf">
+               Financial File </ref>, <ref show="replace" actuate="onrequest" target="miscellan">
+               Miscellany </ref>, <ref show="replace" actuate="onrequest" target="add"> Addition
+            </ref>, and <ref show="replace" actuate="onrequest" target="overs"> Oversize </ref>.</p>
+         <p>The <ref show="replace" actuate="onrequest" target="generalc"> General Correspondence
+            </ref> and <ref show="replace" actuate="onrequest" target="militaryf"> Military File
+            </ref> include correspondence and letterbooks focusing on Dewey's service as a naval
+            commander in the Far East during the Spanish-American War commanding the Asiatic
+            Squadron of the United States Navy, specifically his command of the cruiser <title localtype="simple">
+               <part>Olympia</part>
+            </title> at the Battle of Manila Bay, 1 May 1898, and the subsequent capture of Manila
+            in August 1898. Of special interest are the correspondence and letterbooks for the
+            period 1898-1899, particularly correspondence from Oscar Fitzalan Williams, American
+            consul in Manila. The <ref show="replace" actuate="onrequest" target="militaryf">
+               Military File </ref> contains copies of telegrams between Dewey and John Davis Long,
+            secretary of the navy; Theodore Roosevelt, assistant secretary of the navy; Oscar
+            Fitzalan Williams; and the American consuls in Shanghai, Tokyo, and Hong Kong. The
+            material also relates to Dewey's service as commander of the screw steamer <title localtype="simple">
+               <part>Pensacola</part>
+            </title>, flagship of the European Squadron, 1885-1888; admiral of the navy and
+            president of the General Board of the Navy, 1899-1917; president of the Winfield Scott
+            Schley court of inquiry, 1901; and commander-in-chief of naval maneuvers while aboard
+            the presidential yacht <title localtype="simple">
+               <part>Mayflower</part>
+            </title>, 1902-1903.</p>
+         <p>The <ref show="replace" actuate="onrequest" target="generalc"> General Correspondence
+            </ref> series also includes letters exchanged between Dewey's parents, Mary Perrin and
+            Julius Y. Dewey, and other family members. Letters from William T. Sherman and James A.
+            Garfield in 1874 to Mildred Dewey's first husband, William B. Hazen, are also in the
+            General Correspondence. Other prominent correspondents include Charles J. Bonaparte,
+            William E. Chandler, George B. Cortelyou, George Creel, Josephus Daniels, Grenville
+            Mellen Dodge, John Hay, Robert Lansing, John Davis Long, A. T. Mahan, William H. Moody,
+            Paul Morton, Truman Handy Newberry, Redfield Proctor, Theodore Roosevelt (1858-1919) ,
+            Elihu Root, and Oscar Fitzalan Williams. An index to most of the letters is filed at the
+            beginning of the series.</p>
+         <p>The <ref show="replace" actuate="onrequest" target="finfanf"> Financial File </ref>
+            includes correspondence and records that reveal Dewey's large real estate holdings and
+            other investments. Among the <ref show="replace" actuate="onrequest" target="miscellan">
+               Miscellany </ref> series are clippings, genealogical and biographical material,
+            memorabilia, memorial volumes, notes, printed matter, records of the Naval Order of the
+            United States, and scrapbooks. Also, there is a typescript of an article written in 1904
+            by Commander Nathan Sargent entitled "Admiral Dewey and the Manila Campaign," an account
+            of the Battle of Manila Bay and subsequent actions and operations of Dewey and the
+            Asiatic Squadron. </p>
+         <p>The <ref show="replace" actuate="onrequest" target="add"> Addition </ref> includes <ref show="replace" actuate="onrequest" target="addcorr"> general correspondence </ref>
+            and material pertaining chiefly to the estate of Dewey's second wife, Mildred McLean
+            Hazen Dewey. Correspondence includes Dewey's letters to Mildred Dewey and letters he
+            received from others, many of which relate to his service as president of the Schley
+            court of inquiry and Mildred Dewey's exchanges with Frederick M. Bugher, Josephus
+            Daniels, her stepson George G. Dewey, Henry Cabot Lodge (1850-1924), her brother John R.
+            McLean, Elisabeth Ellicott Poe, and Alvin Untermyer. A daughter of the founder of the
+               <title localtype="simple">
+               <part>Washington Post</part>
+            </title>, Mildred Dewey held a sizable estate at her death. The <ref show="replace" actuate="onrequest" target="addestate"> estate file </ref> documents the disposition
+            of the estate and includes correspondence of family members and lawyers, including
+            Democratic Party presidential contender John W. Davis (1873-1955). Family interests in
+            the Rosiclare Lead and Fluorspar Mining Co., which was owned by Mildred Dewey's father,
+            Washington McLean, is documented in the <ref show="replace" actuate="onrequest" target="addestate"> estate file </ref>as well as the <ref show="replace" actuate="onrequest" target="addfinancial"> financial file </ref>. </p>
+         <p>
+            <ref show="replace" actuate="onrequest" target="addmiscell"> Miscellaneous files </ref>
+            among the additional material include clippings, a copy of a letter by Thomas Jefferson
+            to Katharine Duane Morgan, memorabilia, notes, poetry, printed matter, and a report on
+            the reception of Dewey at Washington, D.C., October 2-3 1899. Commissions, citations,
+            degrees, awards, posters, and memorial volumes comprise the <ref show="replace" actuate="onrequest" target="overs"> Oversize </ref> series.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>The collection is arranged in seven series:</p>
+         <list listtype="unordered" mark="circle">
+            <item>
+               <ref show="replace" actuate="onrequest" target="diary"> Diaries, 1882-1909 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="generalc"> General Correspondence,
+                  1820-1919 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="militaryf"> Military File, 1876-1916
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="finfanf"> Financial File, 1883-1916
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="miscellan"> Miscellany, 1805-1923
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="add"> Addition, 1811-1949 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="overs"> Oversize, 1872-1917 </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Box</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-2</container>
+               <unittitle id="diary" encodinganalog="245$a">Diaries, <date normal="1882/1909">1882-1909</date>
+               </unittitle>
+               <unitdate normal="1882/1909" encodinganalog="245$f" era="ce" calendar="gregorian">1882-1909</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Diaries of George and Mildred McLean Hazen Dewey.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Dewey, George</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1882-1895 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">1896-1909 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Dewey, Mildred McLean Hazen,
+                     1900-1907</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Set I </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Set II </unittitle>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">3-43</container>
+               <unittitle id="generalc" encodinganalog="245$a">General Correspondence, <date normal="1820/1919">1820-1919</date>
+               </unittitle>
+               <unitdate normal="1820/1919" encodinganalog="245$f" era="ce" calendar="gregorian">1820-1919</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Primarily letters received with copies of some letters sent. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically. Includes an index to most of the correspondence.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Index, 1898-1917 </unittitle>
+                  <physdesc encodinganalog="300">(3 vols.)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">7 Apr. 1820-4 May 1898 </unittitle>
+                  <physdesc encodinganalog="300">(10 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">5-31 May 1898 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">1 June-6 Sept. 1898 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">9 Sept. 1898-28 Feb. 1899 </unittitle>
+                  <physdesc encodinganalog="300">(10 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">2 Mar.-30 June 1899 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">1 July-30 Sept. 1899 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">2 Oct. 1899-28 Feb. 1900 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">1 Mar.-30 Oct. 1900 </unittitle>
+                  <physdesc encodinganalog="300">(9 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">3 Nov. 1900-27 Feb. 1902 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">10 Mar. 1902-28 Feb. 1903 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">10 Mar.-27 June 1903 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">1 July-31 Dec. 1903 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">4 Jan.-30 June 1904 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">1 July 1904-17 Jan. 1905 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">18 Jan.-31 May 1905 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <unittitle encodinganalog="245$a">1 June-23 Dec. 1905 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">24 Dec. 1905-17 May 1906 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">19 May-31 Dec. 1906 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">2 Jan.-29 June 1907 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <unittitle encodinganalog="245$a">1 July 1907-17 Feb. 1908 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">18 Feb.-29 June 1908 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">6 July 1908-26 Feb. 1909 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <unittitle encodinganalog="245$a">1 Mar.-20 Dec. 1909 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <unittitle encodinganalog="245$a">21 Dec. 1909-31 May 1910 </unittitle>
+                  <physdesc encodinganalog="300">(10 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">3 June-31 Dec. 1910 </unittitle>
+                  <physdesc encodinganalog="300">(9 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">1 Jan.-30 Apr. 1911 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">1 May-18 Dec. 1911 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">31</container>
+                  <unittitle encodinganalog="245$a">19 Dec. 1911-20 Apr. 1912 </unittitle>
+                  <physdesc encodinganalog="300">(9 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">22 Apr.-21 Oct. 1912 </unittitle>
+                  <physdesc encodinganalog="300">(10 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">33</container>
+                  <unittitle encodinganalog="245$a">23 Oct. 1912-7 Jan. 1913 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">34</container>
+                  <unittitle encodinganalog="245$a">8 Jan.-30 Apr. 1913 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">35</container>
+                  <unittitle encodinganalog="245$a">1 May-16 Oct. 1913 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">36</container>
+                  <unittitle encodinganalog="245$a">17 Oct. 1913-31 Jan. 1914 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">37</container>
+                  <unittitle encodinganalog="245$a">1 Feb.-6 May 1914 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">38</container>
+                  <unittitle encodinganalog="245$a">6 May-24 Dec. 1914 </unittitle>
+                  <physdesc encodinganalog="300">(9 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">39</container>
+                  <unittitle encodinganalog="245$a">25 Dec. 1914-13 May 1915 </unittitle>
+                  <physdesc encodinganalog="300">(9 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40</container>
+                  <unittitle encodinganalog="245$a">14 May-31 Dec. 1915 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">41</container>
+                  <unittitle encodinganalog="245$a">2 Jan.-9 May 1916 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">42</container>
+                  <unittitle encodinganalog="245$a">10 May-30 Dec. 1916 </unittitle>
+                  <physdesc encodinganalog="300">(9 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">43</container>
+                  <unittitle encodinganalog="245$a">2 Jan. 1917-29 May 1919, undated </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">43-53</container>
+               <unittitle id="militaryf" encodinganalog="245$a">Military File, <date normal="1876/1916">1876-1916</date>
+               </unittitle>
+               <unitdate normal="1876/1916" encodinganalog="245$f" era="ce" calendar="gregorian">1876-1916</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letterbooks, ships' records, reports, telegrams, printed matter, and
+                  miscellany.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p> Arranged alphabetically by topic or type of material and chronologically
+                  thereunder.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">43</container>
+                  <unittitle encodinganalog="245$a">General Board of the Navy, 1900-1902, undated </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">44</container>
+                  <unittitle encodinganalog="245$a">Miscellany, 1897-1907, undated </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>Mayflower</part>
+                     </title> (yacht)</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Journal, 1902-03</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Letterbooks</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">8 Dec. 1902-6 Jan. 1903</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">45</container>
+                        <unittitle encodinganalog="245$a">5-15 Jan. 1903, undated</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>Olympia</part>
+                     </title> (cruiser)</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Forwarding books, 1897-1899 </unittitle>
+                     <physdesc encodinganalog="300">(3 vols.)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">46</container>
+                     <unittitle encodinganalog="245$a">Letterbooks</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Flag secretary, 1898-1899 </unittitle>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Navy Department letters, 1898-99 </unittitle>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">47</container>
+                        <unittitle encodinganalog="245$a">Station letters</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">14 Sept. 1897-23 Dec. 1898 </unittitle>
+                           <physdesc encodinganalog="300">(3 vols.)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">48</container>
+                           <unittitle encodinganalog="245$a">15 Oct. 1898-29 Sept. 1899 </unittitle>
+                           <physdesc encodinganalog="300">(3 vols.)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">49</container>
+                     <unittitle encodinganalog="245$a">Supplies and maintenance records, 1897-1899 </unittitle>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>Pensacola</part>
+                     </title> (screw steamer), letterbooks</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Received, 1885-1888 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">50</container>
+                     <unittitle encodinganalog="245$a">Sent, 1885-1888 </unittitle>
+                     <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Printed matter, 1897-1904, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Registers of salutes and official visits,
+                     1891-1899 </unittitle>
+                  <physdesc encodinganalog="300">(2 vols.)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">51</container>
+                  <unittitle encodinganalog="245$a">Reports and background material, 1876-1916,
+                     undated </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Spanish documents found at Cavite, Philippines,
+                     1898 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">52</container>
+                  <unittitle encodinganalog="245$a">Telegrams</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Originals</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">26 Feb. 1898-30 Apr. 1899 </unittitle>
+                        <physdesc encodinganalog="300">(9 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">53</container>
+                        <unittitle encodinganalog="245$a">1 May-31 Aug. 1899 </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Transcripts, 1895-1899 </unittitle>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">54-62</container>
+               <unittitle id="finfanf" encodinganalog="245$a">Financial File, <date normal="1883/1916">1883-1916</date>
+               </unittitle>
+               <unitdate normal="1883/1916" encodinganalog="245$f" era="ce" calendar="gregorian">1883-1916</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Account books, correspondence, receipts, and material related to real estate,
+                  loans, and investments. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by topic or type of material and chronologically
+                  thereunder.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">54</container>
+                  <unittitle encodinganalog="245$a">Account books, 1899-1901, 1914-1916</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Index, 1900-1916</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Feb. 1900-Apr. 1901 </unittitle>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">55</container>
+                     <unittitle encodinganalog="245$a">May 1901-Aug. 1902 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">56</container>
+                     <unittitle encodinganalog="245$a">Sept. 1902-Aug. 1904 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">57</container>
+                     <unittitle encodinganalog="245$a">Sept. 1904-July 1906 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">Aug. 1906-Feb. 1910 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Mar. 1910-Apr. 1914 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">May 1914-Apr. 1916, undated </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Investments and loans, circa 1900-circa
+                     1913</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">61</container>
+                  <unittitle encodinganalog="245$a">Real estate and loans, 1885-1916</unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Real estate and loans, 1885-1916</unittitle>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Receipts, 1883-1916, undated </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Taxes, 1913-1914, undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">63-72</container>
+               <unittitle id="miscellan" encodinganalog="245$a">Miscellany, <date normal="1805/1923">1805-1923</date>
+               </unittitle>
+               <unitdate normal="1805/1923" encodinganalog="245$f" era="ce" calendar="gregorian">1805-1923</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Appointment books, articles re Dewey, certificates, clippings, genealogical and
+                  biographical material, memorial volumes, letterbooks, memorabilia, record books,
+                  notes, poetry, printed matter, and scrapbooks. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by topic or type of material and chronologically
+                  thereunder.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Appointment books, 1901-1912 </unittitle>
+                  <physdesc encodinganalog="300">(2 vols.)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Articles</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Admiral Dewey and the Manila Campaign," by
+                        Nathan Sargent, 1904</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"The Attack of the Federal Fleet, under the
+                        Command of Admiral Farragut, upon the Confederate Batteries at Port Hudson,
+                        La., and the Destruction of the <title localtype="simple">
+                           <part>Mississippi</part>
+                        </title> commanded by Lieut. Com. George Dewey," by H. C. Haskins,
+                        undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Citations, degrees, and awards, 1892-1917 <ref show="replace" actuate="onrequest" target="ov1misaward63">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">64</container>
+                  <unittitle encodinganalog="245$a">Clippings, 1805-1910, undated </unittitle>
+                  <physdesc encodinganalog="300">(11 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Genealogical and biographical material,
+                     undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Greeting cards, 1911-1916, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">65</container>
+                  <unittitle encodinganalog="245$a">Invitations, 1899-1913, undated </unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Memorabilia, 1883-1916, undated</unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  <container localtype="box">66</container>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  <container localtype="box">67</container>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Memorial volumes</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dewey Home Fund, 1899</unittitle>
+                     <physdesc encodinganalog="300">(1 vol.)</physdesc>
+                     <container localtype="box">68</container>
+                     <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">69</container>
+                     <unittitle encodinganalog="245$a">Dewey Watch Fund, 1899 <ref show="replace" actuate="onrequest" target="ov2memfund69">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">New York, N.Y., 1899 <ref show="replace" actuate="onrequest" target="ov3memnewyork70">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Philadelphia, Pa., 1899 <ref show="replace" actuate="onrequest" target="ov4memPa70">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Shipping interests of New York, 1898-1899
+                           <ref show="replace" actuate="onrequest" target="ov5memship70">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Naval Order of the United States</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">General Commandery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">General recorder, letterbooks, 1899-1904 </unittitle>
+                        <physdesc encodinganalog="300">(3 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Triennial Congress, Boston, Mass.,
+                           1895</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">70</container>
+                     <unittitle encodinganalog="245$a">New York Commandery, record books, 1894-1923 </unittitle>
+                     <physdesc encodinganalog="300">(3 vols.)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notes and fragmentary material, 1893-1911,
+                     undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Poetry and music, 1897-1913, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">71</container>
+                  <unittitle encodinganalog="245$a">Printed matter, 1874-1917, undated </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">72</container>
+                  <unittitle encodinganalog="245$a">Scrapbooks</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Vol. I, 1899 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Vol. II, 1901-1907 </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Vol. III, 1907-1916 </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Speech, undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">73-86</container>
+               <unittitle id="add" encodinganalog="245$a">Addition, <date normal="1811/1946">1811-1949</date>
+               </unittitle>
+               <unitdate normal="1811/1946" encodinganalog="245$f" era="ce" calendar="gregorian">1811-1949</unitdate>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">73-76</container>
+                  <unittitle id="addcorr" encodinganalog="245$a">General Correspondence <date normal="1896/1931">1896-1931</date>
+                  </unittitle>
+                  <unitdate normal="1896/1931" encodinganalog="245$f" era="ce" calendar="gregorian">1896-1931</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Letters sent and received.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by name of correspondent and chronologically
+                     thereunder.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">73</container>
+                     <unittitle encodinganalog="245$a">Dewey, George</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Dewey, Mildred McLean Hazen (wife),
+                           1896-1906 </unittitle>
+                        <physdesc encodinganalog="300">(10 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="con73lodge" encodinganalog="245$a">Lodge, Henry Cabot
+                           (1850-1924), 1898 <ref show="replace" actuate="onrequest" target="con75lodge">
+                              <emph render="italic">See also Container 74, same heading</emph>
+                           </ref>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Others</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">1898-1901 </unittitle>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">74</container>
+                           <unittitle encodinganalog="245$a">1902-1915, undated </unittitle>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="con74roosevelt" encodinganalog="245$a">Roosevelt, Theodore,
+                           1906-1908 <ref show="replace" actuate="onrequest" target="con76roosevelt">
+                              <emph render="italic">See also Container 76, same heading</emph>
+                           </ref>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dewey, Mildred McLean Hazen</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Bugher, Frederick H. (nephew),
+                           1904-1923</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Bugher, Frederick McLean (grandnephew),
+                           1919-1930, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Daniels, Josephus, 1923-1924,
+                           undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Dewey, George Goodwin (stepson),
+                           1906-1930, undated </unittitle>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Dewey Congressional Medal Men's
+                           Association, 1927-1931</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Longworth, Alice Roosevelt <ref show="replace" actuate="onrequest" target="con76rooseveltlee">
+                              <emph render="italic">See Container 76, Roosevelt, Alice Lee</emph>
+                           </ref>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="con75lodge" encodinganalog="245$a">Lodge, Henry Cabot
+                           (1850-1924), 1923 <ref show="replace" actuate="onrequest" target="con73lodge">
+                              <emph render="italic">See also Container 73, same heading </emph>
+                           </ref>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">McCully, N. A., 1926-1927</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">McLean, John R. (brother), 1904,
+                           1914-1915</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Navy League of the United States, Women's
+                           Section, 1915-1923, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">75</container>
+                        <unittitle encodinganalog="245$a">Others, 1899-1931, undated </unittitle>
+                        <physdesc encodinganalog="300">(7 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Poe, Elisabeth Ellicott, 1915-1923,
+                           undated </unittitle>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">76</container>
+                        <unittitle id="con76rooseveltlee" encodinganalog="245$a">Roosevelt, Alice
+                           Lee, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="con76roosevelt" encodinganalog="245$a">Roosevelt, Theodore,
+                           1904 <ref show="replace" actuate="onrequest" target="con74roosevelt">
+                              <emph render="italic">See also Container 74, same heading</emph>
+                           </ref>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Thissal, H. D., 1916, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Untermyer, Alvin, 1923-1930, undated </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Wilson, Woodrow, 1917</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">76-80</container>
+                  <unittitle id="addestate" encodinganalog="245$a">Estate File, <date normal="1811/1949">1811-1949</date>
+                  </unittitle>
+                  <unitdate normal="1811/1949" encodinganalog="245$f" era="ce" calendar="gregorian">1811-1949</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Correspondence, account statements, clippings, deeds, and legal documents. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by topic or type of material and chronologically
+                     thereunder.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">76</container>
+                     <unittitle encodinganalog="245$a">Adirondack, N.Y., property</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Bell, Frank L., 1927-1935,
+                           undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Benedict, Farrand N.,
+                           1934-1935</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Chittenden, Henry T.,
+                           1927-1928</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Davis, John W. (1873-1955), 1928-1934,
+                           undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Deeds and legal papers, 1811-1928,
+                           undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Harrison, Walter J., 1927-1934</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Snyder, David E., 1934-1935</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Untermyer, Alvin, 1927-1928</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Audubon, John James, drawings by,
+                        1931-1933</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bills against Dewey estate, 1933</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bugher, Frederick McLean</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Bid for estate, 1947</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Distribution received, 1926-1934,
+                           undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Expenses, 1930-1933</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">77</container>
+                     <unittitle encodinganalog="245$a">Burial, 1925-1933</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Business Economic Digest</part>
+                        </title>, 1931-1934</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Clippings, 1928-1933, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dewey, George Goodwin</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, 1924, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Settlement with, 1932-1934</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Trophies and relics, 1932</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Estate sale, 1933-1934</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">General correspondence, 1926-1936,
+                        undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hartson, Nelson T., 1933-1943</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Mausoleum, 1933</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany, 1928-1934, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLean, Mary L., trusts</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">No. I, 1916-1931, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">No. II, 1930-1931</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Mortician, 1931-1933</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">National Mortgage and Investment Corp.,
+                        1934-1940, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">78</container>
+                     <unittitle encodinganalog="245$a">National Savings and Trust Co.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Account statements</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Set I, 1929-1931</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Set II, 1932-1943, undated </unittitle>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Set III, 1934-1941</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Agreement with Mildred McLean Hazen Dewey,
+                           1926</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Bornet, David, 1931-1935,
+                           undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Bugher, Frederick McLean,
+                           1935-1936</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">79</container>
+                        <unittitle encodinganalog="245$a">General correspondence, 1933-1949 </unittitle>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellany, 1924-1945, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Review of Dewey trust,
+                           1935-1940</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ogilby, C. F. R., 1930-1936,
+                        undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">80</container>
+                     <unittitle encodinganalog="245$a">Personal property, 1925-1926,
+                        undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Photography, 1927-1933</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Real estate outside Washington, D.C.,
+                        1933-1934</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rosiclare Lead and Fluorspar Mining Co.,
+                        1916-1934 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Security Storage Co., 1927-1939</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Servants, 1931-1933</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Untermyer, Alvin, 1924-1934 </unittitle>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Untermyer, Eugene and Samuel,
+                        1925-1934</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Weissberger, Arnold, re statements of
+                        witnesses, 1931-1934 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wills, 1925, 1931</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">81-85</container>
+                  <unittitle id="addfinancial" encodinganalog="245$a">Financial File, <date normal="1912/1932">1912-1932</date>
+                  </unittitle>
+                  <unitdate normal="1912/1932" encodinganalog="245$f" era="ce" calendar="gregorian">1912-1932</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Correspondence, account statements, and account books.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p> Arranged alphabetically by topic or type of material and chronologically
+                     thereunder.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">81</container>
+                     <unittitle encodinganalog="245$a">Account books, 1916-1924</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">American Security and Trust Co., 1916-1930 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">General correspondence, 1916-1932, undated </unittitle>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Income taxes, 1913-1929</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">82</container>
+                     <unittitle encodinganalog="245$a">Miscellany, 1912-1926, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">National City Bank of New York, 1923-1929 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">National Savings and Trust Co.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Account statements</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">1922-1929 </unittitle>
+                           <physdesc encodinganalog="300">(4 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">83</container>
+                           <unittitle encodinganalog="245$a">1930</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Authorization for payments, 1926-1931 </unittitle>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, 1917-1930</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Riggs National Bank</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Account statements, 1922-1925</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Nov. 1920-May 1923</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">84</container>
+                           <unittitle encodinganalog="245$a">June 1923-Jan. 1926 </unittitle>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rosiclare Lead and Fluorspar Mining
+                        Co.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">June 1921-July 1928 </unittitle>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">85</container>
+                        <unittitle encodinganalog="245$a">Aug. 1928-Aug. 1930 </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">85-86</container>
+                  <unittitle id="addmiscell" encodinganalog="245$a">Miscellany, <date normal="1817/1929">1817-1929</date>
+                  </unittitle>
+                  <unitdate normal="1817/1929" encodinganalog="245$f" era="ce" calendar="gregorian">1817-1929</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Certificates, clippings, commissions, copy of a Thomas Jefferson letter,
+                     memorabilia, notes, poetry, and printed matter.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of material or topic and chronologically
+                     thereunder.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">85</container>
+                     <unittitle encodinganalog="245$a">Calling cards, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Certificates, 1905-1909</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Clippings, 1901-1934, undated </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Commissions, 1872-1899 <ref show="replace" actuate="onrequest" target="ovaddmis86">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Extracts from Mildred Dewey's diary,
+                        1900-1901</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Invitations, 1926-1929, undated </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jefferson, Thomas, copy of letter to
+                        Katharine Duane Morgan, 26 Jan. 1822</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Memorabilia, 1898-1925, undated </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">86</container>
+                     <unittitle encodinganalog="245$a">Memorials, 1917</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Passport signed by John Quincy Adams,
+                        secretary of state, copy, 1817</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Poetry and music, 1897-1923,
+                        undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Posters, undated <ref show="replace" actuate="onrequest" target="ov6poster86">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed matter, 1909, 1923</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Reception of Admiral George Dewey, U.S.N., at Washington, Oct. 2
+                              and 3, 1899, </part>
+                        </title>report of the Admiral Dewey Reception Committee, 1901</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Schley, Winfield Scott, clippings,
+                        1901</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1-OV 6</container>
+               <unittitle id="overs" encodinganalog="245$a">Oversize, <date normal="1872/1917">1872-1917</date>
+               </unittitle>
+               <unitdate normal="1872/1917" encodinganalog="245$f" era="ce" calendar="gregorian">1872-1917</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Oversize material consisting primarily of commissions, citations, degrees, awards,
+                  memorial volumes, and posters. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Organized and described according to the series, folders, and boxes from which the
+                  items were removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="ov1misaward63" encodinganalog="245$a">Citations, degrees, and
+                        awards, 1892-1917 (Container 63)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 2</container>
+                     <unittitle encodinganalog="245$a">Memorial volumes</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="ov2memfund69" encodinganalog="245$a">Dewey Watch Fund, 1899
+                           (Container 69)</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 3</container>
+                        <unittitle id="ov3memnewyork70" encodinganalog="245$a">New York, N.Y., 1899
+                           (Container 70)</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 4</container>
+                        <unittitle id="ov4memPa70" encodinganalog="245$a">Philadelphia, Pa., 1899
+                           (Container 70)</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 5</container>
+                        <unittitle id="ov5memship70" encodinganalog="245$a">Shipping interests of
+                           New York, 1898-1899 (Container 70)</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 6</container>
+                  <unittitle encodinganalog="245$a">Addition</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="ovaddmis86" encodinganalog="245$a">Commissions, 1872-1899
+                           (Container 86)</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="ov6poster86" encodinganalog="245$a">Posters, undated
+                           (Container 87)</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

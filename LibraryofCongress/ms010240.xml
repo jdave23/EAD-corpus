@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010240">loc.mss/eadmss.ms010240</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Horace Capron Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2022" encodinganalog="260$c" era="ce" calendar="gregorian">2022</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm79015024">https://lccn.loc.gov/mm79015024</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2022-07">2022 July</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>Added digital item and digital description, expanded description</agent>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2010">2010</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Glenn R.Gardner</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Horace Capron Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1834/1961">1834-1961</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1871/1875">1871-1875</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1834/1961"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1834-1961</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1871/1875"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1871-1875</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS15024</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Capron, Horace, 1804-1885</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">1,800 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">6 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">2.5 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">1 digital file (16.47 MB)</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <language langcode="jpn" encodinganalog="041">Japanese</language>
+            <descriptivenote>
+               <p>Collection material in English and Japanese</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">United States army officer and
+            commissioner of agriculture. Correspondence, journals, biographical material, financial
+            records, orders for agricultural equipment and supplies, printed matter, and photographs
+            in physical format as well as a map in both digital and physical format. Relating
+            chiefly to Capron's role as agricultural adviser to the Japanese government in the
+            agricultural development of Hokkaido.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220606090740.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Capron family--Correspondence.</part>
+            </famname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Capron, Horace, 1804-1885.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Grant, Ulysses S. (Ulysses Simpson), 1822-1885--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Greeley, Horace, 1811-1872--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sherman, William T. (William Tecumseh), 1820-1891--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Department of Agriculture.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Agriculture--Japan--Hokkaido.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Agriculture--Japan.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Agriculture--United States.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Army officers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Public officials.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of Horace Capron, United States army officer and commissioner of
+            agriculture, were given to the Library of Congress by his great-grandson, Banfield
+            Capron, in 1964 and in 1980.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The collection was processed in 1964 and an addition to the collection was processed in
+            1980. The finding aid was revised in 2010.</p>
+         <p>In 2022, a digital scan of a map of Tennessee was added to the collection and the
+            finding aid was updated. The scan was created by the Library of Congress digital scan
+            center and received on one optical disk. The optical disk was assigned a unique digital
+            ID number. Use the digital ID number to request access copies of the file associated
+            with the storage media. A description of the standard processes taken on all born
+            digital records can be found in the Processing History Note: Born Digital Collection
+            Material at <ref href="https://hdl.loc.gov/loc.mss/eadmss.digital">https://hdl.loc.gov/loc.mss/eadmss.digital</ref>.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Horace Capron is governed by the
+            Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Horace Capron are open to research. Researchers are advised to contact the
+            Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use. Access to digital
+            content is available on-site only in the Manuscript Reading Room and requires advanced
+            notice.</p>
+      </accessrestrict>
+      <phystech>
+         <head>Technical Requirements</head>
+         <p>The papers of Horace Capron contain a scanned map in JPEG format. The file was created
+            by the Library of Congress using Adobe Photoshop in a Windows operating system, version
+            unknown. The file can be accessed using standard image viewers.</p>
+      </phystech>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number or digital IDs, Horace Capron Papers, Manuscript Division, Library of
+            Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1804, Aug. 31</datesingle>
+               <event>Born, Attleboro, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1834</datesingle>
+               <event>Married Louisa V. Snowden (died 1849) </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1836</fromdate>
+                  <todate>1851</todate>
+               </daterange>
+               <chronitemset>
+                  <event>Owner and superintendent of a cotton factory, Laurel, Md.</event>
+                  <event>Became nationally known for progressive farming techniques </event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1854</datesingle>
+               <event>Married Margaret Baker</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1863</datesingle>
+               <event>Commander and lieutenant colonel, 14th Illinois Cavalry</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1865</datesingle>
+               <event>Commander and brigadier general, United States Volunteers</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1866</datesingle>
+               <event>Served in United States Army</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1867</fromdate>
+                  <todate>1871</todate>
+               </daterange>
+               <event>Commissioner of agriculture</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1871</fromdate>
+                  <todate>1875</todate>
+               </daterange>
+               <event>On staff of Agriculture Commission; adviser to the Japanese government</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1885, Feb. 22</datesingle>
+               <event>Died, Washington, D.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Horace Capron (1804-1885) span the years 1834-1961, with the bulk of the
+            material, dating from 1871 to 1875, relating to his experiences as an agricultural
+            adviser to the Japanese government. Capron was given authority to develop the island of
+            Hokkaido, on the northern perimeter of the Japanese Empire, at the time an economic and
+            agricultural frontier. The collection contains journals, correspondence, financial
+            records, maps, and orders for agricultural equipment, livestock, and plants that reflect
+            an early experiment in government planning in agriculture and international cooperation.
+            The papers are in English and Japanese.</p>
+         <p>Some material relates to Capron's service with the Union army during the Civil War and
+            his work in the 1870s as commissioner of agriculture. The correspondence includes a few
+            letters of Ulysses S. Grant, William T. Sherman, and Horace Greeley.</p>
+         <p>Also in the collection is correspondence of other members of the Capron family, a
+            handwritten autobiography by Horace Capron, and biographical information.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged by type of material.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Correspondence </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">General </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1834-1866</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1834-1866</unitdate>
+                     <physdesc encodinganalog="300$a">(17 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1867-1884, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1867-1884,
+                        undated</unitdate>
+                     <physdesc encodinganalog="300$a">(24 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Capron family </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Capron, Albert B., <date>1868-1900</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1868-1900</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Capron, Albert S., <date>1925-1961</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1925-1961</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Capron, Florence S., <date>1926-1959</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1926-1959</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Capron, Horace Mann, <date>1925-1950</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1925-1950</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Capron, Margaret (wife),
+                           <date>1864-1890</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1864-1890</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">“C-Y’ miscellaneous, <date>1851-1878,
+                           1884</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1851-1878,
+                        1884</unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Subject file </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Civil War, <date>1862-1864</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1862-1864</unitdate>
+                  <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Mission to Japan </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle>"Expedition to Japan" daily journal,
+                        <date>1871-1875</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1871-1875</unitdate>
+                     <physdesc encodinganalog="300$a">(1 vol.)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle>"Notes from the Journal of Horace Capron as Advisor &amp;
+                        Commissioner under the Japanese Government from 1871 to 1875, Inclusive.",
+                           <date>1896</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1896</unitdate>
+                     <physdesc encodinganalog="300$a">(1 vol.)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle>"Daily Journal of Horace Capron as Commissioner and Advisor to
+                        Kaitakushi or Colonial Department of Japan, 1871-1875",
+                        <date>1925</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1925</unitdate>
+                     <physdesc encodinganalog="300$a">(1 vol.)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle>Memoranda and receipts, <date>1871-1874</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1871-1874</unitdate>
+                     <physdesc encodinganalog="300$a">(4 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Miscellany </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Agriculture, Department of,
+                        <date>1865-1870</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865-1870</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Articles by Capron, <date>1848,
+                     1871-1884</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1848,
+                     1871-1884</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Articles by others, <date>1925, 1937, 1951,
+                        undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1925, 1937, 1951,
+                     undated</unitdate>
+                  <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Autobiographical writings, <date>1882,
+                        undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1882,
+                     undated</unitdate>
+                  <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Biographical information,<date>1869-1888,
+                        1938</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1869-1888,
+                     1938</unitdate>
+                  <physdesc encodinganalog="300$a">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Capron, Albert Banfield (father),
+                        <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Commissions, appointments, diplomas, and other
+                     documents, <date>1835, 1846, 1863-1871, 1884</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1835, 1846,
+                     1863-1871, 1884</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Estate file, <date>1851, 1877</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1851,
+                     1877</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Inventories, Japanese art,
+                        <date>1880-1882</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1880-1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">"Lloyd’s Official Map of the State of Tennessee", <date>1862</date> 
+                  </unittitle>
+                  <unitdate>1862</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Volume, <date>1862</date>
+                     </unittitle>
+                     <unitdate>1862</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="df"/>
+                     <unittitle encodinganalog="245$a">Scanned map, <date>2008</date>
+                     </unittitle>
+                     <unitdate>2008</unitdate>
+                     <unitid label="Digital ID">mss15024_264_001</unitid>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Photographs, <date>1871, 1919,
+                     1931</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1871, 1919,
+                     1931</unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

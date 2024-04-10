@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms013120">loc.mss/eadmss.ms013120</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>J. L. M. Curry Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by Manuscript Division Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2012" encodinganalog="260$c" era="ce" calendar="gregorian">2012</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78017418">https://lccn.loc.gov/mm78017418</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2022-05">2022 May</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Correction made</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2021-04">2021 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Appendix link updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2013">2013</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">J. L. M. Curry Papers <date altrender="nclusive Dates" localtype="inclusive" normal="1637/1939">1637-1939</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1866/1903">1866-1903</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1637/1939"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1637-1939</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1866/1903"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1866-1903</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS17418</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Curry, J. L. M. (Jabez Lamar Monroe), 1825-1903</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">3,900 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">30 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">6.6 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English </p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part> Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Statesman, author, clergyman, diplomat,
+            and educator. Diaries, correspondence, printed matter, clippings, memorabilia, notes and
+            memoranda, legal papers, accounts, lectures and sermons, essays, scrapbook, manuscript
+            of autobiography, speeches, and articles, and catalog of Curry's library. Includes
+            autographs of presidents, Confederate leaders, Spanish noblemen, royalty, and writers,
+            jurists, diplomats, educators, historians, scientists, reformers, artists, statesmen,
+            literary figures, clergymen, and military men of the United States and
+            Europe.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20161007073814.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Adams, John Quincy, 1767-1848--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Aiken, William, 1806-1887--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Angell, James Burrill, 1829-1916--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bayard, Thomas F. (Thomas Francis), 1828-1898--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Clay, Henry, 1777-1852--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Courtenay, William Ashmead, 1831-1908--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Curry, J. L. M. (Jabez Lamar Monroe), 1825-1903.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Evarts, William Maxwell, 1818-1901--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Fish, Hamilton, 1808-1893--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Franklin, Benjamin, 1706-1790--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Fuller, Melville Weston, 1833-1910--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Gallatin, Albert, 1761-1849--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Gilman, Moses Coit--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Green, Samuel A. (Samuel Abbott), 1830-1918--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hayes, Rutherford B., 1822-1893--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Irving, Washington, 1783-1859--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jackson, Henry R. (Henry Rootes), 1820-1898--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jefferson, Thomas, 1743-1826--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Johnson, Andrew, 1808-1875--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lyman, Theodore, 1833-1897--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Madison, James, 1751-1836--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Onís, Luis de, 1762-1827--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Polk, James K. (James Knox), 1795-1849--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Porter, James D. (James Davis), 1828-1912--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Rush, Richard, 1780-1859--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Stearns, Eben S. (Eben Sperry), 1819-1887--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Stuart, Alexander H. H. (Alexander Hugh Holmes),
+                  1807-1891--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Waddel, Moses, 1770-1840--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Webster, Daniel, 1782-1852--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Wellington, Arthur Wellesley, Duke of, 1769-1852--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Williams, Roger, 1604?-1683--Autographs.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Winthrop, Robert C. (Robert Charles), 1809-1894--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>John F. Slater Fund for the Education of Freedmen.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Peabody Education Fund.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Southern Education Board.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>African Americans--Education.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Artists--Autographs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Authors, Spanish--Autographs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Autographs--Collections.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Baptists--Southern States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Clergy--Autographs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Diplomatic and consular service, American--Spain.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Diplomats--Autographs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Diplomats--Confederate States of America--Autographs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Education--Southern States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Educators--Autographs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Historians--Autographs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Lawyers--Autographs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Nobility--Spain--Autographs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Presidents--United States--Autographs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Reformers--Autographs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Scientists--Autographs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Soldiers--Autographs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Statesmen--Autographs.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Confederate States of America--Politics and government.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Spain--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Spain--Kings and rulers--Autographs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Spain.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Authors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Clergy.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Diplomats.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Educators.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Statesmen.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of J. L. M. Curry, statesman, author, clergyman, diplomat, and educator, were
+            given to the Library of Congress by his sister, Mrs. J. K. Connally, in 1911, and by his
+            nieces in 1940. Additional material was purchased. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The Curry Papers were processed in 1949. The finding aid was revised in 2012. </p>
+      </processinfo>
+      <otherfindaid encodinganalog="555">
+         <head>Additional Guides</head>
+         <p>A brief description of Part I of the collection appears in the <title>
+               <part>Library of Congress Handbook of Manuscripts</part>
+            </title> (1918): 95, 306. A list of autographs in the collection is available as a <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms013120.apx" show="new"
+                 actuate="onrequest">PDF</ref> document. </p>
+      </otherfindaid>
+      <relatedmaterial encodinganalog="544 1">
+         <head>Related Material</head>
+         <p>Related collections in the Manuscript Division include microfilm of originals in the
+            Alabama Department of Archives and History, Montgomery, Ala. </p>
+      </relatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of J. L. M. Curry is governed by the
+            Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of J. L. M. Curry are open to research. Researchers are advised to contact
+            the Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, J. L. M. Curry Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1825, June 5 </datesingle>
+               <event> Born, Lincoln County, Georgia</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1843</datesingle>
+               <event>Graduated, University of Georgia, Athens, Ga.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1846 </datesingle>
+               <event>Received law degree, Dane Law School, Harvard University, Cambridge,
+                  Mass.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1857</fromdate>
+                  <todate>1861</todate>
+               </daterange>
+               <event>Member of Congress, resigned at outbreak of Civil War</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1861</fromdate>
+                  <todate>1965</todate>
+               </daterange>
+               <event>Member, Confederate congresses; served in Confederate Cavalry</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1865</fromdate>
+                  <todate>1868</todate>
+               </daterange>
+               <event>President, Howard College, Homewood, Ala.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1868</fromdate>
+                  <todate>1881</todate>
+               </daterange>
+               <event>Professor, Richmond College, Richmond, Va. (president of trustees, 1882-1886,
+                  1890-1897)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1881</datesingle>
+               <event>Became general agent of Peabody Education Fund</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1885</fromdate>
+                  <todate>1888</todate>
+               </daterange>
+               <event>Declined cabinet post to become minister to Spain</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1890 </datesingle>
+               <event>Became agent and director of John F. Slater Fund for the Education of
+                  Freedman</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1899</datesingle>
+               <event>Head, Southern Education Board</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1902</datesingle>
+               <event>Returned to Spain as ambassador extraordinary</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1903, Feb. 12</datesingle>
+               <event>Died, Asheville, N.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Jabez Lamar Munroe Curry (1825-1903) consist of diaries, correspondence,
+            an autograph collection, printed matter, clippings, memorabilia, notes and memoranda,
+            legal papers, accounts, lectures and sermons, essays, scrapbooks, a manuscript of an
+            autobiography, speeches and articles, and miscellaneous material. The collection spans
+            the years 1637-1939, with the bulk of the material concentrated in the period 1866-1903.
+            The papers are organized into two parts. Part I is composed of a <ref show="replace" actuate="onrequest" target="Gen"> Correspondence and General File. </ref> Part II
+            consists of four series: <ref show="replace" actuate="onrequest" target="Corr">
+               Correspondence </ref>, <ref show="replace" actuate="onrequest" target="Auto">
+               Autographs </ref>, <ref show="replace" actuate="onrequest" target="Diary"> Diaries
+            </ref>, and <ref show="replace" actuate="onrequest" target="Misc"> Miscellany </ref>. </p>
+         <p>Included in the <ref show="replace" actuate="onrequest" target="Auto"> Autographs </ref>
+            series are correspondence and letters (many to Curry himself) from United States
+            presidents; Confederate statesmen; Spanish noblemen, royalty, and writers; and American
+            and European artists, clergyman, diplomats, educators, historians, jurists, literary
+            figures, military men, reformers, scientists, and statesmen. Among the signatories are
+            John Quincy Adams, Henry Clay, Benjamin Franklin, Albert Gallatin, Washington Irving,
+            Thomas Jefferson, Andrew Johnson, James Madison, Luis de Onís, James K. Polk, Richard
+            Rush, Daniel Webster, Arthur Wellesley, Duke of Wellington, and Roger Williams. </p>
+         <p>Reports, journals, writings, printed matter, and other material in the Miscellany series
+            are organized mainly in bound volumes designated as Record Books A to G compiled by
+            Curry. Subjects in the collection concern topics such as the Peabody Education Fund, the
+            John F. Slater Fund for the Education of Freedmen, the Southern Education Board, Curry’s
+            studies on Civil War history and the civil government of the Confederacy, and diplomatic
+            matters in Spain. </p>
+         <p>The <ref show="replace" actuate="onrequest" target="Diary"> Diaries </ref> and much of
+            the <ref show="replace" actuate="onrequest" target="Corr"> correspondence </ref> relate
+            to Curry’s career as an educator, diplomat, and Baptist minister. Correspondents include
+            William Aiken, James Burrill Angel, Thomas F. Bayard, William Ashmead Courtenay, William
+            Maxwell Evarts, Hamilton Fish (1808-1893), Melville Weston Fuller, Moses Coit Gilman,
+            Rutherford Birchard Hayes, Samuel A. Green, Henry R Jackson, Theodore Lyman, James D.
+            Porter, Eben S. Stearns, Alexander H. H. Stuart, Moses Waddel, and Robert C.
+            Winthrop.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in five series in two parts:</p>
+         <p>Part I:</p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Gen"> Correspondence and General
+                  File, 1809-1903 </ref>
+            </item>
+         </list>
+         <p>Part II:</p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Corr"> Correspondence, 1824-1939
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Auto"> Autographs, 1637-1895 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Diary"> Diaries, 1866-1902 </ref>
+            </item>
+            <item>
+               <ref target="Misc" actuate="onrequest" show="replace"> Miscellany, 1886-1902 </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">I:1-I:18</container>
+               <unittitle encodinganalog="245$a" id="Gen">Part I: Correspondence and General File,
+                     <date normal="1809/1903">1809-1903</date>
+               </unittitle>
+               <unitdate normal="1809/1903">1809-1903</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Bound volumes of letters received by Curry and his wife. Includes reports,
+                  writings, and printed matter. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1809-1876 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1809-1876 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1877, May 5-1881, Aug. 18</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1877, May 5-1881, Aug. 18</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:3</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1881, Aug. 19-1882, Nov. 12 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1881, Aug. 19-1882, Nov. 12 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:4</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1882, Nov. 13-1884, Dec. 25</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1882, Nov. 13-1884, Dec. 25</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:5</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1884, Dec. 26-1886, Oct. 30</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1884, Dec. 26-1886, Oct. 30</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:6</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1886, Nov. 9-1888, Nov. 8 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1886, Nov. 9-1888, Nov. 8 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:7</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1888, Nov. 9-1890, Feb. 11 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1888, Nov. 9-1890, Feb. 11 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:8</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1890, Feb. 12-1891, May 12</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1890, Feb. 12-1891, May 12</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:9</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1891, May 13-1892, Apr. 11</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1891, May 13-1892, Apr. 11</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:10</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1892, Apr. 12-1893, Dec. 27</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1892, Apr. 12-1893, Dec. 27</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:11</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1893, Dec. 28-1896, Jan. 29</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1893, Dec. 28-1896, Jan. 29</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:12</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1896, Jan. 30-1899, Oct. 30</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1896, Jan. 30-1899, Oct. 30</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:13</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1899, Oct. 31-1901, Dec. 30</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1899, Oct. 31-1901, Dec. 30</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:14</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1901, Dec. 31-1903, Feb. 9</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1901, Dec. 31-1903, Feb. 9</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:15</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1903, Feb. 10-1908, June 8 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1903, Feb. 10-1908, June 8 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:16-18</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>Undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">Undated </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:1-II:6</container>
+               <unittitle encodinganalog="245$a" id="Corr">Part II: Correspondence, <date normal="1824/1939"> 1824-1939</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1824/1939">
+                  1824-1939</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Bound volumes of letters received by Curry and by others after his death. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date> 1824, July 14-1875, Feb. 27</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1824, July 14-1875, Feb. 27</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date> 1875, Mar. 7-1878, July 1</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1875, Mar. 7-1878, July 1</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:3</container>
+                  <unittitle encodinganalog="245$a">
+                     <date> 1878, Aug. 3-1888, Apr. 2</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1878, Aug. 3-1888, Apr. 2</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:4</container>
+                  <unittitle encodinganalog="245$a">
+                     <date> 1888, May 2-1892, Nov. 4</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1888, May 2-1892, Nov. 4</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:5</container>
+                  <unittitle encodinganalog="245$a">
+                     <date> 1892, Nov. 7-1907, Nov. 4</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1892, Nov. 7-1907, Nov. 4</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:6</container>
+                  <unittitle encodinganalog="245$a">
+                     <date> 1901, Sept. 30-1939, Dec. 3</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1901, Sept. 30-1939, Dec. 3</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:7</container>
+               <unittitle encodinganalog="245$a" id="Auto">Part II: Autographs, <date normal="1637/1895">1637-1895</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1637/1895">1637-1895</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters of prominent Americans and Europeans, many to Curry, but also predating
+                  him, compiled as an autograph collection. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:7</container>
+                  <unittitle encodinganalog="245$a">A-Z, <date>1637-1895 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1637-1895 </unitdate>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:7-II:9</container>
+               <unittitle encodinganalog="245$a" id="Diary">Part II: Diaries, <date normal="1866/1902">1866-1902</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1866/1902">1866-1902</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Pocket diaries.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:7</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1866-1876 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1866-1876 </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:8</container>
+                  <unittitle encodinganalog="245$a">
+                     <date> 1880-1894</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1880-1894</unitdate>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:9</container>
+                  <unittitle encodinganalog="245$a">
+                     <date> 1895-1902 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1895-1902 </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:10-II:12</container>
+               <unittitle encodinganalog="245$a" id="Misc">Part II: Miscellany, <date normal="1886/1902">1886-1902</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1886/1902">1886-1902</unitdate>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:10</container>
+                  <unittitle encodinganalog="245$a">Record Books A-C </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:11</container>
+                  <unittitle encodinganalog="245$a"> Record Books D-G </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:12</container>
+                  <unittitle encodinganalog="245$a">Printed matter </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:12</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>
+                        <part>Congressional Directory, </part>
+                     </title>
+                     <date>1902 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1902 </unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

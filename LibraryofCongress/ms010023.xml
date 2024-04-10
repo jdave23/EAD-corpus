@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010023">loc.mss/eadmss.ms010023</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>William F. Fullam Papers</titleproper>
+            <subtitle>A Finding Aid to the Papers in the Naval Historical Foundation Collection in
+               the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm70050096">https://lccn.loc.gov/mm70050096</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-05">2023 May</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2010">2010</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">William F. Fullam Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1873/1942">1873-1942</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1906/1922">1906-1922</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1873/1942"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1873-1942</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1906/1922"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1906-1922</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS50096</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Fullam, William F. (William Freeland), 1855-1926</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">3,850 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">10 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">3 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Naval officer and journalist.
+            Correspondence, bulletins, biographical data, naval news sheets, radio dispatches,
+            reports, orders, commissions, transcripts of congressional testimony, writings,
+            photographs, clippings, and other records relating to Fullam's naval career.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220928171716.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Benson, William Shepherd, 1855-1932.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Borah, William Edgar, 1865-1940.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Daniels, Josephus, 1862-1948.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Fullam, William F. (William Freeland), 1855-1926.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Mitchell, William, 1879-1936.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Schumann-Heink, Ernestine, 1861-1936.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy--Aviation.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy--Foreign service--Caribbean Area.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy--Foreign service--West Indies.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy--Reorganization.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Spanish-American War, 1898--Campaigns--Cuba.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Spanish-American War, 1898--Naval operations, American.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Caribbean Area--History, Naval.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Journalists.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Naval officers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of William F. Fullam, naval officer and journalist, were deposited in the
+            Library of Congress in 1952 by the Naval Historical Foundation and converted to a gift
+            in 1998.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of William F. Fullam were arranged and described by Ruth S. Nicholson in
+            1973. The collection was revised in 2010. The finding aid was updated in 2023 by Maria
+            Farmer as part of a division-wide remediation project by the Inclusive Description
+            Working Group.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of William F. Fullam is governed by
+            the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of William F. Fullam are open to research. Researchers are advised to contact
+            the Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, William F. Fullam Papers, Naval Historical Foundation Collection,
+            Manuscript Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1855, Oct. 20</datesingle>
+               <event>Born, Pittsford, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1877</datesingle>
+               <event>Graduated, United States Naval Academy, Annapolis, Md.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1879</fromdate>
+                  <todate>1883</todate>
+               </daterange>
+               <event>Duty on the <emph render="italic">Swatara,</emph> Asiatic Station</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1883</fromdate>
+                  <todate>1887</todate>
+               </daterange>
+               <event>Instructor, United States Naval Academy, Annapolis, Md.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1885</datesingle>
+               <event>Married Mariana W. Robinson</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1886</datesingle>
+               <event>Promoted to lieutenant</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1887</fromdate>
+                  <todate>1891</todate>
+               </daterange>
+               <event>Duty on the <emph render="italic">Boston</emph> (sloop of war), <emph render="italic">Yorktown</emph>, and <emph render="italic">Chicago</emph>
+               </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1891</fromdate>
+                  <todate>1894</todate>
+               </daterange>
+               <event>Instructor, United States Naval Academy, Annapolis, Md.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1894</fromdate>
+                  <todate>1897</todate>
+               </daterange>
+               <event>Duty on the <emph render="italic">Raleigh </emph>and <emph render="italic">Amphitrite</emph>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1898</datesingle>
+               <chronitemset>
+                  <event>Duty on the <emph render="italic">New Orleans,</emph> Spanish-American
+                     War</event>
+                  <event>Instructor at United States Naval Academy, Annapolis, Md.</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1899</datesingle>
+               <event>Published <title localtype="simple">
+                     <part>Handbook for Infantry and Artillery, United States Navy.</part>
+                  </title> Annapolis, Md.: Naval Institute</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1900</fromdate>
+                  <todate>1902</todate>
+               </daterange>
+               <event>Executive officer, <emph render="italic">Lancaster</emph> (sloop of
+                  war)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1902</datesingle>
+               <chronitemset>
+                  <event>Published <title localtype="simple">
+                        <part>The Recruit’s Handy Book.</part>
+                     </title> Annapolis, Md.: Naval Institute</event>
+                  <event>Published <title localtype="simple">
+                        <part>The Petty Officer’s Drill Book.</part>
+                     </title> Annapolis, Md.: Naval Institute</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1902</fromdate>
+                  <todate>1904</todate>
+               </daterange>
+               <event>Instructor, United States Naval Academy, Annapolis, Md.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1905</datesingle>
+               <chronitemset>
+                  <event>Commanded the <emph render="italic">Terror</emph> and the <emph render="italic">Glacier</emph>
+                  </event>
+                  <event>Promoted to commander</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1906</fromdate>
+                  <todate>1907</todate>
+               </daterange>
+               <event>Commanded the <emph render="italic">Marietta</emph> (gunboat) during Cuban,
+                  Caribbean, and Central American politico-military actions</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1907</fromdate>
+                  <todate>1909</todate>
+               </daterange>
+               <event>Commanded the Naval Training Station, Newport, R.I.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1909</datesingle>
+               <event>Promoted to captain</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1909</fromdate>
+                  <todate>1911</todate>
+               </daterange>
+               <event>Commanded the <emph render="italic">Mississippi</emph> (battleship)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1911</fromdate>
+                  <todate>1913</todate>
+               </daterange>
+               <event>Commandant, Naval Training Station, Great Lakes, III.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1914</datesingle>
+               <event>Promoted to rear admiral</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1914</fromdate>
+                  <todate>1915</todate>
+               </daterange>
+               <event>Superintendent, United States Naval Academy, Annapolis, Md.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1915</fromdate>
+                  <todate>1917</todate>
+               </daterange>
+               <event>Commander in chief, United States Pacific Reserve Fleet</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1917</fromdate>
+                  <todate>1919</todate>
+               </daterange>
+               <event>Commander, Patrol Force, United States Pacific Fleet</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1919</datesingle>
+               <event>Retired from the United States Navy</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1926, Sept. 23</datesingle>
+               <event>Died, Washington, D.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of William Freeland Fullam (1855-1926) span the years 1873-1942, with the
+            bulk of the material falling in the period 1906-1922. The papers consist of
+            correspondence, orders to duty, speeches and writings, newspaper clippings, printed
+            matter, photographs, and miscellaneous items and are organized into the following
+            series: <ref show="replace" actuate="onrequest" target="corr">General Correspondence and
+               Orders to Duty</ref>, <ref show="replace" actuate="onrequest" target="spee">Speech,
+               Article, and Book File</ref>, and <ref show="replace" actuate="onrequest" target="misc">Miscellany.</ref>
+         </p>
+         <p> Fullam’s correspondence and the columns he wrote for the <title localtype="simple">
+               <part>New York Tribune</part>
+            </title> in the 1920s reflect his views on the removal of United States marines from
+            cruising ships, the reorganization of the Navy Department and the coordination of its
+            bureaus, the superiority of air power, the conduct of World War I operations, and other
+            military topics.</p>
+         <p> The papers also provide insight into American foreign policy in the Caribbean and
+            Central American areas where Fullam had patrolled the coastal waters of Santo Domingo,
+            Cuba, Honduras, and Nicaragua in 1906 and 1907.</p>
+         <p> Prominent among Fullam’s correspondents are Philip Andrews, William S. Benson, Victor
+            Blue, Josephus Daniels, Edwain Denby, George Dewey, Bradley A. Fiske, Albert Gleaves,
+            Ernestine Schumann-Heink, Harris Laning, Blair Lee, Stephen B. Luce, Charles B. McVay,
+            William A. Mitchell, James H. Oliver, John E. Pillsbury, Franklin D. Roosevelt, Seaton
+            Schroeder, William S. Sims, and Richard Wainwright.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in three series: </p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="corr">General Correspondence and
+                  Orders to Duty, 1877-1926</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="spee">Speech, Article, and Book File,
+                  1893-1924</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="misc">Miscellany, 1873-1942</ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-6</container>
+               <unittitle encodinganalog="245$a" id="corr">General Correspondence and Orders to
+                  Duty, <date normal="1877/1926">1877-1926</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1877/1926">1877-1926</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Letters received and drafts of letters sent.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged by type of material and therein chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Letters received and drafts of letters sent
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1883-1907, Mar.</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1883-1907,
+                        Mar.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1907, Apr.-Aug.</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1907,
+                        Apr.-Aug.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1908, Sept.-1916. Apr.</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1908,
+                        Sept.-1916. Apr.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1916, May-1917, Dec.</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1916, May-1917,
+                        Dec.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1918-1920</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1918-1920</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1921-1926</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1921-1926</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Orders to duty, <date>1877-1914</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1877-1914</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">7-8</container>
+               <unittitle encodinganalog="245$a" id="spee">Speech, Article, and Book File, <date normal="1893/1924">1893-1924</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1893/1924">1893-1924</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Articles, historical sketches, notes, reports, statements, and miscellaneous
+                  items.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Articles</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Copies of articles and speeches, typewritten,
+                           <date>1917-1918, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1917-1918,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Magazine clippings, <date>1894-1923</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1894-1923</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Newspaper clippings</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a">By or about Fullam, <date>1919-1923,
+                              undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919-1923,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a">Published by Fullam in the <title localtype="simple">
+                              <part>New York Tribune</part>
+                           </title> under his pseudonym "Quarterdeck," <date>1920-1922</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1920-1922</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Congressional and official statements and
+                     reports</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Senate Subcommittee of the Committee on Naval
+                        Affairs, <date>1920</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1920</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">United States Congress Aircraft Investigating
+                        Committee, <date>1924</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1924</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">United States Navy Board on the bombing of
+                        German ships, <date>undated</date>
+                     </unittitle>
+                     <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Withdrawal of marines from cruising ships,
+                           <date>1893-1913</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1893-1913</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Historical data (1915-1919) and reports on the
+                     United States Pacific Fleet</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Historical sketch (1844-1906) and reports on
+                     Santo Domingo</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Holograph notes and preface for an unpublished
+                     book, “Three Plane Navy”</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous notes</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Notes on the Battle of Tsushima</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Photostatic copies of data prepared for the
+                     United States Congress on “Treaty Navies,” listing statistics on the navies of
+                     the United States, Great Britain, and Japan <date>1924</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1924</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Typewritten manuscript of an unpublished essay,
+                     “Campaign of 1812"</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">9-10</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany, <date normal="1873/1942">1873-1942</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1873/1942">1873-1942</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Biographical material, photographs, printed matter, and other miscellaneous
+                  items.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by subject or type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Biographical file, <date>undated</date>
+                  </unittitle>
+                  <unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Commissions, <date>1873-1914</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1873-1914</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings and printed matter,
+                        <date>1892-1942</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1892-1942</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Photographs, <date>1876-1925</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1876-1925</unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

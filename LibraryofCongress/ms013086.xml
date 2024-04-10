@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms013086">loc.mss/eadmss.ms013086</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>E. A. Goldenweiser Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78023010">https://lccn.loc.gov/mm78023010</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-05">2023 May</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2013">2013</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">E. A. Goldenweiser Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1911/1952">1911-1952</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1930/1945">1930-1945</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1911/1952"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1911-1952</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1930/1945"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1930-1945</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS23010</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Goldenweiser, E. A. (Emanuel Alexandrovich), 1883-1953</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">1,500 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">9 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">3.6 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Economist. Correspondence, memoranda,
+            reports, notes, writings, speeches, and other papers relating chiefly to Goldenweiser's
+            service as director of the Division of Research and Statistics, Board of Governors of
+            the Federal Reserve System.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220928172243.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Acheson, Dean, 1893-1971--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Brandeis, Louis Dembitz, 1856-1941--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Douglas, Paul H. (Paul Howard), 1892-1976--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Eccles, Marriner S. (Marriner Stoddard), 1890-1977--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Glass, Carter, 1858-1946--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Goldenweiser, E. A. (Emanuel Alexandrovich), 1883-1953.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Keynes, John Maynard, 1883-1946--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Rist, Charles, 1874-1955--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Vinson, Fred M., 1890-1953--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Young, Ralph A. (Ralph Aubrey), 1901- --Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Board of Governors of the Federal Reserve System (U.S.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Board of Governors of the Federal Reserve System (U.S.). Division of Research
+                  and Statistics.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Economics.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Finance, Public--United States.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Economic policy--20th century.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Economists.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of E. A. Goldenweiser, economist, were given to the Library of Congress by
+            his wife, Pearl (Ann) Allen Goldenweiser, in 1955. An addition was given by Margaret
+            Kamarck, in 1977. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The collection was processed in 1955 and expanded after the gift of an addition in 1977.
+            The finding aid was revised in 2013. The finding aid was updated in 2023 by Maria Farmer
+            as part of a division-wide remediation project by the Inclusive Description Working
+            Group. </p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of E. A. Goldenweiser is governed by
+            the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of E. A. Goldenweiser are open to research. Researchers are advised to
+            contact the Manuscript Reading Room prior to visiting. Many collections are stored
+            off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, E. A. Goldenweiser Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1883, July 31 </datesingle>
+               <event>Born, Kiev, Russia </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1902</datesingle>
+               <chronitemset>
+                  <event>Graduated, First Kiev Gymnasium, Kiev, Russia</event>
+                  <event>Immigrated to the United States </event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1903</datesingle>
+               <event>A.B., Columbia University, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1905</datesingle>
+               <event>M.A., Cornell University, Ithaca, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1907</datesingle>
+               <chronitemset>
+                  <event>Ph.D., Cornell University, Ithaca, N.Y.</event>
+                  <event>Naturalized as American citizen</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1907</fromdate>
+                  <todate>1910</todate>
+               </daterange>
+               <event>Special investigator, United States Immigration Commission</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1910</fromdate>
+                  <todate>1914</todate>
+               </daterange>
+               <event>Special agent, United States Census</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1914</fromdate>
+                  <todate>1919</todate>
+               </daterange>
+               <event>Statistician, United States Department of Agriculture </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1919</fromdate>
+                  <todate>1924</todate>
+               </daterange>
+               <event>Assistant statistician, Federal Reserve Board</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1925</datesingle>
+               <event>Assistant director, Division of Research and Statistics, Federal Reserve
+                  Board</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1926</fromdate>
+                  <todate>1945</todate>
+               </daterange>
+               <event>Director, Division of Research and Statistics, Federal Reserve Board</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1946 </datesingle>
+               <event>Member, Institute for Advanced Study, Princeton, N.J.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1949</datesingle>
+               <event>Published <title>
+                     <part>Monetary Management.</part>
+                  </title> New York: McGraw-Hill Book Co.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1951</datesingle>
+               <event>Published <title>
+                     <part>American Monetary Policy.</part>
+                  </title> New York: McGraw Hill </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1953, Apr. 21</datesingle>
+               <event>Died, Princeton, N.J.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Emanuel Alexander Goldenweiser (1883-1953) span the years 1911-1952, with
+            the bulk of the material concentrated in the period from 1930 to 1945. The collection
+            relates almost wholly to financial and economic affairs with major emphasis on Federal
+            Reserve Board matters. Correspondents include Dean Acheson, Louis D. Brandeis, Paul H.
+            Douglas, Marriner Eccles, Ralph A. Young, Carter Glass, John Maynard Keynes, Charles
+            Rist, and Fred M. Vinson. </p>
+         <p>The papers are organized into <ref show="replace" actuate="onrequest" target="Gen">
+               General Correspondence </ref> and <ref show="replace" actuate="onrequest" target="Subj"> Subject File </ref> series.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in two series:</p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Gen"> General Correspondence,
+                  1919-1952 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Subj"> Subject File, 1911-1952 </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a" id="Gen">General Correspondence, <date normal="1919/1952">1919-1952</date>
+               </unittitle>
+               <unitdate normal="1919/1952">1919-1952</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent and received. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1919-1951 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">1919-1951 </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-9</container>
+               <unittitle encodinganalog="245$a" id="Subj">Subject File, <date normal="1911/1952">1911-1952</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1911/1952">1911-1952</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, memoranda, reports, notes, speeches, congressional testimony,
+                  writings, and miscellaneous material. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Organized largely as received.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>
+                        <part>American Monetary Policy </part>
+                     </title>
+                     <date>(1951) </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">(1951) </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Working papers, reviews, and correspondence,
+                           <date>1950-1952 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1950-1952 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Research material and notes </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">“Comments on Research and Policy Speech,”
+                     letters mainly relating to Goldenweiser’s speech before the American
+                     Statistical Association <date>(Dec. 9, 1943), 1943-1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">(Dec. 9, 1943), 1943-1944 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">“Confidential Memoranda,” 1922-1933, and one
+                     1946 paper; Governor’s Conference, 1924; Federal Reserve Board meetings; Open
+                     Market Committee reports, credit policy discussions, etc. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Federal Reserve Board </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Banking and currency plans, letters and
+                        memoranda, <date>1932-1947 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1932-1947 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Glass, Carter, unpublished paper by Glass
+                        defending his <title>
+                           <part>Adventure in Constructive Finance</part>
+                        </title> against Samuel Untermeyer, <date>1938 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1938 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Glass Committee hearings, preparation for
+                        testimony and summary of hearings, <date> 1931</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f"> 1931</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Government Securities, memoranda by
+                        Goldenweiser and others, <date>1934-1937 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1934-1937 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Margin Regulations T and U bound volume,
+                        short history by Parry, <date>1949 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1949 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">“Memoranda re Credit Situation,”
+                           <date>1925-1929 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1925-1929 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Memoranda, reports, statements, etc.,
+                           <date>1924-1952 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1924-1952 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Monetary Policy and Currency Stabilization,
+                        correspondence and memoranda, <date>1925-1952 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1925-1952 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Open Market Committee, memoranda and reports,
+                        1923-1952; and “Statements by Mr. Goldenweiser,” <date>1936-1945 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1936-1945 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">“Summary Report on Branch, Group, and Chain
+                        Banking,” <date>1932 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1932 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a" id="Subj6">Treasury Department, letters and
+                        memoranda between Federal Reserve Board and Treasury Department,
+                           <date>1919-1948</date> , and “Treasury Financing,” <date>1942-1945</date>
+                        <ref target="Writ6">
+                           <emph render="italic"> See also Container 6, </emph>Writings by
+                           Goldenweiser</ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1919-1948</unitdate>
+                     <unitdate>1942-1945</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">International negotiations </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Correspondence, reports, etc.,
+                           <date>1930-1946 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1930-1946 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">“Bretton Woods,” reports and summaries of
+                        Bretton Woods Conference, <date>1944 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1944 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">“Currency Negotiations re Economic
+                        Conference, 1933," correspondence and memoranda </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">“Monetary Agreements,” 1944-1945; currency
+                        stabilization plans; British loan of 1945; Lord John Maynard Keynes’s speech
+                        to House of Lords, Dec. 1945 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">“Report on European Central Banks,”
+                        Goldenweiser’s report on a trip, summer 1945 </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Joint Committee on the Economic Report
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Correspondence between Federal Reserve Board
+                        and Committee, transcript of Hearings, <date> Dec. 10, 1949 and Mar. 26,
+                           1952 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f"> Dec. 10, 1949 and Mar. 26, 1952 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Miscellany, including letters, printed
+                        material, notes, etc., <date>1926-1952, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1926-1952, undated </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>
+                        <part>Monetary Management </part>
+                     </title>
+                     <date>(1949) </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">(1949) </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Pre-publication comments, letters, notes,
+                        etc., <date>1948-1949 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1948-1949 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Reviews, notes, and correspondence,
+                           <date>1949 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1949 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a"> “Palestine,” correspondence with directors of
+                     Anglo-Palestine Bank, <date>1947-1949 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">1947-1949 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Reserves </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">“Asset Reserves Article,” <date>undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">“Gold reserves,” correspondence and reports,
+                           <date>1925-1940 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1925-1940 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">“Material on reserves,” covering letter,
+                           <date>1949 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1949 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>July 13 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245 $f">July 13 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>July 20 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245 $f">July 20 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">“Reserves Plans,” <date>1948 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f">1948 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Transamerica Corp., correspondence and hearings,
+                        <date>1949 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">1949 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Viner proposal, material on article including
+                     correspondence, <date>1951 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">1951 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a" id="Writ6">Writings by Goldenweiser, including
+                     articles, course and seminar notes, clippings, and sheets from the <title>
+                        <part>Federal Reserve Bulletin,</part>
+                     </title>
+                     <date>1936-1952 </date>
+                     <ref show="replace" actuate="onrequest" target="Subj6">
+                        <emph render="italic">See also Container 3,</emph> Treasury Department
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">1936-1952 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Personal and confidential notes, <date>1936-1942
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">1936-1942 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">“Transamerica notes” </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">“Bank holiday,” <date>1933 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">1933 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">“La Politica Monetaria Deglie Stati Unita”
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Published statements and writings,
+                        <date>1911-1952 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">1911-1952 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous statements and writings, <date>
+                        1914-1951 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f"> 1914-1951 </unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

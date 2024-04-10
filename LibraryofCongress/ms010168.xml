@@ -1,0 +1,1723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010168">loc.mss/eadmss.ms010168</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Harold Foote Gosnell Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Allan Teichroew<lb/>Revised by Patrick Kerwin and
+			 Lia Apodaca</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2005" encodinganalog="260$c" era="ce" calendar="gregorian">2005</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm81049791">https://lccn.loc.gov/mm81049791</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2010">2010</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Harold Foote Gosnell
+		  Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1931/1962">1931-1962</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1937/1959">(bulk 1937-1959)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1931/1962"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1931-1962</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1937/1959"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1937-1959)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS49791</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Gosnell, Harold Foote,
+			 1896-1997</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">9,200
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">23 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">9.2 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+		       </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Political scientist,
+		  educator, and government consultant. Chiefly subject files consisting of
+		  correspondence, memoranda, reports, research data, maps, charts, printed and
+		  near-print material, and miscellany. The papers relate principally to projects
+		  Gosnell conducted for various government agencies, including a study on state
+		  and regional planning for the National Resources Committee; studies on
+		  government information services, especially those of the Office of War
+		  Information and the Department of State; and analyses of foreign elections for
+		  the Central Intelligence Agency, primarily in the Philippines, Indonesia, and
+		  the Sudan.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20201216163659.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Barnes, Joseph, 1907-1970--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Eisenhower, Milton Stover, 1899-1985--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Eliot, Charles W. (Charles William), 1899-1993--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Gosnell, Harold F. (Harold Foote), 1896-1997.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Central Intelligence Agency.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Department of State.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. National Resources Committee.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Office of War Information.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Elections--Indonesia.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Elections--Philippines.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Elections--Sudan.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Information services.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Regional planning.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Consultants.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Educators.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Political scientists.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Harold Foote Gosnell, political scientist, educator,
+		  and government consultant, were given to the Library of Congress by Gosnell in
+		  1976.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Harold Foote Gosnell were arranged and described in
+		  1982. The finding aid was revised in 2003.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Photographs have been transferred to the Library’s Prints and
+		  Photographs Division where they are identified as part of the Harold Foote
+		  Gosnell Papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of Harold Foote Gosnell in these
+		  papers and in other collections of papers in the custody of the Library of
+		  Congress has been dedicated to the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Harold Foote Gosnell are open to research. Researchers
+		  are advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Harold Foote Gosnell Papers,
+		  Manuscript Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1896, Dec. 24</datesingle>
+               <event>Born, Lockport, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1918</datesingle>
+               <event>A.B., University of Rochester, Rochester, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1922</datesingle>
+               <event>Ph.D., University of Chicago, Chicago, Ill.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1922</fromdate>
+                              <todate>1943</todate>
+                           </daterange>
+               <event>Professor of political science, University of Chicago,
+				Chicago, Ill.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1928</datesingle>
+               <event>Married Florence Lucy Fake (died 1991)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1932</datesingle>
+               <event>Member, editorial staff, President’s Research Commission on
+				Social Trends</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1937</fromdate>
+                              <todate>1939</todate>
+                           </daterange>
+               <event>Research consultant, National Resources Committee</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1940</datesingle>
+               <event>Research consultant, Bureau of the Budget</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1941</fromdate>
+                              <todate>1942</todate>
+                           </daterange>
+               <event>Research consultant, Office of Price Administration </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1942</fromdate>
+                              <todate>1946</todate>
+                           </daterange>
+               <event>Research consultant, Bureau of the Budget</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1946</fromdate>
+                              <todate>1950</todate>
+                           </daterange>
+               <event>Research consultant, State Department</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1946</fromdate>
+                              <todate>1962</todate>
+                           </daterange>
+               <event>Adjunct professor of political science, American University,
+				Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1950s</datesingle>
+               <event>Research consultant, Central Intelligence Agency</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1955</datesingle>
+               <event>Visiting professor, University of Washington, Seattle, Wash.
+				</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1960</fromdate>
+                              <todate>1961</todate>
+                           </daterange>
+               <event>Research scientist, Special Operations Research Office</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1962</fromdate>
+                              <todate>1970</todate>
+                           </daterange>
+               <event>Professor of government, Howard University, Washington, D.C.
+				</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1997, Jan. 8</datesingle>
+               <event>Died, Bethesda, Md.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p> The papers of Harold Foote Gosnell (1896-1997) span the years
+		  1931-1962, with the bulk of the material concentrated in the period 1937-1959.
+		  The collection consists of files Gosnell compiled as a political scientist and
+		  government consultant. </p>
+         <p>The Gosnell Papers treat four principal topics. The earliest material
+		  is devoted mainly to a study Gosnell headed at the National Resources Committee
+		  (NRC), later to become the National Resources Planning Board, in which a survey
+		  was made of the future of state and regional planning. Contained in the NRC
+		  files are reports, questionnaires, research data, and internal memoranda
+		  reflecting the agency’s operation. The material represents Gosnell’s own
+		  work as well as the research of students, colleagues, and other officials.
+		  Correspondence of NRC's executive officer, Charles W. Eliot (1899-1993), the
+		  director of the reorganized National Resources Planning Board from 1939 to
+		  1943, appears throughout the files. </p>
+         <p>A government study of United States information services during World
+		  War II, begun by Gosnell about 1943 when he worked for the War Records Section
+		  of the Bureau of the Budget, was continued by him at the State Department. At
+		  the budget office, the scope of Gosnell’s research was government-wide with a
+		  focus on the activities of the Office of War Information (OWI). At the State
+		  Department, where he worked from 1946 to the end of the decade, his project was
+		  limited specifically to information services in the department itself. Titled
+		  “War Information Services,” research files from both projects are topically
+		  arranged in one section. Included are memoranda, reports, budget statements,
+		  and other documents from government agencies, as well as administrative
+		  correspondence relating to planning the research. Subjects treated include the
+		  Coordinator of Inter-American Affairs, the Office of Price Administration,
+		  press and media branches of the OWI, State Department and War Department morale
+		  programs, and the Experimental Division for the Study of War Time
+		  Communications. Correspondents include Joseph Barnes and Milton Eisenhower,
+		  former OWI officers who commented on the research while it was in progress.
+		  </p>
+         <p>Other files contain background data and articles Gosnell wrote on the
+		  organization of the State Department and source material he compiled while a
+		  foreign elections analyst for the Central Intelligence Agency after 1950. His
+		  fact-finding missions best documented in the CIA file are trips to the
+		  Philippines (1953, 1955), Indonesia (1955), and Sudan (1958). The file contains
+		  correspondence, election ephemera, maps (especially from Sudan), summaries of
+		  conversations with political leaders and Americans abroad, and related
+		  matter.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged by topic and thereunder alphabetically by
+		  subject. </p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Central Intelligence Agency
+				</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Foreign political
+				  analysis</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Eastern Europe, 
+					  <date>1951</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Egypt, 
+					  <date>1956-1957</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956-1957</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">French parliament, 
+					  <date>1951-1962</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951-1962</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">India, 
+					  <date>1948-1962</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948-1962</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Indonesia, 1955 elections, 
+					  <date>1950-1960</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950-1960</unitdate>
+                     <physdesc encodinganalog="300">(3
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Indonesia, 1955 elections, 
+                         <date>1950-1960</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950-1960</unitdate>
+                     <physdesc encodinganalog="300$a">(1
+					 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Japan, 
+					  <date>1951-1959</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951-1959</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Philippines</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">1953 elections, 
+						 <date>1935-1955</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1955</unitdate>
+                        <physdesc encodinganalog="300$a">(5
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">1953 elections, 
+                            <date>1935-1955</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1955</unitdate>
+                        <physdesc encodinganalog="300$a">(6
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">1953 elections, 
+                            <date>1935-1955</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1955</unitdate>
+                        <physdesc encodinganalog="300$a">(4
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">1953 elections, 
+                            <date>1935-1955</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1955</unitdate>
+                        <physdesc encodinganalog="300$a">(2
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">1955 elections, 
+						 <date>1955-1957</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955-1957</unitdate>
+                        <physdesc encodinganalog="300$a">(3
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a">1957 elections</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous elections, 
+						 <date>1948-1961</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948-1961</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Sudan, 1958 elections, 
+					  <date>1956-1960</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956-1960</unitdate>
+                     <physdesc encodinganalog="300$a">(5
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Reminiscences of service, 
+				   <date>1959, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">National Resources
+				Committee</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Abstracts of dissertations on
+				  planning, University of Chicago, Chicago, Ill., 
+				   <date>1938-1941</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938-1941</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Administrative aspects of social
+				  planning, 
+				   <date>1939-1941</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939-1941</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Administrative memoranda, 
+				   <date>1936-1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936-1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">American Society of Planning
+				  Officials, newsletters, 
+				   <date>1940-1943</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1943</unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Appraisal of State Planning Board
+				  reports, 
+				   <date>1936-1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936-1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Appraisal of state and regional
+				  planning, 
+				   <date>1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Bibliographies, 
+				   <date>1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">City and county planning, 
+				   <date>1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">City planning, 
+				   <date>1940-1941</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1941</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Comments on State Planning Board
+				  reports, 
+				   <date>1937-1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Conferences, 
+				   <date>1938-1939</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938-1939</unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Correspondence on State Planning
+				  Board reports, 
+				   <date>
+					 1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Definitions of planning, 
+				   <date>1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Development of planning, 
+				   <date>1939</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Foreword to State Planning Board
+				  report</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">“The Future of State
+				  Planning,” 
+				   <date>1938 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938 </unitdate>
+                  <physdesc encodinganalog="300$a">(3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Housing, 
+				   <date>1936-1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936-1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Illinois State Planning
+				  Commission, 
+				   <date>1935-1939</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1939</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">National Conference on Planning,
+				  Minneapolis, Minn., 
+				   <date>1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Notes on State Planning Board
+				  report, 
+				   <date>1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Pamphlets, 
+				   <date>1933-1939</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933-1939</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Personnel directory, 
+				   <date>1939-1940</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939-1940</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Planned communities, 
+				   <date>1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Planning “school,” 
+				   <date>1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Population studies, 
+				   <date>1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Procedure for population studies,
+				  
+				   <date>1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Progress of state planning
+				  boards, 
+				   <date>1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Regionalism and public
+				  administration, 
+				   <date>1935-1940</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1940</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Regional planning, 
+				   <date>1937-1941</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1941</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Report on future state planning, 
+				   <date>1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Simon, Dorothy P., report, 
+				   <date>1941</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Soviet planning</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">State legislation on planning, 
+				   <date>
+					 1939</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1939</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">State Planning Board programs, 
+				   <date>1938-1939</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938-1939</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">State Planning Board
+				  reports</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Final tabulations, 
+					  <date>1937-1938</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1938</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Preliminary tabulations, 
+					  <date>1937</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">State planning questionnaire, 
+				   <date>1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Status and summaries of state and
+				  regional planning programs, 
+				   <date>1938-1939</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938-1939</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Status of organizations of
+				  planning agencies, 
+				   <date>1937-1939</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1939</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Status of work reports, Charles
+				  W. Eliot (1899-1993), 
+				   <date>1938-1939</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938-1939</unitdate>
+                  <physdesc encodinganalog="300$a"> (3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Subdivision control, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Summary sheets of state planning
+				  boards, 
+				   <date>1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Technical committees on national
+				  planning, 
+				   <date>1938-1940</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938-1940</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Technicians Conference,
+				  Washington, D.C., 
+				   <date>1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938</unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Tennessee Valley Authority
+				  report, 
+				   <date>1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Urbanism monograph, 
+				   <date>1937-1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Walker, Robert A., report, 
+				   <date>1939</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Wehrwein syllabus, 
+				   <date>1940</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Wisconsin State Planning Board, 
+				   <date>1941</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Zoning, 
+				   <date>1937-1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous reference articles,
+				  
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">13</container>
+               <unittitle encodinganalog="245$a">State Department</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Office of European Affairs, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Organization, 
+				   <date>1941-1950</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1950</unitdate>
+                  <physdesc encodinganalog="300$a">(6
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">Organization, 
+                      <date>1941-1950</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1950</unitdate>
+                  <physdesc encodinganalog="300$a">(7
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Reorganization Task Force, 
+				   <date>1949 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1949 </unitdate>
+                  <physdesc encodinganalog="300$a">(3
+				  folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">15</container>
+               <unittitle encodinganalog="245$a">War information
+				services</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Appraisals and administrative
+				  memoranda regarding history project, 
+				   <date>1942-1947</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1947</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Barnes, Joseph, correspondence, 
+				   <date>1942-1943</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1943</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Bibliographies, 
+				   <date>1946</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Bureau of Overseas Publications, 
+				   <date>1942</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Coordinator of Information, 
+				   <date>1941-1946</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1946</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Coordinator of Inter-American
+				  Affairs, 
+				   <date>1941-1948 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1948 </unitdate>
+                  <physdesc encodinganalog="300$a">(3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Domestic information, State
+				  Department, 
+				   <date>1945-1955</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945-1955</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Domestic pamphleteers, 
+				   <date>1946</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Eisenhower, Milton,
+				  correspondence, 
+				   <date>1943-1944</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1944</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Experimental Division for the
+				  study of War Time Communications, 
+				   <date>1941-1943 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1943 </unitdate>
+                  <physdesc encodinganalog="300$a">(3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Federal Communications
+				  Commission, 
+				   <date>1945</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Framing the OWI executive order, 
+				   <date>1942-1946</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1946</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">History of the State Department, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">International information
+				  activities, first phase, State Department, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Management problems and
+				  practices, 
+				   <date>1943-1946</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1946</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Mobilizing for the war of words, 
+				   <date>1940-1942</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1942</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">National Security Resources
+				  Board, 
+				   <date>1949</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1949</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Navy Department, 
+				   <date>1946</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">News Bureau, Domestic Branch,
+				  OWI, 
+				   <date>1942-1945</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1945</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a"> 
+				                             <title localtype="simple">
+                                    <part>New York Times</part>
+                                 </title> index on war news and propaganda, 
+				   <date>1945</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Office of Censorship, 
+				   <date>1944-1945</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1945</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Office of Civilian Defense, 
+				   <date>1944</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Office of Emergency Management, 
+				   <date>
+					 1941-1942</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1941-1942</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Office of Price Administration, 
+				   <date>1941-1943</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1943</unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Office of Price Administration, 
+                      <date>1941-1943</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1943</unitdate>
+                  <physdesc encodinganalog="300$a">(1
+				  folder)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Office of War
+				  Information</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Budgets, 
+					  <date>1944-1945</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1945</unitdate>
+                     <physdesc encodinganalog="300$a">(4
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Estimate of appropriations, 
+					  <date>1944</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Field information, 
+					  <date>1943-1947</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1947</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Files, 
+					  <date>1946-1949</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946-1949</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Foreign News Bureau, 
+					  <date>1942-1943</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1943</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">History, 
+					  <date>1942-1948</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1948</unitdate>
+                     <physdesc encodinganalog="300$a">(3
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">History, 
+                         <date>1942-1948</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1948</unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">News Bureau, 
+					  <date>1942-1943 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1943 </unitdate>
+                     <physdesc encodinganalog="300$a">(3
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">Office of Program Coordination,
+					 
+					  <date>1943</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">Overseas Operations Branch, 
+					  <date>1944</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">Radio Program
+					 Bureau</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">Weekly media reports, 
+					  <date>1942-1943 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1943 </unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Organization and personnel, State
+				  Department</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Outlines and prospectuses, 
+				   <date>1942-1945</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1945</unitdate>
+                  <physdesc encodinganalog="300$a"> (3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Outposts, 
+				   <date>1948</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Overhead organization of the OWI,
+				  
+				   <date>1942-1946</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1946</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Overseas Motion Picture Bureau, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Overseas News and Feature Bureau,
+				  
+				   <date>1949</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1949</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Personnel practices and
+				  procedures, 
+				   <date>1940-1943</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1943</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Personnel problems, 
+				   <date>1941-1948 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1948 </unitdate>
+                  <physdesc encodinganalog="300$a">(4
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Planning and intelligence, 
+				   <date>1944</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+                  <physdesc encodinganalog="300$a"> (2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">Press and publication activities
+				  during the war, State Department, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">Program of the War Records
+				  Section, Bureau of the Budget, 
+				   <date>1942-1947</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1947</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">Public opinion research in the
+				  government, 
+				   <date>1946</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">Recruiting information
+				  specialists, 
+				   <date>1947</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">Social Science Research Council,
+				  Committee on War Studies, 
+				   <date>1943-1946 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1946 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">Transition period, OWI-State
+				  Department, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">Transporting the goods, 
+				   <date>1945-1946</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945-1946</unitdate>
+                  <physdesc encodinganalog="300$a"> (2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">United States at war, 
+				   <date>1943-1946 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1946 </unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <unittitle encodinganalog="245$a">Warburg, James (“moronic little
+				  King” controversy), 
+				   <date>1943</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <unittitle encodinganalog="245$a">War Department</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">Bureau of Public Relations, 
+					  <date>1942-1945</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1945</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">Special Services Research
+					 Branch, 
+					  <date>1943-1945</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1945</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">23</container>
+               <unittitle encodinganalog="245$a">War Production Board, 
+				 <date>1944</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">23</container>
+               <unittitle encodinganalog="245$a">Miscellany, 
+				 <date>1931-1959, undated </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1959, undated </unitdate>
+               <physdesc encodinganalog="300$a">(5
+				folders)</physdesc>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

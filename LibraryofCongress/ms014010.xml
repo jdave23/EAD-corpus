@@ -1,0 +1,2462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms014010">loc.mss/eadmss.ms014010</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Norman Podhoretz Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm81060103">https://lccn.loc.gov/mm81060103</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-07">2023 July</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2014">2014</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Norman Podhoretz Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1950/1986">1950-1986</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1950/1986"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1950-1986</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS60103</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Podhoretz, Norman</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">11,500 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">43 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">15.4 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Author and editor. Correspondence,
+            memoranda, diary, journal, writings, speeches, transcripts of interviews, newspaper
+            clippings, printed materials, and other papers relating primarily to Podhoretz's career
+            as an author and editor of <emph render="italic">Commentary.</emph>
+         </abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220929172800.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bellow, Saul.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Camus, Albert, 1913-1960.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Cleaver, Eldridge, 1935-1998--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Decter, Midge--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Disraeli, Benjamin, 1804-1881.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Ginsberg, Allen, 1926-1997--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hellman, Lillian, 1905-1984--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Leavis, F. R. (Frank Raymond), 1895-1978.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Moynihan, Daniel P. (Daniel Patrick), 1927-2003--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Podhoretz, Norman.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sontag, Susan, 1933-2004--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Southern, Terry--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Trilling, Diana--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Trilling, Lionel, 1905-1975--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Vonnegut, Kurt--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Wilson, Edmund, 1895-1972.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>American literature.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>American periodicals.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Censorship.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Conservatism.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Criticism.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Liberalism.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Military readiness.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Poverty.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Racism.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Vietnam War, 1961-1975.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Asia--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Australia--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>India--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Middle East--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New York (N.Y.)--Intellectual life--20th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Intellectual life--20th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--20th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Social conditions--20th century.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Commentary (New York, N.Y.)</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Authors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Editors.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of Norman Podhoretz, author and editor, were deposited in the Library of
+            Congress by Podhoretz in 1981. Additional material was deposited in 1983-1986. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p> The Podhoretz Papers were processed in 1989 by Paul D. Ledvina. The finding aid was
+            revised in 2013. The finding aid was updated in 2023 by Maria Farmer as part of a
+            division-wide remediation project by the Inclusive Description Working Group. </p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of Norman Podhoretz in these papers and in other
+            collections in the custody of the Library of Congress is reserved. Consult reference
+            staff in the Manuscript Division for further information.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>Restrictions apply governing the use, photoduplication, or publication of items in this
+            collection. Consult reference staff in the Manuscript Division for information
+            concerning these restrictions. In addition, many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Norman Podhoretz Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1930, Jan. 16 </datesingle>
+               <event>Born, Brooklyn, N.Y. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1950</datesingle>
+               <chronitemset>
+                  <event>A.B., Columbia University, New York, N.Y.</event>
+                  <event>B.H.L., Jewish Theological Seminary, New York, N.Y.</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1950</fromdate>
+                  <todate>1951</todate>
+               </daterange>
+               <event>Fulbright Fellow, Cambridge University, England</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1952 </datesingle>
+               <event>B.A. (Kellett Fellow), Cambridge University England</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1953</fromdate>
+                  <todate>1955</todate>
+               </daterange>
+               <event>Served in U.S. Army</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1956</datesingle>
+               <event>Married Midge Rosenthal Decter</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1956</fromdate>
+                  <todate>1958</todate>
+               </daterange>
+               <event>Associate editor, <title>
+                     <part>Commentary</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1957</datesingle>
+               <event>M.A., Cambridge University, England</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1959</fromdate>
+                  <todate>1960</todate>
+               </daterange>
+               <event> Editor-in-chief, <title>
+                     <part>Looking Glass Library</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1960</datesingle>
+               <event>Editor-in-chief, <title>
+                     <part>Commentary</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1964</datesingle>
+               <event>Published <title>
+                     <part> Doings and Undoings: The 50s and After in American Writing.</part>
+                  </title> New York: Farrar, Straus</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1966</datesingle>
+               <event>Edited <title>
+                     <part> The Commentary Reader: Two Decades of Articles and Stories.</part>
+                  </title> New York: Atheneum</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1968</datesingle>
+               <event>Published <title>
+                     <part> Making It.</part>
+                  </title> New York: Random House</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1979</datesingle>
+               <event>Published <title>
+                     <part> Breaking Ranks: A Political Memoir.</part>
+                  </title> New York : Harper &amp; Row</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1980 </datesingle>
+               <event>Published <title>
+                     <part>The Present Danger: Do We Have the Will to Reverse the Decline of
+                        American Power.</part>
+                  </title> New York : Simon and Schuster</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1982</datesingle>
+               <event>Published <title>
+                     <part> Why We Were in Vietnam.</part>
+                  </title> New York : Simon and Schuster</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Norman Podhoretz cover the period 1950-1986 and consist of correspondence,
+            subject material, speeches and writings, printed matter, and miscellaneous material. The
+            collection is organized into five series: <ref show="replace" actuate="onrequest" target="Gen">General Correspondence</ref>, <ref show="replace" actuate="onrequest" target="Subj">Subject File</ref>, <ref show="replace" actuate="onrequest" target="Speech">Speeches and Writings File</ref>, <ref show="replace" actuate="onrequest" target="Misc">Miscellany</ref>, and <ref show="replace" actuate="onrequest" target="Add">Addition</ref>. </p>
+         <p>Norman Podhoretz was educated as a literary critic under such teachers as Lionel
+            Trilling at Columbia University and F. R. Leavis at Cambridge University. Early in his
+            career, Podhoretz was an advocate of left-wing ideology. He was later to break from the
+            predominantly leftist and liberal New York intellectual community and become a leading
+            spokesman for a conservative philosophy, using <title>
+               <part>Commentary </part>
+            </title>as a vehicle for discussing neoconservative ideas. His papers document the
+            development of his career as a writer, editor, and social and political thinker.</p>
+         <p> Podhoretz throughout his career corresponded with many prominent writers, critics,
+            editors, politicians and other public figures. The bulk of the <ref show="replace" actuate="onrequest" target="Gen">General Correspondence</ref> series is formed from
+            letters in Podhoretz's correspondence files at <title>
+               <part>Commentary</part>
+            </title> that were deemed inappropriate for the magazine's archive maintained by the
+            American Jewish Committee. Letters within the General Correspondence document
+            Podhoretz's involvement in literary and political activities. Among the correspondents
+            are Eldridge Cleaver, Allen Ginsburg, Lillian Hellman, Daniel P.Moynihan, Susan Sontag,
+            Terry Southern, Diana Trilling, and Kurt Vonnegut. There are also letters concerning
+            Podhoretz that were sent as enclosures to him, for example, a letter from Lionel
+            Trilling to Eliot Cohen, then editor-in-chief of <title>
+               <part>Commentary.</part>
+            </title> Although most of the correspondents are represented by only one or two letters,
+            the issues and ambiance of the time are chronicled in these communications.</p>
+         <p> Topics discussed in the General Correspondence series include censorship of Podhoretz's
+            writing as well as other literary works, endorsement of political candidates, support
+            for political points of view, and discussion of social and cultural issues such as
+            racism and poverty. Podhoretz's philosophical shift can in part be traced through the
+            General Correspondence. Letters related to individual works by him are filed in the <ref show="replace" actuate="onrequest" target="Speech">Speeches and Writings File</ref>
+            series. </p>
+         <p>Featured in the <ref show="replace" actuate="onrequest" target="Subj">Subject File</ref>
+            is Podhoretz's trip to India, Australia, and Asia in 1973, including a journal
+            containing sketches of people and places encountered in the various countries he
+            visited. His trip to Australia in 1982 to promote <title>
+               <part>The Present Danger</part>
+            </title> is also well documented. Another file in the series concerns Daniel Patrick
+            Moynihan's campaign for the Senate from New York in 1976. </p>
+         <p>The most extensive series is the <ref show="replace" actuate="onrequest" target="Speech">Speeches and Writings File</ref> including interviews, speeches, undergraduate
+            writings, short stories, articles, and books. Among the undergraduate writings are
+            Podhoretz's notebooks from a course in nineteenth-century British poetry taught by
+            Lionel Trilling. These notebooks are annotated by Trilling. Material from Podhoretz's
+            years at Cambridge includes copies of the English Tripos along with notes, drafts of his
+            thesis on Benjamin Disraeli, and notes from a class on the English moralists. The
+            collection also includes three unpublished short stories written when Podhoretz was in
+            the army. </p>
+         <p>The Articles subseries in the Speeches and Writings File contains a representative
+            sampling of Podhoretz's literary, social, and political criticism, including a number of
+            unpublished pieces. Drafts, galleys, published copies of articles along with
+            correspondence and research material are often present. Within the Articles file is an
+            expanded version of Podhoretz's thesis on Disraeli that he attempted to have published
+            in <title>
+               <part>Scrutiny</part>
+            </title> in 1953. Included with the essay is F.R. Leavis's critique of the piece. Among
+            the other literary essays in the collection are "Edmund Wilson: The Last of the
+            Patricians," "The Know Nothing Bohemians," "The Adventures of Saul Bellow," "Prurience
+            Subverted, or the Redemption of Candy," "In Defense of Editing," "Camus and His
+            Critics," and "F.R. Leavis: A Reevaluation." </p>
+         <p>Some of Podhoretz's social and political writings include "Masses, Classes, and Social
+            Criticism," "The New American Majority," and "J'Accuse," along with other articles
+            expounding Podhoretz's neoconservative point of view on subjects such as defense, the
+            Middle East, and Vietnam, most of which appeared in national magazines and newspapers. </p>
+         <p>Material exists in varying degrees to document the creation, production, and reception
+            of Podhoretz's five published books. In addition to drafts, galleys, and page proofs,
+            the collection includes correspondence from publishers and readers, book reviews, and
+            research material. The correspondence and book reviews impart a sense of how Podhoretz's
+            books were received and how he reacted to the mixed reception he met his works.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in five series:</p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Gen">General Correspondence,
+                  1951-1982</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Subj"> Subject File, 1960-1982</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Speech">Speeches and Writings File,
+                  1950-1982</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Misc">Miscellany, 1958-1982</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Add">Addition, circa 1953-1986</ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a" id="Gen">General Correspondence, <date normal="1951/1982">1951-1982</date>
+               </unittitle>
+               <unitdate normal="1951/1982">1951-1982</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters received and copies of letters sent, with attachments. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p> Arranged chronologically. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1951-1982, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1951-1982, undated </unitdate>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2-3</container>
+               <unittitle encodinganalog="245$a" id="Subj">Subject File, <date normal="1960/1982">1960-1982</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1960/1982">1960-1982</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, memoranda, newspaper clippings, notes, printed material, and
+                  journal. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically subject.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Abzug, Bella, <date> 1976 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1976 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">American Jewish Committee </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>
+                        <part>Commentary, </part>
+                     </title>
+                     <date>1962-1980, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1962-1980, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Idi Amin, <date>1975 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1975 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Jerusalem Conference on Terrorism, <date> 1979
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1979 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Moynihan, Daniel P., <date>1975-1976, undated
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1975-1976, undated </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Reagan retreat on Defense, <date>1981 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1981 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Trip to Australia </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">India, and the Orient, <date>1973 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1973 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Promotion of <title>
+                           <part>The Present Danger,</part>
+                        </title>
+                        <date> 1982 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1982 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">3-31</container>
+               <unittitle encodinganalog="245$a" id="Speech">Speeches and Writings File, <date normal="1950/1982">1950-1982</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1950/1982">1950-1982</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Typewritten drafts with handwritten annotations, galleys, page proofs, notes,
+                  research material and correspondence relating to speeches, interviews, books and
+                  other writings by Podhoretz.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p> Arranged by presentation, including interviews and speeches, undergraduate
+                  writings, short Stories, articles, and books, and therein chronologically. Primary
+                  material is filed first, followed by supplementary material (e.g. correspondence,
+                  research material). When only printed versions of articles exist, these are filed
+                  at the end of the article subseries in chronological order.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Interviews and speeches </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1962-1979 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1962-1979 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1980-1982, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1980-1982, undated</unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Undergraduate writings </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1950-1952</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1950-1952</unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Short stories </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">"The European Experience of Private Roy
+                        Summers," <date> undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">"The Perfect Subject," <date> undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">"The Separation of the Shells," <date>
+                           undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Articles </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">"Disraeli as a Political Novelist," <date>
+                           circa 1953 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> circa 1953 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">"A Season of First Novels," <title>
+                           <part>New York Times Book Review,</part>
+                        </title>
+                        <date> 1957? </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1957? </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">"Solitary or Solidary?,"<title>
+                           <part> New Yorker, </part>
+                        </title>
+                        <date>1957? </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1957? </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">"The Article as Art," <title>
+                           <part>Harpers,</part>
+                        </title> 1958, and collected in<title>
+                           <part> Doings and Undoings, </part>
+                        </title>
+                        <date>1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1964 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">"Edmund Wilson: Last of the Patricians,"<title>
+                           <part> The Reporter,</part>
+                        </title> 1958 and collected in <title>
+                           <part>Doings and Undoings,</part>
+                        </title>
+                        <date> 1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1964 </unitdate>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                     <container localtype="box">6</container>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a"> "The Future of International Beat,"<title>
+                           <part> Esquire, </part>
+                        </title>
+                        <date>1958 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1958 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a"> "The Know-Nothing Bohemians," <title>
+                           <part>Partisan Review,</part>
+                        </title> 1958, and collected in <title>
+                           <part>Doings and Undoings,</part>
+                        </title> 1964 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"Norman Mailer: The Embattled Vision," <title>
+                           <part>Partisan Review,</part>
+                        </title> 1959 and collected in <title>
+                           <part>Doings and Undoings,</part>
+                        </title> 1964 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"Edmund Wilson and the Kingdom of Heaven," <title>
+                           <part>Show,</part>
+                        </title>
+                        <date> 1962 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1962 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"The Gloom of Philip Roth,"<title>
+                           <part> Show, </part>
+                        </title>
+                        <date>1962 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1962 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"An Imaginary Dialogue with Theodore C. Sorensen,"<title>
+                           <part> Show, </part>
+                        </title>
+                        <date>1962 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1962 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"In Defense of a Maltreated Best Seller," <title>
+                           <part>Show,</part>
+                        </title> 1962, and collected in <title>
+                           <part>Doings and Undoings,</part>
+                        </title> 1964 as "In Defense of James Baldwin” </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"Masses, Classes and Social Criticism," <title>
+                           <part>Show, </part>
+                        </title>
+                        <date>1962 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1962 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"Byron's Princess of Parallelograms," <title>
+                           <part>Show, </part>
+                        </title>
+                        <date>1962 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1962 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"The '30s and Us," <title>
+                           <part>Show, </part>
+                        </title>
+                        <date>1962 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1962 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"Camus in His Twenties,"<title>
+                           <part> Show, </part>
+                        </title>
+                        <date>1963 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1963 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"Hannah Arendt: <title>
+                           <part>Eichman in Jerusalem," Commentary,</part>
+                        </title>
+                        <date> 1963 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1963 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"The Adventures of Saul Bellow," in <title>
+                           <part>Doings and Undoings, </part>
+                        </title>
+                        <date>1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1964 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"Consciousness and Poverty,"<title>
+                           <part> Show, </part>
+                        </title>
+                        <date>1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1964 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"Love and Revolution,"<title>
+                           <part> Book Week,</part>
+                        </title>
+                        <date> 1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1964 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"The Face of Five Decades," <title>
+                           <part>New York Review of Books, </part>
+                        </title>
+                        <date>1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1964 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"The Melting Pot Blues," review of <title>
+                           <part>Shadow and Act, Book Week, </part>
+                        </title>
+                        <date>1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1964 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"Prurience Subverted, or the Redemption of Candy,"<title>
+                           <part> Show,</part>
+                        </title>
+                        <date>1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1964 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">"Purifying the West," <title>
+                           <part>Show, </part>
+                        </title>
+                        <date>1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1964 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">"Putting the Cold War in Its Place," <title>
+                           <part>Show, </part>
+                        </title>
+                        <date>1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1964 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">"Bringing the News," <title>
+                           <part>Book Week, </part>
+                        </title>
+                        <date>1965 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1965 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">"In Defense of Editing,"<title>
+                           <part> Harpers, </part>
+                        </title>
+                        <date>1965 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1965 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">"Moynihan and What He Means," <title>
+                           <part>The New York Herald Tribune, </part>
+                        </title>
+                        <date>1965 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1965 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">"Herman Kahn and the Unthinkable," <title>
+                           <part>Show, </part>
+                        </title>
+                        <date>1966 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1966 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">"The United States, Its Problems, Impact and
+                        Image in the World," Seminar proceedings, <date>1969 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1969 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">"Certain Anxiety," <date>1971 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1971 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">"Does Literature Have a Future," <title>
+                           <part>Dialogue, </part>
+                        </title>
+                        <date>1974 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1974 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">"Special Edition," <date>1978-1979 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1978-1979 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">"Haig, and Reagan's Mandate," <title>
+                           <part>New York Times,</part>
+                        </title>
+                        <date> 1980 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1980 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">"The New Nationalism and the 1980 Elections," <title>
+                           <part>Public Opinion, </part>
+                        </title>
+                        <date>1980 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1980 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">"AWACS,"<title>
+                           <part> Washington Post, </part>
+                        </title>
+                        <date>1981 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1981 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">"The New American Majority," 1981, published
+                        in various magazines including<title>
+                           <part> Commentary</part>
+                        </title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">"The Future Danger," <title>
+                           <part>Commentary, </part>
+                        </title>
+                        <date>1981 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1981 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">"Kissinger Reconsidered," <title>
+                           <part>Commentary</part>
+                        </title> 1981 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">"New Defenders of Capitalism," <title>
+                           <part>Harvard Business Review, </part>
+                        </title>
+                        <date>1981 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1981 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">"Tocqueville 1981," for Bayerischer Rundfunk,
+                        1981 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">"Why Reagan and Koch Are the Most Popular
+                        Politicians in America,"<title>
+                           <part> New York,</part>
+                        </title>
+                        <date> 1981 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1981 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> "Camus and His Critics," <title>
+                           <part>New Criterion, </part>
+                        </title>
+                        <date>1982 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1982 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">"F. R. Leavis: A Reevaluation," <title>
+                           <part>New Criterion, </part>
+                        </title>
+                        <date>1982 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1982 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">"J'Accuse," <title>
+                           <part>Commentary,</part>
+                        </title>
+                        <date> 1982 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1982 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">"The Massacre: Who Was Responsible," <title>
+                           <part>The Washington Post,</part>
+                        </title>
+                        <date> 1982 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1982 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">The Neo-Conservative Anguish over Reagan's
+                        Foreign Policy,"<title>
+                           <part> New York Times Magazine," </part>
+                        </title>
+                        <date>1982 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1982 </unitdate>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                     <container localtype="box">11</container>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">"A New Isolationism," published in <title>
+                           <part>Commentaire</part>
+                        </title> under title "Lettreaux Europeans, un Nouvel Isolationism American?"
+                           <date>1982 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1982 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">"Our Aims and Israel's, <title>
+                           <part>"New York Times, </part>
+                        </title>
+                        <date>1982 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1982 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">"Vietnam: Lessons of Defeat," <title>
+                           <part>New York Times, </part>
+                        </title>
+                        <date>1982 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1982 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">"America Today," <date>undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">C. P. Snow, undated and untitled </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">"The Cold War and the Future of the West,"
+                        questionnaire from <title>
+                           <part>Partisan Review,</part>
+                        </title>
+                        <date> undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">"D. H. Lawrence: The Novel Conversion,"
+                           <date> undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">"The Dream of Failure and the Dream of
+                        Success," <date> undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">"Henry James's Jewish Heirs," <date> undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">"In Defense of Pornography," <date>undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">J. D. Salinger, undated and untitled </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">"James Jones," <date> undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">"The Jew in American Society," <date> undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">Lionel Trilling/Partisan Review, undated and
+                        untitled </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">"Love and Revolution," <date> undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">"Lyndon B. Johnson," <date>undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">"The Present and the Future Danger," <date>
+                           undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">"The Rockwell Photograph," <date> undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">"Strangers and Brothers," <date> undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">"Young Generation," <date>undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">"Why I Can't Get through the Charterhouse of
+                        Parma," <date> undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous writings, <date>undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">undated</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Published copies of articles by Podhoretz,
+                           <date>1959-1981, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1959-1981, undated </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Notes and sketches for essays </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Books </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>Doings and Undoings, </part>
+                        </title>
+                        <date>1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1964 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">13</container>
+                        <unittitle encodinganalog="245$a">Typescript (working title "A Reviewer's
+                           Decade") </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous material related to
+                           publisher </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a">Book reviews and articles, <date>Feb.
+                              1964-July 1965, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">Feb. 1964-July 1965, undated </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>Making It, </part>
+                        </title>
+                        <date>1967 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1967 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a">Draft, typescript </unittitle>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous pages of transcript,
+                           typescript </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">Correspondence, <date>Feb. 1967-July 1969
+                           </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">Feb. 1967-July 1969 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Unpublished and uncompleted early draft of a
+                        book on the 1960s and 1970s </unittitle>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">"The Blacks," 1970s, related to book on the
+                        1960s </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">"A Traitor to My Class," 1970s (early working
+                        title for<title>
+                           <part> Breaking Ranks) </part>
+                        </title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>Breaking Ranks, </part>
+                        </title>
+                        <date>1979 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1979 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">16</container>
+                        <unittitle encodinganalog="245$a">False starts, typescript </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">16</container>
+                        <unittitle encodinganalog="245$a">First draft, typescript </unittitle>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Photocopies </unittitle>
+                        <physdesc encodinganalog="300">(7 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Photocopies, discarded pages </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">18</container>
+                           <unittitle encodinganalog="245$a">Third draft, typescript, superseded
+                           </unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">18</container>
+                              <unittitle encodinganalog="245$a">Copy 1 </unittitle>
+                              <physdesc encodinganalog="300">(4 folders)</physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">18</container>
+                              <unittitle encodinganalog="245$a">Copy 4 </unittitle>
+                              <physdesc encodinganalog="300">(1 folder)</physdesc>
+                              <container localtype="box">19</container>
+                              <physdesc encodinganalog="300">(3 folders)</physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">19</container>
+                        <unittitle encodinganalog="245$a"> Final draft, typescript </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">19</container>
+                           <unittitle encodinganalog="245$a">Copy 1 </unittitle>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                           <container localtype="box">20</container>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">20</container>
+                           <unittitle encodinganalog="245$a">Copy 2 </unittitle>
+                           <physdesc encodinganalog="300">(4 folders)</physdesc>
+                           <container localtype="box">21</container>
+                           <physdesc encodinganalog="300">(4 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">21</container>
+                           <unittitle encodinganalog="245$a">Copyedited version </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">21</container>
+                        <unittitle encodinganalog="245$a">Page proofs </unittitle>
+                        <physdesc encodinganalog="300">(1 folder)</physdesc>
+                        <container localtype="box">22</container>
+                        <physdesc encodinganalog="300">(7 folders)</physdesc>
+                        <container localtype="box">23</container>
+                        <physdesc encodinganalog="300">(7 folders)</physdesc>
+                        <container localtype="box">24</container>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">Uncorrected proof, <date>Oct. 1979 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">Oct. 1979 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">Excerpts </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">Miscellany relating to publication
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">Correspondence, <date> June 1979-Dec.
+                              1982, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> June 1979-Dec. 1982, undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">Reviews </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">24</container>
+                           <unittitle encodinganalog="245$a">United States, <date>Sept. 1979-Sept.
+                                 1980, undated </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">Sept. 1979-Sept. 1980, undated
+                           </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">24</container>
+                           <unittitle encodinganalog="245$a">Foreign, <date> Feb.-June 1980, undated
+                              </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> Feb.-June 1980, undated </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>The Present Danger, </part>
+                        </title>
+                        <date> 1980</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1980</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">First draft, typescript </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">25</container>
+                           <unittitle encodinganalog="245$a">Copy I </unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">25</container>
+                           <unittitle encodinganalog="245$a">Corrected by Podhoretz </unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">25</container>
+                           <unittitle encodinganalog="245$a">Copyedited version, copy I </unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">25</container>
+                           <unittitle encodinganalog="245$a">Copy 2 </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Epilogue, miscellaneous pages and notes
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Uncorrected proofs, <date> July 1980
+                           </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> July 1980 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Publisher's correspondence and miscellany
+                           related to U.S. edition </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Miscellany related to foreign editions </unittitle>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">26</container>
+                        <unittitle encodinganalog="245$a">Correspondence, <date> Mar. 1980-May 1981,
+                              undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> Mar. 1980-May 1981, undated </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">26</container>
+                        <unittitle encodinganalog="245$a">Book reviews and articles, <date>Mar.
+                              1980-May 1981, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">Mar. 1980-May 1981, undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">26</container>
+                        <unittitle encodinganalog="245$a">Research materials </unittitle>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        <container localtype="box">27</container>
+                        <physdesc encodinganalog="300">(1 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>Why We Were in Vietnam, </part>
+                        </title>
+                        <date>1982 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1982 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Early unfinished draft, typescript
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">First draft, typescript </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Third draft, typescript </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">28</container>
+                        <unittitle encodinganalog="245$a">Fourth draft, typescript </unittitle>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">28</container>
+                        <unittitle encodinganalog="245$a">Original copyedited manuscript, Typescript </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">28</container>
+                        <unittitle encodinganalog="245$a">Galleys </unittitle>
+                        <physdesc encodinganalog="300">(1 folder)</physdesc>
+                        <container localtype="box">29</container>
+                        <physdesc encodinganalog="300">(1 folder)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">Why We Were in Vietnam, <date>1982 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1982 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">Page proofs for footnotes </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">Correspondence with and miscellany from
+                           publisher </unittitle>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">Correspondence, <date>Aug. 1981-Dec. 1982
+                           </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">Aug. 1981-Dec. 1982 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">Book reviews and articles </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">29</container>
+                           <unittitle encodinganalog="245$a">
+                              <date>Jan.-May 1982, undated </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">Jan.-May 1982, undated </unitdate>
+                           <physdesc encodinganalog="300">(1 folder)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">30</container>
+                           <unittitle encodinganalog="245$a">
+                              <date>June 1982-Jan. 1983</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">June 1982-Jan. 1983</unitdate>
+                           <physdesc encodinganalog="300">(1 folder)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">30</container>
+                        <unittitle encodinganalog="245$a">Research material </unittitle>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                        <container localtype="box">31</container>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">31-32</container>
+               <unittitle encodinganalog="245$a" id="Misc">Miscellany, <date normal="1958/1982">1958-1982</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1958/1982">1958-1982</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Newspaper clippings, printed material, and miscellaneous personal papers. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Newspaper clippings and printed material are interfiled in chronological order.
+                  Duplicates are filed at the end of this section. Other Miscellany is filed at the
+                  end of the series.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">31</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings and magazine articles
+                     concerning Podhoretz </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">31</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1958-1982</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1958-1982</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">32</container>
+                     <unittitle encodinganalog="245$a">Undated </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous newspaper clippings and articles,
+                        <date>1961-1982, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1961-1982, undated </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous reprints </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous papers, mostly personal
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">33-43</container>
+               <unittitle encodinganalog="245$a" id="Add">Addition, <date normal="1953/1986">circa
+                     1953-1986</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1953/1986">circa 1953-1986</unitdate>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">33-40</container>
+                  <unittitle encodinganalog="245$a">Speeches and Writings File,
+                        <date>1953-1986</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">1953-1986</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Correspondence, notes, memoranda, typewritten drafts with handwritten
+                     annotations, galleys and page proofs of writings. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Organized into writings, reviews, and speeches. Writings and reviews are
+                     arranged alphabetically; the speeches are arranged chronologically.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">33</container>
+                     <unittitle encodinganalog="245$a">Speeches and Writings File, <date>1953-1986,
+                           undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1953-1986, undated </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">33</container>
+                        <unittitle encodinganalog="245$a">Writings </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">33</container>
+                           <unittitle encodinganalog="245$a">"American Liberalism,"<title>
+                                 <part> American Spectator, </part>
+                              </title>
+                              <date>1985 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1985 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">33</container>
+                           <unittitle encodinganalog="245$a">"Appeasement by Any Other Name," <title>
+                                 <part>Commentary, </part>
+                              </title>
+                              <date>1983 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1983 </unitdate>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">33</container>
+                           <unittitle encodinganalog="245$a">"Arms Control," New York Times,
+                                 <date>1985 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1985 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">33</container>
+                           <unittitle encodinganalog="245$a">
+                              <title>
+                                 <part>The Bloody Crossroads, </part>
+                              </title>
+                              <date>1986 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1986 </unitdate>
+                           <physdesc encodinganalog="300">(1 folder)</physdesc>
+                           <container localtype="box">34</container>
+                           <physdesc encodinganalog="300">(5 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">34</container>
+                           <unittitle encodinganalog="245$a">"The Dialectic of Blame," <title>
+                                 <part>Encounter, </part>
+                              </title>
+                              <date>1985 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1985 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">34</container>
+                           <unittitle encodinganalog="245$a">"The Future of America,"<title>
+                                 <part> Partisan Review, </part>
+                              </title>
+                              <date>1984 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1984 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">35</container>
+                           <unittitle encodinganalog="245$a">
+                              <title>
+                                 <part>The God That Failed</part>
+                              </title> (Foreword) <date> 1983 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> 1983 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">35</container>
+                           <unittitle encodinganalog="245$a">"Henry Adams," <title>
+                                 <part>New Criterion,</part>
+                              </title>
+                              <date> 1983 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> 1983 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">35</container>
+                           <unittitle encodinganalog="245$a">"If Orwell Were Alive Today," <title>
+                                 <part>Harpers, </part>
+                              </title>
+                              <date>1983 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1983 </unitdate>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">36</container>
+                           <unittitle encodinganalog="245$a">"Kundera,"<title>
+                                 <part> Commentary, </part>
+                              </title>
+                              <date>1984 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1984 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">36</container>
+                           <unittitle encodinganalog="245$a">"Little Dorrit," <title>
+                                 <part>New York Times,</part>
+                              </title>
+                              <date> 1984 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> 1984 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">36</container>
+                           <unittitle encodinganalog="245$a">"Military Intervention in South
+                              America?," <title>
+                                 <part>New York Times, </part>
+                              </title>
+                              <date>1983 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1983 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">36</container>
+                           <unittitle encodinganalog="245$a">"NATO and American Public Opinion,"
+                                 <date>1984 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1984 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">36</container>
+                           <unittitle encodinganalog="245$a">"The Neo-Conservative Anguish over
+                              Reagan's Foreign Policy," <title>
+                                 <part>New York Times,</part>
+                              </title>
+                              <date> 1982 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> 1982 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">36</container>
+                           <unittitle encodinganalog="245$a">"1984 Is Here: Where Is Big Brother?" <title>
+                                 <part>Reader's Digest, </part>
+                              </title>
+                              <date>1984 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1984 </unitdate>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">37</container>
+                           <unittitle encodinganalog="245$a">"A Plan for Spreading Misery, Not
+                              Wealth," <title>
+                                 <part>New York Times, </part>
+                              </title>
+                              <date>1984 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1984 </unitdate>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">37</container>
+                           <unittitle encodinganalog="245$a">"Proper Uses of Power,"<title>
+                                 <part> New York Times, </part>
+                              </title>
+                              <date>1983 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1983 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">37</container>
+                           <unittitle encodinganalog="245$a">"Raymond Aron," <date>1985 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1985 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">37</container>
+                           <unittitle encodinganalog="245$a">"Reagan, Man of Peace," <title>
+                                 <part>New York Times, </part>
+                              </title>
+                              <date>1984 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1984 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">37</container>
+                           <unittitle encodinganalog="245$a">"The Reagan Road to Detente," <title>
+                                 <part>Foreign Affairs, </part>
+                              </title>
+                              <date>1984 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1984 </unitdate>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">38</container>
+                           <unittitle encodinganalog="245$a">"Statue of Liberty: Lost Love," <title>
+                                 <part>New York Magazine, </part>
+                              </title>
+                              <date>1986 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1986 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">38</container>
+                           <unittitle encodinganalog="245$a">"The Terrible Question of Aleksandr Solzhenitsyn,"<title>
+                                 <part> Commentary, </part>
+                              </title>
+                              <date>1985 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1985 </unitdate>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">38</container>
+                           <unittitle encodinganalog="245$a">
+                              <title>
+                                 <part>Why We Were in Vietnam</part>
+                              </title> (paperback edition) <date>1982 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1982 </unitdate>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">39</container>
+                           <unittitle encodinganalog="245$a">"Wisdom-What It Is . . . ," <title>
+                                 <part>Bottom Line Personal, </part>
+                              </title>
+                              <date> 1986</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> 1986</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">39</container>
+                           <unittitle encodinganalog="245$a">Miscellany of writings, notes and
+                              drafts, <date> circa 1953-1983 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> circa 1953-1983 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">39</container>
+                           <unittitle encodinganalog="245$a"> Reviews </unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">39</container>
+                              <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Caveat </part>
+                                 </title>by Alexander M. Haig , Commentary, <date>1984 </date>
+                              </unittitle>
+                              <unitdate encodinganalog="245$f">1984 </unitdate>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">39</container>
+                              <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Mayor</part>
+                                 </title> by Edward Koch, <title>
+                                    <part>Commentary, </part>
+                                 </title>
+                                 <date>1984 </date>
+                              </unittitle>
+                              <unitdate encodinganalog="245$f">1984 </unitdate>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">39</container>
+                              <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Overdrive</part>
+                                 </title> by William Buckley, <title>
+                                    <part>Commentary, </part>
+                                 </title>
+                                 <date>1983 </date>
+                              </unittitle>
+                              <unitdate encodinganalog="245$f">1983 </unitdate>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">39</container>
+                              <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Vietnam: A Television History,</part>
+                                 </title>" by Stanley Karnow, <date>1983 </date>
+                              </unittitle>
+                              <unitdate encodinganalog="245$f">1983 </unitdate>
+                              <physdesc encodinganalog="300">(2 folders)</physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">40</container>
+                        <unittitle encodinganalog="245$a">Speeches, <date>1983-1986 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1983-1986 </unitdate>
+                        <physdesc encodinganalog="300">(7 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">41-43</container>
+                  <unittitle encodinganalog="245$a">Miscellany, <date>circa 1975-1986</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa
+                     1975-1986</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Diary, notebooks, general correspondence, interviews and statements, subject
+                     files and printed matter. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged alphabetically by type of material and usually chronologically
+                     therein.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">41</container>
+                     <unittitle encodinganalog="245$a">Biographical material, <date> circa 1975-1986
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> circa 1975-1986 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">41</container>
+                     <unittitle encodinganalog="245$a">Diary and notebooks, <date>undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">undated </unitdate>
+                     <physdesc encodinganalog="300">(3 vols.)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">41</container>
+                     <unittitle encodinganalog="245$a">General correspondence, <date>1977-1985
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1977-1985 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">41</container>
+                     <unittitle encodinganalog="245$a">Interviews and statements, <date>1978-1986
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1978-1986 </unitdate>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                     <container localtype="box">42</container>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">42</container>
+                     <unittitle encodinganalog="245$a">Printed matter, newspaper clippings </unittitle>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                     <container localtype="box">43</container>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">43</container>
+                     <unittitle encodinganalog="245$a">Subject file </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">43</container>
+                        <unittitle encodinganalog="245$a">Anti-nuclear policy, <date> 1983 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1983 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">43</container>
+                        <unittitle encodinganalog="245$a">Foreign policy, <date> 1983-1985 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1983-1985 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

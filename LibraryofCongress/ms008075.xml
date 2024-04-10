@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms008075">loc.mss/eadmss.ms008075</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Daniel Carroll of Duddington Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by David Mathisen<lb/>Revised and expanded by Brian
+			 McGuire</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2008" encodinganalog="260$c" era="ce" calendar="gregorian">2008</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm79015206">https://lccn.loc.gov/mm79015206</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2021-01">2021 January</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>correction made</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Title, controlaccess updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2008">2008</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Daniel Carroll Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1662/1920">1662-1920</date>  
+		           <date altrender="Bulk Dates" localtype="bulk" normal="1791/1868">(bulk 1791-1868)</date>  
+         </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1662/1920"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1662-1920</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1791/1868"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1791-1868)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS15206</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Carroll, Daniel,
+			 1764-1849</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300"> 3,100
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">10 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">4.4 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">8 microfilm reels</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in
+		English
+		       </p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+            </corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Landowner and
+		  businessman. Correspondence, financial and legal records, plat surveys, and
+		  newspaper clippings pertaining to Carroll's business interests and real estate
+		  holdings in Washington, D.C., and Baltimore, Md.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230714134220.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Appleby, George F.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Brent, Richard, 1757-1814--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Brent, William Leigh, 1784-1848--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Carroll family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Carroll, Ann C.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Carroll, Ann C.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Carroll, Charles, -1820--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Carroll, Charles, 1737-1832--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Carroll, Daniel, 1730-1796--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Carroll, Daniel, 1764-1849.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Clarke, Richard H. (Richard Henry), 1827-1911--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Emory, Thomas, 1782- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Fitzhugh, Maria Carroll.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Gittings, John Sterrett--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Gordon, William Alexander, -1873--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Greenleaf, James, 1765-1843--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hammond, William A. (William Alexander), 1828-1900--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hickey, William, 1798-1866--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Johnson, Christopher, active 19th century--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>L'Enfant, Pierre Charles, 1754-1825.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>McPherson, James Birdseye, 1828-1864--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Merryman, John, 1824-1881--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Waggaman, Thos. E. (Thomas E.)--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Baltimore Iron Works (Baltimore, Md.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Duddington Manor (Washington, D.C.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Hockley Forge.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Iron industry and trade--Maryland.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Real property--Maryland--Baltimore.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Real property--Washington (D.C.)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Rent.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Baltimore (Md.)--Surveys.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Capitol Hill (Washington, D.C.)</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Washington (D.C.)--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Washington (D.C.)--Surveys.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Businessmen.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Landowners.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Daniel Carroll, landowner and businessman, were
+		  deposited and then given to the Library of Congress in 1963 and 1967 by Mrs.
+		  Harry G. Meem and her daughter, Ann Meem Rogers, descendants of the Carroll
+		  family. Other gifts and purchases were received between 1920 and 1990,
+		  including gifts from Frank Hannegan in 1983 and 1985.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Daniel Carroll were arranged and described in 1986-1987.
+		  Additional material was incorporated into the collection in 2001 and the
+		  finding aid was revised in 2001 and 2008. </p>
+      </processinfo>
+      <otherfindaid encodinganalog="555">
+         <head>Additional Guides</head>
+         <p>Portions of the collection are
+		  described in the 
+		<title localtype="simple">
+               <part>Quarterly Journal of the Library of Congress</part>
+            </title>, vol. 21,
+		July 1964, pp. 191-194, and in 
+		<title localtype="simple">
+               <part>Library of Congress Acquisitions: Manuscript Division</part>
+            </title>,
+		1983, pp. 6-10.</p>
+      </otherfindaid>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Daniel Carroll
+		  is governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Daniel Carroll are open to research.
+		  Researchers are advised to contact the Manuscript Reading Room prior to
+		  visiting. Many collections are stored off-site and advance notice is needed to
+		  retrieve these items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p>A microfilm edition of these papers is available on eight reels from
+		  the Library's Photoduplication Service for purchase subject to the Copyright
+		  Law of the United States (Title 17, U.S.C.). Consult reference staff in the Manuscript Division concerning
+		  availability for purchase or interlibrary loan. To promote preservation of the
+		  originals, researchers are required to consult the microfilm edition as
+		  available.</p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container or reel number, Daniel Carroll Papers,
+		  Manuscript Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Daniel Carroll of Duddington (1764-1849) span the years
+		  1662-1920, with the bulk of the material concentrated between 1791 and 1868.
+		  The collection relates principally to the real estate and business interests of
+		  Carroll, an influential Washington, D.C., landowner whose property included
+		  Duddington Manor on the Anacostia River and much of what was to become Capitol
+		  Hill. The papers are organized in the following series: 
+		  <ref show="replace" actuate="onrequest" target="fam">
+                Family
+			 Correspondence 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="gen">
+                General
+			 Correspondence 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="fin">
+                Financial
+			 Records 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="misc">
+                Miscellany 
+            </ref>,
+		  an 
+		  <ref show="replace" actuate="onrequest" target="add">
+                Addition 
+            </ref>,
+		  and 
+		  <ref show="replace" actuate="onrequest" target="over">
+                Oversize 
+            </ref>.
+		  </p>
+         <p>The collection deals with the surveying and selling of lots and
+		  squares in the new federal city and in Baltimore, Maryland, with lawsuits and
+		  the collection of rents, and with Carroll's large holdings in the Baltimore
+		  Iron Works and the Hockley Forge. Most of the material dated after Carroll's
+		  death in 1849 concerns the settlement of his estate by his daughters, Ann C.
+		  Carroll and Maria Carroll Fitzhugh. </p>
+         <p>Principal correspondents from Daniel Carroll's lifetime include his
+		  uncle, Daniel Carroll of Rock Creek, one of the early commissioners of the
+		  District of Columbia; Charles Carroll (d. 1820) of Belle Vue; and Charles
+		  Carroll (1737-1832) of Carrollton, a signer of the Declaration of Independence.
+		  Other correspondents are Richard Brent, William Leigh Brent, Thomas Emory,
+		  James Greenleaf, William Alexander Hammond, Christopher Johnson, and John
+		  Merryman. Correspondents from the period after Carroll's death include George
+		  Appleby, Ann C. Carroll, Richard H. Clarke, John Sterrett Gittings, William
+		  Alexander Gordon, William Hickey, James Birseye McPherson, and Thos. E.
+		  Waggaman.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in six series: </p>
+         <list>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="fam">
+                   Family
+				Correspondence, 1758-1830 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="gen">
+                   General
+				Correspondence, 1662-1910 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="fin">
+                   Financial
+				Records, 1752-1906 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="misc">
+                   Miscellany,
+				1702-1920 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="add">
+                   Addition, 1820 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="over">
+                   Oversize,
+				1702-1872 
+               </ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <p>Available on microfilm. Shelf no. 19,756</p>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1</container>
+               <container localtype="reel">1</container>
+               <unittitle encodinganalog="245$a" id="fam">Family Correspondence, 
+				 <date normal="1758/1830">1758-1830</date> 
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1758/1830">1758-1830</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Correspondence of various family members.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged by name of family member and thereunder
+				chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Carroll, Charles, of Belle Vue, 
+				   <date>1792-1822, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1792-1822, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Carroll, Charles, of Duddington,
+				  and his wife, Mary Hill Carroll, letterbook, 
+				   <date>1758-1774</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1758-1774</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Carroll, Charles, of Carrollton, 
+				   <date>1772-1819, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1772-1819, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous family members, 
+				   <date>1786-1833, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1786-1833, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-6</container>
+               <container localtype="reel">1-4</container>
+               <unittitle encodinganalog="245$a" id="gen">General Correspondence, 
+				 <date normal="1662/1910">1662-1910</date> 
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1662/1910">1662-1910</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters received and some letters sent.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a"> 
+				                  <date>1662-1795</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1662-1795</unitdate>
+                  <physdesc encodinganalog="300$a">(7
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">1-2</container>
+                  <unittitle encodinganalog="245$a"> 
+				                  <date>1796-1814</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1796-1814</unitdate>
+                  <physdesc encodinganalog="300$a">(11
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a"> 
+				                  <date>1815-1827</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1815-1827</unitdate>
+                  <physdesc encodinganalog="300$a">(13
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <container localtype="reel">2-3</container>
+                  <unittitle encodinganalog="245$a"> 
+				                  <date>1828-1846</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1828-1846</unitdate>
+                  <physdesc encodinganalog="300$a">(12
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">3-4</container>
+                  <unittitle encodinganalog="245$a"> 
+				                  <date>1847-1868</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1847-1868</unitdate>
+                  <physdesc encodinganalog="300$a">(15
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <container localtype="reel">4</container>
+                  <unittitle encodinganalog="245$a"> 
+				                  <date>1869-1910, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1869-1910, undated</unitdate>
+                  <physdesc encodinganalog="300$a">(11
+				  folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">7-8</container>
+               <container localtype="reel">5-7</container>
+               <unittitle encodinganalog="245$a" id="fin">Financial Records, 
+				 <date normal="1752/1906">1752-1906</date> 
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1752/1906">1752-1906</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Family business records including accounts, receipts,
+				correspondence, and related material. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <container localtype="reel">5</container>
+                  <unittitle encodinganalog="245$a"> 
+				                  <date>1752-1840</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1752-1840</unitdate>
+                  <physdesc encodinganalog="300$a">(13
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <container localtype="reel">6-7</container>
+                  <unittitle encodinganalog="245$a"> 
+				                  <date>1841-1906, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1841-1906, undated</unitdate>
+                  <physdesc encodinganalog="300$a">(9
+				  folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">9-10</container>
+               <container localtype="reel">7-8</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany, 
+				 <date normal="1702/1920">1702-1920</date> 
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1702/1920">1702-1920</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Autograph albums, business records, clippings and pamphlets, land
+				plats, land reference books, lottery tickets, miscellaneous notations,
+				indentures, wills, photograph, report, subpoenas, verses, and annotated
+				wrappers. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <container localtype="reel">7-8</container>
+                  <unittitle encodinganalog="245$a">Autograph albums, 
+				   <date>1860-1873</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1860-1873</unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <container localtype="reel">7-8</container>
+                  <unittitle encodinganalog="245$a">Business records, 
+				   <date>1749-1822</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1749-1822</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <container localtype="reel">7-8</container>
+                  <unittitle encodinganalog="245$a">Clippings and pamphlets, 
+				   <date>1804-1906, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1804-1906, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <container localtype="reel">7-8</container>
+                  <unittitle encodinganalog="245$a">Land plats, 
+				   <date>1793-1874, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1793-1874, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <container localtype="reel">7-8</container>
+                  <unittitle encodinganalog="245$a">Land reference books, notebooks, 
+				   <date>1853, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1853, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <container localtype="reel">7-8</container>
+                  <unittitle encodinganalog="245$a">Lottery tickets, 
+				   <date>undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <container localtype="reel">7-8</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous notations, 
+				   <date>1796, 1850s-1860s</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1796, 1850s-1860s</unitdate>
+                  <physdesc encodinganalog="300$a">(3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Oversize material 
+				  <ref show="replace" actuate="onrequest" target="over">
+                        <emph render="italic">See Oversize series</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Photograph, 
+				   <date>undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Recipe book, 
+				   <date>undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Report on construction of canal,
+				  by Benjamin Henry Latrobe, 
+				   <date>Feb. 5, 1804</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Feb. 5, 1804</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Scrapbook, 
+				   <date>1793-1920</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1793-1920</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Subpoenas, Merrick v. Fitzhugh, 
+				   <date>1868-1872</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1868-1872</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">"Verses," by A. G. Heaton, 
+				   <date>Sept. 23, 1885</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Sept. 23, 1885</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Wrappers, annotated, 
+				   <date>undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  <physdesc encodinganalog="300$a">(3
+				  folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">10</container>
+               <container label="not filmed"/>
+               <unittitle encodinganalog="245$a" id="add">Addition, 
+				 <date>1820</date> 
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1820</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Photocopies of a letter and an essay pertaining to signers of the
+				Declaration of Independence.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container label="not filmed"/>
+                  <unittitle encodinganalog="245$a">Letter (photocopy), Charles
+				  Carroll of Belle Vue to his sister, 
+				   <date>1820</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1820</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container localtype="reel" label="not filmed"/>
+                  <unittitle encodinganalog="245$a">Essay (photocopy) by Charles
+				  Carroll of Belle Vue pertaining to the signers of the Declaration of
+				  Independence, 
+				   <date>undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1</container>
+               <container localtype="reel">8</container>
+               <unittitle encodinganalog="245$a" id="over">Oversize, 
+				 <date normal="1702/1872">1702-1872</date> 
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1702/1872">1702-1872</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Atlas, indentures, land plats, correspondence, insurance policy,
+				and wills. Microfilmed as part of Miscellany series. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged and described according to the series, container, and
+				folder from which the items were removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Atlas, 
+				   <date>undated </date>  (Container 10)</unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Correspondence, 
+				   <date>1760 </date> (Container 10)</unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1760 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Indentures, 
+				   <date>1702-1800 </date> (Container 10)</unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1702-1800 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Land plats, 
+				   <date>1796-1872 </date> (Container 10)</unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1796-1872 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Insurance policy, 
+				   <date>1803 </date> (Container 10)</unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1803 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Wills, 
+				   <date>1734-1828 </date> (Container 10)</unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1734-1828 </unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

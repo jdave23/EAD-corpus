@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms013073">loc.mss/eadmss.ms013073</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>St. George L. Sioussat Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm82040188">https://lccn.loc.gov/mm82040188</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-08">2023 August</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2013">2013</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">St. George L. Sioussat Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1831/1959">1831-1959</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1831/1959"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1831-1959</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS40188</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Sioussat, St. George L. (St. George Leakin), 1878-1960</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">3,500 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">8 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">3.2 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Historian, librarian, and archivist.
+            Correspondence with American scholars and librarians concerning the location of Duff
+            Green papers and transcripts and photostats of the correspondence of Green and others
+            relating to American-British diplomacy, with emphasis on Green's missions to England.
+            Also includes notes and memoranda from published and unpublished sources collected for
+            the purpose of writing an account of Green's diplomatic career.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230115142851.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Cobden, Richard, 1804-1865--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Everett, Edward, 1794-1865--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Green, Duff, 1791-1875--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Green, Duff, 1791-1875.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hume, Joseph, 1777-1855--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>MacGregor, John, 1825-1892--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Peel, Robert, 1788-1850--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Sioussat, St. George L. (St. George Leakin), 1878-1960.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Tyler, John, 1790-1862--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Webster, Daniel, 1782-1852--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Great Britain--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--19th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Great Britain.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Archivists.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Historians.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Librarians.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of St. George L. Sioussat, historian, librarian, and archivist, were given to
+            the Library of Congress by Sioussat and his wife, Julia Taber Sioussat (née Richardson),
+            1960-1961 </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The Sioussat collection was processed in 1961. The finding aid was revised in 2013 by
+            Dan Oleksiw. The finding aid was updated in 2023 by Maria Farmer as part of a
+            division-wide remediation project by the Inclusive Description Working Group.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of St. George L. Sioussat is
+            governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of St. George L. Sioussat are open to research. Researchers are advised to
+            contact the Manuscript Reading Room prior to visiting. Many collections are stored
+            off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, St. George L. Sioussat Papers, Manuscript Division, Library of
+            Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1878, Mar. 13 </datesingle>
+               <event>Born, Baltimore, Md. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1896</datesingle>
+               <event>Graduated, Johns Hopkins University, Baltimore, Md. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1899</fromdate>
+                  <todate>1904</todate>
+               </daterange>
+               <event>Assistant instructor in history, Smith College, Northampton, Mass. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1904</fromdate>
+                  <todate>1911</todate>
+               </daterange>
+               <event>Professor of history and economics, University of the South, Sewanee, Tenn.;
+                  dean of arts and sciences, 1909-1911</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1911</fromdate>
+                  <todate>1917</todate>
+               </daterange>
+               <event>Professor of history, Vanderbilt University, Nashville, Tenn. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1917</fromdate>
+                  <todate>1920</todate>
+               </daterange>
+               <event>Littlefield Professor of American history, Brown University, Providence,
+                  R.I.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1920</fromdate>
+                  <todate>1938</todate>
+               </daterange>
+               <event>Professor of American history, University of Pennsylvania, Philadelphia,
+                  Pa.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1934</fromdate>
+                  <todate>1942</todate>
+               </daterange>
+               <event>Chairman, committee on the library, American Philosophical Society</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1938</fromdate>
+                  <todate>1948</todate>
+               </daterange>
+               <event>Chief, Manuscript Division, Library of Congress, and incumbent of Library's
+                  Chair of American History</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1938</fromdate>
+                  <todate>1948</todate>
+               </daterange>
+               <event>Member, National Historical Publications Commission.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1947</fromdate>
+                  <todate>1950</todate>
+               </daterange>
+               <event>Vice president, American Philosophical Society</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1948</fromdate>
+                  <todate>1960</todate>
+               </daterange>
+               <event>Honorary consultant in American historiography, Library of Congress </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1960, Aug. 31</datesingle>
+               <event>Died, Washington, D.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of St. George Leakin Sioussat (1878-1960) span the years 1831-1959 and
+            consist of correspondence, 1926-1959, with American scholars and librarians concerning
+            the location of Duff Green papers and transcripts and photostats of correspondence,
+            1841-1867, of Richard Cobden, Edward Everett, Duff Green, Joseph Hume, John MacGregor,
+            Robert Peel, John Tyler, Daniel Webster, and others relating to American-British
+            diplomacy, with emphasis on Green's missions to England. Also included are notes and
+            memoranda from published and unpublished sources, including American, British, and
+            French newspapers, pamphlets, and diplomatic dispatches collected for the purpose of
+            writing an account of Green's diplomatic career.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is organized by topic or type of material.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Correspondence regarding Duff Green
+                  Papers</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1926-1935</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1926-1935</unitdate>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1949-1959, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1949-1959, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Duff Green correspondence, <date>1841-1867 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841-1867 </unitdate>
+               <physdesc encodinganalog="300">(4 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Lists and notes on Duff Green's correspondence,
+                     <date>1831-1844 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1831-1844 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Duff Green </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a"> Text and notes prepared by Sioussat,
+                        <date>1837-1843 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1837-1843 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous bibliographical notes,
+                     bibliography, etc., <date>undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Notes for<title>
+                        <part> Dictionary of National Biography</part>
+                     </title>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">John Tyler, election, U.S. foreign policy, etc.,
+                     <date>1841-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Sioussat's draft of introduction, Duff Green
+               </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Abstract of Duff Green's "England and the United
+                  States" and introductory notes of Sioussat </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">American politics and British foreign policy,
+                     <date>1840-1844 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1840-1844 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Principally notes on Green's correspondence,
+                     <date>1841-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Informal special agents of President John Tyler,
+                  introduction of special agents, <date>1841-1842 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841-1842 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Duff Green, bibliography, British-American policies
+               </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Texas, Monroe Doctrine, etc. </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Duff Green and Texas, photostats of letters and
+                  notes, <date>1844-1845 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1844-1845 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Notes, England and Texas, Duff Green and Ashbel
+                  Smith </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">James K. Polk's administration, outline, Texas,
+                  etc., and Oregon </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Notes from <title>
+                     <part>Pilot,</part>
+                  </title> a Whig newspaper, <date>1840 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1840 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Duff Green's letters to British and American
+                  newspapers, notes and text, <date>1841-1842, Jan. </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841-1842, Jan. </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a"> Duff Green's "England and the United States" with
+                  an introductory study of American opposition to the Quintuple Treaty, 1841 by
+                  Sioussat, part of text and galley</unittitle>
+               <physdesc encodinganalog="300">(2 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Foreign Office.O. 27: 414 and 415, slave trade;
+                  right of search; Quintuple Treaty, <date>1841 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Notes, <title>
+                     <part>Journal des débats,</part>
+                  </title> Paris, France </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">
+                  <title>
+                     <part>Le Moniteur </part>
+                  </title>
+               </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">1-IV-12-IV, 1842, Quintuple Treat, 1841, opinion
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">5-II-13-III, 1842,Quintuple Treaty, 1841,
+                     opinion </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">18-I-19-I, views of France, Quintuple Treaty,
+                     1841 </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">23- I, 1842,Quintuple Treaty, 1841, opinion
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">25- I, 1842-29-I, Quintuple Treaty, 1841,
+                     opinion </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Chronicle </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Notes, <title>
+                     <part>London Times, </part>
+                  </title>Duff Green, <date>1842-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1842-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">
+                  <title>
+                     <part>London Globe, </part>
+                  </title>
+                  <date>1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">
+                  <title>
+                     <part>The United States and England,</part>
+                  </title> by an American, <title>
+                     <part>Great Western Magazine,</part>
+                  </title> typed copy, <date>1942, Sept. </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1942, Sept. </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Notes on Joseph Hume, Duff Green, Aberdeen
+                  correspondence, <date>1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Lewis Cass letters, notes, <date>1841-1844 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841-1844 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">British-American trade relations, notes and
+                  bibliography, <date>1837-1842 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1837-1842 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Edward Everett work on ministers to England,
+                  outline, bibliography, and text of chapters 1 and 2, <date>1841 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Duff Green on postal reform, text, notes,
+                  documents, copies of J. S. Jackson's "International Aspect of the Postal Service"
+               </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Notes on English diplomatic correspondence,
+                     <date>1838-1841 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1838-1841 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Edward Everett's dispatches, notes on foreign
+                  policy of U.S. and Great Britain </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Notes of Sioussat, writing, review: Shortt, George
+                  Ernest, <title>
+                     <part>The Second Bank of the United States under Two Charters </part>
+                  </title>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">English-American politics, notes, <date>1840-1843
+                  </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1840-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Notes on Duff Green, Everett, John Tyler
+                  correspondence, <date>1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Edward Everett's dispatches, chiefly about slave
+                  trade, England and France, <date>1844-1846 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1844-1846 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Abstracts, Edward Everett's diary and letters,
+                     <date>1841 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Green-Everett relations, notes, etc.,
+                     <date>1841-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">"Green's Activities in 1842," outline, notes, part
+                  of text, British mission, <date>1842-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1842-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Duff Green's second mission to England, personal
+                  business </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Notes relating to Green and his mission to England,
+                     <date>1840-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1840-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Duff Green, text, and European mission, <date>1843
+                  </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Duff Green's second trip to Europe, text,
+                     <date>1842-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1842-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Notes and text on Duff Green's second trip to
+                  Europe, <date> 1842-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f"> 1842-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Edward Everett-Daniel Webster missions to England,
+                     <date>1839-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1839-1843 </unitdate>
+               <physdesc encodinganalog="300">(2 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Duff Green's English mission </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Duff Green in England, <date>1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Notes, Duff Green in Paris, <date>1842- </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1842- </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Duff Green's second mission to Europe,
+                  contributions to the <title>
+                     <part>Boston Post </part>
+                  </title>
+               </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">Duff Green business matter, notes U.S. Bank, etc.,
+                  foreign finances, <date>1840-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1840-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">Duff Green, U.S. loans, "Basis of Text," <date>1842
+                  </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1842 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">Green, views on finances, notes, <date>1839-1943
+                     [1843] </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1839-1943 [1843] </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">Duff Green, notes on George Peabody correspondence,
+                     <date>1841-1842 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841-1842 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">Notes from Baring Brothers papers, <date>1833-1842
+                  </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1833-1842 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a"> Peel's financial reform, Aberdeen and Peel papers,
+                  Duff Green, <date>1841-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">U.S. credit, John Tyler administration,
+                     <date>1841-1844 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841-1844 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">Miscellaneous notes, Duff Green, John Tyler and
+                  others, <date>1840-1845 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1840-1845 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">Philip Hone's diary, financial panics,
+                     <date>1837-1840 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1837-1840 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">Arbitration miscellaneous </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">Duff Green, miscellaneous notes from letters of
+                  American and British statesmen </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">Duff Green notes and text, <date>1841- </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841- </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">Notes, British-American relations </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">Text, John C. Calhoun-Duff Green; Daniel Webster
+                  and Green to England, 1839; Green and the Whigs, 1840-1841; Green-Nicholas Biddle,
+                  1837-1841 </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">Duff Green, reform merchants, British policy,
+                  abolitionism, <date>1837-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1837-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">Peel , Robert-Earl of Aberdeen Papers, U.S.-British
+                  commercial treaty, <date>1841,Oct.25-1842, Feb. 28 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841,Oct.25-1842, Feb. 28 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">British trade, John C. Calhoun-Duff Green, etc.,
+                  tariff, Corn Law, <date>1841-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1841-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">British Corn Laws, free trade, Duff Green and J.
+                  Mac Gregor correspondence, etc., <date>1842 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1842 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">John C. Calhoun, notes from letters of various
+                  statesmen, <date>1840-1844 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1840-1844 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">Notes, slave trade, Great Britain and France,
+                     <date>1840-1842 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1840-1842 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">U.S.-British trade reciprocity, 1840-1843
+                     <date>1840-1843 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1840-1843 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">Free labor policy in the British sugar colonies,
+                  notes, <date>1834-1860 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1834-1860 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">Free labor in British colonies; also French
+                  slavery, notes and reports of W. J. Bell, D. Ditter, Rosaline Goldin and H. H.
+                  Sipes </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">Report on the tariff, V. G. Setser, seminar report,
+                     <date>1842-1846 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1842-1846 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">8</container>
+               <unittitle encodinganalog="245$a">Prints and photocopies, England and the United
+                  States </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">8</container>
+               <unittitle encodinganalog="245$a">Illinois Central Railroad and Land Act of 1850,
+                  etc., <date>1850 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1850 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">8</container>
+               <unittitle encodinganalog="245$a">Printed matter </unittitle>
+               <physdesc encodinganalog="300">(2 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">8</container>
+               <unittitle encodinganalog="245$a">Sioussat, St. George L. </unittitle>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms016056">loc.mss/eadmss.ms016056</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Charles Monroe Dickinson Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78018432">https://lccn.loc.gov/mm78018432</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-03">2023 March</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2016">2016</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Charles Monroe Dickinson Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1897/1928">1897-1928</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1897/1928"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1897-1928</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS18432</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Dickinson, Charles Monroe Dickinson, 1842-1924</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">1,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">4 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">1.4 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Lawyer, editor, and diplomat.
+            Correspondence, writings, reminiscences, biographical material, clippings, passports,
+            and photographs relating chiefly to Dickinson's activities as an American diplomatic
+            representative in Bulgaria and Turkey, 1897-1908.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220928170057.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Dickinson, Charles Monroe, 1842-1924.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Dickinson, Charles Monroe, 1842-1924. Children, and other verses.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Merrill, Selah, 1837-1909.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Norton, Thomas H. (Thomas Herbert), 1851-1941.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Stone, Ellen Maria, 1846-1927.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Consuls--Jerusalem.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Consuls--Turkey--İzmir.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Diplomatic and consular service, American--Bulgaria.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Diplomatic and consular service, American--Jerusalem.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Diplomatic and consular service, American--Turkey.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Kidnapping--Macedonia.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Practice of law--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Women missionaries--Macedonia.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Bulgaria--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Turkey--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Bulgaria.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Turkey.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Diplomats.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Editors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Lawyers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of Charles Monroe Dickinson, lawyer, editor, and diplomat, were deposited in
+            the Library of Congress by his wife, Alice Bond Minard Dickinson, in 1933 and converted
+            to a gift in 1957. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The Charles Dickinson Papers were processed circa 1960. The finding aid was created in
+            2016. The finding aid was updated in 2023 by Maria Farmer as part of a division-wide
+            remediation project by the Inclusive Description Working Group. </p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Charles Monroe Dickinson is
+            governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Charles Monroe Dickinson are open to research. Researchers are advised to
+            contact the Manuscript Reading Room prior to visiting. Many collections are stored
+            off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Charles Monroe Dickinson Papers, Manuscript Division, Library of
+            Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1842, Nov. 15 </datesingle>
+               <event>Born, Lowville, N.Y. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1865</datesingle>
+               <event>Admitted to New York bar </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1878</fromdate>
+                  <todate>1880</todate>
+               </daterange>
+               <event>Editor and then owner and publisher of <title>
+                     <part>Binghamton Republic</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1889 </datesingle>
+               <event>Published <title>
+                     <part>The Children and Other Verses</part>
+                  </title>. New York: Cassell &amp; Co. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1897</fromdate>
+                  <todate>1906</todate>
+               </daterange>
+               <event>U.S. consul general, Constantinople, Turkey </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1901</fromdate>
+                  <todate>1907</todate>
+               </daterange>
+               <event>Diplomatic agent to Bulgaria </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1903</datesingle>
+               <event>Negotiated release of American missionary kidnapped in Macedonia, Ellen Maria
+                  Stone </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1924, July 3</datesingle>
+               <event>Died, Binghamton, N.Y. </event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Charles M. Dickinson (1842-1924) span the years 1897-1923, with the bulk
+            of the material concentrated in the period 1897-1908. The collection consists of
+            correspondence, writings, reminiscences, biographical material, clippings, passports,
+            and photographs relating chiefly to Dickinson's activities as an American diplomatic
+            representative in Bulgaria and Turkey. Included is documentation pertaining to Ellen
+            Maria Stone, a missionary abducted by brigands in Macedonia in 1901, and investigations
+            of Thomas H. Norton and Selah Merrill, American consuls in Smyrna, Turkey, and
+            Jerusalem, respectively. Also included is material relating to Dickinson's law practice
+            in New York and reviews of his book, <title>
+               <part>The Children, and Other Verses</part>
+            </title> (1889). </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>The collection is organized by type of material</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Special correspondence</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Laughton family, <date>1905-1906</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1905-1906</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Merrill, Selah, <date>1906-1907 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1906-1907 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Norton, Thomas H., <date>1905-1906</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1905-1906</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Stone, Ellen Maria, case, <date>1901-1904</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1901-1904</unitdate>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Wheeler, Jeanne and Walter Frisbie,
+                        <date>1905-1908</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1905-1908</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">General correspondence, <date>1897-1907</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1897-1907</unitdate>
+               <physdesc encodinganalog="300">(11 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Subject file</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Biographical material</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Consular papers, <date>1895-1905</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1895-1905</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Photograph and passport, <date>1923</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1923</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Reminiscences and writings</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Clippings</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Letterbooks, <date>1901-1905</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1901-1905</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

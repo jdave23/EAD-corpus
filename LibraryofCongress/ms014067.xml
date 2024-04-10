@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms014067">loc.mss/eadmss.ms014067</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>James G. Harbord Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by Manuscript Division Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+                           <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+               Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2014" encodinganalog="260$c" era="ce" calendar="gregorian">2014</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78024844">https://lccn.loc.gov/mm78024844</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2014">2014</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">James G. Harbord Papers  <date altrender="Span Dates" localtype="inclusive" normal="1886/1938">1886-1938</date> 
+                        <date altrender="Bulk Dates" localtype="bulk" normal="1917/1919">(bulk 1917-1919)</date> 
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1886/1938"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1886-1938</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1917/1919"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1917-1919)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS24844</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Harbord, James G. (James Guthrie),
+               1866-1947</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">24,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">38 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">14 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in English
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852">
+                        <corpname>
+                           <part>
+                Manuscript Division,  Library of Congress</part>
+                        </corpname>
+                        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Army officer and business executive.
+            Correspondence, personal diary, confidential cables, administrative memoranda of General
+            John J. Pershing, records of conversations, clippings, scrapbooks, operational maps,
+            barrage charts, sketches, records of the United States Army 2nd Division, a portrait,
+            translations of war diaries of the German army, and other papers pertaining to Harbord's
+            service in the American military, principally during World War I.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20201216165335.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Baker, Newton Diehl, 1871-1937--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Baker, Newton Diehl, 1871-1937.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bandholtz, Harry Hill, 1864-1925--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bliss, Tasker Howard, 1853-1930--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Degoutte, Jean, 1866-1938--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Haig, Douglas Haig, Earl, 1861-1928--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Harbord, James G. (James Guthrie), 1866-1947.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Harts, W. W. (William Wright), 1866-1961--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hoover, Herbert, 1874-1964--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Johnson, Hugh S. (Hugh Samuel), 1882-1942--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>March, Peyton Conway, 1864-1955--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>McCoy, Frank Ross, 1874-1954--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>McIntyre, Frank, 1865-1944--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Palmer, John McAuley, 1870-1955--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pershing, John J. (John Joseph), 1860-1948--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pershing, John J. (John Joseph), 1860-1948.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pétain, Philippe, 1856-1951--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Roosevelt, Theodore, 1858-1919--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Taft, William H. (William Howard), 1857-1930--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Wood, Leonard, 1860-1927--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Germany Heer.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Philippine Constabulary.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. American Military Mission to Armenia, 1919.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army--Supplies and stores.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. American Expeditionary Forces. Services of Supply.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Division, 2nd.</part>
+            </corpname>
+            <corpname encodinganalog="710" source="lcnaf">
+               <part>United States. Army. Division, 2nd. United States Army 2nd Division records.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Château-Thierry, Battle of, Château-Thierry, France, 1918.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1914-1918--Campaigns--France.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1914-1918.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Armenia--History--Revolution, 1917-1920.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Soissons (France)--History.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Army officers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Executives.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The papers of James G. Harbord, army officer and business executive, were given to
+               the Library of Congress by Harbord in 1945. An earlier gift had been received in
+               1923. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The collection was processed prior to 1960. The finding aid was revised in 2014.  </p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Photographs have been transferred to the Library's Prints and Photographs Division
+               where they are identified as part of these papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of James G. Harbord is governed
+               by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of James G. Harbord are open to research. Researchers are advised to
+               contact the Manuscript Reading Room prior to visiting. Many collections are stored
+               off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+               Container number, James G. Harbord Papers, Manuscript Division, Library of Congress,
+               Washington, D.C. </p>
+      </prefercite>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of James Guthrie Harbord (1866-1947) span the years 1886-1938, with the bulk
+            of the material concentrated in the period 1917-1919. The collection consists of
+            correspondence, personal diary, confidential cables, administrative memoranda of General
+            John J. Pershing, records of conversations, clippings, scrapbooks, operational maps,
+            barrage charts, sketches, a portrait, records of the United States Army 2nd Division, a
+            portrait, translations of war diaries of the German army, and other papers pertaining to
+            Harbord's career in the United States Army. Featured are Harbord’s service as Pershing's
+            chief of staff during World War I; as commander of a marine brigade during the battle of
+            Chateau-Thierry, France, in 1918; commander of the 2nd Division in the Soissons
+            offensive; and commander of the American Expeditionary Forces Service of Supply,
+            1918-1919. Also documented is Harbord’s service as chief of the American Military
+            Mission to Armenia in 1919 as well as his postings prior to World War I, especially as
+            assistant chief of the Philippine Constabulary. The papers are organized by topic or
+            type of material. </p>
+         <p>Subjects include political and administrative issues within the military, Newton Diehl
+            Baker's activities as secretary of war during World War I, and the relationship between
+            Harbord and Baker until the latter’s death in 1938. Secretary Baker’s two visits to
+            Europe, one during the war in 1918 and one in 1919 while the Peace Conference was in
+            session at Paris, are briefly described, with accounts by Harbord on his conversations
+            with the secretary. Contained in a volume of Harbord-Pershing correspondence are copies
+            of Pershing’s administrative memoranda as well as Harbord’s own letters and
+            communications. A volume of personal miscellany contains a note from J. C. Grew,
+            enclosing to Harbord a ticket of admission to the Salle des Glaces in the Palace at
+            Versailles, to witness the signing of the treaty of pace with Germany on June 28,
+            1919.</p>
+         <p> Correspondents in addition to Baker and Pershing include Harry Hill Bandholtz, Tasker
+            Howard Bliss, Jean Degoutte, Earl Douglas Haig, W. W. Harts, Herbert Hoover, Hugh S.
+            Johnson, Peyton Conway March, Frank Ross McCoy, Frank McIntyre, John McAuley Palmer,
+            Philippe Pétain, Theodore Roosevelt, William H. Taft, and Leonard Wood.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged alphabetically by type of material.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Private letters,
+                   <date>1886-1916</date> 
+                           </unittitle>
+               <unitdate>1886-1916</unitdate>
+            </did>
+            <scopecontent>
+               <p>Letters sent and received. Vol. 1 includes a typewritten diary of a trip by
+                  Harbord through parts of Russia and Europe, June 2, 1906- Sept. 8, 1906. The
+                  correspondence is arranged in chronologically. Included are letters from Leonard
+                  Wood, John J. Pershing, William H. Taft,and Frank McIntryre. The largest body of
+                  correspondence is with Harry Hill Bandholtz.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>Vol. 1, 1886-1906 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">Vol. 1, 1886-1906 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>Vol. 2, 1907-1908 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">Vol. 2, 1907-1908 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>Vol. 3, 1909-1910 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">Vol. 3, 1909-1910 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>Vol. 4, 1911-1912 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">Vol. 4, 1911-1912 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date> Vol. 5, 1913-1916 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f"> Vol. 5, 1913-1916 </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">Military records, <date>1889-1916</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1889-1916</unitdate>
+            </did>
+            <scopecontent>
+               <p>Scrapbook containing newspaper and magazine clippings, original letters,
+                  commissions, certificates, orders, etc. </p>
+            </scopecontent>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">World War I </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Promotions and decorations,  <date>1917-1919 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1917-1919 </unitdate>
+               </did>
+               <scopecontent>
+                  <p>Congratulatory letters and official notices on the promotions of Harbord.
+                     Arranged alphabetically.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Military activity </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">I, Official war activity </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">Introduction </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">Liberty Loan, <date> 1917 </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> 1917 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">Military unification, Allied Services of
+                        Supply,  <date>1918 </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">1918 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">2nd Division victory in Meaux District,
+                            <date>1918 </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">1918 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">Cháteau-Thierry, Bouresches, and Bois de
+                        Belleau,  <date>1918 </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">1918 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">Harbord’s appeal for decorations for
+                           soldiers, <date> 1918 </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> 1918 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">American Red Cross,  <date>1919 </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">1919 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">Services of Supply inspection tour,  <date>1919 </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">1919 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">Armenian Mission,  <date>1919 </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">1919 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">Retirement of Harbord,  <date>1922 </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">1922 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">II, Army correspondence, including letters,
+                     telegrams, orders, and memoranda,  <date>1917-1921
+                     </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1917-1921
+                     </unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">9</container>
+               <unittitle encodinganalog="245$a">Personal miscellany,  <date>1917-1919 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1917-1919 </unitdate>
+            </did>
+            <scopecontent>
+               <p>Scrapbook containing pictures, memoranda, menus, programs, invitations, etc. </p>
+            </scopecontent>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">10</container>
+               <unittitle encodinganalog="245$a">Personal war letters,  <date>1917-1919 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1917-1919 </unitdate>
+            </did>
+            <scopecontent>
+               <p>Preface, dated Dec. 1936, by Eleanor Kay Abrams. Included are letters or telegrams
+                  from Tasker Howard Bliss, John McAuley Palmer, John J. Pershing, and others. A
+                  typewritten copy of Newton Diehl Baker’s letter of Feb. 25, 1919 constitutes the
+                  introduction. Letters arranged alphabetically with index at the beginning.</p>
+            </scopecontent>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">11</container>
+               <unittitle encodinganalog="245$a">Pershing-Harbord letters,  <date>1917-1922 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1917-1922 </unitdate>
+            </did>
+            <scopecontent>
+               <p>Letters, telegrams, memoranda exchanged by John J. Pershing and Harboard.
+                  Harbord’s letters being for the most part in the form of carbon copies.</p>
+            </scopecontent>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">12</container>
+               <unittitle encodinganalog="245$a">Personal letters, Newton Diehl Baker,  <date>1918-1938 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1918-1938 </unitdate>
+            </did>
+            <scopecontent>
+               <p>Letters, telegrams, and related matter exchanged by Baker and Harbord. Harbord’s
+                  letters being for the most part in the form of typewritten copies signed. The last
+                  letter, Jan. 12, 1938, is from Mrs. Baker. </p>
+            </scopecontent>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">13</container>
+               <unittitle encodinganalog="245$a">American Expeditionary Forces </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Confidential  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Cables sent,  <date>July 2, 1917-Aug. 30, 1919 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">July 2, 1917-Aug. 30, 1919 </unitdate>
+                  </did>
+                  <scopecontent>
+                     <p>Six books of cables, bound as one volume. Largely from Pershing to adjutant
+                        general, War Department, or the adjutant general for the chief of staff,
+                        secretary of war, etc. (marked “3rd copy”)</p>
+                  </scopecontent>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Cables received,  <date>July 23, 1917-Aug. 30, 1919 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">July 23, 1917-Aug. 30, 1919 </unitdate>
+                  </did>
+                  <scopecontent>
+                     <p>Largely addressed to Pershing Amexforces (marked “3rd copy”) Five books of
+                        cables bound as one volume.</p>
+                  </scopecontent>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">2nd Division at Belleau Wood,  <date>1918, June </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1918, June </unitdate>
+               </did>
+               <scopecontent>
+                  <p>Carbon copies of orders sent by messenger, summaries of intelligence, resumes
+                     of activities, handwritten reports and memoranda, signed papers. Arranged in
+                     general chronological order with maps at the front of the volume. Includes General Order No. 1, June 6, 1919, mistakenly bound as part of this volume.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">16</container>
+               <unittitle encodinganalog="245$a">Records of the 2nd Division [Regular],  <date>1917-1918 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1917-1918 </unitdate>
+            </did>
+            <scopecontent>
+               <p>Operation maps, barrage charts and sketches. Index at front.</p>
+            </scopecontent>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">17</container>
+               <unittitle encodinganalog="245$a">Translations of war diaries of German units opposed
+                  to the 2nd Division [Regular],  <date>1918 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1918 </unitdate>
+            </did>
+            <scopecontent>
+               <p>Typewritten material. A foreword, June 20, 1930, bearing the heading “Second
+                  Division Historical Section, Army War College, Washington, D.C.,” signed by
+                  Captain C.O. Mattfeldt, explains the preparation and handling of the material in
+                  the volume. Includes a word of appreciation to the Deutsches Reicharchiv, Potsdam,
+                  Germany, for its courtesy in making available to the section the original war
+                  dairies of the German units that engaged the 2nd Division.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Vol. 1, Toulon-Troyon, Cháteau-Thierry
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Vol. 2, Cháteau-Thierry </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <unittitle encodinganalog="245$a">Vol. 3, Cháteau-Thierry </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Vol. 4, Cháteau-Thierry </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Vol. 5, Soissons </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">Vol. 6, Marbache, Saint-Mihiel </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <unittitle encodinganalog="245$a">Vol. 7, Blanc Mont [Part I] </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Vol. 8, Blanc Mont [Part II] </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">Vol. 9, Meuse-Argonne </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">26</container>
+               <unittitle encodinganalog="245$a">Records of the 2nd Division [Regular] </unittitle>
+            </did>
+            <scopecontent>
+               <p>Typewritten material “copied literally from original documents and most carefully
+                  compared,” according to a note at the front of vol. 1 by Brigadier General Preston
+                  Brown. This series was done under the direction of Captain C. O. Mattfeldt.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <unittitle encodinganalog="245$a">Vol. 1, 1918-1919, Field orders </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <unittitle encodinganalog="245$a">Vol. 2, 1919-1919, Field orders (3rd and 4th
+                     Brigades) </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">Vol. 3, Field orders (9th Infantry-23rd
+                     Infantry, 5th Marines-6th Marines and 2nd Engineers) </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Vol. 4, 1918 , Field messages (Headquarters 2nd
+                     Division, 2nd Field Artillery Brigade, 3rd Brigade Marines) </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">Vol. 5, 1918, 9th-23rd Infantry, 5th- 6th
+                     Marines, 12th-15th and 17th Field Artillery, 2nd Engineers, 4th-5th-6th Machine
+                     Gun Battalions </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">31</container>
+                  <unittitle encodinganalog="245$a">Vol. 6, 1918, Operation Reports War Diaries
+                     Journal of Operations, (2nd Division, 2nd Field Artillery Brigade, 2nd Trench
+                     Mortar Battery, 3rd Brigade, 4th Brigade)  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">Vol. 7, 1918, Operations reports, war diaries,
+                     petrol reports (9th-23rd Infantry, 5th-6th Marines, 2nd Engineers) </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">33</container>
+                  <unittitle encodinganalog="245$a">Vol. 8, 1918, Operation reports, war diaries
+                     (12th-15th and 17th Field Artillery, 4th, 5th, and 6th Machine Gun Battalions,
+                     1st Field Signal Battalion, 2nd Trains)  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">34</container>
+               <unittitle encodinganalog="245$a">Services of Supply </unittitle>
+            </did>
+            <scopecontent>
+               <p>Personal telegrams sent, 1918-1919. Carbon copies. Arranged chronologically.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">35</container>
+                  <unittitle encodinganalog="245$a">Memoranda, 1919. Carbon copies. Arranged
+                     chronologically </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">36</container>
+               <unittitle encodinganalog="245$a">Clippings, 1917-1920, 1931 </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">37</container>
+               <unittitle encodinganalog="245$a">Scrapbook, circa 1923-1929 </unittitle>
+            </did>
+            <scopecontent>
+               <p>Pictures, clippings, menus, articles, etc. Pocket of loose material at the back of
+                  the volume.</p>
+            </scopecontent>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">38</container>
+               <unittitle encodinganalog="245$a">Maps showing operations of American divisions on
+                  Western Front  </unittitle>
+            </did>
+            <scopecontent>
+               <p>Map room G-3, General Headquarters. Includes loose material consisting of maps,
+                  commissions, a portrait, a report, and a memorial of women of Armenia to Harbord,
+                  1919.</p>
+            </scopecontent>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

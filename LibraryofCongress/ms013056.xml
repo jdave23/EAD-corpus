@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms013056">loc.mss/eadmss.ms013056</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Ellery C. Stowell Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by David Mathisen</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+                           <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+               Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2013" encodinganalog="260$c" era="ce" calendar="gregorian">2013</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm81041681">https://lccn.loc.gov/mm81041681</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2013">2013</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Ellery C. Stowell Papers  <date altrender="Span Dates" localtype="inclusive" normal="1805/1952">1805-1952</date> 
+                        <date altrender="Bulk Dates" localtype="bulk" normal="1880/1952">(bulk 1880-1952)</date> 
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1805/1952"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1805-1952</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1880/1952"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1880-1952)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS41681</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Stowell, Ellery C. (Ellery Cory),
+               1875-1958</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">14,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">49 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">19.6 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in English
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852">
+                        <corpname>
+                           <part>
+                Manuscript Division,  Library of Congress</part>
+                        </corpname>
+                        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Author, jurist, and professor of
+            international law. Family correspondence, general correspondence, diaries, writings,
+            reports, sermons, notebooks, financial records, printed matter, scrapbooks, photographs,
+            and other papers relating primarily to Stowell's career in law, activities as a student,
+            and travels. Includes papers of the Stowell, Fuller, and Tapley families.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20201228222045.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Fuller family.</part>
+            </famname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Stovall family.</part>
+            </famname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Stowell, Ellery C. (Ellery Cory), 1875-1958.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Tapley family.</part>
+            </famname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>American University (Washington, D.C.)--Faculty.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>American University (Washington, D.C.). Hall of Nations.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Better Government League (Washington, D.C.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Columbia University--Faculty.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>George Washington University--Faculty.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Harvard University--Students.</part>
+            </corpname>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>International Naval Conference (1908-1909 : London, England)</part>
+            </corpname>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>International Peace Conference (2nd : 1907 : Hague, Netherlands)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Patriotic Service League (New York, N.Y.)</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Academic freedom.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Disarmament.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>International law--Study and teaching.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>International law.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Peace--Congresses.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Political participation--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Universities and colleges--France--Paris.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Universities and colleges--Germany--Berlin.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1914-1918.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>America--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Asia--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Europe--Description and travel.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Authors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Educators.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Jurists.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The papers of Ellery C. Stowell, author, jurist, and professor of international law,
+               were given to the Library of Congress by Stowell, 1943-1949, and by Hevlyn Dirck
+               Benson, 1943. Foundling material was added to the collection in 1976. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The Stowell Papers were processed in 1950 and expanded in 1983. The finding aid was
+               revised in 2012. </p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Five photographs have been transferred to the Prints and Photographs Division where
+               they are identified as part of the these papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Ellery C. Stowell is governed
+               by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Ellery C. Stowell are open to research. Researchers are advised to
+               contact the Manuscript Reading Room prior to visiting. Many collections are stored
+               off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+               Container number, Ellery C. Stowell Papers, Manuscript Division, Library of Congress,
+               Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1875, Dec. 12 </datesingle>
+               <event>Born, Lynn, Mass. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1898</datesingle>
+               <event>A.B. Harvard University, Cambridge, Md. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1901</fromdate>
+                              <todate>1902</todate>
+                           </daterange>
+               <event>Traveled in Asia and Europe</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1902</fromdate>
+                              <todate>1903</todate>
+                           </daterange>
+               <event>Traveled in Russia </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1903</fromdate>
+                              <todate>1904</todate>
+                           </daterange>
+               <event>Attended University of Berlin, Berlin, Germany </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1904</fromdate>
+                              <todate>1907</todate>
+                           </daterange>
+               <event>Attended University of Paris, Paris, France</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1906</datesingle>
+               <event>Earned French law degree </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1906</datesingle>
+               <event>Graduate, Diplomatic Section, Ecole libre des sciences politiques, Paris,
+                  France</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1907</datesingle>
+               <event>Secretary adjoint, Second International Peace Conference, Hague, Netherlands,
+                  and also secretary of the Panama delegation </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1908</fromdate>
+                              <todate>1909</todate>
+                           </daterange>
+               <event>Secretary, American delegation, International Naval Conference, London,
+                  England </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1908</fromdate>
+                              <todate>1910</todate>
+                           </daterange>
+               <event>Instructor in international law, George Washington University, Washington,
+                  D.C.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1909</datesingle>
+               <event>Became doctor of laws </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1910</fromdate>
+                              <todate>1913</todate>
+                           </daterange>
+               <event>Assistant professor in international law, University of Pennsylvania,
+                  Philadelphia, Pa.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1912</datesingle>
+               <event>Married Cecile M. Roberts</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1913</fromdate>
+                              <todate>1914</todate>
+                           </daterange>
+               <event>Lecturer in international law, Columbia University, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1914</fromdate>
+                              <todate>1916</todate>
+                           </daterange>
+               <event>Associate professor in international Law, Columbia University, New York, N.Y.
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1922</datesingle>
+               <event>Professor in international law, American University, Washington, D.C. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1935</datesingle>
+               <event>President, Better Government League, Washington, D.C. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1935</fromdate>
+                              <todate>1944</todate>
+                           </daterange>
+               <event>Chairman, Department of International Affairs </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1942</fromdate>
+                              <todate>1943</todate>
+                           </daterange>
+               <event>Exchange professor, University of Washington, Seattle, Wash.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1958, Jan.</datesingle>
+               <event>Died, San Francisco, Calif.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Ellery C. Stowell (1875-1958) span the years 1805-1952, with the bulk of
+            the material concentrated in the period 1880-1952. The collection includes his own
+            papers as well as other members of the Stowell, Fuller, and Tapley families. It consists
+            of family correspondence, general correspondence, reports, writings, sermons, diaries,
+            notebooks, certificates, photographs, financial records, printed matter, scrapbooks, and
+            miscellaneous material. The papers are organized into five series: <ref show="replace" actuate="onrequest" target="FamCorr">
+                Family Correspondence 
+            </ref>, 
+            <ref target="GenCorr">
+                General Correspondence 
+            </ref>, <ref target="Subj">
+                Subject File 
+            </ref>, 
+            <ref target="Misc">
+                Miscellany 
+            </ref>, and <ref target="Over">
+                Oversize 
+            </ref>.
+         </p>
+         <p>Topics relate to Stowell's activities as a student at Harvard University and the
+            universities of Paris and Berlin; his extensive travels in Europe, Asia, and America;
+            and his work as a professor of international law at George Washington University,
+            Columbia University, American University, and other institutions, particularly with
+            respect to academic freedom at Columbia and the administration of the graduate school of
+            American University in connection with the program of the Hall of Nations. Other
+            subjects concern his efforts as president of the Better Government League and work with
+            the Patriotic Service League and other civic organizations. Additional material relates
+            to his activities as secretary adjoint of the International Peace Conference at the
+            Hague in 1907, secretary of the Panama delegation to the same conference, and secretary
+            of the American delegation to the International Naval Conference in London of 1908-1909.
+            The collection also contains his writings on World War I and World II and their
+            aftermath.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in five series:</p>
+         <list>
+            <item>
+                           <ref target="FamCorr">
+                   Family Correspondence, 1805-1952 
+               </ref>
+                        </item>
+            <item>
+                           <ref target="GenCorr">
+                   General Correspondence, 1872-1949 
+               </ref>
+                        </item>
+            <item>
+                           <ref target="Subj">
+                   Subject File 
+               </ref>
+                        </item>
+            <item>
+                           <ref target="Misc">
+                   Miscellany 
+               </ref>
+                        </item>
+            <item>
+                           <ref target="Over">
+                   Oversize 
+               </ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-12</container>
+               <unittitle encodinganalog="245$a" id="FamCorr">Family Correspondence,  <date normal="1805/1952">1805-1952
+                  </date> 
+                           </unittitle>
+               <unitdate normal="1805/1952">1805-1952
+                  </unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent and received. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by accession and mostly in chronological order therein.  </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Accession 7,316  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1805-1883 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1805-1883 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1884-1917 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1884-1917 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1918-1930 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1918-1930 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1931-1935 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1931-1935 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1936-1940, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1936-1940, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Fuller family genealogy  </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Letters collected by A. T. Stowell,  <date>1884-1905 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1884-1905 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous notes of Mrs. George L. Stowell
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Accession 7,323 </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1871-1923 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1871-1923 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1920-1932 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1920-1932 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1938-1943 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1938-1943 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Accession 7,532  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1875-1906 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1875-1906 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1907-1914 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1907-1914 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Accession 7,533  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1846-1925 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1846-1925 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Various accessions </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">13-25</container>
+               <unittitle encodinganalog="245$a" id="GenCorr">General
+                  Correspondence, 
+                   <date normal="1872/1949">1872-1949</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1872/1949">1872-1949</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent received.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by accession and therein chronologically. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Accession 7,316 </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1882-1913 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1882-1913 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1914-1918 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1914-1918 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1919-1926 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1919-1926 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1927-1931 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1927-1931 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1932-1944 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1932-1944 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Accession 7,323 </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1914-1928 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1914-1928 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1926-1937 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1926-1937 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Accession 7,533  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1926-1943 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1926-1943 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Accession 8,184  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1872-1912 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1872-1912 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1913-1945 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1913-1945 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <unittitle encodinganalog="245$a">Accession 9,317  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1902-1909 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1902-1909 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1910-1917 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1910-1917 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1918-1949, undated </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1918-1949, undated </unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">36-31</container>
+               <unittitle encodinganalog="245$a" id="Subj">Subject
+                  File
+               </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, writings, poems, sermons, notes, reports, printed matter, and
+                  other material.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by name of organization, subject, or type of material. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <unittitle encodinganalog="245$a">Armed merchantmen, correspondence and notes,  <date>1919 </date>  
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1919 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <unittitle encodinganalog="245$a">Better Government League, correspondence,
+                         <date>1818-1828 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1818-1828 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">Patriotic Service League, correspondence,
+                         <date>1917-1918, 1943   </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1917-1918, 1943   </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Mach, Edmund von, "Official Diplomatic Documents
+                     Relating to the Outbreak of the War," correspondence and notes by Stowell
+                     reading the book,   <date>1911-1940 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1911-1940 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">American University Graduate School, Washington,
+                     D.C.  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Panama,  <date>1911-1913 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1911-1913 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Academic Freedom, Columbia University, New York,
+                     N.Y. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Notes and speeches  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">Hague Conference  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">International Law  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">Reorganization of the State Department
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">31</container>
+                  <unittitle encodinganalog="245$a">Sermons of George L. Stowell  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">31</container>
+                  <unittitle encodinganalog="245$a">Poems copied by George L. Stowell </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">32-49</container>
+               <unittitle encodinganalog="245$a" id="Misc">Miscellany
+                   </unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Cards, indexes, circulars, notebooks, diaries and cash books of family members,
+                  clippings, books, printed matter, scrapbooks, photographs, certificates, and
+                  miscellaneous documents and items.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of material. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">Notebooks of Addie T. Fuller (Mrs. George L.
+                     Stowell)  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">Cards and badges </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">Certificates and photographs  
+                        <ref target="OV32">
+                                    <emph render="italic">See Oversize</emph> 
+                                 </ref>
+                      
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">Circulars  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">33</container>
+                  <unittitle encodinganalog="245$a">Notebooks, diaries and scrapbooks of George L.
+                     Stowell </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">34</container>
+                  <unittitle encodinganalog="245$a">Newspaper articles </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">34</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous notes </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">34</container>
+                  <unittitle encodinganalog="245$a">Clippings   </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">35</container>
+                  <unittitle encodinganalog="245$a">Intervention in international law, books with
+                     two letters inserted  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">35</container>
+                  <unittitle encodinganalog="245$a">Lecture notebook on international law, in German
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">35</container>
+                  <unittitle encodinganalog="245$a">Cash books   </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">36</container>
+                  <unittitle encodinganalog="245$a"> Clippings </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">37</container>
+                  <unittitle encodinganalog="245$a">Clippings  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">38</container>
+                  <unittitle encodinganalog="245$a">Card index  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">39</container>
+                  <unittitle encodinganalog="245$a">Cash book of George L. Stowell,  <date>1890-1898 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1890-1898 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40-49</container>
+                  <unittitle encodinganalog="245$a">Scrapbooks containing letters, autographs,
+                     telegrams, other documents, printed matter, and clippings  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a" id="Over">Oversize</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Certificates and photographs.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Described according to the series and container from which the items were
+                  removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Miscellany  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="OV32">
+                       Certificates and photographs (Container 32)
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

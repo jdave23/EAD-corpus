@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010265">loc.mss/eadmss.ms010265</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Joshua Lawrence Chamberlain Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Manuscript Division Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78015503">https://lccn.loc.gov/mm78015503</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2010">2010</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Glenn R. Gardner</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Joshua Lawrence
+		  Chamberlain Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1775/1913">1775-1913</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1828/1913">(bulk 1828-1913)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1775/1913"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1775-1913</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1828/1913"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1828-1913)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS15503</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Chamberlain, Joshua
+			 Lawrence, 1828-1914.</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">1,000
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">11 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">4.4 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+		       </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Union Army officer,
+		  educator, and governor of Maine. Correspondence, biographical notes, record
+		  books, military reports, speeches, accounts of engagements of the Army of the
+		  Potomac, and other material mostly concerning the Civil War.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20161007073432.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Brown, John Marshall, 1838-1907--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Burrage, Henry S. (Henry Sweetser), 1837-1926--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Chamberlain, Joshua Lawrence, 1828-1914.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Connor, Selden, 1839- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hamlin, Charles, 1837-1911--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Howard, O. O. (Oliver Otis), 1830-1909--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>McClellan, Carswell, 1835-1892--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sargent, Horace Binney, 1821-1908--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Seward, William H. (William Henry), 1801-1872--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Warren, G. K. (Gouverneur Kemble), 1830-1882--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Woodman, Cyrus, 1814-1889--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army of the Potomac.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Corps, 5th (1862-1865)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Maine Infantry Regiment, 20th (1862-1865). Company G.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Gettysburg, Battle of, Gettysburg, Pa., 1863.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Maine--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Maine--Militia.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Pennsylvania--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865--Campaigns.</part>
+            </genreform>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Army officers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Educators.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Governors--Maine.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Joshua Lawrence Chamberlain, Union Army officer,
+		  educator, and governor of Maine, were given to the Library of Congress by
+		  Rosamond Allen and Eleanor W. Allen, 1938-1956.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The Chamberlain Papers were processed prior to 1950 and revised and
+		  expanded, 1968-1973. The finding aid was revised in 2010.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Other Repositories</head>
+         <p>A collection of Alice Rains Trulock's research materials for her book,
+		  
+		<title localtype="simple">
+                           <part>In the Hands of Providence: Joshua L. Chamberlain and the American
+		  Civil War</part>
+                        </title> (Chapel Hill: University of North Carolina Press, 1992), is
+		located at the Pejepscot Historical Society, Brunswick, Maine. These research
+		materials include photocopies of documents from several repositories, including
+		the Manuscript Division.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Joshua Lawrence
+		  Chamberlain is governed by the Copyright Law of the United States (Title 17,
+		  U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Joshua Lawrence Chamberlain are open to research.
+		  Researchers are advised to contact the Manuscript Reading Room prior to
+		  visiting. Many collections are stored off-site and advance notice is needed to
+		  retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Joshua Lawrence Chamberlain Papers,
+		  Manuscript Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1828, Sept. 8</datesingle>
+               <event>Born, Brewer, Maine</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1852</datesingle>
+               <event>Graduated, Bowdoin College, Brunswick, Maine</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1852</fromdate>
+                              <todate>1855</todate>
+                           </daterange>
+               <event>Student, Bangor Theological Seminary, Bangor, Maine</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1855</datesingle>
+               <event>Married Fannie Adams </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1855</fromdate>
+                              <todate>1862</todate>
+                           </daterange>
+               <event>Taught, Bowdoin College, Brunswick, Maine</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1862</datesingle>
+               <event>Appointed lieutenant colonel, 20th Maine Regiment</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1863</datesingle>
+               <chronitemset>
+                              <event>Appointed colonel, 20th Maine Regiment</event>
+                              <event>Fought at Battle of Gettysburg and awarded Congressional
+				  Medal of Honor for his defense of Little Round Top</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1864</datesingle>
+               <event>Promoted by Ulysses S. Grant to brigadier general of
+				volunteers</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1867</fromdate>
+                              <todate>1871</todate>
+                           </daterange>
+               <event>Governor of Maine</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1871</fromdate>
+                              <todate>1883</todate>
+                           </daterange>
+               <event>President, Bowdoin College, Brunswick, Maine</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1893</datesingle>
+               <event>Awarded Medal of Honor for actions at Battle of
+				Gettysburg</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1914, Feb. 24</datesingle>
+               <event>Died, Portland, Maine</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Joshua Lawrence Chamberlain (1828-1914) span the years
+		  1775-1913, with the bulk from 1828 to 1913. The collection consists of
+		  correspondence, biographical notes, record books, military reports, speeches,
+		  accounts of engagements of the Army of the Potomac, and other material mostly
+		  concerning the Civil War. Included are reports of Company G, 20th Maine
+		  Volunteers, and Chamberlain's account of the battle of Gettysburg. There are
+		  letters relating to the state militia in Maine, military reunions, and data for
+		  a history of the 5th United States Army Corps in which Chamberlain served as a
+		  colonel of the 20th Maine Regiment.</p>
+         <p>Prominent correspondents include John Marshall Brown, Henry S.
+		  Burrage, Selden Connor, Charles Hamlin, O. O. Howard, Carswell McClellan,
+		  Horace Binney Sargent, William Henry Seward, Gouverneur Kemble Warren, and
+		  Cyrus Woodman.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>The collection is organized by type of material and includes an
+		  addition.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">General correspondence </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a"> 
+				                             <date>5
+					 Feb. 1848-2 Feb. 1873</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">5
+					 Feb. 1848-2 Feb. 1873</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a"> 
+				                             <date>15
+					 Apr. 1873-2 July 1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">15
+					 Apr. 1873-2 July 1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a"> 
+				                             <date>6
+					 July 1882-6 May 1913, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">6
+					 July 1882-6 May 1913, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Miscellany </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Sermon in Philadelphia, Pa., 
+				   <date>1775</date>  
+                              </unittitle>
+                  <unitdate era="ce" calendar="gregorian">1775</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Prewar and Bowdoin College,
+				  Brunswick, Maine, papers </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Celebrations 
+				   <date>Society of the Potomac, 20th Maine Regiment
+					 Association</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Society of the Potomac, 20th Maine Regiment
+					 Association</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Batchelder correspondence
+				  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Papers as governor of Maine
+				  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Transition papers, 
+				   <date>Jan. 1880</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Jan. 1880</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Political pieces </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Letters to his wife </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Letter to his mother </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Grant, Ulysses S., and J. E. Rice
+				  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Reminiscences to Chamberlain
+				  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Army and Navy Escutcheon Co. (F.
+				  H. Dyer) </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous postwar
+				  correspondence </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous war correspondence
+				  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Civil War correspondence,
+				  original military orders, and mustering out papers </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Battles, engagements, and
+				  skirmishes, regimental records </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Regimental records </unittitle>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Regimental records by state
+				  </unittitle>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Regimental records, personnel
+				  statistics, and officers? obituary announcements </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Officers' obituary announcements
+				  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">List of officers </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Personnel statistics </unittitle>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Photographs </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Maps </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Regimental index </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Reports of operations
+				  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Dispatches </unittitle>
+                  <physdesc encodinganalog="300$a">(3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Centennial celebration scrapbook
+				  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Quartermaster's log and
+				  Chamberlain's scrapbook of press clippings, 
+				   <date>1890s</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1890s</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Press clippings </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>Largely 1870s and 1880s</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Largely 1870s and 1880s</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>Largely 1910s</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Largely 1910s</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Printed materials by Chamberlain
+				  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Unbound printed matter, largely
+				  annotated </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Printed matter concerning
+				  Chamberlain </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">11</container>
+               <unittitle encodinganalog="245$a">Addition </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">General correspondence, 
+				   <date>1860-1901</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1860-1901</unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Writings </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">George W. Addams, Paul Parley's
+					 Trip to France </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Horace B. Chamberlain, poem
+					 </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Tracings, sketches, and printed
+				  matter </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Correspondence, 
+				   <date>1858-1889</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1858-1889</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Correspondence and returns
+				  relating to Company G, 20th Maine </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

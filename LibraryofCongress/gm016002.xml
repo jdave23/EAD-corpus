@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.gmd/eadgmd.gm016002">loc.gmd/eadgmd.gm016002</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Neil Sheehan map collection.</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by Ryan Moore</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+					          <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Geography &amp; Map
+					Division<lb/> Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="2016" era="ce" calendar="gregorian">2016</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.gmd/gmd.contact">http://hdl.loc.gov/loc.gmd/gmd.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/2004631351">https://lccn.loc.gov/2004631351</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-06">2020-06</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Rachel Trent</agent>
+            <eventdescription>Removed brackets from title, various fields.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime>2016</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by the Library of Congress Geography &amp; Map Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Neil Sheehan map collection.<date altrender="Span Dates" localtype="inclusive" normal="1964/1987">1964-1987</date> 
+			      </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1964/1987"
+                   encodinganalog="245$f"
+                   datechar="creation">1964-1987</unitdate>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">G8020 coll .S4 Sheehan</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Sheehan, Neil</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">73 maps </physdesc>
+         <physdesc label="Extent" encodinganalog="300">6 folders</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <language encodinganalog="041" langcode="vie"> Vietnamese</language>
+            <language encodinganalog="041" langcode="rus">
+					Russian </language>
+            <descriptivenote>
+               <p>Collection material in English,  Vietnamese, and 
+					Russian 
+			      </p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+				        <corpname>
+               <part>
+                Geography &amp; Map Division,  Library of
+					Congress</part>
+            </corpname>
+				        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a"> The collection consists of 72 maps,
+				and the most unique among them is an annotated map of the Battle of Tan Canh that
+				occurred during the U.S. drawdown from the war in 1972. The other items include a
+				disbound atlas of South Vietnam; various maps of North and South Vietnam; and U.S.
+				military maps of South Vietnam and Cambodia. The materials appear to have been used
+				by Sheehan in preparation of his 1988 book, A Bright Shining Lie: John Paul Vann and
+				America in Vietnam. </abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20200527160401.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Sheehan, Neil.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Vann, John Paul.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="710" source="lcnaf">
+               <part>United States. Army Map Service.</part>
+            </corpname>
+            <corpname encodinganalog="710" source="lcnaf">
+               <part>United States. Army. Engineer Battalion, 29th.</part>
+            </corpname>
+            <corpname encodinganalog="710" source="lcnaf">
+               <part>United States. Central Intelligence Agency.</part>
+            </corpname>
+            <corpname encodinganalog="710" source="lcnaf">
+               <part>United States. Defense Mapping Agency.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Roads--Vietnam--Maps.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Cambodia--Maps.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Indochina--Maps.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Kon Tum (Vietnam)--Maps.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Laos--Maps.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Thailand--Maps.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Vietnam, Southern--Maps.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Vietnam--Administrative and political divisions--Maps.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Vietnam--Maps.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="246" source="lcnaf">
+               <part>Former title of the collection: Neil Sheehan papers</part>
+            </title>
+            <title encodinganalog="246" source="lcnaf">
+               <part>Former title of the collection: Vann-Sheehan Vietnam War collection</part>
+            </title>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> This material with accession number 20,919 was transferred to the Geography and
+					Map Division from the Manuscript Division in 1994. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p> The collection was arranged and described by Ryan Moore in 2016. </p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p> The status of copyright of Neil Sheehan map collection is governed by the
+					Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p> The Neil Sheehan map collection is open to research. Researchers are advised
+					to contact the Geography &amp; Map Reading Room prior to visiting. Many
+					collections are stored off-site and advance notice is needed to retrieve these
+					items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p> Researchers wishing to cite this collection should include the following
+					information: Container number, Neil Sheehan map collection, Geography &amp;
+					Map Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <p> Cornelius Mahoney “Neil” Sheehan (1936- ) is a journalist best known for his
+					reporting on the Pentagon Papers, a secret Department of Defense study of the
+					U.S. involvement in Vietnam. Sheehan, when working as a reporter for The New
+					York Times in 1971, obtained the classified documents from Daniel Ellsberg, a
+					military analyst employed by the RAND Corporation. The papers revealed that the
+					U.S. had secretly enlarged the scale of the Vietnam War with the bombings of
+					nearby Cambodia and Laos, and coastal raids on North Vietnam, none of which were
+					reported in the mainstream media. The government attempted to prosecute Ellsberg
+					but the charges were later dropped. In 2011, the Pentagon Papers were
+					declassified and publicly released. </p>
+         <p> Sheehan published other articles and books on the Vietnam War, including the
+					1988 book, A Bright Shining Lie: John Paul Vann and America in Vietnam. It won
+					the Pulitzer Prize for General Nonfiction and the National Book Award for
+					Nonfiction.</p>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1936</datesingle>
+               <event>Born in Holyhoke, Mass. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1958</datesingle>
+               <event>B.A., Harvard University. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1961</fromdate>
+                  <todate>1962</todate>
+               </daterange>
+               <event>Night editor, Asian bureau, United Press International, Tokyo, Japan. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1962</fromdate>
+                  <todate>1964</todate>
+               </daterange>
+               <event>Saigon bureau chief, United Press International, Saigon, South Vietnam. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1964</fromdate>
+                  <todate>1965</todate>
+               </daterange>
+               <event>Metropolitan desk and general assignment reporter, New York Times. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1965</datesingle>
+               <event>Indonesia correspondent, New York Times, Djakarta, Indonesia. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1965</fromdate>
+                  <todate>1966</todate>
+               </daterange>
+               <event>Vietnam correspondent, New York Times , Saigon, South Vietnam. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1966</fromdate>
+                  <todate>1968</todate>
+               </daterange>
+               <event>Defense Department correspondent, New York Times , Washington, D.C.,
+						bureau. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1968</datesingle>
+               <event>White House correspondent, New York Times , Washington, D.C., bureau. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1969</datesingle>
+               <event>National security affairs correspondent, New York Times , Washington,
+						D.C., bureau. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1971</datesingle>
+               <event> Bantam Books published Sheehan's investigative work the Pentagon Papers;
+						it was reissued as The Pentagon Papers as Published in the New York Times
+						(New York: Quadrangle Books. 810 pp.). </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1972</datesingle>
+               <event>Published The Arnheiter Affair (New York: Random House). Began leave of
+						absence from the New York Times to write a biography of John Paul
+						Vann.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1975</datesingle>
+               <event>Resigned from the New York Times.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1988</datesingle>
+               <event>Published A Bright Shining Lie: John Paul Vann and America in Vietnam
+						(New York: Random House) Received National Book Award.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1989</datesingle>
+               <event>Awarded Pulitzer Prize. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1992</datesingle>
+               <event> Published After the War Was Over: Hanoi and Saigon (New York: Random
+						House).</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Collection</head>
+         <p>The collection is organized in five series</p>
+         <list listtype="unordered" mark="circle">
+            <item>
+						                        <ref show="replace" actuate="onrequest" target="ser1">
+                      Series I 
+                  </ref> Annotated battle maps </item>
+            <item>
+						                        <ref show="replace" actuate="onrequest" target="ser2">
+                      Series II 
+                  </ref> Annotated map of Pleiku, South Vietnam </item>
+            <item>
+						                        <ref show="replace" actuate="onrequest" target="ser3">
+                      Series III 
+                  </ref> Sheets from Atlas of Southeast Asia </item>
+            <item>
+						                        <ref show="replace" actuate="onrequest" target="ser4">
+                      Series IV 
+                  </ref> Maps of North and South Vietnam </item>
+            <item>
+						                        <ref show="replace" actuate="onrequest" target="ser5">
+                      Series V 
+                  </ref> U.S. military maps of South Vietnam and
+						Cambodia </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="folder">1-2</container>
+               <unittitle id="ser1" encodinganalog="245$a"> Annotated maps </unittitle>
+            </did>
+            <scopecontent>
+               <p>Two battle maps annotated in grease pencil.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="folder">1</container>
+                  <unittitle encodinganalog="245$a"> Battle of Kontum  <date normal="1972">
+								1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972">
+								1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:12,500 </materialspec>
+               </did>
+               <odd>
+                  <p> Kontum base map </p>
+                  <p> Loai 909 Series</p>
+                  <p> Annotated with grease pencil </p>
+                  <p> The map was prepared for Neil Sheehan at the 23rd Division near
+								Pleiku in 1972.</p>
+                  <p>Drawn by Col. R.M. Rhotenberry, a senior advisor to ARVN 23rd
+								Division. Red lines represent North Vietnamese Army and black lines
+								ARVN.</p>
+                  <p> Portion of text that accompanies map: "Sketch shows how close NVA
+								attacking from above and below the town came to linking up and then
+								being to wheel and overrun Division C.P."</p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="folder">2</container>
+                  <unittitle encodinganalog="245$a"> Battle of Tan Canh  <date normal="1972">
+								1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972">
+								1972 </unitdate>
+               </did>
+               <odd>
+                  <p> Annotated with grease pencil </p>
+                  <p> Military grid</p>
+                  <p> Portion of text that accompanies map: "Tan Canh, Battle of 1972.
+								U.S. Army map give to me by Col. Phillip Kaplan, senior advisor to
+								ARVN 22nd, showing ARVN and NVA dispositions and other events during
+								the final phase of battle. Drawn while I interviewed him in Binh
+								Dinh Province, where reorganized 22nd then stationed later in 1972.
+								Interview was at Firebase Crystal." </p>
+               </odd>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="folder">3</container>
+               <unittitle id="ser2" encodinganalog="245$a"> Annotated map of Pleiku, South Vietnam
+					</unittitle>
+            </did>
+            <scopecontent>
+               <p> One annotated map.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Pleiku Area </unittitle>
+               </did>
+               <odd>
+                  <p> Sparse annotations</p>
+                  <p> Military grid </p>
+               </odd>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="folder">4</container>
+               <unittitle id="ser3" encodinganalog="245$a"> Sheets from Atlas of Southeast Asia
+					</unittitle>
+            </did>
+            <scopecontent>
+               <p>Consists of 24 maps and administrative atlas of South Vietnam from 1972 to
+						1987. </p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> North Vietnam </unittitle>
+                  <materialspec localtype="scale" encodinganalog="255"> scale 1:1,750,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Political map </p>
+                  <p> atlas </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Indochina Ethnolinguistic Groups </unittitle>
+                  <didnote encodinganalog="500"> atlas </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Indochina Industry, Mining, and Electric
+							Power </unittitle>
+                  <didnote encodinganalog="500"> atlas </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Cambodia </unittitle>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:1,740,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Political map </p>
+                  <p> atlas </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Indochina Population </unittitle>
+                  <didnote encodinganalog="500"> atlas </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Indochina Vegetation </unittitle>
+                  <didnote encodinganalog="500"> atlas </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Indochina Agriculture </unittitle>
+                  <didnote encodinganalog="500"> atlas </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Indochina Airfields </unittitle>
+                  <didnote encodinganalog="500"> atlas </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Cambodia </unittitle>
+               </did>
+               <odd>
+                  <p> Political map </p>
+                  <p> atlas </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Cambodia Rice-Growing Areas and
+							Population </unittitle>
+                  <didnote encodinganalog="500"> atlas </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> South Vietnam Communist Administrative
+							Divisions and Military Regions April  <date normal="1973"> 1973 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1973"> 1973 </unitdate>
+                  <didnote encodinganalog="500"> atlas </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Laos </unittitle>
+                  <didnote encodinganalog="500"> atlas </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Laos </unittitle>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:1,750,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Political map </p>
+                  <p> atlas </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Laos </unittitle>
+               </did>
+               <odd>
+                  <p> Includes Ethnic Groups </p>
+                  <p> atlas </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Thailand </unittitle>
+               </did>
+               <odd>
+                  <p> Central Intelligence Agency </p>
+                  <p> Economic, Vegetation, Ethnic Groups, Administrative and Population
+							</p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> South Vietnam Population and
+							Administrative Divisions September  <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Azimuthal Equidistant Projection Centered
+							on Saigon </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Ho Chi Minh City  <date normal="1982">
+								1982 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1982">
+								1982 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:20,000 </materialspec>
+                  <didnote encodinganalog="500"> Vietnamese, Russian, English </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Hanoi  <date normal="1983"> 1983 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1983"> 1983 </unitdate>
+                  <didnote encodinganalog="500"> Vietnamese, Russian, English </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Hang Khon Vietnam </unittitle>
+                  <didnote encodinganalog="500"> Airline Map that includes maps of Hanoi and Ho Chi Minh City </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Ho Chi Minh </unittitle>
+                  <didnote encodinganalog="500"> Vietnamese </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Hanoi  <date normal="1987"> 1987 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1987"> 1987 </unitdate>
+                  <didnote encodinganalog="500"> Vietnamese </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> South Vietnam North Sheet Major Road
+							Network  <date normal="1973"> 1973 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1973"> 1973 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> South Vietnam South Sheet Major Road
+							Network  <date normal="1973"> 1973 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1973"> 1973 </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="folder">5</container>
+               <unittitle id="ser4" encodinganalog="245$a"> Maps of North and South Vietnam </unittitle>
+            </did>
+            <scopecontent>
+               <p>Includes 14 maps of North and South Vietnam, including maps of Hanoi and
+						Saigon published between 1964 and 1971. </p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> South Vietnam Provincial Administrative
+							Maps October 1969  <date normal="1969"> 1969 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1969"> 1969 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> South Vietnam </unittitle>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:1,760,000 </materialspec>
+                  <didnote encodinganalog="500"> Central Intelligence Agency </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Vietnam Demarcation Line and
+							Demiliterized Zone </unittitle>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:75,000 </materialspec>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Indochina Area </unittitle>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:1,000,000 </materialspec>
+                  <didnote encodinganalog="500"> International boundaries </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Indochina Communist Logistics System "
+								 <date normal="1973"> 1973 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1973"> 1973 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:2,500,000 </materialspec>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Indochina with Universal Transverse
+							Mercator Grid  <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:1,750,000 </materialspec>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Indochina Bathymetry and Areas Subject to
+							Flooding  <date normal="1970"> 1970 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1970"> 1970 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:3,500,000 </materialspec>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Saigon and Vicinity  <date normal="1964">
+								1964 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1964">
+								1964 </unitdate>
+                  <didnote encodinganalog="500"> Downtown and street map </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Indochina Surface Configuration  <date normal="1970">
+								1970 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1970">
+								1970 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:3,500,000 </materialspec>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Indochina Administrative Divisions
+								 <date normal="1970"> 1970 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1970"> 1970 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:3,500,000 </materialspec>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Indochina Precipitation and Monsson
+							Airflow  <date normal="1970"> 1970 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1970"> 1970 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:3,500,000 </materialspec>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Hanoi Street Addresses  <date normal="1971">
+								1971 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1971">
+								1971 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:6,090 </materialspec>
+                  <didnote encodinganalog="500"> Preliminary edition </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> North Vietnam  <date normal="1971">
+								1971 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1971">
+								1971 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:1,750,000 </materialspec>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> North Vietnam  <date normal="1965">
+								1965 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1965">
+								1965 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:1,136,000 </materialspec>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="folder">6</container>
+               <unittitle id="ser5" encodinganalog="245$a"> U.S. military maps of South Vietnam and
+						Cambodia </unittitle>
+            </did>
+            <scopecontent>
+               <p> Consists of 33 maps of Laos, Cambodia, Thailand, South Vietnam, and
+						Indochina as a whole from 1965 to 1972 published by U.S. Army Map service,
+						U.S. Army, 29th Engineer Battalion, Central Intelligence Agency, and Defense
+						Mapping Agency. </p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Saigon, Vietnam; Cambodia </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,001 </materialspec>
+               </did>
+               <odd>
+                  <p> Long Xuyen, Vietnam; Cambodia </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1967"> 1967 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1967"> 1967 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,002 </materialspec>
+               </did>
+               <odd>
+                  <p> Prey Veng, Cambodia </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,003 </materialspec>
+               </did>
+               <odd>
+                  <p> Quan Long, Vietnam </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,004 </materialspec>
+               </did>
+               <odd>
+                  <p> Phan-Thiet, Vietnam </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Sa Dec  <date normal="1965"> 1965 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1965"> 1965 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Vung Liem  <date normal="1965">
+								1965 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1965">
+								1965 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Truc Giang  <date normal="1965">
+								1965 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1965">
+								1965 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Duc Hue  <date normal="1965"> 1965 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1965"> 1965 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Tuyen Nhon  <date normal="1965">
+								1965 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1965">
+								1965 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Tan An  <date normal="1970"> 1970 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1970"> 1970 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Duch Hoa  <date normal="1969"> 1969 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1969"> 1969 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Vinh Thanh  <date normal="1965">
+								1965 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1965">
+								1965 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Phong My  <date normal="1965"> 1965 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1965"> 1965 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> My An  <date normal="1965"> 1965 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1965"> 1965 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Moc Hoa  <date normal="1970"> 1970 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1970"> 1970 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> My Tho  <date normal="1970"> 1970 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1970"> 1970 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Cao Lanh  <date normal="1965"> 1965 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1965"> 1965 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Phong Phu  <date normal="1969">
+								1969 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1969">
+								1969 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Can Tho  <date normal="1969"> 1969 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1969"> 1969 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Khiem Ich  <date normal="1969">
+								1969 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1969">
+								1969 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:50,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Vietnam </p>
+                  <p> Army Corps of Engineers </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,000 </materialspec>
+               </did>
+               <odd>
+                  <p> An Loc Vietnam; Cambodia </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Khanh Hung, Vietnam </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Da Nang (Tourane), Vietnam </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Kontum, Vietnam </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Qui Nhon, Vietnam </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Nha Trang, Vietnam </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Hue, Vietnam </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Da Lat, Vietnam </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Nam Can, Vietnam </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1972"> 1972 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1972"> 1972 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Chaven, Cambodia </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1973"> 1973 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1973"> 1973 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Virachey, Cambodia; Vietnam </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> Joint Operations Graphic (Ground)
+								 <date normal="1973"> 1973 </date> 
+						            </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1973"> 1973 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:250,000 </materialspec>
+               </did>
+               <odd>
+                  <p> O Rang, Cambodia; Vietnam </p>
+                  <p> Department of Defense </p>
+               </odd>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

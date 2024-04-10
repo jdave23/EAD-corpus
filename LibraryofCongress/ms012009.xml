@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms012009">loc.mss/eadmss.ms012009</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Kirk Munroe Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm79033894">https://lccn.loc.gov/mm79033894</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-10">2023 October</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2012-11">2012 November</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Transfers noted</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2012">2012</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Kirk Munroe Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1850/1940">1850-1940</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1867/1932">1867-1932</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1850/1940"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1850-1940</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1867/1932"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1867-1932</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS33894</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Munroe, Kirk, 1850-1930</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">2,500 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300"> 24 containers plus 2 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">10 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Author and adventurer. Correspondence,
+            diaries, handwritten drafts and printed copies of writings, biographical material,
+            scrapbooks, subject files, newspaper clippings, printed matter, photographs, drawings,
+            and other papers relating primarily to Munroe's literary career and travels, including
+            on a survey teams for the Union Pacific Railroad Company and the Atchison, Topeka, and
+            Santa Fe Railway Company.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230130103703.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Munroe, Kirk, 1850-1930.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Munroe, Mabel Stearns. Mabel Stearns Munroe papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Munroe, Mary Barr. Mary Barr Munroe papers.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Atchison, Topeka, and Santa Fe Railway Company.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Union Pacific Railroad Company.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Canoes and canoeing.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Cycling.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Indians of North America--Florida.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Literature.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Railroads--Surveying.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Seminole Indians.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>East Asia--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Everglades (Fla.)--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Florida--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Hudson Bay--Description and travel.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Adventurers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Authors.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of Kirk Munroe, author and adventurer, were given to the Library of Congress
+            by Eliot O’Hara in 1964. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Kirk Munroe were arranged and described in 1964. The finding aid was
+            revised in 2011 by Allen H. Kitchens. The finding aid was updated in 2023 by Maria
+            Farmer as part of a division-wide remediation project by the Inclusive Description
+            Working Group.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>A daguerreotype and two tintypes have been transferred to the Library's Prints and
+            Photographs Division where they are identified as part of these papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Kirk Munroe is governed by the
+            Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Kirk Munroe are open to research. Researchers are advised to contact the
+            Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p>A microfilm edition of the 1915 Mary Barr Munroe diary in the Munroe Papers is available
+            on one reel. Consult a reference librarian in the Manuscript Division concerning
+            availability for purchase or interlibrary loan. To promote preservation of the
+            originals, researchers are required to consult the microfilm edition as available</p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Kirk Munroe Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1850, Sept. 15 </datesingle>
+               <event>Born Charles Kirk Munroe, Prairie du Chien, Wis </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1867</fromdate>
+                  <todate>1868</todate>
+               </daterange>
+               <event> Explored and surveyed routes for the Union Pacific Railroad Co. and Atchison,
+                  Topeka, and Santa Fe Railway Co. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1868</fromdate>
+                  <todate>1869</todate>
+               </daterange>
+               <event>Attended Lawrence Scientific School of Harvard University, Cambridge, Mass.
+               </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1876</fromdate>
+                  <todate>1879</todate>
+               </daterange>
+               <event>Reporter, <title localtype="simple">
+                     <part>New York Sun</part>
+                  </title> and <title localtype="simple">
+                     <part>New York Times</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1879</fromdate>
+                  <todate>1882</todate>
+               </daterange>
+               <event>Editor, <title localtype="simple">
+                     <part>Harper’s Round Table</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle> 1880 </datesingle>
+               <event>Founded League of American Wheelmen </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1883 </datesingle>
+               <event>Married Mary Barr (died 1922) </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1886 </datesingle>
+               <chronitemset>
+                  <event>Settled in Coconut Grove, Miami, Fla. </event>
+                  <event>Published <title localtype="simple">
+                        <part>Wakulla; A Story of Adventure in Florida.</part>
+                     </title> New York and London: Harper &amp; Brothers </event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1887 </datesingle>
+               <event>Published <title localtype="simple">
+                     <part>The Flamingo Feather</part>
+                  </title>. New York : Harper &amp; Brothers, Franklin Square</event>
+            </chronitem>
+            <chronitem>
+               <datesingle> 1888 </datesingle>
+               <event>Published <title localtype="simple">
+                     <part>Derrick Sterling; A Story of Mines</part>
+                  </title>. New York: Harper &amp; Brothers </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1890</fromdate>
+                  <todate>1891</todate>
+               </daterange>
+               <event> Traveled from Coconut Grove, Fla., to the Ten Thousand Islands in sailboat
+                     <title localtype="simple">
+                     <part>Allapata</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1900 </datesingle>
+               <event>Published <title localtype="simple">
+                     <part>Under the Great Bear</part>
+                  </title>. New York: Doubleday, Page &amp; Co. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1905</datesingle>
+               <chronitemset>
+                  <event> Became a real estate developer, Miami-Dade County, Fla. </event>
+                  <event>Published <title localtype="simple">
+                        <part>For the Mikado</part>
+                     </title>. New York and London: Harper &amp; Brothers</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1924 </datesingle>
+               <event>Married Mabel Stearns </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1930, June 16 </datesingle>
+               <event>Died, Miami, Fla.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Kirk Munroe (1850-1930) consist of diaries, correspondence, writings
+            biographical material, photographs, subject files, printed matter, newspaper clippings,
+            memorabilia, scrapbooks, drawings and watercolors, and an autographed guest book from
+            “The Scrubub,” the Munroe home in Florida. The material extends from 1850 to 1940, with
+            the bulk of the papers concentrated in the period 1867-1932. The collection is organized
+            into four series: <ref show="replace" actuate="onrequest" target="diary"> Diaries
+            </ref>; <ref show="replace" actuate="onrequest" target="gencorres"> General
+               Correspondence </ref>; <ref show="replace" actuate="onrequest" target="artbookfile">
+               Article, Short Story and Book File </ref>; and <ref show="replace" actuate="onrequest" target="miscella"> Miscellany </ref>. </p>
+         <p>The papers relate primarily to Kirk Munroe’s literary career as an author of boy’s
+            books; his adventures on a survey team for the Union Pacific and Atchison, Topeka, and
+            Santa Fe railroads; trips into the Everglades, into the Hudson Bay region, and to the
+            Far East on a world tour; his work in behalf of the Seminole people of Florida; and his
+            canoeing and bicycling interests. These activities are documented principally by his
+            writings, by the correspondence kept by himself and his two wives, by the diaries kept
+            by himself, and by his first scrapbooks. The writings include handwritten drafts and
+            printed copies of articles, short stories, essays, books, and poetry. The period of his
+            life from 1870 to 1880 is poorly documented.</p>
+         <p> A diary dated 1853 was kept by Charles W. Munroe, Kirk Munroe’s father. Diaries dated
+            1867-1869, 1881, and 1923 were kept by Kirk Munroe. Diaries dated 1884-1922 were kept by
+            Mary Barr Munroe, first wife of Kirk Munroe. There are no diaries for the years
+            1870-1880. </p>
+         <p>Correspondence to and from Kirk Munroe is meager and focused exclusively on his family
+            for the years 1867-1869. There is considerable correspondence to and from his second
+            wife, Mabel Stearns Munroe, with reference to a proposed biography of Kirk. Her
+            correspondents include Poultney Bigelow, Frank W. Buxton, Randolph Edgar, Duncan U.
+            Fletcher, Ward Greene, Hermann Hagedorn, James K. Hand, Arthur Milton Pope, Herbert
+            Putnam, William F. Raney, Clement Francis Robinson, William A. Rodgers, Charles Scribner
+            (1854-1930) W. P. Stephens, Lyman Beecher Stowe, and Ray L. Wilbur. </p>
+         <p>The <ref show="replace" actuate="onrequest" target="miscella"> Miscellany </ref> series
+            contains family and biographical material, photographs, printed matter, various topical
+            files, and scrapbooks of miscellaneous writings, diary excerpts, correspondence.
+            photographs, and clippings. Depicted in the photographs in addition to the Munroe family
+            are canoeing and bicycling scenes, views from a trip to Hudson Bay in 1909, Indians, and
+            the Monroe home in Florida. Some of these same topics are documented in a subject file
+            within the series, which also contains oversize drawings, sketches, and watercolors.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in four series: </p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="diary"> Diaries, 1853-1924 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="gencorres"> General Correspondence,
+                  1850-1940 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="artbookfile"> Article, Short Story,
+                  and Book File, 1869-1920 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="miscella"> Miscellany, 1867-1940
+               </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-8</container>
+               <unittitle encodinganalog="245$a" id="diary">Diaries, <date normal="1853/1924">1853-1924</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1853/1924">1853-1924</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Bound diaries and folders of typed excerpts. </p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged chronologically. </p>
+            </arrangement>
+            <altformavail>
+               <p> The diary for 1915 in Container 7 is available on microfilm, shelf no. 21,375.
+               </p>
+            </altformavail>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1853-1885 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1853-1885
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1886-1891 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886-1891
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1892-1896 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1892-1896
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1897-1902 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1897-1902
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1903-1908 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1903-1908
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1909-1913 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1909-1913
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1914-1918</date>
+                     <emph render="italic">Diary for 1915 available on microfilm shelf no. 21,375
+                     </emph>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1914-1918</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1919-1923</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919-1923</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">9-11</container>
+               <unittitle encodinganalog="245$a" id="gencorres">General Correspondence, <date normal="1850/1940"> 1850-1940</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1850/1940">
+                  1850-1940</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Letters sent and received.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p> Arranged by name of person and therein chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Munroe family and Kirk Munroe, <date>1850-1930
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1850-1930
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Munroe, Mary Barr, <date>1907-1921 (first wife)
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1907-1921 (first
+                     wife) </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Munroe, Mabel Stearns (second wife)</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">
+                        <date> 1927-1931, Oct. </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> 1927-1931, Oct.
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1931, Nov.-1940 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931, Nov.-1940
+                     </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">12-18</container>
+               <unittitle encodinganalog="245$a" id="artbookfile"> Article, Short Story, and Book
+                  File, <date normal="1869/1920">1869-1920</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1869/1920">1869-1920</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Handwritten drafts and printed copies of articles, short stories, essays, books,
+                  and poetry by Munroe. Includes newspaper clippings and early newspaper articles
+                  possibly written by Munroe as a reporter; a scrapbook containing Munroe’s poetry;
+                  and bibliographies, notes, and related material. .</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of writing or material</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Articles and short stories,
+                        <date>1883-1920</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1883-1920</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Book file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Summer in the Catskill Mountains,</part>
+                        </title>
+                        <date>1883</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1883</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part> Florida Annual</part>
+                        </title>
+                     </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">12</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1885 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1885
+                        </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">12</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1886</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>The Flamingo Feather</part>
+                        </title>, <date>1886 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Dorymatas,</part>
+                        </title>
+                        <date>1890 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1890 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Canoemates</part>
+                        </title>, <date>1893</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1893</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>The White Conquerors</part>
+                        </title>, <date>1893 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1893 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>The Fur Seal’s Tooth</part>
+                        </title>, <date> 1894 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> 1894
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>The Totem of the Bear</part>
+                        </title>, <date>1894</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1894</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Snow Shoes and Sledges</part>
+                        </title>, <date>1895 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1895 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Rick Dale</part>
+                        </title>, <date>1896</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1896</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Through Swamp and Glade</part>
+                        </title>, <date>1896 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1896 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>The Painted Desert</part>
+                        </title>, <date>1897</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1897</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part> With Crockett and Bowie</part>
+                        </title>, <date>1897 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1897 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>In Pirate Waters</part>
+                        </title>, <date>1898</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1898</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Forward March</part>
+                        </title>, <date>1899</date>
+                     </unittitle>
+                     <unitdate era="ce" calendar="gregorian">1899</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part> Shine Terrill</part>
+                        </title>, <date>1899 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1899 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Under the Great Bear</part>
+                        </title>, <date>1900 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1900 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Brethren of the Coast</part>
+                        </title>, <date>1900</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1900</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part> The Son of Satsuma</part>
+                        </title>, <date>1901</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1901</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>The Belt of Seven Totems</part>
+                        </title>, <date>1902</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1902</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>The Blue Dragon</part>
+                        </title>, <date> 1904</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> 1904</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>The Outcast Warrior</part>
+                        </title>, <date> 1905 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> 1905
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>For the Mikado</part>
+                        </title>, <date> 1905 .</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> 1905
+                        .</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">“With Transit and Level”,
+                           <date>undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">“A South Sea Rover”, <date>undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Golden Days of Forty-Nine</part>
+                        </title>, <date>undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">Unidentified, <date>undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Newspaper file, <date>1869-1876 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1869-1876
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Bibliography of writings, <date>1879-1920
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1879-1920
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Poetry file, <date>1882-1885, n.d. </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1882-1885, n.d.
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Notes for “A New Wilderness” and “Pioneer
+                        Women of the Northwest,” <date>1909</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1909</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> General, <date>1884-1906</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1884-1906</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 18</container>
+                     <unittitle encodinganalog="245$a"> Scrapbook, <date>1874-1909 (Oversize)</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1874-1909
+                        (Oversize)</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">19-26</container>
+               <unittitle encodinganalog="245$a" id="miscella"> Miscellany, <date normal="1867/1940">1867-1940</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1867/1940">1867-1940</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Family and biographical material, photographs, printed matter, various topical
+                  files, scrapbooks of miscellaneous writings, diary excerpts, correspondence.
+                  photographs, and clippings, and oversize drawings, sketches, and watercolors.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p> Organized by type of file or material. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <unittitle encodinganalog="245$a">Biographical file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">Obituaries, <date>1930</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a"> Articles about Kirk Munroe,
+                           <date>1891-1937</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1891-1937</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a"> Notes and clippings </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">Family records </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">Material for proposed biography,
+                           <date>1930-1940 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930-1940
+                     </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Photographs</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">Family, <date>1868-1923</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1868-1923</unitdate>
+                     <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">Early days, <date>1886-1916</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886-1916</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">Indians, <date>1886-1938</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886-1938</unitdate>
+                     <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">Hudson Bay trip, <date> 1909</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> 1909</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">“The Scrububs,” Florida home,
+                           <date>1885-1920</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1885-1920</unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a"> Bicycling, <date>1880, 1894 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1880, 1894
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">Canoeing, <date>1882-1884</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1882-1884</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a"> Miscellany, <date>1872-1903</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1872-1903</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Subject file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">Canoeing, <date>1882-1913 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1882-1913
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">Bicycling, <date>1880-1938 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1880-1938
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">Indians, <date>1898-1922</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1898-1922</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a"> World tour, <date>1903</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1903</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>New York Sun and Times</part>
+                        </title>, <date>1877-1910 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1877-1910
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">Union Pacific and Santa Fe Railroad surveying
+                        trip, <date>1867-1868</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1867-1868</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <unittitle encodinganalog="245$a">Autographed guest book for “The Scrububs,”
+                        <date>1886-1931</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886-1931</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <unittitle encodinganalog="245$a"> Printed matter, <date>1868-1932 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1868-1932
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Short stories (Mabel S. Munroe),
+                        <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Memorabilia, <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a"> General miscellany, <date>1869-1940</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1869-1940</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Scrapbooks</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1886-1897</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886-1897</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1877-1924</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1877-1924</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 26</container>
+                  <unittitle encodinganalog="245$a">Drawings, photostats, sketches, and watercolors,
+                        <date>1869-1888, undated (Oversize) </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1869-1888, undated
+                     (Oversize) </unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

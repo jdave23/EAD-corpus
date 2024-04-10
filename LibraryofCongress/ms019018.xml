@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms019018">loc.mss/eadmss.ms019018</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Ernest John Swift Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by Andrea J. Briggs</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+                           <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+               Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2019" encodinganalog="260$c" era="ce" calendar="gregorian">2019</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm2019086310">https://lccn.loc.gov/mm2019086310</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2019">2019</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Ernest John Swift Papers  <date altrender="Span Dates" localtype="inclusive" normal="1908/2019">1908-2019</date> 
+                        <date altrender="Bulk Dates" localtype="bulk" normal="1920/1941">(bulk 1920-1941)</date> 
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1908/2019"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1908-2019</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1920/1941"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1920-1941)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS 86310</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Swift, Ernest John</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">1,500 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">6 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">2.2 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <language encodinganalog="041" langcode="fre">French</language>
+                        <descriptivenote>
+                           <p>Collection material in English and French.</p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852">
+                        <corpname>
+                           <part>
+                Manuscript Division,  Library of Congress</part>
+                        </corpname>
+                        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">American Red Cross official. Correspondence, newspaper clippings, awards, photographs, and publications relating to Swift's career with the Red Cross from 1920 to 1941, as well as his personal and family life.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20210323105205.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Swift family.</part>
+            </famname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Swift, Ernest John.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>American Red Cross.</part>
+            </corpname>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>International Conference of the Red Cross (15th : 1934 : Tokyo, Japan)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Stanford University--Students.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Humanitarian assistance.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>International relief.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>India--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Japan--Description and travel.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>American Red Cross officials.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The papers of Ernest John Swift were given to the Library of Congress by Paul D. Cronin in 2019.</p>
+      </acqinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of Ernest John Swift in these papers and in
+               other collections of papers in the custody of the Library of Congress has been
+               dedicated to the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Ernest John Swift are open to research. Researchers are advised to
+               contact the Manuscript Reading Room prior to visiting. Many collections are stored
+               off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+               Container number, Ernest John Swift Papers, Manuscript Division, Library of Congress,
+               Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle standarddate="1883">1883</datesingle>
+               <event>Born, Santa Cruz, California</event>
+            </chronitem>
+            <chronitem>
+               <datesingle standarddate="1908">1908</datesingle>
+               <event>Graduated Stanford University, Stanford, Calif.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle standarddate="1917">1917</datesingle>
+               <event>Enlisted with American Red Cross; attached to the 2nd Division, American
+                  Expeditionary Forces, France</event>
+            </chronitem>
+            <chronitem>
+               <datesingle standarddate="1920">1920</datesingle>
+               <event>Deputy commissioner, American Red Cross, Montenegro</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1920</fromdate>
+                              <todate>1923</todate>
+                           </daterange>
+               <event>Business manager, and assistant to the European commissioner of the American
+                  Red Cross, Paris, France</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1923</fromdate>
+                              <todate>1931</todate>
+                           </daterange>
+               <event>Assistant to Colonel Ernest P. Bicknell, former Vice Chairman in Charge of Insular and Foreign Operations, American Red Cross</event>
+            </chronitem>
+            <chronitem>
+               <datesingle standarddate="1927">1927</datesingle>
+               <event>Married Helen Griffin Swift</event>
+            </chronitem>
+            <chronitem>
+               <datesingle standarddate="1929">1929</datesingle>
+               <event>Member, Red Cross China Famine Investigation Commission; visit to
+                  China</event>
+            </chronitem>
+            <chronitem>
+               <datesingle standarddate="1930">1930</datesingle>
+               <event>Director, Red Cross hurricane relief, Dominican Republic</event>
+            </chronitem>
+            <chronitem>
+               <datesingle standarddate="1931">1931</datesingle>
+               <event>Director, Red Cross earthquake relief, Nicaragua</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1932</fromdate>
+                              <todate>1936</todate>
+                           </daterange>
+               <chronitemset>
+                              <event>Representative, League of Red Cross Societies on the International
+                     Relief Union’s Executive Committee</event>
+                              <event>Member, governing body, Nansen International Office for Refugees,
+                     League of Nations</event>
+                              <event>Secretary general, League of Red Cross Societies</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle standarddate="1934">1934</datesingle>
+               <event>Vice president, International Red Cross Conference, Tokyo,
+                  Japan</event>
+            </chronitem>
+            <chronitem>
+               <datesingle standarddate="1935">1935</datesingle>
+               <chronitemset>
+                              <event>Chairman, American delegation to the International Air Ambulance
+                     Congress, Brussels, Belgium</event>
+                              <event>Secretary general, Third Pan-American Red Cross Conference, Rio de
+                     Janeiro, Brazil</event>
+                              <event>Vice Chairman in Charge of Insular
+                     and Foreign Operations, American Red Cross</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle standarddate="1938">1938</datesingle>
+               <event>United States delegate, International Red Cross Conference, London,
+                  England</event>
+            </chronitem>
+            <chronitem>
+               <datesingle standarddate="1941">1941</datesingle>
+               <event>Died, Washington, D. C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Ernest John Swift span the years 1908 to 2019, with the bulk of the
+            material dating between 1920 and 1941. The collection documents Swift’s career as an
+            administrator in the American Red Cross, as well as his personal life. The papers are
+            primarily in English, with some material in French. The papers consist of eight series:
+               <ref target="spersfile">Personal File</ref>, <ref target="scorresp">Correspondence</ref>, <ref target="sclipfile">Clippings File</ref>, <ref target="spub">Publications</ref>, <ref target="stravel">Travel File</ref>, <ref target="sphotog">Photographs and Negatives</ref>, <ref target="ssubjfile">Subject
+               File</ref>, and <ref target="ov1">Oversize</ref>.</p>
+         <p>The <ref target="spersfile">Personal File</ref> contains materials related to
+            Swift’s personal life. It includes awards, certificates, and medals presented throughout
+            his career, passports and other types of identification documents, calling cards and
+            invitations, letters of condolence regarding Swift’s operation and death in 1941, and
+            obituaries. This series also contains a scrapbook documenting Swift’s time as a student
+            at Stanford University, as well as materials relating to Swift’s wedding and marriage to
+            Helen Griffin Swift in 1927.</p>
+         <p>The <ref target="scorresp">Correspondence</ref> series includes both personal and business or Red Cross related materials.</p>
+         <p>The <ref target="sclipfile">Clippings File</ref> contains copies of newspaper clippings
+            regarding Swift’s personal life, career, accomplishments, and travels. It also includes
+            some clippings regarding Helen Griffin Swift’s Red Cross volunteer work.</p>
+         <p>The <ref target="spub">Publications</ref> series consists of works and writings authored by Swift, publications
+            produced by or relating to the Red Cross, and other miscellaneous publications.</p>
+         <p>The <ref target="stravel">Travel File</ref> contains clippings, correspondence,
+            photographs, and other materials related to Swift’s travels abroad, generally on Red
+            Cross related business. Noteworthy materials include those relating to Swift’s 1934-1935
+            trip to Japan and India, for which he was vice president of the 1934 International Red
+            Cross Conference in Tokyo, Japan. Additional materials in this series capture his relief
+            and survey work for the Red Cross in Albania, Montenegro, the Dominican Republic, and
+            China.</p>
+         <p>The <ref target="sphotog">Photographs and Negatives</ref> series features portraits of
+            Swift, some Red Cross related images, and other miscellaneous or personal materials.</p>
+         <p>The <ref target="ssubjfile">Subject File</ref> documents some significant individuals or events in
+            Swift’s life, including his brother, Percy Swift, as well as a series of letters from
+            1940-1941 detailing the efforts to get Mimi de Gielgud out of occupied France and to
+            America in order to marry William van Doren Wright.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in eight series:</p>
+         <list>
+            <item>
+                           <ref target="spersfile">Personal File, 1908-1941</ref>
+                        </item>
+            <item>
+                           <ref target="scorresp">Correspondence, 1928-1940</ref>
+                        </item>
+            <item>
+                           <ref target="sclipfile">Clippings File, 1929-1969</ref>
+                        </item>
+            <item>
+                           <ref target="spub">Publications, 1920-1941</ref>
+                        </item>
+            <item>
+                           <ref target="stravel">Travel File, 1920-1935</ref>
+                        </item>
+            <item>
+                           <ref target="sphotog">Photographs and Negatives, 1920-1940</ref>
+                        </item>
+            <item>
+                           <ref target="ssubjfile">Subject File 1934-2019</ref>
+                        </item>
+            <item>
+                           <ref target="ov1">Oversize, 1908-1940</ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-2</container>
+               <unittitle encodinganalog="245$a" id="spersfile">Personal File,  <date normal="1908/1941">1908-1941</date> 
+                           </unittitle>
+               <unitdate normal="1908/1941">1908-1941</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Awards and certificates, identification documents, letters
+                  of condolence regarding Swift's 1941 operation and death, obituaries, calling
+                  cards, invitations, miscellaneous material, and an oversize scrapbook.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by subject.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Awards and certificates,  <date>1908, 1919, 1927-1929, 1941 </date> 
+                                 <ref target="ov1awards">
+                                    <emph render="italic">See also Oversize</emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1908, 1919, 1927-1929, 1941 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Medals,  <date>undated </date> 
+                                 <ref target="ov1medals">
+                                    <emph render="italic">See
+                           Oversize</emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Identification documents,  <date>1913, 1923-1940</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1913, 1923-1940</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">First operation and death,
+                         <date>1941</date> 
+                              </unittitle>
+                  <unitdate>1941</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Letters sent at time of first operation,
+                            <date>1941</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1941</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Flowers sent at time of first operation,
+                            <date>1941</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1941</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Letters of condolence to Helen Griffin Swift,
+                            <date>1941</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1941</unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Letters of condolence to Helen Griffin Swift
+                        from Red Cross personnel,  <date>1941</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1941</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Obituaries,  <date>1941</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1941</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Invitations,  <date>circa 1930s, 1938-1941</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">circa 1930s, 1938-1941</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Scrapbook from time at Stanford University,
+                         <date>circa
+                        1908</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">circa
+                        1908</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a">Scrapbook,  <date>circa 1908 </date> 
+                                    <ref target="ov1scrapbook">
+                                       <emph render="italic">See Oversize</emph>
+                                    </ref>
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">circa 1908 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Loose items from scrapbook,  <date>circa 1908</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">circa 1908</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Wedding and marriage,  <date>1927</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1927</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Miscellany,  <date>1932-1934, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1932-1934, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a" id="scorresp">Correspondence,  <date normal="1928/1940">1928-1940</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1928/1940">1928-1940</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence includes both personal and business-related materials.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Correspondence,  <date>1928-1940, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1928-1940, undated</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a" id="sclipfile">Clippings File,  <date normal="1929/1969">1929-1969</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1929/1969">1929-1969</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Contains copies of newspaper clippings.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Clippings,  <date>1927-1943, 1969</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1927-1943, 1969</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">3-4</container>
+               <unittitle encodinganalog="245$a" id="spub">Publications,  <date normal="1920/1941">1920-1941</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1920/1941">1920-1941</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Contains notes, speech materials, and printed matter.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of material, and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Speeches and writings,  <date>circa 1920s, 1921, 1928-1936, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">circa 1920s, 1921, 1928-1936, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Red Cross publications</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Red Cross,  <date>1928-1929, 1935-1941</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1928-1929, 1935-1941</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                                    <emph render="italic">The Report of the American Red Cross
+                        Commission to China</emph>,  <date>1929</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1929</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                                    <emph render="italic">Review and Information
+                           Bulletin of the League of Red Cross Societies</emph>,  <date>1932</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1932</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                                    <emph render="italic">League of Red Cross Societies Monthly
+                           Bulletin</emph>,  <date>1933</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1933</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">
+                                    <emph render="italic">League of Red Cross Societies Monthly Bulletin</emph>,  <date>1934</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1934</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">
+                                    <emph render="italic">League of Red Cross Societies Monthly
+                           Bulletin</emph>,  <date>1935</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1935</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">
+                                    <emph render="italic">League of Red Cross Societies Monthly
+                           Bulletin</emph>,  <date>1936</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1936</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Other publications</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous publications,  <date>1920, 1930-1940</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1920, 1930-1940</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">
+                                    <emph render="italic">Fifty Years on the Quad: A Pictoral
+                           History of Stanford University</emph>,  <date>1938</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1938</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a" id="stravel">Travel File,  <date normal="1920/1935">1920-1935</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1920/1935">1920-1935</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Contains clippings, correspondence, photographs, negatives, and miscellaneous
+                  material.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by subject.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Teplena, Albania earthquake,  <date>1920</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1920</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Belgium,  <date>1935</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1935</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">China,  <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">England,  <date>circa
+                        1930s</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">circa
+                        1930s</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Greece,  <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Indonesia,  <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Japan,  <date>1929</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1929</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Montenegro,  <date>1920</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1920</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Santo Domingo hurricane,  <date>1930</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1930</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Unknown, passenger lists,  <date>1932-1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1932-1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Conference Trip to Japan and India,
+                         <date>1934-1935</date> 
+                              </unittitle>
+                  <unitdate>1934-1935</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Documents and papers,  <date>1934-1935</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1934-1935</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Calling cards (Japan),  <date>1934</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1934</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Clippings,  <date>1934-1935</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1934-1935</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a" id="japanindiaphotos">Photographs,  <date>1934-1935 </date> 
+                                    <ref target="nitratenegatives">
+                                       <emph render="italic">See also Photographs and Negatives</emph>
+                                    </ref> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1934-1935 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Photographs (Japan),   <date>1934-1935</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1934-1935</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Photographs (India),   <date>1934-1935</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">1934-1935</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a" id="sphotog">Photographs and Negatives,  <date normal="1920/1940">circa
+                  1920-1940</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1920/1940">circa
+                  1920-1940</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Contains photographic prints and negatives.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by subject. Photographs related to travel have been placed in the Travel
+                  File series by their related trip or geographic location.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Portraits,  <date>circa 1908, circa 1920-1940 </date> 
+                                 <ref target="ov1portraits">
+                                    <emph render="italic">See also Oversize</emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">circa 1908, circa 1920-1940 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Puerto Rico Red Cross members with Ernest J.
+                     Swift,  <date>1936</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1936</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a" id="photomisc">Miscellany,  <date>circa 1930s, 1936, 1940, undated </date> 
+                                 <ref target="ov1canister">
+                                    <emph render="italic">See also Oversize</emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">circa 1930s, 1936, 1940, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Negatives,  <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a" id="nitratenegatives">Nitrate negatives,
+                         <date>undated </date> 
+                                 <ref target="japanindiaphotos">
+                                    <emph render="italic">See also Travel
+                           File</emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">undated </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a" id="ssubjfile">Subject File,  <date normal="1934/2019">1934-2019</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1934/2019">1934-2019</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Contains clippings, photographs, correspondence, invitations, and other
+                  miscellaneous materials.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Gielgud, Lewis Evelyn,  <date>1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Inventory to the Ernest John Swift Papers,
+                         <date>2019</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">2019</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Mussolini, Benito,  <date>1934</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1934</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Swift, Percy (brother),  <date>1936, 1941-1943</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1936, 1941-1943</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Wright, William van Doren and Mimi de Gielgud,
+                         <date>1940-1941</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f">1940-1941</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a" id="ov1">Oversize,  <date normal="1908/1940">circa 1908-1940</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" normal="1908/1940">circa 1908-1940</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Contains medals, awards, photographs, and a scrapbook.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Listed and described according to the series, containers, and folders from which the material was separated. The items are physically grouped and housed by size.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle>Personal File</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="ov1awards">Awards and certificates,
+                            <date>1919, 1941 </date>  (Container 1) </unittitle>
+                     <unitdate encodinganalog="245$f">1919, 1941 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="ov1medals">Medals,  <date>undated </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="ov1scrapbook">Scrapbook,  <date>circa 1908</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f">circa 1908</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Photographs and Negatives </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="ov1portraits">Portraits,  <date>circa 1908, circa 1920-1940</date>  (Container
+                        6) </unittitle>
+                     <unitdate encodinganalog="245$f">circa 1908, circa 1920-1940</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="ov1canister">Film canister with contact sheet prints
+                        (“Christmas 1940” “Cape Cod MAR 1940”),  <date>circa 1940</date>  (Container 6)
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">circa 1940</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

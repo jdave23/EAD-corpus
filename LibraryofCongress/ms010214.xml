@@ -1,0 +1,2267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010214">loc.mss/eadmss.ms010214</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Eugenio María de Hostos and Eugenio Carlos de Hostos
+			 Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Karen Linn Femia <lb/>Revised and expanded by Amanda Loeb </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2018" encodinganalog="260$c" era="ce" calendar="gregorian">2018</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm80065392">https://lccn.loc.gov/mm80065392</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-09">2020 September</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Preferred citation corrected</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2018-09">2018 September</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Addition to Eugenio Carlos de Hostos papers processed</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2010">2010</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Eugenio María de Hostos
+		  and Eugenio Carlos de Hostos Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1865/1990">1865-1990</date>  
+		           <date altrender="Bulk Dates" localtype="bulk" normal="1870/1959">(bulk 1870-1959)</date>  
+         </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1865/1990"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1865-1990</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1870/1959"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1870-1959)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS65392</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Hostos, Eugenio María
+			 de, 1839-1903</part>
+            </persname>
+         </origination>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Hostos, Eugenio Carlos
+			 de, 1879-1959</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">7,000
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">20 containers </physdesc>
+         <physdesc label="Extent" encodinganalog="300">8 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">1 microfilm reel</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="spa">Spanish</language>
+            <language langcode="eng" encodinganalog="041">English</language>
+            <language langcode="fre" encodinganalog="041">French</language>
+            <descriptivenote>
+               <p>Collection material in
+		Spanish, with
+		English and
+		French
+         </p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+            </corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Eugenio María de
+		  Hostos, Puerto Rican nationalist, writer, and educator and his son, Eugenio
+		  Carlos de Hostos, military officer. Correspondence, family papers,
+		  photographs, miscellaneous papers, a diary of Eugenio María de Hostos, and
+		  papers relating to the renovation of the castle of Sotomayor in Pontevedra,
+		  Spain.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230201165521.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Betances, Ramón Emeterio, 1827-1898--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bosch, Juan, 1909-2001--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Henríquez i Carvajal, Federico, 1848-1952--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hostos family--Correspondence.</part>
+            </famname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hostos family.</part>
+            </famname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Hostos, Eugenio Carlos de, 1879-1959. Eugenio María de Hostos and Eugenio Carlos de Hostos papers. 1865-1990.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Hostos, Eugenio María de, 1839-1903. Eugenio María de Hostos and Eugenio Carlos de Hostos papers. 1865-1990.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Luperón, Gregorio, 1839-1897--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="unspecified">
+               <part>MacCormick family--Correspondence.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Muñoz Rivera, Luis, 1859-1916--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Noble family--Correspondence.</part>
+            </famname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army--Intelligence specialists.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Infantry Regiment, 65th.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1914-1918--Colombia.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1914-1918--Guatemala.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1914-1918--Military intelligence--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1914-1918--Panama.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Cuba--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Dominican Republic--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Puerto Rico--Foreign relations--Spain.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Puerto Rico--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Puerto Rico--History--1898-1952.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Puerto Rico--History--To 1898.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Sotomayor (Pontevedra, Spain)--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Spain--Foreign relations--Puerto Rico.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Spain--History--Civil War, 1936-1939.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Spain--Social life and customs--20th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Puerto Rico.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="246" source="lcnaf">
+               <part>Eugenio Carlos de Hostos papers</part>
+            </title>
+            <title encodinganalog="246" source="lcnaf">
+               <part>Eugenio María de Hostos papers</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Authors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Educators.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Nationalists--Puerto Rico</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Eugenio María de Hostos, Puerto Rican nationalist,
+		  writer, and educator, and Eugenio Carlos de Hostos, military officer, were
+		  given to the Library of Congress by Gloria de Alvear y de Hostos in 1999 (see
+		  letter appended to this register in the Manuscript Division Reading Room). A
+		  diary of Eugenio María de Hostos, which was microfilmed with the permission of
+		  Adolfo de Hostos and accessioned by the Library in 1954, was incorporated into
+		  these papers during processing. Additional papers of Eugenio Carlos de Hostos were given to the Library of Congress by Gloria de Alvear y de Hostos in 2006.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Eugenio María de Hostos and Eugenio Carlos de Hostos were arranged and described in 2002. A
+               diary of Eugenio María de Hostos, which was microfilmed and accessioned by the Library in 1954, was incorporated into the papers at that time. Additional papers of Eugenio Carlos de Hostos were processed in 2018, and the finding aid was subsequently revised.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Eugenio María
+		  de Hostos and Eugenio Carlos de Hostos in these papers and in other collections
+		  in the custody of the Library of Congress is reserved. Consult reference staff
+		  in the Manuscript Division for further information</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Eugenio María de Hostos and Eugenio Carlos de Hostos
+		  are open to research. Researchers are advised to contact the Manuscript Reading
+		  Room prior to visiting. Many collections are stored off-site and advance notice
+		  is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p>A microfilm edition of part of these papers is available on one reel.
+		  Consult reference staff in the Manuscript Division concerning availability for
+		  purchase or interlibrary loan. To promote preservation of the originals,
+		  researchers are required to consult the microfilm edition as available.</p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container or reel number, Eugenio María de Hostos and Eugenio
+		  Carlos de Hostos Papers, Manuscript Division, Library of Congress, Washington,
+		  D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <bioghist encodinganalog="545">
+            <head>Eugenio María de Hostos </head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1839, Jan. 11</datesingle>
+                  <event>Born, Mayagüez, Puerto Rico</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1852</datesingle>
+                  <event>Studied at the Institute of Bilbao and the University of
+				  Madrid, Madrid, Spain</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1860</datesingle>
+                  <event>J.D., Central University of Madrid Law School, Madrid,
+				  Spain</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1860</fromdate>
+                     <todate>1869</todate>
+                  </daterange>
+                  <event>Active in Spanish politics, advocating the independence of
+				  Puerto Rico and Cuba</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1863</datesingle>
+                  <event>Published 
+				  <title localtype="simple">
+                        <part> La peregrinacion de Bayoán</part>
+                     </title>. Madrid: Imprenta del
+				  Comercio</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1869</datesingle>
+                  <chronitemset>
+                     <event>Banished from Spain after denouncing Emelio Castelar,
+					 Spain’s first republican president, for refusing to grant independence to
+					 Puerto Rico and Cuba</event>
+                     <event>Emigrated to the United States and became editor of La
+					 revolución, newspaper of the Cuban Revolutionary Junta of pro-independence
+					 Cuban exiles in New York City</event>
+                  </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1870</datesingle>
+                  <event>Toured South America to generate support for the Puerto
+				  Rican and Cuban independence movements and to promote education reforms</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1871?</fromdate>
+                     <todate>1874?</todate>
+                  </daterange>
+                  <event>Teacher, University of Chile, Santiago, Chile</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1872</datesingle>
+                  <event>Published 
+				  <title localtype="simple">
+                        <part>Hamlet: ensayo crítico</part>
+                     </title>. Santiago: Imprenta de
+				  Ferrocarril</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1875</datesingle>
+                  <event>Editor, 
+				  <title localtype="simple">
+                        <part>Las tres Antillas</part>
+                     </title>, Dominican Republic</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1877</datesingle>
+                  <event>Married Belinda Otilia de Ayala, daughter of a Cuban
+				  emigré, in Venezuela</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1880</fromdate>
+                     <todate>1888</todate>
+                  </daterange>
+                  <event>Inspector general of public instruction, Dominican
+				  Republic</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1887</datesingle>
+                  <event>Published 
+				  <title localtype="simple">
+                        <part>Lecciones de derecho constitucional</part>
+                     </title>. Santo
+				  Domingo: Cuna de América</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1888</datesingle>
+                  <event>Published 
+				  <title localtype="simple">
+                        <part>Moral social</part>
+                     </title>. Santo Domingo: Imprenta de Garcia
+				  Hermanos</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1888</fromdate>
+                     <todate>1890</todate>
+                  </daterange>
+                  <event>Headmaster, Miguel Luis Amunátequi secondary school,
+				  Chile</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1890</fromdate>
+                     <todate>1898</todate>
+                  </daterange>
+                  <event>Professor, University of Chile, Santiago, Chile</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1895</datesingle>
+                  <event>Published 
+				  <title localtype="simple">
+                        <part>Geografía evolutiva</part>
+                     </title>. Santiago de Chile: R.
+				  Miranda</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1898</datesingle>
+                  <chronitemset>
+                     <event>Returned to Puerto Rico to work for Puerto Rican and Cuban
+					 independence</event>
+                     <event>Formed the League of Puerto Rican Patriots</event>
+                  </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1899</datesingle>
+                  <event>Led commission to President William McKinley to ask for
+				  Puerto Rican freedom</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1903, Aug. 11</datesingle>
+                  <event>Died, Santo Domingo, Dominican Republic</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist encodinganalog="545">
+            <head>Eugenio Carlos de Hostos</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1879, Aug. 26</datesingle>
+                  <event>Born, Santo Domingo, Dominican Republic, son of Eugenio
+				  María de Hostos</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1896</datesingle>
+                  <event>Graduated, University of Chile, Santiago, Chile</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1898</datesingle>
+                  <event>Graduated, Chilean Army Military Academy</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1901</datesingle>
+                  <event>Graduated, University of Santo Domingo Law School, Dominican
+				  Republic</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1905</datesingle>
+                  <event>Second Lieutenant, Porto Rico Regiment of Infantry, U.S.
+				  Army</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1906</datesingle>
+                  <event>Promoted to first lieutenant</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1913</fromdate>
+                     <todate>1916</todate>
+                  </daterange>
+                  <event>Aide-de-camp to the governor of Puerto Rico</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1914</datesingle>
+                  <event>Married Josefa Adela (“Mignon”) MacCormick (died
+				  1958)</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1916</datesingle>
+                  <event>Promoted to captain</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1917</fromdate>
+                     <todate>1919</todate>
+                  </daterange>
+                  <event>Stationed at Camp E. S. Otis, Panama Canal Zone, with the
+				  Porto Rico Regiment of Infantry. Military Intelligence Service, missions to
+				  Columbia, Chiriqui, Panama Republic, and Guatemala. Commanding officer, 1918
+				  </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1918</fromdate>
+                     <todate>1919</todate>
+                  </daterange>
+                  <event>Promoted to major, then to lieutenant colonel and made
+				  battalion commander</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1919</datesingle>
+                  <event>Returned to Puerto Rico with the Porto Rico Regiment of
+				  Infantry</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1924</datesingle>
+                  <event>Reserve officer, U.S. Army</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1935</datesingle>
+                  <event>Purchased as family home the castle of Sotomayor,
+				  Pontevedra, Spain</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1940</datesingle>
+                  <event>Published with Adolfo de Hostos 
+				  <title localtype="simple">
+                        <part>Indice hemero-bibliográfico de Eugenio María de
+					 Hostos</part>
+                     </title>. Havana: Cultural, s.a.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1952</datesingle>
+                  <chronitemset>
+                     <event>Published 
+					 <title localtype="simple">
+                           <part>Antología. Prólogo por Pedro Henríquez Ureña;
+						selección, arreglo y apéndice por Eugenio Carlos de Hostos </part>
+                        </title>(editor).
+					 Madrid: Litografía y Encuadernación</event>
+                     <event>Published 
+					 <title localtype="simple">
+                           <part>Hostos, hispanoamericanista: colección de ensayos
+						acerca de Eugenio María de Hostos</part>
+                        </title> (editor). Madrid: Litografía y
+					 Encuadernación</event>
+                  </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1953</datesingle>
+                  <event>Published 
+				  <title localtype="simple">
+                        <part>Eugenio María de Hostos, Promoter of
+					 Panamericanism</part>
+                     </title>. Madrid: Litografía y Encuadernación</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1954</datesingle>
+                  <event>Published 
+				  <title localtype="simple">
+                        <part>España y América. Prólogo por Francisco Elías de
+					 Tejada. Recopilación y arreglo por Eugenio Carlos de Hostos</part>
+                     </title> (editor).
+				  Paris: Ediciones Literarias y Artísticas</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1959, May 27</datesingle>
+                  <event>Died, Madrid, Spain</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Eugenio María de Hostos (1839-1903) and Eugenio Carlos
+		  de Hostos (1879-1959) span the years 1865-1990, with the bulk of the material
+		  dating from 1870 to 1959. The papers are primarily in Spanish, but also in
+		  English and French, and are organized in two series, one dedicated to the
+		  father, 
+		  <ref show="replace" actuate="onrequest" target="eugmardehostos">Eugenio
+			 María de Hostos</ref>, and the other for the papers of the son, 
+		  <ref show="replace" actuate="onrequest" target="eugcardehostos">Eugenio
+			 Carlos de Hostos</ref>.</p>
+         <p> Eugenio María de Hostos was a Puerto Rican nationalist, writer,
+		  educator, and reformer. Born in Puerto Rico and educated in Spain, he also
+		  lived at times in the Dominican Republic, Chile, and New York City, moving
+		  frequently throughout his life depending on changing political circumstances.
+		  He was dedicated to the goal of an independent Puerto Rico, first from Spain
+		  and later from the United States, and the formation of a union of Antillean
+		  states to include Puerto Rico, Cuba, and the Dominican Republic. His papers contain
+		  correspondence with Caribbean nationalists such as Ramón Emeterio Betances and
+		  Gregorio Luperón as well as with various political organizations. Also
+		  included are family correspondence, microfilm of a diary, photographs,
+		  writings, and other papers. The news clippings, primarily published after his
+		  death, celebrate de Hostos’s legacy.</p>
+         <p> Eugenio Carlos de Hostos was the son of Eugenio María de Hostos.
+		  After a military education in Chile, the younger de Hostos became an officer in
+		  the Porto Rico Regiment of Infantry. This regiment had begun under Spanish rule
+		  and was incorporated into the U.S. Army after the Spanish-American War of 1898.
+		  In 1920 the name of the regiment became the 65th Regiment, U.S. Infantry.
+		  During World War I, the regiment was assigned to Panama to guard the canal
+		  against possible German attack. Material in the Porto Rico Regiment of Infantry
+		  file contains items relating to the military service of de Hostos and to his
+		  regiment in general, including correspondence, orders, news clippings, and
+		  photographs. De Hostos’s military career included work for the Army
+		  Intelligence Service traveling undercover in Colombia, Guatelama, and Panama to
+		  identify German activities in those countries during the war. His confidential
+		  reports are in this file, along with correspondence with Luis Muñoz Rivera,
+		  Puerto Rico’s resident commissioner in Washington, D.C.</p>
+         <p>In 1935, Eugenio Carlos de Hostos and his wife Mignon purchased an old
+		  castle and the surrounding estate in Sotomayor, Pontevedra, in the northwest
+		  corner of Spain, which would be their home for the remainder of their lives.
+		  The Sotomayor file documents management of the castle and in particular the
+		  restoration work the de Hostoses undertook. Also included are items concerning
+		  civilian life during the Spanish Civil War.</p>
+         <p>A large part of the 
+		  <ref show="replace" actuate="onrequest" target="eugcardehostos">Eugenio
+			 Carlos de Hostos</ref> series is composed of family papers. The file contains
+		  primarily correspondence, but also includes photographs, news clippings, and
+		  miscellanous papers. Both de Hostos and his wife corresponded regularly with
+		  their far-flung families living in the Dominican Republic, England, New York
+		  City, Puerto Rico, and Spain.</p>
+         <p>The rest of the series includes files on Eugenio Carlos de Hostos’
+		  writings and editorial projects, mostly concerning the life and writings of his
+		  father, a file from his work as a representative of the Curtiss-Wright Export
+		  Corp in Spain in the mid-1930s, biographical material, photographs, and general
+		  correspondence. Notable correspondents include Juan Bosch and Federico
+		  Henríquez i Carvajal.</p>
+         <p>Additional material in the Eugenio Carlos de Hostos series includes correspondence, lists of catalogued books, family papers, financial records, legal papers, photographs, postcards, and Spanish ration books dating from 1943. Family papers consist of correspondence among de Hostos, MacCormick, and Noble family members, Sara de Hostos' school excercise books, and several diaries of Josefa "Mignon" de Hostos MacCormick. The financial records include documents submitted to various Spanish government agencies, bills and receipts, insurance policies, and bank records. Photographs document the 1958 wedding of Gloria de Alvear y de Hostos, granddaughter of Eugenio Carlos, and the 1939 centennial commemoration of the birth of Eugenio María de Hostos in San Juan, Puerto Rico.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in two series: </p>
+         <list>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="eugmardehostos">Eugenio María de Hostos, 1865-1990</ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="eugcardehostos">Eugenio Carlos de Hostos, 1884-1990</ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-2</container>
+               <unittitle encodinganalog="245$a" id="eugmardehostos">Eugenio María
+				de Hostos, 
+				 <date normal="1865/1990">1865-1990</date> 
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1865/1990">1865-1990</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Correspondence, diary, financial records, news clippings, printed
+				matter, photographs, and writings.</p>
+            </scopecontent>
+            <arrangement>
+               <p> Arranged alphabetically by type of material or name of individual
+				or organization and chronologically therein. </p>
+            </arrangement>
+            <altformavail>
+               <p>Diary available only on microfilm. Shelf no. 15,655</p>
+            </altformavail>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Auxiliadoro de la Independencia
+				  de Cuba, 
+				   <date>1871</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1871</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Carreras, Carlos N., 
+				   <date>1947-1951</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947-1951</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Club Cubano, New York, N.Y., 
+				   <date>1870, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1870, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Club de la Liga Cubana, 
+				   <date>undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Betances, Ramón Emeterio, 
+					  <date>1892-1893</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1892-1893</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Hostos, Eugenio Carlos
+					 de</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a">Received from, 
+						 <date>1890-1901</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1890-1901</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a">Sent to, 
+						 <date>[1887?]-1901</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">[1887?]-1901</unitdate>
+                        <physdesc encodinganalog="300$a">(3
+						folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Hostos, Rosa de, 
+					  <date>1898-1899</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1898-1899</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Luperón, Gregorio, 
+					  <date>1885, 1895</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1885, 1895</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a">Family, 
+						 <date>1898-1901</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1898-1901</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a">Others, 
+						 <date>1869-1902, undated</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1869-1902, undated</unitdate>
+                        <physdesc encodinganalog="300$a">(5
+						folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a" id="dairymicro">Diary, 
+				   <date>1869-1903</date> 
+                     <emph render="italic"> Available only
+				  on microfilm. Shelf no. 15, 655</emph>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1869-1903</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Financial material, 
+				   <date>1893-1903</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1893-1903</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Geography lessons, 
+				   <date>iundated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">iundated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Liga de las Independientes, 
+				   <date>[1870?]</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">[1870?]</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">News clippings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> 
+					                    <date>1903-1904, 1924-1946</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1903-1904, 1924-1946</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> 
+					                    <date>1947-1981, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947-1981, undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Photographs, 
+				   <date>1897-1899, 1941, 1953, 1967, 1977-1979, 1989,
+					 undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1897-1899, 1941, 1953, 1967, 1977-1979, 1989,
+					 undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Printed matter, 
+				   <date>1939-1940, 1978-1990, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939-1940, 1978-1990, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Sociedad de Subsidios para la
+				  Independencia de Cuba i Puerto Rico, 
+				   <date>1872</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1872</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Writings, 
+				   <date>1865-1877, 1935, 1946, 1959,
+					 undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865-1877, 1935, 1946, 1959,
+					 undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2-20</container>
+               <unittitle encodinganalog="245$a" id="eugcardehostos">Eugenio Carlos
+				de Hostos, 
+				 <date normal="1884/1990">1884-1990</date> 
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1884/1990">1884-1990</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, family papers, financial records, legal papers, identification
+				and travel documents, news clippings, photographs, and writings. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material or name of individual,
+				organization or topic and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Acknowledgment letters for gift
+				  books, 
+				   <date>1935-1956</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1956</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Aloy, Miguel Angel, 
+				   <date>1946-1957</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946-1957</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Aramburu family, 
+				   <date>1928, 1937-1938, 1943-1946, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928, 1937-1938, 1943-1946, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Asociación Española de Amigos
+				  de los Castillos, 
+				   <date>1934-1955, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934-1955, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Balneario de Guitiriz (Spain?), 
+				   <date>1946-1952</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946-1952</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Balseiro, José A., 
+				   <date>1950-1958, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950-1958, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Biographical material, 
+				   <date>1929-1932, 1942-1946, 1959, 1990,
+					 undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929-1932, 1942-1946, 1959, 1990,
+					 undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Bosch, Juan, 
+				   <date>1939, 1963</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939, 1963</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Calling cards with notes, 
+				   <date>circa1888-circa1955</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa1888-circa1955</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Caruana, Jorge, Apostolic Nuncio
+				  in Cuba, 
+				   <date>1940-1947</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1947</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Club memberships, 
+				   <date>1901-1958</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1901-1958</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Curtiss-Wright Export Corp., 
+				   <date>1934-1936</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934-1936</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Daireaux, Max, 
+				   <date>
+					 1945-1947, 1954-1956</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1945-1947, 1954-1956</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Family papers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Alvear de Hostos, Gloria ("Glorita"), 
+					  <date>1943-1959, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1959, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Ayala de Hostos,
+					 Belinda</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a"> 
+						                      <date>1892-1904</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1892-1904</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a"> 
+						                      <date>1905-1919, undated </date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1905-1919, undated </unitdate>
+                        <physdesc encodinganalog="300$a">(8
+						folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Hostos, Adolfo de</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">4</container>
+                           <unittitle encodinganalog="245$a"> 
+						                         <date>1900-1946 </date>  
+						                        <ref show="replace" actuate="onrequest" target="cont5baydehostos">
+                                 <emph render="italic">For additional material see
+							 Container 5</emph> Bayoán de Hostos, correspondence</ref>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1900-1946 </unitdate>
+                           <physdesc encodinganalog="300$a">(7
+						  folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">5</container>
+                           <unittitle encodinganalog="245$a"> 
+						                         <date>1947-1955, 1977, undated</date> 
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947-1955, 1977, undated</unitdate>
+                           <physdesc encodinganalog="300$a"> (2
+						  folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">News clippings, 
+						 <date>1917, 1939-1967, 1979, undated</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1917, 1939-1967, 1979, undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Photographs, 
+						 <date>1955, 1979, undated</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955, 1979, undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a" id="cont5baydehostos">Hostos,
+					 Bayoán de</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Correspondence, 
+						 <date>1900-1911, 1928-1959</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1900-1911, 1928-1959</unitdate>
+                        <physdesc encodinganalog="300$a">(2
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">News clippings, 
+						 <date>1927-1928, 1945, 1952, undated</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927-1928, 1945, 1952, undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Photographs, 
+						 <date>undated</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Hostos, Filipo de</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Correspondence, 
+						 <date>1904-1919, 1928-1938, 1945-1959,
+						  undated</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1904-1919, 1928-1938, 1945-1959,
+						  undated</unitdate>
+                        <physdesc encodinganalog="300$a">(4
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">News clippings, 
+						 <date>1939, 1946-1953, 1969, undated</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939, 1946-1953, 1969, undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Hostos, Luisa Amelia
+					 de</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Correspondence </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">5</container>
+                           <unittitle encodinganalog="245$a"> 
+						                         <date>1891-1906 </date> 
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1891-1906 </unitdate>
+                           <physdesc encodinganalog="300$a">(3
+						  folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">6</container>
+                           <unittitle encodinganalog="245$a"> 
+						                         <date>1907-1928, undated</date> 
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1907-1928, undated</unitdate>
+                           <physdesc encodinganalog="300$a">(8
+						  folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a">News clippings, 
+						 <date>1916-1928, undated</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1916-1928, undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Hostos, Mariangelina de, 
+					  <date>1904-1912, 1923-1931, 1943-1959,
+						undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1904-1912, 1923-1931, 1943-1959,
+						undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Hostos, Rosa de, 
+					  <date>1897-1913, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1897-1913, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(3
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Hostos, Sara de</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a"> 
+						                      <date>1918-1939</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1918-1939</unitdate>
+                        <physdesc encodinganalog="300$a">(3
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a"> 
+						                      <date>1940-1977, undated</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1977, undated</unitdate>
+                        <physdesc encodinganalog="300$a">(3
+						folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">MacCormick family, 
+					  <date>1889-1907, 1915-1921, 1935, undated
+						</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1889-1907, 1915-1921, 1935, undated
+						</unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">MacCormick, Gloria</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a"> 
+						                      <date>1929-1959 </date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929-1959 </unitdate>
+                        <physdesc encodinganalog="300$a">(4
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a"> 
+						                      <date>Undated</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Undated</unitdate>
+                        <physdesc encodinganalog="300$a">(2
+						folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">MacCormick de Hostos, Josefa
+					 (“Mignon”)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">Diary, 
+						 <date>1918</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1918</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">8</container>
+                           <unittitle encodinganalog="245$a">Hostos, Eugenio Carlos de, 
+						   <date>1912-1919, 1927-1930, 1940-1955, undated
+							 </date> 
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1912-1919, 1927-1930, 1940-1955, undated
+							 </unitdate>
+                           <physdesc encodinganalog="300$a">(5
+						  folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">8</container>
+                           <unittitle encodinganalog="245$a">General</unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">8</container>
+                              <unittitle encodinganalog="245$a"> 
+							                           <date>1917-1940</date> 
+                              </unittitle>
+                              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1917-1940</unitdate>
+                              <physdesc encodinganalog="300$a"> (2
+							 folders)</physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">9</container>
+                              <unittitle encodinganalog="245$a"> 
+							                           <date>1941-1955, undated</date> 
+                              </unittitle>
+                              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1955, undated</unitdate>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">Miscellany, 
+						 <date>1919-1922, 1940, 1955-1958</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919-1922, 1940, 1955-1958</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">Passports, 
+						 <date>1941-1952</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1952</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous correspondence, 
+					  <date>1903-1904, 1916, 1929-1959, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1903-1904, 1916, 1929-1959, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Noble family, 
+					  <date>1918, 1928-1958, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1918, 1928-1958, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Noble, Josephine (“Finy”), 
+					  <date>1928-1953, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928-1953, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(3
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Financial records, 
+				   <date>1894-1908, 1914, 1921-1922, 1931-1955, 1971,
+					 undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1894-1908, 1914, 1921-1922, 1931-1955, 1971,
+					 undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Genealogical material, 
+				   <date>circa 1920-circa 1962</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1920-circa 1962</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">General
+				  correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a"> 
+					                    <date>1895-1933</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1895-1933</unitdate>
+                     <physdesc encodinganalog="300$a">(8
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a"> 
+					                    <date>1934-1952 </date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934-1952 </unitdate>
+                     <physdesc encodinganalog="300$a">(11
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a"> 
+					                    <date>1953-1959, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1959, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(5
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Gran Peña, Madrid, Spain, 
+				   <date>1933-1956</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933-1956</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Gun licenses, 
+				   <date>1928, 1952-1958</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928, 1952-1958</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Guzmán, Manuel Rodríguez, 
+				   <date>1903-1905, 1910-1920, 1932[?] </date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1903-1905, 1910-1920, 1932[?] </unitdate>
+                  <physdesc encodinganalog="300$a">(4
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Henríquez i Carvajal, Federico, 
+				   <date>1911-1941, 1950-1956, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1911-1941, 1950-1956, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Hogar Social Eugenio María de
+				  Hostos, Puerto Nuevo, Puerto Rico, 
+				   <date>1953-1960, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1960, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a"> Ibero-American Society, 
+				   <date>1927-1928, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927-1928, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Identification and travel
+				  papers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous, 
+					  <date>1924-1949, 1959</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1924-1949, 1959</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Passports, 
+					  <date>1941-1958</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1958</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Jones, Helen, 
+				   <date>1930, 1945, 1955, 1962, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930, 1945, 1955, 1962, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Legal papers, circa 
+				   <date>1901-1904, 1916-1918, 1924 </date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1901-1904, 1916-1918, 1924 </unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Lists for book distributions, 
+				   <date>1939, 1950-1953, undated </date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939, 1950-1953, undated </unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">Marqueses de Villa Alcazar, 
+				   <date>1940-1955, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1955, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">Miscellany, 1912-1941, 1950-1951,
+				  undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">News clippings, 
+				   <date>1896-1959, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1896-1959, undated</unitdate>
+                  <physdesc encodinganalog="300$a">(3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">Notebooks, 
+				   <date>
+					 1903-1908, 1946-1952, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1903-1908, 1946-1952, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">Orden de San Juan Bautista, 
+				   <date>1929-1935, 1955, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929-1935, 1955, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">Photographs, 
+				   <date>1922-1960, 1980, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1922-1960, 1980, undated</unitdate>
+                  <physdesc encodinganalog="300$a"> (2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Porto Rico Regiment of Infantry,
+				  U.S. Army</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Correspondence and memoranda
+					 regarding U.S. policy toward the regiment, 
+					  <date>1908-1924, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1908-1924, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Military service of Eugenio
+					 Carlos de Hostos</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">General, 
+						 <date>1897-1928, undated</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1897-1928, undated</unitdate>
+                        <physdesc encodinganalog="300$a">(5
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">Intelligence
+						reports</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">15</container>
+                           <unittitle encodinganalog="245$a">Colombia, 
+						   <date>1917</date> 
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1917</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">15</container>
+                           <unittitle encodinganalog="245$a">Guatemala, 
+						   <date>1918</date> 
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1918</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">15</container>
+                           <unittitle encodinganalog="245$a">Panama and the Canal Zone, 
+						   <date>1917-1918, undated</date> 
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1917-1918, undated</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">News clippings, 
+					  <date>1904-1924, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1904-1924, undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Postcards, 
+				   <date>circa 1905-circa 1955</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1905-circa 1955</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Serna, Luis de la, 
+				   <date>1930, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a"> Sotomayor, Pontevedra,
+				  Spain</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+					  <date>1935-1959, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1959, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(6
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">Financial records</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">16</container>
+                        <unittitle encodinganalog="245$a">Account books, 
+						 <date>1935-1942</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1942</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">16</container>
+                        <unittitle encodinganalog="245$a">Miscellany, 
+						 <date>1935-1956, undated</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1956, undated</unitdate>
+                        <physdesc encodinganalog="300$a">(2
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Taxes, 
+						 <date>1935-1947</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1947</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Miscellany, 
+					  <date>1937-1958, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1958, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Pedre, Christina de, 
+					  <date>1955-1956</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955-1956</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Photographs, 
+					  <date>undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> Restoration project, 
+					  <date>
+						1939-1940</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+						1939-1940</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Spanish Civil War, 
+					  <date>
+						1936-1942</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+						1936-1942</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Student papers, 
+				   <date>1884-circa 1902</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1884-circa 1902</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Wedding, 
+				   <date>1913-1914</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1913-1914</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Writings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Financial material, 
+					  <date>1950-1959</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950-1959</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Newspaper, 
+					  <date>1896-1907</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1896-1907</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Notes about Eugenio María de
+					 Hostos, 
+					  <date>undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Addition</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Automobiles,  <date normal="1942/1953">1942-1953</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" normal="1942/1953">1942-1953</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Book lists,  <date>undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Glaishier, Evie,  <date normal="1942/1952">1942-1952</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1942/1952">1942-1952</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous correspondence,  <date normal="1923/1962">1923-1962</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1923/1962">1923-1962</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Sandford, Archie and Jean (Bank of London &amp; South America Ltd.),  <date normal="1942/1952">1942-1952</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1942/1952">1942-1952</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Family papers</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Hostos, Adolfo de,  <date normal="1917/1975">1917-1975</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1917/1975">1917-1975</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Hostos, Luisa Amelia de,  <date normal="1911">1911</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1911">1911</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Hostos, Rosa de,  <date normal="1904/1911">1904-1911</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1904/1911">1904-1911</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Hostos, Sara de,  <date normal="1924/1975">1924-1975</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1924/1975">1924-1975</unitdate>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">MacCormick family,  <date normal="1918/1960">1918-1960</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1918/1960">1918-1960</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">MacCormick, Gloria,  <date normal="1928/1965">1928-1965</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1928/1965">1928-1965</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">MacCormick de Hostos, Josefa ("Mignon"), diaries,  <date normal="1923/1940">1923, 1940</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1923/1940">1923, 1940</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous correspondence,  <date normal="1937/1977">1937-1977</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1937/1977">1937-1977</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Noble, Arthur H., and C. L. Miro,  <date normal="1925/1949">1925-1949</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1925/1949">1925-1949</unitdate>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Noble, Josephine ("Finy"),  <date normal="1947/1953">1947-1953</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1947/1953">1947-1953</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">19</container>
+                        <unittitle encodinganalog="245$a">Poetry book, unattributed,  <date normal="1928">1928</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1928">1928</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Financial records</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">19</container>
+                        <unittitle encodinganalog="245$a">Bills and receipts,  <date normal="1935/1947">1935-1947</date> , undated</unittitle>
+                        <unitdate encodinganalog="245$f" normal="1935/1947">1935-1947</unitdate>
+                        <physdesc encodinganalog="300$a">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">19</container>
+                        <unittitle encodinganalog="245$a">Book orders,  <date normal="1934/1940">1934-1940</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1934/1940">1934-1940</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">19</container>
+                        <unittitle encodinganalog="245$a">Caja Nacional de Subsidios Familiares,  <date normal="1938/1941">1938-1941</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1938/1941">1938-1941</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">19</container>
+                        <unittitle encodinganalog="245$a">Hotel bills, Spain and Portugal,  <date normal="1942/1947">1942-1947</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1942/1947">1942-1947</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">Instituto de Credito para la Reconstruccion Nacional,  <date normal="1939/1940">1939-1940</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1939/1940">1939-1940</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">Instituto Nacional de Prevision,  <date normal="1934/1956">1934-1956</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1934/1956">1934-1956</unitdate>
+                        <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">Insurance policies,  <date normal="1924/1950">1924-1950</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1924/1950">1924-1950</unitdate>
+                        <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">International transportation and customs,  <date normal="1929/1955">1929, 1953-1955</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1929/1955">1929, 1953-1955</unitdate>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">Miscellany,  <date normal="1935/1950">1935-1950</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1935/1950">1935-1950</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">Rental, electric, and gas contracts,  <date normal="1936/1947">1936-1947</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1936/1947">1936-1947</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">Royal Bank of Canada,  <date normal="1934/1944">1934-1944</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1934/1944">1934-1944</unitdate>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Legal papers</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">A. Hartmann &amp; Co.,  <date normal="1927/1935">1927-1935</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1927/1935">1927-1935</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">American Transmarine Co., lawsuit,  <date normal="1923/1926">1923-1926</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1923/1926">1923-1926</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">Miss Nellie MacCormick Trust,  <date normal="1938">1938</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1938">1938</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">Rosales Farm lease,  <date normal="1927/1928">1927-1928</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" normal="1927/1928">1927-1928</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">Menu and food notebooks,  <date normal="1936">1936</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" normal="1936">1936</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">Obituaries,  <date normal="1894/1957">1894-1957</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" normal="1894/1957">1894-1957</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">Photographs,  <date normal="1918/1959">1918, 1924, 1939, 1958-1959</date> , undated</unittitle>
+                     <unitdate encodinganalog="245$f" normal="1918/1959">1918, 1924, 1939, 1958-1959</unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">Postcards,  <date normal="1911/1982">1911-1982</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" normal="1911/1982">1911-1982</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">Ration books, Spain,  <date normal="1943">1943</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" normal="1943">1943</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

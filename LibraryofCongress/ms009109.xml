@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms009109">loc.mss/eadmss.ms009109</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>John A. J. Creswell Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Lloyd A. Dunlap<lb/>Revised by Sherralyn
+			 McCoy</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2002" encodinganalog="260$c" era="ce" calendar="gregorian">2002</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78017236">https://lccn.loc.gov/mm78017236</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Title, controlaccess updated</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2009">2009</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">John A. J. Creswell
+		  Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1819/1885">1819-1885</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1862/1885">(bulk 1862-1885)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1819/1885"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1819-1885</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1862/1885"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1862-1885)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS17236</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Creswell, John A. J.
+			 (John Angel James), 1828-1891</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">6,000
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">21 containers plus one oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">8 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Lawyer, congressman,
+		  senator, and postmaster general. General correspondence, letterbooks, account
+		  books, and scrapbooks concerning Creswell’s law practice and political career
+		  in Maryland, his duties as adjutant general of Maryland, the military draft
+		  during the Civil War, the Maryland Constitutional Convention of 1867, and
+		  American claims regarding the <emph render="italic">Alabama.</emph>
+                     </abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20161007073758.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Carroll, Thomas King, 1793-1873--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Childs, George William, 1829-1894--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Creswell, John A. J., 1828-1891.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Davis, Henry Winter, 1817-1865--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Duncan, Levi--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Grant, Ulysses S. (Ulysses Simpson), 1822-1885--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hawley, Joseph R. (Joseph Roswell), 1826-1905--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hicks, Thomas Holliday, 1798-1865--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Johnson, Reverdy, 1796-1876--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Morgan, Edwin D. (Edwin Denison), 1811-1883--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Reid, Whitelaw, 1837-1912--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Townsend, George Alfred, 1841-1914--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Washburne, E. B. (Elihu Benjamin), 1816-1887--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Alabama (Screw sloop)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Maryland. Adjutant General.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Maryland. Constitutional Convention (1867)</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Alabama claims.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Constitutional conventions--Maryland.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Draft--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Maryland--Politics and government.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Patronage, Political.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Practice of law--Maryland.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865--Claims.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Cabinet officers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Lawyers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Representatives, U.S. Congress--Maryland.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Senators, U.S. Congress--Maryland.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of John A. J. Creswell, lawyer, congressman, senator, and
+		  postmaster general, were purchased by the Library of Congress in 1926 and
+		  1939.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of John A. J. Creswell were processed in 1968. The finding
+		  aid was revised in 2002.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of John A. J.
+		  Creswell is governed by the Copyright Law of the United States (Title 17,
+		  U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The John A. J. Creswell Papers are open to research. Researchers are
+		  advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, John A. J. Creswell Papers, Manuscript
+		  Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1828, Nov. 18</datesingle>
+               <event>Born, Port Deposit, Md.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1848</datesingle>
+               <event> Graduated, Dickinson College, Carlisle, Pa.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1850</datesingle>
+               <event>Began law practice, Elkton, Md.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1856</datesingle>
+               <event>Delegate to the Democratic national convention</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1861</datesingle>
+               <chronitemset>
+                              <event>Member, Maryland House of Delegates</event>
+                              <event>Affiliated with the Republican party</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1862</fromdate>
+                              <todate>1863</todate>
+                           </daterange>
+               <event>Adjutant general of Maryland</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1863</fromdate>
+                              <todate>1865</todate>
+                           </daterange>
+               <event>Member, United States House of Representatives</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1865</fromdate>
+                              <todate>1867</todate>
+                           </daterange>
+               <event>Member, United States Senate</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1869</fromdate>
+                              <todate>1874</todate>
+                           </daterange>
+               <event>Postmaster general</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1874</fromdate>
+                              <todate>1876</todate>
+                           </daterange>
+               <event>Counsel, Alabama Claims Commission</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1876</datesingle>
+               <event>Resumed law practice</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1891, Dec. 23</datesingle>
+               <event>Died near Elkton, Md.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of John Angel James Creswell (1828-1891) span the years 1819-1885, with the
+            bulk of the material dated 1862-1885. A government official, supporter of Abraham
+            Lincoln, and abolitionist, Creswell changed his name from John Andrew Jackson Creswell
+            to John Angel James Creswell after being elected to the House of Representatives as a
+            Republican in 1861 in order to disassociate himself from Democrat Andrew Jackson. His
+            papers consist of general correspondence, letterbooks, account books, and scrapbooks. </p>
+         <p>The general correspondence, chiefly 1862-1865, consists mainly of
+		  bound volumes of letters to Creswell concerning his law practice, business,
+		  Maryland politics, patronage, his duties as adjutant general of Maryland, the
+		  military draft during the Civil War, and the Maryland Constitutional Convention
+		  of 1867. The letterbooks, 1882-1885, pertain to American interests presented to
+		  the United States Court of Commissioners of <emph render="italic">Alabama</emph> Claims.</p>
+         <p>Correspondents include Thomas King Carroll, George William Childs,
+		  Henry Winter Davis, Levi Duncan, Ulysses S. Grant, Joseph R. Hawley, Thomas
+		  Holliday Hicks, Reverdy Johnson, Edwin D. Morgan, Whitelaw Reid, George Alfred
+		  Townsend, and E. B. Washburne.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged alphabetically by type of material.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">General correspondence</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Bound</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1819, Aug. 1-1862, June 23</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1819, Aug. 1-1862, June 23</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1862, June 27-1863, Nov. 11</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1862, June 27-1863, Nov. 11</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1863, Nov. 13-Dec. 12</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1863, Nov. 13-Dec. 12</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1863, Dec. 17-1864, Jan. 23</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1863, Dec. 17-1864, Jan. 23</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">1864</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>Jan. 24-Feb. 16</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Jan. 24-Feb. 16</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>Feb. 17-Mar. 10</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Feb. 17-Mar. 10</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a">Mar. 11-Apr. 9</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>Apr. 11-May 25</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Apr. 11-May 25</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>May 26-Oct. 7</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">May 26-Oct. 7</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">10</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>Oct. 9-Dec. 6</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct. 9-Dec. 6</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1864, Dec. 7-1865, Jan. 15</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1864, Dec. 7-1865, Jan. 15</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1865</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">12</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>Jan. 16-Feb. 27</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Jan. 16-Feb. 27</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">13</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>Mar. 2-June 12</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Mar. 2-June 12</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>June 13-Aug. 5</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">June 13-Aug. 5</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>Aug. 7-Oct. 6</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Aug. 7-Oct. 6</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">16</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>Oct. 7-Dec. 13</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct. 7-Dec. 13</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1865, Dec. 14-1887, Aug. 22,
+						undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865, Dec. 14-1887, Aug. 22,
+						undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Unbound, 
+				   <date>1869-1874, 1880-1884</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1869-1874, 1880-1884</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">18</container>
+               <unittitle encodinganalog="245$a">Letterbooks, <emph render="italic">Alabama</emph> claims</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a"> 
+				                             <date>1882, Aug. 31-1883, July 2</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1882, Aug. 31-1883, July 2</unitdate>
+                  <physdesc encodinganalog="300$a"> (3
+				  vols.)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <unittitle encodinganalog="245$a"> 
+				                             <date>1883, July 2-1885, Feb. 25</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1883, July 2-1885, Feb. 25</unitdate>
+                  <physdesc encodinganalog="300$a">(4
+				  vols.)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a"> 
+				                             <date>1885, Feb. 25-Nov. 25</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1885, Feb. 25-Nov. 25</unitdate>
+                  <physdesc encodinganalog="300$a"> (4
+				  vols.)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">21</container>
+               <unittitle encodinganalog="245$a">Miscellany</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Account books, 
+				   <date>1848-1869, 1884</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1848-1869, 1884</unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  vols.)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Notebook, 
+				   <date>1884-1885</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1884-1885</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Scrapbooks, 
+				   <date>1872-1885</date>  
+                                 <ref show="replace" actuate="onrequest" target="scrap1">
+                                    <emph render="italic">See Oversize</emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1872-1885</unitdate>
+                  <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a">Oversize</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a" id="scrap1">Scrapbooks (Container
+				  21)</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1872-1882</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1872-1882</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1882-1885</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1882-1885</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

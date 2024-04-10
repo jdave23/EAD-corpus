@@ -1,0 +1,2243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms009139">loc.mss/eadmss.ms009139</recordid>
+      <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Chester Alan Arthur Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2015" encodinganalog="260$c" era="ce" calendar="gregorian">2015</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78011213">https://lccn.loc.gov/mm78011213</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+      <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2021-11">2021 November</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Link to index updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-03">2020-03</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2019-12">2019 December</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Links added to digitized content</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2015-09">2015 September</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Links to digitized index added</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2009">2009</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a"> Chester Alan Arthur Papers <date altrender="Inclusive Dates" localtype="inclusive" normal="1843/1960"
+                  id="mferad6d1a98320a43aab6ece5047246dcb3">1843-1960</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1870/1888"
+                  id="mfer279a61e7444b4772ad174dfc7bf6e38b">1870-1888</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1843/1960"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1843-1960</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1870/1888"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1870-1888</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS11213</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Arthur, Chester Alan, 1829-1886</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">4,400 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">31 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">10.4 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">10 microfilm reels</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English </p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part> Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">U.S. president. Correspondence, financial
+            papers, scrapbooks, clippings, and other papers chiefly relating to Arthur's presidency,
+            his service as collector or customs for the Port of New York, and the New York
+            Republican State Committee.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20211028132821.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Allen, Campbell--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Arthur, Chester Alan, 1829-1886.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Arthur, Chester Alan, 1864-1937--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Blaine, James Gillespie, 1830-1893--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bliss, George, 1830-1897--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Brewster, Benjamin Harris, 1816-1888--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bristow, Benjamin Helm, 1832-1896--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Conkling, Roscoe, 1829-1888--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Dun, Robert Graham, 1826-1900--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Fish, Hamilton, 1808-1893--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Frelinghuysen, Frederick T. (Frederick Theodore), 1817-1885--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Grant, Ulysses S. (Ulysses Simpson), 1822-1885--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Guiteau, Charles J. (Charles Julius), 1841-1882--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>MacVeagh, Wayne, 1833-1917--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Morgan, Edwin D. (Edwin Denison), 1811-1883--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Phillips, Frederick J.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Reed, James C.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sand, Julia I.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sheridan, Philip Henry, 1831-1888--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sherman, John, 1823-1900--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sherman, William T. (William Tecumseh), 1820-1891--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sprague, Kate Chase, 1840-1899--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>New York (N.Y.) Collector of the Port of New York.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Republican Party (N.Y.). State Committee--Correspondence.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Customs administration--New York (State)--New York.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New York (State)--Politics and government.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--1881-1885.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="740">
+               <part>Chester Alan Arthur Papers at the Library of Congress</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Presidents--United States.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of Chester Alan Arthur, U.S. president, were acquired by the Library of
+            Congress through gift, purchase, bequest, and exchange from various sources, 1902-2015.
+         </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>When the Chester Alan Arthur Papers were organized and filmed in 1961, certain items
+            were omitted as not being integral to the papers. These items, subsequent to the
+            completion of the index and microfilm, were added in 1973, 1979, and 1980 as Series 4,
+            Addition. The bulk of this material, a gift of more than two thousand items, came from
+            Vincent F. Assaiante in 1971. The following year another significant addition was
+            received as a bequest from Chester A. Arthur III, grandson of the president. In 1973
+            Arthur's biographer, Thomas C. Reeves, who was largely responsible for earlier Arthur
+            acquisitions, donated a large body of Arthur family papers from which items of Chester
+            A. Arthur were incorporated into this collection. Smaller additions received by the
+            Library from 1960 to 1974 were also interfiled with this series, and the entire series
+            was microfilmed in 1984. A rehousing of the material in a larger number of containers in
+            1999 did not affect the organization as reflected in the microfilm edition. A one item
+            addition was donated in 2015 and was organized as Series 5: Addition II. The finding aid
+            was revised in 2015 to reflect this addition.</p>
+      </processinfo>
+      <otherfindaid>
+         <head>Additional Guides</head>
+         <p>The microfilm edition of these papers (not including Series 4 or 5) is indexed in the
+               <title localtype="simple">
+               <part>Index to the Chester A. Arthur Papers</part>
+            </title> (Washington: 1961) prepared as part of the President's Papers Index Series. The
+            index is available online at <ref show="new" actuate="onrequest"
+                 href="https://hdl.loc.gov/loc.gdc/gdclccn.60060076">https://hdl.loc.gov/loc.gdc/gdclccn.60060076</ref>.</p>
+      </otherfindaid>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Chester Alan Arthur is governed
+            by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Chester Alan Arthur are open to research. Researchers are advised to
+            contact the Manuscript Reading Room prior to visiting. Many collections are stored
+            off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p>A microfilm edition of part of these papers is available on ten reels. Consult reference
+            staff in the Manuscript Division concerning availability for purchase or interlibrary
+            loan. To promote preservation of the originals, researchers are required to consult the
+            microfilm edition as available.</p>
+      </altformavail>
+      <altformavail encodinganalog="530">
+         <head>Online Content</head>
+         <p> The Chester Alan Arthur Papers are available on the Library of Congress Web site at
+               <ref show="replace" actuate="onrequest"
+                 href="https://hdl.loc.gov/loc.mss/collmss.ms000095">
+               http://hdl.loc.gov/loc.mss/collmss.ms000095</ref> . To promote preservation of the
+            originals, researchers are required to consult the online edition as available.</p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Reel number or Container number, Chester Alan Arthur Papers, Manuscript Division,
+            Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <custodhist encodinganalog="561">
+         <head>History of the Collection</head>
+         <p>[From <title localtype="simple">
+               <part>Index to the Chester A. Arthur Papers</part>
+            </title> (Washington, D.C.: 1961), pp. v-vii]</p>
+         <blockquote>
+            <p>You may be sure that I am as interested as you are in having the Arthur papers
+               finally come to rest in the Library of Congress. The ones that I have in my
+               possession have travelled a good deal—over to Europe, back to Colorado, California,
+               and now here [New York]. During his lifetime, my father would never let anyone see
+               them—not even me. When they finally came into my possession, I was amazed that there
+               were so few. At my father's funeral in Albany, or rather at the interment of his
+               ashes which took place several months after his death [July 17, 1934], I enquired of
+               all the cousins there assembled—the nieces and nephews of my grandfather, as to what
+               had happened to the bulk of the papers. Charles E. McElroy, the son of Mary Arthur
+               McElroy who was my grandfather's First Lady, tells me that the day before he died, my
+               grandfather caused to be burned three large garbage cans, each at least four feet
+               high, full of papers which I am sure would have thrown much light on history.</p>
+         </blockquote>
+         <p> So wrote Chester A. Arthur III to Dr. Thomas P. Martin, then Acting Chief of the
+            Manuscript Division of the Library of Congress, on April 15, 1938. <ref show="replace" actuate="onrequest" target="foot1">[1]</ref>
+         </p>
+         <p>For many years President Arthur was represented in the Manuscript Division by a single
+            document, a letter he had written during the Civil War and which the Library purchased
+            in 1902. Beginning in 1910 and continuing to the present, successive chiefs of the
+            division have done what they could do to assemble surviving Arthur manuscripts. For the
+            first of these chiefs, Gaillard Hunt, who in that year initiated the search for the main
+            body of the Arthur Papers, there was little but discouragement as a result of his
+            inquiries. However, his persistence and what he was able to learn were to encourage his
+            successors. He wrote first to Col. William G. Rice and learned the address of Mrs. John
+            E. McElroy, Arthur's sister and official hostess during his administration. Mr. Hunt
+            wrote to her and learned from her that Chester A. Arthur, Jr., controlled the papers.
+            After several attempts, Mr. Hunt learned Mr. Arthur's address and wrote to him. The
+            reply—written on March 13, 1915, five years after the search began—provided the first
+            concrete but frustrating evidence: </p>
+         <blockquote>
+            <p>I beg you will excuse my tardiness in replying to your letter of November 4th [1914].
+               The question of my father's papers is a very sore subject with me.</p>
+            <p>These papers were supposed to be in certain chests which were stored on their receipt
+               from Washington, in the cellar of 123 Lexington Avenue. After my father's death, they
+               were removed, I believe, by direction of the executors to a store house recommended
+               by Mr. McElroy at Albany. Several years ago on making my residence in Colorado, I
+               sent for these chests of papers and found in them nothing but custom house records of
+               no particular value or importance. Where the papers they were supposed to contain
+               have vanished, is a mystery.</p>
+         </blockquote>
+         <p> Three years later, in 1918, the Library acquired, as a loan, its second Arthur
+            document, the draft of his veto message of the Fitz-John Porter bill. Arthur H. Masten,
+            a nephew of the President, had not inherited the document but had received it as a gift
+            from the widow of Adrian H. Joline, in whose autograph collection it had been found.
+            Masten's heirs have given the Library of Congress title to this manuscript. </p>
+         <p>The Library renewed its inquiries in various quarters from time to time with no
+            significant result until Charles Moore, in 1924, while Acting Chief of the Manuscript
+            Division, wrote a long letter to John H. Finley of the <title localtype="simple">
+               <part>New York Times.</part>
+            </title>
+            <ref show="replace" actuate="onrequest" target="foot2">[2]</ref> As a result, Dr. Finley
+            published in the <title localtype="simple">
+               <part>Times</part>
+            </title> an editorial plea for Arthur manuscripts, but there was no immediate response.
+            Other inquiries were made to: J. Stanley-Brown, who had been President James A.
+            Garfield's secretary and who had also served Arthur briefly; Charles M. Hendley, a
+            former White House executive clerk, who provided some personal recollections; Rudolph
+            Forster, in 1924 executive clerk at the White House; Elihu Root and Robert T. Lincoln;
+            and the County Clerk of New York County, N.Y., who provided a copy of Arthur's will; and
+            various others. </p>
+         <p>In June 1925 Louise Reed Mitchell, the daughter of Arthur's secretary, James C. Reed,
+            informed the Librarian of Congress that she had inherited some 50 Arthur manuscripts.
+            She sold these to the Library. The Librarian's <title localtype="simple">
+               <part>Annual Report</part>
+            </title> for 1925, p. 56-57, reviewed the search and the results up to that time and
+            assessed the collection as "neither extensive nor are the documents themselves of high
+            historical importance; but a gap in the records of the presidency has been filled in as
+            satisfactory a manner as is possible." </p>
+         <p>In 1938 a fresh trail, opened up by a suggestion made by Jeannette P. Nichols, led to
+            President Arthur's grandson, part of whose reply introduces this essay. In the same
+            year, as a result of an exchange of letters with the Library, Mr. Arthur deposited 90 of
+            the more important documents he had in his possession. <ref show="replace" actuate="onrequest" target="foot3">[3]</ref> These manuscripts, together with an
+            additional 470 documents which had remained in his possession, were sold to the Library
+            in 1958. </p>
+         <p>It was fortunate that the greatly augmented but still small collection reached its
+            present size soon after the Congress authorized and directed the Librarian of Congress
+            to arrange, microfilm, and index the Arthur and 22 other collections of Presidential
+            Papers. Before the filming and indexing had been completed, further additions were
+            received. Twelve letters written by Arthur in the 1850's were given by the noted
+            collector, Charles A. Feinberg. </p>
+         <p>Another major segment of the Arthur Papers is available because of a friendship that
+            began during the Civil War. Robert G. Dun and Chester A. Arthur were business associates
+            and personal friends in New York City for at least a quarter of a century. Both were
+            members of the Union League Club in New York. Arthur served as counsel for The
+            Mercantile Agency, as Dun's company was called, for two decades. Fortunately for all who
+            may interest themselves in the career of Arthur, Owen A. Sheffield, retired Secretary of
+            Dun &amp; Bradstreet, Inc., presented photocopies or typed copies accompanied by
+            annotations, of all known documents in the files of the company relating to Arthur. The
+            gift was made in 1959 with the consent and the cooperation of J. Wilson Newman,
+            president of Dun &amp; Bradstreet. Many of these documents have particular value. A
+            letter written by Dun to the manager of his Pittsburgh office on June 1, 1870, for
+            example, contains a spirited description of Arthur's character, written long before
+            anyone guessed that he would be the 21st President of the United States. </p>
+         <p>Also in 1959, Robert S. Macfarlane, president of the Northern Pacific Railway, kindly
+            supplied copies of several telegrams and related material which add to the records
+            concerning Arthur's trip to Yellowstone Park in 1883. A few other documents and copies
+            of documents complete one of the smallest of the 23 groups of Presidential Papers in the
+            Library. The number of items is 1,413 and they are bound in 12 volumes. The microfilm
+            reproduction of these was released to the public in 1960. </p>
+         <p>There remains the matter of the large number of lost Arthur manuscripts. Letters written
+            by Arthur to others and preserved in their papers, together with copies of their letters
+            to him, offer a sampling of what the Arthur Papers once contained. The photocopies of
+            letters from the files of Dun &amp; Bradstreet (Series 2) are useful for this purpose
+            and so, to a lesser degree, are transcripts and references (Series 3) to Arthur papers
+            in other collections. </p>
+         <p>An example may be cited of what is known to have existed. Arthur kept journals while on
+            a trip with Henry D. Gardiner in 1857. The two young men spent 4 months touring the West
+            as far as Kansas and Minnesota. Ward Burlingame, a Kansas newspaper reporter,
+            interviewed Arthur 26 years later when he was about to depart for the West again, this
+            time to Yellowstone Park. The published interview records all that has been found with
+            reference to the journals: "The travels of the two extended over some four months, and
+            the president could not recall, without access to his papers, packed away in his New
+            York house, the names of all the places at which they stopped. By the way, it occurs to
+            me that the complete journals of this trip, carefully kept by the principal traveler,
+            would prove a veritable bonanza to the writer fortunate enough to get hold of them."
+               <ref show="replace" actuate="onrequest" target="foot4">[4]</ref>
+         </p>
+         <p>Inasmuch as many of President Arthur's papers have been destroyed, searchers may wish to
+            examine the personal papers of his contemporaries in the Library of Congress and
+            elsewhere for information about him and his times. The personal papers or autograph
+            collections in the Library of Congress listed below contain varying numbers of letters
+            by, to, or relating to President Arthur: </p>
+         <list>
+            <item>American Academy of Arts and Letters </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms011191">Bancroft-Bliss</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms009322">Beecher, Henry W.</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms003039">Blaine, James G.</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms010310"> Bristow, Benjamin H.</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms011216">Chandler, William E.</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms006046">Chandler, Zachariah</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms008094">Cleveland, Grover</ref>
+            </item>
+            <item> Conkling, Roscoe</item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms013120">Curry, J. L. M., Autograph
+                  Collection</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms009077">Davis, J. C. Bancroft</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms010116">Evarts, William M.</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms012133">Fish, Hamilton</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms008147"> Garfield, James A.</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms010314">Gresham, Walter Q.</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms009029"> Harrison, Benjamin</ref>
+            </item>
+            <item>McCulloch, Hugh</item>
+            <item> Manning, Daniel</item>
+            <item>The Players Collection</item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms005015"> Porter, Fitz-John</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms011162"> Root, Elihu</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms014068">Schofield, John M.</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms009308">Schurz, Carl </ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms006029">Sheridan, Philip H.</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms010267"> Sherman, John</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms009309"> Sherman, William T.</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms009245"> Taft, William H.</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms011063"> Toner, Joseph M., Autograph
+                  Collection</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms012064">Whitney, William C.</ref>
+            </item>
+            <item>
+               <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms011236">Young, John Russell</ref>
+            </item>
+         </list>
+         <p>Other libraries known to possess one or more Chester A. Arthur manuscripts include the
+            New-York Historical Society in New York City, which has eight letterbooks dating from
+            1868 to 1878 and other materials dated for the most part prior to 1880; the New York
+            State Library in Albany, which has nearly 200 items, for the most part in the Edwin D.
+            Morgan Papers; the Boston Public Library; the William L. Clements Library, Ann Arbor,
+            Mich.; the Rutherford B. Hayes Library, Fremont, Ohio; the New Jersey Historical Society
+            in Newark; the Southern Historical Collection of the University of North Carolina,
+            Chapel Hill, N.C.; the Historical Society of Pennsylvania in Philadelphia; the United
+            States Naval Academy Museum, Annapolis, Md.; and Yale University Library, New Haven,
+            Conn. <title localtype="simple">
+               <part>A Guide to Archives and Manuscripts in the United States,</part>
+            </title> edited by Philip M. Hamer (New Haven, 1961), which includes entries indexed
+            under "Presidents, U.S.," may lead a searcher to other Arthur manuscripts. The National
+            Union Catalog of Manuscript Collections now being assembled at the Library of Congress
+            also may eventually reveal the whereabouts of other Arthur manuscripts.</p>
+         <p>Note: The Library of Congress acknowledges with gratitude the assistance of Chester A.
+            Arthur III, grandson of the President, and George F. Howe, the latter's biographer, each
+            of whom read a draft of this essay and provided valuable comment and suggestions. Mr.
+            Howe's interest goes back to 1926, when he selected President Arthur as the subject for
+            his doctoral dissertation. </p>
+         <p id="foot1">1. Except as specified, letters cited are in the files of the Manuscript
+            Division.</p>
+         <p id="foot2">2. June 26, 1924.</p>
+         <p id="foot3">3. The Arthur collection, including the deposited documents, was evacuated to
+            Charlottesville, Va., in 1941 and returned to the Library of Congress in 1944. A
+            statement concerning this evacuation appears in <title localtype="simple">
+               <part>Annual Report of the Librarian of Congress,</part>
+            </title> 1945, p. 59. See also the article by Robert Penn Warren, "The War and the
+            National Muniments," Library of Congress <title localtype="simple">
+               <part>Quarterly Journal of Current Acquisitions,</part>
+            </title> 2 (November 1944), 64-75.</p>
+         <p id="foot4">4. <title localtype="simple">
+               <part>Leavenworth</part>
+            </title> [Kans.] <title localtype="simple">
+               <part>Times,</part>
+            </title> July 29, 1883; a shorter revised story appeared in the <title localtype="simple">
+               <part>New York Times,</part>
+            </title> August 1, 1883.</p>
+      </custodhist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note for Additions to the Collection</head>
+         <p>
+            <ref show="replace" actuate="onrequest" target="add">Series 4</ref>, the Addition to the
+            Arthur Papers, spans the period 1846-1960 and is arranged in four subseries: <ref show="replace" actuate="onrequest" target="corr4">Correspondence</ref>, <ref show="replace" actuate="onrequest" target="fin4">Financial Papers</ref>, <ref show="replace" actuate="onrequest" target="scrap4">Scrapbooks</ref>, and <ref show="replace" actuate="onrequest" target="misc4">Miscellany</ref>.</p>
+         <p> The largest portion of Series 4 appears to be part of the correspondence file of the
+            New York Republican State Committee dating from May to November 1880, a period in which
+            Arthur served as committee chairman, and beginning in June, as vice-presidential
+            candidate. There are letters and telegrams to Arthur and other members of the committee
+            as well as draft replies from Arthur, apparently in the handwriting of his secretary,
+            James C. Reed.</p>
+         <p> Other correspondence includes letters from Arthur to his son, Chester Alan Arthur
+            (1864-1937); letters from Robert Graham Dun, George Bliss, and Roscoe Conkling to
+            Arthur; and letters of resignation submitted by members of James A. Garfield's cabinet
+            after his assassination in 1881.</p>
+         <p> Also in Series 4 are an account book for the Arthur’s presidential years kept by the
+            steward of the Executive Mansion, a scrapbook on Arthur's service as collector of
+            customs for the Port of New York (1871-1877), and correspondence between Owen A.
+            Sheffield and E. T. I. Thygeson in 1960 that illuminates Arthur's relationship with his
+            close friend Robert Graham Dun and discusses the disposition of Arthur's personal
+            papers.</p>
+         <p>
+            <ref target="addII">Series 5, Addition II</ref>, was donated by Ron Michie of Scotland,
+            U.K. in 2015. It is not part of the microfilm edition of the papers. This addition
+            consists of a single item: a letter written by President Arthur in 1882 to
+            restauranteur, John Sutherland, thanking him for the "excellent haunch of Caribou."
+            Sutherland, originally from Scotland, operated a popular eating house in New York City
+            that had been patronized by Arthur.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in four series: </p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="gen"> Series 1, General
+                  Correspondence and Related Manuscripts, 1843-1938</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="dun">Series 2, Arthur-Dun
+                  Manuscripts, 1862-1887</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="tran"> Series 3, Arthur Transcripts,
+                  1872-1926</ref>
+            </item>
+            <item>
+               <ref actuate="onrequest" show="replace" target="add">Series 4: Addition,
+                  1846-1960</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="addII"> Series 5: Addition II,
+                  1882</ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <c01 level="series">
+            <did>
+               <container localtype="reel">1-3</container>
+               <unittitle encodinganalog="245$a" id="gen">Series 1, General Correspondence and
+                  Related Manuscripts, <date normal="1843/1938" id="mferb720f8cc76c74bfe8970449cd92346dd">1843-1938</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1843/1938">1843-1938</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Letters received, some letters sent, related original manuscripts, and a few
+                  photocopies of original manuscripts.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1843-08-31/1881-12" id="mfer445f69b79e2f43cd9f540de14b80b213">1843, Aug. 31-1881, Dec.</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1843-08-31/1881-12">1843, Aug. 31-1881, Dec.</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.001">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1882-01-01/1925-04-27" id="mfer875db156db3849c5a34ff7c711c8af00">1882, Jan. 1-1925, Apr. 27</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1882-01-01/1925-04-27">1882, Jan. 1-1925, Apr. 27</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.002">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1925-05-01/1938-03-09" id="mfer2c2ba5f529dd4b3fbe6451e6bf1f9272">1925, May 1-1938, Mar. 9 and undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1925-05-01/1938-03-09">1925, May 1-1938, Mar. 9 and undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.003">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="reel">3</container>
+               <unittitle encodinganalog="245$a" id="dun">Series 2, Arthur-Dun Manuscripts, <date normal="1862/1887" id="mfereb89095954e646658b6dfbbc081e1614">1862-1887</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1862/1887">1862-1887</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Photocopies and a few typed copies of letters exchanged by Arthur and Robert
+                  Graham Dun and of other letters and documents concerning Arthur. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1862-08-06/1887-02-07" id="mferd9c1992288c5492c8447158d4a756dae">1862, Aug. 6-1887, Feb. 7</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1862-08-06/1887-02-07">1862, Aug. 6-1887, Feb. 7</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.004">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="reel">3</container>
+               <unittitle encodinganalog="245$a" id="tran">Series 3, Arthur Transcripts, <date normal="1872/1926" id="mferb4b0174b0ee74a66866a083b45f41273">1872-1926</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1872/1926">1872-1926</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Typed copies of certain letters written by, to, or concerning President Arthur in
+                  the papers of other persons in the Library of Congress.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1871-11-23/1926-01-04" id="mfera308488421df4700974ce1e46e27a5b2">1871, Nov. 23-1926, Jan. 4</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1871-11-23/1926-01-04">1871, Nov. 23-1926, Jan. 4</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.005">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">4:1-12</container>
+               <container localtype="reel">1-7</container>
+               <unittitle id="add" encodinganalog="245$a">Series 4: Addition, <date normal="1846/1960" id="mfer318b40c4d6024c878b556b7521711e11">1846-1960</date>
+               </unittitle>
+               <unitdate normal="1846/1960" encodinganalog="245$f" era="ce" calendar="gregorian">1846-1960</unitdate>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">4:1-8</container>
+                  <container localtype="reel">4:1-4</container>
+                  <unittitle encodinganalog="245$a" id="corr4">Correspondence, <date normal="1846/1847" id="mfer98901b1eacba43da973d1c902c40ad30">1846-1887
+                     </date>
+                  </unittitle>
+                  <unitdate normal="1846/1847">1846-1887 </unitdate>
+               </did>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged chronologically.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:1</container>
+                     <container localtype="reel">4:1</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1846" id="mferde6174c96f2c43a9a3a1a657458c4e7e">1846</date>
+                     </unittitle>
+                     <unitdate normal="1846">1846</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.006">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1854/1859" id="mfer1ac90fd939c34de182515a1600e0612f">1854-1859</date>
+                     </unittitle>
+                     <unitdate normal="1854/1859">1854-1859</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.007">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1860/1863" id="mferc9145af2624a451bb40017d0e2c72f06">1860-1863</date>
+                     </unittitle>
+                     <unitdate normal="1860/1863">1860-1863</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.008">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1871/1879" id="mfera1578ef0d639411eae480c3f315e1672">1871-1879</date>
+                     </unittitle>
+                     <unitdate normal="1871/1879">1871-1879</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.009">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-05" id="mfera47d7488f2ff4cf0af112473f61dfece">1880, May
+                        </date>
+                     </unittitle>
+                     <unitdate normal="1880-05">1880, May </unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.010">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-06" id="mfer50b6f78ca00b450f97e1834965065d79">1880,
+                           June</date>
+                     </unittitle>
+                     <unitdate normal="1880-06">1880, June</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.011">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-07" id="mferfe15c18bfd524295bebb11f01a8dccca">1880,
+                           July</date>
+                     </unittitle>
+                     <unitdate normal="1880-07">1880, July</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.012">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-08-01/1880-08-14" id="mfer74ab3a49fb2b41139cd8dadd6cc0eed4">1880, Aug. 1-14</date>
+                     </unittitle>
+                     <unitdate normal="1880-08-01/1880-08-14">1880, Aug. 1-14</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.013">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-08-15/1880-08-20" id="mfer9feeb269e48f4e6cbdf798118bfa150d">1880, Aug. 15-20</date>
+                     </unittitle>
+                     <unitdate normal="1880-08-15/1880-08-20">1880, Aug. 15-20</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.014">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:2</container>
+                     <container localtype="reel">4:1</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-08-21/1880-08-30" id="mfer3f6eba8a578e4b19b54c67aff32cec11">1880, Aug. 21-30</date>
+                     </unittitle>
+                     <unitdate normal="1880-08-21/1880-08-30">1880, Aug. 21-30</unitdate>
+                     <physdesc encodinganalog="300">(10 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.015">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-09-01/1880-09-05" id="mfer44798e8d397f4660b0164ee149e8bed0">1880, Sept. 1-5 </date>
+                     </unittitle>
+                     <unitdate normal="1880-09-01/1880-09-05">1880, Sept. 1-5 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.016">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-09-06/1880-09-10" id="mferfc45853a9893454d964faba81254853f">1880, Sept. 6-10</date>
+                     </unittitle>
+                     <unitdate normal="1880-09-06/1880-09-10">1880, Sept. 6-10</unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.017">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-09-11/1880-09-13" id="mfera1b193b7caac4dd3b5bc4bac46543147">1880, Sept. 11-13</date>
+                     </unittitle>
+                     <unitdate normal="1880-09-11/1880-09-13">1880, Sept. 11-13</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.018">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:3</container>
+                     <container localtype="reel">4:1</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-09-14/1880-09-15" id="mfer6dd852d0018f4295997bdb3dbeb38e1d">1880, Sept. 14-15</date>
+                     </unittitle>
+                     <unitdate normal="1880-09-14/1880-09-15">1880, Sept. 14-15</unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.019">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:3</container>
+                     <container localtype="reel">4:2</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-09-16/1880-09-17" id="mferc212cfc6ab6a465ca27ca1baf59f8f6c">1880, Sept. 16-17</date>
+                     </unittitle>
+                     <unitdate normal="1880-09-16/1880-09-17">1880, Sept. 16-17</unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.020">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-09-18/1880-09-20" id="mfercb6b5d7115c4457b9ef9c2617be262a9">1880, Sept. 18-20 </date>
+                     </unittitle>
+                     <unitdate normal="1880-09-18/1880-09-20">1880, Sept. 18-20 </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.021">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-09-21/1880-09-23" id="mfer45b050372e714d618ef81bd3010ba227">1880, Sept. 21-23 </date>
+                     </unittitle>
+                     <unitdate normal="1880-09-21/1880-09-23">1880, Sept. 21-23 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.022">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:4</container>
+                     <container localtype="reel">4:2</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-09-24/1880-09-25" id="mferffe937e5377e42b6861b9bdc476a33c3">1880, Sept. 24-25 </date>
+                     </unittitle>
+                     <unitdate normal="1880-09-24/1880-09-25">1880, Sept. 24-25 </unitdate>
+                     <physdesc encodinganalog="300">(7 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.023">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-09-26/1880-09-27" id="mfer0d2390c105ef4c6b96f4109131a113cf">1880, Sept. 26-27 </date>
+                     </unittitle>
+                     <unitdate normal="1880-09-26/1880-09-27">1880, Sept. 26-27 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.024">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-09-28/1880-09-31" id="mfer3bf25dacafd24277bc8cef73ee227f65">1880, Sept. 28-31</date> ,
+                           <date normal="1880-09" id="mferc39685742b024b96b497e8eb5b8fdbac">circa
+                           1880, Sept.</date>
+                     </unittitle>
+                     <unitdate normal="1880-09-28/1880-09-31">1880, Sept. 28-31</unitdate>
+                     <unitdate normal="1880-09">circa 1880, Sept.</unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.025">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:5</container>
+                     <container localtype="reel">4:2</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-01/1880-10-02" id="mfere63f42fdc82d4031a768873f9581c981">1880, Oct. 1-2 </date>
+                     </unittitle>
+                     <unitdate normal="1880-10-01/1880-10-02">1880, Oct. 1-2 </unitdate>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.026">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-03/1880-10-04" id="mfer07ff1ad8c8c34714b32b0e659c8de4f2">1880, Oct. 3-4 </date>
+                     </unittitle>
+                     <unitdate normal="1880-10-03/1880-10-04">1880, Oct. 3-4 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.027">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-05" id="mfer4af1ead613424a6b98f052958668eb86">1880,
+                           Oct. 5 </date>
+                     </unittitle>
+                     <unitdate normal="1880-10-05">1880, Oct. 5 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.028">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-06/1880-10-07" id="mfer32a1ccd6422944b89eba6db0a79e793e">1880, Oct. 6-7 </date>
+                     </unittitle>
+                     <unitdate normal="1880-10-06/1880-10-07">1880, Oct. 6-7 </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.029">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:6</container>
+                     <container localtype="reel">4:2</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-08/1880-10-10" id="mfer64c8f7870084465cbd6f7aaba002477c">1880, Oct. 8-10</date>
+                     </unittitle>
+                     <unitdate normal="1880-10-08/1880-10-10">1880, Oct. 8-10</unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.030">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:6</container>
+                     <container localtype="reel">4:3</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-11/1880-10-13" id="mfer569ae4f005784ef9a18f3e629daf1fc8">1880, Oct. 11-13</date>
+                     </unittitle>
+                     <unitdate normal="1880-10-11/1880-10-13">1880, Oct. 11-13</unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.031">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-14/1880-10-15" id="mfer905aef5e4cb843c9b3da7c69fa87dcbb">1880, Oct. 14-15</date>
+                     </unittitle>
+                     <unitdate normal="1880-10-14/1880-10-15">1880, Oct. 14-15</unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.032">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:7</container>
+                     <container localtype="reel">4:3</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-16/1880-10-18" id="mfer8553bc371b464e57bd6052db37de403b">1880, Oct. 16-18 </date>
+                     </unittitle>
+                     <unitdate normal="1880-10-16/1880-10-18">1880, Oct. 16-18 </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.033">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-19" id="mferd783bb22527f4ba7b44dac16aee87b91">1880,
+                           Oct. 19 </date>
+                     </unittitle>
+                     <unitdate normal="1880-10-19">1880, Oct. 19 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.034">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-20" id="mferff41f6dc913544ef8a763c5e97011ba3">1880,
+                           Oct. 20 </date>
+                     </unittitle>
+                     <unitdate normal="1880-10-20">1880, Oct. 20 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.035">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:8</container>
+                     <container localtype="reel">4:3</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-21" id="mfer317ffaf746c8415ea0ac88a81d2d9a3d">1880,
+                           Oct. 21</date>
+                     </unittitle>
+                     <unitdate normal="1880-10-21">1880, Oct. 21</unitdate>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.036">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-22" id="mferf2116be7314d4e13b3f61564f6b7c289">1880,
+                           Oct. 22 </date>
+                     </unittitle>
+                     <unitdate normal="1880-10-22">1880, Oct. 22 </unitdate>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.037">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-23/1880-10-24" id="mfera82a6e0ee4f747e0bcfe166b0eb559e6">1880, Oct. 23-24 </date>
+                     </unittitle>
+                     <unitdate normal="1880-10-23/1880-10-24">1880, Oct. 23-24 </unitdate>
+                     <physdesc encodinganalog="300">(7 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.038">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:9</container>
+                     <container localtype="reel">4:3</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-25" id="mfer8e366caecc424c3383ea607dba74fc7e">1880,
+                           Oct. 25</date> , A-L</unittitle>
+                     <unitdate normal="1880-10-25">1880, Oct. 25</unitdate>
+                     <physdesc encodinganalog="300">(11 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.039">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-25" id="mfer1df5d4b2da5646ce99561d556b11ec76">1880,
+                           Oct. 25</date> , M-Z and undated</unittitle>
+                     <unitdate normal="1880-10-25">1880, Oct. 25</unitdate>
+                     <physdesc encodinganalog="300">(10 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.040">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-26" id="mfer61059e1e4d3a4d90b0c240d2c2a670ed">1880,
+                           Oct. 26</date> , A-L</unittitle>
+                     <unitdate normal="1880-10-26">1880, Oct. 26</unitdate>
+                     <physdesc encodinganalog="300">(10 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.041">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:10</container>
+                     <container localtype="reel">4:4</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-26" id="mfer1e7c6b0872f7446fb7c15cc55c648bb5">1880,
+                           Oct. 26</date> , M-W</unittitle>
+                     <unitdate normal="1880-10-26">1880, Oct. 26</unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.042">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-27" id="mferc940b40f8ce84c8ea1ac2447f37e4fb8">1880,
+                           Oct. 27 </date>
+                     </unittitle>
+                     <unitdate normal="1880-10-27">1880, Oct. 27 </unitdate>
+                     <physdesc encodinganalog="300">(9 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.043">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-28" id="mferc072a19a787e4f4eb745f16ae0f41a84">1880,
+                           Oct. 28 </date>
+                     </unittitle>
+                     <unitdate normal="1880-10-28">1880, Oct. 28 </unitdate>
+                     <physdesc encodinganalog="300">(9 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.044">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:11</container>
+                     <container localtype="reel">4:4</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-10-29/1880-10-31" id="mfer72b73520c0ad47d086749b758c2dd7b7">1880, Oct. 29-31</date> ,
+                        undated</unittitle>
+                     <unitdate normal="1880-10-29/1880-10-31">1880, Oct. 29-31</unitdate>
+                     <physdesc encodinganalog="300">(8 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.045">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-11-01/1880-11-10" id="mferfd9a29d1f92c498ebd6975f3dafa53d4">1880, Nov. 1-10</date>
+                     </unittitle>
+                     <unitdate normal="1880-11-01/1880-11-10">1880, Nov. 1-10</unitdate>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.046">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880-11-11/1880-11-30" id="mferc40bd02ddc4548b6a2d66654c005204b">1880, Nov. 11-30</date>
+                     </unittitle>
+                     <unitdate normal="1880-11-11/1880-11-30">1880, Nov. 11-30</unitdate>
+                     <physdesc encodinganalog="300">(7 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.047">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:12</container>
+                     <container localtype="reel">4:4</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1880" id="mfer70c872487e5047e3927cb0b17ea0fe59">1880</date>
+                     </unittitle>
+                     <unitdate normal="1880">1880</unitdate>
+                     <physdesc encodinganalog="300">(12 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.048">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1881" id="mfer5c2506987de5437282cf8cfce8c09f9a">1881</date>
+                     </unittitle>
+                     <unitdate normal="1881">1881</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.049">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1882" id="mfer8a4781034b3840bcab4ed785c2f26b6d">1882</date>
+                     </unittitle>
+                     <unitdate normal="1882">1882</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.050">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1883" id="mfercd13cf028e5f4f7b8cf8251faf01ab75">1883 </date>
+                     </unittitle>
+                     <unitdate normal="1883">1883 </unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.051">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1884/1887" id="mferb3a23fe8a2244bc19030df1fdbb5e0ce">1884-1887</date>
+                     </unittitle>
+                     <unitdate normal="1884/1887">1884-1887</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.052">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Undated </unittitle>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.053">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:13</container>
+                     <container localtype="reel">4:4</container>
+                     <unittitle encodinganalog="245$a">Indexes to three vols. of letterbooks, 1880,
+                        May-Nov., accompanied by lists in the original arrangement of the letters
+                        before they were disbound and filed chronologically in this series
+                     </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Vol. 1</unittitle>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.054">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Vol. 2</unittitle>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.055">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Vol. 3</unittitle>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.056">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">4:13-16</container>
+                  <container localtype="reel">4:4-6</container>
+                  <unittitle encodinganalog="245$a" id="fin4"> Financial Papers, <date normal="1855/1886" id="mfer18466d579e6c4680b744889800c55779">1855-1886</date>
+                  </unittitle>
+                  <unitdate normal="1855/1886">1855-1886</unitdate>
+               </did>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of material.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:13</container>
+                     <container localtype="reel">4:4</container>
+                     <unittitle encodinganalog="245$a">Account books</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Family expense book, <date normal="1873/1876" id="mfer18d0aaeffb90468b8348617b78807f7f">1873-1876</date> , and personal and family expense book, <date normal="1881/1882" id="mferf94f079f128b4b0ab3f4a1a1e5907994">1881-1882</date>
+                        </unittitle>
+                        <unitdate normal="1873/1876">1873-1876</unitdate>
+                        <unitdate normal="1881/1882">1881-1882</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.057">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Presidential, <date normal="1882/1885" id="mfer9ae6fe184add4377a27a491fc95ee7a2">1882-1885</date>
+                        </unittitle>
+                        <unitdate normal="1882/1885">1882-1885</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.058">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Checkbooks</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Arthur family, <date normal="1876/1881" id="mferabd19cc178964f189144091206ff1dc2">1876-1881</date>
+                        </unittitle>
+                        <unitdate normal="1876/1881">1876-1881</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.059">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4:13</container>
+                        <container localtype="reel">4:5</container>
+                        <unittitle encodinganalog="245$a">Presidential, <date normal="1882/1884" id="mfer4cc254fa6d834c4dba88f1bb7bd8a8e7">1882-1884</date>
+                        </unittitle>
+                        <unitdate normal="1882/1884">1882-1884</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.060">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:14</container>
+                     <container localtype="reel">4:5</container>
+                     <unittitle encodinganalog="245$a">Checks</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date normal="1871/1874" id="mferf6177687724f41e981485093988cd1b1">1871-1874</date>
+                        </unittitle>
+                        <unitdate normal="1871/1874">1871-1874</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.061">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date normal="1875/1878" id="mfer163460b0e7894f84ad338730a485db64">1875-1878</date>
+                        </unittitle>
+                        <unitdate normal="1875/1878">1875-1878</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.062">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date normal="1880/1883" id="mferbcd42519c39147de85812f8d88241e4d">1880-1883</date>
+                        </unittitle>
+                        <unitdate normal="1880/1883">1880-1883</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.063">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date normal="1884/1886" id="mfer9f38a83bc9914e109d67aaf0cc5b9668">1884-1886</date>
+                        </unittitle>
+                        <unitdate normal="1884/1886">1884-1886</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.064">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Estate of Chester Alan Arthur and Elizabeth
+                        H. Herndon, <date normal="1886" id="mferd0881cae2105417c9ce4744b895b7670">1886</date>
+                     </unittitle>
+                     <unitdate normal="1886">1886</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.065">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:15</container>
+                     <container localtype="reel">4:5</container>
+                     <unittitle encodinganalog="245$a">Financial affairs of Elizabeth H.
+                        Herndon</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Bills and receipts</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1856/1857" id="mfer2fd8f63447c641669116a094724c6a9a">1856-1857</date>
+                           </unittitle>
+                           <unitdate normal="1856/1857">1856-1857</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.066">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1858-01/1858-07" id="mfer7c3a91e77ba24eed96e1d5d74f36a37d">1858, Jan.-July</date>
+                           </unittitle>
+                           <unitdate normal="1858-01/1858-07">1858, Jan.-July</unitdate>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.067">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1858-08" id="mfer195bd5c82ffe43fbb16921aea345f566">1858,
+                                 Aug.</date>
+                           </unittitle>
+                           <unitdate normal="1858-08">1858, Aug.</unitdate>
+                           <physdesc encodinganalog="300">(4 folders)</physdesc>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.068">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1858-09/1858-12" id="mfer8101299e8a4d477797df4e75ec8a31ad">1858, Sept.-Dec.</date>
+                           </unittitle>
+                           <unitdate normal="1858-09/1858-12">1858, Sept.-Dec.</unitdate>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.069">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1859" id="mfered6e1fb2562a43faada3c55538652ada">1859</date>
+                           </unittitle>
+                           <unitdate normal="1859">1859</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.070">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1860/1863" id="mfer1c2b484db0784b9cb7e1b24903494661">1860-1863</date> , undated</unittitle>
+                           <unitdate normal="1860/1863">1860-1863</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.071">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4:16</container>
+                        <container localtype="reel">4:5</container>
+                        <unittitle encodinganalog="245$a">Insurance policies</unittitle>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.072">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellaneous </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.073">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4:16</container>
+                        <container localtype="reel">4:6</container>
+                        <unittitle encodinganalog="245$a">Mortgages, deeds, releases, <date normal="1855/1863" id="mfer789e45653ad34188805843111f449605">1855-1863</date> , <date normal="1871" id="mferb2f63685133c48dda732e6ea82f5b600">1871</date>
+                        </unittitle>
+                        <unitdate normal="1855/1863">1855-1863</unitdate>
+                        <unitdate normal="1871">1871</unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.074">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Receipts and promissory note, <date normal="1873/1886" id="mfer3250aa9830e44b2e9950ff6e19d1674b">1873-1886</date>
+                     </unittitle>
+                     <unitdate normal="1873/1886">1873-1886</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.075">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">4:17</container>
+                  <container localtype="reel">4:6</container>
+                  <unittitle encodinganalog="245$a" id="scrap4"> Scrapbooks, <date normal="1871/1884" id="mfer0e09823b744c4731862da74dc464e89d">1871-1884</date>
+                  </unittitle>
+                  <unitdate normal="1871/1884">1871-1884</unitdate>
+               </did>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by subject.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:17</container>
+                     <container localtype="reel">4:6</container>
+                     <unittitle encodinganalog="245$a">Clippings</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Arthur and the New York Custom House, New
+                           York, N.Y., <date normal="1871/1877" id="mfer2a8d924f1c5f4ec199da5c45f8bf9f76"> 1871-1877</date>
+                        </unittitle>
+                        <unitdate normal="1871/1877"> 1871-1877</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.076">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Political and personal life of Arthur,
+                           1883-1884</unittitle>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.077">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">4:18-19</container>
+                  <container localtype="reel">4:6-7</container>
+                  <unittitle encodinganalog="245$a" id="misc4"> Miscellany, <date normal="1857/1960" id="mfer2d4788de15d14fcd856eae7d3ef34f18">circa 1857-1960</date>
+                  </unittitle>
+                  <unitdate normal="1857/1960">circa 1857-1960</unitdate>
+               </did>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged alphabetically by type of material or topic.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:18</container>
+                     <container localtype="reel">4:6</container>
+                     <unittitle encodinganalog="245$a">Address books of Arthur's wife, Ellen Herndon
+                        Arthur (1838-1880) and daughter, Ellen Herndon Arthur Pinkerton
+                        (1871-1915)</unittitle>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.078">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Address about Arthur by William E. Chandler,
+                           <date normal="1903" id="mferda0c7b8893754b6984235db78e43ddfe">1903</date>
+                     </unittitle>
+                     <unitdate normal="1903">1903</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.079">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Answer of the Weighers of the Port of New York to the Report of the
+                              Commission To Investigate the New York Custom House</part>
+                        </title> (1877?)</unittitle>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.080">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Arthur family Bible, photocopy of pages
+                        relating to births, marriages, and deaths, <date normal="1857/1937" id="mfer16db07bb729349dd9a21036a4e47c120">circa 1857-1937</date> (Bible
+                        in Rare book Division)</unittitle>
+                     <unitdate normal="1857/1937">circa 1857-1937</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.081">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Arthur family genealogy</unittitle>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.082">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Arthur, Chester Alan, last will and
+                        testament, <date normal="1886-03-08" id="mfer184270033a80407ca315b7f65e02edd5">1886, Mar. 8</date> , and
+                        report of the executors of his estate, <date normal="1888-07-24" id="mferc69dd836999145eba79dc293dae8f745">1888, July 24 </date>
+                     </unittitle>
+                     <unitdate normal="1886-03-08">1886, Mar. 8</unitdate>
+                     <unitdate normal="1888-07-24">1888, July 24 </unitdate>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.083">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="reel">4:7</container>
+                     <unittitle encodinganalog="245$a">Certificates and commission appointing Arthur
+                        as custom collector for the Port of New York, <date normal="1871/1881" id="mfer7545d178310747b0a494c8873f8e96f2">1871-1881</date>
+                     </unittitle>
+                     <unitdate normal="1871/1881">1871-1881</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.084">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Election and calling cards</unittitle>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.085">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">General</unittitle>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.086">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:19</container>
+                     <container localtype="reel">4:7</container>
+                     <unittitle encodinganalog="245$a">Hendley, C. M., recollection of Arthur, <date normal="1925-04-22" id="mfer6d25557b3d1f4c4e9eb4e7286e5e7cd1">1925, Apr.
+                           22</date>
+                     </unittitle>
+                     <unitdate normal="1925-04-22">1925, Apr. 22</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.087">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Memorial to Arthur, by the Military order of
+                        the Loyal Legion of the United States, Commanders of the District of
+                        Columbia, <date normal="1886" id="mferce28e84e76e34d979f46fdfeaac62bda">1886</date>
+                     </unittitle>
+                     <unitdate normal="1886">1886</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.088">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Nicaraguan canal route proposal</unittitle>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.089">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Postcard photograph of Arthur, Arthur coat of
+                        arms, and seals</unittitle>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.090">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Record of expressions of sympathy on Arthur's
+                        death, <date normal="1886" id="mfer1130d856623a487099d649c6b196c244">1886</date>
+                     </unittitle>
+                     <unitdate normal="1886">1886</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.091">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reproductions of documents by, to, and about
+                        Arthur, <date normal="1853/1886" id="mferf48bfc64d37e4ad6bf3ae0563c409cfc">circa 1853-1886</date> , undated </unittitle>
+                     <unitdate normal="1853/1886">circa 1853-1886</unitdate>
+                     <physdesc encodinganalog="300">(15 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.092">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Republican Leaders: Life and Letter of Acceptance of Chester A.
+                              Arthur, the Republican Candidate for Vice President</part>
+                        </title> (New York: Cornwell press, Book and Job Printers, <date normal="1880" id="mfer4f705e9ea4764cdda856ff1cb55a5825">1880</date>
+                        )</unittitle>
+                     <unitdate normal="1880">1880</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.093">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sheffield, Owen A., and E. T. I. Thygeson,
+                        correspondence regarding Robert Graham Dun and Arthur, <date normal="1960" id="mferc5a0ee38190a4e0590b7ed24beeccfb5">1960</date>
+                     </unittitle>
+                     <unitdate normal="1960">1960</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.094">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Album of photographs, "Journey Through the
+                        Yellowstone National Park and Northwestern Wyoming, <date normal="1883" id="mfer7242faa056b84b3baf96d31a5f547650">1883</date> " (from Prints and
+                        Photographs Division)</unittitle>
+                     <unitdate normal="1883">1883</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.095">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">4:19</container>
+               <container label="not filmed"/>
+               <unittitle id="addII" encodinganalog="245$a"> Series 5: Addition II, <date normal="1882" id="mfer19f111df6135422abcb56dcbe43f54fc">1882</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1882">1882</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letter from Arthur to John Sutherland, New York City restauranteur, thanking him
+                  for the "haunch of Caribou."</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4:19</container>
+                  <container label="not filmed"/>
+                  <unittitle encodinganalog="245$a">Letter, Arthur to Sutherland, <date normal="1882" id="mfer8297cef2fc9d471db6178248fd1db7ff">1882 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f" normal="1882">1882 </unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009139.mss11213.096">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+      <bibliography>
+         <head>Selected Bibliography</head>
+         <p>[From <title localtype="simple">
+               <part>Index to the Chester A. Arthur Papers.</part>
+            </title> (Washington, D.C.: 1961), p. vii]</p>
+         <bibref>
+            <title localtype="simple">
+               <part>Annual Report of the Librarian of Congress,</part>
+            </title> 1925, p. 56-57; 1938-39, p. 44-45.</bibref>
+         <bibref>Garrison, Curtis W., <title localtype="simple">
+               <part>List of Manuscript Collections in the Library of Congress to July 1931</part>
+            </title> (Washington, 1932), p. 215.</bibref>
+         <bibref>Hamer, Philip M., ed., <title localtype="simple">
+               <part>A Guide to Archives and Manuscripts in the United States</part>
+            </title> (New Haven, 1961), p. 85, 416, 492.</bibref>
+         <bibref>Howe, George F., <title localtype="simple">
+               <part>Chester A. Arthur, A Quarter-Century of Machine Politics</part>
+            </title> (New York, 1957), p. 292.</bibref>
+         <bibref>Powell, C. Percy, <title localtype="simple">
+               <part>List of Manuscript Collections Received in the Library of Congress July 1931 to
+                  July 1938</part>
+            </title> (Washington, 1939), p. 17.</bibref>
+         <bibref>"The Present Status of Presidential Papers," <title localtype="simple">
+               <part>Manuscripts,</part>
+            </title> VIII (Fall 1955), 14.</bibref>
+         <bibref>Rowland, Buford, "The Papers of the Presidents," <title localtype="simple">
+               <part>American Archivist,</part>
+            </title> XIII (July 1950), 206; reprinted in <title localtype="simple">
+               <part>Autograph Collectors' Journal,</part>
+            </title> III (Summer 1951), 49.</bibref>
+         <bibref> Shelley, Fred, "The Chester A. Arthur Papers," Library of Congress <title localtype="simple">
+               <part>Quarterly Journal of Current Acquisitions,</part>
+            </title> 16 (May 1959), 115-22.</bibref>
+         <bibref>U.S. Library of Congress, <title localtype="simple">
+               <part>Handbook of Manuscripts in the Library of Congress</part>
+            </title> (Washington, 1918), p. 31.</bibref>
+      </bibliography>
+   </archdesc>
+</ead>

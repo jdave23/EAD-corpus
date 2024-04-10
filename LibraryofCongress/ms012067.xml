@@ -1,0 +1,2597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms012067">loc.mss/eadmss.ms012067</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>James Harold Doolittle Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by Manuscript Division Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+                           <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+               Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2016" encodinganalog="260$c" era="ce" calendar="gregorian">2016</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm82018754">https://lccn.loc.gov/mm82018754</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2016-10">2016 October</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Addition made</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2014">2014</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">James Harold Doolittle Papers  <date altrender="Span Dates" localtype="inclusive" normal="1919/1971">1919-1990</date> 
+                        <date altrender="Bulk Dates" localtype="bulk" normal="1940/1960">(bulk
+               1940-1960)</date> 
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1919/1971"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1919-1990</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1940/1960"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk
+               1940-1960)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS18754</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Doolittle, James Harold, 1896-1993</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">33,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">110 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">29.8 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in English
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852">
+                        <corpname>
+                           <part>
+                Manuscript Division,  Library of Congress</part>
+                        </corpname>
+                        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">U.S. Air Force officer and U.S. Army officer. Correspondence, speeches, writings, reports, newspaper clippings, scrapbooks, awards, maps, photographs, and other papers relating chiefly to Doolittle's service in the U.S. Air Force.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20201216155334.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Arnold, Henry Harley, 1886-1950--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Chiang, May-ling Soong, 1897-2003--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Doolittle, James Harold, 1896-1993.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Eisenhower, Dwight D. (Dwight David), 1890-1969--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Halsey, William F. (William Frederick), 1882-1959--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>King, Ernest Joseph, 1878-1956--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Magnolia, L. R.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Marshall, George C. (George Catlett), 1880-1959--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Patton, George S. (George Smith), 1885-1945--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Spaatz, Carl, 1891-1974--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Taylor, Maxwell D. (Maxwell Davenport), 1901-1987--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Air Force.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Aerial operations, American.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Campaigns--Japan.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Tokyo (Japan)--History--Bombardment, 1942.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Air Force officers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Army officers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The papers of James Harold Doolittle, U.S Air Force officer and U.S. Army officer, were given to the Library of Congress by Doolittle in 1974. Additional material was given by Lee R. Magnolia from 1988 to 1990. 
+            </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The James Harold Doolittle Papers were housed and described in 1975 and expanded in 2016. The finding aid was revised in 2013 and 2016.
+            </p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Record albums have been transferred to the Library's Motion Picture, Broadcasting, and Recorded Sound Division where they are identified as part of these papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of James H. Doolittle  is
+               governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of James Harold Doolittle are open to research. Researchers are advised to contact the
+               Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+               advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+               Container number, James Harold Doolittle Papers, Manuscript Division, Library of Congress, Washington,
+               D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1896, Dec. 14</datesingle>
+               <event>Born, Alameda, Calif.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1916</datesingle>
+               <event>Entered University of California, Berkeley, Calif.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1917</datesingle>
+               <chronitemset>
+                              <event>Flying cadet, United States Army Signal Corps</event>
+                              <event>Married Josephine Daniels (died 1988)</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1918</datesingle>
+               <event>Completed flight training and commissioned second lieutenant</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1920</datesingle>
+               <event>Regular commission and promoted to first lieutenant</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1922</datesingle>
+               <chronitemset>
+                              <event>Bachelor of arts, University of California, Berkeley, Calif.</event>
+                              <event>First air crossing of the United States under twenty-four hours</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1924</datesingle>
+               <event>Masters of science, Massachusetts Institute of Technology, Boston, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1925</datesingle>
+               <chronitemset>
+                              <event>Doctorate in aeronautical engineering, Massachusetts Institute of Technology, Boston, Mass.</event>
+                              <event>Won Schneider Cup Race</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1927</datesingle>
+               <event>First flier to perform outside loop</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1930</datesingle>
+               <chronitemset>
+                              <event>Resigned regular army commission</event>
+                              <event>Awarded Harmon Trophy</event>
+                              <event>Manager, Aviation Division, Shell Oil Co.</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1931</datesingle>
+               <event>Won Bendix Trophy Race from Burbank, Calif. to Cleveland, Ohio</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1932</datesingle>
+               <event>Won Thompson Trophy, Cleveland, Ohio 
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1940</datesingle>
+               <chronitemset>
+                              <event>President of the Institute of Aeronautical Sciences</event>
+                              <event>Returned to active duty, Army Air Corps</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1942</datesingle>
+               <chronitemset>
+                              <event>Led sixteen B-25 bombers off deck of aircraft carrier in bombing raid over Japan</event>
+                              <event>Promoted to brigadier general</event>
+                              <event>Promoted to major general</event>
+                              <event>Awarded Congressional Medal of Honor</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1943</fromdate>
+                              <todate>1945</todate>
+                           </daterange>
+               <chronitemset>
+                              <event>Commanded Twelfth Air Force in North Africa</event>
+                              <event>Commanded Fifteenth Air Force in Mediterranean theater</event>
+                              <event>Commanded Eighth Air Force in Europe and the Pacific</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1946</datesingle>
+               <event>Inactive reserve status</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1946</fromdate>
+                              <todate>1967</todate>
+                           </daterange>
+               <event>Vice president, Shell Oil Co.; later a director</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1948</datesingle>
+               <event>Awarded Silver Star</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1951</datesingle>
+               <event>Special assistant to chief of staff, Air Force </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1959</datesingle>
+               <event>Retired from the United States Air Force</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1959</fromdate>
+                              <todate>1963</todate>
+                           </daterange>
+               <event>Chairman of board of Space Technology Laboratories, Inc., Redondo Beach, Calif.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1983</datesingle>
+               <event>Received United States Military Academy’s Sylvanus Thayer Award for distinguished military service</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1985</datesingle>
+               <event>Promoted to four star general</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1989</datesingle>
+               <event>Awarded Presidential Medal of Freedom</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1993, Sept. 27</datesingle>
+               <event>Died, Pebble Beach, Calif.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of James H. Doolittle (1896-1993) span the years 1919-1990, with the bulk of
+            the material concentrated in the period 1940-1960 and consisting of correspondence,
+            speeches, writings, reports, newspaper clippings, scrapbooks, awards, maps, photographs,
+            and other papers relating chiefly to Doolittle's service in the United States Air Force.
+            Doolittle had a long career as a civilian and military aviator, government official and
+            adviser, and business executive, but he was most celebrated for directing and leading an
+            air raid on Tokyo in the early months of World War II against Japan. The collection is
+            organized into seven series: <ref target="correspfile">
+                Correspondence File 
+            </ref>, <ref target="genfile">
+                General File 
+            </ref>, <ref target="naca">
+                National Advisory Committee
+               for Aeronautics 
+            </ref>, <ref target="speech">
+                Speeches and Articles 
+            </ref>, <ref target="miscella">
+                Miscellany 
+            </ref>, <ref target="Add">
+                Addition 
+            </ref>, and <ref target="overs">
+                Oversize 
+            </ref>.</p>
+         <p>Included in the collection are military records of Doolittle and a large amount of
+            photographs and printed material. In general, the correspondence contains routine
+            discussions of business matters, hunting trips, social affairs, and reunions of the
+            American fliers who attacked Tokyo in April 1942. Materials relating to the raid include
+            a map of Japan signed by some of the participants, telegrams from Generals George C.
+            Marshall and Henry Harley Arnold, a handwritten memorandum from Admiral Ernest Joseph
+            King, and letters of thanks and appreciation from Admiral William F. Halsey and May
+            Ling-Soong Chiang. Additional correspondents from the war period include letters from
+            Dwight D. Eisenhower, George S. Patton, Carl Spaatz, and Maxwell D. Taylor.</p>
+         <p>An addition to the papers includes correspondence, articles about Doolittle, and a photograph showing a formation of B-25s in dual mode. Most of the correspondence consists of short notes from Doolittle thanking Lee R. Magnolia for sending clippings related to aviation, aerospace, politics, whaling, and other topics. </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in seven series:</p>
+         <list>
+            <item>
+                           <ref target="correspfile">
+                   Correspondence File, 1940-1959 
+               </ref>
+                        </item>
+            <item>
+                           <ref target="genfile">
+                   General File, 1920-1970 
+               </ref>
+                        </item>
+            <item>
+                           <ref target="naca">
+                   National Advisory Committee for Aeronautics, 1956-1958 
+               </ref>
+                        </item>
+            <item>
+                           <ref target="speech">
+                   Speeches and Articles, 1943-1956 
+               </ref>
+                        </item>
+            <item>
+                           <ref target="miscella">
+                   Miscellany, 1919-1971 
+               </ref>
+                        </item>
+            <item>
+                           <ref target="Add">
+                   Addition, 1957-1990 
+               </ref>
+                        </item>
+            <item>
+                           <ref target="overs">
+                   Oversize 
+               </ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-4</container>
+               <unittitle encodinganalog="245$a" id="correspfile">Correspondence File,  <date normal="1940/1959">1940-1959</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" normal="1940/1959">1940-1959</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent and received. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by name of correspondent and therein chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"A" miscellaneous, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"B" miscellaneous, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"C" miscellaneous, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"D" miscellaneous, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"E" miscellaneous, 1940, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"F" miscellaneous, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"G" miscellaneous, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Guggenheim, Harry, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"H" miscellaneous, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hill, Walter, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"I" miscellaneous, 1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"J" miscellaneous, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"K" miscellaneous, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lovelace, Randolph, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"L" miscellaneous, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"M" miscellaneous, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">"N" miscellaneous, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Partridge, E. E., 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"P" miscellaneous, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Q" miscellaneous, 1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"R" miscellaneous, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"S" miscellaneous, 1955-1959</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"T" miscellaneous, 1956-1959</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">"U" miscellaneous, 1957-1959</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"V" miscellaneous, 1956-1959</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"W" miscellaneous, 1955-1959</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"X-Z" miscellaneous, 1956-1957</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">4-36</container>
+               <unittitle encodinganalog="245$a" id="genfile">General File,  <date normal="1920/1970">1920-1970</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" normal="1920/1970">1920-1970</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, memoranda, invitations, reports, lists, studies, printed matter, and
+                  miscellaneous material. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by subject or type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Alaska trips-awards, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Clubs</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">General, 1939, 1949-1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bohemian, 1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Boone and Crockett , 1955-1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Order of Daedalians, 1956-1959</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">The Explorers Club, 1956-1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lotos Club, 1956-1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">National Aviation Club, 1956-1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">The Wings Club, 1956-1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Quartet Club-Maine, 1956-1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Shiners and masons, 1956-1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Tokyo fliers, 1956-1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Waterhen Lodge, 1956-1958</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Collier Award committee, 1953-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Dr. C. C. Criss Award, 1950-1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Flight Safety Foundation, 1948-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Guggenheim awards, 1950-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Harmon Trophy awards, 1950-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">J. C. Hunsaker Fund, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">National Industrial Conference Board, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">National Safety Council, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Red Cross, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Von Karman Institute, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Wycombe Abbey Foundation, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Air University-Maxwell Air Force Base, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">U. S. Air Force-general, 1956-195</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Air Force-research and development, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Membership lists, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Air Force-Scientific Advisory Board, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Aviation general, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Congress, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Defense Science Board, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Foreign intelligence activities, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Institute of Aeronautical Science, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Joint Civilian Orientation Conference, 1956-1959</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Massachusetts Institute of Technology</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, 1956-1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Minutes, 1956-1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Aeronautical engineering visiting committee, 1956-1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sponsored research visiting committee, 1956-1958</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">National Advisory Committee for Aeronautics</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">National Aeronautics and Space Act, 1958</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">General, 1956-1957 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">National Air Museum-Smithsonian, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Research-projects-studies funds, 1957-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Science Advisory Committee, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Security Resources Panel, 1957</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Space Technology Laboratories, 1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Stassen Disarmament Committee, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Stassen, Harold, report, 1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Strategic Air Command tours, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Acceptances, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Itineraries, 1951-1958 </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Literary efforts (others), 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Luncheons-dinners-awards, 1957-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Requests: photographs, advice, autographs, testimonials, etc., 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Television, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Coral Sea celebration, 1956</unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  <container localtype="box">14</container>
+                  <physdesc encodinganalog="300">(1 folder)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Department of Defense, electronic parts and tubes, 1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Telegrams, 1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Biography, 1940</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Personal papers-military, 1946-1959 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Passports, 1950</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Biographical material, 1957</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cadillac, 1956-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Assignment as special assistant to the secretary and to chief of staff</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1952-1955</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Scenario Doolittle movie</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Reynold's book on Doolittle</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Doolittle's life story, <title>
+                                    <part>Collier's</part>
+                                 </title>
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Doolittle's flight record</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Doolittle's military appointments, 1946-1947</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Official military correspondence, 1945-1948 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Recommendations for regular army commission, 1946</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Reunion of 8th Air Force in England, 1947</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Personal correspondence, special, 1943-1945</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous letters, etc., 1933-1942</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Military correspondence, 1920-1930</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Commanding general's reports, 1944-1945</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pilot handbooks, air force radio facility charts, installations, air route manuals, etc., 1943-1945</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Bombardment planning, U.S. prior to joining 8th Air Force, England, 1942 </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bombing British by day, Japanese strategy, torpedo, etc. 1941-1942</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Report on visit to England, 1941</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Alaska, Adak, Marks Air Force Base, Ladd Air Force Base</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Korea</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">8th Air Force, Okinawa, 1945</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">North Africa</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Operational file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1945</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">1944</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1942-1943</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Official entertainment voucher, 1944-1945</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Songs, poems, etc., 1943-1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Signal Corps property, 1940</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Property, army, accountable, 1942</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tokyo fliers, correspondence, 1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Tokyo fliers</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tokyo raiders meeting, Galveston, Tex., 1949</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tokyo fliers, 1947-1948</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tokyo fliers party</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1948</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1947 </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tokyo flight matters</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tokyo fliers, 1946</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Tokyo fliers, Miami, Fla., 1946</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Material on Tokyo raid</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Report on aerial bombing of Tokyo, 1942</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Crew reports, 1942</unittitle>
+                  <physdesc encodinganalog="300">(2 items)</physdesc>
+                  <container localtype="box">22</container>
+                  <physdesc encodinganalog="300">(2 unlabeled folders and 4 items)</physdesc>
+                  <container localtype="box">23</container>
+                  <physdesc encodinganalog="300">(1 item)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Speeches after Tokyo</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Personal</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">A, 1946-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">B, 1948-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">C, 1949-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">D, 1947-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">E, 1949-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">F, 1949-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">G, 1949-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">H, 1948-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">I, 1953-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">J, 1948-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">K, 1947-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">L, 1949-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">M, 1948-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">N, 1949-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">O, 1949-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">P, 1948-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Q, 1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">R, 1947-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">S, 1946-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">T, 1949-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">U, 1953-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">V, 1949-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">W, 1949-1955</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">X, Y, Z, 1949-1955</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">Air Force correspondence, Washington, D.C.,  office</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Air Force Historical Society</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Air Board</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Air Force Association, 1946-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Air Force Scientific Advisory Board</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Acceptances, 1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Arnold Air Society</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Air Research and Development Command</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Berlin airlift</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Brayton</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Civilian advisory committee</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lionel Curtis</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">Commission on the National Security Organization</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Congressional Air Policy Board</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Civil defense</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Active tour of duty, 1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Northeast Air Command, 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cleveland, Ohio, national air races, 1932</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Doolittle, Missouri</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Eisenhower-Nixon campaign</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">English Speaking Union (Fellowship of United States and British Comrades)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">31</container>
+                  <unittitle encodinganalog="245$a">Henry Ford, Chairman National Conference of Christians and Jews </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">1st Army Advisory Committee for Greater New York</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">50th anniversary of powered flight</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Fred Herman Brooks Scholarship</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Walter Hill, 1946-1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Institute of the Aeronautical Sciences, 1941-1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Joint Civilian Orientation Conference, 1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous speeches and articles, 1943</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">Massachusetts Institute of Technology, financing plan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Massachusetts Institute of Technology, 1948-1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Military fuel requirements</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">President's Airport Commission</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">33</container>
+                  <unittitle encodinganalog="245$a">Retirement age study</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Frank Whittle</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Waterhen Lodge</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1948-1951</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1952-1953</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Wings Club, 1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">New York City Airport Authority material</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Doolittle's statement before Senate Military Affair Committee</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">34</container>
+                  <unittitle encodinganalog="245$a">Army Caste Board, report and correspondence</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">35</container>
+                  <unittitle encodinganalog="245$a">Tokyo raiders reunions</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1959</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1960</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1961</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1962</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1963</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1964</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1965</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1966  </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">36</container>
+                     <unittitle encodinganalog="245$a">1967 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1968</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1969</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1970</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">37</container>
+               <unittitle encodinganalog="245$a" id="naca">National Advisory Committee for Aeronautics,  <date normal="1956/1958">1956-1958</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" normal="1956/1958">1956-1958</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Meeting reports and minutes. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">37</container>
+                  <unittitle encodinganalog="245$a">1956-1958</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">38-40</container>
+               <unittitle encodinganalog="245$a" id="speech">Speeches and Articles,  <date normal="1943/1956">1943-1956</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" normal="1943/1956">1943-1956</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Copies of speeches and articles and related source material.  </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically with note cards filed at the end of the series.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">38</container>
+                  <unittitle encodinganalog="245$a">1943-1944</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">1945 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">1947</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">1948</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">1949</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">39</container>
+                  <unittitle encodinganalog="245$a">1950</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">1953</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40</container>
+                  <unittitle encodinganalog="245$a">1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Undated speeches and source material</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">8th Air Force note cards</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">41-109</container>
+               <unittitle encodinganalog="245$a" id="miscella">Miscellany,  <date normal="1919/1971">1919-1971</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" normal="1919/1971">1919-1971</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, reports, speeches and writings, photographs and photographs albums, newspaper clippings, scrapbooks, magazines, pamphlets and brochures, and other miscellany. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by type of material or subject.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">41</container>
+                  <unittitle encodinganalog="245$a">Doolittle's doctoral thesis, 1925</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Reports relating to raid</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Loose newspapers (3 items)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Steel cut for newspaper reproduction</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">42</container>
+                  <unittitle encodinganalog="245$a">Australia, 1956 (3 items)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Reports, 1942, 1957 (2 items)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Stassen disarmament air inspection, 1956-1959</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tokyo raiders' war fate, 1942-1947</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">43</container>
+                  <unittitle encodinganalog="245$a">Reports, 1954-1957 (4 items) </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Speeches, Doolittle and others, 1957-1959 (4 items)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Stassen committee, 1955-1957</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">44</container>
+                  <unittitle encodinganalog="245$a">Autobiography, incomplete</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Speeches by Doolittle, 1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Wings Club, 1950-1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">45</container>
+                  <unittitle encodinganalog="245$a">Job lists, 1955-1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Links Club dinner, 1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pistol licenses, 1948-1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Records, Gee-Bee monoplane, 1932</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Schneider seaplane race, 1925</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Trips and tours</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Air Force Research and Development Command, Korean tour, 1952</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Far East trip, 1950</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Shell U.S. Tour, 1952</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">46</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1953</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Apr.-June</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">July</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Aug.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Sept.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Oct.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Nov.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Dec.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1954</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Jan.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Feb.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Mar.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">47</container>
+                        <unittitle encodinganalog="245$a">Apr. </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">May</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">July</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Aug.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Sept.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">48</container>
+                        <unittitle encodinganalog="245$a">Oct.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Nov.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Dec.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">49</container>
+                     <unittitle encodinganalog="245$a">1955</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Jan.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Feb.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Mar.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Apr.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">May</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">50</container>
+                        <unittitle encodinganalog="245$a">June</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">July</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Aug.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Sept.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Oct.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">51</container>
+                        <unittitle encodinganalog="245$a">Nov.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Dec.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1956</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Jan</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Feb.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Mar.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">52</container>
+                  <unittitle encodinganalog="245$a">Clippings on Tokyo bombing, 1942</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1930</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1942</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">53</container>
+                  <unittitle encodinganalog="245$a">Photograph albums</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1947-1968 </unittitle>
+                     <physdesc encodinganalog="300">(10 vols.)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">54</container>
+                     <unittitle encodinganalog="245$a">1964-1966, undated </unittitle>
+                     <physdesc encodinganalog="300">(7 vols.)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">55</container>
+                     <unittitle encodinganalog="245$a">1955-1956, undated </unittitle>
+                     <physdesc encodinganalog="300">(6 vols.)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">56</container>
+                     <unittitle encodinganalog="245$a">1959, undated </unittitle>
+                     <physdesc encodinganalog="300">(5 vols.)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">Scrapbooks</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                                    <title>
+                                       <part>Gourmet</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">1950-1951</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">58</container>
+                        <unittitle encodinganalog="245$a">1952-1953</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">59</container>
+                        <unittitle encodinganalog="245$a">1954-1955</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">
+                                    <title>
+                                       <part>Sunset</part>
+                                    </title>, 1952-1955</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Newspaper clippings, 1950</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">61</container>
+                  <unittitle encodinganalog="245$a">Retired air force officers and widows, 1950-1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Good Housekeeping</part>
+                                 </title>, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Interview, 1960</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Magazine, food articles, untitled and undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Tokyo raiders reunion, 1967</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">64</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Good Housekeeping</part>
+                                 </title>, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">65</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1945</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">66</container>
+                     <unittitle encodinganalog="245$a">1950-1953</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">67</container>
+                     <unittitle encodinganalog="245$a">1946-1949</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">68</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Woman's Home Companion</part>
+                                 </title>, 1952-1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Ladies's Home Journal</part>
+                                 </title>
+                              </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1942-1945</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">70</container>
+                     <unittitle encodinganalog="245$a">1952-1954</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">71</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>American Home</part>
+                                 </title>, 1942-1949</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">72</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Ladies's Home Journal</part>
+                                 </title>, 1949-1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">73</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Words to Live By </part>
+                                 </title>and similar columns, 1947, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Illustrations from magazines, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Magazine articles and newspaper clippings, 1949-1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">76</container>
+                  <unittitle encodinganalog="245$a">Magazine covers, articles, illustrations, 1919-1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">77</container>
+                  <unittitle encodinganalog="245$a">Printed matter, 1925-1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Woman's Home Companion</part>
+                                 </title>, 1951-1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">79</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings and other, 1942-1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">80</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings, printed matter, and correspondence, 1919-1948</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">Radio script, speeches, and other material, 1942-1944</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">82</container>
+                  <unittitle encodinganalog="245$a">Wright Day dinner, 1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">83</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1942</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">84</container>
+                     <unittitle encodinganalog="245$a">1942</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">85</container>
+                  <unittitle encodinganalog="245$a">Air Force Association, 1946-1950</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">86</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1925-1931</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">87</container>
+                     <unittitle encodinganalog="245$a">1931-1932</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">88</container>
+                  <unittitle encodinganalog="245$a">Pike's Peak monument, 1953</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">89</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Woman's Home Companion</part>
+                                 </title>, 1942-1949</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">90</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings, 1940-1944</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">91</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>McCall's</part>
+                                 </title>
+                              </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1951-1952</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">92</container>
+                     <unittitle encodinganalog="245$a">1947-1954</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">93</container>
+                  <unittitle encodinganalog="245$a">Panama trip, 1968</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">94</container>
+                  <unittitle encodinganalog="245$a">Australian trip, 1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">95</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings, 1927-1928</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">96</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>The Doolittles in World War II</part>
+                                 </title>, 1942-1944</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">97</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1925-1926</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">98</container>
+                     <unittitle encodinganalog="245$a">1933, 1940-1943</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">99</container>
+                     <unittitle encodinganalog="245$a">1940-1943</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">100</container>
+                  <unittitle encodinganalog="245$a">Printed matter</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1946-1954</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">101</container>
+                     <unittitle encodinganalog="245$a">1929-1953</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">102</container>
+                     <unittitle encodinganalog="245$a">1919-1950</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">103</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings, correspondence, 1919-1926</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">104</container>
+                  <unittitle encodinganalog="245$a">Army-Navy Production Award, 1943</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">105</container>
+                  <unittitle encodinganalog="245$a">National Aviation Hall of Fame etchings, artwork, awards, and photographs, 1942-1971  
+                        <ref target="ovaward">
+                                    <emph render="italic">See also Oversize</emph>
+                                 </ref>
+                      
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">106</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Ladies's Home Journal</part>
+                                 </title>, 1947-1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">107</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Better Homes and Gardens</part>
+                                 </title>, 1951-1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">108</container>
+                  <unittitle encodinganalog="245$a">Printed matter</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1905-1951</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">109</container>
+                     <unittitle encodinganalog="245$a">1942-1953</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">110</container>
+               <unittitle encodinganalog="245$a" id="Add">Addition, 1957-1990</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, articles about Doolittle, and photograph. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by topic or type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">110</container>
+                  <unittitle encodinganalog="245$a">Articles about Doolittle,  <date>1985-1990</date> 
+                              </unittitle>
+                  <unitdate>1985-1990</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">110</container>
+                  <unittitle encodinganalog="245$a">Correpondence to Lee R. Magnolia,  <date>1971-1984</date> 
+                              </unittitle>
+                  <unitdate>1971-1984</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">110</container>
+                  <unittitle encodinganalog="245$a">Photograph of B-25s,  <date>1957, 1990</date> 
+                              </unittitle>
+                  <unitdate>1957, 1990</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a" id="overs">Oversize</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>An award. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged and described according to the container from which it was removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="ovaward">Awards (Container 105)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms012011">loc.mss/eadmss.ms012011</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Albert James Myer Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm77034041">https://lccn.loc.gov/mm77034041</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-06">2023 June</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2022-02">2022 February</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Link added to P and P transfer</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2012">2012</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Albert James Myer Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1851/1933">1851-1933</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1851/1880">1851-1880</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1851/1933"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1851-1933</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1851/1880"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1851-1880</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS34041</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Myer, Albert James, 1829-1880</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">300 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">2 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">.8 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">1 microfilm reel</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Army officer and surgeon. Correspondence,
+            biographical material, and printed matter relating in part to Myer's service as a
+            surgeon in the army and his role in the founding and development of the Signal Corps,
+            including during the Civil War.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220929162314.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Myer, Albert James, 1829-1880.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Myer, Catherine Walden, approximately 1834- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Walden, James, active 1868--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army--Surgeons.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Signal Corps.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Fortification--Texas.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Indians of North America--Texas.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Indians of North America--Wars--1815-1875.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Fort Davis (Tex.)</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Fort Duncan (Tex.)</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Army officers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Surgeons.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of Albert James Myer, army officer and surgeon, were given to the Library of
+            Congress by John Rogers Meigs Taylor in 1935.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Albert James Myer were arranged and described by Debra Hickman and Michael
+            McElderry in 1975. The finding aid was revised in 2011. The finding aid was updated in
+            2023 by Maria Farmer as part of a division-wide remediation project by the Inclusive
+            Description Working Group.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Photographs have been transferred to the Prints and Photographs Division where they are
+            identified as part of the Albert James Myer Papers; selected photographs are available
+            at <ref href="https://www.loc.gov/pictures/item/2004668986/">https://www.loc.gov/pictures/item/2004668986</ref>. Patrons are encouraged to
+            contact the Prints and Photographs Division in advance of a research visit.</p>
+      </separatedmaterial>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Other Repositories</head>
+         <p>Other Myer papers are located in the U.S. Army Signal Corps Museum, Fort Monmouth, N.J.
+         </p>
+      </separatedmaterial>
+      <relatedmaterial encodinganalog="544 1">
+         <head>Related Material</head>
+         <p>Related collections in the Manuscript Division include a <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms012012">microfilm of Myer Papers</ref>
+            obtained from originals at the U.S. Army Signal Corps Museum, Fort Monmouth, N.J.</p>
+      </relatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Albert James Myer is governed by
+            the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Albert James Myer are open to research. Researchers are advised to contact
+            the Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p>A microfilm edition of part of these papers is available on one reel. Consult a
+            reference librarian in the Manuscript Division concerning availability for purchase or
+            interlibrary loan. To promote preservation of the originals, researchers are required to
+            consult the microfilm edition.</p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container or reel number, Albert James Myer Papers, Manuscript Division, Library of
+            Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1828, Sept. 20 </datesingle>
+               <event>Born, Newburgh, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>circa 1841</datesingle>
+               <event> Entered Geneva College (now Hobart College), Geneva, N.Y. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1851 </datesingle>
+               <event>M.D., Buffalo Medical College, Buffalo, N.Y. 1854 Entered military service
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1857 </datesingle>
+               <event>Married Catherine Walden </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1858</fromdate>
+                  <todate>1861</todate>
+               </daterange>
+               <chronitemset>
+                  <event>Appointed by the army to a board to examine signaling principles </event>
+                  <event>Conducted field trial of signaling inventions in the Department of New
+                     Mexico </event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1860 </datesingle>
+               <event>Ordered to organize and command U.S. Army Signal Corps</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1860</fromdate>
+                  <todate>1863</todate>
+               </daterange>
+               <event> Served under Benjamin Butler at Fort Monroe, Va., and then as chief signal
+                  officer under George Brinton McClellan in the Army of the Potomac </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1863</datesingle>
+               <event> Promoted to colonel in new U.S. Signal Corps, but removed him from his post
+                  as chief signal officer by Secretary of War Edwin M. Stanton </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1864 </datesingle>
+               <chronitemset>
+                  <event>Publication of <title localtype="simple">
+                        <part>Manual of Signals </part>
+                     </title>
+                  </event>
+                  <event>Appointed signal officer, Military Division of West Mississippi </event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1864</fromdate>
+                  <todate>1865</todate>
+               </daterange>
+               <chronitemset>
+                  <event> Signal officer, Department of the Gulf</event>
+                  <event> Developed coding system for transmitting routine messages between land and
+                     sea forces </event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1867</fromdate>
+                  <todate>1880</todate>
+               </daterange>
+               <event> Chief signal officer, Signal Corps </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1873 </datesingle>
+               <event>Proposed establishment world-wide of weather-reporting stations, International
+                  Meteorological Congress, Vienna, Austria </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1880, Aug. 24</datesingle>
+               <event> Died, Buffalo, N.Y</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Albert James Myer (1829-1880) span the years 1851-1933, with the bulk of
+            the material concentrated in the period 1851-1880. The collection contains
+            correspondence, biographical material, and printed matter relating to Myer's service as
+            a surgeon in the army from 1854 to 1860, especially his assignments at Fort Davis and
+            Fort Duncan in Texas, where he observed warfare with Native American groups, and to his
+            role in the founding and development of the Signal Corps, 1856-1880. Also treated is the
+            contribution of the Signal Corps to Union military efforts in the Civil War.
+            Correspondents include Myer's wife, Catherine Walden Myer, and James Walden.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged by type of material.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <p>Microfilm. Shelf no. 16,561 (negative no. 12,193)</p>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <container localtype="reel">1</container>
+               <unittitle encodinganalog="245$a">Correspondence, <date>1851-1891, undated</date>
+               </unittitle>
+               <unitdate era="ce" calendar="gregorian">1851-1891, undated</unitdate>
+               <physdesc encodinganalog="300$a"> (5 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <container localtype="reel">1</container>
+               <unittitle encodinganalog="245$a">Biographical material</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <container localtype="reel">1</container>
+               <unittitle encodinganalog="245$a"> Fort Myer, Va., memorial</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <container localtype="reel">1</container>
+               <unittitle encodinganalog="245$a"> Miscellaneous</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <container label="not filmed"/>
+               <unittitle encodinganalog="245$a">Printed matter</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Magazine and newspaper articles</unittitle>
+                  <physdesc encodinganalog="300$a">(1 folder)</physdesc>
+                  <container localtype="box">2</container>
+                  <physdesc encodinganalog="300$a">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a"> Orders, War Department</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Reports</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Signal Corps</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

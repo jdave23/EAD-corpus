@@ -1,0 +1,2193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms015031">loc.mss/eadmss.ms015031</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Robert Kleiman Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm2009085471">https://lccn.loc.gov/mm2009085471</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-10">2023 October</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2015">2015</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Robert Kleiman Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1935/1983">1935-1983</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1943/1945">1943-1945</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1935/1983"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1935-1983</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1943/1945"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1943-1945</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS85471</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Kleiman, Robert, 1918-2004</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">5,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">15 containers plus 1 classified and 9
+            oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">8 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <language langcode="jpn" encodinganalog="041">Japanese,</language>
+            <language langcode="bur" encodinganalog="041">Burmese,</language>
+            <language langcode="kac" encodinganalog="041">Kachin,</language>
+            <language langcode="shn" encodinganalog="041">Shan</language>
+            <descriptivenote>
+               <p>Collection material in English and Japanese, with Burmese, Kachin, and Shan </p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Journalist. Correspondence, memoranda,
+            propaganda material including leaflets, newspapers, printed matter, and ephemera,
+            interrogations of prisoners of war, reports, newsletters, newspaper clippings, and other
+            papers relating chiefly to Kleiman's service with the United States Office of War
+            Information during World War II and pertaining to psychological warfare and the use of
+            propaganda in the Far East, with a much smaller portion reflecting his work as a
+            journalist before and after the war.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220929151101.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Fisher, Francis McCracken, 1907-2000. Yenan reports. 1944-1945.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Kleiman, Elnora H., 1917-1998--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Kleiman, Robert, 1918-2004.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>MacArthur, Douglas, 1880-1964.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Marquardt, Frederic S. (Frederic Sylvester), 1905- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Monroe, Barbara R.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Rickenbacker, Eddie, 1890-1973.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Shulman, Marshall Darrow--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Allied Forces. South West Pacific Area.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>China. Lu jun.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Army, 6th.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Forces in China-Burma-India Theater.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Office of War Information.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Zhongguo guo min dang.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Chinese--Philippines--Luzon.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Guerrillas--Philippines--Luzon.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Japanese--Philippines.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Journalism.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Kachin (Asian people)--Burma.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Propaganda, American--Asia.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Propaganda, American--Europe.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Propaganda, American--Philippines.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Propaganda, American.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Propaganda, Japanese--Philippines.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychological warfare.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Reconstruction (1939-1951)--Burma.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Burma.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--China.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--East Asia.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--India.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Japan.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Oceania.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Prisoners and prisons.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Propaganda.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Psychological aspects.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Refugees.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--United States.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Assam (India)--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Burma--History--1824-1948.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>China--History--1937-1945.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Europe--Colonies--Asia.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Europe--Foreign relations--1945-</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Europe--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>India--History--British occupation, 1765-1947.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Leyte Island (Philippines)--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Manila (Philippines)--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New Guinea--History--20th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Philippines--History--1898-1946.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Philippines--History--Japanese occupation, 1942-1945.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Philippines--Newspapers.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--1945-1989.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Europe.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Yan'an Shi (China)--History.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Free Philippines (Manila, Philippines : Airborne ed.)</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Leyte shimbun.</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="unspecified">
+               <part>Leyte-Samar bulletin.</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Leyte-Samar free Philippines.</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Manila free Philippines.</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="unspecified">
+               <part>Voice of freedom (Radio program)</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="unspecified">
+               <part>Voice of victory.</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Journalists.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of Robert Kleiman, journalist, were given to the Library of Congress by his
+            wife, Mary Temple Kleiman, in 2009 and 2011. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p> The papers of Robert Kleiman were arranged and described by Melinda K. Friend with the
+            assistance of Sherralyn F. McCoy in 2015. The finding aid was updated in 2023 by Maria
+            Farmer as part of a division-wide remediation project by the Inclusive Description
+            Working Group.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Photographs and two lithographs have been transferred to the Library's Prints and
+            Photographs Division where they are identified as part of these papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of Robert Kleiman in these papers and in other
+            collections of papers in the custody of the Library of Congress has been dedicated to
+            the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Robert Kleiman are open to research. Researchers are advised to contact
+            the Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <accessrestrict encodinganalog="506">
+         <head>Security Classified Documents</head>
+         <p>Government regulations control the use of security classified material in this
+            collection. Manuscript Division staff can furnish information concerning access to and
+            use of classified materials.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Robert Kleiman Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1918, Oct. 1 </datesingle>
+               <event> Born, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1936</fromdate>
+                  <todate>1939</todate>
+               </daterange>
+               <event>Part-time reporter, editorial writer, and night editor, <title>
+                     <part>Michigan Daily</part>
+                  </title>, student newspaper, University of Michigan, Ann Arbor, Mich.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1939</datesingle>
+               <event>A.B., University of Michigan, Ann Arbor, Mich.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1939</fromdate>
+                  <todate>1940</todate>
+               </daterange>
+               <event>Reporter, <title>
+                     <part>Washington Post</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1941</datesingle>
+               <event>Reporter, Washington Bureau, New York <title>
+                     <part>Journal of Commerce and Commercial Bulletin</part>
+                  </title>, covering White House and government, Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1941</fromdate>
+                  <todate>1942</todate>
+               </daterange>
+               <event>Head of the Far Eastern desk, Press and Radio Division, Foreign Information
+                  Service, Office of the Coordinator of Information, Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1942</datesingle>
+               <chronitemset>
+                  <event>Married Elnora Fleurette Haynie (divorced)</event>
+                  <event>Syndicate news and feature writer, Office of War Information, Bureau of
+                     Overseas Publications, Washington, D.C.</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1942</fromdate>
+                  <todate>1943</todate>
+               </daterange>
+               <event>White House correspondent, <title>
+                     <part>Voice of America</part>
+                  </title>, Office of War Information, Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1943</fromdate>
+                  <todate>1945</todate>
+               </daterange>
+               <event>Served in the Overseas Branch, Office of War Information, in Australia, Burma,
+                  China, India, New Guinea, Philippines, and Territory of Hawaii; chief,
+                  Psychological Warfare Team, attached to combat units and headquarters of General
+                  Joseph Warren Stilwell, China-Burma-India Theater, 1943-1944; chief of leaflet
+                  operations, Hollandia, New Guinea, Tacloban, Leyte Island, Philippines, and
+                  Manila, Philippines, attached to U.S. Sixth Army, Psychological Warfare Branch,
+                  Southwest Pacific Area, and to the headquarters of General Douglas MacArthur,
+                  1944-1945; attached to Central Pacific Theater, based in Honolulu, Territory of
+                  Hawaii, 1945</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1945</fromdate>
+                  <todate>1962</todate>
+               </daterange>
+               <event>Editor, <title>
+                     <part>U.S. News &amp; World Report</part>
+                  </title>; associate editor in Washington, D.C., writing on foreign affairs,
+                  1945-1948; Central European editor and bureau chief, West Germany, 1948-1951;
+                  Western European editor and Paris Bureau chief, Paris, France, 1951-1962</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1947</datesingle>
+               <event>Covered Moscow Council of Foreign Ministers, Soviet Union, for <title>
+                     <part>U.S. News &amp; World Report</part>
+                  </title>; toured Romania, Bulgaria, Hungary, and Austria</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>pre</fromdate>
+                  <todate>1953</todate>
+               </daterange>
+               <event>Married Jane Eakin (divorced)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1962</fromdate>
+                  <todate>1963</todate>
+               </daterange>
+               <event>Bureau chief and commentator, Columbia Broadcasting System News, Paris,
+                  France</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1963</fromdate>
+                  <todate>1985</todate>
+               </daterange>
+               <event>Editorial Board member, <title>
+                     <part>New York Times</part>
+                  </title>, writing about international affairs, principally about United
+                  States-European relations</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1964</datesingle>
+               <event>Published <title>
+                     <part>Atlantic Crisis: American Diplomacy Confronts a Resurgent Europe</part>
+                  </title>. New York: W. W. Norton</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1986</datesingle>
+               <event>Married Mary (Nisbet) Temple</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>2004, Mar. 22</datesingle>
+               <event>Died, Washington, D.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p> The papers of Saul Robert Kleiman (1918-2004) span the years 1935-1983, with the bulk
+            of the material dating from 1943 to 1945. The papers are mostly in English and Japanese,
+            with Burmese, Kachin, Shan, and other ethnic Asian languages. The collection is arranged
+            largely according to the groupings established by Kleiman: biographical information,
+            correspondence, Office of War Information files, research files, submissions for awards,
+            and writings, and therein alphabetically by type of material or topic.</p>
+         <p>The largest portion of the papers relates to Kleiman's service with the United States
+            Office of War Information (OWI) during World War II and pertains to psychological
+            warfare and the use of propaganda in the Far East. The Office of War Information files
+            contain correspondence, memoranda, propaganda in various languages with English
+            translations including leaflets, newspapers, printed matter, broadsides, and ephemera,
+            interrogations of prisoners of war, reports on the effectiveness of propaganda,
+            newsletters, newspaper clippings, and Japanese propaganda in the Philippines. The files
+            also contain personal papers relating to Kleiman's duties and his daily diary. The
+            personal correspondence from the war years also contains information relating to his
+            propaganda activities. Kleiman's writings contain drafts of articles and a radio program
+            he wrote during the war.</p>
+         <p>On April 3, 1943, Kleiman arrived in New Delhi, India, and was attached to the
+            China-Burma-India Theater (CBI), until June 1, 1944. His papers, however, were grouped
+            under Burma-India. In May-June, 1943, he traveled to Burma and Assam, India, to make a
+            study of the area of CBI-projected operations, to establish liaisons with the American
+            and British military commanders in the area, and to arrange distribution channels for
+            CBI-projected leaflets and other propaganda. Kleiman's multipage report discusses opium
+            distribution in Burma, plans for Burman reconstruction, interviews with British and
+            American military officials, events in the Hukawng Valley and attitudes of the Kachins,
+            propaganda strategy, and the vegetable seed program that dropped seed packets by
+            airplane. He also submitted an intelligence report detailing the speeches and activities
+            of Eddie Rickenbacker during the captain's tour through the Assam area. Also chronicling
+            some of Kleiman's activities in the CBI is his daily diary dating from March 1944
+            through May 1944. The diary discusses design and production of leaflets, use of Nisei to
+            translate leaflets into Japanese, scheduled drops of leaflets, a radio broadcasting
+            project, use of a public address system to broadcast propaganda, problems with supplies,
+            resettlement of Kachin refugees, and meetings with military personnel. Further material
+            on the CBI is under the heading of leaflets produced in other areas.</p>
+         <p>Even though China was part of the CBI, Kleiman's files on Yenan, actually Yan'an, were
+            kept separately. Material on this area consists of leaflets and reports. The reports are
+            comprised of intelligence reports on the Eighteenth Group Army of the Chinese that was a
+            combination of the Eighth Route Army of Chinese communists and the New Fourth Army, and
+            a series of "Yenan Reports" submitted by Francis McCracken Fisher, chief of the China
+            Division, OWI, covering psychological warfare findings at and about Yenan from 1944 to
+            1945.</p>
+         <p>From June 2, 1944, until May 13, 1945, Kleiman was attached to the Southwest Pacific
+            Area. He surveyed the New Guinea combat zones in June and July, and in early September
+            1944 arrived in Hollandia, New Guinea, to set up a psychological warfare operation at
+            the headquarters of General Douglas MacArthur and the Sixth Army. There Kleiman was in
+            charge of all forward operations for the OWI in the Southwest Pacific Area and director
+            of leaflet production for the Sixth Army. On October 20, 1944, soon after General
+            MacArthur's landing, Kleiman also landed at Red Beach on Leyte Island in the
+            Philippines. He put on the first <title>
+               <part>Voice of Freedom</part>
+            </title> radio broadcast from the <emph render="italic">Apache</emph> (radio
+            broadcasting ship). Propaganda operations were then moved inland to Tacloban. The close
+            timing of his arrival in New Guinea and his landing on Leyte Island is probably why
+            Kleiman combined the two areas in his files. Material consists of leaflets,
+            correspondence, reports, interrogations of prisoners of war, radio broadcasts, and the
+            basic military plan for psychological warfare in the Southwest Pacific Area. Under the
+            heading of Leyte Island, Philippines, are propaganda newspapers and bulletins produced
+            in the Philippines including the <title>
+               <part>Leyte Shimbun</part>
+            </title>, <title>
+               <part>Leyte-Samar Bulletin</part>
+            </title>, <title>
+               <part>Leyte-Samar Free Philippines</part>
+            </title>, and the <title>
+               <part>Voice of Victory</part>
+            </title>.</p>
+         <p>On February 8, 1945, Kleiman flew into the Philippine capital of Manila where he stayed
+            until May 13. Material relating to his efforts there includes leaflets and the
+            newspapers <title>
+               <part>Manila Free Philippines</part>
+            </title> and <title>
+               <part>Airborne Edition Free Philippines</part>
+            </title>. Of interest among the usual reports on the effectiveness of the leaflets and
+            Japanese morale is a report on Chinese guerrilla organizations on Luzon and their
+            activities.</p>
+         <p>The Office of War Information files also contain a group of uncategorized material,
+            scrapbooks, and propaganda from the Asian and European theaters of war. Items in the
+            uncategorized material, consisting of documents either designated by Kleiman as
+            miscellaneous or found loose, are the same type of material housed in the categorized
+            files. In all probability, the loose items were originally part of the categorized
+            material. The scrapbooks were presented to personnel who had worked in propaganda in the
+            Far East and contain runs of propaganda leaflets and newspapers. Propaganda from both
+            theaters of war include leaflets, broadsides, magazines, pamphlets, and ephemeral items
+            (called novelties by Kleiman) that include matchbooks, matchboxes, leaves of soap, and
+            sewing kits, all marked with propaganda.</p>
+         <p>A large part of the personal correspondence relates to Kleiman's activities during World
+            War II. There are letters to and from his first wife, Elnora H. Kleiman, with friends
+            serving in the war and at home, and with his colleagues in the OWI. The correspondence
+            with his colleagues is the same type Kleiman filed in the Office War Information files
+            and often discusses propaganda and the war. Of interest are discussions on how to phrase
+            propaganda so that conquered peoples understand that the Americans are freeing them from
+            the Japanese and not from European colonizers. Correspondents include Frederic S.
+            "Fritz" Marquardt, Barbara R. "Bobbe" Monroe, and Marshall Darrow "Marsh" Shulman.</p>
+         <p>Rounding out the collection are clippings of articles written by Kleiman from 1935 to
+            1955, biographical material, and his research files for articles written after the war
+            concerning United States-European relations.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged alphabetically by type of material or topic and therein
+            alphabetically by type of material or topic.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a" id="bio">Biographical information, <date>1935-1945,
+                     1962-1964, 1971, 1983 </date>
+                  <ref target="pers">
+                     <emph render="italic">See also Container 8, Personal file</emph>
+                  </ref>
+               </unittitle>
+               <unitdate>1935-1945, 1962-1964, 1971, 1983 </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Correspondence </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Business </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Incoming, <date>1954-1956 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1954-1956 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Flieger, Harold W., and John R. Fleming
+                     </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a">Memoranda from, <date>1955-1957 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1955-1957 </unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a">Memoranda to, <date> 1955-1957</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1955-1957</unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Outgoing, <date>1953-1957 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1953-1957 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Personal </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">General </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a">
+                           <date> 1939-1944</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1939-1944</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1945</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1945</unitdate>
+                        <physdesc encodinganalog="300">(1 folder)</physdesc>
+                        <container localtype="box">2</container>
+                        <physdesc>(1 folder)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1946-1948 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1946-1948 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>circa 1940s </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">circa 1940s </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">
+                           <date> 1953-1983</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1953-1983</unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Kleiman, Elnora H. </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">From, <date> 1943-1945</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1943-1945</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">To </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">2</container>
+                           <unittitle encodinganalog="245$a">
+                              <date>1943 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1943 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">3</container>
+                           <unittitle encodinganalog="245$a">
+                              <date> 1944-1945</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> 1944-1945</unitdate>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Office of War Information files </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Background information on Japan, <date>1939-1944
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1939-1944 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Brisbane, Australia, leaflets and comic book,
+                        <date>1944, undated </date>
+                     <ref target="OV1a">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1944, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Burma-India </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">General, <date>1942-1945, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1942-1945, undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Leaflets </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">In Burmese, Kachin, and Shan, <date>1944
+                           </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1944 </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">In Chinese, <date>1944 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1944 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">In Japanese, <date> 1944-1945,
+                              undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1944-1945, undated</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Miscellany, <date> circa 1944-1946</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> circa 1944-1946</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Organizational charts, <date>1943-1944
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1943-1944 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">"PW Interrogations of Japanese
+                        Prisoners-of-War: Northern Burma," <date> 1944</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1944</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Report on first trip to Burma and travel in
+                        India, <date> 1943</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1943</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Reports, <date>1945 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1945 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Daily diary of Kleiman, <date> 1943, Feb.-Mar.;
+                        and 1944, Mar.-May </date>
+                     <ref target="class1">
+                        <emph render="italic">See also Classified </emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1943, Feb.-Mar.; and 1944, Mar.-May </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Hollandia, New Guinea, and Leyte Island,
+                     Philippines </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">General </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1944 </date>
+                           <ref target="class2">
+                              <emph render="italic">See also Classified</emph>
+                           </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1944 </unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>circa 1944-circa 1945 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">circa 1944-circa 1945 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date>1945 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1945 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Leaflets, <date>1944-1945 </date>
+                        <ref target="OV1b">
+                           <emph render="italic">See also Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1944-1945 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Japanese propaganda in Philippines </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">General, <date>circa 1942-circa 1945 </date>
+                        <ref show="replace" actuate="onrequest" target="OV2">
+                           <emph render="italic">See also Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">circa 1942-circa 1945 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Jose P. Santos Collection, <date> 1942,
+                           undated</date>
+                        <ref target="OV3">
+                           <emph render="italic">See Oversize </emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1942, undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Leaflets produced in other areas </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Office of War Information, Central Pacific
+                        Operations, <date>1944 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1944 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Psychological Warfare Division, Southeast
+                        Asia Command, <date>undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Psychological Warfare Team, U.S. Army Forces,
+                        China-Burma-India, <date>1944 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1944 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Leyte Island, Philippines </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>An Lantawan</part>
+                        </title>, <date>1939, Feb. 25 </date>
+                        <ref target="OV4a">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1939, Feb. 25 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">General, <date>1942 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1942 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>Leyte Shimbun</part>
+                        </title>, <date>1942, Aug.19-1943, Jan. 30 </date>
+                        <ref target="OV4b">
+                           <emph render="italic">See Oversize </emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1942, Aug.19-1943, Jan. 30 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>Leyte-Samar Bulletin</part>
+                        </title>, <date> 1944, May 27-Oct. 8 </date>
+                        <ref target="OV4c">
+                           <emph>See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1944, May 27-Oct. 8 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>Leyte-Samar Free Philippines</part>
+                        </title>, <date> 1944, Oct. 29-1945, Feb. 15 </date>
+                        <ref target="OV4d">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1944, Oct. 29-1945, Feb. 15 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>Tanauan</part>
+                        </title>, <date>1942, May 17 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1942, May 17 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>Voice of Victory</part>
+                        </title>, <date> 1942, Mar. 16-May 13</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1942, Mar. 16-May 13</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Manila, Philippines </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>Airborne Edition Free Philippines</part>
+                        </title>, <date> 1945, Mar. 25-May 6 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1945, Mar. 25-May 6 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">General, <date>1945 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1945 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Leaflets, <date>1944-1945 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1944-1945 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>Manila Free Philippines</part>
+                        </title>, <date>1945, Feb. 9-May 11 </date>
+                        <ref target="OV5a">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1945, Feb. 9-May 11 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Miscellany </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Clippings </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a">General, <date>1946, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1946, undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a">Office of War Information, <date>
+                              1945</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1945</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Foreign currency, <date> 1940-1943,
+                           undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1940-1943, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Fragment, <date> 1944 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1944 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Propaganda from Asian and European theaters
+                        of war including ephemeral items, <date> circa 1942-circa 1945 </date>
+                        <ref target="OV5b">
+                           <emph render="italic">See also Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> circa 1942-circa 1945 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Newspapers for Japanese, <title>
+                        <part>News of the Week</part>
+                     </title> (<title>
+                        <part>Ji Ji Shu Ho</part>
+                     </title>) and <title>
+                        <part>Parachute News</part>
+                     </title> (<title>
+                        <part>Rakkasan News</part>
+                     </title>), <date> 1944-1945</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1944-1945</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">General </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Leaflets </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Office of the Coordinator of Information,
+                     Kleiman's memoranda on Franklin D. Roosevelt's press conferences, <date>
+                        1941-1942 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1941-1942 </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a" id="pers">Personal file, <date>1942-1945 </date>
+                     <ref target="bio">
+                        <emph render="italic">See also Container 1, Biographical information</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1942-1945 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Plans for landing in Japan, <date> 1945 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1945 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Printed matter </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Allied Translator and Interpreter Section,
+                        Southwest Pacific Area </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">Enemy publications, <date>
+                              1944-1945</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1944-1945</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">Research reports, <date> 1944-1945</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1944-1945</unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Office of War Information </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">Broadsides (X-3 and X-5), <date>circa
+                              1943-circa 1945 </date>
+                           <ref target="OV6">
+                              <emph render="italic">See Oversize</emph>
+                           </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">circa 1943-circa 1945 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Free Philippines</part>
+                           </title> (magazine), <date>1945 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1945 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Leaflet Newsletter</part>
+                           </title>, <date> 1945</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1945</unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Outpost News</part>
+                           </title>, <date>1944-1945 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1944-1945 </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Philippine Digest</part>
+                           </title>, <date>circa 1943 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">circa 1943 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">10</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Selections from the Philippine Hour</part>
+                           </title>, <date>circa 1944 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">circa 1944 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Office of the Military Secretary,
+                        Psychological Warfare Branch, General Headquarters, <date>1945 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1945 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">United Nations, <title>
+                           <part>Military Reports of the United Nations</part>
+                        </title>, <date>1943 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1943 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">United States Eighth Army, <title>
+                           <part>Psychological Warfare Weekly Report</part>
+                        </title>, <date> 1945</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1945</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">United States Fifth Army, <title>
+                           <part>Functions of the 5th Army Combat Propaganda Team</part>
+                        </title>, <date>1944 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1944 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">United States Sixth Army </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">10</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Interrogation Report No. 0447</part>
+                           </title>, <date>1945 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1945 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">10</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Psychological Warfare Weekly Report</part>
+                           </title>, <date>1945 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1945 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Scrapbooks </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Office of War Information, Central Pacific
+                        Operations, <date>1945 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1945 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">10</container>
+                        <unittitle encodinganalog="245$a">Pages 1-11</unittitle>
+                        <physdesc encodinganalog="300">(11 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">10</container>
+                        <unittitle encodinganalog="245$a">Pages 12-82, and front cover <ref target="OV7">
+                              <emph render="italic">See Oversize</emph>
+                           </ref>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Psychological Warfare Branch, General
+                        Headquarters, Southwest Pacific Area </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">10</container>
+                        <unittitle encodinganalog="245$a">Pages i-ii, 85-111, and enclosed letter
+                              <ref target="OV8">
+                              <emph render="italic">See Oversize </emph>
+                           </ref>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">10</container>
+                        <unittitle encodinganalog="245$a">Pages </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">10</container>
+                           <unittitle encodinganalog="245$a">1-45 </unittitle>
+                           <physdesc encodinganalog="300">(44 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">11</container>
+                           <unittitle encodinganalog="245$a">46-84 </unittitle>
+                           <physdesc encodinganalog="300">(29 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Uncategorized material, <date>1944-1945, undated </date>
+                     <ref target="OV1a">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1944-1945, undated </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">United States Eighth Army, leaflet, <date>1945
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1945 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">United States Sixth Army </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Leaflets for Philippines, <date>
+                           1944-1945</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1944-1945</unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Maps of leaflet drops in Philippines,
+                           <date>circa 1944 </date>
+                        <ref target="OV9b">
+                           <emph render="italic">See Oversize </emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">circa 1944 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Yenan (Yan'an, China) </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">Leaflets, <date> circa 1944-circa 1945</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> circa 1944-circa 1945</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">Reports and psychological warfare
+                        suggestions, <date>1944-1945 </date>
+                        <ref target="class3">
+                           <emph render="italic">See also Classified</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1944-1945 </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">12</container>
+               <unittitle encodinganalog="245$a">Research files </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Interview notes, <date>1973 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1973 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Jean Monnet and the Action Committee for the
+                     United States of Europe, <date> 1958-1963</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1958-1963</unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">John F. Kennedy visit to Italy, <date>
+                        1963</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1963</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">13</container>
+               <unittitle encodinganalog="245$a">Submissions for awards, <date> 1967-1969,
+                     1976</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f"> 1967-1969, 1976</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">13</container>
+               <unittitle encodinganalog="245$a">Writings </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Articles </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Clippings </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">13</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Journal of Commerce and Commercial Bulletin</part>
+                           </title>, New York, <date>1941 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1941 </unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                        <container localtype="box">14</container>
+                        <physdesc>(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Lincoln Log</part>
+                           </title>, <date>1935 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1935 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Michigan Daily</part>
+                           </title>, <date>1936-1939, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1936-1939, undated </unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a">Miscellany, <date>1939 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1939 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>New York Times</part>
+                           </title>, <date> 1965-1975 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1965-1975 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>U.S. News &amp; World Report</part>
+                           </title>, <date>1946-1948, 1954-1955 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1946-1948, 1954-1955 </unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Washington Post</part>
+                           </title>, <date>1939-1941 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1939-1941 </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Drafts </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">"Corregidor---After the Surrender; by
+                           Catherine Nau as Told to Robert Kleiman," <date> circa 1945</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1945</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">"A Day in Leyte," <date> circa 1944</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1944</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">"Leaflet Handling of Surrender
+                           Negotiations, August 10-12," <date> 1945 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1945 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">"Liberation and Sardines," <date>1945
+                           </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1945 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">"MacArthur Petition," <date> circa 1944
+                           </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1944 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">"United America Fights," <date>
+                              1942</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1942</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Radio script, "POW Program," <date>1945 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1945 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Reports on Europe, <date>1949-1952 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1949-1952 </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">CL 1</container>
+               <unittitle encodinganalog="245$a">Office of War Information files </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">CL 1</container>
+                  <unittitle encodinganalog="245$a" id="class1">Daily diary of Kleiman, <date>1944,
+                        Apr. 5-8 </date> (Container 4) </unittitle>
+                  <unitdate encodinganalog="245$f">1944, Apr. 5-8 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">CL 1</container>
+                  <unittitle encodinganalog="245$a" id="class2">Hollandia, New Guinea, and Leyte
+                     Island, Philippines </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">CL 1</container>
+                     <unittitle encodinganalog="245$a">General </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1944, Sept. </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1944, Sept. </unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">"The Japanese Emperor and the War,"
+                                 <date>1944, Sept. 8 </date> (Container 4) </unittitle>
+                           <unitdate encodinganalog="245$f">1944, Sept. 8 </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">1944, Nov. </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">"An Appeal to the Japanese People,"
+                                 <date> 1944, Nov. 14 </date> (Container 4) </unittitle>
+                           <unitdate encodinganalog="245$f"> 1944, Nov. 14 </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">CL 1</container>
+                  <unittitle encodinganalog="245$a">Yenan (Yan'an, China) </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">CL 1</container>
+                     <unittitle encodinganalog="245$a" id="class3">Reports and psychological warfare
+                        suggestions (Folder 5 of 5) </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">"Translation Series #38. An Appeal to the
+                           Japanese People (an open letter) on the Occasion of the Sixth Anniversary
+                           of the China Incident," <date>1944, Nov. 14 </date> (Container 12) </unittitle>
+                        <unitdate encodinganalog="245$f">1944, Nov. 14 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a">Oversize </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Office of War Information files </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a">Brisbane, Australia, leaflets and comic book
+                     </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 1</container>
+                        <unittitle encodinganalog="245$a" id="OV1a">Comic book, "The Nightmares of
+                           Lieutenant Ichi or Juan Posong Gives Ichi the Midnight Jitters,"
+                              <date>undated </date> (Container 3) </unittitle>
+                        <unitdate encodinganalog="245$f">undated </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a">Hollandia, New Guinea, and Leyte Island,
+                        Philippines </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 1</container>
+                        <unittitle encodinganalog="245$a" id="OV1b">Leaflets </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 1</container>
+                           <unittitle encodinganalog="245$a">NICA proclamations: Hollandia and Sarmi
+                              (2P6, 3P6) in Dutch and Malay, <date> 1944, Sept. 19 </date>
+                              (Container 5) </unittitle>
+                           <unitdate encodinganalog="245$f"> 1944, Sept. 19 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 1</container>
+                           <unittitle encodinganalog="245$a">NICA Will Govern (1P6) in English,
+                              Dutch, and Malay, <date>1944, Sept. 19 </date> (Container 5) </unittitle>
+                           <unitdate encodinganalog="245$f">1944, Sept. 19 </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 2</container>
+                     <unittitle encodinganalog="245$a">Japanese propaganda in the Philippines
+                     </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 2</container>
+                        <unittitle encodinganalog="245$a" id="OV2">General (Folder 1 of 2)
+                        </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 2</container>
+                           <unittitle encodinganalog="245$a">Broadsides, magazines, leaflets,
+                              leaflet layouts, and other material, <date>circa 1942-circa 1945
+                              </date> (Container 5) </unittitle>
+                           <unitdate encodinganalog="245$f">circa 1942-circa 1945 </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 3</container>
+                        <unittitle encodinganalog="245$a" id="OV3">Jose P. Santos Collection,
+                              <date>1942, undated </date> (Container 5) </unittitle>
+                        <unitdate encodinganalog="245$f">1942, undated </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 4</container>
+                     <unittitle encodinganalog="245$a">Leyte Island, Philippines </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 4</container>
+                        <unittitle encodinganalog="245$a">
+                           <title id="OV4a">
+                              <part>An Lantawan</part>
+                           </title>, <date> 1939, Feb. 25 </date> (Container 6) </unittitle>
+                        <unitdate encodinganalog="245$f"> 1939, Feb. 25 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 4</container>
+                        <unittitle encodinganalog="245$a">
+                           <title id="OV4b">
+                              <part>Leyte Shimbun</part>
+                           </title>, <date> 1942, Aug.19-1943, Jan. 30 </date> (Container 6) </unittitle>
+                        <unitdate encodinganalog="245$f"> 1942, Aug.19-1943, Jan. 30 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 4</container>
+                        <unittitle encodinganalog="245$a">
+                           <title id="OV4c">
+                              <part>Leyte-Samar Bulletin</part>
+                           </title>, <date> 1944, May 27-Oct. 8 </date> (Container 6) </unittitle>
+                        <unitdate encodinganalog="245$f"> 1944, May 27-Oct. 8 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 4</container>
+                        <unittitle encodinganalog="245$a">
+                           <title id="OV4d">
+                              <part>Leyte-Samar Free Philippines</part>
+                           </title>, <date> 1944, Oct. 29-1945, Feb. 15 </date> (Container 6) </unittitle>
+                        <unitdate encodinganalog="245$f"> 1944, Oct. 29-1945, Feb. 15 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 5</container>
+                     <unittitle encodinganalog="245$a">Manila, Philippines </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 5</container>
+                        <unittitle encodinganalog="245$a">
+                           <title id="OV5a">
+                              <part>Manila Free Philippines</part>
+                           </title>, <date> 1945, Feb. 9-May 11 </date> (Container 6) </unittitle>
+                        <unitdate encodinganalog="245$f"> 1945, Feb. 9-May 11 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 5</container>
+                     <unittitle encodinganalog="245$a">Miscellany </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 5</container>
+                        <unittitle encodinganalog="245$a">Propaganda from Asian and European
+                           theaters of war including ephemeral items, <date> circa 1942-circa 1945
+                           </date> (Folder 1 of 3) </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1942-circa 1945 </unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 5</container>
+                           <unittitle encodinganalog="245$a">
+                              <title id="OV5b">
+                                 <part>Victory</part>
+                              </title> (magazine), vol. 1, no. 1, <date>circa 1942, Sept. </date>
+                              (Container 7) </unittitle>
+                           <unitdate encodinganalog="245$f">circa 1942, Sept. </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 6</container>
+                     <unittitle encodinganalog="245$a">Printed matter </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 6</container>
+                        <unittitle encodinganalog="245$a">Office of War Information </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 6</container>
+                           <unittitle encodinganalog="245$a" id="OV6">Broadsides (X-3 and X-5),
+                                 <date>circa 1943-circa 1945 </date> (Container 9) </unittitle>
+                           <unitdate encodinganalog="245$f">circa 1943-circa 1945 </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 7</container>
+                     <unittitle encodinganalog="245$a">Scrapbooks </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 7</container>
+                        <unittitle encodinganalog="245$a" id="OV7">Office of War Information,
+                           Central Pacific Operations, <date>1945 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1945 </unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 7</container>
+                           <unittitle encodinganalog="245$a">Pages 12-82, and front cover (Container
+                              10) </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 8</container>
+                        <unittitle encodinganalog="245$a">Psychological Warfare Branch, General
+                           Headquarters, Southwest Pacific Area, <date>1945 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1945 </unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 8</container>
+                           <unittitle encodinganalog="245$a" id="OV8">Pages i-ii, 85-111, and
+                              enclosed letter (Container 10) </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 9</container>
+                     <unittitle encodinganalog="245$a">Uncategorized material </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 9</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1945 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1945 </unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 9</container>
+                           <unittitle encodinganalog="245$a">
+                              <title id="OV9a">
+                                 <part>Newsmap</part>
+                              </title>, Southwest Pacific, vol. 3, no. 11, <date>1945, Mar. 16
+                              </date> (Container 11) </unittitle>
+                           <unitdate encodinganalog="245$f">1945, Mar. 16 </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 9</container>
+                     <unittitle encodinganalog="245$a">United States Sixth Army </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 9</container>
+                        <unittitle encodinganalog="245$a" id="OV9b">Maps of leaflet drops in the
+                           Philippines, <date> circa 1944 </date> (Container 11) </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1944 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

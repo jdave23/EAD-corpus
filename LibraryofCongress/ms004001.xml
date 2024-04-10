@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms004001">loc.mss/eadmss.ms004001</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Benjamin S. Loeb Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author encodinganalog="245$c">Prepared by Margaret H. McAleer</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+                           <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library of Congress
+                  </publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2000" encodinganalog="260$c" era="ce" calendar="gregorian">2000</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm00084718">https://lccn.loc.gov/mm00084718</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Title, controlaccess updated</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2004-07-09">2004-07-09</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>converted from EAD 1.0 to EAD 2002</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2004">2004</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Benjamin S. Loeb
+                  Papers <date altrender="Span Dates" localtype="inclusive" normal="1945/1999">1945-1999</date> 
+                        <date altrender="Bulk Dates" localtype="bulk" normal="1961/1971">(bulk 1961-1971)</date> 
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1945/1999"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1945-1999</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1961/1971"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1961-1971)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS84718</unitid>
+         <origination label="Creator">
+                        <persname source="lcnaf" encodinganalog="100">
+                           <part>Loeb, Benjamin S., 1914-  </part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">6,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">17 containers plus 1 classified</physdesc>
+         <physdesc label="Extent" encodinganalog="300">6.8 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in English
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852">
+                        <corpname>
+                           <part>
+                Manuscript Division,  Library of Congress</part>
+                        </corpname>
+                        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Economist, author, and government official.  Research files containing journal excerpts, correspondence, memoranda, cables, reports, minutes, interview transcripts, writings, speeches, newspaper clippings, and printed matter compiled by Loeb concerning Glenn Theodore Seaborg's chairmanship of the Atomic Energy Commission from 1961 to 1971.  Loeb assisted Seaborg in writing several books on his chairmanship which feature Seaborg's efforts to promote arms control and peaceful uses of nuclear power.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20190619105549.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bundy, McGeorge--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bundy, McGeorge--Interviews.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Harriman, W. Averell (William Averell), 1891-1986--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Harriman, W. Averell (William Averell), 1891-1986--Interviews.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Loeb, Benjamin S., 1914-</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Seaborg, Glenn Theodore, 1912-</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Shapiro, Zalman M. (Zalmon Mordecai), 1920-</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sorensen, Theodore C.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sorensen, Theodore C.--Interviews.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>U.S. Atomic Energy Commission.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Arms control.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Espionage, Israeli--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Nuclear energy--Government policy--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Political crimes and offenses--Investigation--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Security, International.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Uranium enrichment.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Authors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Economists.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Public officials.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Benjamin S. Loeb, economist, author, and government official, were given to the Library of Congress by Loeb in 2000.</p>
+      </acqinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p> Audio cassette recordings have been transferred to the Library's Motion Picture, Broadcasting, and Recorded Sound Division where they are identified as part of these papers.</p>
+      </separatedmaterial>
+      <relatedmaterial encodinganalog="544 1">
+         <head>Related Material</head>
+         <p>The Loeb Papers complement the  <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms006039">
+                               Glenn Theodore Seaborg  Papers</ref>  also located in the Manuscript Division of the Library of Congress.  The General Correspondence and Writings series in the Seaborg Papers contain large quantities of correspondence between Seaborg and Loeb concerning their collaborative efforts.</p>
+      </relatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p> Copyright in the unpublished writings of Benjamin S. Loeb in these papers and in other collections of papers in the custody of the Library of Congress has been dedicated to the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Benjamin S. Loeb are open to research.
+		  Researchers are advised to contact the Manuscript Reading Room prior to
+		  visiting. Many collections are stored off-site and advance notice is needed to
+		  retrieve these items for research use.</p>
+      </accessrestrict>
+      <accessrestrict encodinganalog="506">
+         <head>Security Classified Documents</head>
+         <p> Government regulations control the use of security classified material in this collection.  Manuscript Division staff can furnish information concerning access to and use of classified items.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p> Researchers wishing to cite this collection should include the following information: Container number, Benjamin S. Loeb Papers, Manuscript Division, Library of Congress, Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1914, Mar. 5</datesingle>
+               <event>Born, Brooklyn, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1935</datesingle>
+               <event>A.B., Cornell University, Ithaca, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1939</fromdate>
+                              <todate>1942</todate>
+                           </daterange>
+               <event>Analyst, Security and Exchange Commission</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1942</fromdate>
+                              <todate>1945</todate>
+                           </daterange>
+               <event>Economist and statistician, War Production Board</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1945</fromdate>
+                              <todate>1948</todate>
+                           </daterange>
+               <event>Management research, Saks and Co., New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1948</datesingle>
+               <event>M.B.A., New York University, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1948</fromdate>
+                              <todate>1951</todate>
+                           </daterange>
+               <event>Research economist, National Security Resources Board</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1951</fromdate>
+                              <todate>1953</todate>
+                           </daterange>
+               <event>Statistician, Defense Electric Power Administration</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1953</fromdate>
+                              <todate>1955</todate>
+                           </daterange>
+               <event>Instructor in management and retailing, Columbia University and City College of New York, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1955</fromdate>
+                              <todate>1960</todate>
+                           </daterange>
+               <event>Writer, Atomic Energy Commission</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1958</datesingle>
+               <event>Ph.D., Columbia University, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1960</fromdate>
+                              <todate>1962</todate>
+                           </daterange>
+               <event>Editorial specialist on nuclear power, Division of Public Information, International Atomic Energy Commission</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1964</datesingle>
+               <event>Published with John Lawrence and Bernard Manowitz 
+                                 <title localtype="simple">
+                                 <part>Radioisotopes and Radiation</part>
+                              </title> (New York: McGraw-Hill Book Co.  131 pp.)
+                           </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1970</fromdate>
+                              <todate>1971</todate>
+                           </daterange>
+               <event>Conducted special research and writing projects for Glenn Theodore Seaborg, chairman, Atomic Energy Commission</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1971</fromdate>
+                              <todate>1974</todate>
+                           </daterange>
+               <event>Speech writer, Atomic Energy Commission</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1974</fromdate>
+                              <todate>1976</todate>
+                           </daterange>
+               <event>Editor, Nuclear Regulatory Commission</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1977</fromdate>
+                              <todate/>
+                           </daterange>
+               <event>Writer and consultant</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1981</datesingle>
+               <event>Assisted Glenn Theodore Seaborg in writing 
+                                 <title localtype="simple">
+                                 <part>Kennedy, Khrushchev and the Test Ban</part>
+                              </title> (Berkeley, Calif.: University of California Press.  320 pp.)
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1987</datesingle>
+               <event>Assisted Glenn Theodore Seaborg in writing 
+                                 <title localtype="simple">
+                                 <part>Stemming the Tide: Arms Control in the Johnson Years</part>
+                              </title> (Lexington, Mass.: Lexington Books.  495  pp.)
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1995</datesingle>
+               <event>Assisted Glenn Theodore Seaborg in writing 
+                                 <title localtype="simple">
+                                 <part>The Atomic Energy Commission under Nixon: Adjusting to Troubled Times</part>
+                              </title> (New York: St. Martin's Press.  268 pp.)
+                           </event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Benjamin S. Loeb (1914-    ) span the years 1945-1999, with the bulk of the material dating from 1961 to 1971.   The papers concern Loeb's collaboration with Glenn Theodore Seaborg on several books concerning Seaborg's chairmanship of the Atomic Energy Commission from 1961 to 1971.  The books, each of which focuses on a presidential administration, explore Seaborg's efforts to promote arms control and peaceful uses of nuclear power.  The collection consists of research files containing excerpts from Seaborg's journal, correspondence, memoranda, cables, reports, minutes,  interview transcripts, writings, speeches, newspaper clippings, and printed matter.  The files are arranged alphabetically by subject or type of material.</p>
+         <p>A large portion of Loeb's research files consists of material culled from the Seaborg Papers located in this division.   Loeb relied heavily on Seaborg's journal which contains diary-like entries supplemented by copies of correspondence, memoranda, reports, minutes, and printed matter.  Loeb's files provide topical access to the chronologically-arranged journal on issues such as arms control and test ban treaties, the environment, fast breeder reactors, multilateral force, peaceful nuclear explosions, plowshare programs, and uranium enrichment.   Many of the photocopied documents contain Loeb's annotations.</p>
+         <p>Loeb augmented his use of Seaborg's papers with research at the John F. Kennedy Library in Cambridge, Massachusetts, the Lyndon B. Johnson Library in Austin, Texas, and the National Archives and Records Administration in Washington, D.C.  Files relating to the Limited Test Ban Treaty of 1963 include copies of State Department cables secured by Loeb through Freedom of Information Act requests.  Also included in the collection are Loeb's correspondence and interviews with prominent  former government officials including McGeorge Bundy, W. Averell Harriman, and Theodore C. Sorensen.</p>
+         <p>Featured in the collection is Loeb's investigation into allegations that Zalman Shapiro, president of the Nuclear Materials and Equipment Corporation of Pennsylvania, provided Israeli associates with nuclear secrets and enriched uranium in the 1960s.  Included are copies of Federal Bureau of Investigation memoranda and reports attained by Loeb through the Freedom of Information Act.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged alphabetically by name of person, organization, or topic.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Box</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Anti-ballistic missile system, 1969, 1986</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Arms control</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Atomic Energy Commission histories, 1968-1971  </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Executive branch organizational issues, 1969-1970</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Franck, James, report and other early debates, 1945-1964, 1978-1983, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">General file, 1966-1971, undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Atomic Energy Commission, 1966-1971, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Australia, Cape Keraudren plowshare project, 1969, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Comprehensive Test Ban Treaty</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Arguments in favor of</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ban, 1972-1992, undated  </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Testing, 1982-1988, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Center for Defense Information, 1984</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Dewitt, Hugh, 1962, 1974-1985, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">History, 1970, 1980-1987, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="sea2" encodinganalog="245$a">Seaborg, Glenn Theodore, journal excerpts, 1969-1971, undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Bundy, McGeorge, 1964-1986, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Cousins, Norman, 1980</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Cuban missile crisis, 1962, 1973-1977</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Education and student unrest, 1969-1971, 1989, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">
+                              <emph render="italic">Enola Gay</emph> exhibit, Air and Space Museum, Washington, D.C., 1990-1995</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Environment</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Jurisdictional responsibility, 1969-1973, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany, 1969-1970, 1991, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                                 <emph render="italic">Northern States Power Co. v. Minnesota Pollution Control Agency,</emph> 1969-1970</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Opposition to nuclear energy, 1969-1971, 1989, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Radioactive pollution from nuclear power plants, 1969-1971</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Radioactive waste, 1969-1971</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Euratom, 1964-1969, 1997, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Fast breeder reactors, 1969-1972, undated  </unittitle>
+               <physdesc encodinganalog="300">(2 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Federal budget, 1969-1971, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Gilpatric, Roswell L., 1964-1965, 1984-1985, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle id="goff3" encodinganalog="245$a">Goffman, John, and Arthur Tamplin, 1969-1971, 1982-1989, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Hanford Atomic Reactor, Richland, Wash., 1969-1970</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Harriman, W. Averell</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Interviews, 1980-1981, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Miscellany, 1963-1964, 1973, 1983, undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Herken, Gregg, 1986</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">International Atom Program, 1969-1984</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">International Atomic Energy Agency, 1961-1970, 1985-1997</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">John F. Kennedy Library, Cambridge, Mass., research notes and photocopies, 1962-1964, 1980, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Johnson, Lyndon B.</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cabinet meetings, 1964-1967, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Conduct in office, 1969-1971, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany, 1963-1973, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Oral history citations, 1965-1971</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Personal traits, 1970-1973, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Relationship with Glenn Theodore Seaborg, 1963-1966</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Secrecy, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Summit meeting with Alexei Kosygin, Glassboro, N.J., 1967, 1986</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="viet4" encodinganalog="245$a">Vietnam War, 1964-1984, undated  <ref target="viet16" show="replace" actuate="onrequest">
+                                    <emph render="italic">See also Container 16, same heading</emph>
+                                 </ref>
+                              </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Limited Test Ban Treaty</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Amendments, 1985-1992</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Cables, copies received through Freedom of Information Act requests, 1963, 1980</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Kennedy, John F., recorded telephone conversations, 1963, 1988</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Public reaction, 1989-1990</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Low-threshold nuclear test ban, 1981-1987</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Merchant ships, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Moyers, Bill, 1969-1972, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle id="multi5" encodinganalog="245$a">Multilateral force, 1962-1966, undated  <ref target="multicl1" show="replace" actuate="onrequest">
+                                 <emph render="italic">See also Classified</emph>
+                              </ref>
+                           </unittitle>
+               <physdesc encodinganalog="300">(2 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">National energy situation, 1970-1971, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle id="neth5" encodinganalog="245$a">Netherlands, nuclear submarine program, 1969-1970</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Nixon, Richard M., 1969-1971, 1989</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Non-Proliferation Treaty</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">General file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1964-1968  </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">1969-1992, undated  </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Review conferences, Geneva, Switzerland, 1968-1985</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Safeguards, 1964-1968, 1985, undated  </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">United States as supplier of nuclear fuel, 1963-1967</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Nuclear free zones, 1967-1968, 1983, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Nuclear Materials and Equipment Corp.</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Atomic Energy Agency interviews and memoranda, 1966-1971, 1991-1993</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Chronology, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Coverup investigation, 1976-1979, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Decommissioning enriched uranium operations, 1981-1983, 1993</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Explanation of uranium losses, 1976-1979</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">“Fact” file concerning allegations, 1965-1969, 1976-1979, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Federal Bureau of Investigation</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Interviews, 1978-1979</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Investigations, 1969-1978</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Progress of investigations and findings, 1966-1981, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Government Accounting Office report, 1978-1979, 1993</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Health allegations, 1980</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Keller, Charles A., notes, 1962-1969, 1978-1979</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Loading dock incidents, 1968, 1980, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Media coverage, 1969-1979, 1991, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany, 1966, 1991, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Physical security standards, 1966, 1974-1980</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Public opinion, 1979</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Reports, 1966, 1976-1979  </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="sea8" encodinganalog="245$a">Seaborg, Glenn Theodore, journal excerpts, 1969-1971</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Secrecy, 1980</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Shapiro, Zalman, investigation and surveillance, 1966-1977, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Sources, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">United States Congress, 1969, 1978</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Nuclear power and nuclear power facilities, 1969-1997, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Peaceful nuclear explosions and plowshare programs</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">1963-1967  </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">1968-1990, undated  </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">President's Advisory Council on Executive Organization, 1969-1973, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Production</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Buildup, 1958-1964, 1980-1981</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="cut9" encodinganalog="245$a">Cutback</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1961-1969  <ref target="cutcl1" show="replace" actuate="onrequest">
+                                       <emph render="italic">See also Classified</emph>
+                                    </ref>
+                                 </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">1970-1980, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Economic impact and utility contracts, 1963-1965, undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Project Rulison, gas stimulation project, Colo., 1969-1970, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Proliferation, 1963-1986, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Regulatory reform, 1969-1983, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Risks, 1970, 1987-1989, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Rostow, W. W., 1971, 1983, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Rusk, Dean, 1965, 1986, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Safety, 1969-1971, 1989-1991</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Science, 1969-1971</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Seabed Arms Control Treaty, 1962-1970, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">11</container>
+               <unittitle encodinganalog="245$a">Seaborg, Glenn Theodore</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Journal excerpts  <ref target="sea2" show="replace" actuate="onrequest">
+                                    <emph render="italic">For additional material see Container 2</emph>
+                                 </ref>, <ref target="sea8" show="replace" actuate="onrequest">
+                                    <emph render="italic">Container 8</emph>
+                                 </ref>, and <ref target="sea15" show="replace" actuate="onrequest">
+                                    <emph render="italic">Container 15, same heading</emph>
+                                 </ref>
+                              </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1961  </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1962</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Jan.- June  </unittitle>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">12</container>
+                        <unittitle encodinganalog="245$a">July-Dec.  </unittitle>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1963  </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title localtype="simple">
+                                    <part>Meet the Press</part>
+                                 </title> appearance, 1971</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notes from conversations, 1971</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Obituaries and memorial service program, 1999</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Professional anecdotes, 1966-1971, 1985  </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="trav13" encodinganalog="245$a">Travel abroad</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Africa, 1970</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Belgium, Netherlands, and Luxembourg, 1997, undated   <ref target="neth5" show="replace" actuate="onrequest">
+                                       <emph render="italic">For additional material see Container 5,</emph> Netherlands</ref>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">France, 1997</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Germany, 1966-1967, 1975, 1997, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">India, 1964-1983, 1997, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Italy, 1997</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Japan, 1970, 1994-1997</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Latin America, 1967</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany, 1969-1971, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sweden, 1997, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="uk13" encodinganalog="245$a">United Kingdom, 1963-1971, 1997, undated  <ref target="ukcl1" show="replace" actuate="onrequest">
+                                       <emph render="italic">See also Classified</emph>
+                                    </ref>
+                                 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">14</container>
+               <unittitle encodinganalog="245$a">Secrecy and classification issues, 1985-1997, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Sorenson, Theodore C., 1981</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Soviet Union, 1964-1991, undated  </unittitle>
+               <physdesc encodinganalog="300">(2 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Space, 1969-1970</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Stassen, Harold Edward, 1963, 1983</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Strategic Arms Limitation Talks (SALT), 1968-1971, 1986, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Tamplin, Arthur  <ref target="goff3" show="replace" actuate="onrequest">
+                                 <emph render="italic">See Container 3,</emph> Goffman, John</ref>
+                           </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Testing and test bans</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Background, 1961-1983, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">By presidential administration</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bush, George, 1989-1991, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Carter, Jimmy, 1980-1982</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Johnson, Lyndon B., 1964-1968, undated  </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Reagan, Ronald, 1981-1988, undated  </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Chronology, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Debate over testing, 1992</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Nuclear testing, circa 1968-1971, 1986-1988  </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="sea15" encodinganalog="245$a">Seaborg, Glenn Theodore, journal excerpts, 1962-1971  <ref target="seacl1" show="replace" actuate="onrequest">
+                                    <emph render="italic">See also Classified</emph>
+                                 </ref>
+                              </unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">16</container>
+               <unittitle encodinganalog="245$a">Testing and test bans</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Verification, 1970, 1982-1990</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Uranium</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Enrichment, 1969-1989, undated  </unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mining, 1969-1971</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle id="viet16" encodinganalog="245$a">Vietnam War, 1965-1983, undated  <ref target="viet4" show="replace" actuate="onrequest">
+                                 <emph render="italic">See also Container 4, same heading</emph>
+                              </ref>
+                           </unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Views of non-nuclear weapon states, 1967-1968, undated</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Wiesner, Jerome B., 1980</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <unittitle encodinganalog="245$a">Writings and speeches by</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Loeb, 1988-1995</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Seaborg, Glenn Theodore, 1969-1971, 1982-1996, undated  </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Seaborg, Glenn Theodore, and Loeb</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                                    <title localtype="simple">
+                                       <part>The Atomic Energy Commission under Nixon</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Material for epilogue, 1969-1992, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Reviews and reactions, 1993-1995</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                                    <title localtype="simple">
+                                       <part>Kennedy, Khrushchev and the Test Ban</part>
+                                    </title>, correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Between Glenn Theodore Seaborg and Loeb, 1972-1980, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">General, 1980-1983, undated</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous, 1985, 1993, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“My Three Presidents,” 1993, undated  </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“Nuclear Diplomacy during the Cold War,” 1997-1998, undated   <ref target="trav13" show="replace" actuate="onrequest">
+                                       <emph render="italic">For additional material see Container 13,</emph> Travel abroad</ref>
+                                 </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">CL 1</container>
+               <unittitle>Classified</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle id="multicl1">Multilateral force, 1963  <ref target="multi5" show="replace" actuate="onrequest">
+                                    <emph render="italic">(Container 5)</emph>
+                                 </ref>
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle>Production</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="cutcl1">Cutback, 1965  <ref target="cut9" show="replace" actuate="onrequest">
+                                       <emph render="italic">(Container 9)</emph>
+                                    </ref>
+                                 </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle>Seaborg, Glenn Theodore</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle>Travel abroad</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="ukcl1" encodinganalog="245$a">United Kingdom, 1963  <ref target="uk13" show="replace" actuate="onrequest">
+                                          <emph render="italic">(Container 13)</emph>
+                                       </ref>
+                                    </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle>Testing and test bans</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="seacl1">Seaborg, Glenn Theodore, journal excerpts, 1963  <ref target="sea15" show="replace" actuate="onrequest">
+                                       <emph render="italic">(Container 15)</emph>
+                                    </ref>
+                                 </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

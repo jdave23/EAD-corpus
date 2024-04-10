@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms006041">loc.mss/eadmss.ms006041</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Nicholas Longworth Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Paul Ledvina <lb/>Revised by Brian McGuire</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2005" encodinganalog="260$c" era="ce" calendar="gregorian">2005</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm79055129">https://lccn.loc.gov/mm79055129</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Title, controlaccess updated</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2006">2006</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Nicholas
+		  Longworth 
+		  Papers <date altrender="Span Dates" localtype="inclusive" normal="1782/1931">1782-1931 </date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1915/1930">(bulk 1915-1930)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1782/1931"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1782-1931 </unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1915/1930"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1915-1930)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS55129</unitid>
+         <origination label="Creator">
+                        <persname source="lcnaf" encodinganalog="100">
+                           <part>Longworth, Nicholas, 1869-1931</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300"> 1,800
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">4 containers plus 2 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">2.4 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English 
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address> 
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a"> Lawyer, congressman,
+		  and speaker of the United States House of Representatives. Correspondence,
+		  speeches, newspaper clippings, scrapbooks, and memorabilia consisting chiefly
+		  of speeches made during Longworth’s servce in the House of Representatives.
+		  Includes a series of letters to Theodore Roosevelt concerning the nomination of
+		  an African American to be surveyor of customs for the Port of Cincinnati; a
+		  group of letters by Longworth's grandfather, Nicholas Longworth (1782-1863);
+		  and an album of letters of speakers of the United States House of
+		  Representatives.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20201228180534.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Longworth, N. (Nicholas), 1782-1863--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Longworth, Nicholas, 1869-1931.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Roosevelt, Theodore, 1858-1919--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Harvard University--Students.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Congress. House.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Congress. House. Office of the Speaker of the House--Correspondence.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>African Americans--Ohio--Cincinnati.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Universities and colleges--Massachusetts.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--1901-1953.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Lawyers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Representatives, U.S. Congress--Ohio.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Nicholas Longworth, lawyer, congressman, and speaker of
+		  the United States House of Representatives, were given to the Library of
+		  Congress by Katherine F. Deitz in 1964 and by his granddaughter, Joanna Sturm,
+		  in 1975. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p> The papers of Nicholas Longworth were arranged and described in 1978
+		  and 1979. The finding aid was revised in 2005. </p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Items have been transferred from the Manuscript Division to other
+		  custodial divisions of the Library. Photographs have been transferred to the
+		  Prints and Photographs Division. Sheet music has been transferred to the Music
+		  Division. All transfers are identified in these divisions as part of the
+		  Nicholas Longworth Papers. </p>
+      </separatedmaterial>
+      <relatedmaterial encodinganalog="544 1">
+         <head> Related Material</head>
+         <p>Other material relating to Nicholas Longworth is in the Manuscript
+		  Division’s collection of the papers of his wife, 
+                               Alice Roosevelt Longworth 
+                           .</p>
+      </relatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of Nicholas Longworth in these
+		  papers and in other collections of papers in the custody of the Library of
+		  Congress has been dedicated to the public. </p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Nicholas Longworth are open to research.
+		  Researchers are advised to contact the Manuscript Reading Room prior to
+		  visiting. Many collections are stored off-site and advance notice is needed to
+		  retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Nicholas Longworth Papers, Manuscript
+		  Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1869, Nov. 5</datesingle>
+               <event>Born, Cincinnati, Ohio</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1891</datesingle>
+               <event>Graduated, Harvard College, Cambridge, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1894</datesingle>
+               <event>Graduated, Cincinnati Law School, Cincinnati, Ohio</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1891</datesingle>
+               <event>Elected to the Cincinnati Board of Education, Cincinnati,
+				Ohio</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1899</fromdate>
+                              <todate>1901</todate>
+                           </daterange>
+               <event>Member, Ohio state house of representatives</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1901</fromdate>
+                              <todate>1903</todate>
+                           </daterange>
+               <event>Member, Ohio state senate</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1903</fromdate>
+                              <todate>1913</todate>
+                           </daterange>
+               <event>Represented 1st District of Ohio in the United States Congress
+				</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1906</datesingle>
+               <event>Married Alice Lee Roosevelt</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1915</fromdate>
+                              <todate>1931</todate>
+                           </daterange>
+               <event> Represented 1st District of Ohio in the United States
+				Congress</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1923</fromdate>
+                              <todate>1925</todate>
+                           </daterange>
+               <event>Republican Party floor leader, United States House of
+				Representatives </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1925</fromdate>
+                              <todate>1932</todate>
+                           </daterange>
+               <event>Speaker, United States House of Representatives </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1931, Apr. 9</datesingle>
+               <event>Died, Aiken, S.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Nicholas Longworth (1869-1931) span the period
+		  1782-1931. Most of Longworth’s papers were destroyed during the closing of his
+		  home, Rookwood, in Cincinnati following his death. What remains consists of
+		  miscellaneous <ref actuate="onrequest" show="replace" target="corr">
+                correspondence 
+            </ref>, newspaper clippings relating to political
+		  campaigns, scrapbooks from his student years at Harvard College, souvenir
+		  memorial books, and <ref actuate="onrequest" show="replace" target="speech">
+                speeches 
+            </ref>.</p>
+         <p>A series of letters from various individuals written in 1907 to
+		  President Theodore Roosevelt concerns nomination of an African American to be
+		  surveyor of customs of the port of Cincinnati. Letters written by Longworth’s
+		  grandfather, Nicholas Longworth (1782-1863), are dated 1823, 1824, and
+		  1860.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in four series: </p>
+         <list>
+            <item>
+                           <ref actuate="onrequest" show="replace" target="corr">
+                   Correspondence, 1823-1928 
+               </ref>
+                        </item>
+            <item>
+                           <ref actuate="onrequest" show="replace" target="speech">
+                   Speeches and Writings, 1889-1930 
+               </ref>
+                        </item>
+            <item>
+                           <ref actuate="onrequest" show="replace" target="misc">
+                   Miscellany, 1782-1931 
+               </ref>
+                        </item>
+            <item>
+                           <ref actuate="onrequest" show="replace" target="ov">
+                   Oversize, 1782-1920 
+               </ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a" id="corr">Correspondence, 
+				 <date normal="1823/1928" localtype="inclusive">1823-1928</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1823/1928"
+                         unitdatetype="inclusive">1823-1928</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Letters sent and received and letters to Theodore Roosevelt from
+				others. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by category and chronologically therein. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Longworth, Nicholas (1782-1863), 
+				   <date localtype="inclusive">1823-1824, 1860 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1823-1824, 1860 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Longworth, Nicholas (1869-1931), 
+				   <date localtype="inclusive">1902-1906, 1923-1924, 1928, undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1902-1906, 1923-1924, 1928, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Roosevelt, Theodore (1858-1919),
+				  letters concerning appointment of surveyor of customs, Port of Cincinnati, 
+				   <date localtype="inclusive">1907</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1907</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-2</container>
+               <unittitle encodinganalog="245$a" id="speech">Speeches and Writings, 
+				 <date localtype="inclusive">1889-1930</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1889-1930</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Holograph and typed speeches and a copy of Silas Jackson’s Wrongs
+				by Longworth (1869-1931). </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Book, 
+				  <title localtype="simple">
+                                    <part>Silas Jackson’s Wrongs</part>
+                                 </title> (1889) </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Speeches</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Chronological file</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+						                                 <date localtype="inclusive">1906-1923</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1906-1923</unitdate>
+                        <physdesc encodinganalog="300">(7
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">
+						                                 <date localtype="inclusive">1924-1930, undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1924-1930, undated</unitdate>
+                        <physdesc encodinganalog="300">(8
+						folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+					                               <title localtype="simple">
+                                       <part>Extracts from the Congressional Record; Remarks by
+						Nicholas Longworth</part>
+                                    </title>, 
+					  <date localtype="inclusive">1904-1911</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1904-1911</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">3-4</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany, 
+				 <date normal="1782/1931" localtype="inclusive">1782-1931</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1782/1931"
+                         unitdatetype="inclusive">1782-1931</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Biographical papers, campaign material, elementary school
+				notebook, college scrapbooks, memorial steamship log, and a volume of letters
+				of speakers of the United States House of Representatives. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by subject.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Biographical material and
+				  articles about Longworth, 
+				   <date localtype="inclusive">1925-1931, undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1925-1931, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Campaign material, 
+				   <date localtype="inclusive">1918, 1928</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1918, 1928</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Fiftieth wedding anniversary
+				  memorial of Nicholas and Susan Longworth, 
+				   <date localtype="inclusive">1857</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1857</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Log of the Steam Yacht C.O., St.
+				  Francis and Mississippi rivers, 
+				   <date localtype="inclusive">1885, Oct. 10-Dec. 11</date> 
+				                             <ref show="replace" actuate="onrequest" target="logov1">
+                                    <emph render="italic">See Oversize</emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1885, Oct. 10-Dec. 11</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Newspaper clippings, 
+				   <date localtype="inclusive">1924</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1924</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notebook, elementary school, 
+				   <date localtype="inclusive">undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Printed matter, 
+				   <date localtype="inclusive">1924-1925</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1924-1925</unitdate>
+                  <physdesc encodinganalog="300">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Album, letters of speakers of the
+				  United States House of Representatives, 
+				   <date localtype="inclusive">1782-1920</date> 
+				                             <ref show="replace" actuate="onrequest" target="albov2">
+                                    <emph render="italic">See Oversize</emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1782-1920</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Scrapbooks, 
+				   <date localtype="inclusive">circa 1887-1891</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">circa 1887-1891</unitdate>
+                  <physdesc encodinganalog="300">(2
+				  vols.)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1-OV 2</container>
+               <unittitle encodinganalog="245$a" id="ov">Oversize, 
+				 <date normal="1782/1920" localtype="inclusive">1782-1920</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1782/1920"
+                         unitdatetype="inclusive">1782-1920</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Memorial steamship log and volume of letters of speakers of the
+				United States House of Representatives. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged and described according to the series, containers, and
+				folders from which the items were removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="logov1">Log of the Steam
+					 Yacht C.O., St. Francis and Mississippi rivers, 
+					  <date localtype="inclusive">1885, Oct. 20- Dec. 11</date>  (Container
+					 3)</unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1885, Oct. 20- Dec. 11</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">
+                                    <abbr>OV 2</abbr>
+                                 </container>
+                     <unittitle encodinganalog="245$a" id="albov2">Album, letters of
+					 speakers of the United States House of Representatives, 
+					  <date localtype="inclusive">1782-1920</date>  (Container 4)</unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" unitdatetype="inclusive">1782-1920</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms003056">loc.mss/eadmss.ms003056</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Josiah Bartlett Family
+			 Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author encodinganalog="245$c">Prepared by Alan Goodrich <lb/>Revised
+			 and expanded by John Monagle</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress </publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2001" encodinganalog="260$c" era="ce" calendar="gregorian">2001</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78011932">https://lccn.loc.gov/mm78011932</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Title, controlaccess updated</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2004-07-19">2004-07-19</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>converted from EAD 1.0 to EAD 2002</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2003">2003</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Josiah Bartlett family
+		  papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1710/1931">1710-1931</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1800/1890">(bulk 1800-1890)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1710/1931"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1710-1931</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1800/1890"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1800-1890)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS11932</unitid>
+         <origination label="Creator">
+                        <persname source="lcnaf" encodinganalog="100">
+                           <part>Bartlett, Josiah,
+			 1729-1795</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">10,000
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">29 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">11.6 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">17 microfilm reels</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part> 
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address> 
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Statesmen and
+		  physicians. Correspondence, diaries, diplomas, legal and financial records,
+		  notebooks, account books, speeches, genealogical material, printed matter, and
+		  newspaper clippings documenting the Bartlett family's professional and
+		  political activity in New England in the seventeenth, eighteenth, and
+		  nineteenth centuries. Topics include New England's sentiment towards the War of
+		  1812 as well as American political life before and during the Civil War and
+		  post Civil War business developments.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20211014151442.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bartlett family.</part>
+            </famname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Bartlett, Ezra, 1770-1848. Ezra Bartlett papers.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Bartlett, Josiah, 1729-1795.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Bartlett, Josiah, 1729-1795. Josiah Bartlett papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Bartlett, Josiah, 1768-1838. Josiah Bartlett papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Bartlett, Josiah, 1803-1853. Josiah Bartlett papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Bartlett, Levi, 1763-1828. Levi Bartlett papers.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Republican Party (N.H.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Whig Party (N.H.)</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Depressions--1836-1837.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Indians of North America--Wars--1815-1875.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Medicine--Practice--New England.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Missouri compromise.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Seminole Indians--Wars.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Slavery--United States.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New England--Commerce.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New England--Rural conditions.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New England--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New Hampshire--Politics and government.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Economic conditions--To 1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865--Hospitals.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--War of 1812.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Delegates, U.S. Continental Congress--New Hampshire.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Governors--New Hampshire.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Judges.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Physicians.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> Although portions of the papers of the Josiah Bartlett family were
+		  acquired from multiple sources from 1938 to 1993, the bulk of the material was
+		  received by purchase in 1938 and by gift from Mrs. Mack W. Schwab in 1958. An
+		  addition was purchased in 1993.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p> The papers of the Bartlett family were arranged and described in
+		  1970. Material received in 1993 was processed as an addition in 2001.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p> A map of the National Road from Washington, D.C. , to Buffalo, N.Y.,
+		  has been transferred to the Library's Geography and Map Division where it is
+		  identified as part of these papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p> The status of copyright in the unpublished writings of the Bartlett
+		  family is governed by the Copyright Law of the United States (Title 17,
+		  U.S.C.). </p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of the Josiah Bartlett family are open to research.
+		  Researchers are advised to contact the Manuscript Reading Room prior to
+		  visiting. Many collections are stored off-site and advance notice is needed to
+		  retrieve these items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p> A microfilm edition of part of these papers is available on seventeen
+		  reels. Consult reference staff in the Manuscript Division concerning
+		  availability for purchase or interlibrary loan. To promote preservation of the
+		  originals, researchers are required to consult the microfilm edition as
+		  available.</p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p> Researchers wishing to cite this collection should include the
+		  following information: Container or reel number, Josiah Bartlett Family Papers,
+		  Manuscript Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Notes</head>
+         <bioghist>
+            <head>Josiah Bartlett (1729-1795)</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1729, Nov. 21</datesingle>
+                  <event>Born, Amesbury, Mass.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1750</datesingle>
+                  <event>Moved to Kingston, N.H.; began to practice medicine</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1750, circa </datesingle>
+                  <event>Married Mary Barton</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1775</fromdate>
+                                 <todate>1779</todate>
+                              </daterange>
+                  <event>Member, Continental Congress</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1776</datesingle>
+                  <event>Signed Declaration of Independence</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1782</fromdate>
+                                 <todate>1788</todate>
+                              </daterange>
+                  <event>Justice, Superior Court, New Hampshire</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1788</datesingle>
+                  <event>Chairman, New Hampshire state convention to ratify the
+				  United States Constitution</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1790</fromdate>
+                                 <todate>1792</todate>
+                              </daterange>
+                  <event>President of New Hampshire</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1791</datesingle>
+                  <event>First president, New Hampshire Medical Society</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1793</datesingle>
+                  <event>Governor of New Hampshire</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1795, May 19</datesingle>
+                  <event>Died, Kingston, N.H.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist>
+            <head>Levi Bartlett (1763-1828)</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1763</datesingle>
+                  <event>Born, Kingston, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1778</datesingle>
+                  <event>Attended Dummer School, Dummer, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1791</fromdate>
+                                 <todate>1819</todate>
+                              </daterange>
+                  <event>Practiced medicine</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1791</datesingle>
+                  <event>Joined New Hampshire Medical Society</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1800</fromdate>
+                                 <todate>1806</todate>
+                              </daterange>
+                  <event>Secretary, New Hampshire Medical Society</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1804</datesingle>
+                  <event>Presidential elector</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1816</fromdate>
+                                 <todate>1820</todate>
+                              </daterange>
+                  <event>Judge of Circuit Court</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1828</datesingle>
+                  <event>Died, Kingston, N.H.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist>
+            <head>Josiah Bartlett (1768-1838)</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1768, Aug. 29</datesingle>
+                  <event>Born, Kingston, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1789</datesingle>
+                  <event>Moved to Stratham, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1792</datesingle>
+                  <event>Married E. Wingate</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1789</fromdate>
+                                 <todate>1829</todate>
+                              </daterange>
+                  <event>Practiced medicine</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1799</datesingle>
+                  <event>Member, New Hampshire Medical Society</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1809</fromdate>
+                                 <todate>1810</todate>
+                              </daterange>
+                  <event>State senator, New Hampshire</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1811</fromdate>
+                                 <todate>1813</todate>
+                              </daterange>
+                  <event>Member, United States Congress</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1812</datesingle>
+                  <event>Married Hannah Weeks</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1815</datesingle>
+                  <event>President, New Hampshire Medical Society</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1816</fromdate>
+                                 <todate>1817</todate>
+                              </daterange>
+                  <event>Treasurer, Rockingham County, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1824</datesingle>
+                  <event>President, New Hampshire state senate</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1838, Apr. 16</datesingle>
+                  <event>Died, Stratham, N.H.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist>
+            <head>Ezra Bartlett (1770-1848)</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1770</datesingle>
+                  <event>Born, Kingston, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1794</datesingle>
+                  <event>Received medical certificate</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1794</fromdate>
+                                 <todate>circa 1838</todate>
+                              </daterange>
+                  <event>Practiced medicine</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1798</datesingle>
+                  <event>Moved to Warren, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1799</datesingle>
+                  <event>Married Hannah Gale</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1800</fromdate>
+                                 <todate>1823</todate>
+                              </daterange>
+                  <event>Member, New Hampshire Medical Society</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1806</datesingle>
+                  <event>State senator, New Hampshire</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1812</datesingle>
+                  <event>Moved to Haverhill, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1816</datesingle>
+                  <event>Judge, circuit court</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1820</datesingle>
+                  <event>Chief justice, Court of Sessions</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1822</fromdate>
+                                 <todate>1824</todate>
+                              </daterange>
+                  <event>Member, Governor's Council</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1820</fromdate>
+                                 <todate>1828</todate>
+                              </daterange>
+                  <event>Presidential elector</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1848</datesingle>
+                  <event>Died, Haverhill, N.H.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist>
+            <head>Josiah Bartlett (1803-1853)</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1803, May 3</datesingle>
+                  <event>Born, Warren, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1812</datesingle>
+                  <event>Moved with family to Haverhill, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1824</datesingle>
+                  <chronitemset>
+                                 <event>M.D., Dartmouth College, Hanover, N.H.</event>
+                                 <event>Moved to Stratham, N.H.</event>
+                              </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1824</fromdate>
+                                 <todate>1853</todate>
+                              </daterange>
+                  <event>Practiced medicine, Stratham, N.H.</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1824</fromdate>
+                                 <todate>1853</todate>
+                              </daterange>
+                  <event>Member, New Hampshire Medical Society</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1827</datesingle>
+                  <event>Married Hannah E. W. Thompson</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1853</datesingle>
+                  <event>Died, Norwalk, Conn.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of the Bartlett family represent five generations of the
+		  family from 1710 to1931, with the bulk of the material concentrated between
+		  1800 and 1890.</p>
+         <p>The papers consists of 
+		  <ref target="corr" show="replace" actuate="onrequest">
+                correspondence 
+            </ref>, 
+		  <ref target="diary" show="replace" actuate="onrequest">
+                diaries,
+			 notebooks 
+            </ref>, 
+		  <ref target="legal" show="replace" actuate="onrequest">
+                legal
+			 papers 
+            </ref>, diplomas, 
+		  <ref target="finan" show="replace" actuate="onrequest">
+                financial
+			 papers 
+            </ref>, account books, 
+		  <ref target="speech" show="replace" actuate="onrequest">
+                drafts of
+			 speeches 
+            </ref>, bills of lading, school compositions, genealogical material,
+		  photographs, maps, printed matter, biographies, obituaries, scattered
+		  individual issues of newspapers, and 
+		  <ref target="misc" show="replace" actuate="onrequest">
+                miscellaneous 
+            </ref> items.</p>
+         <p>The collection describes in detail the professional and political
+		  careers of Josiah Bartlett (1729-1795), signer of the Declaration of
+		  Independence and governor of New Hampshire, and his sons, Levi Bartlett
+		  (1763-1828) and Ezra Bartlett (1770-1848), both physicians and jurists, and
+		  Josiah Bartlett (1768-1838), physician, member of Congress, and president of
+		  the New Hampshire State Senate, as well as the papers of Ezra's son, Josiah
+		  Bartlett, (1803-1853), also a physician, and other descendants.</p>
+         <p>The papers primarily reflect the professional affairs of rural
+		  physicians and the daily activities and concerns of a large New England family
+		  in the seventeenth, eighteenth, and nineteenth centuries. Specific topics in
+		  the early correspondence include activities in Congress prior to the
+		  declaration of war on Great Britain in 1812, sentiment in New Hampshire
+		  favoring the war, and an account by an American combatant of the repelling of
+		  the British attack on Fort McHenry and Baltimore in 1814.</p>
+         <p>Later correspondence concerns the Missouri Compromise, Republican and
+		  Whig politics in New Hampshire, antislavery sentiment, the Seminole War, the
+		  Panic of 1837, life in the United States Navy, activities in military hospitals
+		  during the Civil War, and business developments in New England after the
+		  war.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Organization of the Papers</head>
+         <p>The collection is arranged in seven series:</p>
+         <list listtype="unordered" mark="circle">
+            <item> 
+			                        <ref target="diary" show="replace" actuate="onrequest">
+                   Diaries and
+				Notebooks, 1737-circa 1865 
+               </ref> 
+                        </item>
+            <item> 
+			                        <ref target="corr" show="replace" actuate="onrequest">
+                   Correspondence,
+				1710-1931 
+               </ref> 
+                        </item>
+            <item> 
+			                        <ref target="legal" show="replace" actuate="onrequest">
+                   Legal Papers,
+				1728-1913 
+               </ref> 
+                        </item>
+            <item> 
+			                        <ref target="finan" show="replace" actuate="onrequest">
+                   Financial
+				Papers, circa 1789-circa 1913 
+               </ref> 
+                        </item>
+            <item> 
+			                        <ref target="speech" show="replace" actuate="onrequest">
+                   Speech File,
+				circa 1800-1913 
+               </ref> 
+                        </item>
+            <item> 
+			                        <ref target="misc" show="replace" actuate="onrequest">
+                   Miscellany,
+				1775-1931 
+               </ref> 
+                        </item>
+            <item> 
+			                        <ref target="add" show="replace" actuate="onrequest">
+                   Addition,
+				1783 
+               </ref> 
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Box</entry>
+               <entry morerows="0">Reel</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1</container>
+               <container localtype="reel">1</container>
+               <unittitle id="diary" encodinganalog="245$a">Diaries and Notebooks, 
+				 <date localtype="inclusive" normal="1737/1865">1737-circa 1865</date>  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1737/1865" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1737-circa 1865</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Diaries and notebooks. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">1737-circa 1865 </unittitle>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2-18</container>
+               <container localtype="reel">1-12</container>
+               <unittitle id="corr" encodinganalog="245$a">Correspondence, 
+				 <date localtype="inclusive" normal="1710/1931">1710-1931</date>  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1710/1931" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1710-1931</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent and received. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">1-2</container>
+                  <unittitle encodinganalog="245$a">1710-1813 </unittitle>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">1814-1819 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <container localtype="reel">2-3</container>
+                  <unittitle encodinganalog="245$a">1820-1824 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">1825-1832 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <container localtype="reel">3-4</container>
+                  <unittitle encodinganalog="245$a">1833-1839 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <container localtype="reel">4-5</container>
+                  <unittitle encodinganalog="245$a">1840-1846 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <container localtype="reel">5</container>
+                  <unittitle encodinganalog="245$a">1847-1852 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <container localtype="reel">5-6</container>
+                  <unittitle encodinganalog="245$a">1853-1857 </unittitle>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container localtype="reel">6-7</container>
+                  <unittitle encodinganalog="245$a">1858-1863 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <container localtype="reel">7</container>
+                  <unittitle encodinganalog="245$a">1864-1868 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">1869-1872, Apr. </unittitle>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <container localtype="reel">8-9</container>
+                  <unittitle encodinganalog="245$a">1872, May-1874 </unittitle>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container localtype="reel">9</container>
+                  <unittitle encodinganalog="245$a">1875-1879 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <container localtype="reel">10</container>
+                  <unittitle encodinganalog="245$a">1880-1885 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <container localtype="reel">10</container>
+                  <unittitle encodinganalog="245$a">1886-1890 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <container localtype="reel">11</container>
+                  <unittitle encodinganalog="245$a">1891-1931, undated </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <container localtype="reel">12</container>
+                  <unittitle encodinganalog="245$a">Undated and fragmentary
+				  </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">19-20</container>
+               <container localtype="reel">13</container>
+               <unittitle id="legal" encodinganalog="245$a">Legal Papers, 
+				 <date localtype="inclusive" normal="1728/1913">1728-1913</date>  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1728/1913" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1728-1913</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Indentures, deeds, contracts, court orders, depositions, case
+				books, wills, and miscellaneous items. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by type of material and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <container localtype="reel">13</container>
+                  <unittitle encodinganalog="245$a">Case books, 1825-1826</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Court orders, depositions, and
+				  warrants, 1789-1909 </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Indentures, deeds, and
+				  contracts</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1728-1806</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <container localtype="reel">13</container>
+                     <unittitle encodinganalog="245$a">1817-1902 </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Wills, 1752-1913,
+				  undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany, 1775-1903,
+				  undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">21-24</container>
+               <container localtype="reel">13-15</container>
+               <unittitle id="finan" encodinganalog="245$a">Financial Papers, 
+				 <date localtype="inclusive" normal="1789/1913">circa 1789-circa 1913</date>  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1789/1913" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">circa 1789-circa 1913</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Bills and receipts, court payrolls, county receipts, and account
+				books. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by type of material and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <container localtype="reel">13</container>
+                  <unittitle encodinganalog="245$a">Account books</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1793-1802</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <container localtype="reel">14</container>
+                     <unittitle encodinganalog="245$a">1789-1848 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Court and county
+				  accounts</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">County receipts, 1807-1817
+					 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Court payrolls, 1812-1817
+					 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <container localtype="reel">14-15</container>
+                  <unittitle encodinganalog="245$a">Bills and receipts</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Personal</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">circa 1795-circa 1819,
+						undated </unittitle>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <container localtype="reel">15-16</container>
+                        <unittitle encodinganalog="245$a">circa 1794-circa 1913,
+						undated </unittitle>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Mills, George, circa 1817-circa
+					 1848, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">25</container>
+               <container localtype="reel">16</container>
+               <unittitle id="speech" encodinganalog="245$a">Speech File, 
+				 <date localtype="inclusive" normal="1800/1913">circa 1800-1913</date>  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1800/1913" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">circa 1800-1913</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Draft speeches by Josiah Bartlett (1768-1838), Josiah Bartlett
+				(1803-1853), and Amos G. Draper. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by type of material or author.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <container localtype="reel">16</container>
+                  <unittitle encodinganalog="245$a">Speech drafts and
+				  notes</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bartlett, Josiah (1768-1838),
+					 circa 1800-1838, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bartlett, Josiah (1803-1853),
+					 1828-1850, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Draper, Amos G., 1860-1913
+					 </unittitle>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">26-29</container>
+               <container localtype="reel">16-17</container>
+               <unittitle id="misc" encodinganalog="245$a">Miscellany, 
+				 <date localtype="inclusive" normal="1775/1931">1775-1931</date>  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1775/1931" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1775-1931</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Biographies, obituaries, genealogical material, printed matter,
+				photographs, compositions, newspapers, newspaper clipppings, and pamphlets.
+				</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <container localtype="reel">16</container>
+                  <unittitle encodinganalog="245$a">Bills of lading, 1819</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Church papers, 1826-1837,
+				  undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">School compositions and notes,
+				  1775-1875, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Diplomas and certificates,
+				  1824</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Insurance policies,
+				  1825-1851</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Legislative papers, 1781, 1814,
+				  undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Maps, 1802, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Paper currency,
+				  1800-1821</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Petitions, 1791, 1810,
+				  undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Photographs and prints,
+				  1827</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous official records,
+				  1863-1930, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Biographies, eulogies, and
+				  genealogical material, 1801-1898</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany, 1807-circa 1910,
+				  undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <container localtype="reel">17</container>
+                  <unittitle encodinganalog="245$a">Printed matter</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Broadsides, proclamations, and
+					 circulars, 1804-1888, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Cards and tickets, 1811-1868,
+					 undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Forms, circa 1790-1874,
+					 undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Invitations, programs,
+					 catalogs, passes, and menus, 1821-1912, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pamphlets, 1814-1819,
+					 undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <container localtype="reel">17</container>
+                  <unittitle encodinganalog="245$a">Newspapers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1778-1877, June </unittitle>
+                     <physdesc encodinganalog="300">(13 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">29</container>
+                     <container localtype="reel">17</container>
+                     <unittitle encodinganalog="245$a">1877, Aug.-1916 </unittitle>
+                     <physdesc encodinganalog="300">(7 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Newspaper clippings,
+				  1806-1931</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">29</container>
+               <container label="not filmed"/>
+               <unittitle id="add" encodinganalog="245$a">Addition, 
+				   <date localtype="inclusive" normal="1783">1783</date>  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1783" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1783</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letter from John Taylor Gilman to Josiah Bartlett (1729-1795).</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gilman, John Taylor, to Josiah
+					 Bartlett (1729-1795), 1783</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

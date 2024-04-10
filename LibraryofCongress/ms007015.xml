@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms007015">loc.mss/eadmss.ms007015</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Denby Family Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm2001084834">https://lccn.loc.gov/mm2001084834</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-11">2023 November</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Title, controlaccess updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2007">2007</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Denby Family Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1850/1911">1850-1911</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1850/1911"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1850-1911</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS84834</unitid>
+         <origination label="Creator">
+            <famname encodinganalog="100" source="lcnaf">
+               <part>Denby family</part>
+            </famname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">2,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">8 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">3.2 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Correspondence between members of the
+            Denby family. Includes letters of Charles Denby (1830-1904), a lawyer and diplomat;
+            Charles Denby (1861-1938), a diplomat; and Edwin Denby, a member of the United States
+            Congress and secretary of the navy. Relates to the Civil War, diplomatic life in China,
+            and the Spanish-American War.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220930165440.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Denby family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Denby, Charles, 1830-1904--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Denby, Charles, 1861-1938--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Denby, Edwin, 1870-1929--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Denby, Graham--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Denby, Harriet--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Denby, Martha Fitch--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Denby, Thomas Garvin--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Denby, Wythe--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Fitch, Graham N. (Graham Newell), 1809-1892--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Fitch, Harriet Satterlee--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>China. Hai guan zong shui wu si shu.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>College of New Jersey (Princeton, N.J.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Hellmuth Ladies' College (London, Ont.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Indiana Infantry Regiment, 42nd (1861-1865)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Indiana Infantry Regiment, 80th (1862-1865)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Congress.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Department of State.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Philippine Commission (1899-1900)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. War Department.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Yosemite (Cruiser)</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Customs administration--China.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Diplomatic and consular service, American--China--Beijing.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Diplomatic and consular service, American--China.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Mining engineering--Alaska.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Mining engineering--Arizona.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Mining engineering--Utah.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Practice of law--Indiana--Evansville.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Spanish-American War, 1898.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Universities and colleges--New Jersey--Princeton.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Universities and colleges--Ontario--London.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Alabama--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>China--Commerce.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>China--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Europe--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Evansville (Ind.)--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Indiana--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Indiana--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Kentucky--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Logansport (Ind.)--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Philippines--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Tennessee--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--China.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Washington (D.C.)--Social life and customs.</part>
+            </geogname>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of the Denby family were given to the Library of Congress by Gilbert Wilkes
+            in 2001 and 2002.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p> The papers of the Denby family were arranged and described by Laura J. Kells in 2002.
+            The finding aid was updated in 2023 by Maria Farmer as part of a division-wide
+            remediation project by the Inclusive Description Working Group.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings by members of the Denby family is
+            governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of the Denby family are open to research. Researchers are advised to contact
+            the Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Denby Family Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Notes</head>
+         <bioghist encodinganalog="545">
+            <head>Charles Denby (1830-1904)</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1830, June 16</datesingle>
+                  <event>Born, Mount Joy, Va.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1850</datesingle>
+                  <event>Graduated, Virginia Military Institute, Lexington, Va.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1855</datesingle>
+                  <event>Admitted to the Indiana bar; began practicing law in Evansville, Ind.
+                  </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1858</datesingle>
+                  <event>Married Martha Fitch</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1861</datesingle>
+                  <event>Appointed lieutenant colonel, 42nd Indiana Volunteers</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1862</datesingle>
+                  <chronitemset>
+                     <event>Engaged in battle of Perryville, Ky.</event>
+                     <event> Appointed colonel, 80th Indiana Volunteers</event>
+                  </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1863</datesingle>
+                  <event>Resigned from military</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1876</datesingle>
+                  <event>Delegate to Democratic National Convention, St. Louis, Mo.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1884</datesingle>
+                  <event>Delegate to Democratic National Convention, Chicago, Ill. </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1885</fromdate>
+                     <todate>1898</todate>
+                  </daterange>
+                  <event>United States minister to China</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1898</datesingle>
+                  <event>Named to United States Commission Appointed by the President to Investigate
+                     the Conduct of the War Department in the War with Spain</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1899</datesingle>
+                  <chronitemset>
+                     <event>Appointed to United States Philippine Commission </event>
+                     <event>Visited Philippines</event>
+                  </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1904, Jan. 13</datesingle>
+                  <event>Died, Jamestown, N. Y.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1906</datesingle>
+                  <event>Posthumous publication of <title localtype="simple">
+                        <part>China and Her People</part>
+                     </title> (Boston: L. C. Page and Co. 2 vols.) </event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist encodinganalog="545">
+            <head>Charles Denby (1861-1938)</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1861, Nov. 14</datesingle>
+                  <event>Born, Evansville, Ind.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1882</datesingle>
+                  <event>Graduated, College of New Jersey, Princeton, N. J. (now Princeton
+                     University)</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1885</fromdate>
+                     <todate>1893</todate>
+                  </daterange>
+                  <event>Second secretary, United States legation, Peking (now known as Beijing),
+                     China</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1893</fromdate>
+                     <todate>1897</todate>
+                  </daterange>
+                  <event>First secretary, United States legation, Peking (now known as Beijing),
+                     China</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1895</datesingle>
+                  <event>Married Martha Dalzell Orr</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1897</fromdate>
+                     <todate>1900</todate>
+                  </daterange>
+                  <event>In business with Arnhold, Karberg and Co., Tientsin (now known as Tianjin),
+                     China</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1900</datesingle>
+                  <event>Appointed secretary general of provisional government, Tientsin (now known
+                     as Tianjin), China</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1902</fromdate>
+                     <todate>1905</todate>
+                  </daterange>
+                  <event>Foreign advisor to viceroy of Chilhi Province (now known as Zhili
+                     Province), China </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1905</fromdate>
+                     <todate>1907</todate>
+                  </daterange>
+                  <event>Chief clerk, State Department, Washington, D. C.</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1907</fromdate>
+                     <todate>1909</todate>
+                  </daterange>
+                  <event>United States consul general, Shanghai, China</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1909</fromdate>
+                     <todate>1915</todate>
+                  </daterange>
+                  <event>United States consul general, Vienna, Austria</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1915</fromdate>
+                     <todate>1917</todate>
+                  </daterange>
+                  <event>Vice president, Hupp Motor Car Corp., Detroit, Mich.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1917</datesingle>
+                  <event>Director, Bureau of Foreign Agents, War Trade Board, Washington, D.
+                     C.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1918</datesingle>
+                  <event>Special representative, State Department, Japan and China</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1922</fromdate>
+                     <todate>1923</todate>
+                  </daterange>
+                  <event>Special representative, United States Shipping Board, Japan and China
+                  </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1938, Feb. 14</datesingle>
+                  <event>Died, Washington, D. C. </event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist encodinganalog="545">
+            <head>Edwin Denby</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1870, Feb. 18</datesingle>
+                  <event>Born, Evansville, Ind.</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1887</fromdate>
+                     <todate>1894</todate>
+                  </daterange>
+                  <event>Served in Chinese Maritime Customs Service</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1896</datesingle>
+                  <chronitemset>
+                     <event>Received law degree, University of Michigan, Ann Arbor, Mich.</event>
+                     <event> Started law practice, Detroit, Mich. </event>
+                  </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1898</datesingle>
+                  <event>Gunner’s mate, <emph render="italic">Yosemite</emph> (auxiliary cruiser)
+                  </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1903</datesingle>
+                  <event>Elected to Michigan House of Representatives</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1905</fromdate>
+                     <todate>1911</todate>
+                  </daterange>
+                  <event>Republican congressman, Michigan First District, United States House of
+                     Representatives </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1911</datesingle>
+                  <event>Married Marion Bartlett Thurber </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1917</datesingle>
+                  <event>Enlisted in United States Marine Corps. </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1920</fromdate>
+                     <todate>1921</todate>
+                  </daterange>
+                  <event>Chief probation officer, Recorder’s Court, City of Detroit, Mich., and
+                     Circuit Court of Wayne County, Mich. </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1921</fromdate>
+                     <todate>1924</todate>
+                  </daterange>
+                  <event>Secretary of the navy; resigned following Teapot Dome affair </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1929</datesingle>
+                  <event>Died, Detroit, Mich.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of the Denby family span the years 1850-1911 and consist primarily of
+            correspondence and related matter exchanged among family members. The bulk of the
+            letters are between Charles Denby (1830-1904), a lawyer and minister to China, his wife
+            Martha Fitch Denby (“Mattie”), and their children Graham, Charles, Harriet (“Hattie” and
+            “Ethel”), Wythe, Edwin (“Ned”), and Thomas Garvin (“Garvin”). Charles Denby (1861-1938)
+            was also a diplomat in China, and Edwin Denby served as a member of the United States
+            Congress and as secretary of the navy. There are also letters from Martha’s mother,
+            Harriet Satterlee Fitch (“Moo”) and her father Graham Newell Fitch, a doctor who served
+            as United States senator from Indiana.</p>
+         <p> The major portion of the correspondence from the 1850s is between Charles Denby and
+            Martha Fitch during their two-year engagement. The letters document their long-distance
+            courtship. Charles was a young lawyer in Evansville, Indiana, struggling to make enough
+            money to marry Martha. She was from Logansport, Indiana, and spent part of the time in
+            Washington, D.C., while her father served in Congress.</p>
+         <p> During the Civil War Charles Denby wrote letters from Kentucky, Tennessee, and Alabama
+            while serving as lieutenant colonel in the Forty-Second Indiana Volunteers. Those from
+            October 1862 describe the battle of Perryville, Kentucky, in which Denby was slightly
+            injured and his horse killed. In late 1862, Denby was appointed colonel of the Eightieth
+            Indiana Volunteers headquartered in Columbia, Kentucky. In addition to describing camp
+            life and home life during this period, correspondence between Charles and Martha Denby
+            indicates that she traveled to visit him while he was in camp in Huntsville, Alabama, as
+            well as at Columbia. An undated account relates to Martha’s stay in the deserted mansion
+            of Clement C. Clay in Huntsville, Alabama.</p>
+         <p> Correspondence from the mid 1860s through the 1870s records births, deaths, illnesses,
+            and other activities of the growing Denby family, local and national events, and Charles
+            Denby’s work as a lawyer. There are numerous letters from the Denbys’ son Charles
+            (1861-1938) describing his life at the College of New Jersey (now Princeton University)
+            and from their daughter Harriet, who attended Hellmuth Ladies’ College in London,
+            Ontario, Canada.</p>
+         <p> The Denby family resided in China from 1885 until 1905, starting when the elder Charles
+            Denby was appointed minister to China. He held this post for thirteen years during which
+            time some of the children returned to the United States. Martha Denby made the long trip
+            between the United States and China several times to tend to family members. Son Charles
+            (1861-1938) spent the longest time in China, working in diplomatic service and in
+            business. Edwin Denby served in the Chinese Maritime Customs Service for seven years and
+            wrote letters from Macao, where he was stationed for part of this period. Letters from
+            China describe the official, social, and domestic lives of the diplomatic community in
+            Peking. The Sino-Japanese War and the Boxer Rebellion are discussed in the
+            correspondence. Lengthy letters between family members separated by great distances
+            document efforts to the keep each other informed of events in their lives and indicate
+            the emotional and financial problems caused by the slowness and unreliability of the
+            mail.</p>
+         <p> The Spanish-American War is also treated in the correspondence. Son Edwin and
+            son-in-law Gilbert Wilkes served aboard the <emph render="italic">Yosemite</emph>
+            (auxiliary cruiser) in 1898. Charles Denby, Sr., spent time in Washington, D. C., as a
+            member of a commission appointed by the president to investigate the conduct of the War
+            Department during the war with Spain. In 1899 he traveled to the Philippines as a member
+            of the United States Philippine Commission. Martha Denby and son Thomas Garvin
+            accompanied him on that trip. A letter from Martha Denby contains a journal describing
+            their activities and the people she met.</p>
+         <p> Correspondence beginning in the 1890s documents the adult lives of the Denby children.
+            Wythe Denby became a mining engineer in Utah, Arizona, and Alaska. In letters to his
+            mother in 1904 and 1905, Edwin Denby gave accounts of his election to Congress and his
+            early days in Washington. Charles Denby (1861-1938) wrote in 1905 and 1906 describing
+            his work in the State Department. The last letters were written by Edwin Denby to his
+            sister during his honeymoon trip in Europe. The bulk of the correspondence ends with the
+            death of the parents, and subsequent periods of the careers of Edwin Denby and the
+            younger Charles Denby are not documented. </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged chronologically; undated material arranged alphabetically by
+            correspondent.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">
+                  <date>1850-1857 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1850-1857 </unitdate>
+               <physdesc encodinganalog="300$a">(8 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">
+                  <date>1858</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1858</unitdate>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>Jan.-June </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Jan.-June </unitdate>
+                  <physdesc encodinganalog="300$a">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>July-Nov. </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">July-Nov. </unitdate>
+                  <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">
+                  <date>1859-1865 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1859-1865 </unitdate>
+               <physdesc encodinganalog="300$a">(13 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">
+                  <date>1866-1879 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1866-1879 </unitdate>
+               <physdesc encodinganalog="300$a">(17 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">
+                  <date>1880-1888 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1880-1888 </unitdate>
+               <physdesc encodinganalog="300$a">(14 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">
+                  <date>1889-1893 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1889-1893 </unitdate>
+               <physdesc encodinganalog="300$a">(13 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">
+                  <date>1894-1896 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1894-1896 </unitdate>
+               <physdesc encodinganalog="300$a">(10 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">
+                  <date>1897</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1897</unitdate>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>Jan.-Oct. </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Jan.-Oct. </unitdate>
+                  <physdesc encodinganalog="300$a">(3 folders) </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>Nov.-Dec.</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Nov.-Dec.</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">7</container>
+               <unittitle encodinganalog="245$a">
+                  <date>1898-1904 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1898-1904 </unitdate>
+               <physdesc encodinganalog="300$a">(11 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">8</container>
+               <unittitle encodinganalog="245$a">
+                  <date>1905-1911 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1905-1911 </unitdate>
+               <physdesc encodinganalog="300$a">(4 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">8</container>
+               <unittitle encodinganalog="245$a">
+                  <date>Undated</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Undated</unitdate>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Denby, Charles (1830-1904)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Denby, Charles (1861-1938)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Denby, Charles (1861-1938)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Denby, Martha Fitch (“Mattie”) </unittitle>
+                  <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Denby, Thomas Garvin (“Garvin”)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Denby, Wythe</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Fitch, Harriet Satterlee (“Moo”) </unittitle>
+                  <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Wilkes, Harriet Ethel Denby (“Hattie,”
+                     “Ethel”)</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

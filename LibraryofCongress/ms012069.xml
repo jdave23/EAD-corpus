@@ -1,0 +1,2356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms012069">loc.mss/eadmss.ms012069</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Richard Dudman Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm81058248">https://lccn.loc.gov/mm81058248</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-03">2023 March</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2016-11">2016 November</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Addition II added</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2014">2014</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Richard Dudman Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1911/2014">1911-2014</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1944/1983">1944-1983</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1911/2014"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1911-2014</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1944/1983"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1944-1983</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS58248</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Dudman, Richard, 1918-</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">22,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">70 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">22 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Editor, executive, and journalist.
+            Correspondence, notebooks, writings, and background material relating mainly to Dudman's
+            career as a journalist with the <emph render="italic">St. Louis Post-Dispatch.</emph>
+         </abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220928170220.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Carter, Jimmy, 1924-</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Dudman, Richard, 1918-2017.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>American newspapers--Missouri--Saint Louis.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Cold War.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Conservatism--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Political corruption--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Revolutions.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Vietnam War, 1961-1975.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Watergate Affair, 1972-1974.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World politics--1945-1989.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>China--History--20th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Cuba--History--20th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Middle East--History--20th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Southeast Asia--History--20th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--20th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--20th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Vietnam--History--1945-1975.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>St. Louis post-dispatch.</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Editors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Executives.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Journalists.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of Richard Dudman, editor, executive, and journalist, were deposited in the
+            Library of Congress by Dudman, 1978-1983. Additional material was given from 1987 to
+            2014, and the papers were converted to a gift in 2002.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p> The papers of Richard Dudman were processed in 1979 and expanded in 1985 by David
+            Mathisen. The finding aid was revised in 2013 and expanded in 2016 by Pang H. Xiong. The
+            finding aid was updated in 2023 by Maria Farmer as part of a division-wide remediation
+            project by the Inclusive Description Working Group.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Posters have been transferred to the Prints and Photographs Division of the Library,
+            where they are identified as part of these papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Richard Dudman is governed by the
+            Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Richard Dudman are open to research. Researchers are advised to contact
+            the Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Richard Dudman Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1918, May 3 </datesingle>
+               <event>Born, Centerville, Iowa </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1937</datesingle>
+               <event>Photographer, Oroville (Calif.) <title>
+                     <part>Mercury-Register</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1940</datesingle>
+               <event>A.B., Stanford University, Stanford, Calif.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1942</fromdate>
+                  <todate>1945</todate>
+               </daterange>
+               <event>United States Naval Reserve</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1946</fromdate>
+                  <todate>1949</todate>
+               </daterange>
+               <event>Reporter, <title>
+                     <part>Denver Post</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1948</datesingle>
+               <event>Married Helen Sloane</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1949</fromdate>
+                  <todate>1953</todate>
+               </daterange>
+               <event>Reporter,<title>
+                     <part> St. Louis Post-Dispatch</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1953</fromdate>
+                  <todate>1954</todate>
+               </daterange>
+               <event>Nieman Fellow, Harvard</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1954</fromdate>
+                  <todate>1969</todate>
+               </daterange>
+               <event>Member, Washington Bureau, <title>
+                     <part>St. Louis Post-Dispatch</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1962</datesingle>
+               <event>Published <title>
+                     <part>Men of the Far Right. </part>
+                  </title>New York: Pyramid Books</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1969</fromdate>
+                  <todate>1981</todate>
+               </daterange>
+               <event>Chief, Washington Bureau, <title>
+                     <part>St. Louis Post-Dispatch</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1970</datesingle>
+               <event>Captured and detained by the National Liberation Front of South Vietnam for
+                  forty days, Cambodia </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1971</datesingle>
+               <event>Published<title>
+                     <part> 40 Days with the Enemy. </part>
+                  </title>New York: Liveright </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1974</datesingle>
+               <event>Trustee, Washington Journalism Center </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1977</fromdate>
+                  <todate>1981</todate>
+               </daterange>
+               <event>Member, advisory committee, Nieman Foundation for Journalism</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1981</datesingle>
+               <event>Chairman of the board and vice president, Dudman Communications Corp.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1988</datesingle>
+               <event>Helped open southern Africa news bureau for South-North News Service,
+                  Swaziland</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1993</datesingle>
+               <event>Recipient, George Polk Career Award</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1994</fromdate>
+                  <todate>1996</todate>
+               </daterange>
+               <event>Trained and coached newspaper reporters and editors, Knight International
+                  Media Fellowship, South Africa, with an absence in 1995</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>2000</fromdate>
+                  <todate>2012</todate>
+               </daterange>
+               <event>Senior contributing editor, <title>
+                     <part>Bangor Daily News</part>
+                  </title>
+               </event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Richard Dudman (1918- ) span the years 1911-2014 and consist of
+            correspondence, notebooks, writings, and background material relating mainly to his
+            career as a journalist with the <title>
+               <part>St. Louis Post-Dispatch.</part>
+            </title> Prominent topics include his coverage of the war in Vietnam and reporting on
+            the Middle East, Cuba, Southeast Asia, and China during a period of cold war and
+            revolutions. Others subjects relate to domestic politics in the 1960s and 1970s
+            including Watergate, right-wing conservatism, and the Jimmy Carter administration. The
+            collection is organized into six series whose contents reflect the arrangement and
+            description of the material as it was received in installments from Dudman: <ref show="replace" actuate="onrequest" target="Corr">General Correspondence</ref>,<ref show="replace" actuate="onrequest" target="Note"> Notebooks</ref>, <ref show="replace" actuate="onrequest" target="Subj">Subject File</ref>, <ref show="replace" actuate="onrequest" target="Write">Writings</ref>, and <ref show="replace" actuate="onrequest" target="Add1">Addition I</ref> and <ref show="replace" actuate="onrequest" target="Add2">Addition II</ref>. </p>
+         <p>In the spring of 1965, the studied calm that generally characterizes meetings of the
+            Massachusetts Historical society was disturbed when a troubled federal judge, Charles
+            Wyzanski, posed several questions about the course of current events.[<ref target="note1">1</ref>] Judge Wyzanski was bothered by the little-debated but
+            widening war in Vietnam, and he asked Walter Lippman, a guest of the society, if all the
+            facts were accessible to the “informed public,” which he defined as “the type that reads
+            the New York papers and the Washington papers.” Lippmann replied that the most relevant
+            facts were available, but not in the New York or Washington papers, and he praised a
+            recent series by “a correspondent of the <title>
+               <part>St. Louis Post-Dispatch</part>
+            </title> who's an old hand out there, Richard Dudman . . . . I have checked those
+            articles against our own intelligence sources privately. They are perfectly correct. . .
+            . [H]e shows that the Viet Cong has won the war in the countryside of South Vietnam.”
+               [<ref target="note2">2</ref>]</p>
+         <p>Richard Dudman had been a reporter for the <title>
+               <part>Post-Dispatch</part>
+            </title> since, 1949, and Walter Lippman's endorsement reflected the widespread respect
+            that Dudman's work enjoyed among readers and reporters alike. His news articles and
+            columns are a distillation of the major public events of the post-war era, and his
+            papers provide important insights into the character of his career. The papers, listed
+            in the 1978 [Manuscript Division] acquisitions report, were formally deposited by Mr.
+            Dudman in 1979. They range from 1946 to 1978 and include correspondence, research files,
+            clippings, and notebooks that document a newspaperman's odyssey. There are fascinating
+            glimpses of half a dozen revolutions, Israeli operations in the 1956 Sinai campaign, the
+            Lebanon crisis of 1958, Cuba, Laos, Cambodia, China, the two Vietnams, and other
+            troubled spots throughout the world. Dudman's papers are also valuable for exploring a
+            wide range of domestic political problems, and there are interesting files on right-wing
+            politics, the Watergate scandals, and other major issues that have emerged since World
+            War II. In 1969, after twenty years and over fifteen hundred stories with the <title>
+               <part>Post-Dispatch, </part>
+            </title>he became chief of the newspaper's Washington bureau, a post from which he
+            continued to survey American politics and the world beyond until his retirement. </p>
+         <p>The collection consists of approximately sixty-three hundred items, and it has an
+            organic character that gives it special value for researchers. There are clear
+            relationships between the notebooks, the columns, and the correspondence that permit one
+            to follow the story as it emerged, as it appeared, and as it provided the basis for
+            Dudman's further reflections. On a number of matters, such as the Dixon-Yates plan,
+            Barry Goldwater's presidential campaign, and negotiations leading to American withdrawal
+            in Vietnam, there are memoranda from Dudman to his editors that show how his articles
+            took shape. More frequently, fragments appear in his notebooks that help one understand
+            events as they unfolded for him. Correspondence with readers and fellow newsmen gives
+            other insights into Dudman's efforts to reconstruct and interpret the events of the day. </p>
+         <p>Wide-ranging personal interests and the multiple demands made on reporters in a
+            Washington bureau have led Dudman to explore an incredible range of problems, but he is
+            perhaps most frequently associated with his coverage of the war in Vietnam. Dudman first
+            went to South Vietnam in 1962, and his many subsequent visits to the field combined with
+            his assessment of his decisions in Washington to make him and the <title>
+               <part>Post-Dispatch</part>
+            </title> leading critics of the war. In early 1965, while he was in Vietnam preparing
+            the series that Lippman praised, Dudman wrote his colleague Marquis Childs, that “[m]y
+            own view is that the war is being lost, and in a hurry.” As events developed during the
+            remainder of the decade, Dudman retained a commendable open-minded sensitivity to the
+            complexities of the quagmire, but his earliest impression that the war was an
+            overwhelmingly flawed enterprise continued to be the central theme of his reporting.
+            Thus the jottings in his notebooks on Vietnam are particularly lively, and they reveal
+            the human dimensions as well as the structural dynamics of war. Typical notes from
+            January 1970 describe Henry Kissinger's deputy, General Al Haig, as “RA [Regular Army]
+            all the way. . . . JCS insisted he sit at Henry's elbow. Sits on Henry's info flow.” A
+            briefing on the situation in Vietnam was summed up as<title>
+               <part> “The line—Enemy capability down,” </part>
+            </title>with emphasis supplied by the uncharacteristic underscoring.<title>
+               <part> “All quotas met” </part>
+            </title>(and furiously underscored by Dudman) characterized the Phoenix program, an
+            element in the assault on the Viet Cong infrastructure that included assassination.
+            Dudman wrote several critical pieces about the Phoenix program, and his papers also
+            include interesting exchanges with government officials who ran the program. </p>
+         <p>Perhaps the most unusual documents in the Dudman Papers are the notes he took during May
+            and June 1970, when he and two other reporters covering the Cambodian incursion were
+            captured by forces of the National Liberation Front. Dudman and his colleagues were held
+            for forty days, and following his release he transformed these jottings, many of them on
+            student's lined copybook paper, into one of the most dramatic series of the war. Other
+            materials relating to the series and to the book that followed, <title>
+               <part>Forty Days with the Enemy</part>
+            </title> (New York: Liversight, 1971. 182 p.), are contained in the papers. Dudman's
+            capture and release gave renewed hope to the families of many journalists who had not
+            been so fortunate, and he began to play a larger role in the many efforts to secure the
+            return of those still listed among the missing. One of the most poignant experiences of
+            the war is reflected in his exchanges with Patricia Hangen, the wife of a missing
+            television correspondent, and her spirit, persistence, and dignity give the tragedy of
+            her husband's disappearance in Cambodia a special sadness. </p>
+         <p>It is appropriate that a collection which documents the full range of public issues also
+            runs the gamut of private emotions, for there are lighter moments in the Dudman Papers
+            that give some balance to the more somber situations he encountered. Among the most
+            delightful notes in the collection are letters from his daughters in 1966, when he was
+            midway through his third trip to Vietnam. Janet, a high school student, sought his
+            advice about which modern language she should study. “I am seriously considering Russian
+            but I don't know. Please answer because we have to answer soon.” His daughter Martha
+            asked him “to write me about the situation there, and explain it so I can tell those
+            guys I argue with. OK?” Such family letters appear throughout the collection, and they
+            will provide students of modern journalism with a valuable angle of vision on the life
+            of a reporter on assignment. </p>
+         <p>Following a tour of the Middle East in 1956, Dudman wrote Joseph Pulitzer, Jr., his
+            publisher, that he “found government leaders impressed that a Middle Western American
+            newspaper would send its own reporter there, and they were correspondingly helpful.”
+            Dudman's career and the traditions of the <title>
+               <part>St. Louis Post-Dispatch</part>
+            </title> confirm the important national contributions that regional newspapers have made
+            to the American experience. The Library of Congress is fortunate to have the papers of
+            many who have been associated with the <title>
+               <part>Post-Dispatch, </part>
+            </title>such as Joseph Pulitzer, Joseph Pulitzer, Jr., Irving Brant, Bill Mauldin, and
+            Wallace Deuel. Thus future students will be able to consult the Dudman Papers within a
+            particularly rich documentary context.</p>
+         <p>Material from <ref show="replace" actuate="onrequest" target="Add1">Addition I</ref> are
+            mostly topical files and supplement the <ref show="replace" actuate="onrequest" target="Subj">Subject File </ref> and <ref show="replace" actuate="onrequest" target="Write">Writings</ref> series. Also included are drafts and supporting
+            material for Dudman's <title>
+               <part>Men of the Far Right</part>
+            </title> and <title>
+               <part>Forty Days with the Enemy.</part>
+            </title>
+            <ref show="replace" actuate="onrequest" target="Add2">Addition II</ref> primarily
+            relates to Dudman's life and continued work in journalism following his retirement from
+            the <title>
+               <part>St. Louis Post-Dispatch</part>
+            </title> in 1981. Material documents his work with the <title>
+               <part>Bangor Daily News</part>
+            </title> and the South-North News Service; involvement with the Maine Lobster Promotion
+            Council; and advocacy for the JUMP playground in Ellsworth, Maine. In 1986, Dudman
+            briefly returned on a special assignment to the <title>
+               <part>St. Louis Post-Dispatch</part>
+            </title> to cover the tenth anniversary of the Tangshan earthquake in China. In 1994, he
+            returned to Vietnam on another special assignment to interview the Viet Cong officer who
+            captured and released him and two other journalists in 1970. Both assignments are
+            included in the papers along with other writings about and by Dudman.</p>
+         <p id="note1">1. The following description is taken from <title>
+               <part>Library of Congress Acquisitions, Manuscript Division</part>
+            </title>, 1979 (Washington, D.C.: 1981): 24-26. It describes the collection before the
+            Addition series was appended to the collection in 1985. </p>
+         <p id="note2">2. <title>
+               <part>Proceedings of the Massachusetts Historical Society</part>
+            </title>, 1965 77 (1966): 90.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in six series:</p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Corr">General Correspondence,
+                  1944-1978</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Note">Notebooks, 1970-1976</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Subj">Subject File</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Write">Writings</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Add1">Addition I</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Add2">Addition II, 1911-2014</ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a" id="Corr">General Correspondence, <date normal="1944/1978"> 1944-1978</date>
+               </unittitle>
+               <unitdate normal="1944/1978"> 1944-1978</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent and received.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p> Arranged chronologically by folder. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1944-1949 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1944-1949 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1953-1978 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1953-1978 </unitdate>
+                  <physdesc encodinganalog="300">(26 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2-3</container>
+               <unittitle encodinganalog="245$a" id="Note">Notebooks, <date normal="1970/1976">1970-1976</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1970/1976">1970-1976</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Reporter's notebooks. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>No arrangement.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1970-1975</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1970-1975</unitdate>
+                  <physdesc encodinganalog="300"> (44 vols.) </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1976-1978 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1976-1978 </unitdate>
+                  <physdesc encodinganalog="300"> (31 vols.)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">4-14</container>
+               <unittitle encodinganalog="245$a" id="Subj">Subject File</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, notes, reports, clippings, printed matter, and miscellaneous
+                  material compiled for background reference.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p> Arranged alphabetically by topic.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">American Conservative Union </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">American Enterprise Institute </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">American Institute of Free Labor Development
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Assassinations </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Backlash </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Birch (John) Society </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Bloodbaths </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Bombings </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Bourne, Peter </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Bundy, McGeorge </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">California </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Central Intelligence Agency </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  <container localtype="box">6</container>
+                  <physdesc encodinganalog="300">(1 folder)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Conduits </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Chile </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">China </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Cuba </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Dikes </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Dixon-Yates contract </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Dominican Republic </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Drug Enforcement Agency </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Ellsberg, Daniel </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Fake money </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Federal Bureau of Investigation </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Freedom Studies Center </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Freelance </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Friends </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Goldwater, Barry </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Gould, Frank </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Hanoi, Vietnam </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Hanoi, Vietnam series </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Dead notes </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Extra copies </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Memoranda </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Photographs </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Hiss, Alger </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Humphrey, Hubert H. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Indochina </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Indochina, peace </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Investments </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Israel </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Korea </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Labor </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Laos </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Memoranda </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Military industrial complex </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Minutemen </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous background </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">National Security Agency </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">New Directions </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Nieman Fellowship </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Nixon, Richard M. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Omori Research Institute </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Origins </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Outlines </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Panama </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Platforms </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Postal service </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Republican national convention </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Revenue sharing </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Sinai </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">South </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Right wing </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Rusk, Dean </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Southeast Asia </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Speeches </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Symington, Stuart </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">Tax privacy </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Texas </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Thailand-Laos </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Tonkin </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Travel rights </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">U-2 reconnaissance aircraft </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">Vietnam </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">General </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Invasion </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Military </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Negotiations </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Policy </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Politics </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Statistics </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Visa </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">Warren, Earl </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">Watergate </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">General </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Prosecutions </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">Wheat </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">Wyant </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">Zoll </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">15-23</container>
+               <unittitle encodinganalog="245$a" id="Write">Writings</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Mostly clippings and printed copies of news articles but including typewritten
+                  copies and dispatches. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by topic or type of material. Includes a scrapbook of articles. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Report from Hanoi, Vietnam </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Vietnam 77 </unittitle>
+                  <physdesc encodinganalog="300">(11 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16-21</container>
+                  <unittitle encodinganalog="245$a">Newspapers </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">Newspapers clippings and printed matter
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <unittitle encodinganalog="245$a">Scrapbook </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">24-67</container>
+               <unittitle encodinganalog="245$a" id="Add1">Addition I</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, writings, subject files, notebooks, photographs, and miscellaneous
+                  material described by topic or type of material. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>No arrangement.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Miscellany </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Southeast Asia </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Thailand </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Laos </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Vietnam maps </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Cambodia </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">1970 "Capture" materials </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Newspaper and magazine articles </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Cuba </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Personal </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Asia, <date>1962 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1962 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">China </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">Vietnam </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">Burma </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">Laos </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">India </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">Southeast Asia </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">Thailand </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a"> Duplicates </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">Goldwater, Barry </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>
+                        <part>Men of the Far Right,</part>
+                     </title> manuscript, notes, contract 26 </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <unittitle encodinganalog="245$a">Welch, John </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <unittitle encodinganalog="245$a">Prospects </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <unittitle encodinganalog="245$a">Schwarz, Fred C. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <unittitle encodinganalog="245$a">Mouthpieces </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <unittitle encodinganalog="245$a">Benson, George S. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <unittitle encodinganalog="245$a">Hargis, Billy James </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <unittitle encodinganalog="245$a">Wyoming textbooks </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <unittitle encodinganalog="245$a">Right tries </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">27</container>
+                  <unittitle encodinganalog="245$a">Newspaper articles </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">Fanaticism </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">Intellectuals </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">Action </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">China picture information, <date>1972 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1972 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">Taiwan, <date>1972 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1972 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">Tokyo, Japan, <date> 1972 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1972 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Vietnam, <date> 1972 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1972 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Duplicates, <date>1972 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1972 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Personal, <date>1972 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1972 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Printed matter </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Other, <date>1972 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1972 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Hanoi, Vietnam </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Laos photographs, <date>1959 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1959 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">Symington, Stuart </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">Materials relating to 1970 capture </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">South Vietnam </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">Printed matter </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">China dispatches, <date>1972 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1972 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">China </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">Office files </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">Hate mail </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">Miscellany </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">31</container>
+                  <unittitle encodinganalog="245$a">Dudman, Helen, <date>1970-1975 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1970-1975 </unitdate>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">31</container>
+                  <unittitle encodinganalog="245$a">Dudman, Richard, <date>1970-1974 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1970-1974 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>
+                        <part>Forty Days with the Enemy </part>
+                     </title>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">32</container>
+                     <unittitle encodinganalog="245$a">Notes, reviews, rough drafts, proofs
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">33</container>
+                     <unittitle encodinganalog="245$a">Notes, reviews, rough drafts, proofs
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">33</container>
+                  <unittitle encodinganalog="245$a">China with Gerald Ford, <date>1976 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1976 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">34-38</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">34-38</container>
+                  <unittitle encodinganalog="245$a">Printed matter </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">39</container>
+                  <unittitle encodinganalog="245$a">China and Hanoi, Vietnam, Dudman photographs,
+                        <date>1970-1972 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1970-1972 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40</container>
+                  <unittitle encodinganalog="245$a">Notebooks, diaries, press passes,
+                        <date>1958-1977 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1958-1977 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">41-47</container>
+                  <unittitle encodinganalog="245$a">Scrapbooks, <date>1946-1965 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1946-1965 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">48</container>
+                  <unittitle encodinganalog="245$a">Scrapbooks and poster </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">49-50</container>
+                  <unittitle encodinganalog="245$a">Notebooks, <date>1954-1981 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1954-1981 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">51</container>
+                  <unittitle encodinganalog="245$a">Angola </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">51</container>
+                  <unittitle encodinganalog="245$a">Alaska </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">51</container>
+                  <unittitle encodinganalog="245$a">Arab boycott </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">51</container>
+                  <unittitle encodinganalog="245$a">Arms control </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">51</container>
+                  <unittitle encodinganalog="245$a">Asbestos </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">51</container>
+                  <unittitle encodinganalog="245$a"> B'nai B'rith </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">51</container>
+                  <unittitle encodinganalog="245$a">Brookings Institution, Washington, D.C.
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">51</container>
+                  <unittitle encodinganalog="245$a">Cambodia </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  <container localtype="box">52</container>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">52</container>
+                  <unittitle encodinganalog="245$a">Caric </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">52</container>
+                  <unittitle encodinganalog="245$a">Carter, Jimmy, administration </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">52</container>
+                     <unittitle encodinganalog="245$a">General </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">53</container>
+                     <unittitle encodinganalog="245$a">Campaign </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">53</container>
+                     <unittitle encodinganalog="245$a">Foreign policy </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">53</container>
+                     <unittitle encodinganalog="245$a">Promises </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">53</container>
+                  <unittitle encodinganalog="245$a">Central Intelligence Agency </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">53</container>
+                  <unittitle encodinganalog="245$a">China </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">54</container>
+                  <unittitle encodinganalog="245$a">Clemency </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">54</container>
+                  <unittitle encodinganalog="245$a">Connally, John B. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">54</container>
+                  <unittitle encodinganalog="245$a">Correspondence </unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">54</container>
+                  <unittitle encodinganalog="245$a">Columns </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">54</container>
+                  <unittitle encodinganalog="245$a">Detainees </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">54</container>
+                  <unittitle encodinganalog="245$a">Dispute </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">54</container>
+                  <unittitle encodinganalog="245$a">Dogs </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">55</container>
+                  <unittitle encodinganalog="245$a">Egypt </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">55</container>
+                  <unittitle encodinganalog="245$a">Election financing </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">55</container>
+                  <unittitle encodinganalog="245$a">Executive privilege </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">55</container>
+                  <unittitle encodinganalog="245$a">Food for Peace </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">55</container>
+                  <unittitle encodinganalog="245$a">Freedom of information </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Freedom Studies Center </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Freelance </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Future </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Glomar Explorer suppression </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Gridiron </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">Halperin, Morton </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">Hanoi, Vietnam </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">Helsinki Accords </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">Indonesia </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">Institute for Policy Studies </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">58</container>
+                  <unittitle encodinganalog="245$a">Intelligence </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">58</container>
+                  <unittitle encodinganalog="245$a">ITT Corp. </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">58</container>
+                  <unittitle encodinganalog="245$a">Jewish vote </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">58</container>
+                  <unittitle encodinganalog="245$a">Job applications </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Justice </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Kennedy, Edward </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Kissinger, Henry </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">LaRoque, Gene </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Latin America </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Memoranda </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Nieman Foundation </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Nixon Doctrine </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">North Atlantic Treaty Organization </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Oil </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Phone </unittitle>
+                  <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  <container localtype="box">60</container>
+                  <physdesc encodinganalog="300">(1 folder)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>
+                        <part>Post-Dispatch</part>
+                     </title> future </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">Pending assignments </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">Presidency </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">Press </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">Privacy </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">Pulitzer </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">Rhodesia </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">Right wing </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">61</container>
+                  <unittitle encodinganalog="245$a">Rusk, Dean </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">61</container>
+                  <unittitle encodinganalog="245$a">St. Louis Post-Dispatch v. F.B.I. </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">SALT I and SALT II (Strategic Arms Limitations
+                     Talks) </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Securities and Exchange Commission </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Schorr, Daniel </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Staff meetings </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Synfuel </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Systems </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Taiwan </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Terror </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">TRB (newspaper column). </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Vietnam </unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Washington Journalism Center, Washington, D.C.
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Wilson, Woodrow</unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">64</container>
+                  <unittitle encodinganalog="245$a">Writings </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">64</container>
+                  <unittitle encodinganalog="245$a">Printed matter </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">65</container>
+                  <unittitle encodinganalog="245$a">Printed matter </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">66-67</container>
+                  <unittitle encodinganalog="245$a">Newspapers and newspaper clippings </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">68-70</container>
+               <unittitle encodinganalog="245$a" id="Add2">Addition II, <date normal="1911/2014">1911-2014</date>
+               </unittitle>
+               <unitdate normal="1911/2014">1911-2014</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Writings, correspondence, photographs, printed matter, subject files, and other
+                  papers. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by topic or type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">68</container>
+                  <unittitle encodinganalog="245$a">Awards, <date>1979-1981, 1994</date>
+                  </unittitle>
+                  <unitdate>1979-1981, 1994</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">68</container>
+                  <unittitle encodinganalog="245$a">Biographies and résumés, <date>1990-1997, 2004,
+                        2013</date>
+                  </unittitle>
+                  <unitdate>1990-1997, 2004, 2013</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">68</container>
+                  <unittitle encodinganalog="245$a">General correspondence, <date>1970-2001, 2007,
+                        2013, undated</date>
+                  </unittitle>
+                  <unitdate>1970-2001, 2007, 2013, undated</unitdate>
+                  <physdesc>(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">68</container>
+                  <unittitle encodinganalog="245$a">JUMP playground, <date>1985-1986, 1999</date>
+                  </unittitle>
+                  <unitdate>1985-1986, 1999</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">68</container>
+                  <unittitle encodinganalog="245$a">Miscellany, <date>1970, 1979, 1987-1994, 2007,
+                        undated</date>
+                  </unittitle>
+                  <unitdate>1970, 1979, 1987-1994, 2007, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">68</container>
+                  <unittitle encodinganalog="245$a">National Pork Producers Council v. Maine Lobster
+                     Promotion Council, <date>1993-1998</date>
+                  </unittitle>
+                  <unitdate>1993-1998</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">68</container>
+                  <unittitle encodinganalog="245$a">Newseum, <date>1952, 1968-1969, 1990, 1997-1998,
+                        2006-2007, undated</date>
+                  </unittitle>
+                  <unitdate>1952, 1968-1969, 1990, 1997-1998, 2006-2007, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">68</container>
+                  <unittitle encodinganalog="245$a">Photographs, <date>1924, 1959, 1972-1980, 1989,
+                        undated</date>
+                  </unittitle>
+                  <unitdate>1924, 1959, 1972-1980, 1989, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">68</container>
+                  <unittitle encodinganalog="245$a">Pulitzer family, <date>1911, 1929, 1947-1954,
+                        1960-1965, 1972, 1978</date>
+                  </unittitle>
+                  <unitdate>1911, 1929, 1947-1954, 1960-1965, 1972, 1978</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">68</container>
+                  <unittitle encodinganalog="245$a">South Africa, <date>1988-1996</date>
+                  </unittitle>
+                  <unitdate>1988-1996</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>
+                        <part>St. Louis Post-Dispatch</part>
+                     </title>, <date>1947, 1972, 1979-1981, 1990-2005, undated</date>
+                  </unittitle>
+                  <unitdate>1947, 1972, 1979-1981, 1990-2005, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Stone, I. F., <date>1968, 2006</date>
+                  </unittitle>
+                  <unitdate>1968, 2006</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Tangshan earthquake, <date>1986</date>
+                  </unittitle>
+                  <unitdate>1986</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Vietnam, <date>1969-1982, 1988-1994, 2007</date>
+                  </unittitle>
+                  <unitdate>1969-1982, 1988-1994, 2007</unitdate>
+                  <physdesc>(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">
+                     <title>
+                        <part>World Wise</part>
+                     </title>, <date>1992-1995</date>
+                  </unittitle>
+                  <unitdate>1992-1995</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Writings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">About Dudman, <date>1971, 1980-1998,
+                           2013-2014, undated</date>
+                     </unittitle>
+                     <unitdate>1971, 1980-1998, 2013-2014, undated</unitdate>
+                     <physdesc>(2 folders)</physdesc>
+                     <container localtype="box">70</container>
+                     <physdesc>(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">By Dudman, <date>1956, 1963-1964, 1970-2013,
+                           undated</date>
+                     </unittitle>
+                     <unitdate>1956, 1963-1964, 1970-2013, undated</unitdate>
+                     <physdesc>(5 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

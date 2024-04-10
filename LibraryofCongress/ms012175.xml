@@ -1,0 +1,2425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms012175">loc.mss/eadmss.ms012175</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>James Alexander Robertson Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by Clarencetta Jelks</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+                           <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+               Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2012" encodinganalog="260$c" era="ce" calendar="gregorian">2012</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm81038000">https://lccn.loc.gov/mm81038000</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2013">2013</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">James Alexander Robertson  Papers  <date altrender="Span Dates" localtype="inclusive" normal="1816/1939">1816-1939</date> 
+                        <date altrender="Bulk Dates" localtype="bulk" normal="1898/1939">(bulk 1898-1939)</date> 
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1816/1939"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1816-1939</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1898/1939"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1898-1939)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS38000</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Robertson, James Alexander,
+               1873-1939</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">22,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">59 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">22.8 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <language encodinganalog="041" langcode="fre">French</language>
+                        <language encodinganalog="041" langcode="spa">Spanish</language>
+                        <descriptivenote>
+                           <p>Collection material in English, French, and Spanish
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852">
+                        <corpname>
+                           <part>
+                Manuscript Division,  Library of Congress</part>
+                        </corpname>
+                        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Editor, biographer, and archivist.
+            Correspondence, diaries, notes, writings, subject files, and miscellany relating
+            primarily to Robertson's activities and scholarship in Hispanic studies, especially
+            Florida and the Philippines. </abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230116081806.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Blair, Emma Helen, -1911--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bond, Carroll T. (Carroll Taney), 1873-1943--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>LeRoy, James A. (James Alfred), 1875-1909--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Robertson family--Correspondence.</part>
+            </famname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Robertson family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Robertson, Cora Halsey, circa 1878- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Robertson, James Alexander, 1873-1939.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Wright, Irene Aloha, 1879-1972--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Florida State Historical Society.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Maryland. Archives Division.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Florida--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>France--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Italy--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Latin America--History--Periodicals.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Latin America--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Philippines--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Portugal--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Spain--Description and travel.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Hispanic American historical review.</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Archivists.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Bibliographers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Editors.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The papers of James Alexander Robertson, editor, bibliographer, and first archivist
+               of the state of Maryland, were given to the Library of Congress by James A. Robertson
+               and family, 1930-1960. Additional material was deposited by John B. Stetson, Jr.,
+               via Cora Halsey Robertson, in 1940; other material was given by Curtis Wilgus in
+               1975.  </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of James Alexander Robertson were processed in 1981. The finding aid was
+               revised in 2012.  </p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Items have been transferred from the Manuscript Division to other custodial divisions
+               of the Library. Photographs have been transferred to the Prints and Photographs
+               Division. Serials have been transferred to the Serial and Government Publications
+               Division. All transfers are identified in these divisions as part of the James
+               Alexander Robertson Papers.</p>
+      </separatedmaterial>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Other Repositories</head>
+         <p>Manuscripts by Robertson relating to Florida are in the Florida Historical Society,
+               Cocoa, Fla. A collection of Robertson papers on the Philippines is in the David M.
+               Rubenstein Rare Book &amp; Manuscript Library, Duke University, Durham, N.C. </p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p> Copyright in the unpublished writings of James Alexander Robertson in these papers
+               and in other collections of papers in the custody of the Library of Congress has been
+               dedicated to the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of James Alexander Robertson are open to research. Researchers are advised
+               to contact the Manuscript Reading Room prior to visiting. Many collections are stored
+               off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+               Container number, James Alexander Robertson Papers, Manuscript Division, Library of
+               Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1873, 19 Aug.</datesingle>
+               <event>Born, Corry, Pa. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1896</datesingle>
+               <event>Ph.B., Adelbert College, Western Reserve University, Cleveland, Ohio</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1903</fromdate>
+                              <todate>1909</todate>
+                           </daterange>
+               <event>Co-edited with Emma Helen Blair <title>
+                                 <part>The Philippine Islands,
+                     1493-1803.</part>
+                              </title> Cleveland: A. H. Clark. 55 vols.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1906</datesingle>
+               <event>L.H.D., Western Reserve University, Cleveland, Ohio</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1916</fromdate>
+                              <todate>1917</todate>
+                           </daterange>
+               <event>Research assistant, Carnegie Institution, Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1910</fromdate>
+                              <todate>1916</todate>
+                           </daterange>
+               <event>Librarian, Philippine Library, Manila, Philippine Islands.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1912</datesingle>
+               <event>Married Cora Moore Halsey</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1916</datesingle>
+               <event>Founded <title>
+                                 <part>Hispanic American Historical Review</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1917</fromdate>
+                              <todate>1923</todate>
+                           </daterange>
+               <event>Served in Bureau of Foreign and Domestic Commerce, Commerce Department</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1918</fromdate>
+                              <todate>1922</todate>
+                           </daterange>
+               <event> Managing editor, <title>
+                                 <part>Hispanic American Historical Review </part>
+                              </title>(also in
+                  1926-1939)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1923</fromdate>
+                              <todate>1933</todate>
+                           </daterange>
+               <event>Research professor, American history, John B. Stetson University: Deland,
+                  Fla.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1923</fromdate>
+                              <todate>1939</todate>
+                           </daterange>
+               <event>Executive secretary, Florida State Historical Society</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1931</datesingle>
+               <event>Organized Inter-American Bibliographical Association</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1932</datesingle>
+               <event>Translated and edited <title>
+                                 <part>True Relation of the Hardships Suffered by
+                     Governor Fernando de So . . . </part>
+                              </title>Deland, Fla: Florida State Historical
+                  Society. 2 vols.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1935</datesingle>
+               <event>Appointed archivist, state of Maryland</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1936</datesingle>
+               <event>Awarded Cervantes Medal for outstanding contributions in field of Florida
+                  history </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1938</datesingle>
+               <event>Elected vice president, Society of American Archivists</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1939, 10 Mar.</datesingle>
+               <event>Died, Annapolis, Md.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of James Alexander Robertson (1873-1939) extend from 1816 through 1939, with
+            the bulk of the material dated 1898-1939. The major portion of the papers focuses on
+            Robertson's career as editor, bibliographer, librarian, and educator, a professional
+            life that spanned the first four decades of the twentieth century and was devoted to the
+            study of Hispanic America, Florida, and the Philippines. The collection is organized into six series: <ref show="replace" actuate="onrequest" target="Diary">Diaries</ref>, <ref show="replace" actuate="onrequest" target="Corr">Correspondence</ref>,
+            <ref show="replace" actuate="onrequest" target="Subj">Subject File</ref>, <ref show="replace" actuate="onrequest" target="Write">Writings File</ref>, <ref show="replace" actuate="onrequest" target="Misc">
+                     Miscellany</ref>, and <ref show="replace" actuate="onrequest" target="Over">Oversize</ref>.</p>
+         <p>The <ref show="replace" actuate="onrequest" target="Corr">Correspondence</ref> series constitutes the bulk of the collection and
+            is divided into three subseries: Family, Special, and General. Some correspondence is in
+            Spanish and French. The <ref show="replace" actuate="onrequest" target="Write">Writings File</ref> includes translations
+            and editorial notes by Robertson as well as his poems and miscellaneous writings.
+            Included in the papers are two manuscripts pertaining to Americans in Latin America,
+            1835 and 1845.</p>
+         <p> Robertson's letters to his wife, Cora Halsey Robertson, began in 1910, two years prior
+            to their marriage and continued to 1938. The <ref target="famcor">Family
+               Correspondence</ref> also includes exchanges with his children and relatives. This
+            correspondence is particularly revealing for his work on the Philippines from 1910 to
+            1915, and it gives a daily account of his private and family life. Much of the
+            correspondence dated 1939 relates to his illness and death. </p>
+         <p>Robertson's contribution as compiler and coeditor of the fifty-five volumes of
+               <title>
+                           <part>The Philippine Islands, 1493-1803</part>
+                        </title> is described in the <ref target="speccor">Special Correspondence</ref> from his collaborator, Emma Helen
+            Blair. This correspondence also gives an account of his travels to Spain, Portugal,
+            Italy, and France from 1902 to 1907. Other Special Correspondents include Carroll T.
+            Bond, James A. LeRoy, and Mabel P. LeRoy. Letters to and from Bond relate to Robertson's
+            appointment as archivist for the State of Maryland. The LeRoy correspondence concerns
+            research and translations for <title>
+                           <part>The Philippine Islands</part>
+                        </title> project. </p>
+         <p>The <ref target="gencor">General Correspondence</ref> dates from 1898 to 1939 and covers
+            Robertson's professional activities in an uninterrupted sequence. It includes copies or
+            carbons of Robertson's outgoing letters, memoranda, notes, and telegrams. From 1898 to
+            1900 the letters refer to <title>
+                           <part>The Jesuit Relations</part>
+                        </title> project. In addition to
+            the material of Emma Helen Blair in the <ref show="replace" actuate="onrequest" target="Subj">Subject File</ref> series, much of the
+            General Correspondence file from 1900 to 1907 includes Blair-Robertson correspondence.
+            Although the letters and other manuscript materials relating to the <title>
+                           <part>Hispanic
+               American Historical Review</part>
+                        </title> (1916-1918) are a part of the Subject File,
+            correspondence for the years 1920-1939 in the General Correspondence also concerns
+               <emph>HAHR</emph> matters. This is especially true of letters between 1923 and 1929,
+            the period in which Robertson served as managing editor of the journal. Letters
+            relating to the activities of the Florida State Historical Society and Robertson's
+            duties as executive secretary of that organization and as general editor of its
+            publications date from March 1923 to 1932. Specific business letters, reports, and
+            minutes of the society are a part of the Subject File. </p>
+         <p>The <ref show="replace" actuate="onrequest" target="Subj">Subject File</ref> details the founding of the <title>
+                           <part>Hispanic American
+               Historical Review. </part>
+                        </title>Documents and correspondence in the American Historical
+            Association and <title>
+                           <part>Hispanic American Historical Review </part>
+                        </title>files refer to this
+            phase of the journal's history. Most of the research and duplication of Spanish
+            manuscripts relating to the history of Florida in the archives of Spain was the work of
+            Irene Aloha Wright. In a file for Wright are letters and financial records relating to
+            her work. </p>
+         <p>Of special interest in the <ref show="replace" actuate="onrequest" target="Misc"> Miscellany</ref> series are the writings of
+            Robertson's colleagues and the reproduction of Cabeca de Vaca's <title>
+                           <part>Relacion de la
+               Florida </part>
+                        </title>(Zamora, 1542).</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in six series:</p>
+         <list>
+            <item>
+                           <ref show="replace" actuate="onrequest" target="Diary">Diaries, 1902-1911</ref>
+                        </item>
+            <item>
+                           <ref show="replace" actuate="onrequest" target="Corr">Correspondence, 1896-1939</ref>
+                        </item>
+            <item>
+                           <ref show="replace" actuate="onrequest" target="Subj">Subject File, 1835-1938</ref>
+                        </item>
+            <item>
+                           <ref show="replace" actuate="onrequest" target="Write">Writings File, 1901-1939</ref>
+                        </item>
+            <item>
+                           <ref show="replace" actuate="onrequest" target="Misc">Miscellany, 1816-1939</ref>
+                        </item>
+            <item>
+                           <ref show="replace" actuate="onrequest" target="Over">Oversize</ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a" id="Diary">Diaries,  <date normal="1902/1911">1902-1911</date> 
+                           </unittitle>
+               <unitdate normal="1902/1911">1902-1911</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Diaries and journals kept by Robertson.  </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1902-1903, 1910-1911, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1902-1903, 1910-1911, undated</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2-44</container>
+               <unittitle encodinganalog="245$a" id="Corr">Correspondence, <date>
+                  1896-1939</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian">
+                  1896-1939</unitdate>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">2-4</container>
+                  <unittitle encodinganalog="245$a" id="famcor">Family Correspondence,  <date normal="1910/1939">1910-1939</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1910/1939">1910-1939</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Letters sent and received between family members, including with Robertson's
+                     wife, Cora Halsey Robertson, and children. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged chronologically within each file. Letters of condolence on the death
+                     of Robertson are arranged alphabetically by name of correspondent.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Wife, Cora M. Halsey Robertson </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>1910-1915</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">1910-1915</unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>1916-1927</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">1916-1927</unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>1928-1938 </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">1928-1938 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Children,  <date>1922-1927 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1922-1927 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous, <date> 1911-1934 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f"> 1911-1934 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Illness and death,  <date>1939 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1939 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Death notices,  <date>1939 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1939 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Condolences on death, <date>1939 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1939 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">5-6</container>
+                  <unittitle encodinganalog="245$a" id="speccor">Special Correspondence,  <date normal="1902/1935">1902-1935
+                     </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1902/1935">1902-1935
+                     </unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Letters from Emma Helen Blair to Robertson concerning his early research and
+                     publishing ventures. Includes letters to and from Carroll T. Bond and James A.
+                     LeRoy and Mabel LeRoy and letters relating to Robertson's tenure and activities
+                     in the Philippines. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged alphabetically by name of correspondent or subject and therein
+                     chronologically. </p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Blair, Emma Helen,  <date>1902 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1902 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">General,  <date>1902-1911, undated </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">1902-1911, undated </unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Concerning death of,  <date>1911-1912 </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">1911-1912 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a"> Bond, Carroll T.,  <date>1935 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1935 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">LeRoy, James A.,  <date>1904-1909 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1904-1909 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Le Roy, Mabel P.,  <date>1909-1913</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1909-1913</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Philippine affairs,  <date>1909-1917 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1909-1917 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">7-44</container>
+                  <unittitle encodinganalog="245$a" id="gencor">General Correspondence,  <date normal="1896/1939">1896-1939
+                     </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1896/1939">1896-1939
+                     </unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Letters received and copies of letters sent, memoranda, and miscellaneous
+                     attachments.</p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged chronologically by month. </p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1896-1903 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1896-1903 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-July</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-July</unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1904-1906</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1904-1906</unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1907 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1907 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-May </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-May </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>June-Dec. </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">June-Dec. </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1908-1909</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1908-1909</unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1910-1917</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1910-1917</unitdate>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date> 1918</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f"> 1918</unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1919 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1919 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">11</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-Mar. </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-Mar. </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">12</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Apr.-Dec.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Apr.-Dec.</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1920 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1920 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">12</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-Mar. </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-Mar. </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">13</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> Apr.-Dec.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> Apr.-Dec.</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1921 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1921 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">13</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> Jan.-Sept.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> Jan.-Sept.</unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Oct.-Dec. </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Oct.-Dec. </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1922 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1922 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-Sept.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-Sept.</unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Oct.-Dec. (2 folders)</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Oct.-Dec. (2 folders)</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1923 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1923 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-Sept.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-Sept.</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">16</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Oct.-Dec.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Oct.-Dec.</unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1924 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1924 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">16</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-Sept.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-Sept.</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> Oct.-Dec. </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> Oct.-Dec. </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1925 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1925 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-Nov.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-Nov.</unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Dec. </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Dec. </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1926 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1926 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-May</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-May</unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">19</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>June-Nov.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">June-Nov.</unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Dec. </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Dec. </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1927 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1927 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-Apr.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-Apr.</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">21</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> May-Sept.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> May-Sept.</unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> Oct.-Dec.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> Oct.-Dec.</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1928 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1928 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> Jan. </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> Jan. </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Feb.-June</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Feb.-June</unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>July-Nov.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">July-Nov.</unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Dec., undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Dec., undated</unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1929 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1929 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-Apr.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-Apr.</unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">26</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> May-Oct.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> May-Oct.</unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> Nov.-Dec.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> Nov.-Dec.</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1930 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1930 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.</unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">28</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Feb.-May</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Feb.-May</unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>June-Nov.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">June-Nov.</unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">30</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Dec. </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Dec. </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">30</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1931 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1931 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">30</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-Apr.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-Apr.</unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">31</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Apr.-July</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Apr.-July</unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">32</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Aug.-Nov. </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Aug.-Nov. </unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">33</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Nov.-Dec.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Nov.-Dec.</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">33</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1932 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1932 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">33</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-Feb.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-Feb.</unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">34</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> Mar.-Aug.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> Mar.-Aug.</unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">35</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Sept.-Dec., undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Sept.-Dec., undated</unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">35</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1933 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1933 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">35</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> Jan.-Mar.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> Jan.-Mar.</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">36</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> Mar.-Aug.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> Mar.-Aug.</unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">37</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Sept.-Dec., undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Sept.-Dec., undated</unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">37</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1934 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1934 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">37</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-Mar.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-Mar.</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">38</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Apr.-Sept.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Apr.-Sept.</unitdate>
+                        <physdesc encodinganalog="300">(7 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">39</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Oct.-Dec., undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Oct.-Dec., undated</unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">39</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1935 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1935 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">39</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-Apr.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-Apr.</unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">40</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>May-Dec., undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">May-Dec., undated</unitdate>
+                        <physdesc encodinganalog="300">(9 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">40</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1936 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1936 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">40</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan. </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan. </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">41</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> Feb.-Aug.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> Feb.-Aug.</unitdate>
+                        <physdesc encodinganalog="300">(7 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">42</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> Sept.-Dec., undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> Sept.-Dec., undated</unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">42</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1937 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1937 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">42</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> Jan.-Aug.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> Jan.-Aug.</unitdate>
+                        <physdesc encodinganalog="300">(8 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">43</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Sept.-Dec., undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Sept.-Dec., undated</unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">43</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1938 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1938 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">43</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-June</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-June</unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">44</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date> July-Dec.</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f"> July-Dec.</unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">44</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1939 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1939 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">44</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Jan.-Oct., undated (4 folders) </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Jan.-Oct., undated (4 folders) </unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">45-49</container>
+               <unittitle encodinganalog="245$a" id="Subj">Subject File,  <date normal="1835/1938">1835-1938</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1835/1938">1835-1938</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, memoranda, minutes, reports, notes, manuscripts, and financial
+                  statements.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by subject and therein chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">45</container>
+                  <unittitle encodinganalog="245$a">American Historical Association, Conference on
+                     Hispanic American History, Canada,  <date>1932
+                     </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1932
+                     </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">45</container>
+                  <unittitle encodinganalog="245$a">Florida </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">45</container>
+                  <unittitle encodinganalog="245$a">Florida State Historical Society,  <date>1929-1930 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1929-1930 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">45</container>
+                     <unittitle encodinganalog="245$a">Correspondence </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">45</container>
+                     <unittitle encodinganalog="245$a">Minutes, reports </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">45</container>
+                  <unittitle encodinganalog="245$a">French Florida,  <date>1933 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1933 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">45</container>
+                     <unittitle encodinganalog="245$a">Correspondence,  <date>1924-1935</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1924-1935</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">45</container>
+                     <unittitle encodinganalog="245$a">Footnotes </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">46</container>
+                     <unittitle encodinganalog="245$a">Index </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">46</container>
+                        <unittitle encodinganalog="245$a">Narrative </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">46</container>
+                        <unittitle encodinganalog="245$a">Pictures </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">46</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">46</container>
+                  <unittitle encodinganalog="245$a">Harris, Alta California, <date> 1846 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f"> 1846 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">46</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Hispanic American Historical Review</part>
+                                 </title>
+                              </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">46</container>
+                     <unittitle encodinganalog="245$a">Correspondence,  <date>1916-1917</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1916-1917</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">47</container>
+                     <unittitle encodinganalog="245$a">Reports, minutes, <date> 1916-1932 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f"> 1916-1932 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">47</container>
+                  <unittitle encodinganalog="245$a">Inter-American Historical Series,
+                     Correspondence,  <date>1929-1939 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1929-1939 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">47</container>
+                     <unittitle encodinganalog="245$a">Mollan, R. C.,  <date>1835 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1835 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">47</container>
+                     <unittitle encodinganalog="245$a">Monday, H. A., inventory of collection
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">47</container>
+                     <unittitle encodinganalog="245$a">Pan American Institute of Geography and
+                        History,  <date>1929-1930 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1929-1930 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">47</container>
+                     <unittitle encodinganalog="245$a">Pan American Union, Advisory Committee on
+                        Bibliography, minutes,  <date>1930 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1930 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">47</container>
+                     <unittitle encodinganalog="245$a">Philippine Customary Law Project,
+                        correspondence,  <date>1932-1938 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1932-1938 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">47</container>
+                     <unittitle encodinganalog="245$a">Spanish Institute of Florida </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">47</container>
+                     <unittitle encodinganalog="245$a">Union Catalog of Floridiana, proposal
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">47</container>
+                     <unittitle encodinganalog="245$a">Wright, Irene Aloha </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">47</container>
+                        <unittitle encodinganalog="245$a">Correspondence </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">47</container>
+                           <unittitle encodinganalog="245$a">
+                                          <date>1923 </date> 
+                                       </unittitle>
+                           <unitdate encodinganalog="245 $f">1923 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">48</container>
+                           <unittitle encodinganalog="245$a">
+                                          <date>1924-1935</date> 
+                                       </unittitle>
+                           <unitdate encodinganalog="245 $f">1924-1935</unitdate>
+                           <physdesc encodinganalog="300">(5 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">48</container>
+                        <unittitle encodinganalog="245$a">
+                                       <date>Financial statements </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245 $f">Financial statements </unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">48</container>
+                           <unittitle encodinganalog="245$a">
+                                          <date>1922-1923 </date> 
+                                       </unittitle>
+                           <unitdate encodinganalog="245 $f">1922-1923 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">49</container>
+                           <unittitle encodinganalog="245$a">
+                                          <date>1924-1931</date> 
+                                       </unittitle>
+                           <unitdate encodinganalog="245 $f">1924-1931</unitdate>
+                           <physdesc encodinganalog="300">(4 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">50-56</container>
+               <unittitle encodinganalog="245$a" id="Write">Writings File,  <date normal="1901/1939">1901-1939</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1901/1939">1901-1939</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Transcripts, typescripts, and handwritten copies of lectures, draft copies of
+                  articles, books, manuscripts, and miscellaneous writings.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of material and chronologically within each file.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">50</container>
+                  <unittitle encodinganalog="245$a">Articles on  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">50</container>
+                     <unittitle encodinganalog="245$a">Philippines </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">50</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous topics </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">50</container>
+                  <unittitle encodinganalog="245$a">"Cartography,  <date>1492-1867" </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1492-1867" </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">50</container>
+                     <unittitle encodinganalog="245$a">Correspondence/notes,  <date>1916-1932 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1916-1932 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">50</container>
+                     <unittitle encodinganalog="245$a">Notes/drafts </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     <container localtype="box">51</container>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">51</container>
+                  <unittitle encodinganalog="245$a">"Flora and Fauna," notes </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">51</container>
+                  <unittitle encodinganalog="245$a"> "Florida" </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">51</container>
+                     <unittitle encodinganalog="245$a">Notes </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">51</container>
+                     <unittitle encodinganalog="245$a">Notes, "Monroe Doctrine, United States
+                        Foreign Policy" </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">52</container>
+                  <unittitle encodinganalog="245$a">"Florida Missions" </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">52</container>
+                     <unittitle encodinganalog="245$a">Draft </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">52</container>
+                     <unittitle encodinganalog="245$a">Notes/draft </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">52</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>"Leyes de Indias,"</part>
+                                 </title> notes </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">52</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Louisiana under the Rule of Spain, France, and the United States,
+                        notes</part>
+                                 </title>
+                                 <date>1785-1807, 1911 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1785-1807, 1911 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">52</container>
+                  <unittitle encodinganalog="245$a">"The Luna Papers" </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">52</container>
+                  <unittitle encodinganalog="245$a">"McCartney Mission to China," notes </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">52</container>
+                  <unittitle encodinganalog="245$a">"Panama," notes/draft </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">52</container>
+                  <unittitle encodinganalog="245$a">"Rivers," notes </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">52</container>
+                  <unittitle encodinganalog="245$a">“Gentlemen of Elvas” </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">52</container>
+                     <unittitle encodinganalog="245$a">Correspondence,  <date>1932-1939 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1932-1939 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">52</container>
+                     <unittitle encodinganalog="245$a">Draft </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">53</container>
+                  <unittitle encodinganalog="245$a">"The Jesuit Relations and Allied Documents"
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">53</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>The Philippine Islands, </part>
+                                 </title>
+                                 <date>1493-1803</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1493-1803</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">53</container>
+                     <unittitle encodinganalog="245$a">Notes </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     <container localtype="box">54</container>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">54</container>
+                  <unittitle encodinganalog="245$a">Poems, <date>1901-1928, undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1901-1928, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">54</container>
+                  <unittitle encodinganalog="245$a">Translations (Spanish to English) </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">54</container>
+                     <unittitle encodinganalog="245$a">Early Spanish documents (1513) </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">54</container>
+                     <unittitle encodinganalog="245$a">Jesuit letter from Siam (1686) </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">54</container>
+                     <unittitle encodinganalog="245$a">Letter from China (1745) </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">55</container>
+                  <unittitle encodinganalog="245$a">Pavón, José María </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">55</container>
+                     <unittitle encodinganalog="245$a">
+                                    <title>
+                                       <part>The Ancient Legends of the Island of Negros </part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">55</container>
+                     <unittitle encodinganalog="245$a">
+                                    <title>
+                                       <part>Stories of the Indios of This Island (Negros) </part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">55</container>
+                  <unittitle encodinganalog="245$a">Rochmanteux, Camille, The Jesuits and New France
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">55</container>
+                  <unittitle encodinganalog="245$a">Translations, English to Spanish, "How the War
+                     Came to America,"  <date>1917 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1917 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">55</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">55</container>
+                     <unittitle encodinganalog="245$a">Concerning libraries and archives
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">55</container>
+                     <unittitle encodinganalog="245$a">Concerning Hispanic American history and
+                        others </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Unidentified fragments </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">56-59</container>
+               <unittitle encodinganalog="245$a" id="Misc">Miscellany,  <date normal="1816/1939">1816-1939</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1816/1939">1816-1939</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Cards, clippings, printed matter, and writings by others.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material or topic. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Cards </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Certificates, awards, and memorabilia <ref show="replace" actuate="onrequest" target="OV56">
+                                    <emph render="italic">See Oversize</emph>
+                                 </ref>
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Clippings </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Examinations </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Invitations </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Legal documents </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Notes </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">Notes </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">Printed matter </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">Programs </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">Receipts </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">Reproduction, Cabeca de Vaca, <title>
+                                    <part>Relacion de
+                        la Florida</part>
+                                 </title>
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">Writings by others </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">58</container>
+                  <unittitle encodinganalog="245$a"> Speeches and lectures </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">58</container>
+                  <unittitle encodinganalog="245$a">Writings </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">Biographical file </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">Short stories </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">Introductions and foreword </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">"Bits about Masonry in Former Spanish
+                        Countries" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">British seamen </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">Florida and Louisiana </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">Latin America </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">Philippine Islands </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">Spain </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">Spanish exploration </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">"Suggestions regarding Translation and
+                        Typographical Style" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">Pardo de Tavera, T. H., "Resena Historica"
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">Cleary, R., "Brazil under the Monarchy"
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">58</container>
+                  <unittitle encodinganalog="245$a">Notebook </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">58</container>
+                  <unittitle encodinganalog="245$a">Notes on colonization </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">58</container>
+                  <unittitle encodinganalog="245$a">Notes re Philippine Islands </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">58</container>
+                  <unittitle encodinganalog="245$a">Notes from Jose Montero y Vidal </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">58</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous notes </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Subject files </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">American Mestizo Protective Association,
+                        report,  <date>1914 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1914 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Instituto Historico e Geographico Brasileiro,
+                            <date>1922 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1922 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Inter-American Historical Series, report,
+                            <date>circa 1934 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">circa 1934 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Official names of Barrios, Philippine
+                        Islands,  <date>1911 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1911 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Ordinances for the Treatment of the Indians
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Puente de Espana,  <date>1875 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1875 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Sanitation in Mexico </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">
+                                    <emph render="italic">Stafford</emph>
+                        (schooner), invoice,  <date>1816-1817 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1816-1817 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">War Trade Board records </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">59</container>
+                        <unittitle encodinganalog="245$a">General </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">59</container>
+                        <unittitle encodinganalog="245$a">Greece </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">59</container>
+                        <unittitle encodinganalog="245$a">Latin America </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">59</container>
+                        <unittitle encodinganalog="245$a">Report of the Near Eastern Division
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">59</container>
+                        <unittitle encodinganalog="245$a">Ultra-Mayan </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">59</container>
+                        <unittitle encodinganalog="245$a">Duplicates </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Bibliographical material </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Miscellany </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a" id="Over">Oversize</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Certificates, awards, and memorabilia.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Described according to the series, container and folder from which the items were
+                  removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Miscellany </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="OV56">Certificates, awards, and
+                        memorabilia (Container 56) </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

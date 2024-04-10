@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms011088">loc.mss/eadmss.ms011088</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Victor S. Clark Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Janet R. Linde<lb/>Revised by Melinda K.
+			 Friend</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			            <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2011" encodinganalog="260$c" era="ce" calendar="gregorian">2011</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm81016014">https://lccn.loc.gov/mm81016014</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2021-04">2021 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Correction made</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2011">2011</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Victor S. Clark Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1827/1944">1827-1944</date>  
+         </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1827/1944"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1827-1944</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS16014</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Clark, Victor S. (Victor
+			 Selden), 1868-1946</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">4,500
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">11 containers plus 3 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">4.4 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <language langcode="spa" encodinganalog="041"> Spanish</language>
+            <descriptivenote>
+               <p>Collection material in
+		English and Spanish
+         </p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		          <corpname>
+               <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+            </corpname> 
+		          <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Economist and author.
+		  Correspondence, financial statements, notes, clippings, reports on various
+		  areas and countries, and other data, largely pertaining to the Institute of
+		  Current World Affairs, Washington, D.C., and the world situation. Also includes
+		  papers of Levi and LeRoy Davis, farmers and merchants of the Genesee River
+		  Valley in New York, during the 1800s.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20201221172921.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Blakemore, Thomas L., 1915- --Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Clark family.</part>
+            </famname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Clark, Victor S. (Victor Selden), 1868-1946.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Davis family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Davis, LeRoy, 1836-1928.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Davis, Levi, 1807-1884.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Flanagan, Hallie, 1890-1969--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hazard, John N. (John Newbold), 1909-1995--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Rogers, Walter S.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Talbot, Phillips--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Board of Research Associates in American Economic History.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Green and Davis.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Institute of Current World Affairs.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Puerto Rico. Insular Board of Education.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Bureau of Mediation.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Agriculture--New York (State)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Economic history.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Economics.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Education--Puerto Rico.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Merchants--New York (State)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Railroads--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Social history.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World politics.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Genesee River Valley (Pa. and N.Y.)--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Genesee River Valley (Pa. and N.Y.)--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New York (State)--History.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Authors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Economists.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Victor S. Clark, economist and author, were given or
+		  bequeathed to the Library of Congress by Clark between 1928 and 1951. A
+		  transfer of material from the Central Services Division was received in
+		  1970.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Victor S. Clark were arranged and described in 1985. The
+		  finding aid was revised in 2011.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Victor S. Clark
+		  is governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Victor S. Clark are open to research. Researchers are
+		  advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Victor S. Clark Papers, Manuscript
+		  Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1868, June 12</datesingle>
+               <event>Born, Portageville, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1890</datesingle>
+               <event>Litt. B., University of Minnesota, Minneapolis, Minn.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1892</fromdate>
+                  <todate>1893</todate>
+               </daterange>
+               <event>Honorary fellow, University of Chicago, Chicago, Ill.,
+				studying at Göttingen University, Göttingen, Germany, and Bern University,
+				Bern, Switzerland</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1893</fromdate>
+                  <todate>1897</todate>
+               </daterange>
+               <event>High school principal and superintendent, Minnesota</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1897</fromdate>
+                  <todate>1898</todate>
+               </daterange>
+               <event>Fellow, Columbia University, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1899</fromdate>
+                  <todate>1900</todate>
+               </daterange>
+               <event>President, Insular Board of Education, Puerto Rico</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1900</datesingle>
+               <chronitemset>
+                  <event>Director of public instruction, Puerto Rico</event>
+                  <event>Ph.D., Columbia University, New York, N.Y.</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1902</fromdate>
+                  <todate>1906</todate>
+               </daterange>
+               <event>Investigated tropical labor conditions, U. S. Bureau of
+				Labor</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1906</datesingle>
+               <event> Published <title localtype="simple">
+                     <part>The Labour Movement in Australasia: A Study in Social
+				  Democracy</part>
+                  </title>. New York: H. Holt &amp; Co.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1906</fromdate>
+                  <todate>circa 1915</todate>
+               </daterange>
+               <event>Head, Division of Manufactures and Economic History, Carnegie
+				Institution of Washington, Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1910</datesingle>
+               <event>In charge of census, Hawaii (Ter.)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1910</fromdate>
+                  <todate>1913</todate>
+               </daterange>
+               <event>Commissioner, Board of Immigration, Labor and Statistics,
+				Hawaii (Ter.)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1916</datesingle>
+               <event>Published <title localtype="simple">
+                     <part>History of Manufactures in the United States</part>
+                  </title>. Washington, D.C.: Carnegie Institution of Washington</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1917</fromdate>
+                  <todate>1919</todate>
+               </daterange>
+               <event>Director, Enemy Press Bureau, National Board for Historical
+				Service</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1917</fromdate>
+                  <todate>1929</todate>
+               </daterange>
+               <event>Member, Board of Research Associates in American Economic
+				History, Carnegie Institution of Washington</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1918</fromdate>
+                  <todate>1929</todate>
+               </daterange>
+               <event>Director, Brookings Institution Survey of Puerto Rico</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1920</fromdate>
+                  <todate>1928</todate>
+               </daterange>
+               <event>Editor, <title localtype="simple">
+                     <part>The Living Age</part>
+                  </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1926</fromdate>
+                  <todate>1944</todate>
+               </daterange>
+               <event>Trustee, Institute of Current World Affairs, Washington,
+				D.C.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1927</fromdate>
+                  <todate>1932</todate>
+               </daterange>
+               <event>Arbitrator, U. S. Board of Mediation</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1930</datesingle>
+               <event>Published with others, <title localtype="simple">
+                     <part>Porto Rico and Its Problems</part>
+                  </title>. Washington, D.C.: Brookings Institute</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1929</fromdate>
+                  <todate>1940</todate>
+               </daterange>
+               <event>Consultant in economics, Library of Congress</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1941</fromdate>
+                  <todate>1946</todate>
+               </daterange>
+               <event>Honorary consultant in economics, Library of Congress</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1946, Mar. 30 </datesingle>
+               <event>Died, Washington, D.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Victor Selden Clark (1868-1946) span the years
+		  1827-1944. The papers are organized into the following series: 
+		  <ref show="replace" actuate="onrequest" target="personal">
+                Personal
+			 File 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="family">
+                Family
+			 Papers 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="special">
+                Special
+			 Files 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="special">
+                Research and
+			 Writings File 
+            </ref>, and 
+		  <ref show="replace" actuate="onrequest" target="over">
+                Oversize 
+            </ref>.
+		  </p>
+         <p>The 
+		  <ref show="replace" actuate="onrequest" target="personal">
+                 Personal
+			 File 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="special">
+                Special
+			 Files 
+            </ref>, and 
+		  <ref show="replace" actuate="onrequest" target="research">
+                Research and
+			 Writings File 
+            </ref> series relate to Clark's career as an economist and author.
+		  The 
+		  <ref show="replace" actuate="onrequest" target="special">
+                 Special
+			 Files 
+            </ref> are largely comprised of records kept by Clark during his
+		  trusteeship of the Institute of Current World Affairs, and include such
+		  correspondents as Thomas L. Blakemore, Jr., Hallie Flanagan, John N. Hazard,
+		  Walter S. Rogers, and Phillips Talbot. Other papers reflect his membership on
+		  the Board of Research Associates in American Economic History of the Carnegie
+		  Institution of Washington, his work as an arbitrator on railroad cases for the
+		  United States Bureau of Mediation, and his service on the Insular Board of
+		  Education in Puerto Rico shortly after the territory was acquired by the United
+		  States in 1898.</p>
+         <p>The 
+		  <ref show="replace" actuate="onrequest" target="family">
+                Family
+			 Papers 
+            </ref> contain farm diaries, business and land records, account books,
+		  daybooks, and financial records and legal papers relating to the firm of Green
+		  and Davis, Levi Davis, LeRoy Davis, and the Davis and Clark families especially
+		  in the Genesse Valley of New York. The Davis records were probably inherited by
+		  Clark through his mother Helen, who was a Davis before marriage.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in five series: </p>
+         <list>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="personal">
+                   Personal
+				File, 1882-1936 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="family">
+                   Family
+				Papers, 1827-1929 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="special">
+                   Special
+				Files, 1899-1944 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="research">
+                   Research
+				and Writings File, 1837-circa 1941 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="over">
+                   Oversize,
+				1835-1913 
+               </ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a" id="personal">Personal File, 
+				 <date normal="1882/1936">1882-1936</date> 
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1882/1936">1882-1936</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Correspondence, notebooks, account books, travel documents, legal
+				papers, photographs, certificates and diplomas, memorabilia, newspaper
+				clippings, and miscellaneous papers. </p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by type of material and chronologically
+				therein. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Certificates and diplomas, 
+				   <date>1890-1913 </date>  
+				                 <ref show="replace" actuate="onrequest" target="over1">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1890-1913 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Correspondence, 
+				   <date>1890-1929, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1890-1929, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Legal papers, 
+				   <date>1894-1898</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1894-1898</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Letters and documents of
+				  reference and introduction, 
+				   <date>1882-1923</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1882-1923</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Memorabilia, 
+				   <date>1890-1935</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1890-1935</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous, 
+				   <date>1883-1928</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1883-1928</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings, 
+				   <date>1897-1910, 1934-1936, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1897-1910, 1934-1936, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Notebooks and account books, 
+				   <date>1887-1897</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1887-1897</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Photographs, 
+				   <date>undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Travel documents, 
+				   <date>1904-1933</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1904-1933</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2-4</container>
+               <unittitle encodinganalog="245$a" id="family">Family Papers, 
+				 <date normal="1827/1929">1827-1929</date> 
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1827/1929">1827-1929</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, business and land records, financial records and
+				legal papers, miscellaneous papers, and bound volumes of account books, farm
+				diaries, and other records.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of material and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Correspondence, 
+				   <date>1861-1915, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1861-1915, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Business and land records of the
+				  firm of Green and Davis and of Levi and LeRoy Davis, 
+				   <date>1833-1911 </date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1833-1911 </unitdate>
+                  <physdesc encodinganalog="300$a">(3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Financial records and legal
+				  papers of the Davis and Clark families, 
+				   <date>1863-1929</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1863-1929</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous, 
+				   <date>1827, 1898-1900, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1827, 1898-1900, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Bound volumes</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Daybook of Levi Davis and the
+					 firm of Green and Davis, 
+					  <date>1835-1849, 1857 </date>  
+					                   <ref show="replace" actuate="onrequest" target="over2">
+                           <emph render="italic">See also Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1835-1849, 1857 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Invoice and account book of
+					 Levi Davis, 
+					  <date>1835-1837, 1852-1861</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1835-1837, 1852-1861</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Account book of Levi Davis, 
+					  <date>1836-1853</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1836-1853</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Notebook</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">Records of the Union School
+						Debating Society, Portageville, N.Y., 
+						 <date>1847-1854</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1847-1854</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">Other entries, 
+						 <date>1853-1860, 1874-1882</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1853-1860, 1874-1882</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Receipt book of Levi Davis,
+					 Genesee Valley Canal Warehouse, 
+					  <date>1852-1862</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1852-1862</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Account books of Levi Davis, 
+					  <date>1854-1878</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1854-1878</unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Account book attributed to
+					 LeRoy Davis, 
+					  <date>1861-1863</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1861-1863</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">"Album of Remembrance" of Mary
+					 J. Davis, 
+					  <date>1863-1865</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1863-1865</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Account book and farm diary of
+					 Levi Davis and LeRoy Davis, 
+					  <date>1867-1884</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1867-1884</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Memorandum book and farm diary
+					 of LeRoy Davis, 
+					  <date>1871-1876</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1871-1876</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Farm diaries of LeRoy Davis, 
+					  <date>1876-1885 </date>  
+					                   <ref show="replace" actuate="onrequest" target="over4">
+                           <emph render="italic">See also Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1876-1885 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">4-9</container>
+               <unittitle encodinganalog="245$a" id="special">Special Files, 
+				 <date normal="1899/1944">1899-1944</date> 
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1899/1944">1899-1944</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Reports, administrative records, correspondence, case files,
+				financial records, orders and regulations, and miscellaneous documents. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by topic and alphabetically or
+				chronologically therein.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Carnegie Institution of
+				  Washington, Board of Research Associates in American Economic History,
+				  Washington, D.C., 
+				   <date>1902-1944</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1902-1944</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Institute of Current World
+				  Affairs, Washington, D.C.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Antonius, George, 
+					  <date>1931-1942 </date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1942 </unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Blakemore, Thomas L.,
+					 Jr.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a"> 
+						                      <date>1938-1940</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938-1940</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a"> 
+						                      <date>1940-1941</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1941</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Brodie, Donald, secretary and
+					 treasurer, 
+					  <date>1928, 1939-1940</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928, 1939-1940</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Crane, John O., 
+					  <date>1926-1941</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1926-1941</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a" id="davis5">Davis, Hallie
+					 Flanagan, 
+					  <date>1943</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Flanagan, Hallie 
+					 <ref show="replace" actuate="onrequest" target="davis5">
+                           <emph render="italic">See same container</emph>, Davis, Hallie
+						Flanagan</ref>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Grattan, C. Hartley, 
+					  <date>1941</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Harper, Samuel N., 
+					  <date>1932-1942</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932-1942</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Hazard, John N.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a"> 
+						                      <date>1932-1937</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932-1937</unitdate>
+                        <physdesc encodinganalog="300$a">(2
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a"> 
+						                      <date>1937-1939</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1939</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Herron, Francis, 
+					  <date>1941-1944</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941-1944</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Hopper, Bruce C., 
+					  <date>1927-1928, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927-1928, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Leland, Marine, 
+					  <date>1942-1944 </date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1944 </unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">May, Kenneth, 
+					  <date>1937-1944</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1944</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Parkin, G. R. (George Raleigh),
+					 
+					  <date>1940-1943</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1943</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Powell, Helen K., 
+					  <date>1943-1944</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1944</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Rogers, Walter S.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a"> 
+						                      <date>1928-1935</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928-1935</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a"> 
+						                      <date>1935-1941</date> 
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1941</unitdate>
+                        <physdesc encodinganalog="300$a">(2
+						folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Simpson, Eyler N., 
+					  <date>1927-1937</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927-1937</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Talbot, Phillips, 
+					  <date>1938-1943 </date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938-1943 </unitdate>
+                     <physdesc encodinganalog="300$a">(3
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Weidemann, Howard M., 
+					  <date>1937-1939</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1939</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Witt, Lawrence W., 
+					  <date>1940-1943</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1943</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Young, C. Walter, 
+					  <date>1931-1939 </date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1939 </unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Puerto Rico, Insular Board of
+				  Education, 
+				   <date>1899-1900, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1899-1900, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">United States Board of
+				  Mediation</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Administrative and
+					 miscellaneous records, 
+					  <date>1927-1930</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927-1930</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Brotherhood of Locomotive
+					 Engineers v. Seaboard Air Line Railway Co., 
+					  <date>1931</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Brotherhood of Locomotive
+					 Firemen and Engineers v. Boston and Maine Railroad, 
+					  <date>1929</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Brotherhood of Railroad Station
+					 Employees v. Boston and Maine Railroad, 
+					  <date>1927</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Brotherhood of Railroad
+					 Trainmen v. Boston and Maine Railroad, 
+					  <date>1932</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Brotherhood of Railroad
+					 Trainmen v. Erie Railroad, 
+					  <date>1929</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Brotherhood of Railway and
+					 Steamship Clerks, Freight Handlers, Express and Station Employees v. Chicago
+					 and Northwestern Railroad, 
+					  <date>1927</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Brotherhood of Railway and
+					 Steamship Clerks, Freight Handlers, Express and Station Employees v. New York
+					 Central Railroad and Grand Central Terminal, 
+					  <date>1927</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Southern and Allied Federated
+					 Shop Crafts v. Southern Railway Co., 
+					  <date>1929</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">9-11</container>
+               <unittitle encodinganalog="245$a" id="research">Research and Writings
+				File, 
+				 <date normal="1837/1941">1837-circa 1941</date> 
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1837/1941">1837-circa 1941</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Articles, essays, reports, student papers, short stories, book
+				reviews, speeches, poems, travelogues, research notes, and printed matter. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Articles, essays, and reports, 
+				   <date>1933-1938, undated </date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933-1938, undated </unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Book reviews, 
+				   <date>1913-1940, undated </date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1913-1940, undated </unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Speeches, 
+				   <date>undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Student essays and thesis,
+				  University of Minnesota, Minneapolis, Minn., and Columbia University, New York,
+				  N.Y., 
+				   <date>1890-1897, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1890-1897, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Poems, 
+				   <date>1898, 1908, undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1898, 1908, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Short stories, 
+				   <date>undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Travelogues, 
+				   <date>undated</date> 
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Untitled book manuscript on a
+					 history of colonial Latin America, with notes, 
+					  <date>undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Research notes on colonial
+					 Latin America, 
+					  <date>undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Research file on economic
+					 crises in the American economy probably for "Past Crises in Retrospect and
+					 Contemporary Opinion," manuscripts and notes, 
+					  <date>1932 </date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932 </unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Untitled essay on money, with
+					 notes; "A Summer's Observations;" and "A Note on Japan's War Economy," 
+					  <date>1938, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Research file on the
+					 international economy, 
+					  <date>circa 1941</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1941</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Transcripts of documents
+					 regarding the regulation of labor in Puerto Rico, 
+					  <date>1837-1849</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1837-1849</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Letter/essay, Clark to Elmer
+					 Thomas concerning Senate bill 5561, 
+					  <date>1933</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Comments by Henry Broadhead, <title localtype="simple">
+                           <part>The Labour Movement in Australasia: A Study in Social
+						Democracy</part>
+                        </title>, 
+					  <date>1907</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1907</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Essay by H. D. Dickinson,
+					 "Judge Brewer and the Police Power," University of Minnesota, Minneapolis,
+					 Minn, 
+					  <date>1890</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1890</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Printed copies of articles by
+					 Clark, 
+					  <date>1902-1922, undated</date> 
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1902-1922, undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1-OV 3</container>
+               <unittitle encodinganalog="245$a" id="over">Oversize, 
+				 <date normal="1835/1913">1835-1913</date> 
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1835/1913">1835-1913</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Diploma, resolution, and farm diaries. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged and described according to the series, containers, and
+				folder from which the items were removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Personal File</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="over1">Certificates and
+					 diplomas</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 1</container>
+                        <unittitle encodinganalog="245$a">Diploma, 
+						 <date>1890</date>  (Container 1)</unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1890</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 1</container>
+                        <unittitle encodinganalog="245$a">Resolution, Hawaii (Ter.), 
+						 <date>1913 </date> (Container 1)</unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1913 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 2</container>
+                  <unittitle encodinganalog="245$a">Family Papers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 2</container>
+                     <unittitle encodinganalog="245$a">Bound volumes</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 2</container>
+                        <unittitle encodinganalog="245$a" id="over2">Daybook of Levi
+						Davis and the firm of Green and Davis, 
+						 <date>1835-1849, 1857 </date> (Container 2)</unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1835-1849, 1857 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 3</container>
+                        <unittitle encodinganalog="245$a" id="over4">Farm diaries of
+						LeRoy Davis</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 3</container>
+                           <unittitle encodinganalog="245$a"> 
+						                         <date>1876-1885 </date> (Container 4)</unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1876-1885 </unitdate>
+                           <physdesc encodinganalog="300">(2
+						  vols.)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

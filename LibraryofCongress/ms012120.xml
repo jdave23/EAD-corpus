@@ -1,0 +1,2472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms012120">loc.mss/eadmss.ms012120</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Lillian Gish Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Grover Batts and David Mathisen with the assistance
+			 of Thelma Queen <lb/>Revised and expanded by Laura J. Kells</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2012" encodinganalog="260$c" era="ce" calendar="gregorian">2012</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm73022871">https://lccn.loc.gov/mm73022871</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2012">2012</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Lillian Gish Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1829/1978">1829-1978</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1920/1969">(bulk 1920-1969)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1829/1978"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1829-1978</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1920/1969"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1920-1969)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS22871</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Gish, Lillian,
+			 1893-1993</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">9,750
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">25 containers plus 1 artifact</physdesc>
+         <physdesc label="Extent" encodinganalog="300">10.8 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+		       </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Actress. Chiefly
+		  synopses of silent films and scripts of plays, films, and television
+		  productions in which Gish did not appear; scripts, some annotated, for
+		  productions in which she did perform; letters received by Gish; and legal
+		  files.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20180116174321.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Duell, Charles H. (Charles Holland), 1889- --Trials, litigation, etc.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Gish, Dorothy.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Gish, Lillian, 1893-1993.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>O'Neill, Carlotta.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>O'Neill, Eugene, 1888-1953.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>America First Committee.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>American Academy of Dramatic Arts.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Acting.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Drama--Stories, plots, etc.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Motion pictures--Production and direction.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>All the way home (Play)</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Anya (Play)</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Arsenic and old lace (Television play)</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>I never sang for my father (Play)</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Night of the hunter (Motion picture)</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Nine Pine street (Play)</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Portrait of a Madonna (Play)</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Star-wagon (Play)</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Uncle Vanya (Play)</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Actresses.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Lillian Gish, actress and author, were given to the
+		  Library of Congress by Gish, 1970-1980. An additional item was purchased in
+		  1992.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Lillian Gish were processed in 1980. Additional material
+		  was added in 1985 and 2012. The finding aid was revised in 2012.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Items have been transferred from the Manuscript Division to other
+		  custodial divisions of the Library. Some photographs, posters, and drawings
+		  have been transferred to the Prints and Photographs Division. Maps have been
+		  transferred to the Geography and Map Division. All transfers are identified in
+		  these divisions as part of the Lillian Gish Papers.</p>
+      </separatedmaterial>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Other Repositories</head>
+         <p>Other papers of Lillian Gish can be found in the Billy Rose Theater
+		  Division of the New York Public Library, New York, N.Y.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of Lillian Gish in these papers
+		  and in other collections of papers in the custody of the Library of Congress
+		  has been dedicated to the public. </p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Lillian Gish are open to research. Researchers are
+		  advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Lillian Gish Papers, Manuscript
+		  Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1893 Oct. 14</datesingle>
+               <event>Born, Springfield, Ohio</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1901</datesingle>
+               <event>Made her stage debut</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1905</datesingle>
+               <event>Danced in Sarah Bernhardt's stage production, New York,
+				N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1912</datesingle>
+               <event>Began her movie career, working for D. W. Griffith's Biograph
+				Studio, film debut in <title localtype="simple">
+                                 <part>An Unseen Enemy</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1913</datesingle>
+               <event>Appeared on stage with Mary Pickford in <title localtype="simple">
+                                 <part>A Good Little Devil </part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1914</datesingle>
+               <event>Appeared in the film <title localtype="simple">
+                                 <part>Birth of a Nation</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1915</fromdate>
+                              <todate>1916</todate>
+                           </daterange>
+               <event>Appeared in the film <title localtype="simple">
+                                 <part>Intolerance</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1917</datesingle>
+               <event>Traveled to Europe to appear in D. W. Griffith's film <title localtype="simple">
+                                 <part>Hearts of the World</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1919</datesingle>
+               <event>Appeared in the film <title localtype="simple">
+                                 <part>Broken Blossoms</part>
+                              </title> 
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1920</datesingle>
+               <chronitemset>
+                              <event>Appeared in the film <title localtype="simple">
+                                    <part>Way Down East</part>
+                                 </title> 
+                              </event>
+                              <event>Directed the film <title localtype="simple">
+                                    <part> Remodeling Her Husband</part>
+                                 </title>
+                              </event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1921</datesingle>
+               <event>Appeared in her last D. W. Griffith film <title localtype="simple">
+                                 <part>Orphans of the Storm</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1925</datesingle>
+               <event>Joined the Metro-Goldwyn Co.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1925</fromdate>
+                              <todate>1932</todate>
+                           </daterange>
+               <event>Involved in litigation resulting from suits filed by producer
+				Charles Duell</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1929</datesingle>
+               <event>Appeared in her first talking motion picture, <title localtype="simple">
+                                 <part>One Romantic Night</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1930</datesingle>
+               <event>Returned to the stage in the play <title localtype="simple">
+                                 <part>Uncle Vanya</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1948</datesingle>
+               <chronitemset>
+                              <event>Appeared on stage in <title localtype="simple">
+                                    <part> Crime and Punishment</part>
+                                 </title>
+                              </event>
+                              <event>Television debut in <title localtype="simple">
+                                    <part>The Late Christopher Bean</part>
+                                 </title>, <title localtype="simple">
+                                    <part>Philco Playhouse </part>
+                                 </title>
+                              </event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1950</datesingle>
+               <event>Appeared on stage in <title localtype="simple">
+                                 <part>Miss Mabel</part>
+                              </title> and <title localtype="simple">
+                                 <part>The Curious Savage</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1954</fromdate>
+                              <todate>1960</todate>
+                           </daterange>
+               <event>Appeared in the films <title localtype="simple">
+                                 <part>Night of the Hunter</part>
+                              </title>, <title localtype="simple">
+                                 <part>Duel in the Sun</part>
+                              </title>, <title localtype="simple">
+                                 <part>Portrait of Jennie</part>
+                              </title>, and <title localtype="simple">
+                                 <part>The Unforgiven</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1960</fromdate>
+                              <todate>1961</todate>
+                           </daterange>
+               <event>Appeared on stage in <title localtype="simple">
+                                 <part>The Family Reunion</part>
+                              </title> and <title localtype="simple">
+                                 <part>All the Way Home</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1963</datesingle>
+               <event>Appeared on stage in <title localtype="simple">
+                                 <part>Too True To Be Good </part>
+                              </title>and <title localtype="simple">
+                                 <part>A Passage to India </part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1965</datesingle>
+               <event>Appeared on stage in <title localtype="simple">
+                                 <part> Romeo and Juliet</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1967</datesingle>
+               <chronitemset>
+                              <event>Appeared in the film <title localtype="simple">
+                                    <part>The Comedians</part>
+                                 </title>
+                              </event>
+                              <event>Appeared on the stage in <title localtype="simple">
+                                    <part>I Never Sang for My Father</part>
+                                 </title>
+                              </event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1968</datesingle>
+               <event>Appeared with Helen Hayes in the television version of <title localtype="simple">
+                                 <part>Arsenic and Old Lace</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1969 </datesingle>
+               <event>Published with Ann Pinchot <title localtype="simple">
+                                 <part>Lillian Gish; The Movies, Mr. Griffith, and Me</part>
+                              </title>. Englewood Cliffs, N.J.: Prentice-Hall</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1969, 1971</fromdate>
+                              <todate>1973</todate>
+                           </daterange>
+               <event>Toured Europe, Russia, and United States as lecturer on the
+				art of film</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1971</datesingle>
+               <event>Received Honorary Academy Award</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1973</datesingle>
+               <chronitemset>
+                              <event>Published <title localtype="simple">
+                                    <part>Dorothy and Lillian Gish</part>
+                                 </title>. New York: Scribner</event>
+                              <event>Received Handel medallion, City of New York, N.Y. </event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1978</datesingle>
+               <event>Appeared in the films <title localtype="simple">
+                                 <part>La Boheme</part>
+                              </title> and <title localtype="simple">
+                                 <part>A Wedding</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1980</datesingle>
+               <event>Appeared in the television film <title localtype="simple">
+                                 <part>Thin Ice</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1982</datesingle>
+               <event>Received Kennedy Center Honors, Washington, D.C. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1983</datesingle>
+               <event>Appeared in television production of <title localtype="simple">
+                                 <part>Hobson's Choice</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1984</datesingle>
+               <chronitemset>
+                              <event>Received the Lifetime Achievement Award, American Film
+				  Institute</event>
+                              <event>Appeared in the film <title localtype="simple">
+                                    <part>Hambone and Hillie</part>
+                                 </title>
+                              </event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1987</datesingle>
+               <event>Last film role in <title localtype="simple">
+                                 <part>The Whales of August</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1993, Feb. 27</datesingle>
+               <event>Died, New York, N.Y.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Lillian Diana Gish (1893-1993) span the years 1829-1978
+		  with the bulk of the material dating from 1920 to 1969. They are arranged into
+		  the following series: 
+		  <ref show="replace" actuate="onrequest" target="gc">
+                General
+			 Correspondence 
+            </ref>; 
+		  <ref show="replace" actuate="onrequest" target="sub">
+                Subject
+			 File 
+            </ref>; 
+		  <ref show="replace" actuate="onrequest" target="sp">
+                Speech, Article,
+			 and Drama File 
+            </ref>; 
+		  <ref show="replace" actuate="onrequest" target="misc">
+                Miscellany 
+            </ref>;
+		  
+		  <ref show="replace" actuate="onrequest" target="add">
+                Additions 
+            </ref>;
+		  and 
+		  <ref show="replace" actuate="onrequest" target="art">
+                Artifacts 
+            </ref>.
+		  </p>
+         <p>Lillian Gish was a silent film star whose acting career on stage, in
+		  motion pictures, and on television spanned more that eighty years. The bulk of
+		  the Gish Papers consists of scripts of plays, movie and television scenarios,
+		  and synopses of silent films that are part of the 
+		  <ref show="replace" actuate="onrequest" target="sp">
+                Speech, Article,
+			 and Drama File 
+            </ref>, but the majority of these are works in which Gish did not
+		  perform. However, there are scripts, a few of which are annotated, of
+		  productions in which she did appear, including the plays <title localtype="simple">
+                           <part>All the Way Home</part>
+                        </title>, <title localtype="simple">
+                           <part>Anya</part>
+                        </title>, <title localtype="simple">
+                           <part>I Never Sang for My Father</part>
+                        </title>, <title localtype="simple">
+                           <part>Nine Pine Street</part>
+                        </title>, <title localtype="simple">
+                           <part>Portrait of a Madonna</part>
+                        </title>, <title localtype="simple">
+                           <part>The Star-Wagon</part>
+                        </title>, and <title localtype="simple">
+                           <part>Uncle Vanya</part>
+                        </title>; the movie <title localtype="simple">
+                           <part>The Night of the Hunter</part>
+                        </title>; and the television production of <title localtype="simple">
+                           <part>Arsenic and Old Lace</part>
+                        </title>.</p>
+         <p> Included in the 
+		  <ref show="replace" actuate="onrequest" target="sub">
+                Subject File 
+            </ref>
+		  are papers pertaining to Gish's involvement with groups and organizations such
+		  as the America First Committee and the American Academy of Dramatic Arts.</p>
+         <p> 
+		                      <ref show="replace" actuate="onrequest" target="misc">
+                Miscellany 
+            </ref>
+		  includes financial papers, interviews, printed matter about Gish that includes
+		  material about her younger sister, the actress Dorothy Gish, scrapbook pages
+		  featuring printed portraits of Gish in the silent film era, as well as a
+		  holograph testimonial written by the author Eugene O'Neill to his wife
+		  Carlotta.</p>
+         <p> An 
+		  <ref show="replace" actuate="onrequest" target="add">
+                Additions 
+            </ref>
+		  series is comprised of material added to the papers after 1980. Addition I
+		  consists of correspondence and legal papers involving lawsuits brought against
+		  Gish by producer Charles Duell in the 1920s. Addition II is a typed letter
+		  signed by Gish in which she provides answers to two questions about actors and
+		  acting. </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in six series: </p>
+         <list>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="gc">
+                   General
+				Correspondence, 1924-1970 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="sub">
+                   Subject File,
+				1906-1969 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="sp">
+                   Speech, Article,
+				and Drama File, 1923-1968 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="misc">
+                   Miscellany,
+				1829-1969 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="add">
+                   Additions,
+				1922-1978 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="art">
+                   Artifact,
+				1940 
+               </ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a" id="gc">General Correspondence, 
+				 <date normal="1924/1970">1924-1970 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1924/1970">1924-1970 </unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Letters received by Gish. </p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by name of correspondent.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">&#147;A&#148; miscellaneous </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Bushman, Francis X.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">&#147;B&#148; miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Cukor, George</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">&#147;C-E&#148; miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Flynn, John T.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">&#147;F&#148; miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Hall, Julian</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Hayes, Helen</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">&#147;H-J&#148; miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Kohler, Helene</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">&#147;K-M&#148; miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">&#147;P&#148; miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Reagan, Ronald</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Rogers, Buddy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">&#147;R&#148; miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Stone, Harlan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">&#147;S&#148; miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Thompson, Frank, Jr.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">&#147;T-U&#148; miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Wanger, Walter F.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Weigel, Helene</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Wilder, Thornton</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">&#147;W&#148; miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Unidentified</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2-6</container>
+               <unittitle encodinganalog="245$a" id="sub">Subject File, 
+				 <date normal="1906/1969">1906-1969</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1906/1969">1906-1969</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, printed matter, and other papers.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by topic, organization, or name of
+				person.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">America First
+				  Committee</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">American Academy of Dramatic
+				  Arts, New York, N.Y.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle id="AIA4" encodinganalog="245$a">American Institute of
+				  Architects</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Atkinson, Brooks</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Commission of Fine Arts, report
+				  to the president</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Congress Hall, Berlin,
+				  Germany</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Daughters of the American
+				  Revolution</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">European trip, 
+				   <date>
+					 1935</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1935</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Federal Advisory Committee on the
+				  Arts</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Federal grants for fine arts
+				  programs and projects</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Fine Arts secretary, presidential
+				  cabinet position </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">George Eastman House Second
+				  Festival of Film Artists, Rochester, N.Y.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Griffith, D. W.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Lincoln Center for the Performing
+				  Arts, New York, N.Y.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Marsh, Mae</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">National Council on the Arts and
+				  Government </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Purves, Edmund R. 
+				  <ref show="replace" actuate="onrequest" target="AIA4">
+                                    <emph render="italic">See Container 4</emph>, American Institute of
+					 Architects</ref>
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Rollins College, Winter Park,
+				  Fla.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Rooke, James S.</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">7-17</container>
+               <unittitle encodinganalog="245$a" id="sp">Speech, Article, and Drama
+				File, 
+				 <date normal="1923/1968">1923-1968</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1923/1968">1923-1968</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Scripts, speeches, articles.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Organized by type of writing or production and alphabetically
+				therein. Speeches are arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Speeches</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1940, Apr. 1</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940, Apr. 1</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1941, Apr. 1</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1941, Apr. 1</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">1957, May 15</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Untitled, 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Articles</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"Women in the
+					 Theatre"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">"Woman with a
+					 Broom"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Untitled, 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Plays</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>All the Way Home</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Anya</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Autumn Blooming</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Broken Silence</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Brother to Dragons</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Bub</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Burnt Flower Bed</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Cave Dwellers</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>A Charm of Finches</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Children's Playhouse</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Cotillion</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Cracks</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Daughters of Atreus</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Dear Liar</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Family Reunion</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Farewell, Farewell Eugene</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Good Pretenders</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Great Big Doorstop</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Green Stick</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>High Tor</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Hurrahs! And Fare Thee Wells</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>I Never Sang for My Father</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Infinite Light</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Joyous Season</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Lady from the Sea</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Mother's Day</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Nightingale</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Nine Pine Street</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Pagan in the Parlor</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Pavillon sur Mer </part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Peer Gynt</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>A Play on Mesmer</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Portrait of a Madonna</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Quiet Room</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Romeo and Juliet</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>A Sea Shell</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Seven Women</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Siren</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Star-Wagon</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>A Stranger in This City</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Sweet Birds Sang</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Third Day</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Tippie and Me</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Too True to Be Good</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Tower Beyond Tragedy</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Uncle Vanya</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Wreck on the Five-Twenty-Five</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Yearling</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Untitled</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Plays performed on Broadway,
+					 list</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Plays performed, but not on
+					 Broadway, list</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Plays read but not performed,
+					 list</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Synopses of miscellaneous plays
+					 and movies</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">Movies </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Alarm and Flight</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Belles of Long Ago</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Cobweb</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Crime and Punishment</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Emperor Jones</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Follow Me, Boys </part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Orders to Kill</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Night of the Hunter</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Streets of New York</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Thou Shalt Not Kill</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Warning Shot </part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">Silent movie
+					 scripts</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">Film stories and scripts not
+					 performed, list</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Television
+				  productions</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Arsenic and Old Lace</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Body in the Barn</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Breaking Point</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Coincidence</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Defenders</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Lillian Gish Remembers</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Mr. Novak</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Mrs. Herman and Mrs. Kenmore</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Morning's at Seven</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Remember the Women</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Retiring of Mrs. Hasbrouck</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Spiral Staircase</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Too Much for Granted</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>The Trip to Bountiful</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Television scripts performed,
+					 list</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Television scripts not
+					 performed, list</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Productions in which Lillian and
+				  Dorothy Gish appeared, list</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">18-21</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany, 
+				 <date normal="1829/1969">1829-1969</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1829/1969">1829-1969</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Financial papers, interviews, music, printed matter, scrapbook
+				pages, and other papers.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material, topic, or name of
+				person.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Financial papers</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">"The Gish Girls," by John
+				  Vlahos</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">General miscellany</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Interviews</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Invitation to twenty-fifth
+				  anniversary screening of <title localtype="simple">
+                                    <part> Birth of a Nation</part>
+                                 </title>, 
+				   <date>1940</date>  
+				                             <ref show="replace" actuate="onrequest" target="art1">
+                                    <emph render="italic">See Artifacts</emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Music</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">O'Neill, Eugene, testimonial to
+				  Carlotta O'Neill</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Photographs</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Playbills</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Prayer books</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <unittitle encodinganalog="245$a">Printed matter</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">About Lillian Gish and Dorothy
+					 Gish</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Scrapbook pages</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">&#147;The Theatre in France&#148;
+				  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">22-25</container>
+               <unittitle encodinganalog="245$a" id="add">Additions, 
+				 <date normal="1922/1978">1922-1978</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1922/1978">1922-1978</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>A legal file of correspondence, briefs, affidavits, and related
+				documents in the case of Duell v. Gish, and one letter.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Organized into two additions. Addition I is arranged as received
+				from the donor and includes a guide at the beginning of the file.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">Addition I, legal file, Duell v.
+				  Gish </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">Letters regarding
+					 files</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">Guide to files (on which the
+					 following titles are based)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">File I. general E -
+					 Z</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">A. letters</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">C.
+						meetings-minutes-resolutions</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">33</container>
+                        <unittitle encodinganalog="245$a">D. memoranda used at
+						trial</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">E. memoranda of
+						law</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">F.
+						memoranda-miscellaneous</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">I. questions asked Gish by J.
+						A. Leve</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">J. release</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">K. statements</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">L. statements to all
+						papers</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">N. [unmarked file
+						folder]</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">File II. pleadings</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">A. loose items</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">B. pleadings, 
+						 <date>1927</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">D. pleadings, 
+						 <date>1925</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1925</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">E.
+						pleadings-(Duell-Ince)</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">File III. briefs-exhibit
+					 books</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">A. loose</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">B. briefs</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">C. exhibits</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">File IV. Metro-Goldwyn
+					 Corp.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">A. 3227
+						[untitled]</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">B. memoranda</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">C. bills and
+						receipts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">D. agreements</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">File V. general A-Z</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">A. clippings</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">B. affidavit</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">C. bills and
+						receipts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">D. briefs</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">E. certificates</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">F. code</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">G. deposition and memorandum
+						regarding conversation</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">H. letters</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">I.
+						letters-confirmations</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">J. memoranda</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">K.
+						minutes-stenographers</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">L. questions</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">M. statement</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">File VI.
+					 correspondence/pleadings</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">A. 4259 [untitled], 
+						 <date>1927</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">B. 4259 [untitled], 
+						 <date>1928</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">C. loose
+						documents</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">D. pleadings</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">E. pleadings-extra
+						copies</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">File VII.
+					 Gish-Albin</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">A. 4780
+						[untitled]</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">B. bills and
+						receipts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">C. letters and
+						cables</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">D. memoranda</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">E. notes</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">F. notice-sale
+						notice</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">G. loose
+						documents</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">File VIII. Players, Inc. and
+					 Franz Lederer</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">A. 5519
+						[untitled]</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">B. letters</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">C.
+						memoranda-office</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">D. statement</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">Addition II, letter, 
+				   <date>1975</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1975</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">VA 1</container>
+               <unittitle encodinganalog="245$a" id="art">Artifact, 
+				 <date normal="1940">1940</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1940">1940</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Invitation. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Described according to the series, container, and folder from
+				which the item was removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">VA 1</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">VA 1</container>
+                     <unittitle id="art1" encodinganalog="245$a">Invitation to twenty-fifth
+					 anniversary screening of <title localtype="simple">
+                                       <part>Birth of a Nation</part>
+                                    </title>, 
+					  <date>1940</date>  
+					     (Container 18)
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms007026">loc.mss/eadmss.ms007026</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Porter Family Papers</titleproper>
+            <subtitle>A Finding Aid to the Papers in the Naval Historical
+			 Foundation Collection in the Library of Congress </subtitle>
+            <author>Prepared by Ruth S. Nicholson <lb/>Revised by Michael
+			 Spangler</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2005" encodinganalog="260$c" era="ce" calendar="gregorian">2005</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm70053041">https://lccn.loc.gov/mm70053041</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Title, controlaccess updated</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2007">2007</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Porter Family Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1811/1881">1811-1881</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1811/1881"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1811-1881</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS53041</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Porter
+			 family</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">100 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">2 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">.6 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+		       </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Naval officers and
+		  authors. Papers of David Porter (1780-1843) and his son, David Dixon Porter
+		  (1813-1891) relating to their naval careers and families.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20211019135642.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Goff, Nathan, 1843-1920--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hambleton, Samuel, 1777-1851--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hunt, William H. (William Henry), 1823-1883--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>McCorkle, James P.--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Porter family.</part>
+            </famname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Porter, David D. (David Dixon), 1813-1891. David D. Porter papers. 1861-1881.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Porter, David, 1780-1843. David Porter papers. 1811-1841.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Porter, Evelina Anderson, 1790-1871--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Porter, George Ann Patterson--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Seward, William H. (William Henry), 1801-1872--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Thompson, Richard W. (Richard Wigginton), 1809-1900--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Walker, George W.--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Essex (Frigate)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Mexico. Armada.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Minorca (Spain)--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New Orleans (La.)--History--Civil War, 1861-1865.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Authors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Naval officers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The Porter Family Papers were deposited in the Library of Congress by
+		  the Naval Historical Foundation in 1949. The deposit was converted to a gift by
+		  the foundation in 1998.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The Porter Family Papers were arranged and described in 1974. The
+		  finding aid was revised in 2005.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of the Porter
+		  family is governed by the Copyright Law of the United States (Title 17,
+		  U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Porter family are open to research. Researchers are
+		  advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Porter Family Papers, Naval Historical
+		  Foundation Collection, Manuscript Division, Library of Congress, Washington,
+		  D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <bioghist encodinganalog="545">
+            <head>David Porter</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1780, Feb. 1</datesingle>
+                  <event>Born, Boston, Mass.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1798</datesingle>
+                  <chronitemset>
+                                 <event>Appointed midshipman, United States Navy</event>
+                                 <event>Duty on <emph render="italic">Constellation</emph>
+					 (frigate)</event>
+                              </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1799</datesingle>
+                  <event>Duty on <emph render="italic">Experiment</emph> (schooner),
+				  West India Squadron</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1801</datesingle>
+                  <event>Duty on <emph render="italic">Enterprize</emph> (schooner),
+				  Tripolitan War</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1803</datesingle>
+                  <event>Duty on <emph render="italic">Philadelphia</emph> (frigate),
+				  Tripolitan War</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1803</fromdate>
+                                 <todate>1805</todate>
+                              </daterange>
+                  <event>Prisoner of war, Tripoli</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1808</datesingle>
+                  <event>Married Evelina Anderson</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1808</fromdate>
+                                 <todate>1810</todate>
+                              </daterange>
+                  <event>Commandant, New Orleans Naval Station</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1811</fromdate>
+                                 <todate>1814</todate>
+                              </daterange>
+                  <event>Commanded <emph render="italic">Essex</emph>
+				  (frigate)</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1812</datesingle>
+                  <event>Promoted to captain</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1815</datesingle>
+                  <event>Published 
+				  <title localtype="simple">
+                                    <part>Journal of a Cruise Made to the Pacific Ocean</part>
+                                 </title>.
+				  Philadelphia: Bradford &amp; Inskeep</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1815</fromdate>
+                                 <todate>1823</todate>
+                              </daterange>
+                  <event>Commissioner, Navy Board</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1823</fromdate>
+                                 <todate>1825</todate>
+                              </daterange>
+                  <event>Commander in chief, West India Squadron</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1825</datesingle>
+                  <event>Published 
+				  <title localtype="simple">
+                                    <part>An Exposition of the Facts and Circumstances Which
+					 Justified the Expedition to Foxardo</part>
+                                 </title>. Washington: Printed by Davis &amp;
+				  Force</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1826</datesingle>
+                  <event>Resigned from United States Navy</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1826</fromdate>
+                                 <todate>1829</todate>
+                              </daterange>
+                  <event>Commander in chief, Mexican Navy </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1830</datesingle>
+                  <event>Appointed United States consul general, Algiers</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1831</datesingle>
+                  <event>Appointed United States chargé d’affaires, Turkey</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1835</datesingle>
+                  <event>Published 
+				  <title localtype="simple">
+                                    <part>Constantinople and Its Environs</part>
+                                 </title>. New York: Harper.
+				  2 vols. </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1839</datesingle>
+                  <event>Appointed United States Minister, Turkey</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1843, Mar. 3</datesingle>
+                  <event>Died, Pera, Constantinople</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist encodinganalog="545">
+            <head>David Dixon Porter</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1813, June 8</datesingle>
+                  <event>Born, Chester, Pa.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1827</datesingle>
+                  <event>Appointed midshipman, Mexican Navy </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1829</datesingle>
+                  <chronitemset>
+                                 <event>Appointed midshipman, United States Navy</event>
+                                 <event>Duty on <emph render="italic">Constellation</emph>
+					 (frigate), Mediterranean Station </event>
+                              </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1839</datesingle>
+                  <event>Married George Ann Patterson</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1842</datesingle>
+                  <event>Duty on <emph render="italic">Congress</emph>
+				  (frigate)</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1847</datesingle>
+                  <event>Duty on <emph render="italic">Spitfire</emph> (side-wheel
+				  gunboat)</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1849</datesingle>
+                  <event>Commanded <emph render="italic">Panama</emph> (steamer)
+				  </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1850</fromdate>
+                                 <todate>1853</todate>
+                              </daterange>
+                  <event>Commanded <emph render="italic">Georgia</emph> (steamer)
+				  </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1855</datesingle>
+                  <event>Commanded <emph render="italic">Supply </emph>(ship)
+				  </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1857</datesingle>
+                  <event>Duty at the Portsmouth Navy Yard, Portsmouth, Va.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1861</datesingle>
+                  <event>Commanded <emph render="italic">Powhatan</emph> (side-wheel
+				  steamer)</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1863</datesingle>
+                  <chronitemset>
+                                 <event>Commander, Mississippi Squadron </event>
+                                 <event>Promoted to rear admiral</event>
+                              </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1864</datesingle>
+                  <event>Commander, North Atlantic Blockading Squadron</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1865</fromdate>
+                                 <todate>1869</todate>
+                              </daterange>
+                  <event>Superintendent, United States Naval Academy, Annapolis,
+				  Md.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1866</datesingle>
+                  <event>Promoted to vice admiral</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1866</fromdate>
+                                 <todate>1867</todate>
+                              </daterange>
+                  <event>Diplomatic mission to Santo Domingo</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1870</datesingle>
+                  <event>Promoted to admiral</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1875</datesingle>
+                  <event>Published 
+				  <title localtype="simple">
+                                    <part>Memoir of Commodore David Porter</part>
+                                 </title>. Albany, N.Y.: J.
+				  Munsell </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1877</fromdate>
+                                 <todate>1891</todate>
+                              </daterange>
+                  <event>Chairman, Naval Board of Inspection</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1885</datesingle>
+                  <chronitemset>
+                                 <event>Published 
+					 <title localtype="simple">
+                                       <part>The Adventures of Harry Marline</part>
+                                    </title>. New York: D.
+					 Appleton </event>
+                                 <event>Published 
+					 <title localtype="simple">
+                                       <part>Allan Dare and Robert le Diable</part>
+                                    </title>. New York: D.
+					 Appleton. 2 vols. </event>
+                                 <event>Published 
+					 <title localtype="simple">
+                                       <part>Incidents and Anecdotes of the Civil War</part>
+                                    </title>. New
+					 York: D. Appleton</event>
+                              </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1886</datesingle>
+                  <event>Published 
+				  <title localtype="simple">
+                                    <part>The Naval History of the Civil War</part>
+                                 </title>. New York:
+				  Sherman Publishing Co. </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1889</datesingle>
+                  <event>Published 
+				  <title localtype="simple">
+                                    <part>Arthur Merton</part>
+                                 </title>. New York: D. Appleton </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1891, Feb. 13 </datesingle>
+                  <event>Died, Washington, D.C.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p> The papers of the Porter family document the careers of naval
+		  officers David Porter (1780-1843) and his son, David Dixon Porter (1813-1891).
+		  The collection spans the years 1811-1881 and consists primarily of
+		  correspondence and letterbooks. The material is organized as the papers of each
+		  man and arranged alphabetically thereunder by type of material or name of
+		  person. </p>
+         <p>Letters from David Porter to his friend Samuel Hambleton in 1811-1812
+		  describe his command of the frigate <emph render="italic">Essex</emph> charged
+		  with protecting Atlantic coast merchantmen. In a letter dated October 19, 1812,
+		  Porter related to Hambleton that “In two or three days I sail on a long, a
+		  <emph render="underline">very long</emph> cruize [sic], our destinations and
+		  intended movements I am not at liberty to divulge, perhaps a more important
+		  cruize was never undertaken by the vessels of any nation and I have the vanity
+		  to believe that my plans for the ‘first campaign’ produced it.” Soon
+		  thereafter in early 1813, Porter took the <emph render="italic">Essex</emph>
+		  around Cape Horn to safeguard American whalers and in so doing commanded the
+		  first United States naval vessel to sail into the Pacific Ocean. Letters to his
+		  wife Evelina Anderson Porter relate details of his service as commander in
+		  chief of the Mexican Navy in 1826-1829 and of domestic affairs while living in
+		  Port Mahón on the Mediterranean island of Minorca in1830. Other recipients of
+		  letters in the file include James P. McCorkle and George W. Walker. Also
+		  included is a draft of Porter’s resignation as commander in chief of the
+		  Mexican Navy and his will dictated in San Stefano, Turkey. </p>
+         <p>Official letterbooks of David Dixon Porter from the periods 1867-1869
+		  and 1878-1881 comprise the bulk of the collection and contain copies of letters
+		  to three secretaries of the navy, Richard W. Thompson, Nathan Goff, and William
+		  H. Hunt. A letter from Porter while in New Orleans in 1862 to his wife George
+		  Ann Porter recounted the bitterness of their southern relatives under Union
+		  occupation of that city. Other items include printed naval general orders and
+		  circulars.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is organized as the papers of each man and arranged
+		  alphabetically thereunder by type of material or name of person. </p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Porter, David </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Hambleton, Samuel, 
+					  <date>1811-1814</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1811-1814</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">McCorkle, James P., 
+					  <date>1830</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1830</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Porter, Evelina Anderson, 
+					  <date>1826-1830</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1826-1830</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Walker, George W., 
+					  <date>circa 1823</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1823</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Draft of resignation from Mexican
+				  navy, 
+				   <date>circa 1829</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1829</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Will, 
+				   <date>
+					 1841</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1841</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Porter, David Dixon </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Correspondence, 
+				   <date>1861-1862</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1861-1862</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">General orders and circulars,
+				  North Atlantic Squadron and European Fleet, 
+				   <date>1864-1873</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1864-1873</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Letterbooks</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1867-1869</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1867-1869</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">
+					                               <date>1878-1881 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1878-1881 </unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 vols.)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

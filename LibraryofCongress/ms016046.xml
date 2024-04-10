@@ -1,0 +1,3129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms016046">loc.mss/eadmss.ms016046</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Princess Marie Bonaparte Papers</titleproper>
+            <subtitle>A Finding Aid to the Papers in the Sigmund Freud Collection in the Library of
+               Congress</subtitle>
+            <author>Prepared by Manuscript Division Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2020" encodinganalog="260$c" era="ce" calendar="gregorian">2020</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm82013169">https://lccn.loc.gov/mm82013169</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-03">2023 March</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Stacks language updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2022-10">2022 October</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Links added to digitized onsite content</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2022-07">2022 July</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Links added to digitized content</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2022-05">2022 May</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Folder lists expanded for online content</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-02">2020-02</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2016">2016</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Princess Marie Bonaparte Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1889/1962">1889-1962</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1913/1961">1913-1961</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1889/1962"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian"
+                   id="mfer3234c2377e33485f898c11e06995a842">1889-1962</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1913/1961"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian"
+                   id="mfer6bc19b760b3643138a78c30c418fbad3">1913-1961</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS13169</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Bonaparte, Marie, Princess, 1882-1962</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">6,300 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">33 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">13 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="fre">French,</language>
+            <language langcode="ger" encodinganalog="041">German,</language>
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in French, German, and English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Psychoanalyst and author. Journals,
+            correspondence, drafts of writings, notebooks, legal records, obituaries, genealogical
+            notes, photographs, watercolor drawings, and printed matter relating to Bonaparte's
+            involvement in the field of psychoanalysis.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230213105546.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Allendy, René, 1889-1942--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bibring, Edward, 1894-1959--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bibring, Grete L. (Grete Lehner), 1899-1977--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Bonaparte, Marie, Princess, 1882-1962.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Bonaparte, Marie, Princess, 1882-1962. Cinq cahiers écrits par une petite fille entre sept ans et demi et dix ans et leurs commentaires. 1939-1951.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Bonaparte, Marie, Princess, 1882-1962. Mémoire des disparus. 1952-1958.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Briand, Aristide, 1862-1932--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Brunswick, Ruth Mack--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Eitingon, M. (Max), 1880-1943--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Federn, Paul--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Ferenczi, Sándor, 1873-1933--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Fliess, Wilhelm, 1858-1928.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Freud, Anna, 1895-1982--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Freud, Sigmund, 1856-1939--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Freud, Sigmund, 1856-1939.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hartmann, Dora, 1902-1974--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hartmann, Heinz, 1894-1970--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hesnard, A. (Angelo), 1886-1969--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jones, Ernest, 1879-1958--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lacan, Jacques, 1901-1981--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Laforgue, René--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lagache, Daniel, 1903-1972--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lampl, Hans--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lampl-de Groot, Jeanne--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Loewenstein, Rudolph Maurice--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Meng, Heinrich, 1887-1972--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Nacht, Sacha, 1901-1977--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Odier, Charles--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Parcheminey, Georges--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pichon, Edouard, 1890-1940--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Róheim, Géza, 1891-1953--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sachs, Hanns, 1881-1947--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Saussure, Raymond de, 1894-1971--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Schur, Max--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Williams, Margaret (Lay child analyst)</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>International Psycho-Analytical Association--Correspondence.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Internationaler Psychoanalytischer Verlag--Correspondence.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Dreams--Psychological aspects.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Dreams.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Emigration and immigration.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Jewish refugees.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Jews--Mexico--Baja California (Peninsula)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Lay analysis (Psychoanalysis)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychoanalysis--France.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychoanalysis.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychoanalysts.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Refugees.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Baja California (Mexico : Peninsula)</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Europe--Emigration and immigration.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Emigration and immigration.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Authors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Psychoanalysts.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of Princess Marie Bonaparte, psychoanalyst and author, were bequeathed to the
+            Library of Congress by Bonaparte through Anna Freud in 1964. Additional material was
+            given by the Sigmund Freud Archives between 1983 and 1987 and by Jeffrey Masson in 1988.
+            A photograph of Bonaparte was purchased in 1999.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Marie Bonaparte were arranged and described by Grover Batts in 1964 and
+            1982. A revised finding aid was prepared when additional material received between 1983
+            and 1999 was incorporated into the collection in 2002 by Margaret McAleer with the
+            assistance of Marjorie Torney. The finding aid was further revised when Bonaparte's
+            notes on Sigmund Freud's letters to Wilhelm Fliess came open for research use in 2010.
+            When restrictions on the Closed series ended in January 2020, the finding aid was
+            revised and the container numbers for the Formerly Closed series were changed by
+            Margaret McAleer and Carolyn Ray.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Princess Marie Bonaparte is
+            governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Marie Bonaparte are open to research. Researchers are advised to contact
+            the Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use. Some Sigmund Freud
+            correspondence is accessible onsite only via Stacks at <ref href="https://hdl.loc.gov/loc.mss/ms016046stacks.mss13169">https://hdl.loc.gov/loc.mss/ms016046stacks.mss13169</ref> .</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Online Content</head>
+         <p> Sigmund Freud correspondence in the papers of Princess Marie Bonaparte is available on
+            the Library of Congress Web site at <ref show="new" actuate="onrequest"
+                 href="https://hdl.loc.gov/loc.mss/collmss.ms000125">https://hdl.loc.gov/loc.mss/collmss.ms000125</ref> and onsite via Stacks at <ref href="https://hdl.loc.gov/loc.mss/ms016046stacks.mss13169">https://hdl.loc.gov/loc.mss/ms016046stacks.mss13169</ref>. <emph render="italic">To
+               promote preservation of the originals, researchers are required to consult the online
+               edition as available.</emph>
+         </p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Princess Marie Bonaparte Papers, Sigmund Freud Collection, Manuscript
+            Division, Library of Congress, Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1882, July 2</datesingle>
+               <event>Born, Saint-Cloud, France</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1907</datesingle>
+               <event>Married Prince George of Greece and Denmark (died 1957) </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1924</datesingle>
+               <chronitemset>
+                  <event>Read <title>
+                        <part>Introduction à la psychanalyse</part>
+                     </title>. (Paris: 1922), Simon Jankélévitch's translation of Sigmund Freud's
+                     introductory lectures on psychoanalysis</event>
+                  <event>Published under the pseudonym A. E. Narjani "Considérations sur les causes
+                     anatomiques de la frigidité chez la femme," <title>
+                        <part>Bruxelles Médical.</part>
+                     </title> (Apr. 27)</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1925</fromdate>
+                  <todate>1927</todate>
+               </daterange>
+               <event>Analyzed by Sigmund Freud</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1926</datesingle>
+               <event>Founder, Société Psychanalytique de Paris, Paris, France</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1927</datesingle>
+               <event>Founder, <title>
+                     <part>Revue française de psychanalyse</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1928</datesingle>
+               <event>Began treating analysands </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1929</datesingle>
+               <event>Provided financial assistance to the nearly bankrupt Internationaler
+                  Psychoanalytischer Verlag </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1933</datesingle>
+               <event>Published <title>
+                     <part>Edgar Poe.</part>
+                  </title> Paris: Denoël et Steele </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1934</datesingle>
+               <event>Founder, Institute de Psychanalyse, Paris, France</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1937</datesingle>
+               <chronitemset>
+                  <event>Purchased from Reinhold Stahl Sigmund Freud's letters to Wilhelm
+                     Fliess</event>
+                  <event>Published <title>
+                        <part>Topsy, Chow-Chow au poil d'or.</part>
+                     </title> Paris: Denoël et Steele</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1938</datesingle>
+               <event>Facilitated the immigration of Sigmund Freud and his family to London,
+                  England</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1939</fromdate>
+                  <todate>1951</todate>
+               </daterange>
+               <event>Published <title>
+                     <part>Cinq cahiers écrits par une petite fille entre sept ans et demi et dix
+                        ans et leurs commentaires.</part>
+                  </title> Paris: Printed for the author. 4 vols.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1940</datesingle>
+               <event>Translated and published <title>
+                     <part>Métapsychologie,</part>
+                  </title> by Sigmund Freud. Paris: Gallimard</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1941</fromdate>
+                  <todate>1944</todate>
+               </daterange>
+               <event>Spent war years in Cape Town, South Africa</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1946</datesingle>
+               <event>Published <title>
+                     <part>Mythes de guerre</part>
+                  </title>. London: Imago Publishing Co. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1950</datesingle>
+               <event>Secured legal representation for Margaret Williams, a child analyst sued by
+                  the Odre des Médecins for practicing medicine without a medical degree</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1951</datesingle>
+               <event>Published <title>
+                     <part>De la sexualité de la femme.</part>
+                  </title> Paris: Presses universitaires de France</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1952</datesingle>
+               <event>Elected vice president, International Psycho-Analytical Association </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1953</datesingle>
+               <event>Published <title>
+                     <part>A la mémoire des disparus.</part>
+                  </title> Paris: Printed for the author </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1962, Sept.21</datesingle>
+               <event>Died, Saint-Tropez, France</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Princess Marie Bonaparte (1882-1962) span the years 1889-1962, with the
+            bulk of the material dating from 1913 to 1961. The collection documents Bonaparte's
+            interest and involvement in the field of psychoanalysis. The papers are in French,
+            German, and English and include journals, memoirs, correspondence, drafts of writings,
+            notebooks, legal documents, obituaries, genealogical notes, photographs, watercolor
+            drawings, and printed matter arranged in five series: <ref target="gencorresp"> General
+               Correspondence</ref>, <ref target="subfile">Subject File</ref>, <ref target="writ">Writings</ref>, an <ref target="addit">Addition</ref>, and <ref target="close">Formerly Closed</ref> material.</p>
+         <p>The <ref target="gencorresp">General Correspondence</ref> series consists of letters to
+            Bonaparte by fellow psychoanalysts including Edward Bibring, Grete L. Bibring, Ruth Mack
+            Brunswick, Max Eitingon, Paul Federn, Sándor Ferenczi, Anna Freud, Dora Hartmann, Heinz
+            Hartmann, Ernest Jones, Hans Lampl, Jeanne Lampl-de Groot, Rudolph Maurice Loewenstein,
+            Heinrich Meng, Géza Róheim, Hanns Sachs, and Max Schur. Relatively few of Bonaparte's
+            outgoing letters are included in the series other than numerous letters written by her
+            to Eitingon between 1925 and 1941.</p>
+         <p>The <ref target="gencorresp">General Correspondence</ref> series traces Bonaparte's
+            introduction to psychoanalysis in the 1920s and her subsequent rise to prominence in the
+            field due perhaps to her close relationship with Sigmund Freud. The series documents her
+            willingness to expend her personal influence and financial resources on behalf of
+            individual psychoanalysts, psychoanalytic organizations, and publishing endeavors in
+            France and elsewhere. Letters from René Allendy, A. Hesnard, Jacques Lacan, René
+            Laforgue, Daniel Lagache, Sacha Nacht, Charles Odier, George Parcheminey, Edouard
+            Pichon, Raymond de Saussure, and other French psychoanalysts illuminate her role in the
+            establishment and development of psychoanalysis in France. Bonaparte's role in
+            facilitating the emigration of psychoanalysts, most notably Sigmund Freud, from
+            Nazi-controlled countries prior to World War II and the immigration of European analysts
+            to the United States after the war is also documented. The geographical range of
+            Bonaparte's correspondence reflects the extent of the psychoanalytic movement's diaspora
+            and the breadth of her activities and associations.</p>
+         <p>The <ref target="subfile">Subject File</ref> series contains correspondence from the
+            International Psycho-Analytical Association and the Internationaler Psychoanalytischer
+            Verlag, information concerning Bonaparte's purchase of Freud's letters to Wilhelm Fliess
+            in 1937, obituaries and genealogical notes, and a photograph of Bonaparte. Other files
+            relate to Margaret Williams, an American child analyst in Paris who was sued by the
+            French medical establishment for practicing medicine without a medical degree. Included
+            are letters from psychoanalysts pertaining to lay analysis in various countries, copies
+            of interrogatories and depositions, newspaper clippings, and notes by Bonaparte
+            providing an historical survey of lay analysis. Also included in the series is a
+            proposal sent by Bonaparte to William C. Bullitt and Franklin D. Roosevelt in late 1938
+            recommending that the United States purchase Baja California from Mexico and establish a
+            Jewish refugee state there. Bonaparte noted that she had developed the plan in
+            consultation with Freud. </p>
+         <p>A small <ref target="addit">addition </ref>contains Bonaparte's notes on Sigmund Freud's
+            letters to Wilhelm Fliess that came open for research use in 2010.</p>
+         <p>The bulk of the Bonaparte Papers was closed to research use until January 2020. The <ref target="close">Formerly Closed</ref> series includes Bonaparte's journals dated
+            1913-1927 and 1959-1961; her dream journals dated 1923-1961; unpublished portions of her
+            memoir; and a series of five original notebooks and watercolor drawings created by
+            Bonaparte as a child that became the basis of her book,<title>
+               <part> Cinq cahiers écrits par une petite fille entre sept ans et demi et dix ans et
+                  leurs commentaires.</part>
+            </title> Also in the series are short writings by Bonaparte, many of which are
+            autobiographical. The correspondence includes typescripts of letters exchanged between
+            Bonaparte and the French statesman Aristide Briand between 1914 and 1931. The collection
+            also contains a large number of letters exchanged by Freud and Bonaparte between 1925
+            and 1939. Also included are a series of notebooks in which Bonaparte recorded the
+            progress of her analysis with Freud.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in five series:</p>
+         <list>
+            <item>
+               <ref target="gencorresp">General Correspondence, 1914-1961</ref>
+            </item>
+            <item>
+               <ref target="subfile">Subject File, 1923-1962 </ref>
+            </item>
+            <item>
+               <ref target="writ">Writings, 1939</ref>
+            </item>
+            <item>
+               <ref target="addit">Addition, post-1937</ref>
+            </item>
+            <item>
+               <ref target="close">Formerly Closed, 1889-1961 </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-9</container>
+               <unittitle encodinganalog="245$a" id="gencorresp">General Correspondence, <date normal="1914/1961">1914-1961</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" normal="1914/1961"
+                         id="mferd1be813b859e4af1aa9e7695da70c8d5">1914-1961</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence with related attachments. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p> Arranged alphabetically by name of correspondent and therein chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Alexander, Franz, <date>1928, 1934-1940,
+                        1949-1959, undated </date>
+                  </unittitle>
+                  <unitdate id="mfer5f06471cc91e4faf9217754d8b860b73">1928, 1934-1940, 1949-1959,
+                     undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Allendy, René, <date>1928-1939</date>
+                  </unittitle>
+                  <unitdate id="mfer4fbfd421d1e5413aa696b2ce8e0e26b7">1928-1939</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"A" miscellaneous, <date>1938-1960</date>
+                  </unittitle>
+                  <unitdate id="mferab0d9e4ab24a404fb16b5aec3f83e527">1938-1960</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="con1berns">Bernfeld, Siegfried, and Suzanne
+                     Bernfeld Cassirer, <date>1937, 1952-1954</date>
+                  </unittitle>
+                  <unitdate id="mfer7cb26f260fb24e71a3072a92f1df123f">1937, 1952-1954</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bibring, Edward and Grete L., <date>1936-1940,
+                        1948-1960, undated </date>
+                  </unittitle>
+                  <unitdate id="mfer3ff102298ecb4d03a03fa58864e43e10">1936-1940, 1948-1960, undated </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Breuer, Elsa, <date>1936-1948</date>
+                  </unittitle>
+                  <unitdate id="mfer5b2b7e3ab9dd4df2b82d7dedc573505f">1936-1948</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Briand, Aristide <ref target="clbriand">
+                        <emph render="italic">See Container 15, same heading</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Brunswick, Ruth Mack, <date>1925-1945 </date>
+                  </unittitle>
+                  <unitdate id="mfera20d478b9b514f8998e90492ee67087f">1925-1945 </unitdate>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">"B" miscellaneous, <date>1930-1960, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer78bf23a66492404ba9938458aa574e8d">1930-1960, undated </unitdate>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cassirer, Suzanne Bernfeld <ref target="con1berns">
+                        <emph render="italic">See Container 1,</emph> Bernfeld, Siegfried, and
+                        Suzanne Bernfeld Cassirer</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Choisy, Maryse, to Anna Freud,
+                        <date>1946-1947</date>
+                  </unittitle>
+                  <unitdate id="mfer7fef72f954aa43a7b0b29b8ded57dd94">1946-1947</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"C" miscellaneous, <date>1928-1960, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer81d0480c370044678c8f7bb9e8402241">1928-1960, undated </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Deutsche, Helene, <date>1929-1935, 1951</date>
+                  </unittitle>
+                  <unitdate id="mferec64e46a1faa47c8be8e8fadbcbc306c">1929-1935, 1951</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"D" miscellaneous, <date>1946-1960, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mferdf0843a5c1e240b6a5384517e3f25caa">1946-1960, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Eissler, K. R. and Ruth, <date>1938, 1950-1961
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer95b7ff668a344168973f5f098efc08d9">1938, 1950-1961 </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Eitingon, Max</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">From, <date>1927-1946, undated </date>
+                     </unittitle>
+                     <unitdate id="mfera5f1a82662534e1ba0deb5350e724341">1927-1946, undated </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">To, <date>1925-1941, undated </date>
+                     </unittitle>
+                     <unitdate id="mfer2e5df7ddc112473d90b04db735a1115a">1925-1941, undated </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Empeirikos, Andreas, <date>1940,
+                        1948-1958</date>
+                  </unittitle>
+                  <unitdate id="mferfe649abdf6094684baec2434d8c0c2ce">1940, 1948-1958</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Erikson, Erik, <date>1933, 1949, undated </date>
+                  </unittitle>
+                  <unitdate id="mferc02a11e0fe9e446c8c06194a205b4324">1933, 1949, undated
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Federn, Paul, <date>1933-1938, 1946-1947,
+                        undated </date>
+                  </unittitle>
+                  <unitdate id="mfer4bdfdc01126f409e9a761e599c283900">1933-1938, 1946-1947, undated
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ferenczi, Sándor, <date>1927-1933</date>
+                  </unittitle>
+                  <unitdate id="mfer4b9e561ebec04889b9a8fc6a9ff480ce">1927-1933</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Flournoy, Henri, <date>1927-1946,
+                        1952-1955</date>
+                  </unittitle>
+                  <unitdate id="mfer357cefb891c14e15946040ea153d39b8">1927-1946,
+                     1952-1955</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Freud, Anna <ref target="clfreuda">
+                        <emph render="italic">See Container 15, same heading</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Freud, Sigmund <ref target="clfreuds">
+                        <emph render="italic">See Containers 15-19, same heading</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"F" miscellaneous, <date>1929-1960, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer13bd3099c2474466b023b5c951e9d9ba">1929-1960, undated </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Garma, Angel, <date>1936, 1946, 1952-1953,
+                        undated </date>
+                  </unittitle>
+                  <unitdate id="mfere98f957757154fb08fdfc1620cda3b4b">1936, 1946, 1952-1953, undated
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Geleerd, Elisabeth R., <date>1939,
+                        1955-1957</date>
+                  </unittitle>
+                  <unitdate id="mfer6aab658e4d614a1fbdc61f9b379a5648">1939, 1955-1957</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Gillespie, William H., <date>1953-1960 </date>
+                  </unittitle>
+                  <unitdate id="mfer7533006dc315471ca17c30e3fba076fa">1953-1960 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Glover, Edward, <date>1934-1939, 1949-1953,
+                        1960, undated </date>
+                  </unittitle>
+                  <unitdate id="mfer207fd0840c6548a5a09c5cb5c5dd2d86">1934-1939, 1949-1953, 1960,
+                     undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Greenacre, Phyllis, <date>1951-1955</date>
+                  </unittitle>
+                  <unitdate id="mferc07ba354169b42d691cb3f059e748918">1951-1955</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"G" miscellaneous, <date>1933-1960, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer61ff9f2fa5f3479fab42409297639c07">1933-1960, undated </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hartmann, Heinz and Dora, <date>1930-1960,
+                        undated </date>
+                  </unittitle>
+                  <unitdate id="mfer47edc94234bd4e3fb6789e246815c039">1930-1960, undated </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hesnard, A., <date>1928-1937, 1945-1949, 1960,
+                        undated</date>
+                  </unittitle>
+                  <unitdate id="mferf188a360520e4a8f90fcc35840ff0064">1928-1937, 1945-1949, 1960,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hoffer, Wilhelm and Hedwig, <date>1936-1939,
+                        1947-1960, undated </date>
+                  </unittitle>
+                  <unitdate id="mfer3f164a3186d84de4bdbb16eade9e1dc0">1936-1939, 1947-1960, undated
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"H" miscellaneous, <date>1932-1959 </date>
+                  </unittitle>
+                  <unitdate id="mfer74846cff85cd43b3bacd834187e3d66c">1932-1959 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Jekels, Ludwig, <date>1929-1939, 1953, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer94b9bb54fbaf42b1b612abb41db8d93e">1929-1939, 1953, undated
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Jones, Ernest, <date>1928-1959, undated </date>
+                  </unittitle>
+                  <unitdate id="mfer1071cae8dd564088bd014475defcdd37">1928-1959, undated </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Jury, Paul, <date>1932-1936, 1951-1952</date>
+                  </unittitle>
+                  <unitdate id="mfer47af06a65a6849519bb8df4a90582251">1932-1936,
+                     1951-1952</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"J" miscellaneous, <date>1932-1951</date>
+                  </unittitle>
+                  <unitdate id="mfercda06e215cc94257ac96761841993573">1932-1951</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Kouretas, D., <date>1949-1959, undated </date>
+                  </unittitle>
+                  <unitdate id="mfer8b75180b5a584ca3824f10f98067be3c">1949-1959, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Kris, Ernst and Marianne, <date>1932,
+                        1942-1960</date>
+                  </unittitle>
+                  <unitdate id="mfer4e063900ed144c60890ad65b821e3473">1932, 1942-1960</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"K" miscellaneous, <date>1938-1960, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer8fa071edfcae467c8870f70c534cc465">1938-1960, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lacan, Jacques, <date>1933, 1939, 1948-1952,
+                        undated </date>
+                  </unittitle>
+                  <unitdate id="mferbf1c0f970a99404584e99da73f1fa1fd">1933, 1939, 1948-1952, undated
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Laforgue, René, <date>1924-1961, undated </date>
+                  </unittitle>
+                  <unitdate id="mfer161d350417fa46f09020f92d09541140">1924-1961, undated </unitdate>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lagache, Daniel, <date>1935-1939, 1945-1960,
+                        undated </date>
+                  </unittitle>
+                  <unitdate id="mfer0635dcdcddef4fe7a4d840afe504e343">1935-1939, 1945-1960, undated
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lampl, Hans, and Jeanne Lampl-de Groot,
+                        <date>1936-1940, 1946-1960 </date>
+                  </unittitle>
+                  <unitdate id="mfer392a6bd17f9e4b139ae5dee0ad38fcf9">1936-1940, 1946-1960 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Lebovici, Serge, <date>1952-1959, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer4ac23896d53b44478a901c869c2135d0">1952-1959, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lechat, Fernand, <date>1935-1959, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer99474cc56a644f54884710a73ada964b">1935-1959, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lehrman, Philip R., <date>1929-1932,
+                        1951-1953</date>
+                  </unittitle>
+                  <unitdate id="mfera33ed5beed8f4b9d885c4fd054f559fd">1929-1932,
+                     1951-1953</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Leuba, John, <date>1933-1951, undated </date>
+                  </unittitle>
+                  <unitdate id="mfer7b90cd6c3fad41b9a8fc5cb60673b0a4">1933-1951, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Loewenstein, Rudolph Maurice, <date>1931-1960,
+                        undated </date>
+                  </unittitle>
+                  <unitdate id="mferffa093783ccb4466aa0c3cc18e29c2f3">1931-1960, undated </unitdate>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Logre, Benjamin Joseph, <date>1952-1959, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer8c4fbad2de9d4f63b0a4a55f4d363fe5">1952-1959, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"L" miscellaneous, <date>1929-1959, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer786a976e15824f6bbeebd5159eee6bbd">1929-1959, undated </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Marty, Pierre, <date>1940, 1953-1961</date>
+                  </unittitle>
+                  <unitdate id="mfer0c1db9b5115e462496e4c4a5eb18cf09">1940, 1953-1961</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Meng, Heinrich, <date>1932-1939,
+                        1955-1960</date>
+                  </unittitle>
+                  <unitdate id="mferf601b7b651474b63bab7b1c2f017e47b">1932-1939,
+                     1955-1960</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">"M" miscellaneous, <date>1929-1960, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mferda5814c8948b4df08acc151e939437c5">1929-1960, undated </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Nacht, Sacha, <date>1933-1937, 1947-1960,
+                        undated </date>
+                  </unittitle>
+                  <unitdate id="mferae613724be0048bf8a856b3f91b0d6e5">1933-1937, 1947-1960, undated </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"N" miscellaneous, <date>1936-1958, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer9fbe9c8f01284a15ad3ce741d430309f">1936-1958, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Odier, Charles and Ilse, <date>1916-1954,
+                        undated </date>
+                  </unittitle>
+                  <unitdate id="mfer4b4641ffe2d9425d86b5675ca8ddf723">1916-1954, undated </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"O" miscellaneous, <date>1929-1954</date>
+                  </unittitle>
+                  <unitdate id="mfercbb1112427994d78a5dad56eaebad16d">1929-1954</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pankejeff, Sergius, <date>1929, 1935-1938,
+                        1946-1947, 1951-1954</date>
+                  </unittitle>
+                  <unitdate id="mfer7662e9f3c3a342df80a5dbe52902e64c">1929, 1935-1938, 1946-1947,
+                     1951-1954</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Parcheminey, Georges, <date>1928-1953 </date>
+                  </unittitle>
+                  <unitdate id="mfer4e428158302b4f65ae3308d41120b32f">1928-1953 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pichon, Edouard, <date>1924-1940, undated</date>
+                  </unittitle>
+                  <unitdate id="mfer6c8ad2dad23a4b3d9b4e8045d7d27b50">1924-1940, undated</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"P" miscellaneous, <date>1933-1959</date>
+                  </unittitle>
+                  <unitdate id="mferb78f0231da834fe0a9ef264303572535">1933-1959</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ramzy, Ishak, <date>1953, undated </date>
+                  </unittitle>
+                  <unitdate id="mfer8f105c19f0884d62b41f967afbbaf239">1953, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rodker, John</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1939-1948 </date>
+                     </unittitle>
+                     <unitdate id="mfer5e43b1d97a5a4fa98ff868e2cddc216e">1939-1948 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1949-1958, undated </date>
+                     </unittitle>
+                     <unitdate id="mfer71a1da75cf03443f80167bcb59cca598">1949-1958, undated </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Róheim, Géza</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1920, 1928-1939 </date>
+                     </unittitle>
+                     <unitdate id="mferb1abda10f8494ebf8b875eb1876b3df7">1920, 1928-1939 </unitdate>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1945-1953, undated </date>
+                     </unittitle>
+                     <unitdate id="mfer54d7afa551cb4ddc80c0111305a48251">1945-1953, undated
+                     </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Roos, Allan, <date>1960</date>
+                  </unittitle>
+                  <unitdate id="mfer8f2eb37245d64d13877504d05470fb74">1960</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"R" miscellaneous, <date>1928-1960</date>
+                  </unittitle>
+                  <unitdate id="mfer398080b23de340bebe4ea67e5ef0d6fc">1928-1960</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Sachs, Hanns, <date>1928-1946 </date>
+                  </unittitle>
+                  <unitdate id="mferd13bb3de9b3c4e0ca4662ca70fb79f7f">1928-1946 </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Sachs, Wulf, <date>1941-1949, undated </date>
+                  </unittitle>
+                  <unitdate id="mfer4652796886d64821b75b7c5c5d7faa54">1941-1949, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Sarasin, Philipp, <date>1933, 1939,
+                        1947-1959</date>
+                  </unittitle>
+                  <unitdate id="mferdca3c8c76235460db1e74dcbe962d347">1933, 1939,
+                     1947-1959</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Saussure, Raymond de, <date>1928-1958, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer93c0a33c42534e41bd08ff600703a101">1928-1958, undated </unitdate>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Schiff, Paul, <date>1932-1943</date>
+                  </unittitle>
+                  <unitdate id="mfer2e9ba89c21454e1b95cec97f9ca7db6b">1932-1943</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Schlumberger, Marc, <date>1934-1938, 1945,
+                        1950</date>
+                  </unittitle>
+                  <unitdate id="mferae52a723c8b54a25bde8260db2525591">1934-1938, 1945,
+                     1950</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Schur, Max, <date>1924-1942, 1951-1960, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer96cae4272c284a3aa30763b5f4df9dc0">1924-1942, 1951-1960, undated </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Servadio, Emilio, <date>1934-1939,
+                        1947-1957</date>
+                  </unittitle>
+                  <unitdate id="mfer1fb6212bfe214f7f9bc86e353e334497">1934-1939,
+                     1947-1957</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Sessions, Barbara, <date>1931-1939, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer51aebbc1289f4a8688740d55aad27bbf">1931-1939, undated </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Simmel, Ernst, <date>1929-1931</date>
+                  </unittitle>
+                  <unitdate id="mfer62f71106bfd148288ba4e9ee834297fb">1929-1931</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Spitz, René A., <date>1933-1939, 1945-1960,
+                        undated</date>
+                  </unittitle>
+                  <unitdate id="mfer64d15a3f90934febad910ac7db39cc14">1933-1939, 1945-1960,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Sterba, Richard and Editha, <date>1934-1937,
+                        1954, undated </date>
+                  </unittitle>
+                  <unitdate id="mfera5fd4af1d72d4af197e86b885f06be9f">1934-1937, 1954, undated
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Storfer, A. J., <date>1928-1932, 1938,
+                        1943</date>
+                  </unittitle>
+                  <unitdate id="mfer66f244ad63514c84bbd64105508aeeff">1928-1932, 1938,
+                     1943</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"S" miscellaneous, <date>1930-1960, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer3c9a2645b978444b8e20eb95738f3360">1930-1960, undated </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tamm, Alfhild, <date>1932-1934</date>
+                  </unittitle>
+                  <unitdate id="mfer639e6f2d8ab4457bb2963b38184c8184">1932-1934</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tarachow, Sidney, <date>1960</date>
+                  </unittitle>
+                  <unitdate id="mfercb348db6eac74767ac312b2a65d58465">1960</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"V" miscellaneous, <date>1947-1959</date>
+                  </unittitle>
+                  <unitdate id="mfer6a3292482a3b4da89d8069340deceda9">1947-1959</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="con9williamsm">Williams, Margaret,
+                        <date>1950-1957, undated </date>
+                     <ref target="con10williamsm">
+                        <emph render="italic">See also Container 10, same heading</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate id="mfer5444041bb36947e681365eec13eb128c">1950-1957, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"W" miscellaneous, <date>1928-1960, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mferb0dfbbb38b5c4a54baf3ec90e3911a05">1928-1960, undated </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Zavitzianos, George, <date>1948-1960, undated
+                     </date>
+                  </unittitle>
+                  <unitdate id="mfer6df5dc7017e045af987571cbd153088b">1948-1960, undated </unitdate>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Zilboorg, Gregory, <date>1932</date>
+                  </unittitle>
+                  <unitdate id="mferaa2c324488d84079ae1cf01874b06dac">1932</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Collectively signed letter, postcards, and
+                     telegrams, <date>1935-1960</date>
+                  </unittitle>
+                  <unitdate id="mfer52b78759103e4d738d0d977d47c4ea33">1935-1960</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Unidentified, <date>1937-1940, 1956-1959,
+                        undated </date>
+                  </unittitle>
+                  <unitdate id="mfer20fa4f1aeb6e4a3cb022756fcdc8394a">1937-1940, 1956-1959, undated
+                  </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">9-10</container>
+               <unittitle encodinganalog="245$a" id="subfile">Subject File, <date normal="1923/1962">1923-1962 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" normal="1923/1962"
+                         id="mferb7e717b5442845f9ad1232adc6b9459c">1923-1962 </unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, notes, notebooks, court records, lists, obituaries, genealogical
+                  notes, photograph, and printed matter. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p> Arranged alphabetically by topic or type of material and therein
+                  chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Conférence des Psychanalystes de Langue
+                     Française, draft of opening remarks, <date>1938</date>
+                  </unittitle>
+                  <unitdate id="mfer72c9a62281df4979ac892b70f8497484">1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Freud, Sigmund, letters to Wilhelm Fliess,
+                     purchase, <date>1937</date>
+                     <ref target="clfliess">
+                        <emph render="italic">See also Container 21, </emph> Letters to Wilhelm
+                        Fliess</ref>
+                  </unittitle>
+                  <unitdate id="mferd98b27ced31f4dda926b01a9fc1ce3f2">1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">International Psycho-Analytical Association,
+                        <date>1955-1961</date>
+                  </unittitle>
+                  <unitdate id="mfer204cba2e61c34949a9e97ec1d171dad5">1955-1961</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Internationaler Psychoanalytischer Verlag,
+                        <date>1934, undated</date>
+                  </unittitle>
+                  <unitdate id="mferbe56449e26e54d689d7c1a864157d2d9">1934, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Jewish settlement in Baja California, proposal,
+                        <date>1938</date>
+                  </unittitle>
+                  <unitdate id="mfer6c8b9c18740848e3b895f897f3ba3ed9">1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Living Thoughts Library, <date>1938-1939</date>
+                  </unittitle>
+                  <unitdate id="mfer9e3889162075476284797eb7b1a12726">1938-1939</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Newspaper clippings, list of, undated
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Obituaries and genealogical notes,
+                        <date>1961-1962, undated</date>
+                  </unittitle>
+                  <unitdate id="mferc56c0f27096f4f4890cc068c8ad034ef">1961-1962, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Photograph of Bonaparte, undated </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a" id="con10williamsm">William, Margaret, case <ref target="con9williamsm">
+                        <emph render="italic">See also Container 9, same heading</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Clippings, <date>1953</date>
+                     </unittitle>
+                     <unitdate id="mfer9dbbf5f01b0646338257ec90d0b9d835">1953</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date>1950-1953</date>
+                     </unittitle>
+                     <unitdate id="mfer5b835ca5d9ed493a8b87f7d4ab476d09">1950-1953</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Court documents, <date>1951-1953 </date>
+                     </unittitle>
+                     <unitdate id="mfer8739c31e348d430bbbcc78d920322e38">1951-1953 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes by Bonaparte, <date>1951, undated
+                        </date>
+                     </unittitle>
+                     <unitdate id="mferebd1d267ed7d4fb9b6552ae6f31db546">1951, undated </unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">10</container>
+               <unittitle encodinganalog="245$a" id="writ">Writings, <date normal="1939">1939</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" normal="1939" id="mferfa9595aa0a4d4dcd8799d4a98d7a9dd0">1939</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Notes and outlines. Drafts of books and short literary works are filed in the
+                  Formerly Closed series. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p> Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Notes and outlines, <date>1939, undated </date>
+                  </unittitle>
+                  <unitdate id="mfer76f2afe5cba0446bb3599ae27360aa51">1939, undated </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">10</container>
+               <unittitle encodinganalog="245$a" id="addit">Addition, <date normal="1937/1962">post-1937</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" normal="1937/1962"
+                         id="mferfdfff314a6224729b8bd4bb5f05693cd">post-1937</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Bound notebook containing notes by Bonaparte on Sigmund Freud's letters to Wilhelm
+                  Fliess. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p> Arranged chronologically in a single volume.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Notes by Bonaparte on Sigmund Freud's letters to
+                     Wilhelm Fliess, <date>post 1937</date>
+                  </unittitle>
+                  <unitdate id="mfer127ed8ab4d344c35a0a9967242b6ac6f">post 1937</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">11-33</container>
+               <unittitle encodinganalog="245$a" id="close">Formerly Closed, <date normal="1889/1961">1889-1961 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" normal="1889/1961"
+                         id="mferfb37d192098b4b3f87a633b9290baa77">1889-1961 </unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Journals, correspondence, drafts of writings, notes, notebooks, and watercolor
+                  drawings. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p> Arranged and described according to the series, containers, and folders from
+                  which the items were removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Journals </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="cljourn1">Journal No. 1, "Journal d'une
+                        femme, le bonheur d'être aimée," <date>1913-1918 </date>
+                     </unittitle>
+                     <unitdate id="mfer4b1c2d1845484ebab7d12ee72c858c79">1913-1918 </unitdate>
+                     <physdesc encodinganalog="300">(15 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Journal No. 2</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Outline, undated </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Text</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date>1919</date>
+                           </unittitle>
+                           <unitdate id="mfer26988d84229346c694d248658687028f">1919</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date>1920</date>
+                           </unittitle>
+                           <unitdate id="mferf3d4fadb230e4ed1b3dcede428cbb787">1920</unitdate>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">
+                                 <date>Jan. 13-30 </date>
+                              </unittitle>
+                              <unitdate id="mferbc0d3b5ff3f841bb949755cd50fcfba2">Jan. 13-30 </unitdate>
+                              <physdesc encodinganalog="300">(2 folders)</physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">12</container>
+                              <unittitle encodinganalog="245$a">
+                                 <date>Feb. 1-May 4</date>
+                              </unittitle>
+                              <unitdate id="mfer18618a1489e541e18dcf750c61e945c7">Feb. 1-May
+                                 4</unitdate>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date>1921-1922 </date>
+                           </unittitle>
+                           <unitdate id="mferaf3339a92bd24bee9c120bf5fd71f2c8">1921-1922 </unitdate>
+                           <physdesc encodinganalog="300">(10 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">13</container>
+                           <unittitle encodinganalog="245$a">
+                              <date>1923</date>
+                           </unittitle>
+                           <unitdate id="mferd904022c01794248bbb2a54f9ead6093">1923</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date>1924</date>
+                           </unittitle>
+                           <unitdate id="mferd8e06323dd774eb387f980b5c43bf2fa">1924</unitdate>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">
+                                 <date>Jan. 24-Sept. 5 </date>
+                              </unittitle>
+                              <unitdate id="mferf51d5de21dcc45049d5d8b20c50c9cb9">Jan. 24-Sept. 5 </unitdate>
+                              <physdesc encodinganalog="300">(3 folders)</physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">14</container>
+                              <unittitle encodinganalog="245$a">
+                                 <date>Sept. 24-Dec. 29</date>
+                              </unittitle>
+                              <unitdate id="mfer24e93174198f4bf79b8bf067947d976a">Sept. 24-Dec.
+                                 29</unitdate>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date>1925-1927 </date>
+                           </unittitle>
+                           <unitdate id="mfer0c1c16d9f6d9425480f06e0f4b4c6be0">1925-1927 </unitdate>
+                           <physdesc encodinganalog="300">(5 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Journal de ma vieillesse," <date>1959-1961
+                        </date>
+                     </unittitle>
+                     <unitdate id="mferfd3e04df3afe4b028e4e1b05aaaad4bb">1959-1961 </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">General Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="clbriand">Briand, Aristide </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">From, <date>1918-1925 </date>
+                        </unittitle>
+                        <unitdate id="mfer699c4ffc4dff439aa9ee27929747699a">1918-1925 </unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">To, <date>1914-1931</date>
+                        </unittitle>
+                        <unitdate id="mfer58c84cb29b81402a995e1cd0ebfe36db">1914-1931</unitdate>
+                        <physdesc encodinganalog="300">(8 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="clfreuda">Freud, Anna,
+                           <date>1960-1961</date>
+                     </unittitle>
+                     <unitdate id="mfer99feecd846ec468bbbde411ee1c2ff7f">1960-1961</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="clfreuds">Freud, Sigmund</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">From</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1925">1925</date>
+                           </unittitle>
+                           <unitdate id="mfer3fc70edb5a5747d19172029c11077d45" normal="1925">1925</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0001">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1926-03/1926-04">1926, Mar.-Apr. </date>
+                           </unittitle>
+                           <unitdate id="mferac11e6493e9149908e336d19b3626473" normal="1926-03/1926-04">1926, Mar.-Apr.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0002">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1926-05/1926-06">1926, May-June </date>
+                           </unittitle>
+                           <unitdate id="mfer0bcba51903924d46bfa6d47fb2322c42" normal="1926-05/1926-06">1926, May-June</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0003">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1926-08/1926-12">1926, Aug.-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer7447ba4a65294545b8bb3111a2d9f79a" normal="1926-08/1926-12">1926, Aug.-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0004">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1927-01/1927-05">1927, Jan.-May</date>
+                           </unittitle>
+                           <unitdate id="mfer8128cd80952845dfa118a1e40ad34dd9" normal="1927-01/1927-05">1927, Jan.-May</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0005">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1927-06/1927-12">1927, June-Dec. </date>
+                           </unittitle>
+                           <unitdate id="mferb7a8d1fc6b6f402495443a9dc1aef9a3" normal="1927-06/1927-12">1927, June-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0006">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1928-01/1928-04">1928, Jan.-Apr.</date>
+                           </unittitle>
+                           <unitdate id="mfer99efa4a6314f40afb6125de04c36f4eb" normal="1928-01/1928-04">1928, Jan.-Apr.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0007">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">16</container>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1928-05/1928-06">1928, May-June</date>
+                           </unittitle>
+                           <unitdate id="mferdae63a003e4b43218d89023f29d287db" normal="1928-05/1928-06">1928, May-June</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0008">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1928-07/1928-11">1928, July-Nov.</date>
+                           </unittitle>
+                           <unitdate id="mfer7fea1ea64bf44839be19b879a766cd44" normal="1928-07/1928-11">1928, July-Nov.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0009">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1929-01/1929-04">1929, Jan.-Apr.</date>
+                           </unittitle>
+                           <unitdate id="mfer6e1161fad3ae4bd8b63a365500f6ae6b" normal="1929-01/1929-04">1929, Jan.-Apr.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0010">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1929-05/1929-12">1929, May-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer014714b3ace34d4787b9b56d2f06d20a" normal="1929-05/1929-12">1929, May-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0011">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1930-01/1930-05">1930. Jan.-May</date>
+                           </unittitle>
+                           <unitdate id="mfer4739492a80a546d7ad3a8a724df61e80" normal="1930-01/1930-05">1930. Jan.-May</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0012">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1930-06/1930-12">1930, June-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfera6ded4d74b5846bb8a1a32d2fb45b2fc" normal="1930-06/1930-12">1930, June-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0013">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1931-01/1931-06">1931, Jan.-June</date>
+                           </unittitle>
+                           <unitdate id="mferc8f3e2a340cd496f96559ff95d8cd7c7" normal="1931-01/1931-06">1931, Jan.-June</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0014">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1931-07/1931-12">1931, July-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer56df9d9a56a34f7a97d7ca346ea52b04" normal="1931-07/1931-12">1931, July-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0015">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1932-01/1932-05">1932, Jan.-May</date>
+                           </unittitle>
+                           <unitdate id="mfer5dc8beea7cf343d0963bfc05feb7c59f" normal="1932-01/1932-05">1932, Jan.-May</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0016">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1932-06/1932-09">1932, June-Sept.</date>
+                           </unittitle>
+                           <unitdate id="mfer71ba9cf68a66459aac40386fff97e7b1" normal="1932-06/1932-09">1932, June-Sept.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0017">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1932-10/1932-12">1932, Oct.-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mferf700d49a22c1456cbac222a89d023f78" normal="1932-10/1932-12">1932, Oct.-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0018">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1933-01/1933-06">1933, Jan.-June</date>
+                           </unittitle>
+                           <unitdate id="mfer25ecfbf78df2406d83251cb4544ded8b" normal="1933-01/1933-06">1933, Jan.-June</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0019">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1933-07/1933-12">1933, July-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer3f6f8c5c55ce48d3aead91dbd7118458" normal="1933-07/1933-12">1933, July-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0020">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1934-01/1934-04">1934, Jan.-Apr.</date>
+                           </unittitle>
+                           <unitdate id="mfer542e70f544564b8292755babd8a3445b" normal="1934-01/1934-04">1934, Jan.-Apr.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0021">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1934-05/1934-12">1934, May-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mferb3af67abe4e2477f90a437c59d09c964" normal="1934-05/1934-12">1934, May-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0022">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1935">1935</date>
+                           </unittitle>
+                           <unitdate id="mfer845c976b7cb1428799dcd290c1e4e3c1" normal="1935">1935</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0023">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1936-01/1936-06">1936, Jan.-June</date>
+                           </unittitle>
+                           <unitdate id="mfer2ad72adbbb414667a987239a3343848f" normal="1936-01/1936-06">1936, Jan.-June</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0024">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1936-07/1936-12">1936, July-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer003f860af8364baf87612bb5568887a2" normal="1936-07/1936-12">1936, July-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0025">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1937-01/1937-04">1937, Jan.-Apr.</date>
+                           </unittitle>
+                           <unitdate id="mfer22b576cb384149918d924feffa773976" normal="1937-01/1937-04">1937, Jan.-Apr.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0026">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1937-05/1937-07">1937, May-July</date>
+                           </unittitle>
+                           <unitdate id="mferf2cbe8b309de4acb83b7c98fef3b39b9" normal="1937-05/1937-07">1937, May-July</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0027">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1937-08/1937-12">1937, Aug.-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer04413d7cce044d2fbc30185f7302a02f" normal="1937-08/1937-12">1937, Aug.-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0028">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">17</container>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1938-01/1938-08">1938, Jan.-Aug.</date>
+                           </unittitle>
+                           <unitdate id="mfer9b34603463a14fae917af89f15714725" normal="1938-01/1938-08">1938, Jan.-Aug.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0029">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1938-09/1938-12">1938, Sept.-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer5cffb75597e9464bb9b6a6fa43ee78da" normal="1938-09/1938-12">1938, Sept.-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0030">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1939">1939</date>
+                           </unittitle>
+                           <unitdate id="mfera69d4e2a05574c5bb4d2a81baa12d78c" normal="1939">1939</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0031">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">To </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1925">1925</date>
+                           </unittitle>
+                           <unitdate id="mfer11e2fd7728af4d50b89e5735ceeecdcb" normal="1925">1925</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0032">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1926-02/1926-03">1926, Feb.-Mar.</date>
+                           </unittitle>
+                           <unitdate id="mferb80b2ae0645642019e984e066f5d6db6" normal="1926-02/1926-03">1926, Feb.-Mar.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0033">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1926-04">1926, Apr.</date>
+                           </unittitle>
+                           <unitdate id="mfer2520338438694a0584487e75b8cfe18b" normal="1926-04">1926, Apr.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0034">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1926-05">1926, May</date>
+                           </unittitle>
+                           <unitdate id="mfer7e26183d921f4708b3b9457c64bc0f34" normal="1926-05">1926, May</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0035">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1926-06">1926, June</date>
+                           </unittitle>
+                           <unitdate id="mferd73149b5bde84845b3d2a94481647108" normal="1926-06">1926, June</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0036">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1926-06/1926-08">1926, July-Aug.</date>
+                           </unittitle>
+                           <unitdate id="mfer11b0ddcb174e46f0bdab078018246714" normal="1926-06/1926-08">1926, July-Aug.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0037">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1926-09">1926, Sept.</date>
+                           </unittitle>
+                           <unitdate id="mfer8978ed27b458420d92a168473f4b14d6" normal="1926-09">1926, Sept.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0038">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1926-11/1926-12">1926, Nov.-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer253123edfd644a1b996ba4cb59a4854b" normal="1926-11/1926-12">1926, Nov.-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0039">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1927-01/1927-04">1927, Jan.-Apr.</date>
+                           </unittitle>
+                           <unitdate id="mfer99e915017bd1446a88899f3c5ab5e6c3" normal="1927-01/1927-04">1927, Jan.-Apr.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0040">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1927-05/1927-06">1927, May-June</date>
+                           </unittitle>
+                           <unitdate id="mfere98cca8e061242d7a608fab0be28f7e2" normal="1927-05/1927-06">1927, May-June</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0041">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1927-07">1927, July</date>
+                           </unittitle>
+                           <unitdate id="mfer4ce59c564f56422ebf0d12519276ba21" normal="1927-07">1927, July</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0042">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1927-08/1927-12">1927, Aug.-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer1d80d6f986c8408198deef8da1d0bb5d" normal="1927-08/1927-12">1927, Aug.-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0043">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">18</container>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1928-01/1928-02">1928, Jan.-Feb.</date>
+                           </unittitle>
+                           <unitdate id="mfer6e7f8a50c1dc4a4abefc617162726ce7" normal="1928-01/1928-02">1928, Jan.-Feb.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0044">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1928-03/1928-04">1928, Mar.-Apr.</date>
+                           </unittitle>
+                           <unitdate id="mfer6dbfe0c2ec814ff59bdceafb01efea85" normal="1928-03/1928-04">1928, Mar.-Apr.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0045">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1928-05/1928-06">1928, May-June</date>
+                           </unittitle>
+                           <unitdate id="mferebc2389ce8a04fcb925a612fd5471879" normal="1928-05/1928-06">1928, May-June</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0046">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1928-07/1928-11">1928, July-Nov.</date>
+                           </unittitle>
+                           <unitdate id="mfer2d1502577d5747d8b24b222adbc981a8" normal="1928-07/1928-11">1928, July-Nov.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0047">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1929-01/1929-03">1929, Jan.-Mar.</date>
+                           </unittitle>
+                           <unitdate id="mfer0bcb4e4b6f4443f5a9f4ab7dad148fbf" normal="1929-01/1929-03">1929, Jan.-Mar.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0048">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1929-04/1929-06">1929, Apr.-June</date>
+                           </unittitle>
+                           <unitdate id="mfer9314755b4da546da83518de6c173bd08" normal="1929-04/1929-06">1929, Apr.-June</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0049">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1929-07/1929-12">1929, July-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer6a461542b05c4459bee466475298269e" normal="1929-07/1929-12">1929, July-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0050">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1930-01/1930-03">1930, Jan.-Mar.</date>
+                           </unittitle>
+                           <unitdate id="mferd250ac0762b74bec9770ea57c07969aa" normal="1930-01/1930-03">1930, Jan.-Mar.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0051">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1930-04/1930-08">1930, Apr.-Aug.</date>
+                           </unittitle>
+                           <unitdate id="mfer78a89a55d19d4400b60d1a6550dce7b1" normal="1930-04/1930-08">1930, Apr.-Aug.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0052">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1930-09/1930-12">1930, Sept.-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer09f12ba9dda64ab587949d0ba937cb45" normal="1930-09/1930-12">1930, Sept.-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0053">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1931-01/1931-09">1931, Jan.-Sept.</date>
+                           </unittitle>
+                           <unitdate id="mfer7bdcf345c46f4bb8a73242b9d8d8573c" normal="1931-01/1931-09">1931, Jan.-Sept.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0054">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1931-10/1931-12">1931, Oct.-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer158fe8a686e54a488f40ff1bada90505" normal="1931-10/1931-12">1931, Oct.-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0055">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1932-01/1932-06">1932, Jan.-June</date>
+                           </unittitle>
+                           <unitdate id="mfercc580aa04995402eb73ee251065b4466" normal="1932-01/1932-06">1932, Jan.-June</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0056">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1932-07/1932-09">1932, July-Sept.</date>
+                           </unittitle>
+                           <unitdate id="mfer4b84ffcf4aec4ad7b3e79adcecf72b20" normal="1932-07/1932-09">1932, July-Sept.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0057">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1932-10/1932-12">1932, Oct.-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer5ef058defa7f4dc992afd8bf3462f23a" normal="1932-10/1932-12">1932, Oct.-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0058">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">19</container>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1933-01/1933-05">1933, Jan.-May</date>
+                           </unittitle>
+                           <unitdate id="mfer0e60e7eaabf4452aa3cd25dfbdde622d" normal="1933-01/1933-05">1933, Jan.-May</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0059">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1933-06/1933-12">1933, June-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer68744b7349f44b99a8134fbb28f4614e" normal="1933-06/1933-12">1933, June-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0060">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1934">1934</date>
+                           </unittitle>
+                           <unitdate id="mfera4289b66e8c24429ad124e4860b3c53e" normal="1934">1934</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0061">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1935-01/1935-07">1935, Jan.-July </date>
+                           </unittitle>
+                           <unitdate id="mfer1c2f69a4dc404e10b16bb7837768bb62" normal="1935-01/1935-07">1935, Jan.-July </unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0062">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1935-08/1935-12">1935, Aug.-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mferf852ef4b03ff4c78a1be768289af7133" normal="1935-08/1935-12">1935, Aug.-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0063">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1936-01/1936-09">1936, Jan.-Sept. </date>
+                           </unittitle>
+                           <unitdate id="mfer78e01ee0adf04727b1f1d6e983f5c537" normal="1936-01/1936-09">1936, Jan.-Sept. </unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0064">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1936-10/1936-12">1936, Oct.-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer5aa44935871f405fbc792d51fb11fba9" normal="1936-10/1936-12">1936, Oct.-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0065">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1937-01/1937-05">1937, Jan.-May</date>
+                           </unittitle>
+                           <unitdate id="mfereba05e56c4a34f20a81c474e324e0452" normal="1937-01/1937-05">1937, Jan.-May</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0066">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1937-06/1937-12">1937, June-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mferf73a8ec628eb435794a1614ccf77220d" normal="1937-06/1937-12">1937, June-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0067">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1938-01/1938-08">1938, Jan.-Aug.</date>
+                           </unittitle>
+                           <unitdate id="mfer82e80b99c5d643ad88f48caba44c5412" normal="1938-01/1938-08">1938, Jan.-Aug.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0068">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1938-09/1938-12">1938, Sept.-Dec.</date>
+                           </unittitle>
+                           <unitdate id="mfer9f599447cb9242259e81ce2533bf7c27" normal="1938-09/1938-12">1938, Sept.-Dec.</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0069">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1939">1939</date>
+                           </unittitle>
+                           <unitdate id="mfer823e7742573d47f5a414e81222cd2f85" normal="1939">1939</unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0070">
+                              <descriptivenote>
+                                 <p>Digital content available onsite</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">To Freud and Bonaparte from others
+                           enclosed in the Freud-Bonaparte correspondence, <date normal="1926/1939">1926-1939</date>
+                        </unittitle>
+                        <unitdate id="mfer08cd1b015599453ca1c6f2e45f984e7a" normal="1926/1939">1926-1939</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms016046.mss13169.0071">
+                           <descriptivenote>
+                              <p>Digital content available onsite</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Subject File</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="cldreams">Dreams, notes</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date>1923-1940 </date>
+                        </unittitle>
+                        <unitdate id="mfere6ad489a605f4264921cb36fdc20d930">1923-1940 </unitdate>
+                        <physdesc encodinganalog="300">(14 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">21</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1941-1961 </date>
+                        </unittitle>
+                        <unitdate id="mfer65afb91cb6244d53a3a4c870672984f5">1941-1961 </unitdate>
+                        <physdesc encodinganalog="300">(12 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Freud, Sigmund</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="clfliess">Letters to Wilhelm Fliess,
+                           purchase, <date>1936-1937, 1951-1954 </date>
+                        </unittitle>
+                        <unitdate id="mfer9b2ded83b20b4b0c929279866859e21e">1936-1937, 1951-1954
+                        </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="cllist">List and excerpts of Freud's
+                           letters to Bonaparte cited in Ernest Jones's biography of Freud,
+                              <date>1961</date>
+                        </unittitle>
+                        <unitdate id="mfer6187938f22a944a7ac51ae449c9b68d0">1961</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="clmedical">Medical treatment by
+                           Antoine Lacassagne, <date>1939, 1954</date>
+                        </unittitle>
+                        <unitdate id="mferc1cd2bb68cf947a0aaf51d0a19ad28d4">1939, 1954</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a" id="clrecord">Record of Bonaparte's
+                           analysis </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Notebooks</unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">
+                                 <date>1925, Oct. 1-Nov. 16</date>
+                              </unittitle>
+                              <unitdate id="mfer787fdbad51be479180d581a8745170c6">1925, Oct. 1-Nov.
+                                 16</unitdate>
+                              <physdesc encodinganalog="300">(9 folders)</physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">23</container>
+                              <unittitle encodinganalog="245$a">
+                                 <date>1925, Nov. 17-1926, Jan. 7 </date>
+                              </unittitle>
+                              <unitdate id="mfer9f7d9d36550747798a5c41786c0705aa">1925, Nov.
+                                 17-1926, Jan. 7 </unitdate>
+                              <physdesc encodinganalog="300">(7 folders)</physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">24</container>
+                              <unittitle encodinganalog="245$a">
+                                 <date>1926, Jan. 8-Feb. 25 </date>
+                              </unittitle>
+                              <unitdate id="mfer18747e57f4894fdca10f9174db447b80">1926, Jan. 8-Feb.
+                                 25 </unitdate>
+                              <physdesc encodinganalog="300">(7 folders)</physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">25</container>
+                              <unittitle encodinganalog="245$a">
+                                 <date>1926, July 12-1931, Sept. 12 </date>
+                              </unittitle>
+                              <unitdate id="mfer6071cd847e824d0b831208adaafc9cf0">1926, July
+                                 12-1931, Sept. 12 </unitdate>
+                              <physdesc encodinganalog="300">(6 folders)</physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Selected excerpts,
+                                 <date>1925-1929</date>
+                           </unittitle>
+                           <unitdate id="mfer8338db99fb644bf1bdf4934af2184efb">1925-1929</unitdate>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Handwritten </unittitle>
+                              <physdesc encodinganalog="300">(3 folders)</physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Typescript </unittitle>
+                              <physdesc encodinganalog="300">(2 folders)</physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <unittitle encodinganalog="245$a">Writings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="clbooks">Books </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>A la mémoire des disparus</part>
+                           </title>, unpublished portions</unittitle>
+                        <physdesc encodinganalog="300">(13 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>A la mémoire des disparus</part>
+                           </title>, unpublished portions</unittitle>
+                        <physdesc encodinganalog="300">(15 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">28</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>A la mémoire des disparus</part>
+                           </title>, unpublished portions</unittitle>
+                        <physdesc encodinganalog="300">(15 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>A la mémoire des disparus</part>
+                           </title>, unpublished portions</unittitle>
+                        <physdesc encodinganalog="300">(16 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">30</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>A la mémoire des disparus</part>
+                           </title>, unpublished portions</unittitle>
+                        <physdesc encodinganalog="300">(10 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">31</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Cinq cahiers écrit par une petite fille entre sept ans et dix
+                                 ans et leur commentaires</part>
+                           </title>
+                        </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Notebooks, <date>1889-1892</date>
+                           </unittitle>
+                           <unitdate id="mfer96ad72255b86418083521095e467826e">1889-1892</unitdate>
+                           <physdesc encodinganalog="300">(5 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Watercolor drawings, <date>1889</date>
+                           </unittitle>
+                           <unitdate id="mferd4f5aa63a1c7462794d4c1fc6a93d17d">1889</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a" id="cllitworks">Short literary works
+                     </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Le bonheur d'être aimée,"
+                              <date>1914-1919, undated </date>
+                        </unittitle>
+                        <unitdate id="mfer2a5f617cbb8a49eca57afa8b1c88022e">1914-1919, undated </unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"La chambre aux rideaux d'or,"
+                              <date>1920-1921</date>
+                        </unittitle>
+                        <unitdate id="mfera19c894f678740d9ad846a152268ab75">1920-1921</unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Deutsche Gedichte," <date>1943-1946,
+                              undated </date>
+                        </unittitle>
+                        <unitdate id="mfer97c88b22bdd24660a4791630b0ab0f4e">1943-1946, undated
+                        </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Exil austral," <date>1941-1943 </date>
+                        </unittitle>
+                        <unitdate id="mfer607a27285288404b890932f026e3dda5">1941-1943 </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Le Fils," <date>1937</date>
+                        </unittitle>
+                        <unitdate id="mfer9c72c798f2e6438ba58d376ba0bfcd28">1937</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"La Guerre et mon fils," <date>1941</date>
+                        </unittitle>
+                        <unitdate id="mferc238024045f74a2ea699772bbb92c6e6">1941</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">32</container>
+                        <unittitle encodinganalog="245$a">"Les Lettres brulées," <date>1929</date>
+                        </unittitle>
+                        <unitdate id="mfer71bc5b51d17643009c613ef6469c9de1">1929</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Le Livre de l'enfant et des bêtes,"
+                           undated </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Une Mère et un fils," undated
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"La Moitié d'un coeur," undated </unittitle>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Les Murs," undated </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Narcisse au soleil couchant," undated
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Pascal," <date>1926-1927 </date>
+                        </unittitle>
+                        <unitdate id="mferbdfeacf9f3de4c65a56deaa31d2bfda2">1926-1927 </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">33</container>
+                        <unittitle encodinganalog="245$a">"Le Passage de Sappho," <date>circa
+                              1947-1948</date>
+                        </unittitle>
+                        <unitdate id="mferc17fc4052d9f4019846a39e62ad30a26">circa
+                           1947-1948</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"La Survivante," <date>1915-1919</date>
+                        </unittitle>
+                        <unitdate id="mfercefa5570d03047f9b40b25b748cf7d45">1915-1919</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Vaga," <date>1961, undated </date>
+                        </unittitle>
+                        <unitdate id="mfer12ad9dbb72614c03bc8fbc55f0883285">1961, undated </unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">"Le Vieux Compagnon," <date>1939</date>
+                        </unittitle>
+                        <unitdate id="mferb07ec9ac0177468a82c471a8dbbeff51">1939</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

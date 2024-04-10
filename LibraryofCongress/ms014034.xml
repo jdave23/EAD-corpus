@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms014034">loc.mss/eadmss.ms014034</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>French and American Claims Commission Records</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm97084103">https://lccn.loc.gov/mm97084103</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-05">2023 May</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2014">2014</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">French and American Claims Commission Records
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1861/1884">1861-1884</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1861/1884"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1861-1884</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS84103</unitid>
+         <origination label="Creator">
+            <corpname encodinganalog="110" source="lcnaf">
+               <part>French and American Claims Commission</part>
+            </corpname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">7,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">21 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">8.4 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language langcode="fre" encodinganalog="041">French</language>
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in French with English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Commission established in 1880 by a treaty
+            between the governments of France and the United States to resolve outstanding claims by
+            French citizens residing in the United States for property confiscated or destroyed
+            during the Civil War. Correspondence, petitions, inventories, depositions, lists,
+            certificates, and receipts. Includes material relating to the Union Army's western
+            offensive and occupation of New Orleans and to protests by French residents of Bagdad,
+            Mexico, a settlement attacked and pillaged by U.S. Army soldiers in January 1866.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220928171827.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Banks, Nathaniel Prentiss, 1816-1894--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Butler, Benjamin F. (Benjamin Franklin), 1818-1893--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Seward, William H. (William Henry), 1801-1872--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Stanton, Edwin M. (Edwin McMasters), 1814-1869--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>France. Ministère des affaires étrangères.</part>
+            </corpname>
+            <corpname encodinganalog="110" relator="creator" source="lcnaf">
+               <part>French and American Claims Commission.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army--History--Civil War, 1861-1865.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Diplomatic and consular service, French--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>French--Alabama--History.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>French--Arkansas--History.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>French--Florida--History.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>French--Louisiana--History.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>French--Louisiana--New Orleans--History.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>French--Mexico--History.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>French--Mississippi--History.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>French--Missouri--History.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>French--Texas--History.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>French--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Pillage--Mexico.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Louisiana--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Mexico--History--19th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New Orleans (La.)--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865--Campaigns.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865--Claims.</part>
+            </geogname>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The records of the French and American Claims Commission were purchased by the Library
+            of Congress in 1931. The records were originally processed as part of the Manuscript
+            Division's David Dixon Porter Papers from which they were separated. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The collection was processed in 1997 by Margaret McAleer with the assistance of Deloris
+            Butler. The finding aid was revised in 2012. The finding aid was updated in 2023 by
+            Maria Farmer as part of a division-wide remediation project by the Inclusive Description
+            Working Group.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Other Repositories</head>
+         <p>Other records of the French and American Claims Commission are available at the National
+            Archives and Records Administration. </p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of the French and American Clams
+            Commission is governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The records of the French and American Claims Commission are open to research.
+            Researchers are advised to contact the Manuscript Reading Room prior to visiting. Many
+            collections are stored off-site and advance notice is needed to retrieve these items for
+            research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, French and American Claims Commission Records, Manuscript Division,
+            Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The records of the French and American Claims Commission span the years 1861-1884. The
+            commission was established by a treaty between the governments of France and the United
+            States in 1880 to resolve outstanding claims by French citizens residing in the United
+            States for property confiscated or destroyed during the Civil War. The records include
+            correspondence, petitions, inventories, depositions, lists, certificates, and receipts.
+            The bulk of the correspondence is conducted in French among non-naturalized French
+            residents, the French consul in New Orleans, and the French agent appointed to represent
+            the claims before the commission. Correspondence from American officials is in English.
+            The collection is arranged in two series: <ref show="replace" actuate="onrequest" target="Claim"> Claimant Petitions </ref> and <ref show="replace" actuate="onrequest" target="Misc"> Miscellany </ref>. </p>
+         <p>The <ref show="replace" actuate="onrequest" target="Claim"> Claimant Petitions </ref>
+            series is composed of two groups of case files arranged alphabetically by the name of
+            the claimant or occasionally the name of an attorney or ship. The bulk of the first and
+            largest group of cases dates from 1862 to 1865 and contains petitions and related
+            documentation written by native French residents to the French consul in New Orleans,
+            the French minister in Washington, and the Ministère des Affaires Étrangères in Paris.
+            Many of the letters and inventories date from the spring and summer of 1862 soon after
+            Union forces captured New Orleans and launched a major western offensive in Mississippi.
+            The majority of petitions are from French residents of Louisiana, particularly New
+            Orleans. Also included are petitions from Alabama, Arkansas, Florida, Mississippi,
+            Missouri, and Texas. This group of case files was turned over to an agent assigned to
+            represent French claims before the commission in 1880. A second case file was created by
+            the agent and the commission in 1880. </p>
+         <p>The petitions provide insight into the Union Army's western offensive and its occupation
+            of New Orleans. The vast majority of petitions concern the confiscation or destruction
+            of property, including warehoused cotton, shop inventories, restaurant provisions, ships
+            and ship cargoes, homes and personal effects, crops, livestock, wagons, and farm
+            buildings. Some petitioners were Union prisoners suspected of fighting with or supplying
+            the Confederate army. Petitioners' letters often describe the circumstances surrounding
+            their loss of property or imprisonment. Also included are responses from American civil
+            and military officials at times refuting the claims in some detail. Included are letters
+            from Nathaniel Prentiss Banks, Benjamin F. Butler, William Henry Seward, and Edwin
+            McMasters Stanton. </p>
+         <p>Apart from the events of the war, the files reveal much about the social composition and
+            experiences of a transatlantic French community. Many of the letters contain
+            biographical information, including date and place of birth, date of immigration,
+            occupation, and occasionally family data. Detailed inventories shed considerable light
+            on the economic activities and personal effects of the claimants. </p>
+         <p>Unnumbered folders filed at the end of the first group of petitions include petitions by
+            groups and claims not covered by the commission, such as requests for compensation for
+            damages caused by Confederate forces and for emancipated enslaved people. Also included
+            among the unnumbered folders are protests from French residents of Bagdad, a town in
+            Mexico near the port of Matamoros. According to its residents, the town was attacked and
+            pillaged by United States soldiers in January 1866. </p>
+         <p>The <ref show="replace" actuate="onrequest" target="Misc"> Miscellany </ref> series
+            contains legation correspondence, lists of claims, notification of attorney
+            representation, powers of attorney, proofs of citizenship, and receipts for documents
+            returned to petitioners.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in two series:</p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Claim"> Claimant Petitions, 1861-1884
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Misc"> Miscellany, 1863-1883 </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-20</container>
+               <unittitle encodinganalog="245$a" id="Claim">Claimant Petitions, <date normal="1861/1884">1861-1884</date>
+               </unittitle>
+               <unitdate normal="1861/1884">1861-1884</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Case files of correspondence, petitions, inventories, depositions, certificates,
+                  and printed matter. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Organized by the commission in two sets and arranged therein according to a
+                  numerical filing system and by the first letter of the last name of the claimant
+                  or attorney or the name of a ship. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">1861-1881, French agent's files </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">A-B, nos. 1-62 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">B, nos. 63-110 </unittitle>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">B-C, nos. 111-172 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">C, nos. 173-224 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">C-D, nos. 225-298 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">D-F, nos. 299-364 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">F-H, nos. 365-457 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">H-L, nos. 458-521 </unittitle>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">L, nos. 522-583 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">L-M, nos. 584-640 </unittitle>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">M-N, nos. 641-700 </unittitle>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">N-P, nos. 701-776 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">P-R, nos. 777-818 </unittitle>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">R-S, nos. 819-874 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">S-V, nos. 875-905 </unittitle>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">V, nos. 906-930 </unittitle>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Unnumbered </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a"> 1880-1884, commission files </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">A-D, nos. 1-78 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">D-N, nos. 79-195 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">N-Y and miscellaneous, nos. 196-263 </unittitle>
+                     <physdesc encodinganalog="300">(7 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">20-21</container>
+               <unittitle encodinganalog="245$a" id="Misc">Miscellany, <date normal="1863/1883">1863-1883</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1863/1883">1863-1883</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Legation correspondence, lists and schedules, printed forms, and receipts. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by topic or type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Legation correspondence, <date>1881-1883 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">1881-1883 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Lists and schedules, <date>1864-1881 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">1864-1881 </unitdate>
+                  <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  <container localtype="box">21</container>
+                  <physdesc encodinganalog="300">(1 folder)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Notification of attorney representation, <date>
+                        1880-1881</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f"> 1880-1881</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Proof of citizenship, <date>1863-1865 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">1863-1865 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Receipt for return of original documents,
+                        <date>1880-1882 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245 $f">1880-1882 </unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

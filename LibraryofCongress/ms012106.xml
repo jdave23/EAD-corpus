@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms012106">loc.mss/eadmss.ms012106</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Edgar Kobak Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Raymond H. Geselbracht</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2012" encodinganalog="260$c" era="ce" calendar="gregorian">2012</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm79028878">https://lccn.loc.gov/mm79028878</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2012-08">2012 August</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Container List revised</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2012">2012</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Edgar Kobak Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1916/1966">1916-1966</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1949/1962">(bulk 1949-1962)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1916/1966"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1916-1966</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1949/1962"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1949-1962)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS28878</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Kobak, Edgar,
+			 1895-1962</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300"> 2,000
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">9 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">3.6 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+		       </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Publicist, broadcasting
+		  executive, and consultant. Correspondence, autobiographical memoir, speeches
+		  and writings, business papers, clippings, and scrapbooks relating primarily to
+		  Kobak's work with McGraw-Hill Publishing Company, the National Broadcasting
+		  Company, and the Mutual Broadcasting System and to the early years of radio and
+		  television broadcasting and to his expertise in the field of public relations
+		  and communications.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20161017105415.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Clark, Tom C. (Tom Campbell), 1899-1977--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Clay, Lucius D. (Lucius DuBignon), 1897-1978--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Conrad, John, 1915 or 1916- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Conrad, Nicholas J., -1956--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Denny, George Vernon, 1899-1959--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Kennedy, John F. (John Fitzgerald), 1917-1963--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Kobak, Edgar H.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Kobak, Edgar, 1895-1962.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Mehren, Edward J. (Edward John), 1881- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Nielsen, A. C. (Arthur Charles), 1897-1980--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Stevenson, Adlai E. (Adlai Ewing), 1900-1965--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Truman, Harry S., 1884-1972--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>A.C. Nielsen Company--Correspondence.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>McGraw-Hill Publishing Co., inc.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Mutual Broadcasting System.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>National Association of Broadcasters--Correspondence.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>National Broadcasting Company.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>S&amp;C Electric Company--Correspondence.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Communication.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Public relations.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Radio broadcasting.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Television broadcasting.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Consultants.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Executives.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Publicists.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Edgar Kobak, publicist, broadcasting executive, and
+		  consultant, were given to the Library of Congress by Evelyn H. Kobak in
+		  1967.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Edgar Kobak were arranged and described in 1974. The
+		  finding aid was revised in 1979 and again in 2012.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Edgar Kobak is
+		  governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Edgar Kobak are open to research. Researchers are
+		  advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Edgar Kobak Papers, Manuscript
+		  Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1895, 18 Apr.</datesingle>
+               <event> Born, Chicago, Ill. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>circa 1912</fromdate>
+                              <todate>1916</todate>
+                           </daterange>
+               <event>Employed in testing department, Georgia Railway and Electric
+				Co. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1914</fromdate>
+                              <todate>1915</todate>
+                           </daterange>
+               <event>Attended Georgia School of Technology </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1916 </datesingle>
+               <event>Married Evelyn Elizabeth Hubert </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1916</fromdate>
+                              <todate>1922</todate>
+                           </daterange>
+               <event> Employed by McGraw-Hill Publishing Co., became successively
+				assistant engineering editor, advertising sales representative, and business
+				manager of the firm's publication, <title localtype="simple">
+                                 <part>Electrical World</part>
+                              </title> 
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1922 </datesingle>
+               <event>Elected vice president and director of McGraw-Hill Publishing
+				Co.; also appointed publisher of electrical and radio publications and put in
+				charge of sales of the firm's publications </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1934</fromdate>
+                              <todate>1936</todate>
+                           </daterange>
+               <event>Vice president in charge of sales, National Broadcasting Co.
+				</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1936</fromdate>
+                              <todate>1940</todate>
+                           </daterange>
+               <event>Vice president, Lord and Thomas advertising agency</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1940</fromdate>
+                              <todate>1942</todate>
+                           </daterange>
+               <event> Vice president, sales, National Broadcasting Co's. Blue
+				Network</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1942</fromdate>
+                              <todate>1944</todate>
+                           </daterange>
+               <event> Executive vice president of the Blue Network Co. (later the
+				American Broadcasting Co.) </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1944</fromdate>
+                              <todate>1949</todate>
+                           </daterange>
+               <event>President, Mutual Broadcasting System </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1949</fromdate>
+                              <todate>1958</todate>
+                           </daterange>
+               <event> Business consultant, New York, N.Y. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1962, June 3 .</datesingle>
+               <event>Died, Atlantic City, N.J</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Edgar Kobak span the years 1916-1966, with the bulk of
+		  the material concentrated in the period 1949-1962, during Kobak's
+		  semi-retirement as a business consultant and communications expert in New York.
+		  The collection consists of five series: 
+		  <ref show="replace" actuate="onrequest" target="autobinter">
+                Autobiographical Interview, 
+            </ref> 
+		                      <ref show="replace" actuate="onrequest" target="gencorresp">
+                General
+			 Correspondence and Related Papers 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="speewrit">
+                Speeches and
+			 Writings 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="buspap">
+                Business
+			 Papers 
+            </ref>, and 
+		  <ref show="replace" actuate="onrequest" target="miscella">
+                Miscellany 
+            </ref>. Included are subject files of personal
+		  business affairs and miscellaneous clippings and scrapbooks. In the
+		  correspondence is an autograph file of letters from prominent individuals who
+		  wrote to Kobak during his career with McGraw-Hill, the National Broadcasting
+		  Company, and other business firms for which he was either a consultant or
+		  director.</p>
+         <p> A key feature of the collection is an autobiographical account of the
+		  years Kobak spent at McGraw-Hill Publishing Company. Also of importance is the 
+		  <ref show="replace" actuate="onrequest" target="gencorresp">
+                General
+			 Correspondence 
+            </ref> of letters sent and received from notable politicians,
+		  philanthropists, and military figures, mostly from the 1950s. The main portion
+		  of the correspondence, however, deals with companies that used Kobak's
+		  consulting service and with the various advertising and philanthropic
+		  organizations with which Kobak was associated in the last fifteen years of his
+		  life. Among the most significant and substantive of these letters are those
+		  from the National Association of Broadcasters, the S &amp; C Electric Company,
+		  and the A. C. Nielsen Company. There are also several folders of papers for the
+		  period before 1949, as for example the correspondence files for the Mutual
+		  Broadcasting System and the National Broadcasting Company. Only a small amount
+		  of Kobak's personal correspondence is present in these papers, most of it with
+		  his son, Edgar H. Kobak.</p>
+         <p> The 
+		  <ref show="replace" actuate="onrequest" target="speewrit">
+                Speeches and
+			 Writings 
+            </ref> series, which covers the years 1928-1962, offers perhaps the
+		  best representation of Kobak's work in broadcasting. In them can be found
+		  material relating to the first generation of radio and television, to Kobak's
+		  expertise in public relations, and to federal policy concerning communications.
+		  A smaller and less significant part of the collection is the 
+		  <ref show="replace" actuate="onrequest" target="buspap">
+                Business
+			 Papers 
+            </ref> file. It is devoted exclusively to Kobak's private business
+		  ventures with a farm and radio station in Thomson, Georgia. </p>
+         <p>Correspondents in addition to those cited include John Conrad,
+		  Nicholas J. Conrad, George Vernon Denny, Edward J. Mehren, and A. C. Nielsen.
+		  The autograph file contains brief notes, usually thank-you letters, from
+		  individuals such as John F. Kennedy, Adlai Stevenson (1900-1964), Harry S.
+		  Truman, Lucius D. Clay, and Tom Clark.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in five series: </p>
+         <list>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="autobinter">
+                   Autobiographical Interview, circa 1916-1934 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="gencorresp">
+                   General
+				Correspondence and Related Papers, 1916-1966 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="speewrit">
+                   Speeches
+				and Writings, 1928-1962 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="buspap">
+                   Business
+				Papers, 1948-1962 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="miscella">
+                   Miscellany,
+				circa 1929-1962 
+               </ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a" id="autobinter">Autobiographical
+				Interview, 
+				 <date normal="1916/1934">circa 1916-1934
+				  </date> 
+                           </unittitle>
+               <unitdate normal="1916/1934" era="ce" calendar="gregorian">circa 1916-1934
+				  </unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Autobiographical document primarily covering Kobak's years at
+				McGraw-Hill Publishing Co.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Autobiography</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-3</container>
+               <unittitle encodinganalog="245$a" id="gencorresp">General
+				Correspondence and Related Papers, 
+				 <date normal="1916/1966"> 1916-1966</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1916/1966"> 1916-1966</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Letters sent or received by Edgar Kobak, including interoffice
+				memoranda, public relations publications, and a few speeches, articles, and
+				clippings. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by correspondent and chronologically
+				thereunder. Miscellaneous correspondence is gathered separately and arranged
+				alphabetically, as is an autograph file.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Advertising Federation of
+				  America, 
+				   <date>
+					 1934-1956, undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1934-1956, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Advertising Research Foundation, 
+				   <date>1953-1955 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1955 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Autograph file, 
+				   <date>1933-1961 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933-1961 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Blue Network (American
+				  Broadcasting Co.), 
+				   <date>1944, 1957-1960</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944, 1957-1960</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Broadcasters' Advisory Council, 
+				   <date>1947 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Federal Communications
+				  Commission, 
+				   <date>1960-1961 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960-1961 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">General Mills, Inc., 
+				   <date>1949-1954 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1949-1954 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Kobak, Edgar H., 
+				   <date>1934-1945, 1959-1962</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934-1945, 1959-1962</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">McGraw-Hill Publishing Co., 
+				   <date>1949-1962 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1949-1962 </unitdate>
+                  <physdesc encodinganalog="300$a">(3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Mehren, Edward J., 
+				   <date>1953-1961</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1961</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Mutual Broadcasting System, 
+				   <date>
+					 1944-1962 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1944-1962 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">National Association of
+				  Broadcasters, 
+				   <date>1950-1962</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950-1962</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">National Broadcasting
+				  Co.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Interdepartmental
+					 correspondence, 
+					  <date>1935</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> General, 
+					  <date>
+						1934-1960</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+						1934-1960</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">National Recovery Administration,
+				  
+				   <date>1933-1934 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933-1934 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">National Society for Crippled
+				  Children and Adults, 
+				   <date>1950-1962 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1950-1962 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Nielsen (AC) Co., 
+				   <date>1949-1962</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1949-1962</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a"> Peabody Awards, 
+				   <date>
+					 1961 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1961 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">S &amp; C Electric Co., 
+				   <date>1952-1962</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952-1962</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Toll (subscription) television, 
+				   <date>
+					 1955 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1955 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Town Hall, 
+				   <date>1951</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Variety, 
+				   <date>1955-1961</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955-1961</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a"> Miscellaneous </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a"> A-E, 
+					  <date>1940-1962</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1962</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a"> F-L, 
+					  <date>1916-1962</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1916-1962</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a"> M-S, 
+					  <date>1933-1962</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933-1962</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a"> T-Z, 
+					  <date>
+						1949-1966</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+						1949-1966</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a" id="speewrit"> Speeches and
+				Writings, 
+				 <date normal="1928/1962">1928-1962 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1928/1962">1928-1962 </unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Reprints, clippings, typescripts, and near-print duplications of
+				Kobak's articles, speeches, and public statements, including notes for speeches
+				and a transcript of a discussion.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a"> 
+				                             <date>1928-1962, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928-1962, undated</unitdate>
+                  <physdesc encodinganalog="300$a"> (7 folders)
+				  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a" id="buspap">Business Papers, 
+				 <date normal="1948/1962">1948-1962</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1948/1962">1948-1962</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Correspondence and miscellaneous business papers.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p> Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Business affairs, Thomson, Ga., 
+				   <date>1948-1962, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948-1962, undated</unitdate>
+                  <physdesc encodinganalog="300$a"> (8
+				  folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">6-9</container>
+               <unittitle encodinganalog="245$a" id="miscella">Miscellany, 
+				 <date normal="1929/1962">circa 1929-1962 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1929/1962">circa 1929-1962 </unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Scrapbooks, clippings, experience records, sketches of Kobak,
+				memorabilia, fragments, miscellaneous tributes, and photographs. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Business, financial, and personal
+				  papers </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Printed material, memorabilia,
+				  and photographs </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Clippings, 
+				   <date>1932-1962, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932-1962, undated</unitdate>
+                  <physdesc encodinganalog="300$a"> (6
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Scrapbooks</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1929-1945 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929-1945 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>
+						1945-1954 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+						1945-1954 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1953-1962 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1962 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

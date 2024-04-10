@@ -1,0 +1,2796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010301">loc.mss/eadmss.ms010301</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Andrew Jackson Donelson Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by John McDonough</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2011" encodinganalog="260$c" era="ce" calendar="gregorian">2011</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm79018721">https://lccn.loc.gov/mm79018721</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2022-04">2022 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>unitdates encoded</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2011-03">2011 March</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Provenance updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2010">2010</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Andrew Jackson Donelson Papers <date altrender="Inclusive Dates" localtype="inclusive" normal="1779/1943">1779-1943</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1813/1869">1813-1869</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1779/1943"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1779-1943</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1813/1869"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1813-1869</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS18721</unitid>
+         <origination label="Creator">
+            <persname source="lcnaf" encodinganalog="100">
+               <part>Donelson, Andrew Jackson, 1799-1871</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">4,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">24 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">6 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">14 microfilm reels</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English </p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part> Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Lawyer, editor, army officer, diplomat,
+            and presidential secretary. Correspondence, journals, draft messages of Andrew Jackson,
+            diplomatic papers, newsclippings, scrapbook, sketches, photos, and other papers covering
+            Donelson's career as aide-de-camp and secretary to Andrew Jackson, charge d'affaires to
+            Texas, minister to Prussia, editor of the <emph render="italic"> Washington
+            Union</emph>, and candidate for vice president. Includes papers of Donelson's wife,
+            Emily Tennessee Donelson, daughter, Mary Emily Donelson, and other family material. Also
+            original documents relating to the ratification of the Constitution by
+            Virginia.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230512174621.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Branch, John, 1782-1863--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Brent, William, 1783-1848.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Brownlow, William Gannaway, 1805-1877--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Buchanan, James, 1791-1868--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Burke, Pauline Wilcox. Pauline Wilcox Burke papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Butler, Benjamin F. (Benjamin Franklin), 1795-1858--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Call, R. K. (Richard Keith), 1791-1862--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Cass, Lewis, 1782-1866--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="unspecified">
+               <part>Donelson family.</part>
+            </famname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Donelson, Andrew Jackson, 1799-1871.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Donelson, Emily Tennessee, 1807-1836. Emily Tennessee Donelson papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Duane, William J. (William John), 1780-1865--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Eaton, John Henry, 1790-1856--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Eaton, John Henry, 1790-1856.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Eaton, Peggy, 1799?-1879</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jackson, Andrew, 1767-1845--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jackson, Andrew, 1767-1845.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Kendall, Amos, 1789-1869--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Livingston, Edward, 1764-1836--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Martin, James Glasgow. James Glasgow Martin papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>McLane, Louis, 1786-1857--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Monroe, James, 1758-1831--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pendleton, Edmund, 1721-1803.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Poindexter, George, 1779-1853.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Polk, James K. (James Knox), 1795-1849--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Randolph, Meriwether Lewis, 1810-1837. Meriwether Lewis Randolph papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Taney, Roger Brooke, 1777-1864--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Taylor, Zachary, 1784-1850--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Tyler, John, 1790-1862--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Van Buren, Martin, 1782-1862--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Wilcox, Mary Emily Donelson, 1829-1905. Mary Emily Donelson Wilcox papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Woodbury, Levi, 1789-1851--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Bank of the United States (1816-1836)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army--Officers.</part>
+            </corpname>
+            <corpname encodinganalog="710" source="lcnaf">
+               <part>United States. Constitution. 1787.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Virginia. Convention (1788)</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>American newspapers--Washington (D.C.)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Cabinet officers--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Constitutional history--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Constitutions--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Diplomatic and consular service, American--Prussia (Germany)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Elections--United States--1824.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Elections--United States--1828.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Elections--United States--1832.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Elections--United States--1856.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>French spoliation claims.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Nullification (States' rights)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Plantations.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Presidents--United States--Election.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Germany--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Prussia (Germany)--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Texas--History--Republic, 1836-1846.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Economic conditions--To 1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Economic policy--To 1933.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Germany.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Prussia (Germany)</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--1783-1789.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--1783-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--1829-1837.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Virginia--Politics and government--1775-1865.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Washington union.</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Army officers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Diplomats.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Editors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Lawyers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Secretaries, Presidential.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of Andrew Jackson Donelson, lawyer, editor, army officer, diplomat, and
+            presidential secretary were acquired in 1917 from Bettie M. Donelson, Nashville, Tenn.
+            Small, but important, additions were between 1919 and 1972 by Robert Dyas, of Nashville,
+            and others. In 1942 Pauline Wilcox Burke gave a group of Emily Tennessee Donelson's
+            papers, and in 1948 an album of Mary Emily Donelson's was acquired from the same source.
+            Burke's own notes, photocopies, and transcripts relating to the Donelsons, as well as
+            some original manuscript letters, were bequeathed to the Library in 1954.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The Donelson Papers were processed in 1970 and prepared for microfilming in 1971. One
+            item, a photograph of Bettie M. Donelson tipped into the bound volume of the papers of
+            Emily Tennessee Donelson in Container 21, was added to the collection in 1972 subsequent
+            to filming. The finding aid was revised in 2010 and again in 2011.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Andrew Jackson Donelson is
+            governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506">
+         <head>Access and Restrictions</head>
+         <p>The papers of Andrew Jackson Donelson are open to research. Researchers are advised to
+            contact the Manuscript Reading Room prior to visiting. Many collections are stored
+            off-site and advance notice is needed to retrieve these items for research use.dd</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p>A microfilm edition of part of these papers is available on fourteen reels. Consult
+            reference staff in the Manuscript Division concerning availability for purchase or
+            interlibrary loan. To promote preservation of the originals, researchers are required to
+            consult the microfilm edition.</p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container or reel number, Andrew Jackson Donelson Papers, Manuscript Division, Library
+            of Congress, Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1799, Aug. 25</datesingle>
+               <event>Born, near Nashville, Tenn.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1805, circa</datesingle>
+               <event>Became ward of Andrew Jackson</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1817</datesingle>
+               <event>Appointed cadet, United States Military Academy, West Point, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1820</datesingle>
+               <event>Graduated, United States Military Academy, West Point, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1820</fromdate>
+                  <todate>1821</todate>
+               </daterange>
+               <event>Aide-de-camp to General Andrew Jackson at Nashville, Tenn., and in
+                  Florida</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1822</datesingle>
+               <event>Resigned from the army</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1822</fromdate>
+                  <todate>1823</todate>
+               </daterange>
+               <event>Studied law, Transylvania University, Lexington, Ky.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1823</datesingle>
+               <event>Admitted to bar, Nashville, Tenn., and commenced practice there</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1824</datesingle>
+               <chronitemset>
+                  <event>Married Emily Tennessee Donelson, a cousin</event>
+                  <event>Assisted Andrew Jackson in unsuccessful presidential campaign of
+                     1824</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1825</fromdate>
+                  <todate>1828</todate>
+               </daterange>
+               <event>Engaged in legal practice in Nashville, Tenn., and farming near
+                  Nashville</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1828</datesingle>
+               <event>Assisted Andrew Jackson in successful campaign for presidency</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1829</fromdate>
+                  <todate>1837</todate>
+               </daterange>
+               <event>private secretary and confidential advisor to President Andrew Jackson,
+                  residing at White House</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1836</datesingle>
+               <event>Death of Emily Tennessee Donelson</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1837</datesingle>
+               <event>Returned to Tennessee</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1841</datesingle>
+               <event>Married Elizabeth Martin Randolph, widow of Lewis Randolph</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1844</fromdate>
+                  <todate>1845</todate>
+               </daterange>
+               <event>Chargé d'affaires to Republic of Texas </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1846</fromdate>
+                  <todate>1848</todate>
+               </daterange>
+               <event>Minister to Prussia</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1848</fromdate>
+                  <todate>1849</todate>
+               </daterange>
+               <event>Minister to Federal Government of Germany</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1851</fromdate>
+                  <todate>1852</todate>
+               </daterange>
+               <event>Edited <title localtype="simple">
+                     <part>Washington Union</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1856</datesingle>
+               <event>Vice-presidential candidate on the Millard Fillmore ticket, American
+                  Party</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1871, June 26</datesingle>
+               <event>Died, Memphis, Tenn.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Andrew Jackson Donelson extend from 1779 to 1943, although they are
+            principally for the period from 1813-1869. Letters received by Donelson constitute the
+            bulk of the papers, but retained contemporary copies and drafts of letters sent are
+            present, as well as transcripts and photocopies. Also included are a letter copybook of
+            Donelson's dispatches from Berlin, 1846-1848, a few drafts of speeches, legal and
+            financial papers, photographs, engravings, and printed matter. The collection is
+            arranged in six series: <ref show="replace" actuate="onrequest" target="general">
+               General Correspondence and Other Papers </ref>, <ref show="replace" actuate="onrequest" target="additional"> Additional Correspondence </ref>, <ref show="replace" actuate="onrequest" target="letter"> Letter Copybook </ref>, <ref show="replace" actuate="onrequest" target="miscellany"> Miscellaneous Papers </ref>,
+               <ref show="replace" actuate="onrequest" target="family"> Family Papers </ref>, and
+               <ref show="replace" actuate="onrequest" target="printed"> Printed Matter, Documents
+               and Indexes. </ref>
+         </p>
+         <p>Others represented in the Andrew Donelson Papers by distinct but lesser groups of
+            material are Emily Tennessee Donelson, wife of A.J. Donelson, a volume containing
+            correspondence, journal entries, and photographs; Mary Emily Donelson, daughter of
+            Andrew Donelson, an album, diary, and scrapbook, with some correspondence; James Glasgow
+            Martin and Lewis Randolph, correspondence, journals, and notebooks; and Pauline Wilcox
+            Burke, great-granddaughter of Andrew Donelson, correspondence, notes, and research
+            materials.</p>
+         <p>The major portion of the collection relates to the Donelson's public life, as a cadet at
+            West Point, military aide and private secretary to his uncle, Andrew Jackson, diplomat
+            in Mexico and Germany, editor, and political candidate. Very few items relate to the
+            Civil War period or to the years thereafter.</p>
+         <p>Andrew Donelson was closely associated with Andrew Jackson from early youth until the
+            latter's death in 1845. Whenever the two were separated, Jackson would write frequent
+            letters to his nephew, discussing matters large and small. Jackson is, then, a major
+            figure in the Donelson papers, and there are some 250 of his letters in the collection.
+            Many drafts and fair copies of Jackson's presidential messages and proclamations were
+            once a part of the Donelson Papers, but were placed with the Library's Jackson Papers
+            some years ago.</p>
+         <p>Among the many subjects touched upon by correspondence in the Donelson papers are
+            Jackson's presidential campaigns of 1824, 1828, and 1832, the Eaton affair, the
+            resulting Donelson-Jackson breach, and the subsequent cabinet reorganization of 1831.
+            The move to recharter the Bank of the United States, nullification, the Poindexter
+            incident, French spoliation claims, removal of deposits, and other issues of Jackson's
+            presidency are also subjects of correspondence. There are many letters from office
+            seekers and from others hoping to influence President Jackson through his secretary.
+            Family affairs and plantation matters, especially the management of slaves and the
+            breeding and training of horses, are frequent topics of correspondence.</p>
+         <p>Donelson's diplomatic career, as chargé d'affaires at the time of the annexation of
+            Texas, and as minister to Prussia and Germany, is developed in correspondence and in the
+            case of Germany, copies of dispatches. His brief political career, with the American
+            Party, is not as fully portrayed as other aspects of his life, and very little is
+            available to document the later years spent out of public service.</p>
+         <p>A small, but highly unusual, group of material in the collection consists of documents
+            relating to Virginia's ratification of the United States Constitution, 1787-1788.
+            Included is a Dunlap and Claypoole printing of the Constitution with holograph
+            annotations by Edmund Pendleton.</p>
+         <p>The roster of prominent correspondents in the Donelson Papers is long and varied.
+            Presidents in addition to Jackson represented by correspondence are James Monroe, Martin
+            Van Buren, John Tyler, James K. Polk, Zachary Taylor, Millard Fillmore, Franklin Pierce,
+            and James Buchanan. Many of Jackson's cabinet members are included, such as Edward
+            Livingston, Louis McLane, Roger Brooke Taney, Levi Woodbury, John Henry Eaton, Lewis
+            Cass, Benjamin F. Butler, Amos Kendall, John Branch, and William J. Duane.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>The collection is arranged in six series:</p>
+         <list listtype="unordered" mark="circle">
+            <item>
+               <ref show="replace" actuate="onrequest" target="general"> General Correspondence and
+                  Other Papers, 1813-1869 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="additional"> Additional
+                  Correspondence, 1835-1894 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="letter"> Letter Copybook, 1846-1848
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="miscellany"> Miscellaneous Papers,
+                  1785-1849 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="family"> Family Papers, 1779-1943
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="printed"> Printed Matter, Documents,
+                  and Indexes </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <p>Available on microfilm. Shelf no. 14,894</p>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-18</container>
+               <container localtype="reel">1-9</container>
+               <unittitle id="general" encodinganalog="245$a">General Correspondence and Other
+                  Papers, <date normal="1813/1869">1813-1869</date>
+               </unittitle>
+               <unitdate normal="1813/1869" encodinganalog="245$f" era="ce" calendar="gregorian">1813-1869</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent and received.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Bound volumes arranged chronologically. Volumes 17 and 18 are undated. Volumes 1-7
+                  are item indexed. </p>
+            </arrangement>
+            <otherfindaid>
+               <p>
+                  <emph render="italic">Index available in Manuscript Division Reading Room and on
+                     Reel 14 of the microfilm.</emph>
+               </p>
+            </otherfindaid>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>30 July 1813-3 Apr. 1824</date>
+                     <emph render="italic">Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>30 July 1813-3 Apr. 1824</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Calhoun, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Grundy, Felix</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jackson, Andrew</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLemore, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Monroe, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reid, John</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">1-2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>4 Apr. 1824-9 June 1829</date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>4 Apr. 1824-9 June 1829</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Boyd, John P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Eaton, John H.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jackson, Andrew</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kendall, Amos</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lee, Henry</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Livingston, Edward</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLemore, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McNairy, Boyd</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Trist, Nicholas</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Van Buren, Martin</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>10 June 1829-16 June 1830 </date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>10 June 1829-16 June 1830 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Anderson, Joseph</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Boyd, John P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Butler, Edward G. W.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Catron, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fenner, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gales &amp; Seaton</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Grinnell, Joseph</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jackson, Andrew</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lee, Henry</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLane, Louis</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLemore, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Overton, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Swartwout, Samuel</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Van Buren, Martin</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Woodbury, Levi</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>17 June 1830-26 June 1831</date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>17 June 1830-26 June 1831</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Branch, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Duval, William P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hamilton, James, Jr.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jackson, Andrew</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lee, Henry</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLemore, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Overton, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Simpson, Stephen</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Swartwout, Samuel</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wickliffe, Charles A.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>27 June 1831-11 Dec. 1832 </date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>27 June 1831-11 Dec. 1832 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bell, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Cass, Lewis</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Catron, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Coffee, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Desha, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gadsden, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Harvey, William Selby</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jackson, Andrew</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kemble, Gouverneur</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lewis, William B.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLane, Louis</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLemore, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Swartwout, Samuel</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Woodbury, Levi</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>12 Dec. 1832-18 Dec. 1834</date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>12 Dec. 1832-18 Dec. 1834</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Anderson, Joseph</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Archer, William Segar</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Armstrong, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Benton, Thomas Hart</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Call, Richard Keith</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Cass, Lewis</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Duane, William J.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Duval, William P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ely, Ezra S.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Everett, Edward</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gardiner, James B.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gwin, William McKendree</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jackson, Andrew</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Johnson, Richard Mentor</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kendall, Amos</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lee, Henry</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Littell, Eliakim</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Livingston, Edward</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLane, Louis</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Monroe, James (NewYork)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Polk, Lucius</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Porter, James Madison</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Shepley, Ether</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Skinner, John Stuart</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Swartwout, Samuel</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Taney, Roger Brooke</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Trist, Nicholas</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Turnbull, William</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Van Buren, Martin</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Whitney, Reuben M.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <container localtype="reel">4</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>20 Dec. 1834-16 Dec. 1836</date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>20 Dec. 1834-16 Dec. 1836</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Buchanan, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Butler, Benjamin F.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Call, Richard Keith</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Catron, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">D'avezac, Auguste</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dudley, Charles Edward</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Earl, Ralph E. W.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Harris, Carey A.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jackson, Andrew</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Laughlin, Sam</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Livingston, Edward</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLemore, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Mahan, Dennis Hart</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Mann, Abijah, Jr.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Moore, Thomas P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Parris, Albion K.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Polk, James K.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Skinner, John Stuart</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Swartwout, Samuel</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Taney, Roger Brooke</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Yell, Archibald</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <container localtype="reel">4</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>17 Dec. 1836-19 Feb. 1840</date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>17 Dec. 1836-19 Feb. 1840</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Butler, Edward G.W.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Carroll, William</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Cass, Lewis</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Catron, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Elliott, Jesse Duncan</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Grundy, Felix</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Harris, Jeremiah George</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jackson, Andrew</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">King, William R.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lewis, William B.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLemore, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Nicholson, A. O. P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Polk, James K.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Van Buren, Martin</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Whitcomb, James</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <container localtype="reel">5</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>20 Feb. 1840-7 Nov. 1844</date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>20 Feb. 1840-7 Nov. 1844</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Armstrong, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bancroft, George</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Benton, Thomas Hart</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Blair &amp; Rives</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Brown, Aaron Venable</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Buchanan, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Calhoun, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Cass, Lewis</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">D'avezac, Auguste</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Harris, Jeremiah George</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Haywood, William H., Jr.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jackson, Andrew</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kendall, Amos</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Laughlin, Sam</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lewis, William B.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McDuffie, George</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLemore, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Poinsett, Joel R.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Polk, James K.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Taney, Roger Brooke</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Tyler, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Van Buren, Martin</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container localtype="reel">5</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>8 Nov. 1844-1 Jan. 1846 </date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>8 Nov. 1844-1 Jan. 1846 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Armstrong, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Benton, Thomas Hart</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Buchanan, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Butler, Benjamin F.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Calhoun, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Cass, Lewis</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Claiborne, John F. H.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gadsden, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Given, William M.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Green, Duff</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Heiss, John P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hemphill, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Houston, Sam</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ingersoll, Ralph I.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jackson, Andrew</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lewis, William B.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLemore, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLeod, Hugh</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Polk, James K.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Richardson, Willard</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Roberts, Benjamin Stone</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sawyer, Lemuel</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Smith, Morgan L.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Taylor, Zachary</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Trist, Nicholas</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Van Buren, Martin</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <container localtype="reel">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>2 Jan. 1846-8 Apr. 1847</date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>2 Jan. 1846-8 Apr. 1847</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bancroft, George</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bates, Daniel M.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bates, Martin W.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bayard, James A.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Blair, Francis P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Branch, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Buchanan, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Canitz, Baron</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Claiborne, John F. H.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Clay, Henry</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fay, Theodore S.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gadsden, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gentry, Meredith P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Haywood, William H.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Henshaw, David</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ingersoll, Colin M.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ingersoll, Ralph I.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jarnagin, Spencer</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Johnson, Cave</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Letcher, Robert P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lewis, Dixon H.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lowrie, Walter</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLane, Louis</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLemore, Andrew J.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Manteuffel, E.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Passavant, W.A.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Polk, James K.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Schilden, Baron de</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Schleinitz, Baron</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Seymour, David L.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Van Buren, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Van Buren, Martin</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wheaton, Henry</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wittgenstein, Prince</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <container localtype="reel">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>9 Apr. 1847-25 Feb. 1848</date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>9 Apr. 1847-25 Feb. 1848</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Armstrong, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bancroft, George</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Baring Brothers</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Buchanan, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Butler, William Allen</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Canitz, Baron</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Eaton, John H.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fay, Theodore S.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Graham, James Duncan</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ingersoll, Colin M.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ingersoll, Ralph I.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lawrence, Abbott</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Morton, Marcus</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Rush, Richard</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Walker, Sears C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wheaton, Henry</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <container localtype="reel">7</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>26 Feb.-16 June 1848</date>
+                     <emph render="italic">Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>26 Feb.-16 June 1848</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Arnim, Count H. K .K. E. von</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Buchanan, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Calhoun, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Canitz, Baron</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gwin, William M.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ingersoll, Ralph I.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Mason, James M.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Mason, John Y.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ritchie, Thomas</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sanford, Henry S.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container localtype="reel">7</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>17 June-15 Dec. 1848 </date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>17 June-15 Dec. 1848 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Armstrong, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Arnim, Count H. K. K. E. von</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bülow, Count</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ellsworth, Henry W.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fay, Theodore S.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paulding, Hiram</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sanford, Henry S.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Taylor, Zachary</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>17 Dec. 1848-14 Jan. 1850 </date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>17 Dec. 1848-14 Jan. 1850 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Buchanan, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Calhoun, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Clayton, John M.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ellsworth, Henry W.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fay, Theodore S.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lawrence, Abbott</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Parker, Foxhall A.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Paulding, Hiram</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sanford, Henry S.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Walsh, Robert</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>17 Jan. 1850-22 Mar. 1869</date>
+                     <emph render="italic"> Correspondents include:</emph>
+                  </unittitle>
+                  <unitdate>17 Jan. 1850-22 Mar. 1869</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Blair, Francis P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bowlin, James Butler</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Brownlow, William Gannaway</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Buchanan, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Call, Richard Keith</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Cass, Lewis</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Clay, Thomas H.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Clayton, John M.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Eaton, John H.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ewing, Andrew</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fay, Theodore S.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fillmore, Millard</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Gentry, Meredith P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Howard, Benjamin Chew</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jackson, Andrew, Jr.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Johnson, Cave</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Johnston, John R.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jones, Anson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Marcy, William L.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Meade, Richard Kidder</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Seymour, Horatio, Jr.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Stanton, Richard Henry</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Tyler, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Webster, Daniel</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <container localtype="reel">9</container>
+                  <unittitle encodinganalog="245$a">Financial records of Lewis Randolph</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lists, statements, receipts</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Memoranda, speeches, fragments</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Undated correspondence<emph render="italic">
+                        Correspondents include:</emph>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Armstrong, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fay, Theodore S.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLemore, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <container localtype="reel">9</container>
+                     <unittitle encodinganalog="245$a">Armstrong, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Berrien, John MacPherson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Boyd, John P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Call, Richard Keith</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Catron, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Donelson, Mary Emily</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fay, Theodore S.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Filmore, Millard</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Godwin, Parke</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Green, Duff</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jesup, Thomas S.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLane, Louis</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McLemore, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Macomb, Alexander</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sanford, Henry S.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Skinner, John Stuart</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Taney, Elizabeth M.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Van Buren, Martin</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Webb, James Watson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Webster, Daniel</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wheaton, Henry</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Woodbury, Levi</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">19</container>
+               <container localtype="reel">9</container>
+               <unittitle id="additional" encodinganalog="245$a">Additional Correspondence, <date normal="1835/1894">1835-1894</date>
+               </unittitle>
+               <unitdate normal="1835/1894" encodinganalog="245$f" era="ce" calendar="gregorian">1835-1894</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent and received </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <emph render="italic">Correspondents include:</emph>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Blair, Francis P.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Brown, Aaron V.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Buchanan, James</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Calhoun, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Cass, Lewis</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Davis, Jefferson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Donelson, Andrew J., Jr.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fillmore, Millard</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jackson, Andrew</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Maverick, Samuel A.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pierce, Franklin</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pulitzer, Joseph</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Spencer, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Stephens, Alexander H.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Van Buren, Martin</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wilcox, Cadmus</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wilcox, John A.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Woodbury, Levi</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">19</container>
+               <container localtype="reel">10</container>
+               <unittitle id="letter" encodinganalog="245$a">Letter Copybook, <date normal="1846/1848">1846-1848</date>
+               </unittitle>
+               <unitdate normal="1846/1848" encodinganalog="245$f" era="ce" calendar="gregorian">1846-1848</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Copies of Donelson's diplomatic dispatches from Berlin, nos. 1-85.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged in numerical (and chronological) order</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <container localtype="reel">10</container>
+                  <unittitle encodinganalog="245$a">Letter copybook of Donelson's diplomatic
+                     dispatches from Berlin, Germany </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">20</container>
+               <container localtype="reel">10</container>
+               <unittitle id="miscellany" encodinganalog="245$a">Miscellaneous Papers, <date normal="1785/1849">1785-1849</date>
+               </unittitle>
+               <unitdate normal="1785/1849" encodinganalog="245$f" era="ce" calendar="gregorian">1785-1849</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Speeches, legal papers, and accounts of Donelson. Transcriptions and photocopies
+                  of letters of Andrew Jackson, Andrew Jackson Donelson, and others. Also
+                  biographical sketches of Jackson, Andrew Jackson Donelson, and Mary Smith
+                  Donelson.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <container localtype="reel">10</container>
+                  <unittitle encodinganalog="245$a">Speeches, addresses</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Deed of mortgage, <date>1842</date>
+                  </unittitle>
+                  <unitdate>1842</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Donelson vs. Saunders</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Accounts, <date>1847-1849, undated
+                     </date>
+                  </unittitle>
+                  <unitdate>1847-1849, undated </unitdate>
+                  <physdesc>(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Statistics, tables, etc.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Copied correspondence (transcriptions and
+                     photocopies), <date>1785-1849 </date>
+                  </unittitle>
+                  <unitdate>1785-1849 </unitdate>
+                  <physdesc>(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Biographical sketches</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Andrew Jackson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Andrew Jackson Donelson </unittitle>
+                     <physdesc>(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Mary Smith Donelson</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">21-23</container>
+               <container localtype="reel">11-12</container>
+               <unittitle id="family" encodinganalog="245$a">Family Papers, <date normal="1779/1943">1779-1943</date>
+               </unittitle>
+               <unitdate normal="1779/1943" encodinganalog="245$f" era="ce" calendar="gregorian">1779-1943</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Papers of Emily Tennessee Donelson, Mary Emily Donelson, James Glasgow Martin and
+                  Lewis Randolph, and Pauline Wilcox Burke. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>The volume of Emily Tennessee Donelson papers is indexed. </p>
+            </arrangement>
+            <otherfindaid>
+               <p>
+                  <emph render="italic">Index available in Manuscript Division Reading Room and on
+                     Reel 14 of the microfilm.</emph>
+               </p>
+            </otherfindaid>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <container localtype="reel">11</container>
+                  <unittitle encodinganalog="245$a">Emily Tennessee Donelson papers, bound vol.
+                     containing journal entries, letters sent and received (in part, photocopies),
+                     and photographs, 1779-1853 received  <emph render="italic">Includes photograph
+                        of Bettie M. Donelson that was tipped into the volume after
+                        microfilming.</emph>
+                     <ref show="replace" actuate="onrequest" target="index25">
+                        <emph render="italic">For contents see Container 25,</emph> Indexes</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <container localtype="reel">11</container>
+                  <unittitle encodinganalog="245$a">Mary Emily Donelson papers, <date>1836-1856
+                     </date>
+                  </unittitle>
+                  <unitdate>1836-1856 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Album (including some
+                        correspondence)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Diary</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Scrapbook</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">James Glasgow Martin and Lewis Randolph papers,
+                        <date>1818-1846</date>
+                  </unittitle>
+                  <unitdate>1818-1846</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Letters of W. Williams to Martin,
+                           <date>1818-1824</date>
+                     </unittitle>
+                     <unitdate>1818-1824</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Journal kept by Martin,
+                           <date>1843-1846</date>
+                     </unittitle>
+                     <unitdate>1843-1846</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Memoranda books, estate papers, and related
+                        matter of Randolph, <date>1836-1846</date>
+                     </unittitle>
+                     <unitdate>1836-1846</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <container localtype="reel">11-12</container>
+                  <unittitle encodinganalog="245$a">Pauline Wilcox Burke papers,
+                        <date>1913-1943</date>
+                  </unittitle>
+                  <unitdate>1913-1943</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence,
+                        <date>1913-1943</date>
+                     </unittitle>
+                     <unitdate>1913-1943</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes and sketches concerning Donelson's
+                        career </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bibliographical notes</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notebooks concerning Donelson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes on Mrs. Andrew Jackson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sketch of Emily T. Donelson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Photographs and engravings </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">24-25</container>
+               <container localtype="reel">12-14</container>
+               <unittitle id="printed" encodinganalog="245$a">Printed Matter, Documents, and
+                  Indexes</unittitle>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Printed matter and documents relating to the ratification of the Constitution by
+                  Virginia.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by type of material. </p>
+            </arrangement>
+            <otherfindaid>
+               <p>
+                  <emph render="italic">The indexes are not part of the collection, but are
+                     available in the Manuscript Division Reading Room and at the end of Reel 14 of
+                     the microfilm edition.</emph>
+               </p>
+            </otherfindaid>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <container localtype="reel">12-13</container>
+                  <unittitle encodinganalog="245$a">Printed matter</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Broadsides</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pamphlets </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Newspapers</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">News clippings </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25 (OV)</container>
+                  <container localtype="reel">13</container>
+                  <unittitle encodinganalog="245$a">Documents relating to Virginia's ratification of
+                     the United States Constitution, 1787-1788 (oversize)</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Dunlap and Claypoole printing of the
+                        Constitution, with annotations by Edmund Pendleton (6 pages in 2
+                        pieces)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pendleton, Edmund, address to the Virginia
+                        Convention on the occasion of his being chosen to preside, 2 June 1788
+                        (autograph document, 1 page, with endorsement)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Memoranda (excerpts from <title localtype="simple">
+                           <part>Journal of the Convention</part>
+                        </title>, with other notes by William Brent, Jr.)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Journal of the Convention of Virginia</part>
+                        </title>, <date>June 1788</date> (printed by Augustine Davis, 42 pages, with
+                        notes in an unidentified hand)</unittitle>
+                     <unitdate>June 1788</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous notes relating to
+                        documents</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">14</container>
+                  <unittitle encodinganalog="245$a">Indexes <emph render="italic">Not part of
+                        collection. Available in Manuscript Division Reading room</emph>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Index to Containers 1-7 (but including all
+                        Andrew Jackson items, wherever located in the Donelson Papers)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="index25" encodinganalog="245$a">Index to Emily Tennessee
+                        Donelson papers</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

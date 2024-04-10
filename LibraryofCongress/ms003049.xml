@@ -1,0 +1,2016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms003049">loc.mss/eadmss.ms003049</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">John Hay Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2022" encodinganalog="260$c" era="ce" calendar="gregorian">2022</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78025379">https://lccn.loc.gov/mm78025379</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2021-12">2021 December</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Title, controlaccess updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Title, controlaccess updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2008-02">2008 February</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Letter dated 1913 added in 2008</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2004-07-23">2004-07-23</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>converted from EAD 1.0 to EAD 2002</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2003">2003</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">John Hay Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1783/1999">1783-1999</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1897/1905">1897-1905</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1783/1999"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1783-1999</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1897/1905"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1897-1905</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS25379</unitid>
+         <origination label="Creator">
+            <persname source="lcnaf" encodinganalog="100">
+               <part>Hay, John, 1838-1905</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">11,300 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">36 containers plus 40 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">29 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">23 microfilm reels</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Statesman, diplomat, historian,
+            journalist, and poet. Correspondence and letterbooks, speeches, diaries, notebooks,
+            scrapbooks, and memoranda, mainly for the years 1897-1905 when Hay served as United
+            States ambassador to Great Britain and United States secretary of state. Earlier papers
+            deal with his legal, literary, and journalistic activities and with his service as
+            assistant secretary to Abraham Lincoln. Includes correspondence of his wife, Clara
+            Louise Stone Hay (1849-1914), for the years 1882-1914.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230503152211.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Adams, Brooks, 1848-1927--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Adee, Alvey A. (Alvey Augustus), 1842-1924--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Choate, Joseph Hodges, 1832-1917--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Cortelyou, George B. (George Bruce), 1862-1940--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Eliot, Charles William, 1834-1926--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hay family.</part>
+            </famname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Hay, Clara Louise Stone, 1849-1914 Clara Louise Stone Hay correspondence. 1882-1914.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Hay, John, 1838-1905.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>James, Henry, 1843-1916--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>King, Clarence, 1842-1901--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lincoln, Abraham, 1809-1865.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lodge, Henry Cabot, 1850-1924--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>McKinley, William, 1843-1901--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>McKinley, William, 1843-1901.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pauncefote, Julian, 1828-1902--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Rockhill, William Woodville, 1854-1914--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Roosevelt, Theodore, 1858-1919--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Roosevelt, Theodore, 1858-1919.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Root, Elihu, 1845-1937--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Spring Rice, Cecil, Sir, 1859-1918--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Twain, Mark, 1835-1910--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>American newspapers--New York (State).</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>American poetry.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Diplomatic and consular service, American--Great Britain.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Land grants--Kentucky.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Practice of law--Illinois--Springfield.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Slavery--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Spanish-American War, 1898.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Great Britain--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--1897-1901.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--1901-1909.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Great Britain.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>New York tribune.</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Authors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Cabinet officers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Diplomats.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Journalists.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Poets.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Statesmen.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of John Hay, statesman, diplomat, historian, journalist, and poet, were given
+            to the Library of Congress in 1952 by Hay's son and daughter, Clarence L. Hay and Alice
+            Hay Wadsworth. Additional material was received from his grandchildren, Evelyn Wadsworth
+            Symington (Mrs. Stuart Symington), Reverdy Wadsworth, and James J. Wadsworth, in 1960
+            and from James W. Symington in 1999, 2003, and 2008. A few items also were obtained
+            through gift, purchase, and transfer between 1910 and 1942.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p> The papers of John Hay were arranged and described by Frank Tusa in 1971. Additional
+            material received in 1999 and items transferred from the Miscellaneous Manuscripts
+            Collection were incorporated into the collection by Donna Ellis in 2002. When the
+            collection was rehoused in 2002, the organization of the material remained unchanged.
+            Although the finding aid and container list were revised to indicate the current
+            housing, the container numbers noted in the microfilm edition reflect the original
+            housing. A letter dated 1913 was added to the collection by Donna Ellis in 2008.
+            Additional letters were processed and described by Carlynn Chapmann and Pang H. Xiong in
+            2021. </p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>A broadside was transferred to the Rare Book and Special Collections Division where it
+            is identified as part of these papers. Patrons are encouraged to contact the Rare Book
+            and Special Collections Division in advance of a research visit.</p>
+      </separatedmaterial>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Other Repositories</head>
+         <p>Other papers of John Hay can be found in the John Hay Library of Brown University at
+            Providence, Rhode Island. </p>
+      </separatedmaterial>
+      <relatedmaterial encodinganalog="544 1">
+         <head>Related Material</head>
+         <p>Related collections in the Manuscript Division include the Tyler Dennett Collection
+            Relating to John Hay (see <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms007069">https://hdl.loc.gov/loc.mss/eadmss.ms007069</ref>), the Evelyn Wadsworth Symington
+            Collection of John Hay Material (see <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms011121">https://hdl.loc.gov/loc.mss/eadmss.ms011121</ref>), and the James Wadsworth Family
+            Papers (see <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms997014">https://hdl.loc.gov/loc.mss/eadmss.ms997014</ref>).</p>
+      </relatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p> Copyright in the unpublished writings of John Hay in these papers and in other
+            collections of papers in the custody of the Library of Congress has been dedicated to
+            the public. </p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of John Hay are open to research. Researchers are advised to contact the
+            Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p> A microfilm edition of part of these papers is available on twenty-three reels. Consult
+            reference staff in the Manuscript Division concerning availability for purchase or
+            interlibrary loan. <emph render="italic">To promote preservation of the originals,
+               researchers are required to consult the microfilm edition as available.</emph>
+         </p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p> Researchers wishing to cite this collection should include the following information:
+            Container or reel number, John Hay Papers, Manuscript Division, Library of Congress,
+            Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1838, Oct. 8</datesingle>
+               <event>Born, Salem, Ind.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1858</datesingle>
+               <event>Graduated, Brown University, Providence, R.I.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1859</datesingle>
+               <event>Entered law office of Milton Hay, Springfield, Ill.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1861</fromdate>
+                  <todate>1864</todate>
+               </daterange>
+               <event>Assistant private secretary to Abraham Lincoln</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1864</fromdate>
+                  <todate>1865</todate>
+               </daterange>
+               <event>Assistant adjutant general in the United States Army</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1865</fromdate>
+                  <todate>1867</todate>
+               </daterange>
+               <event>Secretary of American legation, Paris, France</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1867</fromdate>
+                  <todate>1868</todate>
+               </daterange>
+               <event>Charge d'affaires, Vienna, Austria</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1869</fromdate>
+                  <todate>1870</todate>
+               </daterange>
+               <event>Secretary of American legation, Madrid, Spain</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1870</fromdate>
+                  <todate>1875</todate>
+               </daterange>
+               <event>Editorial writer, <title localtype="simple">
+                     <part>New York Tribune</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1874</datesingle>
+               <event>Married Clara Louise Stone (died 1914)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1879</fromdate>
+                  <todate>1881</todate>
+               </daterange>
+               <event>Assistant secretary of state</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1881</datesingle>
+               <event>Editor, <title localtype="simple">
+                     <part>New York Tribune</part>
+                  </title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1897</fromdate>
+                  <todate>1898</todate>
+               </daterange>
+               <event>Ambassador to Great Britain</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1898</fromdate>
+                  <todate>1905</todate>
+               </daterange>
+               <event>Secretary of state</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1905, July 1</datesingle>
+               <event>Died, Lake Sunapee, N.H.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of John Hay (1838-1905) span the years 1783 to 1999, with the bulk of the
+            material concentrated in the period 1897-1905. The collection focuses on his diplomatic
+            efforts as secretary of state but also contains material on his career before 1898 and
+            on his personal life. It is composed mainly of correspondence, <ref target="scrap" show="replace" actuate="onrequest"> scrapbooks</ref>, and newspaper clippings
+            supplemented by <ref target="diary" show="replace" actuate="onrequest"> diaries</ref>,
+               <ref target="ltrbks" show="replace" actuate="onrequest"> letterbooks</ref>, and <ref target="misc" show="replace" actuate="onrequest"> miscellaneous material </ref>.
+            There is also an <ref target="auto" show="replace" actuate="onrequest"> autograph
+               collection</ref> relating chiefly to slavery in the United States.</p>
+         <p>American diplomacy from 1898 to 1905 is the central theme of the <ref target="diary" show="replace" actuate="onrequest"> Diaries and Notebooks</ref> and various
+            correspondence series. As secretary of state during the period, Hay played a crucial
+            role in the formulation and execution of American foreign policy. The diaries reflect
+            Hay's role in the later years of his tenure in office. The <ref target="ltrbks" show="replace" actuate="onrequest"> Letterbooks</ref> and <ref target="jhltrs" show="replace" actuate="onrequest"> John Hay Letters</ref> series reveal his views
+            and activities in the diplomatic sphere under presidents William McKinley and Theodore
+            Roosevelt. Hay's letters to his wife in the <ref target="famcorr" show="replace" actuate="onrequest"> Family Correspondence</ref> series, although primarily concerned
+            with personal and social activities, also provide an occasional glimpse into his
+            official concerns.</p>
+         <p>The <ref target="spcorr" show="replace" actuate="onrequest"> Special
+               Correspondence</ref> and <ref target="gencorr" show="replace" actuate="onrequest">
+               General Correspondence</ref> series provide information on all aspects of American
+            foreign affairs while Hay was secretary of state and are useful in portraying his
+            nondiplomatic activities as well. The letters from American diplomatic agents throughout
+            the world reveal the conditions in various countries that influenced official American
+            policy and the manner in which policy decisions were implemented. The largest number of
+            letters in this category are from Joseph Choate and William W. Rockhill in the <ref target="spcorr" show="replace" actuate="onrequest"> Special Correspondence</ref>.
+            Hay's correspondence with Roosevelt and Alvey A. Adee, among others, provides an
+            intimate glimpse into the formation of policy. The <ref target="spcorr" show="replace" actuate="onrequest"> Special Correspondence</ref> and <ref target="gencorr" show="replace" actuate="onrequest"> General Correspondence</ref> series also help to
+            elucidate Hay's personal and political concerns.</p>
+         <p>The container list includes an index to the <ref target="spcorr" show="replace" actuate="onrequest"> Special Correspondence</ref> series. Included among the
+            correspondents are Brooks Adams, Samuel L. Clemens, George B. Cortelyou, Charles William
+            Eliot, Henry James, Clarence King, Henry Cabot Lodge (1850-1924), William McKinley,
+            Julian Pauncefote, Elihu Root, and Cecil Spring-Rice.</p>
+         <p>A <ref target="misc" show="replace" actuate="onrequest"> Miscellany</ref> series
+            contains autographs, drawings, invitations, notes, photographs, printed matter,
+            receipted bills, research material, speeches, and writings. Included is a vellum copy of
+            the Thirteenth Amendment to the United States Constitution autographed by the signators
+            of the amendment.</p>
+         <p>The <ref target="scrap" show="replace" actuate="onrequest"> Scrapbooks</ref> series
+            contains newspaper clippings dealing with America's participation in the
+            Spanish-American War and Hay's personal and political activities, particularly from 1898
+            to 1905.</p>
+         <p>The <ref target="add" show="replace" actuate="onrequest"> Additions</ref> includes a
+            land grant issued by the state of Kentucky on July 2, 1798, to Abraham Lincoln
+            (1744-1786), grandfather of President Abraham Lincoln, and his heirs, along with a
+            letter of January 5, 1877, to John G. Nicolay from A. C. Matthews concerning the grant
+            and a report documenting its authenticity. Also included is a scrapbook containing
+            photographs and newspaper clippings relating to diplomatic functions and family
+            occasions. The 2008 Addition contains a letter from Elizabeth Marion Bryce to Clara
+            Louise Stone Hay concerning a gift of a drawing of the Andes mountain range. The 2021
+            Addition includes three letters from Hay to his daughter, Alice Hay Wadsworth,
+            concerning personal and social activities. In one letter, Hay recounts his first visit
+            to Victoria, Queen of Great Britain. Two other letters are addressed to Hay and relate
+            to the recent death of the queen in 1901. </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in eleven series:</p>
+         <list listtype="unordered" mark="circle">
+            <item>
+               <ref target="diary" show="replace" actuate="onrequest"> Diaries and Notebooks,
+                  1861-1908 </ref>
+            </item>
+            <item>
+               <ref target="ltrbks" show="replace" actuate="onrequest"> Letterbooks, 1898-1905
+               </ref>
+            </item>
+            <item>
+               <ref target="jhltrs" show="replace" actuate="onrequest"> John Hay Letters, 1858-1905
+               </ref>
+            </item>
+            <item>
+               <ref target="famcorr" show="replace" actuate="onrequest"> Family Correspondence,
+                  1882-1914 </ref>
+            </item>
+            <item>
+               <ref target="spcorr" show="replace" actuate="onrequest"> Special Correspondence,
+                  1885-1913 </ref>
+            </item>
+            <item>
+               <ref target="auto" show="replace" actuate="onrequest"> Autograph Collection,
+                  1783-1878 </ref>
+            </item>
+            <item>
+               <ref target="gencorr" show="replace" actuate="onrequest"> General Correspondence,
+                  1856-1905 </ref>
+            </item>
+            <item>
+               <ref target="misc" show="replace" actuate="onrequest"> Miscellany, 1802-1953 </ref>
+            </item>
+            <item>
+               <ref target="scrap" show="replace" actuate="onrequest"> Scrapbooks, 1860-1905 </ref>
+            </item>
+            <item>
+               <ref target="add" show="replace" actuate="onrequest"> Additions, 1798-1999 </ref>
+            </item>
+            <item>
+               <ref target="ovsz" show="replace" actuate="onrequest"> Oversize, 1783-1905 </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <p>Available on microfilm. Shelf no. 15,213</p>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Box</entry>
+               <entry morerows="0">Reel</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1</container>
+               <container localtype="reel">1</container>
+               <unittitle id="diary" encodinganalog="245$a">Diaries and Notebooks, <date localtype="inclusive" normal="1861/1908">1861-1908</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1861/1908" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1861-1908</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Diaries and notebooks containing occasional copies of letters, newspaper
+                  clippings, printed matter, and a negative photostat of the key to the printed
+                  edition of <title localtype="simple">
+                     <part>Letters of John Hay and Extracts from Diary</part>
+                  </title>, selected by Henry Adams and edited by Clara Louise Stone Hay, 1908.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Diaries, <date encodinganalog="245$f">1904-1906,
+                        undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1904-1906, undated </unitdate>
+                  <physdesc>(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notebooks, <date encodinganalog="245$f">1861-1868, 1878, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1861-1868, 1878, undated </unitdate>
+                  <physdesc>(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Key to printed edition of <title localtype="simple">
+                        <part>Letters of John Hay and Extracts from Diary</part>
+                     </title>, selected by Henry Adams and edited by Clara Louise Stone Hay, <date encodinganalog="245$f">1908</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1908</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2</container>
+               <container localtype="reel">1-2</container>
+               <unittitle id="ltrbks" encodinganalog="245$a">Letterbooks, <date localtype="inclusive">1898-1905</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" encodinganalog="245$f" era="ce" calendar="gregorian">1898-1905</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Bound volumes of copies of letters sent by Hay. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">1-2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1898-1905 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1898-1905 </unitdate>
+                  <physdesc>(3 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">3-5</container>
+               <container localtype="reel">3-4</container>
+               <unittitle id="jhltrs" encodinganalog="245$a">John Hay Letters, <date localtype="inclusive" normal="1858/1905">1858-1905</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1858/1905" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1858-1905</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Holograph and typed letters and holograph, typed, and photostatic copies of
+                  letters sent by Hay. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1858-1899 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1858-1899 </unitdate>
+                  <physdesc>(12 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1900</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1900</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Jan.-Sept. </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan.-Sept. </unitdate>
+                     <physdesc>(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <container localtype="reel">3-4</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Oct.-Dec.</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Oct.-Dec.</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1901-1902 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1901-1902 </unitdate>
+                  <physdesc>(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1903</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1903</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Jan.-Oct. </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan.-Oct. </unitdate>
+                     <physdesc>(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <container localtype="reel">4</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Nov.-Dec.</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Nov.-Dec.</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1904-1905, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1904-1905, undated </unitdate>
+                  <physdesc>(9 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">6-7</container>
+               <container localtype="reel">5-6</container>
+               <unittitle id="famcorr" encodinganalog="245$a">Family Correspondence, <date localtype="inclusive" normal="1882/1914">1882-1914</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1882/1914" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1882-1914</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters from Hay to his wife, Clara Louise Stone Hay; letters received and
+                  occasional letters sent by Clara Louise Stone Hay; and one bound volume of letters
+                  to her. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>The John Hay letters are separated from the Clara Louise Stone Hay correspondence,
+                  and both groups are arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <container localtype="reel">5</container>
+                  <unittitle encodinganalog="245$a">Hay, John, to Clara Louise Stone Hay, <date encodinganalog="245$f">1894-1905, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1894-1905, undated </unitdate>
+                  <physdesc>(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hay, Clara Louise Stone, letters received and
+                     sent</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unbound</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1882-1904 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1882-1904 </unitdate>
+                        <physdesc>(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1905</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1905</unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">Jan.-June</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan.-June</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">7</container>
+                           <container localtype="reel">5</container>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">July-Dec. </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">July-Dec. </unitdate>
+                           <physdesc>(6 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1907-1914, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1907-1914, undated </unitdate>
+                        <physdesc>(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <container localtype="reel">6</container>
+                     <unittitle encodinganalog="245$a">Bound, <date encodinganalog="245$f">July
+                           1905</date>
+                        <ref target="bndov1" show="replace" actuate="onrequest">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">July 1905</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">8-13</container>
+               <container localtype="reel">6-9</container>
+               <unittitle id="spcorr" encodinganalog="245$a">Special Correspondence, <date localtype="inclusive" normal="1885/1913">1885-1913</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1885/1913" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1885-1913</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters to John Hay and occasionally to his wife from prominent correspondents.
+               </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by name of correspondent and therein chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <container localtype="reel">6</container>
+                  <unittitle encodinganalog="245$a">Adams, Brooks, <date encodinganalog="245$f">1897-1902</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1897-1902</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Adee, Alvey A., <date encodinganalog="245$f">1897-1907 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1897-1907 </unitdate>
+                  <physdesc>(10 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Barnes, B., <date encodinganalog="245$f">1903-1904</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1903-1904</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bigelow, William Sturgis, <date encodinganalog="245$f">1899-1904, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1899-1904,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bishop, Joseph Bucklin, <date encodinganalog="245$f">1892-1905, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1892-1905,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <container localtype="reel">6-7</container>
+                  <unittitle encodinganalog="245$a">Cameron, E. S., <date encodinganalog="245$f">1897-1898, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1897-1898,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Carnegie, Andrew, <date encodinganalog="245$f">1898-1907, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1898-1907,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Choate, Joseph Hodges, <date encodinganalog="245$f">1898-1905 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1898-1905 </unitdate>
+                  <physdesc>(12 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container localtype="reel">7-8</container>
+                  <unittitle encodinganalog="245$a">Clarke, John and Charlotte, <date encodinganalog="245$f">1891-1907, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1891-1907,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Clemens, Samuel L., <date encodinganalog="245$f">1899-1904</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1899-1904</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cortelyou, George B., <date encodinganalog="245$f">1899-1905 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1899-1905 </unitdate>
+                  <physdesc>(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Davis, L. Clarke and Rebecca Harding, <date encodinganalog="245$f">1900-1904</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1900-1904</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Davis, Richard Harding, <date encodinganalog="245$f">1900-1901, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1900-1901,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Eddy, Spencer, <date encodinganalog="245$f">1901-1905</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1901-1905</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Eliot, Charles William, <date encodinganalog="245$f">1899-1903</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1899-1903</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Elliot, Henry Ware, <date encodinganalog="245$f">1899-1905, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1899-1905,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Griscom, Lloyd Carpenter and Clement A., <date encodinganalog="245$f">1899-1905</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1899-1905</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">Hanna, Marcus Alonzo, <date encodinganalog="245$f">1895-1903, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1895-1903,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">James, Henry, <date encodinganalog="245$f">1897-1907, undated</date> [letter of 18 Dec. 1903, James to Hay, verso of
+                     page five not on microfilm]</unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1897-1907,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">King, Clarence, <date encodinganalog="245$f">1891, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1891, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lodge, Henry Cabot (1850-1924), <date encodinganalog="245$f">1898-1907, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1898-1907,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Loeb, William (1866-1937), <date encodinganalog="245$f">1901-1905 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1901-1905 </unitdate>
+                  <physdesc>(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">McKinley, William, <date encodinganalog="245$f">1897-1901, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1897-1901,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mason, Frank H., <date encodinganalog="245$f">1897-1905</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1897-1905</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Montgomery, Benjamin F., <date encodinganalog="245$f">1900-1901</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1900-1901</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Morgan, Edwin V., <date encodinganalog="245$f">1899-1905, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1899-1905,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <container localtype="reel">9</container>
+                  <unittitle encodinganalog="245$a">Pauncefote, Julian, <date encodinganalog="245$f">1897-1902, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1897-1902, undated </unitdate>
+                  <physdesc>(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Porter, John Addison, <date encodinganalog="245$f">1897-1900 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1897-1900 </unitdate>
+                  <physdesc>(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rhodes, James Ford, <date encodinganalog="245$f">1885-1907, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1885-1907,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rockhill, William W., <date encodinganalog="245$f">1898-1904, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1898-1904, undated </unitdate>
+                  <physdesc>(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Roosevelt, Theodore (1858-1919), <date encodinganalog="245$f">1897-1907 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1897-1907 </unitdate>
+                  <physdesc>(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <container localtype="reel">9</container>
+                  <unittitle encodinganalog="245$a">Root, Elihu, <date encodinganalog="245$f">1899-1913, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1899-1913, undated </unitdate>
+                  <physdesc>(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Shanks, William Franklin Gore, <date encodinganalog="245$f">1898-1904</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1898-1904</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Spring-Rice, Cecil, Sir, <date encodinganalog="245$f">1891-1905, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1891-1905, undated </unitdate>
+                  <physdesc>(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Stanton, Theodore, <date encodinganalog="245$f">1902-1904, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1902-1904,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Stover, Bellamy and Maria, <date encodinganalog="245$f">1898-1903, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1898-1903,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Winter, William, <date encodinganalog="245$f">1898-1904</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1898-1904</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">13</container>
+               <container localtype="reel">10</container>
+               <unittitle id="auto" encodinganalog="245$a">Autograph Collection, <date localtype="inclusive" normal="1783/1878">1783-1878</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1783/1878" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1783-1878</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>A bound volume entitled “From Congo to Congress” containing original and facsimile
+                  correspondence, autographs, clippings, notices, and documents relating generally
+                  to slavery in the United States.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <container localtype="reel">10</container>
+                  <unittitle encodinganalog="245$a">“From Congo to Congress” <ref target="congov2" show="replace" actuate="onrequest">
+                        <emph render="italic">See Oversize</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">14-29</container>
+               <container localtype="reel">10-21</container>
+               <unittitle id="gencorr" encodinganalog="245$a">General Correspondence, <date localtype="inclusive" normal="1856/1905">1856-1905</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1856/1905" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1856-1905</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters received. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container localtype="reel">10-11</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1856-1898 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1856-1898 </unitdate>
+                  <physdesc>(12 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <container localtype="reel">11</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1899</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1899</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Jan.-June </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan.-June </unitdate>
+                     <physdesc>(11 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <container localtype="reel">11-12</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">July-Dec. </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">July-Dec. </unitdate>
+                     <physdesc>(11 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <container localtype="reel">12-13</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1900</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1900</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Jan.-June </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan.-June </unitdate>
+                     <physdesc>(11 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <container localtype="reel">13</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">July-Dec. </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">July-Dec. </unitdate>
+                     <physdesc>(12 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <container localtype="reel">13-14</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1901</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1901</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Jan.-June </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan.-June </unitdate>
+                     <physdesc>(11 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <container localtype="reel">14-15</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">July-Dec. </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">July-Dec. </unitdate>
+                     <physdesc>(13 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <container localtype="reel">15-16</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1902</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1902</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Jan.-June </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan.-June </unitdate>
+                     <physdesc>(14 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <container localtype="reel">16</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">July-Dec. </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">July-Dec. </unitdate>
+                     <physdesc>(13 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <container localtype="reel">17</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1903</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1903</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Jan.-May </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan.-May </unitdate>
+                     <physdesc>(13 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <container localtype="reel">17-18</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">June-Sept. </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">June-Sept. </unitdate>
+                     <physdesc>(12 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <container localtype="reel">18</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Oct.-Dec. </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Oct.-Dec. </unitdate>
+                     <physdesc>(10 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <container localtype="reel">18-19</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1904</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1904</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Jan.-Apr. </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan.-Apr. </unitdate>
+                     <physdesc>(11 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <container localtype="reel">19-20</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">May-Aug. </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">May-Aug. </unitdate>
+                     <physdesc>(13 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">28</container>
+                     <container localtype="reel">20-21</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Sept.-Dec. </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Sept.-Dec. </unitdate>
+                     <physdesc>(14 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <container localtype="reel">21</container>
+                  <unittitle encodinganalog="245$a">
+                     <date encodinganalog="245$f">1905, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1905, undated </unitdate>
+                  <physdesc>(11 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">30-36</container>
+               <container localtype="reel">21-23</container>
+               <unittitle id="misc" encodinganalog="245$a">Miscellany, <date localtype="inclusive" normal="1802/1953">1802-1953</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1802/1953" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1802-1953</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Invitations, cards, and notices; John Hay writings, speeches, and research
+                  materials; materials compiled by Tyler Dennett about Hay; autograph album; printed
+                  matter including pamphlets and newspaper clippings; unbound photographs; and two
+                  photograph albums. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by type of material. The newspaper clippings are not included on the
+                  microfilm.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <container localtype="reel">21</container>
+                  <unittitle encodinganalog="245$a">Invitations, cards, and notices, <date encodinganalog="245$f">1864, 1880-1881, 1890, 1897-1905,
+                     undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1864, 1880-1881, 1890,
+                     1897-1905, undated</unitdate>
+                  <physdesc>(9 folders)</physdesc>
+                  <container localtype="box">31</container>
+                  <container localtype="reel">21-22</container>
+                  <physdesc>(9 folders)</physdesc>
+                  <container localtype="box">32</container>
+                  <container localtype="reel">22</container>
+                  <physdesc>(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">33</container>
+                  <container localtype="reel">22</container>
+                  <unittitle encodinganalog="245$a">Writings, speeches, and research material, <date encodinganalog="245$f">1863, 1875, 1892-1912, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1863, 1875, 1892-1912,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Dennett, Tyler, research material regarding Hay,
+                        <date encodinganalog="245$f">1930-1931, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1930-1931,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="draw33" encodinganalog="245$a">Drawings, notes, printed ephemera,
+                     receipted bills, and an autographed copy of the Thirteenth Amendment to the
+                     U.S. Constitution, <date encodinganalog="245$f">1863-1868, 1897-1905, undated
+                        </date>
+                     <ref target="drawov3" show="replace" actuate="onrequest">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1863-1868, 1897-1905,
+                     undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">34</container>
+                  <container localtype="reel">23</container>
+                  <unittitle encodinganalog="245$a">Printed matter, <date encodinganalog="245$f">1898-1905</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1898-1905</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pamphlets, <date encodinganalog="245$f">1802,
+                        1896-1905, 1953</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1802, 1896-1905,
+                     1953</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Autograph album, <date encodinganalog="245$f">1877-1878</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1877-1878</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">“Proposal for Second Peace Conference at the
+                     Hague,” <date encodinganalog="245$f">1904</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1904</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">35</container>
+                  <container localtype="reel">23</container>
+                  <unittitle encodinganalog="245$a">Photographs</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Album, <date encodinganalog="245$f">undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unbound, <date encodinganalog="245$f">1904,
+                           undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1904,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">“President McKinley, California, and
+                        Buffalo,” <date encodinganalog="245$f">1901</date>
+                        <ref target="presov4" show="replace" actuate="onrequest">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1901</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">“Maryland, My Maryland,” and cover letter by
+                     James R. Randall, <date encodinganalog="245$f">1887</date>
+                     <ref target="mdov5" show="replace" actuate="onrequest">
+                        <emph render="italic">See Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1887</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">“The Helmet of Mambrino, A Letter to Horace F.
+                     Cutter from Clarence King,” <date encodinganalog="245$f">1882</date>
+                     <ref target="helmov6" show="replace" actuate="onrequest">
+                        <emph render="italic">See Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container label="not filmed"/>
+                  <unittitle encodinganalog="245$a">Newspaper clippings, <date encodinganalog="245$f">circa 1878-circa 1918</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">circa 1878-circa
+                     1918</unitdate>
+                  <physdesc>(5 folders)</physdesc>
+                  <container localtype="box">36</container>
+                  <physdesc>(6 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">36</container>
+               <container label="not filmed"/>
+               <unittitle id="scrap" encodinganalog="245$a">Scrapbooks, <date localtype="inclusive" normal="1860/1905">1860-1905</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1860/1905" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1860-1905</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Bound volumes of newspaper clippings relating generally to the Spanish-American
+                  War and American diplomacy. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by subject and therein chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">36</container>
+                  <unittitle encodinganalog="245$a">
+                     <ref target="scrapov7" show="replace" actuate="onrequest">
+                        <emph render="italic">See Oversize</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">36</container>
+               <container label="not filmed"/>
+               <unittitle id="add" encodinganalog="245$a">Additions, <date localtype="inclusive" normal="1798/1999">1798-1999</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1798/1999" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1798-1999</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, land grant, and scrapbook. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by topic or type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">36</container>
+                  <unittitle encodinganalog="245$a">Addition</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">36</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1889-1893, 1913</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1889-1893,
+                        1913</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lincoln, Abraham (1744-1786), land grant,
+                           <date encodinganalog="245$f">1798, 1887, 1999 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1798, 1887, 1999 </unitdate>
+                     <physdesc>(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Scrapbook, <date encodinganalog="245$f">1837-1938</date>
+                        <ref target="scrapov40" show="replace" actuate="onrequest">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1837-1938</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">36</container>
+                  <unittitle encodinganalog="245$a">2008 Addition, correspondence, <date encodinganalog="245$f">1913</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1913</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">2021 Addition, correspondence, <date encodinganalog="245$f">1897-1901</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1897-1901</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1-OV 40</container>
+               <unittitle id="ovsz" encodinganalog="245$a">Oversize, <date localtype="inclusive" normal="1783/1905">1783-1905</date>
+               </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1783/1905" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1783-1905</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Autographs, historical documents, and scrapbooks. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged and described according to the series, containers, and folders from which
+                  the items were removed. Except for the scrapbook in the Addition, all items are
+                  available on the microfilm edition where they were filmed as listed in their
+                  original series.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Family Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hay, Clara Louise Stone, letters received and
+                        sent</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="bndov1" encodinganalog="245$a">Bound, <date encodinganalog="245$f">July 1905</date> (Container 7; Reel 6) </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">July
+                           1905</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 2</container>
+                  <unittitle encodinganalog="245$a">Autograph collection</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="congov2" encodinganalog="245$a">“From Congo to Congress,” <date encodinganalog="245$f">1783-1878</date> (Container 13; Reel
+                        10)</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1783-1878</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 3</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="drawov3" encodinganalog="245$a">Drawings, notes, printed
+                        ephemera, receipted bills</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Thirteenth Amendment to the U.S.
+                           Constitution, <date encodinganalog="245$f">1864</date>
+                           <ref target="draw33" show="replace" actuate="onrequest">
+                              <emph render="italic">(Container 33; Reel 22)</emph>
+                           </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1864</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 4</container>
+                     <unittitle encodinganalog="245$a">Photographs</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="presov4" encodinganalog="245$a">“President McKinley,
+                           California, and Buffalo,” <date encodinganalog="245$f">1901</date>
+                           (Container 35; Reel 23)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1901</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 5</container>
+                     <unittitle id="mdov5" encodinganalog="245$a">“Maryland, My Maryland,” and cover
+                        letter by James R. Randall, <date encodinganalog="245$f">1887</date>
+                        (Container 35; Reel 23)</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1887</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 6</container>
+                     <unittitle id="helmov6" encodinganalog="245$a">“The Helmet of Mambrino, A
+                        Letter to Horace F. Cutter from Clarence King,” <date encodinganalog="245$f">1882</date> (Container 35; Reel 23)</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1882</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 7</container>
+                  <unittitle id="scrapov7" encodinganalog="245$a">Scrapbooks</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1860-1874</date> (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1860-1874</unitdate>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 8</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1861-1882</date> (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1861-1882</unitdate>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 9</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1871-1874</date> (Container 36) </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1871-1874</unitdate>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 10</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1874-1890</date> (Container 36) </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1874-1890</unitdate>
+                        <physdesc encodinganalog="300">(3 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 11</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1891-1900</date> (Container 36) </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1891-1900</unitdate>
+                        <physdesc encodinganalog="300">(3 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 12</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1898</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1898</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1900</date>
+                           (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1900</unitdate>
+                        <physdesc encodinganalog="300">(1 vol.)</physdesc>
+                        <container localtype="box">OV 13</container>
+                        <physdesc encodinganalog="300">(3 vols.)</physdesc>
+                        <container localtype="box">OV 14</container>
+                        <physdesc encodinganalog="300">(3 vols.)</physdesc>
+                        <container localtype="box">OV 15</container>
+                        <physdesc encodinganalog="300">(1 vol.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1900-1901</date> (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1900-1901</unitdate>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 16</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1901</date>
+                           (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1901</unitdate>
+                        <physdesc encodinganalog="300">(3 vols.)</physdesc>
+                        <container localtype="box">OV 17</container>
+                        <physdesc encodinganalog="300">(3 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 18</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1901-1902</date> (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1901-1902</unitdate>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1902</date>
+                           (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1902</unitdate>
+                        <physdesc encodinganalog="300">(1 vol.)</physdesc>
+                        <container localtype="box">OV 19</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 20</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 21</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1902-1903</date> (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1902-1903</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1903</date>
+                           (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1903</unitdate>
+                        <physdesc encodinganalog="300">(1 vol.)</physdesc>
+                        <container localtype="box">OV 22</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 23</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 24</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 25</container>
+                        <physdesc encodinganalog="300">(1 vol.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1903-1904</date> (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1903-1904</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 26</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1904</date>
+                           (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1904</unitdate>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 27</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 28</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 29</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 30</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1905</date>
+                           (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1905</unitdate>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 31</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 32</container>
+                        <physdesc encodinganalog="300">(1 vol.)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 33</container>
+                     <unittitle encodinganalog="245$a">Spanish-American War</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1897-1898</date> (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1897-1898</unitdate>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 34</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1898</date>
+                           (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1898</unitdate>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 35</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 36</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 37</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 38</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                        <container localtype="box">OV 39</container>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 40</container>
+                  <unittitle encodinganalog="245$a">Additions</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Addition</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="scrapov40" encodinganalog="245$a">Scrapbook, <date encodinganalog="245$f">1837-1938</date> (Container 36)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1837-1938</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

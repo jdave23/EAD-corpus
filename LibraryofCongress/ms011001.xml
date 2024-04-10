@@ -1,0 +1,2091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms011001">loc.mss/eadmss.ms011001</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>William Edward Dodd Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Manuscript Division Staff <lb/>Revised by Allan
+			 Teichroew, Wilhelmena Curry, and Karen Linn Femia</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2011" encodinganalog="260$c" era="ce" calendar="gregorian">2011</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78018697">https://lccn.loc.gov/mm78018697</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2011">2011</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">William Edward Dodd
+		  Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1895/1955">1895-1955</date> 
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1900/1940">(bulk 1900-1940)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1895/1955"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1895-1955</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1900/1940"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1900-1940)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS18697</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Dodd, William Edward,
+			 1869-1940</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">22,000
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">64 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">25.4 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <language langcode="ger" encodinganalog="041">German</language>
+                        <language langcode="fre" encodinganalog="041">French</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English and
+		German with
+		French
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Historian and diplomat.
+		  Correspondence, diaries, speeches, writings, autobiographical notes, printed
+		  matter, photographs, and other papers relating to Dodd's work as an author,
+		  professor of history at the University of Chicago, and ambassador to
+		  Germany.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20201216155257.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Baker, Newton Diehl, 1871-1937--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Becker, Carl L. (Carl Lotus), 1873-1945--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Beveridge, Albert Jeremiah, 1862-1927--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bowers, Claude Gernade, 1879-1958--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Brett, George P. (George Platt), 1858-1936--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Butler, Nicholas Murray, 1862-1947--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Daniels, Josephus, 1862-1948--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Dodd family--Correspondence.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Dodd, Martha Johns, -1938--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Dodd, Martha, 1908-1990--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Dodd, William E. (William Edward), 1869-1940.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>House, Edward Mandell, 1858-1938--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hull, Cordell, 1871-1955--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Moore, R. Walton (Robert Walton), 1859-1941--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Roosevelt, Franklin D. (Franklin Delano), 1882-1945--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Roper, Daniel C. (Daniel Calhoun), 1867-1943--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Sandburg, Carl, 1878-1967. Carl Sandburg poetry drafts.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Schacht, Hjalmar Horace Greeley, 1877-1970--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Turner, Frederick Jackson, 1861-1932--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>University of Chicago.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Diplomatic and consular service, American--Germany.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World politics--20th century.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Chicago (Ill.)--Politics and government.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Europe--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Germany--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Illinois--Politics and government.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Germany.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--20th century.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Diplomats.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Historians.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of William Edward Dodd, historian and diplomat, were
+		  received by the Library as a deposit in 1945 and 1953 from Dodd's son, William
+		  E. Dodd, Jr., and daughter, Martha Dodd Stern. Stern added further papers as
+		  gifts in 1964, 1969, and 1972, and as a deposit in 1981. In 1965 the 1945
+		  deposit was converted to a gift. Additional material came through gift and
+		  purchase, 1952-1979. In 1989, the remainder of the collection was converted to
+		  a gift.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of William Edward Dodd were arranged and described in
+		  1963-1964. The collection was expanded and revised in 1979 and 1982. The
+		  finding aid was revised again in 2011.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of William Edward
+		  Dodd is governed by the Copyright Law of the United States (Title 17,
+		  U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of William Edward Dodd are open to research. Researchers
+		  are advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, William Edward Dodd Papers, Manuscript
+		  Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1869, Oct. 21</datesingle>
+               <event>Born, Clayton, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1897</datesingle>
+               <event>B.S. and M.S., Virginia Polytechnic Institute, Blacksburg,
+				Va.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1899</datesingle>
+               <event>Ph.D., University of Leipzig, Leipzig, Germany</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1901</datesingle>
+               <event>Married Martha Johns </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1900</fromdate>
+                              <todate>1908</todate>
+                           </daterange>
+               <event>Professor of history, Randolph-Macon College, Ashland,
+				Va.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1908</fromdate>
+                              <todate>1933</todate>
+                           </daterange>
+               <event>Professor of history, University of Chicago, Chicago,
+				Ill.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1933</fromdate>
+                              <todate>1937</todate>
+                           </daterange>
+               <event>Ambassador to Germany</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1934</datesingle>
+               <event>President, American Historical Association</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1938</fromdate>
+                              <todate>1940</todate>
+                           </daterange>
+               <event>Returned and resided in the United States</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1940, Feb. 9</datesingle>
+               <event>Died, Round Hill, Va.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1941</datesingle>
+               <event>Publication of 
+				<title localtype="simple">
+                                 <part>
+                                    <emph>Ambassador Dodd's Diary, 1933-1937</emph>
+                                 </part>
+                              </title>. New
+				York: Harcourt, Brace and Co.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of William Edward Dodd (1869-1940) span the years 1895 to
+		  1955, with the bulk of the material dating from 1900 to 1940. The papers are in
+		  English and German with French and are organized in six series: 
+		  <ref show="replace" actuate="onrequest" target="gencor">
+                General
+			 Correspondence 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="speech">
+                Speeches and
+			 Writings 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="misc">
+                Miscellany 
+            </ref>,
+		  
+		  <ref show="replace" actuate="onrequest" target="famcor">
+                Family
+			 Correspondence 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="add">
+                Addition 
+            </ref>,
+		  and 
+		  <ref show="replace" actuate="onrequest" target="ov">
+                Oversize 
+            </ref>.
+		  Included are two pocket diaries from 1928 and 1931, articles, speeches, book
+		  material, autobiographical notes relating to Dodd's life before 1930, a
+		  correspondence file, much of it within the family, from 1895 until 1953 long
+		  after his death, and letters written by Dodd during a trip to Europe,
+		  1928-1929. The earlier papers relate to Dodd's work as an historian, author,
+		  and citizen-scholar interested in local, state, national, and international
+		  politics. The greater part of the papers concern Dodd's career as professor of
+		  history at the University of Chicago and as ambassador to Germany. </p>
+         <p>Prominent correspondents include Newton Diehl Baker, Carl L. Becker,
+		  Albert Jeremiah Beveridge, Claude Gernade Bowers, George P. Brett, Nicholas
+		  Murray Butler, Josephus Daniels, Edward Mandell House, Cordell Hull, R. Walton
+		  Moore, Franklin D. Roosevelt, Daniel C. Roper, Hjalmar Horace Greeley Schacht,
+		  and Frederick Jackson Turner, as well as many other scholars and diplomatic
+		  colleagues. Family correspondents include Dodd's wife, Martha Johns Dodd, and
+		  their daughter, Martha Dodd (Stern).</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in six series: </p>
+         <list>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="gencor">
+                   General
+				Correspondence, 1900-1953 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="speech">
+                   Speeches and
+				Writings, 1911-1938 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="misc">
+                   Miscellany,
+				1928-1941 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="famcor">
+                   Family
+				Correspondence, 1895-1953 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="add">
+                   Addition,
+				1929-1955 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="ov">
+                   Oversize,
+				1935 
+               </ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-57</container>
+               <unittitle encodinganalog="245$a" id="gencor">General Correspondence,
+				
+				 <date normal="1900/1953">1900-1953</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1900/1953">1900-1953</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Correspondence.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged chronologically by year and alphabetically therein.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">1900-1903 </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">1902-1904</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">1904-1905</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">1905-1907</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">1907</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">1907-1908</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">1909-1910</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">1910-1912</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">1912-1913 </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">1913-1914</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">1914-1915</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">1916-1917</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">13</container>
+                  <unittitle encodinganalog="245$a">1918-1919</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">1919</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">A-S</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">T-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">1920</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">A-Z</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">N-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">1921</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">1921, Sept.-1922,
+				  Apr.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">1922</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">A-G</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">H-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">1923</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <unittitle encodinganalog="245$a">1923, Oct.-1925, Mar.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <unittitle encodinganalog="245$a">1924</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">A-Q</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">R-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">1924, Oct.-1925, Mar.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">1925</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">May-July</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">A-H</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">21</container>
+                        <unittitle encodinganalog="245$a">K-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">Aug.-Sept.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">Oct.-Dec.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">21</container>
+                        <unittitle encodinganalog="245$a">A-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">M-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">A-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">1925, American Historical
+				  Association program</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">1925</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <unittitle encodinganalog="245$a">1926</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">1926</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">1927</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">Jan.-Apr.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">A-H</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">26</container>
+                        <unittitle encodinganalog="245$a">K-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">Apr.-July</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">July-Oct.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">Oct.-Dec.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">A-G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">28</container>
+                        <unittitle encodinganalog="245$a">S-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">1928, Jan.-May</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">1928</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">29</container>
+                     <unittitle encodinganalog="245$a">Jan.-Apr.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">29</container>
+                     <unittitle encodinganalog="245$a">May-July</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">A-F</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">30</container>
+                        <unittitle encodinganalog="245$a">C-Z </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">30</container>
+                     <unittitle encodinganalog="245$a">July-Aug.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">30</container>
+                        <unittitle encodinganalog="245$a">A-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">31</container>
+                        <unittitle encodinganalog="245$a">M-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">31</container>
+                  <unittitle encodinganalog="245$a">1928-1929</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">31</container>
+                  <unittitle encodinganalog="245$a">Late 1928-early 1929, trip to
+				  Europe</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">31</container>
+                     <unittitle encodinganalog="245$a">A-M</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">32</container>
+                     <unittitle encodinganalog="245$a">N-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">32</container>
+                  <unittitle encodinganalog="245$a">1929-1930</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">33</container>
+                  <unittitle encodinganalog="245$a">1929-1930</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">34</container>
+                  <unittitle encodinganalog="245$a">1929-1930</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">35</container>
+                  <unittitle encodinganalog="245$a">1930</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">36</container>
+                  <unittitle encodinganalog="245$a">1930</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">36</container>
+                  <unittitle encodinganalog="245$a">1931</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">36</container>
+                     <unittitle encodinganalog="245$a">Mar. 16-May 1</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">36</container>
+                        <unittitle encodinganalog="245$a">A-O</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">37</container>
+                        <unittitle encodinganalog="245$a">A-C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">38</container>
+                        <unittitle encodinganalog="245$a">D-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">38</container>
+                  <unittitle encodinganalog="245$a">1931, Dec.-1932, May</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">38</container>
+                     <unittitle encodinganalog="245$a">A-O</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">39</container>
+                     <unittitle encodinganalog="245$a">P-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">39</container>
+                  <unittitle encodinganalog="245$a">1932</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40</container>
+                  <unittitle encodinganalog="245$a">1933</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">40</container>
+                     <unittitle encodinganalog="245$a">A-F</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">41</container>
+                     <unittitle encodinganalog="245$a">G-L</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">42</container>
+                     <unittitle encodinganalog="245$a">M-R</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">43</container>
+                     <unittitle encodinganalog="245$a">S-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">43</container>
+                  <unittitle encodinganalog="245$a">1934</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">43</container>
+                     <unittitle encodinganalog="245$a">A-C</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">44</container>
+                     <unittitle encodinganalog="245$a">E-M</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">45</container>
+                     <unittitle encodinganalog="245$a">M-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">46</container>
+                  <unittitle encodinganalog="245$a">1935</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">46</container>
+                     <unittitle encodinganalog="245$a">A-K</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">47</container>
+                     <unittitle encodinganalog="245$a">L-S</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">48</container>
+                     <unittitle encodinganalog="245$a">T-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">48</container>
+                  <unittitle encodinganalog="245$a">1936</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">48</container>
+                     <unittitle encodinganalog="245$a">A-G</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">49</container>
+                     <unittitle encodinganalog="245$a">H-R</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">50</container>
+                     <unittitle encodinganalog="245$a">S-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">50</container>
+                  <unittitle encodinganalog="245$a">1937</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">50</container>
+                     <unittitle encodinganalog="245$a">A-C</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">51</container>
+                     <unittitle encodinganalog="245$a">D-G</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">52</container>
+                     <unittitle encodinganalog="245$a">H-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">53</container>
+                  <unittitle encodinganalog="245$a">1938</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">53</container>
+                     <unittitle encodinganalog="245$a">Jan.-Feb.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">54</container>
+                     <unittitle encodinganalog="245$a">Jan.-Apr.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">55</container>
+                     <unittitle encodinganalog="245$a">Mar.-July</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">56</container>
+                     <unittitle encodinganalog="245$a">July-Oct.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">57</container>
+                     <unittitle encodinganalog="245$a">Sept.-Dec.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">1939</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">57</container>
+                     <unittitle encodinganalog="245$a">Jan.-Apr.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">57</container>
+                        <unittitle encodinganalog="245$a">A-D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">58</container>
+                        <unittitle encodinganalog="245$a">E-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">May-Nov.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">58</container>
+                  <unittitle encodinganalog="245$a">1939-1953, undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">59-60</container>
+               <unittitle encodinganalog="245$a" id="speech">Speeches and Writings, 
+				 <date normal="1911/1938">1911-1938</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1911/1938">1911-1938</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Writings by Dodd, including autobiographical notes, academic
+				articles and reviews, speeches, editorials, and book material. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically by year and alphabetically by title
+				therein, with untitled items at the end.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Undated, autobiographical
+				  notes</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">1911, "The Fight for the
+				  Northwest, 1860," papers read before the American Historical Association, Dec.
+				  30, 1910: 
+				  <title localtype="simple">
+                                    <part>American Historical Review,</part>
+                                 </title> XVI, no. 4, 
+				   <date>July 1911</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">July 1911</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">1925</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"Little Men of Great Influence:
+					 Lecture III, Robert Walker; Lecture IV, Theodore Roosevelt"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"When Washington Tried
+					 Isolation," 
+					 <title localtype="simple">
+                                       <part>Arts and Sciences</part>
+                                    </title> 
+                                 </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">1928, "Cross Currents in American
+				  Politics," outline of Cincinnati, Ohio, speech, Jan. 27</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">1929, book review of 
+				  <title localtype="simple">
+                                    <part>The Tragic Era</part>
+                                 </title>, by Claude Bowers</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">1932, "George Washington," Study
+				  for Vanderbilt Lectures, Vanderbilt University, Nashville, Tenn., Feb.
+				  22-23</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">1933</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"Back to the Land?" editorial
+					 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"The Federal Constitution and
+					 Its Application, 1789 to 1933" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"The Federal Constitution and
+					 the Economic Effects of Its Administration"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"The First Stratified Society
+					 in the United States," Munich, Germany, 
+					  <date>Dec. 5</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Dec. 5</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"Frank Stringfellow,"
+					 sketch</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"German Contribution to
+					 American Life," radio address, 
+					  <date>Oct. 6</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct. 6</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"Greatest Blunder in Modern
+					 History"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"Martin Luther," Berlin,
+					 Germany, 
+					  <date>Nov.19</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Nov.19</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"What Is the Matter with the
+					 Country?"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"The Worse Economic Dilemma of
+					 Modern History," editorial </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"Preface" to book by Helmut
+					 Magers, 
+					  <date>Oct.</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Untitled dinner address, 
+					  <date>June 23</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">June 23</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">1934</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"A Troubled World," Bremen,
+					 Germany, 
+					  <date>Sept. 9</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Sept. 9</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"Subjects of Study," Berlin,
+					 Germany, 
+					  <date>June 26</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">June 26</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"Woodrow Wilson," 
+					 <title localtype="simple">
+                                       <part>Encyclopaedia of the Social Sciences</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Book review of 
+					 <title localtype="simple">
+                                       <part>Woodrow Wilson</part>
+                                    </title>, by Edith Gittings</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Untitled article for Griffin of
+					 the 
+					 <title localtype="simple">
+                                       <part>Chicago Tribune</part>
+                                    </title>, 
+					  <date>May 16</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">May 16</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">1935</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"Abraham Lincoln and His
+					 Problem, 1861," Berlin, Germany, 
+					  <date>June 14</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">June 14</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"The International
+					 Dilemma"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"The Problem of
+					 Recovery"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"The Urgent Problems," Berlin,
+					 Germany, 
+					  <date>Nov. 28</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Nov. 28</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Untitled speeches, 
+					  <date>June 4 and July 24</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">June 4 and July 24</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">1936</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"The Problem of Modern
+					 Civilization" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"On Wilson's 80th Birthday," 
+					 <title localtype="simple">
+                                       <part>New York Times</part>
+                                    </title>, 
+					  <date>
+						Dec. 27</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+						Dec. 27</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"The Struggle for Democracy,"
+					 Chicago, Ill., 
+					  <date>
+						July 7</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+						July 7</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"Thomas Jefferson," Berlin,
+					 Germany, 
+					  <date>Apr. 16</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Apr. 16</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Statements to radio and
+					 press</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">59</container>
+                        <unittitle encodinganalog="245$a">Aug. 16, re: Olympic
+						Games</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">59</container>
+                        <unittitle encodinganalog="245$a">Nov. 4, re-election of
+						Franklin D. Roosevelt</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Untitled radio speech, Berlin,
+					 Germany, 
+					  <date>Oct. 6</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Oct. 6</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Untitled speech brief,
+					 Cleveland, Ohio, 
+					  <date>July 22</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">July 22</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">1937</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"Can Democracy Be Preserved?"
+					 Williamstown, Mass., 
+					  <date>Sept. 3</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Sept. 3</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"The Dangerous Drift of
+					 To-day," Washington &amp; Lee University, Lexington, Va., 
+					  <date>Sept. 17</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Sept. 17</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"Do unto Others as You Would
+					 Have Others Do unto You," Berlin, Germany, 
+					  <date>May 30</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">May 30</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"George Washington and the
+					 American Union," Leipzig, Germany, 
+					  <date>Dec. 16 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Dec. 16 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"The Unique Function of
+					 Education in American Democracy" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">"Von Steuben," Magdeburg,
+					 Germany, 
+					  <date>May 21</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">May 21</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">59</container>
+                     <unittitle encodinganalog="245$a">Untitled radio speech,
+					 Williamstown, Mass., 
+					  <date>Sept. 3</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Sept. 3</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">1938</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"Arrival Message," New York, 
+					  <date>Jan. 8</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Jan. 8</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"The New German Education"
+					 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"Racial-Religious Reforms in
+					 Germany" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"The Threatening German
+					 Dictatorship"</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">Undated</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"Better Government,"
+					 editorial</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"The Curious German State"
+					 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"The Emergence of the First
+					 Social Order in the United States"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"Henry White Davis, Embittered
+					 Statesman"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"Karl Lamprecht and
+					 Kulturgeschichte"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"Lessons of the Great War"
+					 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"The Place of Nathaniel Macon
+					 in Southern History" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"Should Not the Majority
+					 Govern?"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"The Status of Higher Education
+					 in Virginia"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"The University and the
+					 Public"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">"Introduction" to William T.
+					 Hutchinson's book </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">60</container>
+                     <unittitle encodinganalog="245$a">Untitled and miscellaneous
+					 manuscripts</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">60-61</container>
+               <unittitle encodinganalog="245$a" id="misc">Miscellany, 
+				 <date normal="1928/1941">1928-1941</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1928/1941">1928-1941</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Diaries, photographs, printed matter, and other material. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">Reception and dinner lists, 
+				   <date>1934-1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934-1937</unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">Listing of doctors of
+				  philosophy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">Printed matter, 
+				   <date>1935-1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1938</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">61</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous newspaper
+				  clippings, 
+				   <date>1928-1941</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928-1941</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">61</container>
+                  <unittitle encodinganalog="245$a">Photographs, 
+				   <date>1936, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">61</container>
+                  <unittitle encodinganalog="245$a">Diaries, 
+				   <date>1928, 1931</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1928, 1931</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">62-63</container>
+               <unittitle encodinganalog="245$a" id="famcor">Family Correspondence, 
+				 <date>1895-1953</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1895-1953</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by name of correspondent.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Dodd, David (brother), 
+				   <date>1935-1937, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1937, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Dodd, David, Jr. (nephew), 
+				   <date>1937 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Dodd, Jay Hubbard
+				  (daughter-in-law), 
+				   <date>1952</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Dodd, Martha (daughter) 
+				   <date>1926-1937 </date>  
+				                             <ref show="replace" actuate="onrequest" target="stern63">
+                                    <emph render="italic">See Container 63</emph>, Stern, Martha Dodd</ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1926-1937 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Dodd, Martha Johns (wife), 
+				   <date>1896-1938</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1896-1938</unitdate>
+                  <physdesc encodinganalog="300$a">(9
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Dodd, Roscoe S. (cousin), 
+				   <date>1937, Feb. 8-Aug. 10</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937, Feb. 8-Aug. 10</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Dodd, Walter H., 
+				   <date>Dec. 5, 1933-Oct. 4, 1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Dec. 5, 1933-Oct. 4, 1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Dodd, William Edward, Jr. (son), 
+				   <date>1932, Dec. 13-1952, Oct. 30,
+					 undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1932, Dec. 13-1952, Oct. 30,
+					 undated</unitdate>
+                  <physdesc encodinganalog="300$a">(6 folders)
+				  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Griffin, Annie Dodd (sister), 
+				   <date>1933-1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933-1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Haynes, Margaret Dodd (niece), 
+				   <date>1934, Oct. 28</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934, Oct. 28</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Horne, Herman H. (cousin), 
+				   <date>1934, Apr.-1936, Dec.</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934, Apr.-1936, Dec.</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Horne, Ida B. (cousin), 
+				   <date>1934, Aug. 9-1936, Mar. 18</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934, Aug. 9-1936, Mar. 18</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Johns, Clarence D.
+				  (brother-in-law), 
+				   <date>1936, Feb. 24-1937, May 15</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936, Feb. 24-1937, May 15</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Johns, Eva (sister-in-law), 
+				   <date>1895-1900</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1895-1900</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Stern, Alfred K. (son-in-law), 
+				   <date>1952, July 31- Nov. 20</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952, July 31- Nov. 20</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a" id="stern63">Stern, Martha Dodd
+				  (daughter), 
+				   <date>1926, Sept. 29-1937, July 25</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1926, Sept. 29-1937, July 25</unitdate>
+                  <physdesc encodinganalog="300$a"> (3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">63</container>
+                  <unittitle encodinganalog="245$a">Sturdivant, Evangeline J.
+				  (niece), 
+				   <date>1934-1935</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1934-1935</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">64</container>
+               <unittitle encodinganalog="245$a" id="add">Addition, 
+				 <date normal="1901/1955">1901-1955</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1901/1955">1901-1955</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, photographs, news clippings, and miscellany. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material with miscellany at the
+				end.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">64</container>
+                  <unittitle encodinganalog="245$a">General correspondence, 
+				   <date>1901-1955 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1901-1955 </unitdate>
+                  <physdesc encodinganalog="300$a">(13
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">64</container>
+                  <unittitle encodinganalog="245$a">Writings file, poetry by Carl
+				  Sandburg</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">64</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">64</container>
+                     <unittitle encodinganalog="245$a">Photographs </unittitle>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">64</container>
+                     <unittitle encodinganalog="245$a">Sketches</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">64</container>
+                     <unittitle encodinganalog="245$a">Clippings</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">64</container>
+                     <unittitle encodinganalog="245$a">Lock of hair (Carl
+					 Sandburg)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">64</container>
+                     <unittitle encodinganalog="245$a">Diploma of William E. Dodd,
+					 Jr., 
+					  <date>1935 </date>  
+					                               <ref show="replace" actuate="onrequest" target="diploma">
+                                       <emph render="italic">See Oversize</emph>
+                                    </ref>
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a" id="ov">Oversize, 
+				 <date normal="1901/1955">1935</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1901/1955">1935</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Diploma. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Described according to the series, container, and folder from
+				which the item was removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Addition </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 1</container>
+                        <unittitle encodinganalog="245$a" id="diploma">Diploma of
+						William E. Dodd, Jr., 
+						 <date>1935 </date>  
+						    (Container 64)
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

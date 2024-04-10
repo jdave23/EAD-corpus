@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010139">loc.mss/eadmss.ms010139</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Lewis Tappan Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2022" encodinganalog="260$c" era="ce" calendar="gregorian">2022</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm75042317">https://lccn.loc.gov/mm75042317</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-07">2023 July</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Link to digital items added</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2022-01">2022 January</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Addition and update of finding aid</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2010-12">2010 December</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Small addition made</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2010">2010</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Lewis Tappan Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1809/1903">1809-1903</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1809/1872">1809-1872</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1809/1903"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1809-1903</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1809/1872"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1809-1872)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS42317</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Tappan, Lewis, 1788-1873</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">5,200 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">15 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">10 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">7 microfilm reels</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Abolitionist, merchant, and publisher.
+            Correspondence, journals, and other papers reflecting Tappan's interests in abolition,
+            African American education, religion, and his business ventures.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230705151031.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Adams, John Quincy, 1767-1848--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Adams, John Quincy, 1767-1848.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Aspinwall family--Correspondence.</part>
+            </famname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Aspinwall family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Birney, James Gillespie, 1792-1857--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Douglass, Frederick, 1818-1895--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Finney, Charles G., 1792-1875--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Garrison, William Lloyd, 1805-1879--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Gates, Seth Merrill, 1800-1877--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hastings, Samuel D. (Samuel Dexter), 1816-1903--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jay, William, 1789-1858--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Leavitt, Joshua, 1794-1873--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Phelps, Amos A. (Amos Augustus), 1805-1847--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sedgwick, Theodore, 1780-1839--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Shipherd, John Jay, 1802-1844--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sturge, Joseph, 1793-1859--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Tappan family--Correspondence.</part>
+            </famname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Tappan family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Tappan, Arthur, 1786-1865--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Tappan, Benjamin, 1773-1857--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Tappan, Lewis, 1788-1873.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Weld, Theodore Dwight, 1803-1895.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Whittier, John Greenleaf, 1807-1892--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>American and Foreign Anti-Slavery Society.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>American Bible Society.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>American Colonization Society.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>American Missionary Association.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Amistad (Schooner)</part>
+            </corpname>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>General Anti-slavery Convention (2nd : 1843 : London, England)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Liberty Party (U.S. : 1840-1848)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Mercantile Agency (New York, N.Y.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Oberlin College.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Union Missionary Society (U.S.)</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>African Americans--Colonization--Africa.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>African Americans--Education.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Antislavery movements--Periodicals.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Antislavery movements--Societies, etc.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Antislavery movements--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Antislavery movements.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Calvinism.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Colonization--Societies, etc.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Commerce--Periodicals.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Credit bureaus--New York (State)--New York.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Credit ratings--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Freedmen--Colonization--Africa.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Missions--Periodicals.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Missions--Societies, etc.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Missions.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Religion.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Slave rebellions--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Slavery and the church.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Slavery--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Slavery.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Trials (Mutiny)--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Unitarianism.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Africa--Colonization.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New York (N.Y.)--Religion--19th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Texas--Annexation to the United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Religion--19th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Social conditions--19th century.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>American missionary.</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>Bible--Publication and distribution--Societies, etc.</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>National era (Washington, D.C.)</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="lcnaf">
+               <part>New York journal of commerce (New York, N.Y.)</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Abolitionists.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Merchants.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Publishers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of Lewis Tappan, abolitionist, merchant, and publisher, were acquired by the
+            Library of Congress from various sources, 1928-1958. The bulk of the material was given
+            by his granddaughter, Anna Hulett. Additional items were purchased by the Library in
+            1982 and 2014.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The collection was arranged, described, and prepared for microfilming in 1975 by Mary M.
+            Wolfskill. An item purchased in 1982 was added from the Miscellaneous Manuscript
+            Collection in 2010. An item purchased in 2014 was added and the finding aid revised in
+            2021 by Melinda Friend.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of Lewis Tappan in these papers and in other
+            collections of papers in the custody of the Library of Congress has been dedicated to
+            the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Lewis Tappan are open to research. Researchers are advised to contact the
+            Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p>A microfilm edition of part of these papers is available on seven reels. Consult
+            reference staff in the Manuscript Division concerning availability for purchase or
+            interlibrary loan. To promote preservation of the originals, researchers are required to
+            consult the microfilm edition.</p>
+      </altformavail>
+      <altformavail encodinganalog="530">
+         <head>Online Content</head>
+         <p>Selected documents from the Lewis Tappan Papers are available on the Library of Congress
+            website at <ref show="new" actuate="onrequest"
+                 href="https://hdl.loc.gov/loc.mss/eadmss.ms010139.001">https://hdl.loc.gov/loc.mss/eadmss.ms010139.001</ref>. </p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container or reel number, Lewis Tappan Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1788, May 23</datesingle>
+               <event>Born, Northhampton, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1813</datesingle>
+               <event>Married Susan Aspinwall (died 1853)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1828</fromdate>
+                  <todate>circa 1837</todate>
+               </daterange>
+               <event>Partner with brother Arthur and credit manager, Arthur Tappan &amp; Co., silk
+                  jobbers in New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1828</fromdate>
+                  <todate>1831</todate>
+               </daterange>
+               <event>Owned and published <title localtype="simple">
+                     <part>Journal of Commerce</part>
+                  </title>, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1833</datesingle>
+               <event>One of the founders of the New York Anti-Slavery Society and the American
+                  Anti-Slavery Society</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1839</fromdate>
+                  <todate>1841</todate>
+               </daterange>
+               <event>Member of the committee that undertook to secure the freedom of the captives
+                  on the slave ship <emph render="italic">Amistad</emph>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1840</datesingle>
+               <event>Founder and first treasurer, American and Foreign Anti-Slavery Society</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1841</fromdate>
+                  <todate>1849</todate>
+               </daterange>
+               <event>Established and operated the Mercantile Agency, the first commercial
+                  credit-rating agency in America, under the firm name of Lewis Tappan &amp;
+                  Co.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1843</datesingle>
+               <event>Attended General Anti-slavery Convention, London, England </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1846</datesingle>
+               <event>A founder of the American Missionary Association</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1850, ca.</datesingle>
+               <event>Participated, after passage of the Fugitive Slave Law, in “underground
+                  railroad” activities</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1854</datesingle>
+               <event>Married Mrs. Sarah J. Davis</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1855</datesingle>
+               <event>Joined the American Abolition Society</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1870</datesingle>
+               <event>Published <title localtype="simple">
+                     <part>The Life of Arthur Tappan</part>
+                  </title>. New York: Hurd and Houghton</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1873, June 21</datesingle>
+               <event>Died, Brooklyn, N.Y.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Lewis Tappan (1788-1873) span the years 1809-1903, with the bulk dating
+            from 1809 to 1872. The collection consists of correspondence, letterbooks, journals,
+            notebooks, clippings, photocopies, notes, and miscellaneous other items. The journals
+            and notebooks, which date from 1841 to 1869, are replete with information concerning
+            Tappan’s activities in the antislavery movement and contribute as well to an
+            understanding of his private life, particularly his religious views. The collection is
+            organized in the following series: <ref show="replace" actuate="onrequest" target="journandnot">Journals and Notebooks,</ref>
+            <ref show="replace" actuate="onrequest" target="corresp">Correspondence,</ref>
+            <ref show="replace" actuate="onrequest" target="miscell">Miscellany,</ref> and <ref show="replace" actuate="onrequest" target="add">Additions</ref>.</p>
+         <p> The bulk of the <ref show="replace" actuate="onrequest" target="corresp">
+               correspondence</ref> in the Lewis Tappan papers is made up of copies of his outgoing
+            letters, ranging in date from 1812 to 1870. Legibility of many of these copies is poor,
+            and there are a number of gaps in the chronology. Nine of the volumes include indexes to
+            correspondents. Incoming correspondence, although limited in quantity, covers the period
+            1809-1871. Subject matter throughout Tappan’s correspondence strongly reflects his
+            interest in antislavery activities and his participation in organizations that promoted
+            abolition. </p>
+         <p>Tappan’s exposure to Calvinist and Unitarian theology is reflected in his <ref show="replace" actuate="onrequest" target="corresp">journals</ref> by comments on
+            ministers and the themes of their sermons. Also evident in the journals, which contain
+            numerous newspaper clippings, and in his correspondence, is Tappan’s involvement in
+            promoting his ideas through Bible, tract, peace, abolition, and missionary societies,
+            and through Sunday schools, free churches, charitable organizations, political parties,
+            and newspapers. Prominent among the organizations represented are the American and
+            Foreign Anti-Slavery Society, the American Bible Society, the American Colonization
+            Society, the American Missionary Association, the Union Missionary Society, and the
+            Liberty Party. The <title localtype="simple">
+               <part>New York Journal of Commerce</part>
+            </title>, the <title localtype="simple">
+               <part>National Era</part>
+            </title>, and the <title localtype="simple">
+               <part>American Missionary</part>
+            </title> are among the publications with which Tappan was involved. Slavery,
+            colonization, education of African Americans, and the role of the Christian in the
+            abolition movement dominate the writings dating from 1836. Some of the leading issues
+            discussed are the annexation of Texas and the moves taken for the release from custody
+            of the African captives who had mutinied aboard the Spanish schooner <emph render="italic">Amistad</emph>. Of special interest is Tappan’s journal of the
+            General Anti-slavery Convention of 1843 in London, England. </p>
+         <p>A small portion of the collection deals with Tappan’s business ventures, particularly
+            his Mercantile Agency, the first commercial credit-rating agency in the United States.
+            Throughout the papers there is documentation of routine family activities of the various
+            members of the Tappan family, as well as of their interaction on matters of mutual
+            concern, particularly where business, religion, and abolition were involved.</p>
+         <p> Prominent correspondents include John Quincy Adams, James Gillespie Birney, Frederick
+            Douglass, William Lloyd Garrison, Seth Merrill Gates, Samuel D. Hastings, William Jay,
+            Joshua Leavitt, Amos A. Phelps, Theodore Sedgwick, Joseph Sturge, and John Greenleaf
+            Whittier. Lewis Tappan’s brothers, Benjamin and Arthur, are well represented in the
+            collection as well as other members of the Tappan and Aspinwall families.</p>
+         <p> In addition to original manuscripts, <ref show="replace" actuate="onrequest" target="photo">photocopies</ref> of Tappan items in other repositories—notably from
+            papers in the Oberlin College Library—are present in the collection. Most of these
+            copies fall between 1831 and 1841, and consist of letters of Arthur and Lewis Tappan to
+            John J. Shipherd, Charles G. Finney, and Samuel D. Hastings. They deal mainly with the
+            Tappan brothers’ involvement in, and financial support of, religious movements in New
+            York City and at Oberlin College.</p>
+         <p>
+            <ref show="replace" actuate="onrequest" target="miscell">Miscellaneous</ref> items
+            include John Quincy Adams’s holograph draft of a legal brief pleading for release of the
+               <emph render="italic">Amistad</emph> captives, autobiographical notes, genealogical
+            material on the Tappan and Aspinwall families, and a lecture by Theodore Weld. Writings,
+            notes, and other miscellaneous items relating to slavery include a list of articles on
+            emancipation by Lewis Tappan, a list of antislavery hymns, a copy of a deed of
+            manumission, an article by Ansel Bascom, and materials on the expurgation of references
+            to slavery in published works.</p>
+         <p>The <ref show="replace" actuate="onrequest" target="add">Additions</ref> consist of a
+            letter of 1857 by Tappan to Henry A. Miles reflecting on his religious beliefs, and a
+            letter of 1847 by Tappan expressing condolonces to Eliza Scott on the death of her
+            husband, Orange Scott.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in three series: </p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="journandnot"> Journals and Notebooks,
+                  1814-1869 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="corresp"> Correspondence, 1809-1872
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="miscell"> Miscellany, circa 1839-1903
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="add"> Additions, 1847-1857 </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <p>Available on microfilm. Shelf no. 16,431</p>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-2A</container>
+               <container localtype="reel">1-2</container>
+               <unittitle encodinganalog="245$a" id="journandnot">Journals and Notebooks, <date normal="1814/1869">1814-1869 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1814/1869">1814-1869 </unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Volumes containing entries of activities, clippings, and miscellaneous
+                  information.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1814</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1814</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1816, Oct. 22-1820, Mar. 6</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1816, Oct. 22-1820,
+                     Mar. 6</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1820, Mar. 16-1824, Oct. 21</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1820, Mar. 16-1824,
+                     Oct. 21</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1824, Oct. 22-1828, Feb. 15</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1824, Oct. 22-1828,
+                     Feb. 15</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1828, Feb. 16-1829, Nov. 6</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1828, Feb. 16-1829,
+                     Nov. 6</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1836, Feb. 23-1838, Aug. 30</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1836, Feb. 23-1838,
+                     Aug. 30</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1838, Aug. 31-1840, Jun. 10</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1838, Aug. 31-1840,
+                     Jun. 10</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1840, Nov. 8-1841, Aug. 10</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1840, Nov. 8-1841,
+                     Aug. 10</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1843</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1843</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2A</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1851, May 17-1853, Jun. 30</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1851, May 17-1853,
+                     Jun. 30</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2A</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1853, Jul. 1-1855, Apr. 18</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1853, Jul. 1-1855,
+                     Apr. 18</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2A</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date>1855, Apr. 19-1869, May 23</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1855, Apr. 19-1869,
+                     May 23</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2A-14</container>
+               <container localtype="reel">2-7</container>
+               <unittitle encodinganalog="245$a" id="corresp">Correspondence, <date normal="1809/1872">1809-1872</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1809/1872">1809-1872</unitdate>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">2A-13</container>
+                  <container localtype="reel">2-5</container>
+                  <unittitle encodinganalog="245$a" id="letter">Letterbooks, <date normal="1812/1870">1812-1870</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1812/1870">1812-1870</unitdate>
+               </did>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged chronologically with alphabetical indexes in the front of vols.
+                     3-11.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2A</container>
+                     <container localtype="reel">2</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1812, Oct. 3-1827, Jan. 11</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1812, Oct.
+                        3-1827, Jan. 11</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <container localtype="reel">2</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1839, Oct. 5-1840, Sept. 7</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1839, Oct.
+                        5-1840, Sept. 7</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <container localtype="reel">3</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1842, Aug. 24-1844, Apr. 25</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1842, Aug.
+                        24-1844, Apr. 25</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <container localtype="reel">3</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1844, Apr. 30-1846, Mar. 10</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1844, Apr.
+                        30-1846, Mar. 10</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <container localtype="reel">3</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1846, Mar. 10-1847, Nov. 4</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1846, Mar.
+                        10-1847, Nov. 4</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <container localtype="reel">4</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1847, Nov. 4-1852, Jun. 30</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1847, Nov.
+                        4-1852, Jun. 30</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <container localtype="reel">4</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1852, Feb. 23-1857, Dec. 24</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1852, Feb.
+                        23-1857, Dec. 24</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <container localtype="reel">5</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1854, Nov. 8-1855, Jul. 13</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1854, Nov.
+                        8-1855, Jul. 13</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <container localtype="reel">5</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1855, Jul. 13-1856, Feb. 28</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1855, Jul.
+                        13-1856, Feb. 28</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <container localtype="reel">5</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1863, Jun. 16-1866, Jun. 10</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1863, Jun.
+                        16-1866, Jun. 10</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <container localtype="reel">5</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1870, Nov. 12-Dec. 29</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1870, Nov.
+                        12-Dec. 29</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">13</container>
+                  <container localtype="reel">6</container>
+                  <unittitle encodinganalog="245$a" id="gen">General, <date normal="1807/1871">1809-1871</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1807/1871">1809-1871</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Mostly letters to Lewis Tappan. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged chronologically.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <container localtype="reel">6</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1809-1871, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1809-1871,
+                        undated</unitdate>
+                     <physdesc encodinganalog="300$a">(22 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">14</container>
+                  <container localtype="reel">7</container>
+                  <unittitle encodinganalog="245$a" id="photo">Photocopies, <date normal="1838/1872">1838-1872</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1838/1872">1838-1872</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Mostly letters by Lewis and Arthur Tappan from collections of papers in the
+                     Oberlin College Library, Oberlin, Ohio. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged chronologically.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <container localtype="reel">7</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1838-1872, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1838-1872,
+                        undated </unitdate>
+                     <physdesc encodinganalog="300$a">(4 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">14</container>
+               <container localtype="reel">7</container>
+               <unittitle encodinganalog="245$a" id="miscell">Miscellany, <date normal="1839/1903">circa 1839-1903</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1839/1903">circa 1839-1903</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Autobiographical and genealogical notes, clippings, scrapbook, lecture, John
+                  Quincy Adams’s brief on the <emph render="italic">Amistad</emph> case, and other
+                  items.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container localtype="reel">7</container>
+                  <unittitle encodinganalog="245$a">American Anti-Slavery Society, clippings,
+                        <date>1840-1843, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1840-1843,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container localtype="reel">7</container>
+                  <unittitle encodinganalog="245$a">
+                     <emph render="italic">Amistad</emph> case, including John Quincy Adams’s legal
+                     brief, <date>1839-1841, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1839-1841,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container localtype="reel">7</container>
+                  <unittitle encodinganalog="245$a">Biographical and genealogical
+                     material</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <container localtype="reel">7</container>
+                     <unittitle encodinganalog="245$a">Chronological résumé of Lewis Tappan’s life
+                        from 1802 to 1871, written by himself</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <container localtype="reel">7</container>
+                     <unittitle encodinganalog="245$a">History of the Tappan family and short
+                        autobiography of Lewis Tappan</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <container localtype="reel">7</container>
+                     <unittitle encodinganalog="245$a">Tappan and Aspinwall families, photocopies of
+                        genealogical charts, notes, and pamphlets</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <container localtype="reel">7</container>
+                     <unittitle encodinganalog="245$a">Tappan family scrapbook, <date> circa
+                           1842-1903</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> circa
+                        1842-1903</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container localtype="reel">7</container>
+                  <unittitle encodinganalog="245$a">Index to narrative of Lewis Tappan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container localtype="reel">7</container>
+                  <unittitle encodinganalog="245$a">Name and address book, <date>1847-1852</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1847-1852</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container localtype="reel">7</container>
+                  <unittitle encodinganalog="245$a">New York draft riot, account [1863?]
+                     (facsimile)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container localtype="reel">7</container>
+                  <unittitle encodinganalog="245$a">“Truth’s Hindrances,” a lecture by Theodore D.
+                     Weld</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container localtype="reel">7</container>
+                  <unittitle encodinganalog="245$a">Writings, notes, and other items on
+                     slavery</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">14</container>
+               <container>
+                  <emph altrender="italic"> not filmed</emph>
+               </container>
+               <unittitle encodinganalog="245$a" id="add">Additions, <date normal="1847/1857">1847-1857</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1847/1857">1847-1857</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence.</p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged in order of processing date.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container>
+                     <emph altrender="italic"> not filmed</emph>
+                  </container>
+                  <unittitle encodinganalog="245$a">2010 Addition</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <container>
+                        <emph altrender="italic"> not filmed</emph>
+                     </container>
+                     <unittitle>Letter to Henry A. Miles, 1857</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <container>
+                     <emph altrender="italic"> not filmed</emph>
+                  </container>
+                  <unittitle>2020 Addition</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <container>
+                        <emph altrender="italic"> not filmed</emph>
+                     </container>
+                     <unittitle>Letter to Eliza Scott, 1847</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

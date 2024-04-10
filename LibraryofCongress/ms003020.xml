@@ -1,0 +1,2051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms003020">loc.mss/eadmss.ms003020</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Luther Burbank Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author encodinganalog="245$c">Prepared by Allan Teichroew <lb/>Revised and expanded by Patrick Kerwin</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+                           <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library of Congress </publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2000" encodinganalog="260$c" era="ce" calendar="gregorian">2000</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm80014324">https://lccn.loc.gov/mm80014324</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2018-02">2018 February</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Microfilm shelf number corrected</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2014-03">2014 March</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Microfilm information updated</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Title, controlaccess updated</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2004-08-12">2004-08-12</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>converted from EAD 1.0 to EAD 2002</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2003">2003</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Luther Burbank 
+        Papers <date altrender="Span Dates" localtype="inclusive" normal="1830/1989">1830-1989</date> 
+                        <date altrender="Bulk Dates" localtype="bulk" normal="1880/1926">(bulk 1880-1926)</date> 
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1830/1989"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1830-1989</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1880/1926"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1880-1926)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS14324</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100">
+                           <part>Burbank, Luther, 1849-1926</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">12,500 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">41 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">16 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">2 microfilm reels</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in English
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852">
+                        <corpname>
+                           <part>
+                Manuscript Division,  Library of Congress</part>
+                        </corpname>
+                        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Botanist, horticulturist, and naturalist. Correspondence, speeches and writings, notes, sketches, nursery plans and notes, business records, scrapbooks, family papers and genealogies, and printed material concerning Burbank's career as a botanist and his family and personal life.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220218154948.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bailey, L. H. (Liberty Hyde), 1858-1954--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bean, Burt C. (Burt Clifford), 1874-</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Burbank family.</part>
+            </famname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Burbank, Luther, 1849-1926.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Burpee, W. Atlee (Washington Atlee), 1858-1915--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Edison, Thomas A. (Thomas Alva), 1847-1931--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Fairchild, David, 1869-1954--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Firestone, Harvey Samuel, 1868-1938--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Ford, Henry, 1863-1947--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Husbands, José D.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jordan, David Starr, 1851-1931--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Keller, Helen, 1880-1968--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Kellogg, Vernon L. (Vernon Lyman), 1867-1937--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Kinsey, Alfred C. (Alfred Charles), 1894-1956--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lemmon, J. G. (John Gill), 1832-1908--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>London, Charmian--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>London, Jack, 1876-1916--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Miller, Joaquin, 1837-1913--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Morrow, William W., 1843-1929--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Muir, John, 1838-1914--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Samu, Spiegel--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Schull, George H.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Vachell, F. Harvey--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Van Deman, Henry Elias, 1845-1915--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Vries, Hugo de, 1848-1935--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Waugh, F. A. (Frank Albert), 1869-1943--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Wickson, Edward J. (Edward James), 1848-1923--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Wilcox, Ella Wheeler, 1850-1919--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Wilson, Woodrow, 1856-1924--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Woodward, Robert Simpson, 1849-1924--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>Alaska-Yukon-Pacific Exposition (1909 : Seattle, Wash.)</part>
+            </corpname>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>Panama-Pacific International Exposition (1915 : San Francisco, Calif.)</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Botany.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Horticulture.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Nurseries (Horticulture)--California--Santa Rosa.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Plants.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Botanists</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Horticulturists.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Luther Burbank, botanist, horticulturist and naturalist, were given to the Library of Congress by the estate of Elizabeth Waters Burbank in 1978. Selected items microfilmed by the Library of Congress were retained by the city of Santa Rosa, California, for display in the Luther Burbank Home. A small addition was given to the Library in 1992 by Renee Felciano.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p> The papers of Luther Burbank were processed and described in 1980. Additional material received in 1992 was processed and incorporated into the collection in 1999. </p>
+      </processinfo>
+      <otherfindaid encodinganalog="555">
+         <head>Additional Guides</head>
+         <p>The Luther Burbank Papers have been partially described in the 
+          
+                              <title localtype="simple">
+                           <part>Quarterly Journal of the Library of Congress</part>
+                        </title>, vol. 36, Oct. 1979, pp. 423-427.
+                        </p>
+      </otherfindaid>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p> Prints and photographs have been transferred to the Library's Prints and Photographs Division where they are identified as part of these papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p> The status of copyright in the unpublished writings of Luther Burbank is governed by the Copyright Law of the United States (Title 17, U.S.C.). </p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Luther Burbank are open to research. Researchers are advised to contact
+               the Manuscript Reading Room prior to visiting. Many collections are stored off-site
+               and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p> Two reels of microfilm are included as part of the Burbank Papers. This microfilm
+               consists of reproductions of items retained by the city of Santa Rosa, California,
+               for display in the Luther Burbank Home and is not available for interlibrary loan. </p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p> Researchers wishing to cite this collection should include the following information: Container or reel number, Luther Burbank Papers, Manuscript Division, Library of Congress, Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1849, Mar. 7</datesingle>
+               <event>Born, Lancaster, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1871</datesingle>
+               <event>Opened plant nursery in Lunenburg, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1871</fromdate>
+                              <todate>1875</todate>
+                           </daterange>
+               <event>Developed the Burbank potato</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1875</datesingle>
+               <event>Moved to Santa Rosa, Calif.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1890</datesingle>
+               <event>Married Helen Coleman (divorced 1896)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1893</datesingle>
+               <event>Published first descriptive seed catalog, 
+            <title localtype="simple">
+                                 <part>New Creations</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1904</fromdate>
+                              <todate>1906</todate>
+                           </daterange>
+               <event>Visiting lecturer, Stanford University, Stanford, Calif.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1905</fromdate>
+                              <todate>1910</todate>
+                           </daterange>
+               <event>Awarded $10,000 annual stipend by the Carnegie Institution of Washington, Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1914</fromdate>
+                              <todate>1915</todate>
+                           </daterange>
+               <event>Published 
+            
+                                 <title localtype="simple">
+                                 <part>Luther Burbank, His Methods and Discoveries and Their Practical Application</part>
+                              </title> (New York: Luther Burbank Press. 12 vols.)
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1916</datesingle>
+               <event>Married Elizabeth Waters</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1926, Apr. 11</datesingle>
+               <event>Died, Santa Rosa, Calif.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1927</datesingle>
+               <event>Posthumous publication with Wilbur Hall of 
+            
+                                 <title localtype="simple">
+                                 <part>The Harvest of the Years</part>
+                              </title> (Boston: Houghton Mifflin. 296 pp.)
+                           </event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Luther Burbank (1849-1926) span the years 1830-1989, with the bulk of the items concentrated in the period 1880-1926. Known to many of his generation as "the plant wizard," Burbank was popularly classed among the scientific heroes of the early twentieth century. His collection consists of the following series: 
+        <ref target="family" show="replace" actuate="onrequest">Family Papers</ref>, 
+        <ref target="gencorr" show="replace" actuate="onrequest">General Correspondence</ref>, 
+        <ref target="speech" show="replace" actuate="onrequest">Speeches and Writings File</ref>, 
+        <ref target="notes" show="replace" actuate="onrequest">Notes and Sketches</ref>, 
+        <ref target="bus" show="replace" actuate="onrequest">Business Records</ref>, 
+        <ref target="misc" show="replace" actuate="onrequest">Miscellany</ref>, an 
+        <ref target="add" show="replace" actuate="onrequest">Addition</ref>, and a 
+        <ref target="micro" show="replace" actuate="onrequest">Microfilm</ref> series consisting of a small selection of items from the papers which were retained by the city of Santa Rosa, California, for display in the Luther Burbank Home.</p>
+         <p>The 
+        <ref target="family" show="replace" actuate="onrequest">Family Papers</ref> series includes a variety of records predating Burbank's birth in Lancaster, Massachusetts, and continuing well after his death in the Northern California town of Santa Rosa. Especially valuable are letters Burbank exchanged with his mother and sister while a prospective emigrant to the West Coast in 1875. The earliest family correspondence, dated as early as 1850, is mostly in the form of typewritten transcripts by Burbank's second wife, Elizabeth Waters Burbank, or by one of his biographers. The transcripts reproduce letters from and between Burbank's brothers and father supplemented by legal, biographical, and other personal data. Also in the 
+        <ref target="family" show="replace" actuate="onrequest">Family Papers</ref> is travel memorabilia which includes a brief diary by Burbank of a trip to his boyhood New England in 1888. Since Burbank's sister, two brothers, and mother had joined or preceded him in his move to California, his journeys outside the state account for practically all of his family correspondence after 1878.</p>
+         <p>The 
+        <ref target="gencorr" show="replace" actuate="onrequest">General Correspondence</ref> series is extensive and, in addition to carbons or drafts of Burbank's replies, contains personal as well as professional letters. There are diverse and sometimes substantive inquiries from farmers interested in his projects, requests for seed catalogs from other nurserymen, fact-finding reports by foreign nationals intent on supplying Burbank with unusual seeds or seedlings, and a great deal of adulatory "fan" mail from friends both prominent and obscure. Burbank wrote and received letters from Harvey S. Firestone, Henry Ford, Charmian London, Joaquin Miller, John Muir, and Ella Wheeler Wilcox. The largest part of the correspondence concerns scientists and government officials who shared his training or helped in communicating the results of his research. Among the more significant of these individuals were David Starr Jordan, friend and patron at Stanford University, and Robert S. Woodward, head of the Carnegie Institution of Washington when Burbank was funded by that body to free him from the ordinary tasks of nursery administration.</p>
+         <p>Other scientists whose correspondence appears with some frequency include Liberty Hyde Bailey, David G. Fairchild, Jose D. Husbands, Vernon L. Kellogg, George H. Schull, H. E. Van Deman, and Hugo De Vries. The letters from De Vries are of particular interest, since it was the Dutch botanist's generous writings about Burbank's Santa Rosa experiments which broadcast their significance to the academic and scientific community. California booster organizations, then in their peak phase, also took an active part in the promotion of the plant breeder's achievements, and the evidence of their contact is best seen in the correspondence between Burbank and various officials of state and county chambers of commerce, the Alaska-Yukon-Pacific Exposition in Seattle of 1909, the Panama-Pacific International Exposition in San Francisco in 1915, and the California State Boards of Horticulture and Agriculture.</p>
+         <p>As a celebrated discoverer of new plant varieties, Burbank depended less on strict scientific methodology than on a prodigious ability to test and experiment on a practical, empirical basis. Although he made sporadic efforts to keep comprehensive records of his research, he often destroyed them once a product was finished. Those accounts which still exist have been organized in a 
+        <ref target="notes" show="replace" actuate="onrequest">Notes and Sketches</ref> series and complement typescripts in the 
+        <ref target="speech" show="replace" actuate="onrequest">Speeches and Writings File</ref> containing narrative descriptions of genera and species which he cultivated at his Santa Rosa and Sebastopol nurseries between 1903 and 1911. Among the 
+        <ref target="bus" show="replace" actuate="onrequest">Business Records</ref> are account books, inventories, stock lists, and plan books related to Burbanks studies. This part of the collection, while focusing mainly on financial aspects of the Burbank operation, shows where and how he purchased seeds, the diligence of his propagation and selection, and the layout of his gardens. As is true of the 
+        <ref target="notes" show="replace" actuate="onrequest">Notes and Sketches</ref>, the 
+        <ref target="bus" show="replace" actuate="onrequest">Business Records</ref> are occasionally illustrated with Burbank's drawings of his techniques and products.</p>
+         <p>The 
+        <ref target="speech" show="replace" actuate="onrequest">Speeches and Writings File</ref> consists of Burbank's personal writings as well as the printed, near-print, and typescript comments of scientists, friends, and journalists. Prominent among the latter were some of his most devoted admirers, including De Vries, Wilbur Hall Jordan, Kellogg, and Edward J. Wickson. In addition, there is a transcript of a 1913 interview with Burbank by Burt C. Bean. The bulk of the Burbank manuscripts pertains to plant descriptions and what is supposed to be a complete series of his published seed catalogs, but there are also a few copies of statements he made on personal and social issues and a small folder of lectures given at Stanford University between 1904 and 1906. At the end of the collection is a 
+        <ref target="misc" show="replace" actuate="onrequest">Miscellany</ref> series of clippings and scrapbooks which include large quantities of ephemera and some important writings. </p>
+         <p>The 
+        <ref target="micro" show="replace" actuate="onrequest">Microfilm</ref> series consists of selected correspondence, family papers and genealogies, nursery plans and notes, financial records, scrapbooks, and miscellany. Prominent correspondents in the series include Thomas A. Edison, Helen Keller, Alfred C. Kinsey, Jack London, and Woodrow Wilson.</p>
+         <p>Correspondents in addition to those listed above include W. Atlee Burpee, Herbert G. Gleason, J. G. Lemmon, W. W. Morrow, Spiegel Samu, F. Harvey Vachell, and F. A. Waugh.</p>
+         <p>Burbank made extensive use of photography to record the course and results of his plant
+            breeding, and a large quantity of prints and negatives, including glass plates, has been
+            transferred to the Prints and Photographs Division of the Library of Congress.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Organization of the Papers</head>
+         <p>The collection is arranged in eight series:</p>
+         <list listtype="unordered" mark="circle">
+            <item>
+                           <ref target="family" show="replace" actuate="onrequest">Family Papers, circa 1830-1969</ref>
+                        </item>
+            <item>
+                           <ref target="gencorr" show="replace" actuate="onrequest">General Correspondence, 1871-1929</ref>
+                        </item>
+            <item>
+                           <ref target="speech" show="replace" actuate="onrequest">Speeches and Writings File, 1869-1950</ref>
+                        </item>
+            <item>
+                           <ref target="notes" show="replace" actuate="onrequest">Notes and Sketches, 1886-1925</ref>
+                        </item>
+            <item>
+                           <ref target="bus" show="replace" actuate="onrequest">Business Records, 1871-1921</ref>
+                        </item>
+            <item>
+                           <ref target="misc" show="replace" actuate="onrequest">Miscellany, 1894-1922</ref>
+                        </item>
+            <item>
+                           <ref target="add" show="replace" actuate="onrequest">Addition, 1989</ref>
+                        </item>
+            <item>
+                           <ref target="micro" show="replace" actuate="onrequest">Microfilm, 1864-1964</ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Box</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-2</container>
+               <unittitle id="family" encodinganalog="245$a">Family Papers, 
+             <date localtype="inclusive" normal="1830/1969">circa 1830-1969</date> 
+                  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1830/1969" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">circa 1830-1969</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters to and from Burbank's family, including transcriptions of originals not in the collection, and subject files of topical correspondence, legal matters, school reports, travel notes, and other holograph, typewritten, near-print, and printed matter. </p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by name of correspondent or subject and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Originals</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Bell, Jane (sister), 1890-1907, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Burbank, Elizabeth Waters (wife), 1916-1921, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Burbank and Ross family (cousins), 1901-1926</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Burbank family (distant relatives), 1904-1918</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Transcriptions</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Burbank Family, 1869-1912, undated</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Burbank, George (brother), 1850-1863, undated</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Subject file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"The Authorized Biography of Luther Burbank," by Burt C. Bean, 1923-1926</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Biographical and family material compiled by Elizabeth Waters Burbank, 1915-1949, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Burbank, Alfred (brother), 1909-1913</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Centennial of birth, 1949</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Condolences on Burbank's death, 1926</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Divorce settlement, 1896</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Legal documents, 1899-1934</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Luther Burbank Christmas Memorial, 1947-1948</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proposed Luther Burbank Foundation at Stanford University, Stanford, Calif., 1926-1928</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">School and youth, 1865-1949 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Spanish documents from South America, originals, copies, and translations, circa 1830-1969</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Travel</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Canada, 1894</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Massachusetts, 1900</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Raymond's Vacation Excursions, 1888</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2-12</container>
+               <unittitle id="gencorr" encodinganalog="245$a">General Correspondence, 
+             <date localtype="inclusive" normal="1871/1929">1871-1929</date> 
+                  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1871/1929" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1871-1929</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters with enclosures received by Burbank and drafts or copies of letters sent. </p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by name of correspondent and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">American Anti-Alcohol Education Association 
+              <ref target="hob5" show="replace" actuate="onrequest">
+                                    <emph render="italic">See Container 5,</emph> Hobson, Richard P.</ref>
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Anderson, Ann P., 1906-1911</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Atherton, Gertrude, 1905-1908, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"A" miscellaneous, 1894-1926, undated </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bailey, Liberty H., 1891-1907, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Burpee, W. Atlee, 1896-1917</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">"B" miscellaneous, 1899-1926, undated </unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bonnheim, Albert, 1909 
+              <ref target="white11" show="replace" actuate="onrequest">
+                                    <emph render="italic">See Container 11,</emph> White Crusaders</ref>
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="carn3" encodinganalog="245$a">Carnegie Institution of Washington, 1903-1910 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"C" miscellaneous</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1890-1916 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">1917-1926, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">D. Hay and Son, 1887-1899, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Damman &amp; Co., 1894-1896</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">De Vries, Hugo, 1903-1929</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Doubleday, Page &amp; Co., 1903-1918</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"D" miscellaneous, 1889-1926, undated </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Empson, J. H., 1905-1921</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"E" miscellaneous, 1888-1926, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Fairchild, David G., 1899-1910</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Firestone, Harvey S., 1917-1923</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ford, Henry, and Ford Motor Co., 1915-1928, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"F" miscellaneous</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1891-1912</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">1913-1926, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Gleason, Herbert W., 1908-1923, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Grucy, Lucien (French war orphan and godson), 1919-1923, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"G" miscellaneous, 1871-1927, undated </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="hob5" encodinganalog="245$a">Hobson, Richmond P., 1921-1922</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Husbands, Jose D., 1905-1911, undated </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"H" miscellaneous</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1891-1906</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">1907-1926, undated </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="imai6" encodinganalog="245$a">Imai, G., 1920-1924</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"I" miscellaneous, 1905-1924, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Jordan, David Starr, 1901-1926 </unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"J" miscellaneous, 1897-1925</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Katakura &amp; Co., 1920-1924 
+              <ref target="imai6" show="replace" actuate="onrequest">
+                                    <emph render="italic">See same container,</emph> Imai, G.</ref>
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Kellogg, John Harvey, 1917-1926</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Kellogg, Vernon L., 1900-1915, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Knudsen, H., 1898-1901, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"K" miscellaneous, 1891-1926, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Leib, S. F., 1896-1922</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lelong, B. M., 1890-1900</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lemmon, J. G., 1886-1904</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">de Longpré, Paul, 1899-1903, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"L" miscellaneous, 1893-1926, undated </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Maxim, Hudson, 1911-1925</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mills, Susan L., 1907-1908</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Morrow, W. W., 1904-1909</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Miller, P. Francisco, 1918-1922</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Muir, John, 1910</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"M" miscellaneous, 1890-1926, undated </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"N" miscellaneous, 1891-1926</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Osterhout, J. V., 1901-1904</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"O" miscellaneous, 1901-1925, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"P" miscellaneous</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1898-1908</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">1909-1926, undated </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Q-R" miscellaneous, 1888-1926, undated </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Samu, Spiegel, 1893-1896</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">School children</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1901-1922 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">1923-1926, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Schull, George H., 1908-1912</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                                 <title localtype="simple">
+                                    <part>Scientific American</part>
+                                 </title>, 1903-1926</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Slater, Herbert W., 1917-1925, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"S" miscellaneous, 1892-1926, undated </unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"T" miscellaneous, 1891-1926, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">"U-V" miscellaneous, 1896-1926, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Vachell, F. Harvey, 1903-1912</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Van Deman, H. E., 1894-1905</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Waugh, F. A., 1896-1901</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Wilcox, Ella Wheeler, 1906-1914, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="white11" encodinganalog="245$a">White Crusaders, 1909</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Woodward, Robert S. 
+              <ref target="carn3" show="replace" actuate="onrequest">
+                                    <emph render="italic">See Container 3,</emph> Carnegie Institution of Washington</ref>
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"W" miscellaneous, 1888-1926, undated </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">"X-Y" miscellaneous, 1894-1925</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Unidentified and anonymous, 1898-1927, undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">12-18</container>
+               <unittitle id="speech" encodinganalog="245$a">Speeches and Writings File, 
+             <date localtype="inclusive" normal="1869/1950">1869-1950</date> 
+                  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1869/1950" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1869-1950</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Holograph, typewritten, near-print, and printed copies of speeches, lectures, and writings. </p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by type of speech or author. Burbank's writings are listed in one category, those by others in another.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a">By Burbank</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Catalog descriptions, 1906-1911</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Bulbs</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Cactus</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Cereals and other farm crops</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Climbing vines, large</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Blackberries</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Deciduous trees</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Desert plants</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Evergreen trees (mostly conifers)</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Ferns and mosses</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Flowers </unittitle>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Forage plants</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Fruits</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">13</container>
+                        <unittitle encodinganalog="245$a">Fruits: vines and shrubs</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Giant ornamental grasses</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Gladioli</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Gourds</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Herbs, uncommon vegetables, and other economic plants</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Legumes</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Mistletoe, parasitic plants, etc.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Nuts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Nut trees and nuts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Orchids</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Ornamental grasses and sedges</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Palms</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Plums</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Succulents</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Shrubs</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Shrubs, ornamental</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Solanums and physalis</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Textile plants</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Uncommon tropicals</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Vegetables</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Vegetables and garden plants</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Water and bog plants</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Great men, eulogies and statements, 1915-1926, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Lectures, Stanford University, Stanford, Calif., 1904-1906</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Titled, A-Z, 1869-1926</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Untitled or incomplete, 1918-1922, undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Quotations</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed catalogs</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">1883-1922 </unittitle>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">1923-1927</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                                    <title localtype="simple">
+                                       <part>Proof Book Number 1</part>
+                                    </title>, for Luther Burbank Society, 1913</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Transcribed interviews with Burbank</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">By Burt C. Bean</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">pp. 1-716 </unittitle>
+                           <physdesc encodinganalog="300">(7 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">16</container>
+                           <unittitle encodinganalog="245$a">pp. 717-1918 </unittitle>
+                           <physdesc encodinganalog="300">(12 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">17</container>
+                           <unittitle encodinganalog="245$a">p. 1919-2356 </unittitle>
+                           <physdesc encodinganalog="300">(4 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">By Clark, 1914</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">By others</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Burbank, Elizabeth Waters, 1932-1935 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hall, Wilbur, 1941</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Jordan, David Starr</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kellogg, Vernon L., 1906-1915</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Printed, A-Z, 1898-1950</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Typewritten, 1916-1935, undated</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Poems dedicated to Burbank</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">De Vries, Hugo, 1904-1906, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wickson, Edward J., 1905-1908, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">18-20</container>
+               <unittitle id="notes" encodinganalog="245$a">Notes and Sketches, 
+             <date localtype="inclusive" normal="1886/1925">1886-1925</date> 
+                  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1886/1925" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1886-1925</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Notes and sketches made by Burbank of fruit and plant species. </p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by subject.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">18</container>
+                  <unittitle encodinganalog="245$a">Apple trees </unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Berries, cherries, and grapes</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">19</container>
+                  <unittitle encodinganalog="245$a">Cherry trees </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Crosses</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Daisies</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Gladioli</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Grafting charts, vibrations, etc.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Grapes</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lilies</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lilies and berries</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">List of plants and seeds</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">New plums</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hybrids and crossings</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Peach trees</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Peach trees, plumcots, and nectarines </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Pear trees </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Plum trees </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Quince trees</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Strawberries</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">21-25</container>
+               <unittitle id="bus" encodinganalog="245$a">Business Records, 
+             <date localtype="inclusive" normal="1871/1921">1871-1921</date> 
+                  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1871/1921" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1871-1921</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Account books, order books, plan books, seed and stock records, subscription books, and an inventory of Burbank's nursery operations. </p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by type of record and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Account books</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1882-1888 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">1898-1902</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Inventory, 1871-1874</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Order books</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1881-1885 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">1885-1889 </unittitle>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Plan books, 1883-1921 </unittitle>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">Seed records</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Domestic, 1905-1914, undated </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Foreign, 1902-1904</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Stock records, 1887-1894</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Subscription books, undated </unittitle>
+                  <physdesc encodinganalog="300">(2 vols.)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">26-40</container>
+               <unittitle id="misc" encodinganalog="245$a">Miscellany, 
+             <date localtype="inclusive" normal="1894/1922">1894-1922</date> 
+                  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1894/1922" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1894-1922</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Clippings, calling cards, invitations, programs, seed catalogs, membership cards, magazines, journals, printed matter, and scrapbooks. </p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by type of material and chronologically therein.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <unittitle encodinganalog="245$a">Clippings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">California earthquake, 1906</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Printed matter</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Calling cards and tickets</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Invitations</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">Journals and magazines</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                                       <title localtype="simple">
+                                          <part>Century Magazine</part>
+                                       </title>, 1905-1911 </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                                       <title localtype="simple">
+                                          <part>Guide to Nature</part>
+                                       </title>, 1910-1913</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellaneous, 1894-1922</unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        <container localtype="box">28</container>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                        <container localtype="box">29</container>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                        <container localtype="box">30</container>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                                       <title localtype="simple">
+                                          <part>Overland Monthly</part>
+                                       </title>, 1903-1908 </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                                       <title localtype="simple">
+                                          <part>Sunset Magazine</part>
+                                       </title>, 1901-1909</unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        <container localtype="box">31</container>
+                        <physdesc encodinganalog="300">(1 folder)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Membership cards</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Programs</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Seed catalogs </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Scrapbooks</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Index</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Membership cards</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Programs</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Seed catalogs </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">32</container>
+                     <unittitle encodinganalog="245$a">Vol. 3, 1901-1904</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">33</container>
+                     <unittitle encodinganalog="245$a">Vol. 4, 1902-1905</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">34</container>
+                     <unittitle encodinganalog="245$a">Vol. 5, 1905</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">35</container>
+                     <unittitle encodinganalog="245$a">Vol. 6, 1905-1906</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">36</container>
+                     <unittitle encodinganalog="245$a">Vol. 7, 1906-1907</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">37</container>
+                     <unittitle encodinganalog="245$a">Vol. 8, 1907-1908</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">38</container>
+                     <unittitle encodinganalog="245$a">Vol. 9, 1908</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">39</container>
+                     <unittitle encodinganalog="245$a">Vol. 14, 1913-1917</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">40</container>
+                     <unittitle encodinganalog="245$a">Vol. 17, 1915-1922</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">41</container>
+               <unittitle id="add" encodinganalog="245$a">Addition, 
+             <date localtype="inclusive" normal="1989">1989</date> 
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1989" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1989</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Printed matter.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">41</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title localtype="simple">
+                                    <part>Historic American Buildings Survey, Documentation No. CA-2254 of Gold Ridge Farm, Luther Burbank's Experimental Farm, Sebastopol, Calif.</part>
+                                 </title>, 1989</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="reel">1-2</container>
+               <unittitle id="micro" encodinganalog="245$a">Microfilm, 
+             <date localtype="inclusive" normal="1864/1964">1864-1964</date> 
+                  
+                           </unittitle>
+               <unitdate unitdatetype="inclusive" normal="1864/1964" encodinganalog="245$f" era="ce"
+                         calendar="gregorian">1864-1964</unitdate>
+               <didnote>Microfilm shelf no. 17,388</didnote>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, family papers and genealogies, nursery plans and notes, financial records, scrapbooks, and miscellany retained by the Luther Burbank Home, Santa Rosa, Calif. </p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged and described to reflect the arrangement of the Burbank Papers in the Library of Congress. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Family papers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, 1919, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Genealogies, 1864, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Writings and anecdotes, 1921-1926, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">General, 1874-1964, undated </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bryan, Mary Baird, 1911-1912</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Edison, Thomas A., 1915-1920</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Keller, Helen, 1925</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kinsey, Alfred C., 1925</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">London, Jack, 1905</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Scopes trial, Dayton, Tenn., [1925]</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wilson, Woodrow, 1916</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Nursery plans</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Plan books, 1881-1908, 1926 </unittitle>
+                     <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Plan map, 1914</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Plant descriptions, 1908-1921</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Plant notes, 1890, 1892, 1896</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Financial records</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bank books</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">1883-1898</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">1902-1903, 1909-1917</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Deeds, 1874-1913</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Deeds and abstracts, undated </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="reel">2</container>
+                     <unittitle encodinganalog="245$a">Mortages, 1885-1888</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sales books, 1878-1885 </unittitle>
+                     <physdesc encodinganalog="300">(3 vols.)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Photographs, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Riverside Addition," undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Schools named after Burbank in California, undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed matter, Burbank's plant contributions</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Scrapbooks</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Vol. 1, 1874-1895</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Vol. 2, 1895-1904[?]</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

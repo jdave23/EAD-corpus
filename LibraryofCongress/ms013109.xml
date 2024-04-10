@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms013109">loc.mss/eadmss.ms013109</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>L. Quincy Mumford Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by Emily Zehmer</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+                           <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+               Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2013" encodinganalog="260$c" era="ce" calendar="gregorian">2013</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm85061916">https://lccn.loc.gov/mm85061916</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2013">2013</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">L. Quincy Mumford Papers  <date altrender="Span Dates" localtype="inclusive" normal="1939/1982">1939-1982</date> 
+                        <date altrender="Bulk Dates" localtype="bulk" normal="1954/1974">(bulk 1954-1974)</date> 
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1939/1982"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1939-1982</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1954/1974"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1954-1974)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS61916</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Mumford, L. Quincy (Lawrence Quincy),
+               1903-1982</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">750 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">3 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">1.2 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in English
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852">
+                        <corpname>
+                           <part>
+                Manuscript Division,  Library of Congress</part>
+                        </corpname>
+                        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Librarian of Congress. Correspondence,
+            writings, bibliographical material, committee reports, congressional bills, reports,
+            newspaper clippings, and photographs relating to Mumford’s career as a
+            librarian.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220324122636.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Mumford, L. Quincy (Lawrence Quincy), 1903-1982.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Library of Congress--Officials and employees.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Library of Congress.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Libraries--Washington (D.C.)</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="246" source="lcnaf">
+               <part>Lawrence Quincy Mumford papers</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Librarians of Congress.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The papers of L. Quincy Mumford, Librarian of Congress, were given to the Library of
+               Congress by his widow, Betsy P. Mumford, in 1985. A previous acquisition, consisting
+               of nine certificates of greeting transferred from the Central Services Division of
+               the Library, was withdrawn from the Miscellaneous Manuscripts Collection and combined
+               with Mrs. Mumford’s gift. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Lawrence Quincy Mumford were arranged and described in 1987. The
+               finding aid was revised in 2013.  </p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Lawrence Quincy Mumford is
+               governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of L. Quincy Mumford are open to research. Researchers are advised to
+               contact the Manuscript Reading Room prior to visiting. Many collections are stored
+               off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+               Container number, L. Quincy Mumford Papers, Manuscript Division, Library of Congress,
+               Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1903, Dec. 11 </datesingle>
+               <event>Born, Ayden, N. C. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1925</datesingle>
+               <event>Graduated, Duke University, Durham, N. C.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1926</fromdate>
+                              <todate>1928</todate>
+                           </daterange>
+               <event>Head of circulation and acting chief of reference, Duke University Library,
+                  Durham, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1928</datesingle>
+               <event>M.A. in English, Duke University, Durham, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1929</datesingle>
+               <event>B.S. in library service, Columbia University, New York, N. Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1929</fromdate>
+                              <todate>1945</todate>
+                           </daterange>
+               <event>Held various administrative positions, New York Public Library, New York, N.Y.
+                  (on leave of absence, 1940-1942) </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1930</datesingle>
+               <event>Married Permelia Catherine Stevens (died 1961)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1940</fromdate>
+                              <todate>1942</todate>
+                           </daterange>
+               <event>Special appointment as director, Processing Department, Library of Congress,
+                  Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1945</datesingle>
+               <event>Named assistant director, Cleveland Public Library, Cleveland, Ohio</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1947</fromdate>
+                              <todate>1948</todate>
+                           </daterange>
+               <event>President, Ohio Library Association </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1950</fromdate>
+                              <todate>1954</todate>
+                           </daterange>
+               <event>Director, Cleveland Public Library, Cleveland, Ohio</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1954</fromdate>
+                              <todate>1955</todate>
+                           </daterange>
+               <event>President, American Library Association</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1954</datesingle>
+               <event>Appointed Librarian of Congress</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1969</datesingle>
+               <event>Married Betsy Perrin Fox</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1974</datesingle>
+               <event>Retired from the Library of Congress </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1982, Aug. 15</datesingle>
+               <event>Died, Washington, D.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of  Lawrence Quincy Mumford (1903-1982) cover the years 1939-1982, with the
+            bulk of the collection dating from 1954 to 1974, including correspondence, writings,
+            bibliographical material, invitations, schedules, programs, committee reports,
+            congressional bills, reports, newspaper clippings, and photographs.</p>
+         <p>Mumford’s correspondence chiefly reflects the personal aspects of his career, beginning
+            with his special appointment as director of the Processing Department at the Library of
+            Congress while on leave of absence from New York Public Library, 1940-1942. His
+            nomination as Librarian of Congress by President Dwight D. Eisenhower in 1954 is
+            documented by letters of support and congratulations from Library colleagues. His
+            correspondence as librarian consists primarily of letters of thanks and recommendation
+            and reflects the social and cultural duties of his office. </p>
+         <p>The writings consist of articles by Mumford and publications by others on topics of
+            interest to him.</p>
+         <p> A miscellany file includes appointment schedules, invitations, and programs;
+            biographical file; committee reports; conference file; congressional bills, reports, and
+            hearings; newspaper clippings; and photographs.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is organized by type of material.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Correspondence,  <date>1940-1945, 1953-1980,
+                     undated</date> 
+                           </unittitle>
+               <unitdate>1940-1945, 1953-1980,
+                     undated</unitdate>
+               <physdesc>(9 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Writings </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">By Mumford,  <date>1954-1970 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1954-1970 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">By others,  <date>1939-1982 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1939-1982 </unitdate>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Miscellany </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Appointment schedules, invitations,
+                        programs,  <date>1954-1964, 1973-1979 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1954-1964, 1973-1979 </unitdate>
+                  <physdesc encodinganalog="300">(12 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Biographical material, <date> 1954-1981 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f"> 1954-1981 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Committee reports,  <date>1962, 1972, 1977 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1962, 1972, 1977 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Conference file,  <date>1979 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1979 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Congressional bills, hearings, and reports,
+                         <date>1949-1967 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1949-1967 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings, <date> circa 1945-1974 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f"> circa 1945-1974 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Photographs  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

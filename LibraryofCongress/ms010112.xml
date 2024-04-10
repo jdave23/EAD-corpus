@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010112">loc.mss/eadmss.ms010112</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Ralph Izard Family Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Patrick Doyle</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm81027524">https://lccn.loc.gov/mm81027524</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2010">2010</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Ralph Izard Family Papers
+		  
+		   <date altrender="Span Dates" localtype="inclusive" normal="1778/1826">1778-1826</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1801/1814">(bulk 1801-1814)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1778/1826"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1778-1826</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1801/1814"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1801-1814)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS27524</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Izard, Ralph,
+			 1742-1804</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">660 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">5 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">2.0 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">2 microfilm reels</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+		       </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Continental
+		  congressman, United States senator from South Carolina, diplomat.
+		  Correspondence and miscellaneous material concerning the Izard family regarding
+		  domestic life and social affairs in Charleston, South Carolina, and
+		  Philadelphia, Pennsylvania, and including the involvement of family members in
+		  managing their estate in South Carolina and the Tripolitan War.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20161017113446.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Izard family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Izard, Alice DeLancey, 1745-1832--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Izard, Elizabeth Middleton, 1787-1822--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Izard, George, 1777-1828.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Izard, Ralph, 1742-1804.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Izard, Ralph, 1785-1824--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Manigault, Margaret Izard, 1768-1824--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Parker, John, 1759-1832--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pinckney, Thomas, 1750-1828--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy--History--Tripolitan War, 1801-1805.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Charleston (S.C.)--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Pennsylvania--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Philadelphia (Pa.)--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>South Carolina--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Tripolitan War, 1801-1805.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Delegates, U.S. Continental Congress--South Carolina.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Diplomats.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Senators, U.S. Congress--South Carolina.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of the Ralph Izard family were purchased, 1910-1958.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of the Ralph Izard family were arranged and described circa
+		  1958. The papers were reprocessed and microfilmed in 1983. The finding aid was
+		  revised in 2010.</p>
+      </processinfo>
+      <otherfindaid encodinganalog="555">
+         <head>Additional Guides</head>
+         <p>The Ralph Izard Family Papers are described in 
+		<title localtype="simple">
+                           <part>Report of the Librarian of Congress for the Fiscal Year Ending
+		  June 30, 1930</part>
+                        </title>. (Washington: Government Printing Office, 1930), p.
+		72.</p>
+      </otherfindaid>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of the Ralph Izard
+		  family is governed by the Copyright Law of the United States (Title 17,
+		  U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of the Ralph Izard family are open to research. Researchers
+		  are advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p>A microfilm edition of these papers is available on two reels. Consult
+		  reference staff in the Manuscript Division concerning availability for purchase
+		  or interlibrary loan. To promote preservation of the originals, researchers are
+		  required to consult the microfilm edition.</p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container or reel number, Ralph Izard Family Papers,
+		  Manuscript Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <bioghist encodinganalog="545">
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1742, Jan. 23</datesingle>
+                  <event>Born near Charleston, S.C.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1767</datesingle>
+                  <event>Married Alice DeLancy (died 1832)</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1771</fromdate>
+                                 <todate>1776</todate>
+                              </daterange>
+                  <event>Resided in London, England, and Paris, France</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1776</fromdate>
+                                 <todate>1779</todate>
+                              </daterange>
+                  <event>Served as commissioner to the Court of Tuscany for the
+				  Continental Congress</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1780</datesingle>
+                  <event>Pledged his estate in South Carolina for the payment of
+				  warships to be used in the American Revolution</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1782</fromdate>
+                                 <todate>1783</todate>
+                              </daterange>
+                  <event>Member, Continental Congress</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                                 <fromdate>1789</fromdate>
+                                 <todate>1796</todate>
+                              </daterange>
+                  <event>Served in United States Senate; president pro tempore of the
+				  senate</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1804, May 30</datesingle>
+                  <event>Died, near Charleston, S.C.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Ralph Izard Family Papers span the years 1778-1826, with the bulk
+		  of the material dating from 1801-1814. The correspondence includes letters of
+		  Ralph Izard (1742-1804) relating to his Charleston, South Carolina, estate and
+		  the education of his son George Izard (1777-1828); letters of his son, Ralph
+		  Izard (1785-1824), relating in part to his service with the United States Navy
+		  during the Tripolitan War; and the letters of Alice DeLancey Izard (1745-1832),
+		  Margaret Izard Manigault (1768-1824), and Elizabeth Middleton Izard (1787-1822)
+		  relating to family and domestic life and to social affairs in Charleston, South
+		  Carolina, and Philadelphia, Pennsylvania. Other correspondents include Thomas
+		  Pinckney and John Parker.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged chronologically by year with an
+		  alphabetical listing by name of person thereunder. Fragments and miscellaneous
+		  material are filed at the end.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <container localtype="reel">1</container>
+               <unittitle encodinganalog="245$a"> 
+				                          <date>1778-1805 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1778-1805 </unitdate>
+               <physdesc encodinganalog="300$a">(7
+				folders)</physdesc>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Burrows, W. W.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Gadsden, Christopher</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Izard, Alice DeLancey (Mrs.
+				  Ralph)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Izard, Ralph
+				  (1742-1804)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Izard, Ralph
+				  (1785-1824)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Manigault, Harriet</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Manigault, Margaret Izard (Mrs.
+				  Gabriel)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Parker, John</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Pinckney, Thomas</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <container localtype="reel">1</container>
+               <unittitle encodinganalog="245$a"> 
+				                          <date>1806-1810 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1806-1810 </unitdate>
+               <physdesc encodinganalog="300$a">(6
+				folders)</physdesc>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Izard, Elizabeth
+				  Middleton</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Izard, Ralph
+				  (1785-1824)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Manigault, Charlotte</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Manigault, Margaret
+				  Izard</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <container localtype="reel">1-2</container>
+               <unittitle encodinganalog="245$a"> 
+				                          <date>1811-1814, Mar. </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1811-1814, Mar. </unitdate>
+               <physdesc encodinganalog="300$a">(6
+				folders)</physdesc>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">1-2</container>
+                  <unittitle encodinganalog="245$a">Deas, Ann Izard (Mrs. William
+				  Allen)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">1-2</container>
+                  <unittitle encodinganalog="245$a">Izard, Alice DeLancey</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">1-2</container>
+                  <unittitle encodinganalog="245$a">Izard, Ann Middleton</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">1-2</container>
+                  <unittitle encodinganalog="245$a">Izard, Elizabeth
+				  Middleton</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">1-2</container>
+                  <unittitle encodinganalog="245$a">Izard, Ralph
+				  (1785-1824)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">Manigault, Margaret
+				  Izard</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <container localtype="reel">2</container>
+               <unittitle encodinganalog="245$a"> 
+				                          <date>1814
+				  Apr.-1823 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1814
+				  Apr.-1823 </unitdate>
+               <physdesc encodinganalog="300$a">(6
+				folders)</physdesc>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Izard, Alice DeLancey</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Izard, Ann Middleton</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Izard, Elizabeth
+				  Middleton</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Izard, Ralph
+				  (1785-1824)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Manigault, Margaret
+				  Izard</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <container localtype="reel">2</container>
+               <unittitle encodinganalog="245$a"> 
+				                          <date>1824-1826 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1824-1826 </unitdate>
+               <physdesc encodinganalog="300$a">(3
+				folders)</physdesc>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Izard, Adela</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Izard, Ann Middleton</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Izard, Eliza Lucas Pinckney (Mrs.
+				  Ralph, Jr.)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Izard, Margaret</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Izard, Ralph </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <container localtype="reel">2</container>
+               <unittitle encodinganalog="245$a">Undated</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Izard, Alice DeLancey</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Izard, Ann Middleton</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Izard, Ralph
+				  (1785-1824)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">Manigault, Margaret
+				  Izard</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <container localtype="reel">2</container>
+               <unittitle encodinganalog="245$a">Fragments</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <container localtype="reel">2</container>
+               <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

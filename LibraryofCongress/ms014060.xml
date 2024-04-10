@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms014060">loc.mss/eadmss.ms014060</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Lewis Varick Frissell Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by David Van Tassell<lb/>Revised and expanded by David
+               Mathisen</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+                           <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+               Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2012" encodinganalog="260$c" era="ce" calendar="gregorian">2012</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm77055277">https://lccn.loc.gov/mm77055277</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2014">2014</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Lewis Varick Frissell Papers  <date altrender="Span Dates" localtype="inclusive" normal="1917/1970">1917-1970</date> 
+                        <date altrender="Bulk Dates" localtype="bulk" normal="1925/1931">(bulk 1925-1931)</date> 
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1917/1970"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1917-1970</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1925/1931"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1925-1931)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS55277</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Frissell, Lewis Varick,
+               1903-1931</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">650 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">5 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">2 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in English
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852">
+                        <corpname>
+                           <part>
+                Manuscript Division,  Library of Congress</part>
+                        </corpname>
+                        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Explorer and cinematographer.
+            Correspondence, diary, drafts of writings, film scripts and other production materials,
+            business papers, newspaper clippings, scrapbooks, and other papers relating chiefly to
+            Frissell's explorations and the production of the films,<emph render="italic"> The Great Arctic Seal
+               Hunt</emph> (1928) and <emph render="italic">The Viking </emph>(1931). Later materials relate to
+            Frissell's disappearance in a shipwreck while on location for <emph render="italic">The Viking
+            </emph>and attempts by members of his family to ascertain and publicize the facts of
+            his career.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20201211113124.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>England, George Allan, 1877-1936--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Flaherty, Robert Joseph, 1884-1951--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Frissell, Lewis Fox, 1872-1934--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Frissell, Toni, 1907-1988--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Frissell, Varick, 1903-1931.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Grenfell, Wilfred Thomason, Sir, 1865-1940--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Explorers Club.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Royal Geographical Society (Great Britain)</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Documentary films--Production and direction.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Motion pictures--Production and direction.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Rivers--Newfoundland and Labrador.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Shipwrecks.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Arctic regions--Discovery and exploration.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="unspecified">
+               <part>Churchill River (N.L.)--Discovery and exploration.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Newfoundland and Labrador--Discovery and exploration.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="unspecified">
+               <part>Unknown River (N.L.)--Discovery and exploration.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="630" relator="subject" source="unspecified">
+               <part>Great Arctic Seal Hunt (Motion picture)</part>
+            </title>
+            <title encodinganalog="630" relator="subject" source="unspecified">
+               <part>Viking (Motion picture)</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Cinematographers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Explorers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The papers of Lewis Varick Frissell, explorer and cinematographer, were given to the
+               Library of Congress by his sister, Toni Frissell, in 1975.  </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The Lewis Varick Frissell Papers were processed in 1977 and expanded in 1985. The
+               finding aid was revised in 2012. </p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Some photographs have been transferred to the Library’s Prints and Photographs
+               Division where they are identified as part of these papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Lewis Varick Frissell is
+               governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Lewis Varick Frissell are open to research. Researchers are advised to
+               contact the Manuscript Reading Room prior to visiting. Many collections are stored
+               off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+               Container number, Lewis Varick Frissell Papers, Manuscript Division, Library of
+               Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1903, Aug. 29 </datesingle>
+               <event>Born, New York, N.Y. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1920</datesingle>
+               <event>Traveled to Newfoundland</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1925</datesingle>
+               <event>Explored Unknown River region of Labrador</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1926</datesingle>
+               <event>B.A., Yale University, New Haven, Conn.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1927</datesingle>
+               <event>Filmed <title>
+                                 <part>Great Artic Seal Hunt </part>
+                              </title>(released 1928)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1928</datesingle>
+               <event>Elected member of Royal Geographic Society and Explorer's Club </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1929</datesingle>
+               <event>Filmed newsreel footage of Mexican Revolution</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1930</datesingle>
+               <event>Began to film, as producer, <title>
+                                 <part>The Viking </part>
+                              </title>(released posthumously
+                  1931)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1931, Mar. 15</datesingle>
+               <event>Killed in shipboard explosion off the coast of Labrador</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Lewis Varick Frissell (who was known throughout his life as Varick
+            Frissell) span the years 1917-1970, with the greatest portion of the material dated
+            1925-1931. The diary, correspondence, writings, and business papers of these years
+            reflect a short but intense career of arctic exploration, writing, and documentary and
+            feature film making. Earlier papers are Frissell's juvenilia (mostly fiction), and later
+            papers are those of his family. The collection is organized by type of material. </p>
+         <p>Frissell's expedition to the Unknown River region of Labrador in 1925 resulted in his
+            discovery of the Lower Twin Falls of that river and in the first photograph of the Grand
+            Falls on the Hamilton River (now Churchill River and Falls). The journey is documented
+            in the diary, correspondence, and articles in the collection. This and subsequent
+            explorations in Labrador earned Frissell election as a Fellow of the Royal Geographic
+            Society and as a member of the Explorer's Club. </p>
+         <p>Much of the general correspondence and most of the business papers, as well as the
+            scripts and related papers in the collection, pertain to the two feature films produced
+            by Frissell. <title>
+                           <part>The Great Arctic Seal Hunt </part>
+                        </title>(1928), a silent documentary, was
+            written, produced, and photographed by Frissell while he worked as a sealer off the
+            Labrador coast in 1927. <title>
+                           <part>The Viking</part>
+                        </title> (1931), the first feature-length sound
+            film produced entirely on location, was written and produced by Frissell and was
+            directed by George Melford. The writings file in the collection includes synopses for
+            both films and scripts, continuity notes, and a negative film record for <title>
+                           <part>The
+               Viking.</part>
+                        </title> Distribution contracts and agreements, schedules of showings for both
+            films, and copies of correspondence between third parties about these arrangements are
+            included in the business papers. </p>
+         <p>In addition to the papers related to motion pictures, the writings contain numerous
+            articles on Labrador and the Arctic, reflecting Frissell's interest in the promotion and
+            development of the region. Other writings include Frissell's fictional pieces and his
+            poetry. </p>
+         <p>The largest sequence of general correspondence is between Frissell and Sir Wilfred
+            Thomason Grenfell and his philanthropic organization, the International Grenfell
+            Association. Grenfell, with whom Frissell had stayed on his first and on many later
+            visits to the North, was a well-known medical missionary to the Eskimos of Labrador.
+            Other prominent correspondents are Robert Joseph Flaherty, the noted documentarist, and
+            George Allan England, whose story "Vikings of the Ice" Frissell adapted for <title>
+                           <part>The
+               Viking. </part>
+                        </title>
+                     </p>
+         <p>Family correspondence in the papers contains letters to and from Frissell and his
+            father, Lewis Fox Frissell, regarding Frissell's plans for and experiences on his
+            northern journeys. A large portion of the correspondence of Frissell's father relates to
+            the search for Frissell that was instituted during the spring of 1931, after the ship on
+            which he was retaking some scenes for <title>
+                           <part>The Viking </part>
+                        </title>exploded. Frissell was
+            never found, but the search for him is closely chronicled in telegrams and letters, as
+            well as newspaper clippings in the subject file and in scrapbooks. </p>
+         <p>The much later, 1965-1970, correspondence of Toni Frissell in the family correspondence
+            reflects her attempts to ascertain and publicize the facts of her brother's career.
+            Several of these letters contain enclosures that are copies of Frissell's correspondence
+            with his lawyers and with the Royal Geographic Society.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged alphabetically by type of material.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Diary, written on bound-in interleaves of A. P.
+                  Low, Report on <title>
+                                 <part>Explorations in the Labrador Peninsula </part>
+                              </title>(Ottawa,
+                     1896), <date> 1925</date> 
+                           </unittitle>
+               <unitdate> 1925</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Family correspondence,  <date>1925-1931 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1925-1931 </unitdate>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">A-G </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">H-Z and unidentified </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Writings,  <date>1917-1930 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1917-1930 </unitdate>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Articles </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">"Explorations in the Grand Falls Region of
+                        Labrador" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">"Flying South with Arctic Gales" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">"To Grand Falls and the Unknown River of
+                        Labrador" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">"In Darkest Labrador"  </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">"Labrador and Another Niagara" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">"Labrador as I Like It" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">"A Niagara in the Heart of Labrador"
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">"Two Hundred Miles Down Newfoundland by Dog
+                        Team" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">"Vast Treasure Lies in 'God's Dump Heap"
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">"What I Saw of the German Submarine U-53"
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Untitled narrative of experiences during the
+                        Mexican Revolution </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Untitled narrative of a sea voyage
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Scripts and related papers </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                                    <title>
+                                       <part>The Great Arctic Seal Hunt,</part>
+                                    </title>
+                        synopsis </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                                    <title>
+                                       <part>Viking of the Ice Fields</part>
+                                    </title>
+                                 </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Script </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Continuity notes </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Picture negative record </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Short stories </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">"Actors" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">"Humgumption" </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">"One of Those Trivial Matters" </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Poem, "So Often Have I Seemed a Puny Thing"
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Subject file, <title>
+                                 <part>The Viking </part>
+                              </title>disaster
+               </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Documentation </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Clippings </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Business papers </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">General,  <date>1928-1931, undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1928-1931, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Banking records,  <date>1929-1931 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1929-1931 </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Miscellany,  <date>1927-1970 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1927-1970 </unitdate>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Annotated lists of Frissell's writings and other
+                     papers </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Biographical notes on Frissell </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Film reviews </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Memorial service and tribute to Frissell
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Opinion cards for film <title>
+                                    <part>White
+                        Thunder</part>
+                                 </title>
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Press clippings  </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Printed matter,  <date>1927, 1930-1968  </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1927, 1930-1968  </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Writings by others, typescript </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Scrapbook, "Varick Frissell, Producer, The
+                     Viking" </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Press clippings </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a">Oversize negative photocopies of articles about
+                     Frissell,<title>
+                                 <part> Los Angeles Times</part>
+                              </title> and other newspapers  </unittitle>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

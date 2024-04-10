@@ -1,0 +1,4050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms008104">loc.mss/eadmss.ms008104</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Cornelia Bryce Pinchot Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by Manuscript Division Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm81036269">https://lccn.loc.gov/mm81036269</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-07">2023 July</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2018-10">2018 October</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Oversize extent updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2018-08">2018 August</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Oversize updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Title, controlaccess updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2008">2008</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Cornelia Bryce Pinchot Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1899/1960">1899-1960</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1918/1947">1918-1947</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1899/1960"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1899-1960</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1918/1947"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1918-1947</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS36269</unitid>
+         <origination label="Creator">
+            <persname source="lcnaf" encodinganalog="100">
+               <part>Pinchot, Cornelia Bryce, 1881-1960</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">248,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">573 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">229.6 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Politician, political activist, and wife
+            of Gifford Pinchot of Pennsylvania. Correspondence, political campaign papers and
+            speeches, gardening file, and financial records relating to Pinchot's political
+            activities and the Pinchot family.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220929172556.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Pinchot, Cornelia Bryce, 1881-1960.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pinchot, Gifford, 1865-1946.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>League of Women Voters of Pennsylvania.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>National Women's Trade Union League of America.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Congress--Elections, 1928.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Congress--Elections, 1932.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Children--Legal status, laws, etc.--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Gardening--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Labor movement--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Women labor union members--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Women political candidates--Pennsylvania.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Women--Employment--Law and legislation--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Women--Suffrage--United States.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Pennsylvania--Politics and government--1865-1950.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Governors' spouses.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Political activists.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Politicians.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Suffragists.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of Cornelia Bryce Pinchot, politician, political activist, and wife of
+            Gifford Pinchot of Pennsylvania, were given to the Library of Congress by Cornelia and
+            Gifford Pinchot and the Pinchot family in several installments between 1941 and 1990.
+            Additional material has been received through gift and transfer, 1955-1989. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p> The papers have been organized in installments by various members of the preparation
+            staff, circa 1955-1970. Part III was added and the register revised in 1998 by Karen
+            Linn Femia with the assistance of Dan Oleksiw. The finding aid was updated in 2023 by
+            Maria Farmer as part of a division-wide remediation project by the Inclusive Description
+            Working Group.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p> Copyright in the unpublished writings of Cornelia Bryce Pinchot in these papers and in
+            other collections of papers in the custody of the Library of Congress has been dedicated
+            to the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Cornelia Bryce Pinchot are open to research. Researchers are advised to
+            contact the Manuscript Reading Room prior to visiting. Many collections are stored
+            off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p> Researchers wishing to cite this collection should include the following information:
+            Container number and roman numeral designating the Part, Cornelia Bryce Pinchot Papers,
+            Manuscript Division, Library of Congress, Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1881, Aug. 26</datesingle>
+               <event>Born, Newport, R.I.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1914</datesingle>
+               <event>Married Gifford Pinchot (died 1946)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1915</datesingle>
+               <event>Birth of only child, Gifford Bryce Pinchot</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1923</fromdate>
+                  <todate>1927</todate>
+               </daterange>
+               <event>First Lady of Pennsylvania</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1923</datesingle>
+               <event>Advocated enforcement of Volstead Act prohibiting sale of liquor</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1928</datesingle>
+               <event>Ran unsuccessfully for Congress</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1931</fromdate>
+                  <todate>1935</todate>
+               </daterange>
+               <event>First Lady of Pennsylvania</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1932</datesingle>
+               <event>Ran unsuccessfully for Congress</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1934</datesingle>
+               <chronitemset>
+                  <event>Walked the picket line in support of striking laundry and garment workers,
+                     New York, N.Y.</event>
+                  <event>Sought governorship of Pennsylvania as an independent; later
+                     withdrew</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1949</datesingle>
+               <event>Delegate, United Nations Conference on the Conservation and Utilization of
+                  Resources, Lake Success, N. Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1960, Sept. 9</datesingle>
+               <event>Died, Washington, D.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Cornelia Bryce Pinchot (1881-1960) span the years 1899-1960 with the bulk
+            of the material dating from 1918 to 1947. The papers reflect Pinchot's activities in the
+            suffrage movement, union organizing for women workers, lobbying for legislative
+            protection for working women and children, involvement in the League of Women Voters and
+            the Women's Trade Union League, as wife of the governor of Pennsylvania, and her two
+            campaigns for a Congressional seat. Her papers also contain personal papers, including
+            financial records, correspondence with her husband Gifford Pinchot, medical records such
+            as material documenting her treatments for repeated miscarriages, and papers regarding
+            the Pinchot's home and gardens at "Grey Towers" in Milford, Pennsylvania. </p>
+         <p>The Pinchot Papers are organized in three parts. <ref target="part1" show="replace" actuate="onrequest">Part I, 1918-1947</ref>, by far the largest, came to the library
+            with the Gifford Pinchot Papers and was later organized as a separate collection. <ref target="part2" show="replace" actuate="onrequest">Part II, 1927-1960</ref>,
+            consisting mostly of post-1940s material, was boxed and described largely as received.
+               <ref target="part3" show="replace" actuate="onrequest">Part III, 1909-1941</ref>,
+            represents the smallest portion of the collection and contains personal and organization
+            material organized alphabetically by topic or type of material.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Organization of the Papers</head>
+         <p>The collection is arranged in three parts:</p>
+         <list listtype="unordered" mark="circle">
+            <item>
+               <ref target="part1" show="replace" actuate="onrequest">Part I: 1918-1947</ref>
+            </item>
+            <item>
+               <ref target="part2" show="replace" actuate="onrequest">Part II: 1927-1960</ref>
+            </item>
+            <item>
+               <ref target="part3" show="replace" actuate="onrequest">Part III: 1909-1941</ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Box</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">I:1-492</container>
+               <unittitle id="part1" encodinganalog="245$a">Part I: <date normal="1918/1947" localtype="inclusive">1918-1947</date>
+               </unittitle>
+               <unitdate normal="1918/1947" encodinganalog="245$f" unitdatetype="inclusive" era="ce"
+                         calendar="gregorian">1918-1947</unitdate>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">I:1-420</container>
+                  <unittitle id="corr" encodinganalog="245$a">Correspondence, <date normal="1918/1947" localtype="inclusive">1918-1947</date>
+                  </unittitle>
+                  <unitdate normal="1918/1947" encodinganalog="245$f" unitdatetype="inclusive" era="ce"
+                            calendar="gregorian">1918-1947</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>General and topical correspondence. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$b">
+                  <p>Arranged chronologically, mostly by year, and therein by topic or type of
+                     material.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:1</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1918</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1918</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Personal letters</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:2</container>
+                        <unittitle encodinganalog="245$a">Personal correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">A-L</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:3</container>
+                           <unittitle encodinganalog="245$a">M-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:4</container>
+                        <unittitle encodinganalog="245$a">Food</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:5</container>
+                        <unittitle encodinganalog="245$a">Suffrage, etc.,
+                           <date>1916-1918</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1916-1918</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:6</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1919</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1919</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">General Letters</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">A-F</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:7</container>
+                           <unittitle encodinganalog="245$a">G-R</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:8</container>
+                           <unittitle encodinganalog="245$a">S-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:9</container>
+                        <unittitle encodinganalog="245$a">National Women's Trade Union
+                           League</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Suffrage</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:10</container>
+                        <unittitle encodinganalog="245$a">Suffrage</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1920</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1920</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">General Correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">A-D</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:11</container>
+                           <unittitle encodinganalog="245$a">Q-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:12</container>
+                        <unittitle encodinganalog="245$a">Personal Correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">A-L</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:13</container>
+                           <unittitle encodinganalog="245$a">M-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:14</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1921</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1921</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-E</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:15</container>
+                        <unittitle encodinganalog="245$a">F-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:16</container>
+                        <unittitle encodinganalog="245$a">M-R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:17</container>
+                        <unittitle encodinganalog="245$a">R-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:18</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1921-1922</date>, Bryn Mawr
+                        Correspondence</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1921-1922</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:19</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1922</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1922</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Women's Trade Union League,
+                           A-Z</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:20</container>
+                        <unittitle encodinganalog="245$a">Personal Correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">A-B</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:21</container>
+                           <unittitle encodinganalog="245$a">C-E</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:22</container>
+                           <unittitle encodinganalog="245$a">F-H</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:23</container>
+                           <unittitle encodinganalog="245$a">Hu-L</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:24</container>
+                           <unittitle encodinganalog="245$a">M-P</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:25</container>
+                           <unittitle encodinganalog="245$a">Ph-St</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:26</container>
+                           <unittitle encodinganalog="245$a">Su-Z</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:27-28</container>
+                           <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:29</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1923</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1923</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:30</container>
+                        <unittitle encodinganalog="245$a">B-D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:31</container>
+                        <unittitle encodinganalog="245$a">E-G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:32</container>
+                        <unittitle encodinganalog="245$a">H-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:33</container>
+                        <unittitle encodinganalog="245$a">L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:34</container>
+                        <unittitle encodinganalog="245$a">M-N</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:35</container>
+                        <unittitle encodinganalog="245$a">O-R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:36</container>
+                        <unittitle encodinganalog="245$a">S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:37</container>
+                        <unittitle encodinganalog="245$a">T-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:38</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1923-1924</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1923-1924</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:39</container>
+                        <unittitle encodinganalog="245$a">B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:40</container>
+                        <unittitle encodinganalog="245$a">B-C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:41</container>
+                        <unittitle encodinganalog="245$a">C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:42</container>
+                        <unittitle encodinganalog="245$a">D-E</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:43</container>
+                        <unittitle encodinganalog="245$a">E-G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:44</container>
+                        <unittitle encodinganalog="245$a">G-H</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:45</container>
+                        <unittitle encodinganalog="245$a">H-K</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:46</container>
+                        <unittitle encodinganalog="245$a">L-M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:47</container>
+                        <unittitle encodinganalog="245$a">M-N</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:48</container>
+                        <unittitle encodinganalog="245$a">O-P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:49</container>
+                        <unittitle encodinganalog="245$a">P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:50</container>
+                        <unittitle encodinganalog="245$a">P-S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:51</container>
+                        <unittitle encodinganalog="245$a">S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:52</container>
+                        <unittitle encodinganalog="245$a">T-W</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:53</container>
+                        <unittitle encodinganalog="245$a">W</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:54</container>
+                        <unittitle encodinganalog="245$a">R-Z</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:55</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous Correspondence, schools,
+                              <date>1923-1926</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1923-1926</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:56</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1924</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1924</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellaneous Correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Engagements Declined</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:57</container>
+                           <unittitle encodinganalog="245$a">American Peace Award,
+                                 <date>1923-1926</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1923-1926</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">National Women's Trade Union League,
+                                 <date>1924</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1924</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:58</container>
+                           <unittitle encodinganalog="245$a">Information Service,
+                                 <date>1923-1926</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1923-1926</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">National Women's Trade Union League,
+                                 <date>1926</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1926</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:59</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1924-1925</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1924-1925</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:60</container>
+                        <unittitle encodinganalog="245$a">B-C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:61</container>
+                        <unittitle encodinganalog="245$a">C-D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:62</container>
+                        <unittitle encodinganalog="245$a">E-G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:63</container>
+                        <unittitle encodinganalog="245$a">H-K</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:64</container>
+                        <unittitle encodinganalog="245$a">K-M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:65</container>
+                        <unittitle encodinganalog="245$a">M-P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:66</container>
+                        <unittitle encodinganalog="245$a">P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:67</container>
+                        <unittitle encodinganalog="245$a">Q-R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:68A</container>
+                        <unittitle encodinganalog="245$a">R-S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:68B</container>
+                        <unittitle encodinganalog="245$a">R-T</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:69</container>
+                        <unittitle encodinganalog="245$a">U-Y</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:70</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1925</date>, suffrage</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1925</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:71</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1925-1926</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1925-1926</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:72</container>
+                        <unittitle encodinganalog="245$a">B-C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:73</container>
+                        <unittitle encodinganalog="245$a">C-D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:74</container>
+                        <unittitle encodinganalog="245$a">D-E</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:75</container>
+                        <unittitle encodinganalog="245$a">F-G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:76</container>
+                        <unittitle encodinganalog="245$a">G-H</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:77</container>
+                        <unittitle encodinganalog="245$a">H-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:78</container>
+                        <unittitle encodinganalog="245$a">L-M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:79</container>
+                        <unittitle encodinganalog="245$a">M-N</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:80</container>
+                        <unittitle encodinganalog="245$a">N-P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:81</container>
+                        <unittitle encodinganalog="245$a">P-R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:82</container>
+                        <unittitle encodinganalog="245$a">R-S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:83</container>
+                        <unittitle encodinganalog="245$a">S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:84</container>
+                        <unittitle encodinganalog="245$a">T-W</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:85</container>
+                        <unittitle encodinganalog="245$a">W-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:86</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1926</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1926</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">A-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:87</container>
+                        <unittitle encodinganalog="245$a">Senate Campaign</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">A-Be</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:88</container>
+                           <unittitle encodinganalog="245$a">Be-By</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:89</container>
+                           <unittitle encodinganalog="245$a">C-Cr</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:90</container>
+                           <unittitle encodinganalog="245$a">D-Do</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:91</container>
+                           <unittitle encodinganalog="245$a">Dr-Fo</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:92</container>
+                           <unittitle encodinganalog="245$a">Fo-Gr</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:93</container>
+                           <unittitle encodinganalog="245$a">A-D</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:94</container>
+                           <unittitle encodinganalog="245$a">D-K</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:95</container>
+                           <unittitle encodinganalog="245$a">K-S</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:96</container>
+                           <unittitle encodinganalog="245$a">S-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:97</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1926-1927</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1926-1927</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:98</container>
+                        <unittitle encodinganalog="245$a">B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:99</container>
+                        <unittitle encodinganalog="245$a">B-C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:100</container>
+                        <unittitle encodinganalog="245$a">C-F</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:101</container>
+                        <unittitle encodinganalog="245$a">F-G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:102</container>
+                        <unittitle encodinganalog="245$a">G-I</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:103</container>
+                        <unittitle encodinganalog="245$a">J-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:104</container>
+                        <unittitle encodinganalog="245$a">M-O</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:105</container>
+                        <unittitle encodinganalog="245$a">P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:106</container>
+                        <unittitle encodinganalog="245$a">R-S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:107</container>
+                        <unittitle encodinganalog="245$a">S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:108</container>
+                        <unittitle encodinganalog="245$a">S-W</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:109</container>
+                        <unittitle encodinganalog="245$a">W-Y</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:110</container>
+                        <unittitle encodinganalog="245$a">A-Z</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:111</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:112</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1927-1928</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1927-1928</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:113</container>
+                        <unittitle encodinganalog="245$a">B-C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:114</container>
+                        <unittitle encodinganalog="245$a">C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:115</container>
+                        <unittitle encodinganalog="245$a">C-D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:116</container>
+                        <unittitle encodinganalog="245$a">E-G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:117</container>
+                        <unittitle encodinganalog="245$a">G-H</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:118</container>
+                        <unittitle encodinganalog="245$a">H-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:119</container>
+                        <unittitle encodinganalog="245$a">L-M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:120</container>
+                        <unittitle encodinganalog="245$a">M-N</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:121</container>
+                        <unittitle encodinganalog="245$a">N-P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:122</container>
+                        <unittitle encodinganalog="245$a">P-R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:123</container>
+                        <unittitle encodinganalog="245$a">R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:124</container>
+                        <unittitle encodinganalog="245$a">S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:125</container>
+                        <unittitle encodinganalog="245$a">S-T</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:126</container>
+                        <unittitle encodinganalog="245$a">T-V</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:127</container>
+                        <unittitle encodinganalog="245$a">W-Z</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:128-130</container>
+                        <unittitle encodinganalog="245$a">Senate Campaign</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Clippings</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">County Lists</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:131</container>
+                           <unittitle encodinganalog="245$a">Tatro Reports</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:132</container>
+                           <unittitle encodinganalog="245$a">Campaign Correspondence</unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">A-B</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">I:133</container>
+                              <unittitle encodinganalog="245$a">C-D</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">I:134</container>
+                              <unittitle encodinganalog="245$a">E-F</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">I:135</container>
+                              <unittitle encodinganalog="245$a">F-H</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">I:136</container>
+                              <unittitle encodinganalog="245$a">I-L</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">I:137</container>
+                              <unittitle encodinganalog="245$a">L-N</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">I:138</container>
+                              <unittitle encodinganalog="245$a">N-P</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">I:139</container>
+                              <unittitle encodinganalog="245$a">R-S</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">I:140</container>
+                              <unittitle encodinganalog="245$a">S-W</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">I:141</container>
+                              <unittitle encodinganalog="245$a">W-Z</unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:142</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1929-1930</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1929-1930</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:143</container>
+                        <unittitle encodinganalog="245$a">B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:144</container>
+                        <unittitle encodinganalog="245$a">B-C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:145</container>
+                        <unittitle encodinganalog="245$a">C-D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:146</container>
+                        <unittitle encodinganalog="245$a">D-F</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:147</container>
+                        <unittitle encodinganalog="245$a">G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:148</container>
+                        <unittitle encodinganalog="245$a">G-H</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:149</container>
+                        <unittitle encodinganalog="245$a">H-J</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:150</container>
+                        <unittitle encodinganalog="245$a">K-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:151</container>
+                        <unittitle encodinganalog="245$a">M-N</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:152</container>
+                        <unittitle encodinganalog="245$a">N-P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:153</container>
+                        <unittitle encodinganalog="245$a">P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:154</container>
+                        <unittitle encodinganalog="245$a">P-S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:155</container>
+                        <unittitle encodinganalog="245$a">S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:156</container>
+                        <unittitle encodinganalog="245$a">S-T</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:157</container>
+                        <unittitle encodinganalog="245$a">T-W</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:158</container>
+                        <unittitle encodinganalog="245$a">W-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:159-160</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1930-1931</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1930-1931</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:161</container>
+                        <unittitle encodinganalog="245$a">A-B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:162-163</container>
+                        <unittitle encodinganalog="245$a">B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:164</container>
+                        <unittitle encodinganalog="245$a">C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:165</container>
+                        <unittitle encodinganalog="245$a">C-D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:166</container>
+                        <unittitle encodinganalog="245$a">D-F</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:167</container>
+                        <unittitle encodinganalog="245$a">F-G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:168</container>
+                        <unittitle encodinganalog="245$a">G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:169</container>
+                        <unittitle encodinganalog="245$a">G-H</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:170</container>
+                        <unittitle encodinganalog="245$a">H</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:171</container>
+                        <unittitle encodinganalog="245$a">H-K</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:172</container>
+                        <unittitle encodinganalog="245$a">K</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:173</container>
+                        <unittitle encodinganalog="245$a">L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:174</container>
+                        <unittitle encodinganalog="245$a">L-M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:175</container>
+                        <unittitle encodinganalog="245$a">M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:176</container>
+                        <unittitle encodinganalog="245$a">M-N</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:177</container>
+                        <unittitle encodinganalog="245$a">O-P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:178</container>
+                        <unittitle encodinganalog="245$a">P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:179</container>
+                        <unittitle encodinganalog="245$a">P-R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:180</container>
+                        <unittitle encodinganalog="245$a">R-S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:181-182</container>
+                        <unittitle encodinganalog="245$a">S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:183</container>
+                        <unittitle encodinganalog="245$a">A-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:184</container>
+                        <unittitle encodinganalog="245$a">L-W</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:185</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1931</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1931</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">S-T</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:186</container>
+                        <unittitle encodinganalog="245$a">T-U</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:187</container>
+                        <unittitle encodinganalog="245$a">U-W</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:188</container>
+                        <unittitle encodinganalog="245$a">W-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:189</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1932</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1932</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:190-192</container>
+                        <unittitle encodinganalog="245$a">B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:193</container>
+                        <unittitle encodinganalog="245$a">B-C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:194</container>
+                        <unittitle encodinganalog="245$a">C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:195</container>
+                        <unittitle encodinganalog="245$a">C-D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:196</container>
+                        <unittitle encodinganalog="245$a">D-E</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:197</container>
+                        <unittitle encodinganalog="245$a">E-F</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:198</container>
+                        <unittitle encodinganalog="245$a">F-G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:199</container>
+                        <unittitle encodinganalog="245$a">G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:200-201</container>
+                        <unittitle encodinganalog="245$a">H</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:202</container>
+                        <unittitle encodinganalog="245$a">H-J</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:203</container>
+                        <unittitle encodinganalog="245$a">J-K</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:204</container>
+                        <unittitle encodinganalog="245$a">K-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:205</container>
+                        <unittitle encodinganalog="245$a">L-M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:206</container>
+                        <unittitle encodinganalog="245$a">M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:207</container>
+                        <unittitle encodinganalog="245$a">M-N</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:208</container>
+                        <unittitle encodinganalog="245$a">O-P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:209-210</container>
+                        <unittitle encodinganalog="245$a">P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:211</container>
+                        <unittitle encodinganalog="245$a">P-R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:212-213</container>
+                        <unittitle encodinganalog="245$a">R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:214</container>
+                        <unittitle encodinganalog="245$a">R-S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:215-216</container>
+                        <unittitle encodinganalog="245$a">S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:217</container>
+                        <unittitle encodinganalog="245$a">S-T</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:218</container>
+                        <unittitle encodinganalog="245$a">T-U</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:219</container>
+                        <unittitle encodinganalog="245$a">V-W</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:220</container>
+                        <unittitle encodinganalog="245$a">W</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:221</container>
+                        <unittitle encodinganalog="245$a">W-Z</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:222</container>
+                        <unittitle encodinganalog="245$a">Campaign Correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">A-B</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:223</container>
+                           <unittitle encodinganalog="245$a">B-C</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:224</container>
+                           <unittitle encodinganalog="245$a">C-E</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:225</container>
+                           <unittitle encodinganalog="245$a">E-F</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:226</container>
+                           <unittitle encodinganalog="245$a">G-H</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:227</container>
+                           <unittitle encodinganalog="245$a">H-K</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:228</container>
+                           <unittitle encodinganalog="245$a">K-M</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:229</container>
+                           <unittitle encodinganalog="245$a">M</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:230</container>
+                           <unittitle encodinganalog="245$a">M-P</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:231</container>
+                           <unittitle encodinganalog="245$a">P-S</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:232-234</container>
+                           <unittitle encodinganalog="245$a">S</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:235</container>
+                           <unittitle encodinganalog="245$a">S-W</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:236-237</container>
+                           <unittitle encodinganalog="245$a">V</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:238</container>
+                           <unittitle encodinganalog="245$a">V-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:239</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1933</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1933</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:240-243</container>
+                        <unittitle encodinganalog="245$a">B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:244</container>
+                        <unittitle encodinganalog="245$a">C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:245</container>
+                        <unittitle encodinganalog="245$a">C-D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:246</container>
+                        <unittitle encodinganalog="245$a">D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:247</container>
+                        <unittitle encodinganalog="245$a">E-F</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:248</container>
+                        <unittitle encodinganalog="245$a">F-G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:249-251</container>
+                        <unittitle encodinganalog="245$a">G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:252-254</container>
+                        <unittitle encodinganalog="245$a">H</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:255</container>
+                        <unittitle encodinganalog="245$a">H-J</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:256</container>
+                        <unittitle encodinganalog="245$a">K</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:257</container>
+                        <unittitle encodinganalog="245$a">K-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:258</container>
+                        <unittitle encodinganalog="245$a">L-M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:259-262</container>
+                        <unittitle encodinganalog="245$a">M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:263</container>
+                        <unittitle encodinganalog="245$a">M-N</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:264</container>
+                        <unittitle encodinganalog="245$a">N-P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:265-266</container>
+                        <unittitle encodinganalog="245$a">P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:267-268</container>
+                        <unittitle encodinganalog="245$a">R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:269</container>
+                        <unittitle encodinganalog="245$a">R-S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:270-274</container>
+                        <unittitle encodinganalog="245$a">S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:275</container>
+                        <unittitle encodinganalog="245$a">S-T</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:276</container>
+                        <unittitle encodinganalog="245$a">T-V</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:277-278</container>
+                        <unittitle encodinganalog="245$a">W</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:279</container>
+                        <unittitle encodinganalog="245$a">W-Z</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:280</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1934</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1934</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:281</container>
+                        <unittitle encodinganalog="245$a">A-B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:282-284</container>
+                        <unittitle encodinganalog="245$a">B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:285</container>
+                        <unittitle encodinganalog="245$a">B-C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:286-287</container>
+                        <unittitle encodinganalog="245$a">C</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:288</container>
+                        <unittitle encodinganalog="245$a">C-D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:289</container>
+                        <unittitle encodinganalog="245$a">D-E</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:290</container>
+                        <unittitle encodinganalog="245$a">E-F</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:291</container>
+                        <unittitle encodinganalog="245$a">F-G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:292-293</container>
+                        <unittitle encodinganalog="245$a">G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:294</container>
+                        <unittitle encodinganalog="245$a">G-K</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:295</container>
+                        <unittitle encodinganalog="245$a">K-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:296</container>
+                        <unittitle encodinganalog="245$a">L-M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:297-298</container>
+                        <unittitle encodinganalog="245$a">M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:299</container>
+                        <unittitle encodinganalog="245$a">M-N</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:300</container>
+                        <unittitle encodinganalog="245$a">N-O</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:301</container>
+                        <unittitle encodinganalog="245$a">O-P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:302</container>
+                        <unittitle encodinganalog="245$a">P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:303</container>
+                        <unittitle encodinganalog="245$a">P-R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:304</container>
+                        <unittitle encodinganalog="245$a">R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:305</container>
+                        <unittitle encodinganalog="245$a">R-S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:306-307</container>
+                        <unittitle encodinganalog="245$a">S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:308</container>
+                        <unittitle encodinganalog="245$a">S-U</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:309</container>
+                        <unittitle encodinganalog="245$a">V-W</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:310</container>
+                        <unittitle encodinganalog="245$a">W</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:311</container>
+                        <unittitle encodinganalog="245$a">W-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:312-314</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1934-1935</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1934-1935</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">H</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:315</container>
+                        <unittitle encodinganalog="245$a">I-J</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:316</container>
+                        <unittitle encodinganalog="245$a">J</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:317</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1935</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1935</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:318</container>
+                        <unittitle encodinganalog="245$a">B-Bu</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:319</container>
+                        <unittitle encodinganalog="245$a">B-Ch</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:320</container>
+                        <unittitle encodinganalog="245$a">Col-Cz</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:321</container>
+                        <unittitle encodinganalog="245$a">D-E</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:322</container>
+                        <unittitle encodinganalog="245$a">F</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:323</container>
+                        <unittitle encodinganalog="245$a">G-Hi</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:324</container>
+                        <unittitle encodinganalog="245$a">Ho-J</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:325</container>
+                        <unittitle encodinganalog="245$a">K-Le</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:326</container>
+                        <unittitle encodinganalog="245$a">Li-M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:327</container>
+                        <unittitle encodinganalog="245$a">Me-Ne</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:328</container>
+                        <unittitle encodinganalog="245$a">O-P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:329</container>
+                        <unittitle encodinganalog="245$a">Q-Ri</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:330</container>
+                        <unittitle encodinganalog="245$a">Ri-Sh</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:331</container>
+                        <unittitle encodinganalog="245$a">Sn-St</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:332</container>
+                        <unittitle encodinganalog="245$a">T-V</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:333</container>
+                        <unittitle encodinganalog="245$a">W-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:334</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1936</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1936</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Personal Correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">A-Bix</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:335</container>
+                           <unittitle encodinganalog="245$a">Bl-Col</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:336</container>
+                           <unittitle encodinganalog="245$a">Con-Din</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:337</container>
+                           <unittitle encodinganalog="245$a">Din-Fo</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:338</container>
+                           <unittitle encodinganalog="245$a">G</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:339</container>
+                           <unittitle encodinganalog="245$a">H</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:340</container>
+                           <unittitle encodinganalog="245$a">I-L</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:341</container>
+                           <unittitle encodinganalog="245$a">Li-O</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:342</container>
+                           <unittitle encodinganalog="245$a">P-Q</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:343</container>
+                           <unittitle encodinganalog="245$a">R</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:344</container>
+                           <unittitle encodinganalog="245$a">S-T</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:345</container>
+                           <unittitle encodinganalog="245$a">U-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:346</container>
+                        <unittitle encodinganalog="245$a">Campaign Correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">A-E</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:347</container>
+                           <unittitle encodinganalog="245$a">F-G</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:348</container>
+                           <unittitle encodinganalog="245$a">G-L</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:349</container>
+                           <unittitle encodinganalog="245$a">L</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:350</container>
+                           <unittitle encodinganalog="245$a">L-R</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:351</container>
+                           <unittitle encodinganalog="245$a">S-W</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:352</container>
+                           <unittitle encodinganalog="245$a">W</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:353</container>
+                           <unittitle encodinganalog="245$a">W-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:354</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1937</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1937</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-Bir</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:355</container>
+                        <unittitle encodinganalog="245$a">Bir-Bot</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:356</container>
+                        <unittitle encodinganalog="245$a">Bro-Col</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:357</container>
+                        <unittitle encodinganalog="245$a">Col</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:358</container>
+                        <unittitle encodinganalog="245$a">Col-Cows</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:359</container>
+                        <unittitle encodinganalog="245$a">D-F</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:360</container>
+                        <unittitle encodinganalog="245$a">G-Hi</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:361</container>
+                        <unittitle encodinganalog="245$a">Ho-J</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:362</container>
+                        <unittitle encodinganalog="245$a">K-Ma</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:363</container>
+                        <unittitle encodinganalog="245$a">M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:364</container>
+                        <unittitle encodinganalog="245$a">N-Pi</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:365</container>
+                        <unittitle encodinganalog="245$a">Pi-Ri</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:366</container>
+                        <unittitle encodinganalog="245$a">S-T</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:367</container>
+                        <unittitle encodinganalog="245$a">U-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:368</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1938</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1938</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-Bir</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:369</container>
+                        <unittitle encodinganalog="245$a">Bir-Col</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:370</container>
+                        <unittitle encodinganalog="245$a">Con-Din</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:371</container>
+                        <unittitle encodinganalog="245$a">Din-H</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:372</container>
+                        <unittitle encodinganalog="245$a">Hi-Ki</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:373</container>
+                        <unittitle encodinganalog="245$a">L-N</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:374</container>
+                        <unittitle encodinganalog="245$a">O-Ra</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:375</container>
+                        <unittitle encodinganalog="245$a">R-S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:376</container>
+                        <unittitle encodinganalog="245$a">T-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:377</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1939</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1939</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-Bro</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:378</container>
+                        <unittitle encodinganalog="245$a">Bry-Col</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:379</container>
+                        <unittitle encodinganalog="245$a">D-G</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:380</container>
+                        <unittitle encodinganalog="245$a">H-I</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:381</container>
+                        <unittitle encodinganalog="245$a">K-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:382</container>
+                        <unittitle encodinganalog="245$a">M-O</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:383</container>
+                        <unittitle encodinganalog="245$a">P-Ri</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:384</container>
+                        <unittitle encodinganalog="245$a">Ro-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:385</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1940</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1940</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-Bi</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:386</container>
+                        <unittitle encodinganalog="245$a">Bo-D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:387</container>
+                        <unittitle encodinganalog="245$a">E-Hi</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:388</container>
+                        <unittitle encodinganalog="245$a">Ho</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:389</container>
+                        <unittitle encodinganalog="245$a">I-O</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:390</container>
+                        <unittitle encodinganalog="245$a">Pe-R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:391</container>
+                        <unittitle encodinganalog="245$a">S-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:392</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1941</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1941</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-Ca</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:393</container>
+                        <unittitle encodinganalog="245$a">Ca-D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:394</container>
+                        <unittitle encodinganalog="245$a">E-H</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:395</container>
+                        <unittitle encodinganalog="245$a">I-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:396</container>
+                        <unittitle encodinganalog="245$a">L-P</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:397</container>
+                        <unittitle encodinganalog="245$a">P-R</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:398</container>
+                        <unittitle encodinganalog="245$a">S-Wa</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:399</container>
+                        <unittitle encodinganalog="245$a">Wa-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:400</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1942</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1942</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-L</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:401</container>
+                        <unittitle encodinganalog="245$a">L-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:402</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1942-1943</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1942-1943</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-F</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:403</container>
+                        <unittitle encodinganalog="245$a">F-J</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:404</container>
+                        <unittitle encodinganalog="245$a">L-U</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:405</container>
+                        <unittitle encodinganalog="245$a">U-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:406</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1944</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1944</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-F</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:407</container>
+                        <unittitle encodinganalog="245$a">G-K</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:408</container>
+                        <unittitle encodinganalog="245$a">L-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:409</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1945</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1945</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-F</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:410</container>
+                        <unittitle encodinganalog="245$a">F-S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:411</container>
+                        <unittitle encodinganalog="245$a">T-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:412</container>
+                     <unittitle encodinganalog="245$a">Mainly <date>1946</date> (includes some 1945
+                        and 1947)</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1946</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Alphabetical File</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">A-G Ac 9375</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:413</container>
+                           <unittitle encodinganalog="245$a">H-R</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:414</container>
+                           <unittitle encodinganalog="245$a">S-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:415</container>
+                     <unittitle encodinganalog="245$a">Mainly <date>1947</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1947</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Alphabetical File</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">A</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:416</container>
+                           <unittitle encodinganalog="245$a">B-I</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:417</container>
+                           <unittitle encodinganalog="245$a">J-P</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">I:418</container>
+                           <unittitle encodinganalog="245$a">Q-Z</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:419</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1922-1941</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1922-1941</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellaneous Correspondence</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:420</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>Undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Undated</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Guests Lists/Invitations</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">I:421-447</container>
+                  <unittitle id="subject" encodinganalog="245$a">Subject File, <date localtype="inclusive">undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Mainly financial papers, garden files, and files from the U.S. Office of
+                     Civilian Defense and the Committee for National Morale.</p>
+               </scopecontent>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:421</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:422-425</container>
+                     <unittitle encodinganalog="245$a">Financial Papers</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:426</container>
+                     <unittitle encodinganalog="245$a">Garden Files</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:427</container>
+                        <unittitle encodinganalog="245$a">B</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:428</container>
+                        <unittitle encodinganalog="245$a">C-Cl</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:429</container>
+                        <unittitle encodinganalog="245$a">Co-D</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:430</container>
+                        <unittitle encodinganalog="245$a">E-Ga</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:431</container>
+                        <unittitle encodinganalog="245$a">Ga-Gz</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:432</container>
+                        <unittitle encodinganalog="245$a">H-J</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:433</container>
+                        <unittitle encodinganalog="245$a">K-Le</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:434</container>
+                        <unittitle encodinganalog="245$a">Li-M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:435</container>
+                        <unittitle encodinganalog="245$a">N-O</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:436</container>
+                        <unittitle encodinganalog="245$a">P-Sa</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:437</container>
+                        <unittitle encodinganalog="245$a">S</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:438</container>
+                        <unittitle encodinganalog="245$a">St-Lim</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:439</container>
+                        <unittitle encodinganalog="245$a">Lin-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:440-445</container>
+                     <unittitle encodinganalog="245$a">U.S. Office of Civilian Defense</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:446-447</container>
+                     <unittitle encodinganalog="245$a">Committee for National Morale</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">I:448-472</container>
+                  <unittitle id="speech" encodinganalog="245$a">Speech File, <date normal="1920/1944" localtype="inclusive">1920-1944</date>
+                  </unittitle>
+                  <unitdate normal="1920/1944" encodinganalog="245$f" unitdatetype="inclusive" era="ce"
+                            calendar="gregorian">1920-1944</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Speeches, speech material, and press releases.</p>
+               </scopecontent>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:448-461</container>
+                     <unittitle encodinganalog="245$a">Speeches</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date>1920-1929</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1920-1929</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:462</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1931</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1931</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:463</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1932-1934</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1932-1934</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:464</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1934</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1934</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:465</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1934-1935</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1934-1935</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:466</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1935-1937</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1935-1937</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:467-468</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1937</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1937</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:469-470</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1937-1938</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1937-1938</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:471</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1938</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1938</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">I:472</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1939-1944</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1939-1944</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:473</container>
+                     <unittitle encodinganalog="245$a">Speeches and press releases,
+                           <date>1930-1932</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1930-1932</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:474</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:475-485</container>
+                     <unittitle encodinganalog="245$a">Speech material</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">I:486-492</container>
+                  <unittitle id="misc" encodinganalog="245$a">Miscellany, <date localtype="inclusive">undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:486-490</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:491</container>
+                     <unittitle encodinganalog="245$a">Material/Dress
+                        Samples/Recipes/Prescriptions</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:492</container>
+                     <unittitle encodinganalog="245$a">Campaign Material</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:1-75</container>
+               <unittitle id="part2" encodinganalog="245$a">Part II: <date normal="1927/1960" localtype="inclusive">1927-1960</date>
+               </unittitle>
+               <unitdate normal="1927/1960" encodinganalog="245$f" unitdatetype="inclusive" era="ce"
+                         calendar="gregorian">1927-1960</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, printed matter, photographs, journals, notes, address lists,
+                  financial material, reports, book drafts, radio scripts, and architectural and
+                  landscape plans. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Organized largely as received.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:1-5</container>
+                  <unittitle encodinganalog="245$a">General correspondence, L-S,
+                        <date>1941-1951</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1941-1951</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Clippings</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Brochures</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pamphlets</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:6-11</container>
+                  <unittitle encodinganalog="245$a">General correspondence re Greece,
+                        <date>1947-1948</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1947-1948</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pamphlets</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Photographs</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Journals and notes</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:12-15</container>
+                  <unittitle encodinganalog="245$a">General correspondence,
+                     <date>1947-1948</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1947-1948</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Clippings</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Business correspondence,
+                     <date>1947</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1947</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pamphlets</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:16-17</container>
+                  <unittitle encodinganalog="245$a">United Nations, booklets, pamphlets, and
+                     reports, <date>1949</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1949</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:18</container>
+                  <unittitle encodinganalog="245$a">Address lists,
+                     <date>1941-1948</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1941-1948</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Business correspondence</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:19-20</container>
+                  <unittitle encodinganalog="245$a">General correspondence,
+                     <date>1948</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1948</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Clippings</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Reports</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:21-24</container>
+                  <unittitle encodinganalog="245$a">Business correspondence,
+                     <date>1946-1959</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1946-1959</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:25-29</container>
+                  <unittitle encodinganalog="245$a">General correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">A-F, <date>1952-1960</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1952-1960</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">II:30-34</container>
+                     <unittitle encodinganalog="245$a">G-P, <date>1946-1959</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1946-1959</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:35-42</container>
+                  <unittitle encodinganalog="245$a">General and business correspondence,
+                        <date>1950-1960</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1950-1960</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:43-45, OV 46</container>
+                  <unittitle encodinganalog="245$a">Account books,
+                     <date>1943-1959</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1943-1959</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Address books</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Letters by Cornelia Pinchot from Greece,
+                        <date>1947-1948</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1947-1948</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Conservation congress reports</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notebooks, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Book on North Carolina trees,
+                     incomplete</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Passports</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Conservation material</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:47-49</container>
+                  <unittitle encodinganalog="245$a">Blueprints and pictures</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Date books, <date>1952-1959</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1952-1959</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>Natural History</part>
+                     </title>, <date>1939-1942</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1939-1942</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>Voices</part>
+                     </title>, <date>1932-1942</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1932-1942</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Correspondence, <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Manuscript of book,
+                     <date>1952</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1952</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous files,
+                     <date>1949</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1949</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Picture book and watercolor
+                     caricature</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:50-52</container>
+                  <unittitle encodinganalog="245$a">Business correspondence,
+                     <date>1939-1959</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1939-1959</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:53-55</container>
+                  <unittitle encodinganalog="245$a">Business correspondence and correspondence of
+                     Gifford Pinchot, <date>1927-1949</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1927-1949</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:56-57</container>
+                  <unittitle encodinganalog="245$a">Greek correspondence,
+                     <date>1947</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1947</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Foreign Conservation Society</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:58-61</container>
+                  <unittitle encodinganalog="245$a">Family correspondence,
+                     <date>1947-1960</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1947-1960</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Financial papers,
+                     <date>1943-1960</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1943-1960</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:62-65</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Clippings</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Radio scripts, <date>1955</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1955</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pamphlets, <date>1949-1959</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1949-1959</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:66-70</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:71-74</container>
+                  <unittitle encodinganalog="245$a">Business correspondence,
+                     <date>1939-1951</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1939-1951</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:75</container>
+                  <unittitle encodinganalog="245$a">Plans of “Grey Towers,” Milford, Pa.</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">III: 1-6</container>
+               <unittitle id="part3" encodinganalog="245$a">Part III: <date normal="1909/1941" localtype="inclusive">1909-1941</date>
+               </unittitle>
+               <unitdate normal="1909/1941" encodinganalog="245$f" unitdatetype="inclusive" era="ce"
+                         calendar="gregorian">1909-1941</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, financial material, address lists, diary of a 1929 trip, medical
+                  records, and reports. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by topic or type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">III: 1</container>
+                  <unittitle encodinganalog="245$a">Address lists, <date>1920,
+                     undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1920, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bryce family wills,
+                     <date>1912-1920</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1912-1920</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Consumers' League, <date>1919-1920,
+                        undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1919-1920, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous, <date>1914-1923, 1934, 1941,
+                           undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1914-1923, 1934, 1941, undated </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pinchot, Amos, <date>1929</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1929</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pinchot, Gifford</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date>1914-1917 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1914-1917 </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">III: 2</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1918-1927, 1936-1938, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1918-1927, 1936-1938, undated </unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Diary, <date>1929</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1929</unitdate>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Financial material</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1915-1918</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1915-1918</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">III: 3</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1919-1928 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1919-1928 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">International suffrage conference, Rome, Italy,
+                        <date>1923</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1923</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Labor issues, <date>1919-1922,
+                     undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1919-1922, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">League of Women Voters</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date>1919, Feb.-1921, July </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1919, Feb.-1921, July </unitdate>
+                        <physdesc encodinganalog="300">(7 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">III: 4</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1921, Aug.-1923, Feb., undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1921, Aug.-1923, Feb., undated </unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Financial material, <date>1919-1922, undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1919-1922, undated </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany, <date>1919-1923, undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1919-1923, undated </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">McCarthy, Charles, <date>1921</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1921</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Medical records, <date>1919-1921,
+                     undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1919-1921, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany, <date>1921-1922, 1932,
+                        undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1921-1922, 1932, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">III: 5</container>
+                  <unittitle encodinganalog="245$a">National Women's Trade Union League</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date>1912-1922, undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1912-1922, undated </unitdate>
+                     <physdesc encodinganalog="300">(8 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Financial material, <date>1920-1922, undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1920-1922, undated </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fire safety, <date>1911,
+                        undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1911, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany, <date>1918-1923,
+                        undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1918-1923, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Names and addresses, <date>1918-1921,
+                           undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1918-1921, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">III: 6</container>
+                     <unittitle encodinganalog="245$a">Reports, <date>1920,
+                        undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1920, undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pennsylvania Woman Suffrage Association,
+                        <date>1919, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1919, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Peter Cooper Glue Factory, New York, N.Y.,
+                        <date>1909-1910</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1909-1910</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Prohibition</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date>1923, undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1923, undated </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Law enforcement,
+                        <date>1923</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1923</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Summer school for women workers in industry,
+                     Bryn Mawr College, Bryn Mawr, Pa.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date>1922-1923,
+                           undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1922-1923, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany, <date>1921-1923,
+                        undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1921-1923, undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms011222">loc.mss/eadmss.ms011222</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>John Charles Frémont and Jessie Benton Frémont
+			 Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Karen Linn Femia</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2011" encodinganalog="260$c" era="ce" calendar="gregorian">2011</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm79001459">https://lccn.loc.gov/mm79001459</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2011">2011</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">John Charles Frémont and
+		  Jessie Benton Frémont Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1828/1980">1828-1980</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1835/1890">(bulk 1835-1890)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1828/1980"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1828-1980</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1835/1890"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1835-1890)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS1459</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Frémont, John Charles,
+			 1813-1890</part>
+                        </persname>
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Frémont, Jessie Benton,
+			 1824-1902</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">1,000
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">9 containers plus 1 oversize and 1
+		  artifact</physdesc>
+         <physdesc label="Extent" encodinganalog="300">9 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+		       </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Explorer of the western
+		  United States, army officer, and politician (John Charles Frémont). Author
+		  (Jessie Benton Frémont). Correspondence, presidential campaign material from
+		  1856, Civil War items, writings, prints, photographs, and printed matter
+		  relating to the careers of both John Charles Frémont and Jessie Benton
+		  Frémont.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20201027110237.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Beecher, Henry Ward, 1813-1887--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bok, Edward William, 1863-1930--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Frémont, Jessie Benton, 1824-1902. John Charles Frémont and Jessie Benton Frémont papers. 1828-1980.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Frémont, John Charles, 1813-1890.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Johnson, Robert Underwood, 1853-1937--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Kern, Richard H., 1821-1853. Richard H. Kern diary. 1848-1849.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Park, T. W. (Trenor William), 1823-1882--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Poinsett, Joel Roberts, 1779-1851--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Waring, George E. (George Edwin), 1833-1898.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Mountain Department.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Western Department.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Presidents--United States--Election--1856.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Discovery and exploration.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--1853-1857.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>West (U.S.)--Description and travel.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>West (U.S.)--Discovery and exploration.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="246" source="lcnaf">
+               <part>John Charles Frémont papers</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Army officers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Authors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Explorers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Politicians.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of John Charles Frémont and Jessie Benton Frémont were
+		  acquired by the Library of Congress through purchase in 1903 and 2011 and by
+		  transfer in 1930. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The 1903 purchase contained three items and formed the John Charles
+		  Frémont letters and was part of the Miscellaneous Manuscripts Collection until
+		  2011. The 1930 transfer also contained three items and formed the Jessie Benton
+		  Frémont Papers and was part of the Miscellaneous Manuscripts Collection until
+		  2011. When the Library purchased the John Charles Frémont and Jessie Benton
+		  Frémont Papers, which had been at the James S. Copley Library in La Jolla,
+		  California, the two previous MMC collections were incorporated into the new
+		  collection during processing in 2011. While organizing the papers received from
+		  the Copley Library, the Correspondence and Newspapers of Jesse A. Park were
+		  separated from the Frémont material and made into its own collection as it had
+		  been previously at the Copley Library.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Some prints and photographs have been transferred to the Library's
+		  Prints and Photographs Division where they are identified as part of the John
+		  Charles Frémont and Jessie Benton Frémont papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of John Charles
+		  Frémont and Jessie Benton Frémont is governed by the Copyright Law of the
+		  United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of John Charles Frémont and Jessie Benton Frémont papers
+		  are open to research. Researchers are advised to contact the Manuscript Reading
+		  Room prior to visiting. Many collections are stored off-site and advance notice
+		  is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, John Charles Frémont and Jessie
+		  Benton Frémont Papers, Manuscript Division, Library of Congress, Washington,
+		  D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <p>John Charles Frémont (1813-1890) first gained public attention
+		  through his participation in and eventual leadership of scientific and mapping
+		  expeditions in the American West (1838, 1841, 1842, 1843, and 1845). In 1841 he
+		  married Jessie Ann Benton (1824-1902), the daughter of Senator Thomas Hart
+		  Benton of Missouri, who was an advocate of United States expansion into the
+		  West and a political supporter of his son-in-law's expeditions, which received
+		  Congressional backing. Jessie Benton Frémont assisted in the writing of her
+		  husband's 1844 expedition report, which enjoyed popularity with the general
+		  public, and with his subsequent writings. During his final expedition, Frémont
+		  became involved in California's uprising against Mexico. He was appointed
+		  military governor of California, but later was arrested and court-martialed in
+		  Washington, D.C., in 1847-1848 for disobedience. His penalty was set aside by
+		  President James K. Polk and he and Jessie moved to California in 1849. They
+		  became wealthy after the discovery of gold on their Las Mariposas land grant.
+		  In 1850, Frémont was elected senator from the new state of California and
+		  served briefly in that office. He ran as the first presidential candidate of
+		  the Republican party in 1856 on a free-soil anti-slavery platform. He served as
+		  a Union general in the Department of the West during the Civil War. Frémont
+		  was governor of the Arizona terrritory, 1878-1883. He died in New York City in
+		  1890. The Frémonts suffered economic reversals and in later years were
+		  supported primarily through Jessie Benton Frémont's writings. During the 1870s
+		  through the 1890s she authored books, stories, and many articles that appeared
+		  in leading magazines. She died in Los Angeles, California, in 1902.</p>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of John Charles Frémont (1813-1890) and Jessie Benton
+		  Frémont (1824-1902) span the years 1828-1980 with the bulk of the material
+		  dating from 1835 to 1890. The collection includes correspondence, presidential
+		  campaign material from 1856, Civil War items, writings, prints, photographs,
+		  printed matter, and books. Throughout the collection are typed transcripts of
+		  letters, lists of items, and occasional typed descriptions of items. These were
+		  not created by the Library of Congress but came with the collection and have
+		  been retained as supplemental information.</p>
+         <p>The Civil War file contains no items written by John Charles Frémont.
+		  Some letters are addressed to Frémont as commander in charge of the Western
+		  Department and the Mountain Department. Other items are related to his command
+		  during the war or are addressed to Major George E. Waring who took over his
+		  command in Missouri. Before and after the war, Waring was a prominent sanitary
+		  engineer and civic reformer, leading projects such as the engineering of the
+		  drainage system for New York's Central Park.</p>
+         <p>The correspondence consists mainly of letters sent by Jessie Benton
+		  Frémont and John Charles Frémont. All but five letters are written by the
+		  Frémonts. The Jessie Benton Frémont correspondence includes many letters to
+		  Robert Underwood Johnson and Edward William Bok. A lengthy run of letters to T.
+		  W. (Trenor William) Park in the John Charles Frémont correspondence primarily
+		  concerns the Frémont's California property. Other notable correspondents
+		  include Henry Ward Beecher and Joel Roberts Poinsett. </p>
+         <p>The presidential campaign of 1856 material includes pamphlets
+		  supporting and opposing Frémont, songbooks, and graphic material. The printed
+		  matter contains both items written by the Frémonts and items written about
+		  them. The book collection, part of the printed matter file, includes items
+		  authored by the Frémonts. The books remain unorganized in four record center
+		  cartons. A list of contents is in each box. Other items in the collection
+		  include engravings, prints, photographs, legal papers, printed matter, and a
+		  dispatch box.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged alphabetically by type of material and
+		  chronologically therein, except for the Civil War file, which is arranged
+		  alphabetically.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Civil War file </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">List of contents</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">A-W, 
+				   <date>1860-1864 </date>  
+				                             <ref show="replace" actuate="onrequest" target="CW">
+                                    <emph render="italic">See also Oversize </emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1860-1864 </unitdate>
+                  <physdesc encodinganalog="300$a">(5
+				  folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Correspondence</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Frémont, Jessie
+				  Benton</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">List of contents</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1840-1902, undated </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1840-1902, undated </unitdate>
+                     <physdesc encodinganalog="300$a">(4
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Frémont, John
+				  Charles</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">List of contents</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1835-1863 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1835-1863 </unitdate>
+                     <physdesc encodinganalog="300$a">(7
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1864-1889, undated </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1864-1889, undated </unitdate>
+                     <physdesc encodinganalog="300$a">(5
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">"Diary of Richard H. Kern, a Member
+				of John C. Frémont's Expedition, Oct. 20, 1848-Feb. 16, 1849"</unittitle>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Dispatch box inscribed with
+				Frémont name and letter concerning provenance of box, 
+				 <date>1973, undated </date>  
+				                          <ref show="replace" actuate="onrequest" target="dispatch">
+                                 <emph render="italic">See also Container VA 1, Artifact, Dispatch
+				  box</emph>
+                              </ref>
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1973, undated </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Engravings, prints, and
+				photographs</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Frémont, Jessie Benton, 
+				   <date>circa 1890-circa 1905</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1890-circa 1905</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Frémont, John Charles, 
+				   <date>circa 1850-circa 1862, circa 1890,
+					 1956</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1850-circa 1862, circa 1890,
+					 1956</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Newspaper clippings, 
+				 <date>1884-1890, 1972</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1884-1890, 1972</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Legal papers, 
+				 <date>1828, 1854-1868, 1875 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1828, 1854-1868, 1875 </unitdate>
+               <physdesc encodinganalog="300$a">(2
+				folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Miscellany, 
+				 <date>1889, 1901, 1935, 1950, undated</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1889, 1901, 1935, 1950, undated</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Presidential campaign of
+				1856</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Graphic material, 
+				   <date>1856</date>  
+				                             <ref show="replace" actuate="onrequest" target="pres">
+					                               <emph render="italic">See also Oversize </emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1856</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Miscellany, 
+				   <date>1856</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1856</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Opposing Frémont, 
+				   <date>1856</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1856</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Songbooks, 
+				   <date>1856</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1856</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Supporting Frémont, 
+				   <date>1856, 1864</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1856, 1864</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Printed matter</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Biographical material about John
+				  Charles Frémont, 
+				   <date>1848-1862, 1903, circa 1910, 1980 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1848-1862, 1903, circa 1910, 1980 </unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Circle of friends of the
+				  medallion, honoring John Charles Frémont, 
+				   <date>1913</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1913</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>Cora O'Kane; or, The Doom of the Rebel Guard</part>
+                                 </title>, 
+				   <date>1868</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1868</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">House of Representatives
+				  documents, 
+				   <date>1847-1848, 1862</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1847-1848, 1862</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">"Letter from Col. Benton to the
+				  People of Missouri," 
+				   <date>1853</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1853</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Mariposa estate, California, 
+				   <date>1863-1873</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1863-1873</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>Plantæ Frémontiane; or, Descriptions of Plants Collected
+					 by Col. J. C. Frémont in California</part>
+                                 </title>, 
+				   <date>1853</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1853</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Reports of the governor of
+				  Arizona, 
+				   <date>1878-1879, 1895</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1878-1879, 1895</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Senate documents</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">California claims, 
+					  <date>1848-1856 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1848-1856 </unitdate>
+                     <physdesc encodinganalog="300$a">(3
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">"Conquest of California" by J.
+					 R. Thomson, 
+					  <date>1850</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1850</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Court martial, 
+					  <date>1848</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1848</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Expedition reports, 
+					  <date>1843, 1854</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1843, 1854</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">"Geographical Memoir upon Upper
+					 California" by John Charles Frémont, 
+					  <date>1848</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1848</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="rc">1-4</container>
+                  <unittitle encodinganalog="245$a">Unarranged books</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a">Oversize</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a" id="CW">Civil War file, A-W,
+				  Rosters and charts of the 4th Regiment Cavalry, Missouri Volunteers, 
+				   <date>1863-1864 </date> (Container 1)</unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1863-1864 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a" id="pres">Presidential campaign
+				  of 1856, Graphic material, "Grand National Republican Banner," 
+				   <date>1856 </date> (Container 2)</unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1856 </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">VA 1</container>
+               <unittitle encodinganalog="245$a" id="dispatch">Artifact, Dispatch
+				box inscribed with Frémont name, 
+				 <date>undated </date> (Container 2)</unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated </unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

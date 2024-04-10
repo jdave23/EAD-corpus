@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms011182">loc.mss/eadmss.ms011182</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Montgomery Sicard Papers</titleproper>
+            <subtitle>A Finding Aid to the Papers in the Naval Historical
+			 Foundation Collection in the Library of Congress</subtitle>
+            <author>Prepared by Ruth S. Nicholson </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2011" encodinganalog="260$c" era="ce" calendar="gregorian">2011</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm70053207">https://lccn.loc.gov/mm70053207</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2011">2011</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Montgomery Sicard Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1800/1898">1800-1948</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1870/1898">(bulk 1870-1898)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1800/1898"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1800-1948</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1870/1898"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1870-1898)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS53207</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Sicard, Montgomery,
+			 1836-1900</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">1,200
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">4 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">2 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+		       </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Naval officer.
+		  Correspondence, subject file, and miscellaneous material relating to Sicard’s
+		  naval career, including diagrams and memoranda for breech-loading howitzers and
+		  his plans for steel armor plate for ships. </abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20171124110328.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Chandler, William E. (William Eaton), 1835-1917--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="unspecified">
+               <part>Floyd, William, fl. 1800-1839--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Folger, William Mayhew, 1844-1928--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hunt, William H. (William Henry), 1823-1884--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>O'Neil, Charles, 1842-1927--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Porter, David D. (David Dixon), 1813-1891--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="unspecified">
+               <part>Sicard, Eleanor L.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sicard, Elizabeth Floyd, 1835- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="unspecified">
+               <part>Sicard, George J.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Sicard, Montgomery, 1836-1900.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="unspecified">
+               <part>Sicard, Montgomery, Jr.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="unspecified">
+               <part>Sicard, Stephen, Jr.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="unspecified">
+               <part>Sicard, Stephen, Sr. Stephen Sicard, Sr., papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="unspecified">
+               <part>Sicard, William F.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Walker, Asa, 1845-1916--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Armor-plate.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Artillery.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Howitzers.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Naval architecture.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Shipbuilding.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Naval officers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Montgomery Sicard, naval officer, were deposited in the
+		  Library of Congress by the Naval Historical Foundation in 1964 and converted to
+		  a gift in 1998.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Montgomery Sicard were arranged and described in 1970.
+		  The finding aid was revised in 2011.</p>
+      </processinfo>
+      <otherfindaid encodinganalog="555">
+         <head>Additional Guides</head>
+         <p>In 1979 the Library published <title localtype="simple">
+                           <part>Nathan Sargent, John Shaw, Montgomery
+		  Sicard, and Roger Welles: Registers of Their Papers in the Library of
+		  Congress</part>
+                        </title>.</p>
+      </otherfindaid>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Montgomery
+		  Sicard is governed by the Copyright Law of the United States (Title 17,
+		  U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Montgomery Sicard are open to research. Researchers are
+		  advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Montgomery Sicard Papers, Naval
+		  Historical Foundation Collection, Manuscript Division, Library of Congress,
+		  Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1836, Sept. 30 </datesingle>
+               <event>Born, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1855 </datesingle>
+               <chronitemset>
+                              <event>Graduated, U.S. Naval Academy, Annapolis, Md.</event>
+                              <event> Duty in USS <title localtype="simple">
+                                    <part>Potomac</part>
+                                 </title>, Home Squadron</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1856 </datesingle>
+               <event>Duty in USS <title localtype="simple">
+                                 <part>Wabash</part>
+                              </title>, Home Squadron</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1860</datesingle>
+               <event> Duty in USS <title localtype="simple">
+                                 <part>Dacotah</part>
+                              </title>, East India Squadron</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1862</fromdate>
+                              <todate>1863</todate>
+                           </daterange>
+               <event>Duty in USS <title localtype="simple">
+                                 <part>Oneida</part>
+                              </title>, West Gulf Blockading Squadron</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1863 </datesingle>
+               <event>Married Elizabeth Floyd</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1864 </datesingle>
+               <event>Duty in USS <title localtype="simple">
+                                 <part>Ticonderoga</part>
+                              </title>, South Atlantic Blockading Squadron</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1865 </datesingle>
+               <event>Commanded USS <title localtype="simple">
+                                 <part>Seneca</part>
+                              </title>; in charge of the left wing of the 2nd Naval Division</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1869 </datesingle>
+               <event>Commanded USS <title localtype="simple">
+                                 <part>Saginaw</part>
+                              </title>, Pacific Fleet</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1871 .</datesingle>
+               <event>Ordnance duty, U.S. Navy Yard, New York, N.Y</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1872 </datesingle>
+               <event>Ordnance duty, U.S. Navy Yard, Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1877</datesingle>
+               <event> Duty in designing and constructing the first steel
+				breech-loading guns for the U.S. Navy</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1881</datesingle>
+               <event> Promoted to captain</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1881</fromdate>
+                              <todate>1897</todate>
+                           </daterange>
+               <event>Chief, Bureau of Ordnance</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1891</fromdate>
+                              <todate>1893</todate>
+                           </daterange>
+               <event> Commanded USS <title localtype="simple">
+                                 <part>Miantonomoh</part>
+                              </title>
+                           </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1897 </datesingle>
+               <chronitemset>
+                              <event>Promoted to rear admiral</event>
+                              <event>Commander in chief, Naval Forces, North Atlantic
+				  Station</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1898 </datesingle>
+               <chronitemset>
+                              <event>President, Strategy Board, during the Spanish-American
+				  War</event>
+                              <event> Retired from the U.S. Navy </event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1900, Sept. 14</datesingle>
+               <event>Died, Westernville, N.Y.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Montgomery Sicard (1836-1900) span the years 1800-1948,
+		  with the bulk of the material falling in the years 1870 to 1898. The collection
+		  consists of official and general correspondence, a subject file, and
+		  miscellaneous items. </p>
+         <p> Sicard’s achievements in the field of ordnance are documented with
+		  his diagrams and memoranda for breech-loading howitzers and his plans for steel
+		  armor plate for ships. In his plans for steel plates are holograph and
+		  typescript notes, memoranda, letters, blueprints , and a corrected galley for <title localtype="simple">
+                           <part>Specifications for Armor for the United States Navy</part>
+                        </title>. </p>
+         <p>The official correspondence includes a few letters, but the majority
+		  of items are orders to duty. Correspondents include William E. Chandler,
+		  William Mayhew Folger, William H. Hunt, Charles O’Neil, and David D. Porter.
+		  The general correspondence consists largely of letters exchanged between Sicard
+		  and his wife, Elizabeth Floyd Sicard, and between the Sicards and their
+		  children, William F. Sicard, Montgomery Sicard, Jr., and Eleanor L. Sicard.
+		  Other correspondents are Ward Hunt, Jr., Kossuth Niles, and Asa Walker.</p>
+         <p> Sicard’s financial affairs are documented with letters of advice on
+		  investments; papers of profits, management of property, and purchase of
+		  household goods, and tax receipts. There are letters from his brothers, Stephen
+		  Sicard and George J. Sicard, and his brother-in-law, William Floyd. </p>
+         <p>Of interest in the miscellany are trade papers of Sicard’s father,
+		  Stephen Sicard, and papers on the management of the Floyds’ property in New
+		  York.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>The collection is organized by type of material.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Correspondence </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Official, 
+				   <date>1868-1889</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1868-1889</unitdate>
+                  <physdesc encodinganalog="300$a"> (3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a"> General</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle> 
+					                               <date>1864-1885 </date> 
+                                 </unittitle>
+                     <unitdate era="ce" calendar="gregorian">1864-1885 </unitdate>
+                     <physdesc encodinganalog="300$a">(9
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1886-1900, undated </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886-1900, undated </unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Letters of condolence, 
+				   <date>1900-1901 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1900-1901 </unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a"> Subject file</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Breech-loading howitzers, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Financial papers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1862-1879</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1862-1879</unitdate>
+                     <physdesc encodinganalog="300$a"> (4
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1800-1900, undated </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1800-1900, undated </unitdate>
+                     <physdesc encodinganalog="300$a">(5
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Spanish-American War, 
+				   <date>1898 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1898 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Steel armor plate, 
+				   <date>1895, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1895, undated</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Blueprints </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Contracts</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a"> Notes and
+					 memoranda</unittitle>
+                     <physdesc encodinganalog="300$a"> (2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Wreck of the USS <title localtype="simple">
+                                    <part>Saginaw</part>
+                                 </title> on Ocean Island (1870), 
+				   <date>1871-1948</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1871-1948</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Miscellany</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Biographical file, 
+				   <date>
+					 undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Card plates, 
+				   <date>
+					 1900 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1900 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Certificate, Associated Veterans
+				  of Farragut’s Fleet, 
+				   <date>undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Genealogy </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Holograph compositions, 
+				   <date>1851, undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1851, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous material
+				  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Newspaper clippings, 
+				   <date>1899-1900 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1899-1900 </unitdate>
+                  <physdesc encodinganalog="300$a">(2 folders)
+				  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Notebook, fund for the relief of
+				  the families of John Andrews and James Muir, 
+				   <date>1871-1877</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1871-1877</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Photograph of Sicard, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Printed matter, 
+				   <date>1847-1889 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1847-1889 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Signatures Sketches, USS <title localtype="simple">
+                                    <part>Swatara</part>
+                                 </title>, 
+				   <date>
+					 1878</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1878</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a"> Stephen Sicard, financial
+				  papers, 
+				   <date>1821-1825 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1821-1825 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">William F. Sicard, notebook and
+				  essay, 
+				   <date>
+					 1887-1888</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1887-1888</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">William Floyd, financial papers, 
+				   <date>1800-1839 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1800-1839 </unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

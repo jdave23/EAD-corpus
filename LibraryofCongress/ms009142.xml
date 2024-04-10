@@ -1,0 +1,1908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms009142">loc.mss/eadmss.ms009142</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>James Monroe Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78033217">https://lccn.loc.gov/mm78033217</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-06">2023 June</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2021-11">2021 November</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Link to index updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2015-07">2015 July</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Links to digital content added</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2015-01">2015 January</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Microfilm descirption added</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2014-10">2014 October</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Addition made</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2010-09">2010 September</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Links to index added</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Title, controlaccess updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2014">2014</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">James Monroe Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1758/1839"
+                  id="mferccda88f2b450413f8553ff0e9bf896a9">1758-1839</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1758/1839"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1758-1839</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS33217</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Monroe, James, 1758-1831</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">5,200 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">50 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">16 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">13 microfilm reels</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">United States president, secretary of
+            state, secretary of war, and diplomat; delegate to the Continental Congress from and
+            governor of Virginia. Correspondence relating primarily to negotiations for the
+            Louisiana Purchase, the Monroe-Pinkney treaty with Great Britain, the War of 1812, the
+            purchase of Florida, South American independence, and Virginia politics and a diary, an
+            account book of memoranda and official and personal accounts, and other
+            papers.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220929161002.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Adams, John Quincy, 1767-1848--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Adams, John, 1735-1826--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Armstrong, John, 1758-1843--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Barlow, Joel, 1754-1812--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Benton, William, 1788-1881--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bowdoin, James, 1752-1811--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Calhoun, John C. (John Caldwell), 1782-1850--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Crawford, William Harris, 1772-1834--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Dearborn, Henry, 1751-1829--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Erskine, Thomas Erskine, Baron, 1750-1823--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Erving, George William, 1769-1850--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Gallatin, Albert, 1761-1849--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Graham, John, 1774-1820--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Henderson, Richard H., active 1822--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Humphreys, David, 1752-1818--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jackson, Andrew, 1767-1845--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jefferson, Thomas, 1743-1826--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jones, Joseph, 1727-1805--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>King, Rufus, 1755-1827--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Law, Thomas, 1756-1834--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Livingston, Robert R., 1746-1813--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Madison, James, 1751-1836--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>McLean, John, 1785-1861--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Mercer, John Francis, 1759-1821--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Monroe, James, 1758-1831.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pinkney, William, 1764-1822--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Randolph, Edmund, 1753-1813--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Randolph, John, 1773-1833--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Roane, Spencer, 1762-1822--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Rodney, C. A. (Caesar Augustus), 1772-1824--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Rush, Richard, 1780-1859--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Taylor, John, 1753-1824--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Tazewell, Littleton Waller, 1774-1860--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Tucker, St. George, 1752-1827--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Washington, George, 1732-1799--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Wirt, William, 1772-1834--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Louisiana Purchase.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Florida--History--Spanish colony, 1784-1821.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>France--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Great Britain--Foreign relations--Treaties.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Great Britain--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>South America--History--Wars of Independence, 1806-1830.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Spain--Foreign relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--1783-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--France.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Great Britain.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Spain.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--Treaties.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--1783-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--War of 1812.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--1817-1825.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Virginia--Politics and government.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="740">
+               <part>James Monroe Papers at the Library of Congress</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Cabinet officers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Delegates, U.S. Continental Congress--Virginia.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Diplomats.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Presidents--United States.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of James Monroe, United States president, secretary of state, secretary of
+            war, and diplomat, delegate to the Continental Congress from and governor of Virginia,
+            consist of material received through gift, transfer from the United States State
+            Department, and purchase by the Library of Congress during the years 1901-2001. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The James Monroe Papers were arranged, indexed, and microfilmed in 1958-1960. Subsequent
+            additions were arranged and described in 1979, and a finding aid to the additions was
+            revised and expanded in 1985 and 1996. In 2009 the finding aid was expanded by including
+            description of the main collection from the published index. The 2014 addition
+            incorporated microfilm made in 1952 and an accession from 2001. The finding aid was also
+            revised and expanded in 2014. The finding aid was updated in 2023 by Maria Farmer as
+            part of a division-wide remediation project by the Inclusive Description Working
+            Group.</p>
+      </processinfo>
+      <otherfindaid>
+         <head>Additional Guides</head>
+         <p>The microfilm edition of these papers (not including additions) is indexed in the <title localtype="simple">
+               <part>Index to the James Monroe Papers</part>
+            </title> (Washington, D.C.: 1963), prepared as part of the President's Papers Index
+            Series. The index is available online at <ref show="new" actuate="onrequest"
+                 href="https://hdl.loc.gov/loc.gdc/gdclccn.62060006">https://hdl.loc.gov/loc.gdc/gdclccn.62060006</ref>.</p>
+      </otherfindaid>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Other Repositories</head>
+         <p>Microfilm of James Monroe papers in the New York Public Library, New York, N.Y., and a
+            microfilm produced by the University of Virginia Library of records in the Virginia
+            State Archives and other Virginia repositories are available for consultation in the
+            Manuscript Division reading room.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of James Monroe is governed by the
+            Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of James Monroe are open to research. Researchers are advised to contact the
+            Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p>A microfilm edition of part of these papers is available on thirteen reels. Consult
+            reference staff in the Manuscript Division concerning availability for purchase or
+            interlibrary loan. To promote preservation of the originals, researchers are required to
+            consult the microfilm edition as available.</p>
+      </altformavail>
+      <altformavail encodinganalog="530">
+         <head>Online Content</head>
+         <p>The papers of James Monroe are available on the Library of Congress Web site at <ref show="new" actuate="onrequest"
+                 href="https://hdl.loc.gov/loc.mss/collmss.ms000029">https://hdl.loc.gov/loc.mss/collmss.ms000029</ref>. <emph render="italic">To promote
+               preservation of the originals, researchers are required to consult the online edition
+               as available.</emph>
+         </p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container or reel number, James Monroe Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1758, April 28</datesingle>
+               <event>Born, Westmoreland County, Va.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1774</datesingle>
+               <chronitemset>
+                  <event>Moved to King George County under the guardianship of his uncle, Joseph
+                     Jones</event>
+                  <event>Entered College of William and Mary, Williamsburg, Va.</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1775</datesingle>
+               <event>Commissioned second lieutenant, Third Virginia Regiment </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1775</fromdate>
+                  <todate>1779</todate>
+               </daterange>
+               <event>Fought with George Washington and William Alexander in New York, New Jersey,
+                  and Pennsylvania, rising to the rank of lieutenant colonel</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1779</datesingle>
+               <event>Studied law with Thomas Jefferson in Williamsburg, Va. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1782</datesingle>
+               <event>Representative, King George County, Virginia House of Delegates</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1783</fromdate>
+                  <todate>1786</todate>
+               </daterange>
+               <event>Delegate from Virginia, Fourth Congress of the Confederation</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1786</datesingle>
+               <chronitemset>
+                  <event>Married Elizabeth Kortright (died 1830)</event>
+                  <event>Practiced law, Fredericksburg, Va.</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1788</datesingle>
+               <event>Delegate to the Virginia state convention to ratify the Federal
+                  constitution</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1790</fromdate>
+                  <todate>1794</todate>
+               </daterange>
+               <event>Senator from Virginia, First Congress of the United States</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1794</fromdate>
+                  <todate>1796</todate>
+               </daterange>
+               <event>Minister Plenipotentiary to France</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1799</fromdate>
+                  <todate>1803</todate>
+               </daterange>
+               <event>Governor of Virginia</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1803</datesingle>
+               <event>Minister Plenipotentiary to France; signed Louisiana Purchase</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1803</fromdate>
+                  <todate>1807</todate>
+               </daterange>
+               <event>Minister to England</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1811</datesingle>
+               <event>Governor of Virginia</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1811</fromdate>
+                  <todate>1817</todate>
+               </daterange>
+               <event>Secretary of state</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1813</datesingle>
+               <event>Secretary of war, <emph render="italic">ad interim</emph>
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1814</datesingle>
+               <event>Joined Maryland militia at Bladensburg</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1814</fromdate>
+                  <todate>1815</todate>
+               </daterange>
+               <event>Secretary of war and secretary of state, acting in dual appointments</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1817</fromdate>
+                  <todate>1825</todate>
+               </daterange>
+               <event>President of the United States</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1830</datesingle>
+               <event>Moved to New York, N.Y., to make his home with daughter Maria and son-in-law
+                  Samuel Gouverneur</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1831, July 4</datesingle>
+               <event>Died, New York, N.Y.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <custodhist encodinganalog="561">
+         <head>History of the Collection</head>
+         <p>[From <title localtype="simple">
+               <part>Index to the James Monroe Papers</part>
+            </title> (Washington, D.C.: 1963), pp. v-xi]</p>
+         <p>When James Monroe retired from the Presidency on March 4, 1825, he returned to Oak Hill,
+            his estate in Loudoun County, Va. <ref show="replace" actuate="onrequest" target="foot1">[1]</ref> In the years that followed, his attempts to pay his debts and to better
+            his financial condition must have required the steady use of a great many of the papers
+            he had accumulated during his long years of public service, particularly those which
+            could further the investigation of his accounts that he had asked Congress to make.
+            Annotations on many of the papers give evidence that Monroe made some attempt to
+            organize them; this was doubtless done during the years of his retirement. </p>
+         <p>To stimulate action by Congress he wrote a long paper on his "unsettled claims" in the
+            summer of 1826 and sent it to Gales and Seaton in Washington for publication. <ref show="replace" actuate="onrequest" target="foot2">[2]</ref> The following year he
+            undertook the preparation of two additional papers which he hoped would raise money
+            through sales. The first of these was a comparison of the Government of the United
+            States with other, older, republics; <ref show="replace" actuate="onrequest" target="foot3">[3]</ref> the second was his autobiography. <ref show="replace" actuate="onrequest" target="foot4">[4]</ref>
+         </p>
+         <p>Another means of raising money was suggested to him in correspondence with Nicholas P.
+            Trist, who wrote him on January 27, 1828, from Monticello: </p>
+         <blockquote>
+            <p>I suppose you have kept copies of all yr. letters to Mr. J[efferson].—There are among
+               them numerous evid[en]ces of the pure disinterestedness of yr. course, &amp; of the
+               fact that in taking those steps wh. launched you irrevocably on the sea of public
+               life, you were actuated solely by devotion to yr. country, to the well understood
+               disparagemt. of yr. individual interests. That you may reap a reward somewhat
+               commensurate with these sacrifices is with me more a wish than a hope. Will you
+               permit me to ask however whether you cd. not at once avail yourself of the value of
+               yr. papers, by pledging the proceeds of their future public[atio]n, in
+               consid[eratio]n of a loan? If I mistake not, such a measure would be far from
+               unexampled; wd. it be impracticable?</p>
+         </blockquote>
+         <p> In Monroe's reply, on February 8, he wrote: "I have examined my papers, and find that I
+            have, as I believe, all the letters, that were ever written to me by Mr. Jefferson. The
+            first bears date in 1780, while I was reading the law under him. . . . I have copies,
+            but I am satisfied, that I have not, of a fifth, of them I wrote him." He offered to
+            send Jefferson's letters to Thomas Jefferson Randolph if he would be gratified to
+            possess them, an offer that was apparently not accepted, and he added: "Your suggestion
+            as to the sale of my papers, or pledge of them, merits attention." <ref show="replace" actuate="onrequest" target="foot5">[5]</ref>
+         </p>
+         <p>Monroe's study of republics and his autobiography were incomplete, and his claims before
+            Congress were still unresolved, when Mrs. Monroe died in September 1830. Two months
+            later financial difficulties and ill health forced him to leave Oak Hill and to make his
+            home with his younger daughter, Maria, and her husband, Samuel L. Gouverneur, in New
+            York City. The latter was acting as Monroe's agent in dealing with the several
+            committees of Congress investigating his claims, and for this purpose Monroe had
+            supplied his son-in-law with selections from his papers from time to time, as shown in
+            letters exchanged by the two men. In addition to papers that might already have been in
+            New York, it is reasonable to suppose that Monroe took with him when he left Virginia
+            such papers as he would need to continue work on his autobiography. Nevertheless, an
+            undetermined number of his papers were at Oak Hill when Monroe died in New York City on
+            July 4, 1831. <ref show="replace" actuate="onrequest" target="foot6">[6]</ref>
+         </p>
+         <p>In his will, Samuel L. Gouverneur was named "sole and exclusive executor" and was asked
+            to care for Monroe's older daughter Elizabeth, whose husband, Judge George Hay, had died
+            the previous autumn. The Monroe papers were mentioned somewhat obliquely in the
+            following provision: ". . . with respect to the works in which I am engaged and leave
+            behind, I commit the care and publication of them to my son in law Samuel L. Gouvernieur
+               [<emph render="italic">sic</emph>], giving to him one third of the profits arising
+            therefrom for his trouble in preparing them for publication, one third to my daughter
+            Maria and one third to my daughter Elizabeth." <ref show="replace" actuate="onrequest" target="foot7">[7]</ref>
+         </p>
+         <p>In the first month of Gouverneur's proprietorship of the papers, he lent a small number
+            to John Quincy Adams, who was to deliver a eulogy to Monroe in Boston at the invitation
+            of the city government. On July 19, Gouverneur wrote: "As a means of affording you all
+            the interesting details of Mr. Monroe's early life, in the most ample form, and with the
+            greatest precision, I have taken the liberty to enclose you the first 60 or 70 sheets of
+            a sketch prepared by himself, &amp; which together with all his other interesting
+            papers, he entrusted to my special charge. . . . With the history of his life for the
+            later years, you are well acquainted. He has left copious notes &amp; a most extensive
+            correspondence but he was prevented by death, from completing that portion of his
+            career, even in the shape, which the present has assumed." Apparently he sent additional
+            papers a week later, because Adams, in a letter of August 30, wrote that he was
+            returning "the papers transmitted to me with your letter of the 26th. ulto." and added
+            that "The manuscript of Mr. Monroe shall be returned in the course of a few days—By a
+            private hand if an opportunity should present itself. Before the end of the week I hope
+            to forward a printed Copy of the Eulogy." </p>
+         <p>Early the following year Richard Rush, writing from York, Pa., asked Gouverneur to
+            return the personal letters he had written to Monroe while he was minister to England:
+            "I wrote often to him, and with a freedom that would not have been justifiable in my
+            public despatches. . . . It is on this account that I should be glad to have them in my
+            possession, lest by any chances hereafter any portion of them should come to be mixed up
+            with his manuscripts . . . and in that way run the risk of publicity." The nature of
+            Gouverneur's reply is suggested by the next letter he received from Rush: "Its obliging
+            sentiments . . . leave me no anxiety on the score of the private and confidential
+            letters alluded to. . . . if any parts of them can, in the judgement of others, be made
+            subsidiary to the better understanding of any of Mr. Monroe's services, there is no
+            scruple even that I would not forego on my part; so much did I honor him as a statesman,
+            revere him as a patriot, and love him as a man. At the same time the promise you are so
+            good as to give that no use will be made of any paper from me without my approbation . .
+            . is a relief." </p>
+         <p>Gouverneur was again reminded of his responsibilities as custodian of the Monroe papers
+            three years later, when he received an anonymous letter written by "A Virginian" in
+            "Alexandria, District of Columbia," on June 11, 1835: ". . . the character of your
+            illustrious kinsman is already marked a victim for the sacrifice. </p>
+         <blockquote>
+            <p>Let me implore you as you revere his name and reverence his memory—let me intreat you
+               as patriot and an honorable man—let me caution you as you value your own reputation
+               hold on to every scrap of writing that may be in your possession in any manner
+               connected with his private or public life—preserve every paper that concerns him, for
+               as you life [<emph render="italic">sic</emph>], if you respect his memory you will
+               have use for them.</p>
+         </blockquote>
+         <p>Apparently Gouverneur did some work toward preparing the papers for publication during
+            the 1830's and a manuscript relating to Monroe, which he started to write, is said to
+            have survived. <ref show="replace" actuate="onrequest" target="foot8">[8]</ref> He was
+            busy with other pursuits, however—he was Postmaster of New York City from 1828 to 1836
+            and part owner of the Bowery Theatre there—and he seems not to have found work on the
+            Monroe papers a congenial occupation. Nevertheless there is no evidence that he was
+            ready to accept the offer of help he received from Barnabus Bates of New York City, who,
+            in a letter of February 13, 1839, agreed to prepare and publish a memoir on Monroe "upon
+            terms which shall be mutually advantageous and satisfactory." Bates had heard through
+            Commodore Charles Goodwin Ridgely, then in charge of the Navy Yard at New York, that
+            Gouverneur possessed "a very interesting correspondence between Presdts. Jefferson and
+            Monroe in relation to the Gun Boat system recommended by the former," and he suggested
+            that Gouverneur "procure while in Virginia any papers necessary to accomplish the
+            object."</p>
+         <p> In contrast Gouverneur took positive action in regard to the papers during the
+            following decade. </p>
+         <p>Elizabeth Kortright Hay, Monroe's older daughter, died in 1840 and in the same year
+            Samuel and Maria Gouverneur moved from New York City to Washington, where they lived in
+            the De Menou buildings on H Street. <ref show="replace" actuate="onrequest" target="foot9">[9]</ref> They also spent periods of each year at Oak Hill. Gouverneur
+            worked in the Consular Bureau of the Department of State from 1844 to 1849, when he
+            resigned because of the "afflicted state" of his family and because a promised
+            advancement had not materialized. <ref show="replace" actuate="onrequest" target="foot10">[10]</ref>
+         </p>
+         <p>It must have been about the time he entered Government service that Gouverneur became
+            acquainted with Henry O'Reilly (or O'Rielly, as he later spelled his name), a vigorous
+            young man who had been editor of the <title localtype="simple">
+               <part>Rochester Daily Advertiser</part>
+            </title> in Rochester, N.Y., and who was active in many causes. According to a long,
+            rather rambling memorandum O'Reilly wrote many years later, Gouverneur first tried to
+            persuade him to occupy the farm at Oak Hill and to assist in disposing of the property,
+            and later Gouverneur sought his help in connection with the Monroe papers: "In the
+            course of our acquaintance Mr. Gouverneur suggested to me, <emph render="italic">without
+               any solicitation on my part,</emph> that he &amp; others wished me to take charge
+            &amp; control of the Ex-President's records &amp; other Papers with a view to the
+            Publication of <emph render="italic">A Selection from those papers along with a memoir
+               of Mr. Monroe &amp;c</emph> in case it should be found that a sale of the whole mass
+            could not be made to the Government. . . . <ref show="replace" actuate="onrequest" target="foot11">[11]</ref>
+         </p>
+         <p>Gouverneur did indeed turn over to O'Reilly what appears to have been in the major part
+            of the Monroe papers, probably in 1844 or 1845. In the latter year O'Reilly also entered
+            into a contract with Samuel F. B. Morse and Amos Kendall to raise capital for telegraph
+            lines from Eastern Pennsylvania to St. Louis and the Great Lakes, and his work in this
+            connection must have left him little time to give to the Monroe papers. Even their exact
+            location during the mid-1840's is uncertain although glancing references in some of his
+            letters make it likely that O'Reilly deposited them somewhere in New York City while his
+            work of erecting telegraph lines took him from place to place. Samuel L. Gouverneur
+            himself seems not to have known where they were being stored. His concern is evident in
+            a letter he wrote to O'Reilly on May 17, 1847, in which he also outlined terms for the
+            treatment of the papers: "I should have written you before—but from the uncertainty
+            where a letter would find you—I see by the papers (notices of arrivals, etc.) that you
+            are in New York [actually this letter was forwarded to Philadelphia]. </p>
+         <blockquote>
+            <p>I propose in reply to yours that we should divide the proceeds—first deducting 1/8 to
+               be allowed to the Estate of Mr. Monroe. This is on the supposition that the Heirs at
+               law might expect something, &amp; I should agree to fix the sum at that. I also wish
+               it stipulated that the entire control of published matter in reference to Mr. Monroe
+               should be vested in me—I mean that no papers should be published without my assent
+               first had. This I consider just &amp; right, especially as some matter might refer to
+               questions of a personal or delicate nature. Let me have your reply to the above. </p>
+            <p>I hope you have the papers all in a place of perfect security as I value them very
+               highly, &amp; would be unwilling to run the risk of loss or accident to them—when
+               will you be this way—I should be glad to have a talk with you. . . ." </p>
+         </blockquote>
+         <p>Not having heard from O'Reilly, Gouverneur wrote again nearly five months later, on
+            October 14, asking him to drop a line and "<emph render="italic">assure me</emph>
+            respecting which, I feel some anxiety, that all my papers, are safely deposited, where
+            no accident can befall them." This letter apparently reached O'Reilly in Cincinnati,
+            Ohio. <ref show="replace" actuate="onrequest" target="foot12">[12]</ref>
+         </p>
+         <p>The first and apparently only substantial use that was made of the Monroe Papers while
+            they were in Gouverneur's custody occurred the following year. Gouverneur requested
+            O'Reilly to make transcripts of a number of papers for Senator James D. Westcott, Jr.,
+            of Florida, and he himself lent the Senator a parcel of original manuscripts he had
+            retained. The texts or references to these were incorporated in Westcott's speech of
+            July 25, 1848, on the territorial government of Oregon. <ref show="replace" actuate="onrequest" target="foot13">[13]</ref>
+         </p>
+         <p>The stalemate on making effective arrangements to publish or sell the Monroe papers
+            seems finally to have been broken in 1848. Doubtless an important factor in this matter
+            was the purchase made by the Government that year of papers of James Madison (a second
+            segment), of Alexander Hamilton, and of Thomas Jefferson. On December 14, Richard Smith,
+            the executor of Elizabeth K. Hay's estate, agreed to accept one-eighth of the proceeds
+            of any publication or sale (rather than the one-third share specified in James Monroe's
+            will) provided the estate was exonerated from any costs connected with the transactions.
+               <ref show="replace" actuate="onrequest" target="foot14">[14]</ref> This was followed
+            on December 28 by a formal agreement between Samuel L. Gouverneur and Henry O'Reilly, by
+            which any profits resulting from publication of the papers would be divided so as to
+            give three-eighths to O'Reilly, one-eighth to the estate of President Monroe, and
+            four-eighths to Gouverneur. If, however, the papers were sold for not less than $20,000,
+            O'Reilly was to get thirty percent of the proceeds and to pay one-third of this amount
+            to Eliab Kingman and others assisting in the sale, while Gouverneur was to get the other
+            seventy percent and to pay from this sum one-eighth of the entire proceeds to the estate
+            of James Monroe. <ref show="replace" actuate="onrequest" target="foot15">[15]</ref>
+         </p>
+         <p>Upon completion of these arrangements Gouverneur addressed a petition to Congress on
+            January 1, 1849, asking aid from the Government in publishing the manuscript papers of
+            James Monroe. <ref show="replace" actuate="onrequest" target="foot16">[16]</ref>
+            Presented by Senator John A. Dix of New York on January 3, the petition was ordered to
+            be printed and referred to the Committee on the Library. <ref show="replace" actuate="onrequest" target="foot17">[17]</ref> Gouverneur apparently learned later
+            that month that the Congress preferred to purchase the manuscripts rather than subscribe
+            to their publication, and at this point O'Reilly, through an agent, formally
+            relinquished his rights under the contract with Gouverneur so that the purchase could
+            proceed without complication. <ref show="replace" actuate="onrequest" target="foot18">[18]</ref> On February 28 the Senate, by a vote of 28 to 20, approved the purchase
+            of the Monroe papers for $20,000. On March 2 the House concurred in an amendment
+            proposed by the Committee of Ways and Means that the purchase be limited to papers not
+            of a private character; <ref show="replace" actuate="onrequest" target="foot19">[19]</ref> and on the following day it was enacted, as part of the act making
+            appropriations for the civil and diplomatic expenses of Government for the year ending
+            June 30, 1850, that "the manuscript books and papers of the late James Monroe" be
+            purchased for the above amount and be deposited in the Department of State. <ref show="replace" actuate="onrequest" target="foot20">[20]</ref> On March 13 Gouverneur
+            signed an indenture of bargain and sale of "all the said Manuscript Books &amp; Papers
+            of the said <emph render="italic">James Monroe,</emph> together with all copyright,
+            title, interest, property, claim &amp; demand whatsoever of, in, and to the same," and
+            on the same day the transaction was completed when Secretary of State John M. Clayton
+            signed a receipt for the material and First Auditor William Collins signed a certificate
+            that the sum of $20,000 was payable to Samuel L. Gouverneur as executor of the estate of
+            James Monroe." <ref show="replace" actuate="onrequest" target="foot21">[21]</ref>
+         </p>
+         <p>Historian James Schouler was perhaps the first person to use the Monroe papers for
+            historical research while they were in the Department of State. In 1882 he described
+            them as "a huge mass of interesting matter relative to our earlier national history,
+            which lies unassorted in the Department of State and for whose editorial supervision and
+            publication it is to be fervently hoped that Congress will some day make suitable
+            provision." <ref show="replace" actuate="onrequest" target="foot22">[22]</ref>
+         </p>
+         <p>This situation was rectified when Congress, by acts approved March 2, 1889, and August
+            30, 1890, appropriated money for the repair, mounting, and binding of the papers. <ref show="replace" actuate="onrequest" target="foot23">[23]</ref> They were arranged in
+            two chronological series (one comprising manuscripts by Monroe, the other manuscripts
+            addressed or referred to him) and were bound in 22 volumes. A calendar of the papers,
+            which reflected the two series but with entries arranged alphabetically by writer of
+            each manuscript, was prepared and published by the Department of State in preliminary
+            form in 1889 and in a corrected edition in 1893. <ref show="replace" actuate="onrequest" target="foot24">[24]</ref> Seven years later the Librarian of the Department of State
+            prepared a seven-volume unofficial edition of the writings of Monroe. <ref show="replace" actuate="onrequest" target="foot25">[25]</ref>
+         </p>
+         <p>As a result of an Executive Order of March 9, 1903, the Monroe Papers were transferred
+            to the Library of Congress. The 22 volumes were received in the Manuscript Division on
+            November 5, 1903, and were associated with two letterbooks (now designated as Series 3
+            of the papers), which had been acquired by the Library from an undetermined source some
+            time before 1898. <ref show="replace" actuate="onrequest" target="foot26">[26]</ref>
+            Less than a year after their receipt, the Library published a chronological list of the
+            papers which had been received by transfer (slightly more than 2,650 manuscripts), the
+            items included in the letterbooks, and a few Monroe manuscripts located in other
+            collections in the Library. <ref show="replace" actuate="onrequest" target="foot27">[27]</ref>
+         </p>
+         <p>At this point in the story it is necessary to consider the papers which were deemed to
+            be of a "private character," and which were therefore retained by Samuel L. Gouverneur. </p>
+         <p>Maria Monroe Gouverneur died on June 20, 1850, at Oak Hill. She was survived by her
+            husband and three children, a daughter Elizabeth and two sons, Samuel L. Gouverneur,
+            Jr., and James Monroe Gouverneur. In 1852 Oak Hill, the former Monroe estate, was sold
+               <ref show="replace" actuate="onrequest" target="foot28">[28]</ref> and at some time
+            during the following year Samuel L. Gouverneur married Mary Digges Lee, a granddaughter
+            of Governor Thomas Sim Lee. The couple made their home at the Lee estate of Needwood,
+            near Petersville, Md., and Gouverneur, who was presumably custodian of the remaining
+            Monroe papers, died there on September 29, 1865. <ref show="replace" actuate="onrequest" target="foot29">[29]</ref> His will, filed among records of the Orphan's Court of
+            Frederick County, Md., shows that he bequeathed his entire estate to the second Mrs.
+            Gouverneur. </p>
+         <p>Samuel L. Gouverneur, Jr., brought an action of replevin against Mrs. Mary Digges Lee
+            Gouverneur in the Circuit Court of Frederick County in 1866 to recover his mothers'
+            patrimony. The record of this case, which was decided in his favor in October 1868,
+            shows that he sought the return of furniture, paintings, and other household ornaments.
+            The Monroe papers were not mentioned. <ref show="replace" actuate="onrequest" target="foot30">[30]</ref> One may assume, moreover, from the preface to his edition
+            of Monroe's <title localtype="simple">
+               <part>The People the Sovereigns</part>
+            </title> (1867) that he had only this one manuscript from his grandfather's papers and
+            that it had been in his possession for some years. Nevertheless, three years after his
+            death in 1880, there appeared a published reference to an important segment of Monroe
+            papers which were then in the possession of his widow, Mrs. Marian Campbell Gouverneur.
+               <ref show="replace" actuate="onrequest" target="foot31">[31]</ref> This lends
+            credence to the family tradition that several hundred Monroe papers were found in secret
+            compartments of the desk on which the address that incorporated the Monroe Doctrine was
+            signed. <ref show="replace" actuate="onrequest" target="foot32">[32]</ref>
+         </p>
+         <p>Some time before 1889 these papers were deposited in the Department of State, where a
+            calendar of them was prepared. <ref show="replace" actuate="onrequest" target="foot33">[33]</ref> They had evidently been returned to Mrs. Gouverneur by 1892; Acting
+            Secretary of State William F. Wharton referred to the "Gouverneur collection" as having
+            been in her possession when he complied with a Senate request of February 3, 1892, for
+            information about unpublished Monroe papers. <ref show="replace" actuate="onrequest" target="foot34">[34]</ref>
+         </p>
+         <p>Former President Rutherford B. Hayes called the attention of the Librarian of Congress
+            to Mrs. Gouverneur's manuscripts in 1888 <ref show="replace" actuate="onrequest" target="foot35">[35]</ref> and on two occasions (in 1902 and from 1922 to 1927) the
+            entire group was deposited in the Library with a view to purchase and for safekeeping.
+               <ref show="replace" actuate="onrequest" target="foot36">[36]</ref> Purchase was not
+            effected. </p>
+         <p>Prior to the death of Mrs. Samuel L. Gouverneur, Jr., the "Gouverneur collection" of
+            Monroe papers was given to her three daughters, Maud Campbell Gouverneur, Mrs. Rose
+            Gouverneur Hoes, and Mrs. Ruth Monroe Johnson. It was kept as a unit until the death of
+            Mrs. Hoes, after which a division was made. Mrs. Hoes' share was divided between her two
+            sons, Gouverneur and Laurence Gouverneur Hoes, and the latter also was given the share
+            inherited by his aunt, Maud C. Gouverneur. Mrs. Johnson gave her share to her son,
+            Monroe Johnson. <ref show="replace" actuate="onrequest" target="foot37">[37]</ref>
+         </p>
+         <p>That portion of the "Gouverneur collection" which came into the possession of Laurence
+            G. Hoes is now in the James Monroe Memorial Library in Fredericksburg, Va. He has
+            generously allowed the Library to make photocopies of this group and these now comprise
+            Series 2 of the Library's Monroe papers. The portion which had belonged to Major
+            Gouverneur Hoes (205 manuscripts) was purchased by the Library from his widow, Mrs.
+            Gourley Edwards Hoes, in 1950; these papers have been interfiled in the chronologically
+            arranged Series 1, where they can be identified by the legend "Ac. 9405" on the lower
+            left corner of the first page of each document. Of the one-third share of the original
+            "Gouverneur collection" given to Monroe Johnson the Library purchased a total of 184
+            pieces from him in 1931 ("Ac. 4167A" appears on the first page of each of these
+            manuscripts, filed in Series 1); and in 1932 Mr. Johnson deposited what was presumably
+            the remainder of his holding of Monroe papers—95 manuscripts—in the Library of the
+            College of William and Mary. </p>
+         <p>The Monroe papers that remained at Needwood when Samuel L. Gouverneur, Sr., died in 1865
+            became the property of his widow, Mrs. Mary Digges Lee Gouverneur. It has not been
+            possible to determine the exact number of manuscripts that composed this segment,
+            although there is evidence that it was considerably larger than the segment that formed
+            the "Governeur collection." </p>
+         <p>Three months after Mrs. Gouverneur died at Needwood on October 4, 1898, <ref show="replace" actuate="onrequest" target="foot38">[38]</ref> a part of the Monroe
+            papers she owned was mentioned in correspondence between her nephew, John Lambert
+            Cadwalader of New York, and the executor of her estate, Charles O'Donnell Lee of
+            Baltimore, <ref show="replace" actuate="onrequest" target="foot39">[39]</ref> Mrs.
+            Gouverneur's nephew. On January 11, 1899, the former wrote:</p>
+         <blockquote>
+            <p>. . . When the papers to which I referred in a previous letter, were received by me,
+               now two or three years ago, I intended to have them examined by an expert, and there
+               was some sort of an understanding that something should be done with them in so far
+               as they were of a public character. One or two documents were given away with Mrs.
+               Gouverneur's consent, not of any particular value, and I had it in mind to suggest to
+               her some distribution of the papers in one or two public places, leaving, as she
+               expressed it to me, some considerable part for yourself. </p>
+            <p>However nothing was done, nor were the papers during her lifetime ever entirely
+               examined by any experts. I have since had the papers examined, through Dr. Billings,
+               the Director of the New York Public Library, and I enclose his memorandum [in which
+               the papers were valued at $750]. . . .</p>
+            <p>Of course, these papers, although a part of the papers of my uncle, Mr. Gouverneur,
+               and which he received from Mr. Monroe, are, nevertheless, a part of Mrs. Gouverneur's
+               estate, and I do not know what disposition you propose to make of them. Should you
+               desire on behalf of Mrs. Gouverneur's estate to sell all of the papers, I would be
+               glad to take them, so that Mr. Monroe's papers would find a proper resting place. . .
+               .</p>
+         </blockquote>
+         <p> Lee decided that as executor he should first examine the papers "in their relation to
+            many more I have here," and they were returned to him for that purpose. After going over
+            them, however, he decided to accept Cadwalader's offer and wrote on January 24 that he
+            was returning the package "contents exactly as rec'd!" The latter presented them that
+            year to the New York Public Library, of which he was a trustee. The manuscripts in the
+            gift were estimated to number about 1,200. <ref show="replace" actuate="onrequest" target="foot40">[40]</ref>
+         </p>
+         <p>The "many more" papers Charles O'Donnell Lee retained are reported to have been divided
+            into five portions, one going to each of the five Lee children who survived their
+            parents. Two of the portions have since been acquired by Laurence Gouverneur Hoes, and
+            the originals, like the other Monroe papers that he received, are now in the James
+            Monroe Memorial Library and reproductions are in Series 2 of the Monroe Papers in the
+            Library of Congress. </p>
+         <p>A number of important manuscripts that once were part of the Monroe Papers have at some
+            time or times been separated from the segment retained by the family. Among these are
+            Monroe's diary notes dating from March 1804 to May 1805 and his letterbook for the
+            period from November 1804 to May 1805, which are now in the New York Public Library.
+               <ref show="replace" actuate="onrequest" target="foot41">[41]</ref> In addition to the
+            two letterbooks mentioned above, the Library of Congress has acquired from various
+            sources during this century, by purchase and gift, a volume containing Monroe's diary
+            notes dating from June 1794 to July 1796 (with additional notes for 1801-2) and an
+            account of his expenses from 1794 to 1802, as well as the recipients' copies of eighteen
+            letters to Monroe and four brief memoranda in his hand.</p>
+         <p> The Library modified the arrangement of the Monroe Papers made by the Department of
+            State by combining the two chronological series into one chronology (which included the
+            segment acquired from Monroe Johnson in 1931) and the correspondence was rebound, in 37
+            volumes, in 1941. </p>
+         <p>As part of the Library's program to ensure safety of its most valuable manuscript
+            holdings during World War II, the entire body of Monroe Papers was removed from
+            Washington in December 1941 and stored in the Alderman Library of the University of
+            Virginia until 1944, when the group was returned to Washington under the direction of
+            Alvin W. Kremer, then Keeper of the Collections. <ref show="replace" actuate="onrequest" target="foot42">[42]</ref>
+         </p>
+         <p>During 1958-60 the arrangement of the manuscripts—which now number 3,821—was studied and
+            perfected and a microfilm of the Monroe Papers in this arrangement was released in
+            November 1960, so that greater accessibility of the material would be ensured.</p>
+         <p>Note: This essay was written by Mrs. Dorothy S. Eaton, Specialist in Early American
+            History, Manuscript Division, Library of Congress.</p>
+         <p id="foot1">1. Grateful acknowledgement is made to Laurence Gouverneur Hoes,
+            great-great-grandson of James Monroe, for information on family relationships and for
+            clues to the location of Monroe papers; to James A. Servies, Librarian of the College of
+            William and Mary, and to Paul Rugen, Assistant Chief of the Manuscript Division of the
+            New York Public Library, for information on the Monroe papers in those institutions; and
+            to Wilmer R. Leech, of the New-York Historical Society, and Miss Emma Swift, of the
+            Rochester Public Library, for aid in examining the Henry O'Reilly papers in those
+            repositories. Thanks are also due to Handy B. Fant of the National Historical
+            Publications Commission and to Mrs. Julia Bland Carroll and Buford Rowland of the
+            National Archives for their suggestions and assistance.</p>
+         <p id="foot2">2. The "Memoir of James Monroe, Esq., relating to his Unsettled Claims upon
+            the People and Government of the United States" was published in three parts in the
+               <title localtype="simple">
+               <part>National Intelligencer,</part>
+            </title> beginning in the issue for November 15, 1826.</p>
+         <p id="foot3">3. <title localtype="simple">
+               <part>The People the Sovereigns, being a comparison of the Government of the United
+                  States with those of the Republics which have existed before, with the causes of
+                  their decadence and fall, by James Monroe, Ex-President of the United States, and
+                  dedicated by the author to his countrymen,</part>
+            </title> edited by Samuel L. Gouverneur, [Jr.] his grandson and administrator
+            (Philadelphia, 1867).</p>
+         <p id="foot4">4. <title localtype="simple">
+               <part>The Autobiography of James Monroe,</part>
+            </title> edited by Stuart Gerry Brown (Syracuse, 1959). This was based on two long
+            fragments of an unfinished manuscript in the Monroe Papers, New York Public Library.</p>
+         <p id="foot5">5. A draft of Trist's letter and Monroe's reply are in a portfolio containing
+            "Trist's recollections of conversations with Thomas Jefferson," in the Nicholas P. Trist
+            Papers, Library of Congress.</p>
+         <p id="foot6">6. See the statement Monroe signed on June 19, 1831, in regard to the John
+            Rhea letter, in the James Monroe Papers, Library of Congress. Manuscripts quoted
+            hereafter are in these papers, unless otherwise noted.</p>
+         <p id="foot7">7. Will of James Monroe dated May 16, 1831, with a codicil dated June 17,
+            1831. The original documents are filed in records of the Orphan's Court, District of
+            Columbia.</p>
+         <p id="foot8">8. Statement made by Laurence Gouverneur Hoes.</p>
+         <p id="foot9">9. Gouverneur, Marian, <title localtype="simple">
+               <part>As I Remember: Recollections of American Society During the Nineteenth
+                  Century</part>
+            </title> (New York and London, 1911), p. 257.</p>
+         <p id="foot10">10. Gouverneur to Daniel Webster, March 21, 1851: Record Group 59 (box 34),
+            National Archives. Also Gouverneur to John M. Clayton, May 17, 1849: RG 59 (Appointment
+            Papers: Resignations and Declinations File), National Archives.</p>
+         <p id="foot11">11. Memorandum written by an amanuensis and signed by O'Reilly in 1882.
+            Henry O'Reilly Papers, New-York Historical Society.</p>
+         <p id="foot12">12. The two Gouverneur letters are in the Henry O'Reilly Papers, New-York
+            Historical Society. No reply has been located.</p>
+         <p id="foot13">13. <title localtype="simple">
+               <part>The Congressional Globe,</part>
+            </title> 30th Cong., 1st Sess., Appendix, pp. 45-68. Correspondence relating to the
+            transcription and loan of the manuscripts is in the O'Reilly Papers, New-York Historical
+            Society.</p>
+         <p id="foot14">14. Instrument filed with Miscellaneous Treasury Account No. 100,498, in
+            Record Group 217, National Archives.</p>
+         <p id="foot15">15. O'Reilly's duplicate, signed copy is in the O'Reilly Papers, New-York
+            Historical Society.</p>
+         <p id="foot16">16. 30th Cong., 2d Sess., Senate Misc. Doc. No. 10.</p>
+         <p id="foot17">17. <title localtype="simple">
+               <part>The Congressional Globe,</part>
+            </title> 30th Cong., 2d Sess., p. 143.</p>
+         <p id="foot18">18. Document signed by R. H. Gillet, agent, on [January] 31, 1849, in the
+            Henry O'Reilly Papers, New-York Historical Society.</p>
+         <p id="foot19">19. <title localtype="simple">
+               <part>The Congressional Globe,</part>
+            </title> 30th Cong., 2d Sess., pp. 613 and 669.</p>
+         <p id="foot20">20. <title localtype="simple">
+               <part>Statutes at Large,</part>
+            </title> IX, 370.</p>
+         <p id="foot21">21. Department of State, Miscellaneous Letters, Mar.-Apr. 1849, National
+            Archives; and Miscellaneous Treasury Account No. 100,498, Record Group 217, National
+            Archives. It is unnecessary to report here on the protracted suit brought in the courts
+            of the District of Columbia by Richard Smith to recover one-third instead of one-eighth
+            of the proceeds for the estate of Mrs. Elizabeth K. Hay. Several documents relating to
+            this are in the Henry Mason Morfit Papers, Library of Congress.</p>
+         <p id="foot22">22. Schouler, James, <title localtype="simple">
+               <part>History of the United States Under the Constitution,</part>
+            </title> II (New York, 1882), p. iii.</p>
+         <p id="foot23">23. <title localtype="simple">
+               <part>Statutes at Large,</part>
+            </title> XXV, 957; and XXVI, 388.</p>
+         <p id="foot24">24. <title localtype="simple">
+               <part>Bulletin of the Bureau of Rolls and Library of the Department of State,</part>
+            </title> No. 2, November, 1893 (Washington, 1893).</p>
+         <p id="foot25">25. <title localtype="simple">
+               <part>The Writings of James Monroe, including a collection of his public and private
+                  papers and correspondence now for the first time printed,</part>
+            </title> edited by Stanislaus Murray Hamilton (New York and London, 1898-1903).</p>
+         <p id="foot26">26. Friedenwald, Herbert, "Historical Manuscripts in the Library of
+            Congress" in <title localtype="simple">
+               <part>Annual Report of the American Historical Association for the Year 1898</part>
+            </title> (Washington, 1899).</p>
+         <p id="foot27">27. <title localtype="simple">
+               <part>Papers of James Monroe listed in chronological order from the original
+                  manuscripts in the Library of Congress,</part>
+            </title> by Worthington Chauncey Ford, comp. (Washington, 1904).</p>
+         <p id="foot28">28. Williams, Harrison, <title localtype="simple">
+               <part>Legends of Loudoun: An account of the history and homes of a border county of
+                  Virginia's Northern Neck,</part>
+            </title> (Richmond, 1938), p. 178.</p>
+         <p id="foot29">29. <title localtype="simple">
+               <part>The Sun</part>
+            </title> (Baltimore) October 9, 1865.</p>
+         <p id="foot30">30. Samuel L. Gouverneur, Jr., vs. Mary D. Gouverneur, in files of the
+            Circuit Court of Frederick County, Md., October 1868.</p>
+         <p id="foot31">31. Gilman, Daniel C., <title localtype="simple">
+               <part>James Monroe in His Relations to the Public Service During the Half Century,
+                  1776 to 1826</part>
+            </title> (Boston and New York, 1883), p. vi.</p>
+         <p id="foot32">32. This desk is now in the James Monroe Law Office Museum and Memorial
+            Library in Fredericksburg, Va.</p>
+         <p id="foot33">33. <title localtype="simple">
+               <part>Narrative and Critical History of America,</part>
+            </title> edited by Justin Winsor, (Boston and New York, 1889), VIII, 421. A 17-page
+            printing of the Monroe writings in this group (in which the owner is incorrectly
+            identified as Mrs. S. M. Gouverneur), and sheets on which are mounted calendar entries,
+            on cards, of the papers addressed to Monroe, were transferred to the Library and are
+            shelved with the Monroe Collection in the Manuscript Division. The "Gouverneur
+            Collection" is shown by these to have numbered 837 manuscripts.</p>
+         <p id="foot34">34. <title localtype="simple">
+               <part>Senate Journal,</part>
+            </title> 52d Cong., 1st Sess., p. 91; William F. Wharton to Benjamin Harrison, March 17,
+            1892, in <title localtype="simple">
+               <part>Senate Executive Documents</part>
+            </title>, 52d Cong., 1st Sess., Executive Doc. No. 62.</p>
+         <p id="foot35">35. Rutherford B. Hayes to Ainsworth R. Spofford, June 4, 1888, Spofford
+            Papers (Ac. 10,705), Library of Congress.</p>
+         <p id="foot36">36. Library of Congress archives: memorandum, Worthington C. Ford to the
+            Librarian, October 13, 1902; and F. W. Ashley to Chiefs of Divisions of Accessions and
+            Manuscripts, December 16, 1927.</p>
+         <p id="foot37">37. Statement made by Laurence Gouverneur Hoes.</p>
+         <p id="foot38">38. <title localtype="simple">
+               <part>The Sun</part>
+            </title> (Baltimore), October 5, 1898.</p>
+         <p id="foot39">39. Box 1, James Monroe Papers, New York Public Library.</p>
+         <p id="foot40">40. This gift was described in issues of the <title localtype="simple">
+               <part>Bulletin</part>
+            </title> of the New York Public Library for October 1899, February 1900, and July
+            1901.</p>
+         <p id="foot41">41. <title localtype="simple">
+               <part>Bulletin</part>
+            </title> of the New York Public Library, February 1915.</p>
+         <p id="foot42">42. A statement concerning the evacuation appears in <title localtype="simple">
+               <part>Annual Report of the Librarian of Congress,</part>
+            </title> 1945, p. 59.</p>
+      </custodhist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note for Additions to the Collection</head>
+         <p> Additions to the papers of James Monroe (1758-1831) are organized as <ref show="replace" actuate="onrequest" target="series4">Series 4, Addenda</ref>. They
+            include correspondence, photocopies and typescripts of correspondence, property and
+            financial records, and miscellaneous documents dated from 1778 to 1831 and arranged in
+            subseries by the year the addition was processed. </p>
+         <p>The 1979-1985 addition is arranged in four parts. Part A includes original letters from
+            Monroe to William Benton, James Bowdoin, Henry Dearborn, Lord Thomas Erskine, Richard H.
+            Henderson, David Humphreys, Thomas Law, John Francis Mercer, Edmund Randolph, Spencer
+            Roane, and others. A letter from William Wirt is the only letter written to Monroe in
+            this portion. Part B contains photocopies of correspondence, a diary, and miscellaneous
+            documents. The bulk of the photocopied correspondence consists of negative copies of
+            manuscripts owned by the United States Military Academy at West Point. Part D,
+            Miscellany, includes index cards that, in conjunction with a State Department pamphlet,
+            form a calendar to the Monroe papers in the collection of Mary Digges Lee
+            Gouverneur.</p>
+         <p>The 1996 addition includes a letter to Andrew Jackson and property and financial notes
+            arranged by type of material.</p>
+         <p>The 2014 addition consists of a pardon for Nancy Swann, an African American woman, who
+            had been convicted of petty larceny and fined and imprisoned in the District of
+            Columbia. She had been in the Washington jail over twelve months because she was unable
+            to pay the fine. The pardon is signed by President James Monroe and Secretary of State
+            John Quincy Adams. Two microfilms of original manuscripts owned by Laurence Gouverneur
+            Hoes have also been placed in the 2014 addition.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in five series: </p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="series1">Series 1, General
+                  Correspondence, 1758-1839</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="series2">Series 2, Additional
+                  Correspondence, 1776-1838</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="series3">Series 3, Letterbooks and
+                  Account Book, 1794-1806 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="series4">Series 4, Addenda,
+                  1778-1831</ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="overs">Oversize, 1802-1819</ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <c01 level="series">
+            <did>
+               <container localtype="reel">1-9</container>
+               <unittitle encodinganalog="245$a" id="series1">Series 1, General Correspondence,
+                     <date normal="1758/1839" id="mfer8153972e8e4f4a2284507385fb0f2cac">
+                     1758-1839</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1758/1839">
+                  1758-1839</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Letters of Monroe and retained copies and drafts of letters written by Monroe.
+               </p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">1</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1758/1796-03-21" id="mferb5810f42e10e44f6bd030f97bf44591e">1758-1796 Mar. 21</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1758/1796-03-21">1758-1796 Mar. 21</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.001">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">2</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1796-03-22/1803-10-08" id="mfer13405da1de3b4002b800898a15811f97">1796 Mar. 22-1803 Oct. 8</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1796-03-22/1803-10-08">1796 Mar. 22-1803 Oct. 8</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.002">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">3</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1803-10-09/1807-01-16" id="mfer5e0ceeddbff4481293b5ac38dcc3ce08">1803 Oct. 9-1807 Jan. 16</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1803-10-09/1807-01-16">1803 Oct. 9-1807 Jan. 16</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.003">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">4</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1807-01-24/1812-03-12" id="mfer6a74e95472334b99be29cc426e32d887">1807 Jan. 24-1812 Mar. 12</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1807-01-24/1812-03-12">1807 Jan. 24-1812 Mar. 12</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.004">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">5</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1812-03-15/1815-03-16" id="mfer69d1c265dd494a539dba9e0ffb00ac03">1812 Mar. 15-1815 Mar. 16</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1812-03-15/1815-03-16">1812 Mar. 15-1815 Mar. 16</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.005">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">6</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1815-03-17/1818-06-03" id="mferfd10635d2d1a4497a93435f1d98f6365">1815 Mar. 17-1818 June 3</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1815-03-17/1818-06-03">1815 Mar. 17-1818 June 3</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.006">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">7</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1818-06-05/1821-07-19" id="mfer289a9f6137b34cf7bfd599bf367e7466">1818 June 5-1821 July 19</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1818-06-05/1821-07-19">1818 June 5-1821 July 19</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.007">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">8</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1821-07-20/1825-03-10" id="mferf9c0da883c8b4c3dbfb6ea82ec2fb92b">1821 July 20-1825 Mar. 10</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1821-07-20/1825-03-10">1821 July 20-1825 Mar. 10</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.008">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">9</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1825-03-18/1839-02-13" id="mfer3911def1eba445b69d068e7e5d90f8a7">1825 Mar. 18-1839 Feb. 13, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1825-03-18/1839-02-13">1825 Mar. 18-1839 Feb. 13, undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.009">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="reel">9-10</container>
+               <unittitle encodinganalog="245$a" id="series2">Series 2, Additional Correspondence,
+                     <date normal="1776/1838" id="mfer161acc9cb1024b489915811f2af98afc">1776-1838</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1776/1838">1776-1838</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence and related manuscripts owned by Laurence G. Hoes and reproduced
+                  with his permission. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">9</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1776-07-10/1792-09-30" id="mfer4fe2b088c62842e4a9606be7f76b0efb">1776 July 10-1792 Sept. 30</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1776-07-10/1792-09-30">1776 July 10-1792 Sept. 30</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.010">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">10</container>
+                  <unittitle encodinganalog="245$a">
+                     <date normal="1792-10-20/1838-11-14" id="mferc1e4ef640f934eedbf384fd50b4b743e">1792 Oct. 20-1838 Nov. 14, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1792-10-20/1838-11-14">1792 Oct. 20-1838 Nov. 14, undated</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.011">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="reel">10-11</container>
+               <unittitle encodinganalog="245$a" id="series3">Series 3, Letterbooks and Account
+                  Book, <date normal="1794/1806" id="mferfd421d2469e24e6caf46d8dc26f5fa02">1794-1806
+                  </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1794/1806">1794-1806 </unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letterbooks, 1803-1806, containing copies of diplomatic correspondence during the
+                  years Monroe served as minister to England, and an account book containing
+                  memoranda and accounts during his mission to France, 1794-1796. The center portion
+                  of the account book was used for personal accounts, Oct. 1801-Nov. 1802. </p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">10</container>
+                  <unittitle encodinganalog="245$a">Vol. 1</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1803-04-09/1804-06-25" id="mferf84d47fa34ca4d84a261f38ce117c3cc">1803 Apr. 9-1804 June 25</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               normal="1803-04-09/1804-06-25">1803 Apr. 9-1804 June 25</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.012">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="reel">11</container>
+                     <unittitle encodinganalog="245$a">
+                        <date normal="1804-08-07/1805-11-29" id="mfer87a545514b8f429ba0b3e807fe5c9406">1804 Aug. 7-1805 Nov. 29</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                               normal="1804-08-07/1805-11-29">1804 Aug. 7-1805 Nov. 29</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.013">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">11</container>
+                  <unittitle encodinganalog="245$a">Vol. 2, <date normal="1805-12-11/1806-10-27" id="mfer9e2a98ef65e2410f99e305aee34a3d57">1805 Dec. 11-1806 Oct. 27</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"
+                            normal="1805-12-11/1806-10-27">1805 Dec. 11-1806 Oct. 27</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.014">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="reel">11</container>
+                  <unittitle encodinganalog="245$a">Vol. 3, Journal-Account Book, <date id="mfer5927d331e3e540729010b089100517ec" normal="1794/1796">1794-1796, </date>
+                     <date id="mferf153bd7d54604d269c6e9c4fe8e2401e" normal="1801/1802">1801-1802</date>
+                  </unittitle>
+                  <unitdate era="ce" calendar="gregorian" normal="1794/1796">1794-1796, </unitdate>
+                  <unitdate normal="1801/1802">1801-1802</unitdate>
+                  <dao daotype="derived" actuate="onload" show="embed"
+                       href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.015">
+                     <descriptivenote>
+                        <p>Digital content available</p>
+                     </descriptivenote>
+                  </dao>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">4:1-4:5</container>
+               <unittitle id="series4">Series 4, Addenda, <date normal="1778/1831" id="mferdd947e570336467f96f280116cf35f2d">1778-1831</date>
+               </unittitle>
+               <unitdate normal="1778/1831" era="ce" calendar="gregorian">1778-1831</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, photocopies and typescripts of correspondence, presidential
+                  pardon, property and financial records, and miscellaneous documents. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by the year the addition was processed, and alphabetically thereunder by
+                  type of material or topic.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4:1</container>
+                  <unittitle>1979-1985 additions</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle>Part A, originals</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle>Correspondence and miscellany </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1783-03-08/1797-11-28" id="mferc4127f9188c24c378b0069a6247c0b2e">1783 Mar. 8-1797 Nov. 28
+                              </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245 $f" normal="1783-03-08/1797-11-28">1783
+                              Mar. 8-1797 Nov. 28 </unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.016">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1800-03-04/1807-11-01" id="mfer32c740cab1f84f2ba407a4f77a7b4677">1800 Mar. 4-1807 Nov. 1 </date>
+                              <ref show="replace" actuate="onrequest" target="over1">
+                                 <emph render="italic">See also Oversize</emph>
+                              </ref>
+                           </unittitle>
+                           <unitdate encodinganalog="245 $f" normal="1800-03-04/1807-11-01">1800
+                              Mar. 4-1807 Nov. 1 </unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.017">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1811-09-19/1815-10-15" id="mfer35f5102283db423a934b7c8fd73f6c2b">1811 Sept. 19-1815 Oct.
+                                 15 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245 $f" normal="1811-09-19/1815-10-15">1811
+                              Sept. 19-1815 Oct. 15 </unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.018">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1815-11-16/1818-09-01" id="mfer35aaa70af7144571bcb948724fe166e7">1815 Nov. 16-1818 Sept. 1
+                              </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245 $f" normal="1815-11-16/1818-09-01">1815
+                              Nov. 16-1818 Sept. 1 </unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.019">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1821-01-08/1829-03-04" id="mferecd7f9ce343e4ff39c8c9235acdab212">1821 Jan. 8-1829 Mar. 4
+                              </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245 $f" normal="1821-01-08/1829-03-04">1821
+                              Jan. 8-1829 Mar. 4 </unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.020">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1830-05-28/1831-04-03" id="mfere9a0bbbe6093466a95efe502e7c3331a">1830 May 28-1831 Apr. 3
+                              </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245 $f" normal="1830-05-28/1831-04-03">1830 May
+                              28-1831 Apr. 3 </unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.021">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date id="mferff3779b098cd4fca8539a57c07c33fbf">Undated </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245 $f">Undated </unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.022">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle>Part B, photocopies</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle>Correspondence </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1796/1822" id="mfer8b1c1080fa48486db8033c845ad9c46d">1796-1822 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245 $f" normal="1796/1822">1796-1822 </unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.023">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date normal="1822/1828" id="mfer3cb64d2ced844bf2911ad75e90accd3a">1822-1828, undated </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245 $f" normal="1822/1828">1822-1828, undated </unitdate>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.024">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle>Diary, <date normal="1802-02" id="mferd545f50d1b9a4c46af984a595a0e8d46"> Feb. 1825</date>
+                        </unittitle>
+                        <unitdate normal="1802-02"> Feb. 1825</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.025">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle>Documents on loan to exhibit at the National Archives
+                           (1958)</unittitle>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.026">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle>Miscellany, <date normal="1778" id="mfer62e27621f52e4834ba8aa776ecfc81f6">1778</date>
+                        </unittitle>
+                        <unitdate normal="1778">1778</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.027">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle>Monroe Doctrine (partial)</unittitle>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.028">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle>Part C, typescripts</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle>Correspondence, <date normal="1795/1830" id="mfer3a6ae9300e274c778b7122bb7f633dba">1795-1830, undated</date>
+                        </unittitle>
+                        <unitdate normal="1795/1830">1795-1830, undated</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.029">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle>Miscellany</unittitle>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.030">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4:2</container>
+                     <unittitle>Part D, miscellany</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle>
+                           <title localtype="simple">
+                              <part>A Calendar of the Papers of James Monroe, Forming the Collection
+                                 in the Possession of Mrs. S. M. Gouverneur</part>
+                           </title>, undated, card index to the Gouverneur collection</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle>Part 1</unittitle>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.031">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">4:3</container>
+                           <unittitle>Part 2</unittitle>
+                           <dao daotype="derived" actuate="onload" show="embed"
+                                href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.032">
+                              <descriptivenote>
+                                 <p>Digital content available</p>
+                              </descriptivenote>
+                           </dao>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4:4</container>
+                        <unittitle>Holograph notes listing correspondence, <date normal="1780/1814" id="mfer07a499418bda43d3857b49fb0baebf9b">1780-1814</date>
+                        </unittitle>
+                        <unitdate normal="1780/1814">1780-1814</unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.033">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4:5</container>
+                  <unittitle>1996 addition</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle>Correspondence, <date id="mfer5b28bd8cd8154f63bd872752c3f78fe1" normal="1811">1811, </date>
+                        <date id="mfer1cd51a3c2b4448eab961b3677ae42dd4" normal="1818/1829">1818-1829</date>
+                     </unittitle>
+                     <unitdate normal="1811">1811, </unitdate>
+                     <unitdate normal="1818/1829">1818-1829</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.034">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle>Covenant, promissory note and other financial records, and a
+                        genealogical note fragment, <date id="mfer41868382134a4b9888b237f698760a24" normal="1813/1814">1813-1814, </date>
+                        <date id="mferc47a07fef16448a5a1b32a91581be959" normal="1819">1819, </date>
+                        <date id="mferfde0abe875bc4789a40d58468c4aa21e" normal="1825">1825,
+                           undated</date>
+                     </unittitle>
+                     <unitdate normal="1813/1814">1813-1814, </unitdate>
+                     <unitdate normal="1819">1819, </unitdate>
+                     <unitdate normal="1825">1825, undated</unitdate>
+                     <dao daotype="derived" actuate="onload" show="embed"
+                          href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.035">
+                        <descriptivenote>
+                           <p>Digital content available</p>
+                        </descriptivenote>
+                     </dao>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">2014 addition </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hoes, Laurence Gouverneur, private collection
+                        of Monroe manuscripts, <date normal="1790/1836" id="mfer18b0b0600d5143a1b5568cfd2416cc77">1780-1836 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245 $f" normal="1790/1836">1780-1836 </unitdate>
+                     <physdesc>(2 reels) </physdesc>
+                  </did>
+                  <altformavail>
+                     <p>
+                        <emph render="italic">Available only on microfilm. Shelf nos. 9,872 and
+                           9,877</emph>
+                     </p>
+                  </altformavail>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Presidential pardon for Nancy Swann, African
+                        American resident of the District of Columbia, <date normal="1819" id="mfer326727f7f20a43a0bd5097dd8d548d41">1819</date>
+                        <ref target="pardon">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate normal="1819">1819</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle id="overs">Oversize, <date normal="1802" id="mferb7ead76280854e148b4fdc4fa4583531">1802-1819</date>
+               </unittitle>
+               <unitdate normal="1802" era="ce" calendar="gregorian">1802-1819</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Land deed and presidential pardon</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged and described according to the series, container, and folder from which
+                  the item was removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Series 4: Addenda, <date normal="1778/1831" id="mfer59c012d1d5494a79b987b9fb155ca45e">1778-1831</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1778/1831">1778-1831</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle>1979-1985 additions</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle>Part A, originals</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle id="over1">Correspondence and miscellany </unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Land deed for James Welch of
+                                 Berkeley County, Virginia, signed by James Monroe, governor of
+                                 Virginia, <date normal="1802-10-18" id="mferbc634d3f2afe411eb6c5df67bd7083a1">18 Oct. 1802 </date>
+                                 (Container 4:1) </unittitle>
+                              <unitdate encodinganalog="245 $f" normal="1802-10-18">18 Oct. 1802 </unitdate>
+                              <dao daotype="derived" actuate="onload" show="embed"
+                                   href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.036">
+                                 <descriptivenote>
+                                    <p>Digital content available</p>
+                                 </descriptivenote>
+                              </dao>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">2014 addition </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a" id="pardon">Presidential pardon for Nancy
+                           Swann, African American resident of the District of Columbia, <date normal="1819" id="mfercd36e8fc64f5427da4498d9e0435fd60">1819 </date>
+                           (Container 4:5) </unittitle>
+                        <unitdate encodinganalog="245 $f" normal="1819">1819 </unitdate>
+                        <dao daotype="derived" actuate="onload" show="embed"
+                             href="https://hdl.loc.gov/loc.mss/ms009142.mss33217.037">
+                           <descriptivenote>
+                              <p>Digital content available</p>
+                           </descriptivenote>
+                        </dao>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+      <bibliography>
+         <head>Selected Bibliography</head>
+         <p>[From <title localtype="simple">
+               <part>Index to the James Monroe Papers</part>
+            </title> (Washington, D.C.: 1963), p. xi]</p>
+         <bibref>
+            <title localtype="simple">
+               <part>Annual Report of the Librarian of Congress,</part>
+            </title> 1905, 48; 1921, 31; 1931, 58; 1953, 20.</bibref>
+         <bibref> Garrison, Curtis W., <title localtype="simple">
+               <part>List of Manuscript Collections in the Library of Congress to July 1931</part>
+            </title> (Washington, 1931), pp. 152, 169, 190.</bibref>
+         <bibref>Powell, C. Percy, <title localtype="simple">
+               <part>List of Manuscript Collections Received in the Library of Congress July 1931 to
+                  July 1938</part>
+            </title> (Washington, 1939), p. 10.</bibref>
+         <bibref>"The Present Status of Presidential Papers," <title localtype="simple">
+               <part>Manuscripts,</part>
+            </title> VIII (Fall 1955), 10.</bibref>
+         <bibref>Rowland, Buford, "The Papers of the Presidents," <title localtype="simple">
+               <part>The American Archivist</part>
+            </title>, XIII (July 1950), 199; reprinted in <title localtype="simple">
+               <part>Autograph Collectors' Journal,</part>
+            </title> III (April 1951), 36.</bibref>
+         <bibref>Styron, Arthur, <title localtype="simple">
+               <part>The Last of the Cocked Hats, James Monroe &amp; the Virginia Dynasty</part>
+            </title> (Norman, 1945), pp. 456-457.</bibref>
+         <bibref>U.S. Department of State, Bureau of Rolls and Library, <title localtype="simple">
+               <part>Calendar of the Correspondence of James Monroe</part>
+            </title> (Washington, 1904).</bibref>
+         <bibref>U.S. Library of Congress, <title localtype="simple">
+               <part>Handbook of Manuscripts in the Library of Congress</part>
+            </title> (Washington, 1918), p. 274.</bibref>
+      </bibliography>
+   </archdesc>
+</ead>

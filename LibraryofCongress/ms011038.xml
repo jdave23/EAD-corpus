@@ -1,0 +1,4112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms011038">loc.mss/eadmss.ms011038</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Nathaniel Alexander Owings Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm82075863">https://lccn.loc.gov/mm82075863</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-04">2023 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>WP replacement, date encoding</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2011">2011</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Nathaniel Alexander Owings Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1911/1983">1911-1983</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1960/1980">1960-1980</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1911/1983"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1911-1983</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1960/1980"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1960-1980</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS75863</unitid>
+         <origination label="Creator">
+            <persname source="lcnaf" encodinganalog="100">
+               <part>Owings, Nathaniel Alexander, 1903-</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">28,300 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">64 containers plus 12 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">29.2 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Architect and engineer. Correspondence,
+            journals. memoranda, minutes and reports, drafts of speeches and writings, legal and
+            financial papers, subject file, biographical material, poetry, notes, appointment
+            calendars, charts, graphs, diagrams, clippings, printed matter, photographs, scrapbooks,
+            and other material chiefly dating from 1960 to 1980, documenting Owings's career as a
+            founding partner of the architectural firm, Skidmore, Owings &amp; Merrill, as chairman
+            of public commissions responsible for the redesign of Pennsylvania Avenue in Washington,
+            D.C., as a member of various commissions relating to conservation, preservation, and
+            redevelopment in California, and as an author of works on architecture and city
+            planning.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220929171618.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Adams, Ansel, 1902-1984--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bechtel, Stephen Davison, 1925- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Brown, Jerry, 1938- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Eckardt, Wolf von, 1918- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Goldberg, Arthur J., 1908-1990--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Johnson, Lady Bird, 1912-2007--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Moses, Robert, 1888-1981--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Moynihan, Daniel P. (Daniel Patrick), 1927-2003--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Owings, Nathaniel Alexander, 1903-1984.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Owings, Nathaniel Alexander, 1903-1984. American aesthetic.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Owings, Nathaniel Alexander, 1903-1984. Spaces in between.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Quesada, Elwood R. (Elwood Richard), 1904-1993--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Rockefeller, David, 1915-2017--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Roosevelt, Nicholas, 1893-1982--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Stegner, Wallace, 1909-1993--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Udall, Stewart L.--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>American Institute of Architects.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>California. Advisory Committee on a Master Plan for Scenic Highways.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Pennsylvania Avenue Development Corporation.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>President's Council on Pennsylvania Avenue (U.S.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Skidmore, Owings &amp; Merrill.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Architectural firms.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Architecture--Awards--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Architecture--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>City planning--California.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>City planning--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>City planning--Washington (D.C.)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Conservation of natural resources--California.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Historic preservation--California.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Hopi Indians.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Kachina dolls.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Monterey Peninsula (Calif.)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Roadside improvement--California.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Urban beautification--United States.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Pennsylvania Avenue (Washington, D.C.)</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Architects.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Engineers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of Nathaniel Alexander Owings, architect and engineer, were given to the
+            Library of Congress by Owings in 1977. Additions were given in 1980, 1983, and 1984.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The Owings Papers were processed in 1994 by Michael McElderry. The finding aid was
+            revised in 2010.</p>
+      </processinfo>
+      <altformavail>
+         <head>Transfers</head>
+         <p>Items have been transferred from the Manuscript Division to other custodial divisions of
+            the Library. Recorded tapes have been transferred to the Motion Picture, Broadcasting,
+            and Recorded Sound Division. Photographic material has been transferred to the Prints
+            and Photographs Division. All transfers are identified in these divisions as part of the
+            Nathaniel Alexander Owings Papers.</p>
+      </altformavail>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Nathaniel A. Owings is governed
+            by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506">
+         <head>Access and Restrictions</head>
+         <p>The papers of Nathaniel Alexander Owings are open to research. Researchers are advised
+            to contact the Manuscript Reading Room prior to visiting. Many collections are stored
+            off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Nathaniel Alexander Owings Papers, Manuscript Division, Library of
+            Congress, Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1903, Feb. 5</datesingle>
+               <event>Born, Indianapolis, Ind.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1921</fromdate>
+                  <todate>1922</todate>
+               </daterange>
+               <event>Student, University of Illinois, Urbana, Ill.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1927</datesingle>
+               <event>B.S., Cornell University, Ithaca, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1931</datesingle>
+               <event>Married Emily Otis (divorced 1953)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1936</fromdate>
+                  <todate>1984</todate>
+               </daterange>
+               <event>Founding partner, Skidmore, Owings, &amp; Merrill</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1948</fromdate>
+                  <todate>1951</todate>
+               </daterange>
+               <event>Chairman, Chicago Planning Commission, Chicago, Ill.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1954</datesingle>
+               <event>Married Margaret Wentworth</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1962</fromdate>
+                  <todate>1964</todate>
+               </daterange>
+               <event>Chairman, President's Advisory Council on Pennsylvania Avenue, Washington,
+                  D.C.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1964</fromdate>
+                  <todate>1973</todate>
+               </daterange>
+               <event>Chairman, President's Temporary Commission on Pennsylvania Avenue, Washington,
+                  D.C.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1967</fromdate>
+                  <todate>1970</todate>
+               </daterange>
+               <event>Chairman, Control Urban Design Concept Team for Interstate Highway System,
+                  Baltimore, Md.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1969</datesingle>
+               <event>Published <title localtype="simple">
+                     <part>The American Aesthetic</part>
+                  </title> (New York: Harper &amp; Row. 198 pp.)</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1970</fromdate>
+                  <todate>1972</todate>
+               </daterange>
+               <event>Chairman, Advisory Board on National Parks, Historic Sites, Buildings, and
+                  Monuments</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1973</datesingle>
+               <event>Published <title localtype="simple">
+                     <part>The Spaces in Between: An Architect's Journey </part>
+                  </title>(Boston: Houghton Mifflin. 303 pp.)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1983</datesingle>
+               <event>Awarded the American Institute of Architects' Gold Medal</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1984, June 13</datesingle>
+               <event>Died, Santa Fe, N.Mex.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Nathaniel Alexander Owings (1903-1984) span the years 1911 to 1983, with
+            the bulk of the material concentrated in the period 1960-1980. The papers pertain to
+            Owings's business, public, and personal affairs, documenting his career as a founding
+            partner of the architectural firm Skidmore, Owings and Merrill (1936-1983); as chairman
+            of several public commissions responsible for the redesign of Pennsylvania Avenue in
+            Washington, D.C.; as a member of various commissions relating to conservation,
+            preservation, and redevelopment in California; and as an author whose articles and books
+            reflect his concern with both the aesthetic and practical applications of architecture
+            in contemporary life. The collection includes correspondence, memoranda, journals,
+            drafts of speeches and writings, notes, charts, graphs, diagrams, drawings, poetry,
+            clippings, photographs, printed matter, and other material. The collection is organized
+            in seven series: <ref show="replace" actuate="onrequest" target="corresp">
+               Correspondence </ref>, <ref show="replace" actuate="onrequest" target="offfile">
+               Office File </ref>, <ref show="replace" actuate="onrequest" target="subfile"> Subject
+               File </ref>, <ref show="replace" actuate="onrequest" target="speecwrit"> Speeches and
+               Writings File </ref>, <ref show="replace" actuate="onrequest" target="miscella">
+               Miscellany </ref>, <ref show="replace" actuate="onrequest" target="addit"> Addition
+            </ref>, and <ref show="replace" actuate="onrequest" target="overs"> Oversize </ref>. </p>
+         <p>The <ref show="replace" actuate="onrequest" target="corresp"> Correspondence </ref>
+            series, 1939-1977, contains Owings's incoming and outgoing correspondence and appended
+            material reflecting his interests as architect, businessman, conservationist, and
+            civic-minded citizen Although the series contains business papers pertaining to his role
+            as a partner in the firm of Skidmore, Owings, and Merrill, the major portion consists of
+            personal correspondence relating to his many other activities and interests.
+            Correspondents include Ansel Adams, Stephen Davison Bechtel, Jerry Brown, Wolf von
+            Eckardt, Arthur J. Goldberg, Lady Bird Johnson, Robert Moses, Daniel P. Moynihan, Elwood
+            R. Quesada, David Rockefeller, Nicholas Roosevelt, Wallace Stegner, and Stewart L.
+            Udall.</p>
+         <p>The <ref show="replace" actuate="onrequest" target="offfile"> Office File </ref>,
+            1954-1969, consists mostly of correspondence and memoranda relating to business concerns
+            in the offices of Skidmore, Owings, and Merrill. The reading file consists of copies of
+            Owings's outgoing letters and memoranda arranged chronologically. Records included in
+            the corporate memoranda and general office files provide detailed documentation of the
+            firm's internal operations. The former includes memoranda exchanged between secretaries
+            and executives at the San Francisco home office with their counterparts in field
+            offices, as well as memoranda circulated within the San Francisco office.</p>
+         <p>The <ref show="replace" actuate="onrequest" target="subfile"> Subject File </ref>,
+            1934-1977, documents many facets of Owings's business and personal life. The file
+            contains information relating to his work on various committees and commissions
+            including the California Advisory Committee on a Master Plan for State Scenic Highways,
+            the Monterey Coast Master Plan, and various organizations relating to the redevelopment
+            of Pennsylvania Avenue in Washington, D.C. Owings was appointed chairman of the
+            President's Advisory Council on Pennsylvania Avenue by John F. Kennedy and later
+            occupied the same position of its successor organization, the President's Temporary
+            Commission on Pennsylvania Avenue. These organizations were charged, through remodeling
+            and development, to redefine the area of Pennsylvania Avenue that connects the White
+            House with the Capitol and, by so doing, bring it more in accord with the design of the
+            original city plan by Pierre Charles L'Enfant.</p>
+         <p>The <ref show="replace" actuate="onrequest" target="speecwrit"> Speeches and Writings
+               File </ref>, 1944-1977, reflects Owings's interest in numerous architectural and
+            urban planning topics. The series contains early speeches and writings relating to
+            specific architectural problems, later works concerning broader topics such as urban
+            planning and architectural theory, and drafts, production materials, and correspondence
+            relating to his two books <title localtype="simple">
+               <part>The American Aesthetic</part>
+            </title> (1969) and <title localtype="simple">
+               <part>The Spaces in Between: An Architect's Journey</part>
+            </title> (1973).</p>
+         <p> The <ref show="replace" actuate="onrequest" target="miscella"> Miscellany </ref>,
+            1911-1976, series contains a wide variety of material, such as appointment calendars,
+            bills and receipts, postcards, and scrapbooks. Scrapbooks contain correspondence,
+            clippings, and photographs.</p>
+         <p>The <ref show="replace" actuate="onrequest" target="addit"> Addition </ref> consists of
+            correspondence received and sent, biographical material, speeches and writings, legal
+            and financial papers, minutes and reports, photographs, printed matter, and other
+            material. Correspondence in the Addition is chiefly personal and contains a large
+            segment relating to Owings's winning the American Institute of Architects' Gold Medal in
+            1983. Other topics of interest include the Pennsylvania Avenue Development Corporation,
+            including Owings's letter of resignation to President Ronald Reagan, and his extensive
+            collection of kachina dolls made by Hopi Indians. A miscellany file contains a copy of
+            Owings's speech at the American Institute of Architects Gold Medal dinner in 1983. Also
+            of interest are writings and other material relating to the Hopi Indians and a draft of
+            an article, "Back to Earth," by Daniel P. Moynihan.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>The collection is arranged in seven series:</p>
+         <list listtype="unordered" mark="circle">
+            <item>
+               <ref show="replace" actuate="onrequest" target="corresp"> Correspondence, 1939-1977
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="offfile"> Office File, 1954-1969
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="subfile"> Subject File, 1934-1977
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="speecwrit"> Speeches and Writings
+                  File, 1944-1977 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="miscella"> Miscellany, 1911-1976
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="addit"> Addition, 1929-1983 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="overs"> Oversize, 1936-1975 </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Box</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-6</container>
+               <unittitle id="corresp" encodinganalog="245$a">Correspondence, <date normal="1939/1977">1939-1977</date>
+               </unittitle>
+               <unitdate normal="1939/1977" encodinganalog="245$f" era="ce" calendar="gregorian">1939-1977</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters received, copies of letters sent, memoranda, telegrams, and miscellaneous
+                  items.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>The original reverse chronological filing order has been maintained.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1961-1962 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1961-1962 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1963-1965</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1963-1965</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">A-O </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">P-Z</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Personal</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1939, Apr. 1948-June 1956 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1939, Apr. 1948-June
+                        1956 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">July 1956-Dec. 1958 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">July 1956-Dec. 1958 </unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1959-1960 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1959-1960 </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1961-1975 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1961-1975 </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1976-1977, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1976-1977, undated </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">6-10</container>
+               <unittitle id="offfile" encodinganalog="245$a">Office File, <date normal="1954/1969">1954-1969</date>
+               </unittitle>
+               <unitdate normal="1954/1969" encodinganalog="245$f" era="ce" calendar="gregorian">1954-1969</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters received, copies of letters sent, memoranda, telephone messages,
+                  telegrams, and miscellaneous items. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged in reverse chronological order.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Chronological reading file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1963-1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1963-1964 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1965-1966 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1965-1966 </unitdate>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Corporate memoranda</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Interoffice</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">General file</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1956-1969 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1956-1969 </unitdate>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Chicago office</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1954-1960</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1954-1960</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">9</container>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1965-1969</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1965-1969</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">New York office</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1954-1960</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1954-1960</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1965-1969</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1965-1969</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Portland office</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1954-1959</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1954-1959</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1965-1967</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1965-1967</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Intraoffice (San Francisco
+                        office)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1954-1960</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1954-1960</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1965-1968</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1965-1968</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">General office file, <date encodinganalog="245$f">1955-1958 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1955-1958 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Telephone messages</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">11-44</container>
+               <unittitle id="subfile" encodinganalog="245$a">Subject File, <date normal="1934/1977">1934-1977</date>
+               </unittitle>
+               <unitdate normal="1934/1977" encodinganalog="245$f" era="ce" calendar="gregorian">1934-1977</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters received, copies of letters sent, printed matter, memoranda, financial and
+                  legal papers, telegrams, reports, architectural diagrams, and miscellaneous
+                  items.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p> Arranged alphabetically by subject.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Adlai Stevenson Memorial Fund <ref show="replace" actuate="onrequest" target="con43memfund">
+                        <emph render="italic">See Container 43</emph>, Stevenson (Adlai) Memorial
+                        Fund</ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Air Force Academy and Chapel, Colorado Springs,
+                     Colo.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Alexander, Robert E.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">American Institute of Architects</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">California Council</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Convention</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Public Works Committee</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Transportation Committee</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Committee on Architectural Museum</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Committee on Education</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Convention, <date encodinganalog="245$f">1967</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1967</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Fellowships</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">Fund-raising</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">General file</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1959-1967 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1959-1967 </unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">13</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1968-1972</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1968-1972</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Headquarters Committee</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Human Resources Council</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Northern California chapter</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">American Academy in Rome, Rome,
+                     Italy</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1957-1960</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1957-1960</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1961-1977 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1961-1977 </unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">American Film Institute</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Association for Applied Solar Energy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ball State University, Muncie, Ind.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Baltimore, Md.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Expense reports</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Highway construction</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Contract</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1966-1971 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966-1971 </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Minutes of meetings</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">16</container>
+                        <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Printed matter</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Boy Scouts of America</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">California</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Advisory Committee on a Master Plan for State
+                        Scenic Highways</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Agenda and minutes</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1964-1967</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1964-1967</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Monterey County</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Printed matter</unittitle>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Printed matter</unittitle>
+                        <physdesc encodinganalog="300">(1 folder)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Redwoods</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Scenic highway corridors</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Senate bill no. 1467</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Senate Fact Finding Committee</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Big Sur National Park proposal</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">California Roadside Council, <date encodinganalog="245$f">1963-1970</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1963-1970</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">California Tomorrow</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Articles of incorporation and
+                           bylaws</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1962-1971</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1962-1971</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Cry California</part>
+                           </title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Governor's Conference on Natural Beauty,
+                           <date encodinganalog="245$f">1966</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Molera property</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">National Redwood Park</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Urban development policy</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Casanova, Aldo</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Celotex Corp.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Century Association, New York, N.Y.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Chicago Exposition, Chicago, Ill., <date encodinganalog="245$f">1933</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1933</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Chicago Historical Society, Chicago,
+                     Ill.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Committee for a More Beautiful
+                     Capital</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Committee for Economic Development </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cornell University, Ithaca, N.Y.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Currier, Stephen R.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">De Young exhibit, San Francisco,
+                     Calif.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Farr, Fred S.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">File index</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Financial and legal file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Corporate records</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Accounts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Expenses</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Hilton Head deposition</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Insurance program</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Investments</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Isham, Lincoln, and Beale</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Leases</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Legal </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Fees</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Memoranda</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Litigation</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Partnership agreement</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Certificates of limited
+                              partnership</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1940-1968</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1940-1968</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">22</container>
+                           <unittitle encodinganalog="245$a">Printed copy of agreement</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Time allocation</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Personal records</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Contributions</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Divorce</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Expenses and investments</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Legal documents</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">Taxes</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Trust fund for children</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Wills and trusts </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Foundation for Environmental Design</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Galante, Mrs. Clement</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Gutheim, Frederick</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hirshhorn Museum, Washington, D.C.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Historic Savannah Foundation, Savannah,
+                     Ga.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Insurance</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">International Science Foundation, Sunnyvale,
+                     Calif.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Joint Center for Urban Studies of the
+                     Massachusetts Institute of Technology and Harvard University, Cambridge,
+                     Mass.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">John Hancock Mutual Life Insurance
+                     Co.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Keep America Beautiful</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Las Trampas, N.Mex.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1966-1968</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966-1968</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Report</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">Licenses</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mailing list</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mauna Kea Hotel, Hawaii</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Memberships</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Menus</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Metropolitan Club, Washington, D.C.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Monterey, Calif.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Old Town</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Planning Commission</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Monterey coast master plan</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bradford, Robert B.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bridges</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Carmel Highlands Association</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Coast Advisory Committee</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Conservation area</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1959-1962</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1959-1962</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Division of Highways</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Drafts of plan</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Ewoldsen, Hans</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Farr, Fred S.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Legal aid</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Meetings</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Monterey Peninsula Herald</part>
+                        </title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed matter</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reports</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">Roads, legislation</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Roadside signs</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Scenic easements</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Scenic roads</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Scrapbooks <ref show="replace" actuate="onrequest" target="ovscrap27">
+                           <emph render="italic">See Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sierra Club</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Whitney, Peter D.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Whyte, William H.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Zoning</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Monterey Peninsula Junior College, Monterey,
+                     Calif.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Morgan Motor Co.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">National Academy of Design, New York,
+                     N.Y.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">National Fund for Medical Education</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>National Geographic</part>
+                     </title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">National Council of Architectural Registration
+                     Boards</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">National Land Use Policy Committee</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">National Park Service</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Advisory Board on National Parks, Historic
+                        Sites, Buildings, and Monuments</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">General file</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1965-1967 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1965-1967 </unitdate>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">29</container>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1968-1977 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1968-1977 </unitdate>
+                           <physdesc encodinganalog="300">(4 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Meetings</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">Nov. 1967-Oct. 1968 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">Nov. 1967-Oct.
+                              1968 </unitdate>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">30</container>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">Apr. 1969-Oct. 1970, Apr. 1976 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">Apr. 1969-Oct.
+                              1970, Apr. 1976 </unitdate>
+                           <physdesc encodinganalog="300">(5 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Olympic National Park, Port Angeles,
+                        Wash.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Sawtooth National Recreation Area,
+                        Idaho</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">National parkways</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">National Research Council</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Nature Conservancy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">31</container>
+                  <unittitle encodinganalog="245$a">Nepal</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">New-York Historical Society, New York,
+                     N.Y.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Open Space Advisory Committee</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">General file</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Land program</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Opposition</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Operation Breakthrough, Indianapolis,
+                     Ind.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Owings, Nathaniel Otis</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1956-1968 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1956-1968 </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Partnership</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Meetings</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Committee</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Special, Luxor, Egypt, <date encodinganalog="245$f">Jan. 1967</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan.
+                           1967</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">32</container>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pennsylvania Avenue, Washington,
+                     D.C.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pennsylvania Avenue Development
+                        Corp.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Appointment, <date encodinganalog="245$f">1973</date>
+                           <ref show="replace" actuate="onrequest" target="ovappt32">
+                              <emph render="italic">See Oversize</emph>
+                           </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1973</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1974-1977</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974-1977</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Final Environmental Impact Statement </unittitle>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">33</container>
+                     <unittitle encodinganalog="245$a">President's Advisory Council on Pennsylvania
+                        Avenue</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1963-1964</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1963-1964</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Reports</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">President's Temporary Commission on
+                        Pennsylvania Avenue</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Architecture, drafts and
+                           diagrams</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Archives axis</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Avenue of the Presidents</part>
+                           </title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Capitol reflecting pool</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">34</container>
+                        <unittitle encodinganalog="245$a">Chairman's files</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Conflict of interest</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence </unittitle>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">35</container>
+                        <unittitle encodinganalog="245$a">Downtown progress</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Expense accounts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Federal City Council</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">General file</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">Jan. 1964-May 1967 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan. 1964-May
+                              1967 </unitdate>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">36</container>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">June 1967-Sept. 1977</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">June 1967-Sept.
+                              1977</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">General Services
+                           Administration</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Goldman, Edward L., and Eleanor
+                           McPeak</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>The Grand Design</part>
+                           </title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">37</container>
+                        <unittitle encodinganalog="245$a">Johnson, Lady Bird</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Joint Center for Urban Studies of the
+                           Massachusetts Institute of Technology and Harvard University, Cambridge,
+                           Mass.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Klutznick Enterprises</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Legislation</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Draft bills</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Executive order no. 11210</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Look</part>
+                           </title> article, <date encodinganalog="245$f">Apr.
+                           1965</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">Apr.
+                           1965</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Mailing list</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Mall Park system</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">38</container>
+                        <unittitle encodinganalog="245$a">Meetings, <date encodinganalog="245$f">1965-1967 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1965-1967 </unitdate>
+                        <physdesc encodinganalog="300">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">National square</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Newspaper clippings</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Pennsylvania Avenue District in United States History</part>
+                           </title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Printed matter</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Reports</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Periodic </unittitle>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Published</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Subcommittee on Center for Advanced
+                              Studies</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">39</container>
+                        <unittitle encodinganalog="245$a">Scrapbook <ref show="replace" actuate="onrequest" target="ovscrap39">
+                              <emph render="italic">See Oversize</emph>
+                           </ref>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Smithsonian Institution sculpture
+                           garden</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Testimony before the House Interior and
+                           Insular Affairs Committee</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>The Washington Mall Master Plan</part>
+                           </title>
+                           <ref show="replace" actuate="onrequest" target="ovplan39">
+                              <emph render="italic">See Oversize</emph>
+                           </ref>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Wolman building</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Perry, Charles</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Phelps, Lyon</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Planning and Conservation League</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Prestressed Concrete Institute convention, San
+                     Francisco, Calif., <date encodinganalog="245$f">6-11 Oct.
+                     1963</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">6-11 Oct.
+                     1963</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Property</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Carmel Highlands, Calif.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Leaning Wall ranch, N.Mex.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1961-1972</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1961-1972</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Foundation transfer</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">40</container>
+                        <unittitle encodinganalog="245$a">Insurance</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Water rights</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Wild Bird" estate, Big Sur,
+                        Calif.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Bills and receipts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1956-1957</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1956-1957</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Grimes Creek</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Utility specifications </unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">41</container>
+                  <unittitle encodinganalog="245$a">Reports</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Activity</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Architectural Forum Round Table</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ridge road controversy, Big Sur,
+                     Calif.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rockefeller Foundation, New York,
+                     N.Y.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Roosevelt University, Chicago, Ill.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">San Francisco, Calif.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Bay Area Council</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Chamber of Commerce</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Embarcadero Plaza</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Market Street Development Project</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Presidio of San Francisco</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">San Francisco Planning and Urban Renewal
+                        Association (SPUR)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1965-1970</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1965-1970</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">42</container>
+                        <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Save San Francisco Bay
+                        Association</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">War Memorial Opera House </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Santa Fe, N.Mex.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Museum of New Mexico Foundation</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reports</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Save the Redwoods League</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Save the Sea Otter</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Seattle, Wash., Civic Center Foundation
+                     competition</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Shimba Hills National Wildlife Park,
+                     Kenya</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">43</container>
+                  <unittitle encodinganalog="245$a">Sierra Club</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Skidmore, Louis</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Standard Insurance Co.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle id="con43memfund" encodinganalog="245$a">Stevenson (Adlai) Memorial
+                     Fund</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Syracuse University, Syracuse, N.Y.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Tennessee Gas Transmission Co.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">
+                     <title localtype="simple">
+                        <part>Time</part>
+                     </title> article, <date encodinganalog="245$f">2 Aug. 1968</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">2 Aug. 1968</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">44</container>
+                  <unittitle encodinganalog="245$a">Trips, <date encodinganalog="245$f">1960-1965
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1960-1965 </unitdate>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Udall, Stewart L.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">University of California Planning Conference,
+                     Berkeley, Calif.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Work Ranch, Monterey, Calif.</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">44-56</container>
+               <unittitle id="speecwrit" encodinganalog="245$a">Speeches and Writings File, <date normal="1944/1977">1944-1977</date>
+               </unittitle>
+               <unitdate normal="1944/1977" encodinganalog="245$f" era="ce" calendar="gregorian">1944-1977</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Drafts of speeches and writings, correspondence, printed copies, galley proofs,
+                  production material, research material, notes, and miscellaneous items relating to
+                  Owings's articles, books, lectures, and speeches.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged by type of material and chronologically thereunder.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">44</container>
+                  <unittitle encodinganalog="245$a">Articles</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1944, 10
+                           Dec.</date>, "Comments on Lighting Layout and Design," <title localtype="simple">
+                           <part>Illuminating Engineering</part>
+                        </title>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1944, 10
+                        Dec.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1945,
+                        May</date>, "How Little Traverse Hospital Met Unique Expansion Problems,"
+                           <title localtype="simple">
+                           <part>Hospital Management</part>
+                        </title>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1945, May</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1948</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1948</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Jan., "A Radically New Conception of
+                           Tomorrow's Office Building," <title localtype="simple">
+                              <part>National Real Estate and Building</part>
+                           </title>
+                        </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Journal</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Mar., "Basic Considerations in Hospital
+                           Design," <title localtype="simple">
+                              <part>Modern Hospital</part>
+                           </title>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1962,
+                           Feb.</date>, "Two Looks at Preservation," <title localtype="simple">
+                           <part>AIA Journal</part>
+                        </title>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1962, Feb.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1966</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">May</date>,
+                           "Skidmore, Owings, and Merrill: An Architectural Community," <title localtype="simple">
+                              <part>Engineering News-Record</part>
+                           </title>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">May</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">Nov.</date>,
+                              <title localtype="simple">
+                              <part>Sports Illustrated</part>
+                           </title> article</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">Nov.</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1967</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1967</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">Apr.</date>,
+                           "Urban Transportation Planning Concepts," <title localtype="simple">
+                              <part>Traffic Quarterly</part>
+                           </title>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">Apr.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">Fall</date>,
+                           "Core Cities: Their Future," <title localtype="simple">
+                              <part>Per/Se</part>
+                           </title>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">Fall</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1969, Dec.</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1969, Dec.</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>AIA Journal</part>
+                           </title> article</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Christian Science Monitor</part>
+                           </title> article</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1970</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1970</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">July/Aug.</date>, "Las Trampas: A Past Resurrected," <title localtype="simple">
+                              <part>New Mexico</part>
+                           </title>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">July/Aug.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">45</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">Aug.</date>,
+                           "Mass Transit and the Cities," <title localtype="simple">
+                              <part>Current History</part>
+                           </title>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">Aug.</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1971</date>,
+                        "Man and His Environment," <title localtype="simple">
+                           <part>Outlook</part>
+                        </title>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1971</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1972,
+                           Spring</date>, "The City: Go Slow, Go Slow ...," <title localtype="simple">
+                           <part>Cry California</part>
+                        </title>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1972,
+                        Spring</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1973, 1
+                           Apr.</date>, "The Despair of Nat Owings," <title localtype="simple">
+                           <part>California Living Magazine</part>
+                        </title>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1973, 1
+                        Apr.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1974, 11
+                           Mar.</date>, "Construction Management," <title localtype="simple">
+                           <part>Daily Pacific Builder</part>
+                        </title>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974, 11
+                        Mar.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1977</date>,
+                        "Emphasis," <title localtype="simple">
+                           <part>Sunstone Review</part>
+                        </title>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1977</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Books</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>The American Aesthetic</part>
+                        </title> (1969)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Contracts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, <date encodinganalog="245$f">1965-1970 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1965-1970 </unitdate>
+                        <physdesc encodinganalog="300">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Drafts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">46</container>
+                        <unittitle encodinganalog="245$a">Galley Proofs</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">47</container>
+                        <unittitle encodinganalog="245$a">Layout <ref show="replace" actuate="onrequest" target="ovlay47">
+                              <emph render="italic">See Oversize</emph>
+                           </ref>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Photographic proofs <ref show="replace" actuate="onrequest" target="ovphotproof">
+                              <emph render="italic">See Oversize</emph>
+                           </ref>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Production materials</unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">48</container>
+                        <unittitle encodinganalog="245$a">Production materials</unittitle>
+                        <physdesc encodinganalog="300">(2 vols.)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">49</container>
+                        <unittitle encodinganalog="245$a">Scrapbook <ref show="replace" actuate="onrequest" target="ovscrap">
+                              <emph render="italic">See Oversize</emph>
+                           </ref>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Made in America"</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Drafts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Manuscript copy</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>Spaces in Between: An Architect's Journey</part>
+                        </title> (1973)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1969-1971</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1969-1971</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">50</container>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1972-1974</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1972-1974</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Drafts</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Chapters </unittitle>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">51</container>
+                           <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Japanese edition</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Research material</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Reviews</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lectures</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1962</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1962</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Salzburg, Austria</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">
+                                 <date encodinganalog="245$f">1962</date>
+                              </unittitle>
+                              <unitdate encodinganalog="245$f" unitdatetype="inclusive">1962</unitdate>
+                              <physdesc encodinganalog="300">(2 folders)</physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">52</container>
+                              <unittitle encodinganalog="245$a">
+                                 <date encodinganalog="245$f">1963-1972</date>
+                              </unittitle>
+                              <unitdate encodinganalog="245$f" unitdatetype="inclusive">1963-1972</unitdate>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Lectures</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1966</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">London, England</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Backup material</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Lectures </unittitle>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">53</container>
+                           <unittitle encodinganalog="245$a">Miscellany</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1973-1974</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1973-1974</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Ball State University, Muncie,
+                           Ind.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Speeches</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Notes</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1946, 15
+                           Oct.</date>, Wayfarers' Club, Chicago, Ill.</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1946, 15
+                        Oct.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1957, 30
+                           July</date>, World Conference on Prestressed Concrete</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1957, 30
+                        July</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1959</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1959</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">27
+                           May</date>, San Francisco Museum of Art, San Francisco,
+                           Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">27 May</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">12
+                              June</date>, Chadwick School</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">12 June</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1960, 20
+                           Oct.</date>, University Associates, Kansas City, Mo.</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1960, 20
+                        Oct.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1961, 14
+                           Oct.</date>, National Trust for Historic Preservation, New York,
+                        N.Y.</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1961, 14
+                        Oct.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1962</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1962</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">4
+                           June</date>, Jefferson City, Mo.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">4 June</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">13
+                              June</date>, National Association of Building Owners and Managers, San
+                           Francisco, Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">13 June</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1963</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1963</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1 May</date>,
+                           Contra Costa Board of Supervisors, Concord, Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1 May</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">11
+                              Sept.</date>, Williamsburg, Va.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">11
+                           Sept.</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1964</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1964</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">7
+                           Apr.</date>, Senate Advisory Committee on a Master Plan for Scenic
+                           Highways, Washington, D.C.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">7 Apr.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">25
+                              Apr.</date>, California State Polytechnic College, San Luis Obispo,
+                           Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">25 Apr.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">24
+                              July</date>, Assembly Committee on Natural Resources Impact of
+                           Highways and Freeways on Park Values, Arcata, Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">24 July</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1
+                           Oct.</date>, Monterey Savings and Loan Association, Monterey,
+                           Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1 Oct.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">54</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">13
+                           Nov</date>., Museum of Modern Art, New York, N.Y.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">13 Nov</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">8
+                           Dec.</date>, Governor's Conference on Good Design, Sacramento,
+                           Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">8 Dec.</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1965</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">12
+                              Jan.</date>, San Francisco Planning and Urban Renewal Association
+                           annual planning conference, San Francisco, Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">12 Jan.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">21
+                              Jan.</date>, "Pennsylvania Avenue and the Future of the American
+                           City"</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">21 Jan.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">16
+                              Feb.</date>, Wayfarers Club, Chicago, Ill.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">16 Feb.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">8-10
+                              Dec.</date>, Action Council for Better Cities, Washington,
+                           D.C.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">8-10
+                           Dec.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">21
+                              Dec.</date>, Commercial Club, Chicago, Ill.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">21 Dec.</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1966</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1966</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">21
+                              Mar.</date>, Rock, Sand, and Gravel Producers Association, San
+                           Francisco, Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">21 Mar.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">30
+                              Mar.</date>, Mayor's Conference on Urban Design, Kansas City,
+                           Mo.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">30 Mar.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">25
+                              Apr.</date>, Religious Architecture Conference, San Francisco,
+                           Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">25 Apr.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">21
+                              Sept.</date>, Scenic Highway dedication at Bixby Bridge, Big Sur,
+                           Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">21
+                           Sept.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">7
+                           Oct.</date>, Howard University, Washington, D.C.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">7 Oct.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">14
+                              Nov.</date>, 62nd National Audubon Convention, Sacramento,
+                           Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">14 Nov.</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1967</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1967</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">6
+                           Feb.</date>, Colorado State University, Fort Collins, Colo.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">6 Feb.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1
+                           Apr.</date>, Architects and Engineers Forum, Los Angeles,
+                           Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1 Apr.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">15
+                              Apr.</date>, Washington Gallery of Modern Art, Washington,
+                           D.C.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">15 Apr.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">19
+                              Apr.</date>, Committee for Downtown, Baltimore, Md.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">19 Apr.</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">55</container>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1968, 24
+                           Sept.</date>, Citizens Planning and Housing Association, Baltimore,
+                        Md.</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1968, 24
+                        Sept.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1969</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1969</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">22
+                              Jan.</date>, Junior League of Palo Alto, Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">22 Jan.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">25
+                              Feb.</date>, AIA of New York, Museum of Modern Art, New York,
+                           N.Y.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">25 Feb.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">10
+                              Mar.</date>, Washington Building Conference, Washington,
+                           D.C.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">10 Mar.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">20
+                              Mar.</date>, St. Louis University, St. Louis, Mo.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">20 Mar.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">27
+                              Mar.</date>, Rice University, Houston, Tex.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">27 Mar.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">10
+                              Apr.</date>, Ford Foundation, Santa Barbara, Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">10 Apr.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">15
+                              Apr.</date>, Los Angeles, Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">15 Apr.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">17
+                              Apr.</date>, American Society of Civil Engineers convention,
+                           Louisville, Ky.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">17 Apr.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">25
+                              Apr.</date>, Historic Savannah Foundation, Savannah, Ga.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">25 Apr.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">28
+                              Apr.</date>, Contemporary Club, Indianapolis, Ind.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">28 Apr.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">7-8
+                              May</date>, Mount Holyoke College, South Hadley, Mass.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">7-8 May</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">56</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">23-25
+                              Nov.</date>, United States National Commission for UNESCO, San
+                           Francisco, Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">23-25
+                           Nov.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">5
+                           Dec.</date>, AIA of British Columbia, Vancouver, B.C.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">5 Dec.</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1972</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1972</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">7-9
+                              Feb.</date>, White House Conference, Washington, D.C.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">7-9
+                           Feb.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">3-5
+                              Apr.</date>, Walter Prescott Webb International Symposium, University
+                           of Texas, Austin, Tex.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">3-5
+                           Apr.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">Oct.</date>,
+                           "Alice in Wonderland," Des Moines, Iowa</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">Oct.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">15
+                              Nov.</date>, "Through the Looking Glass," University of California,
+                           Berkeley, Calif.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">15 Nov.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">20
+                              Nov.</date>, Governor's 5th Conservation Congress, Portland,
+                           Oreg.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">20 Nov.</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1973, 25
+                           July</date>, CBS Morning News interview</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1973, 25
+                        July</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1974, 25 Feb.-2
+                           Mar.</date>, AIA annual meeting, San Francisco, Calif.</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1974, 25 Feb.-2
+                        Mar.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1976</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1976</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">3 May</date>,
+                           AIA College of Fellows, Philadelphia, Pa.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">3 May</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">12
+                              Oct.</date>, Cornell University, Ithaca, N.Y.</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">12 Oct.</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Undated</date>,
+                        "Humanizing Private Development"</unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous writings, <date encodinganalog="245$f">1975, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1975, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">56-59</container>
+               <unittitle id="miscella" encodinganalog="245$a">Miscellany, <date normal="1911/1976">1911-1976</date>
+               </unittitle>
+               <unitdate normal="1911/1976" encodinganalog="245$f" era="ce" calendar="gregorian">1911-1976</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Postcards, printed matter, awards and certificates, bills and receipts, cards and
+                  invitations, speeches and writings by authors other than Owings, appointment
+                  calendars, and architectural drawings and diagrams.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">Appointment calendars</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Architectural drawing and diagrams <ref show="replace" actuate="onrequest" target="ovarchdrawdia56">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Awards and certificates <ref show="replace" actuate="onrequest" target="ovawardcert56">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bills and receipts</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cards and invitations</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57</container>
+                  <unittitle encodinganalog="245$a">Metropolitan Club</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Military and international driving
+                     permits</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Newspaper clippings</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notes and other items</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Poems</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Postcards</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Printed matter</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Articles</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Books and booklets</unittitle>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">58</container>
+                     <unittitle encodinganalog="245$a">Books and booklets</unittitle>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pamphlets and brochures </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Periodicals and other items</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">59</container>
+                  <unittitle encodinganalog="245$a">Scrapbooks, <date encodinganalog="245$f">1936-1970</date>
+                     <ref show="replace" actuate="onrequest" target="ovscrap59">
+                        <emph render="italic">See Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" unitdatetype="inclusive">1936-1970</unitdate>
+                  <physdesc encodinganalog="300">(2 vols.)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Speeches and writings by others</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Wayfarers' Club, Chicago, Ill.</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">60-64</container>
+               <unittitle id="addit" encodinganalog="245$a">Addition, <date normal="1929/1983">1929-1983</date>
+               </unittitle>
+               <unitdate normal="1929/1983" encodinganalog="245$f" era="ce" calendar="gregorian">1929-1983</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence received and sent and miscellany including biographical material,
+                  speeches and writings, legal and financial papers, minutes and reports,
+                  photographs, printed matter, and clippings.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p> Organized alphabetically by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">60</container>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1945, 1963-1978 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1945, 1963-1978 </unitdate>
+                     <physdesc encodinganalog="300">(9 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1979</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1979</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">Jan.-Mar.</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">Jan.-Mar.</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">61</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">Apr.-Dec. </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">Apr.-Dec. </unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">1980-1983 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1980-1983 </unitdate>
+                     <physdesc encodinganalog="300">(8 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date encodinganalog="245$f">Undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">Undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Biographical file, <date encodinganalog="245$f">1962-1978, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1962-1978,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Contribution lists, <date encodinganalog="245$f">1968-1977</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1968-1977</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Financial papers, <date encodinganalog="245$f">1975-1979, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1975-1979,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">General, <date encodinganalog="245$f">1972-1983, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1972-1983,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Grant applications, <date encodinganalog="245$f">1979-1980</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1979-1980</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hopi Indian exhibit, Field Museum of Natural
+                        History, Chicago, Ill., <date encodinganalog="245$f">1980-1981</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1980-1981</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Kachina dolls, <date encodinganalog="245$f">1973-1978</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1973-1978</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Legal papers, <date encodinganalog="245$f">1971-1979, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1971-1979,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Memberships, <date encodinganalog="245$f">1968-1979, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1968-1979,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Passport, <date encodinganalog="245$f">1973-1978</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1973-1978</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">63</container>
+                     <unittitle encodinganalog="245$a">Photographs, <date encodinganalog="245$f">1929-1930, 1979, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1929-1930, 1979,
+                        undated</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Printed matter, <date encodinganalog="245$f">1958-1983, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1958-1983,
+                        undated</unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">64</container>
+                     <unittitle encodinganalog="245$a">Printed matter, <date encodinganalog="245$f">1958-1983, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1958-1983,
+                        undated</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reports</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Big Sur Coast Development, <date encodinganalog="245$f">Feb. 1980</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">Feb.
+                           1980</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Cornell University Summer Field School,
+                           Rome, Italy, <date encodinganalog="245$f">1979</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1979</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Schedules, <date encodinganalog="245$f">1978-1979</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1978-1979</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Speeches, <date encodinganalog="245$f">1983</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" unitdatetype="inclusive">1983</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Writings</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Owings, Nathaniel Alexander</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1972</date>, "A Song of Action"</unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1972</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">Undated</date>, "The Hopi Way"</unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">Undated</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Others, <date encodinganalog="245$f">1971-1983, undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1971-1983,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1-OV 12</container>
+               <unittitle id="overs" encodinganalog="245$a">Oversize, <date normal="1936/1975">1936-1975</date>
+               </unittitle>
+               <unitdate normal="1936/1975" encodinganalog="245$f" era="ce" calendar="gregorian">1936-1975</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Oversize material consisting of scrapbooks, awards and certificates, architectural
+                  charts and diagrams, photographic proof sheets and layouts for Owings's book
+                     <title localtype="simple">
+                     <part>The American Aesthetic</part>
+                  </title>, and a copy of a publication sponsored by the President's Temporary
+                  Commission on Pennsylvania Avenue, entitled <title localtype="simple">
+                     <part>The Washington Mall Master Plan. </part>
+                  </title>
+               </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Organized and described according to the series, folders, and boxes from which the
+                  items were removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Subject File</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Monterey coast master plan</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="ovscrap27" encodinganalog="245$a">Scrapbooks</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1959-1960</date> (Container 27)</unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1959-1960</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 2</container>
+                           <unittitle encodinganalog="245$a">
+                              <date encodinganalog="245$f">1961-1965</date> (Container 27)</unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1961-1965</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 3</container>
+                     <unittitle encodinganalog="245$a">Pennsylvania Avenue, Washington,
+                        D.C.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Pennsylvania Avenue Development
+                           Corp.</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle id="ovappt32" encodinganalog="245$a">Appointment, <date encodinganalog="245$f">1973</date> (Container 32)</unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1973</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 4</container>
+                        <unittitle encodinganalog="245$a">President's Temporary Commission on
+                           Pennsylvania Avenue</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle id="ovscrap39" encodinganalog="245$a">Scrapbook, <date encodinganalog="245$f">1964-1969</date> (Container 39)</unittitle>
+                           <unitdate encodinganalog="245$f" unitdatetype="inclusive">1964-1969</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 5</container>
+                           <unittitle encodinganalog="245$a">
+                              <title localtype="simple" id="ovplan39">
+                                 <part>The Washington Mall Master Plan</part>
+                              </title> (Container 39)</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 6</container>
+                  <unittitle encodinganalog="245$a">Speeches and Writings File</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <title localtype="simple">
+                           <part>The American Aesthetic</part>
+                        </title>
+                     </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle id="ovlay47" encodinganalog="245$a">Layout (Container
+                           47)</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 7</container>
+                        <unittitle id="ovphotproof" encodinganalog="245$a">Photographic proofs
+                           (Container 47)</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 8</container>
+                        <unittitle id="ovscrap" encodinganalog="245$a">Scrapbook, <date encodinganalog="245$f">1969-1970</date> (Container 49)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1969-1970</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 9</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle id="ovarchdrawdia56" encodinganalog="245$a">Architectural drawing
+                        and diagrams (Container 56)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 10</container>
+                     <unittitle id="ovawardcert56" encodinganalog="245$a">Awards and certificates
+                        (Container 56)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 11</container>
+                     <unittitle id="ovscrap59" encodinganalog="245$a">Scrapbooks</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1936-1969</date> (Container 59)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1936-1969</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 12</container>
+                        <unittitle encodinganalog="245$a">
+                           <date encodinganalog="245$f">1969-1970</date>
+                           (Container 59)</unittitle>
+                        <unitdate encodinganalog="245$f" unitdatetype="inclusive">1969-1970</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

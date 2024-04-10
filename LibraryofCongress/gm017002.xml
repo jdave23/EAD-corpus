@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.gmd/eadgmd.gm017002">loc.gmd/eadgmd.gm017002</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="245$a">Bob Crozier World War II military intelligence map
+               and photograph collection</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Ryan Moore</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Geography &amp; Map
+               Division<lb/> Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date encodinganalog="260$c" normal="2017" era="ce" calendar="gregorian">2017</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.gmd/gmd.contact">https://hdl.loc.gov/loc.gmd/gmd.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/2016431103">https://lccn.loc.gov/2016431103</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-08">August 2023</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Richard Devery, Geography &amp; Map Division</agent>
+            <eventdescription>Revised error in call number</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-03">2020-03</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2017">2017</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by the Library of Congress Geography &amp; Map
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a"> Bob Crozier World War II military intelligence map and aerial photograph collection.
+            <date altrender="Span Dates" localtype="inclusive" normal="1943/1946">1943-1946</date>
+         </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1943/1946"
+                   encodinganalog="245$f"
+                   datechar="creation">1943-1946</unitdate>
+         <unitid label="Call No." encodinganalog="050" countrycode="US" repositorycode="US-DLC">G5721.S7 coll .C7 Crozier</unitid>
+         <physdesc label="Extent" encodinganalog="300">20 maps</physdesc>
+         <physdesc label="Extent" encodinganalog="300">15 aerial photographs</physdesc>
+         <physdesc label="Extent" encodinganalog="300">1 booklet</physdesc>
+         <langmaterial label="Language">
+            <language langcode="eng" encodinganalog="041">English</language>
+            <language encodinganalog="041" langcode="ger">German</language>
+            <descriptivenote>
+               <p>Collection material in English and German</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Geography &amp; Map Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract encodinganalog="520$a" label="Summary">Bob Crozier served as a Technical Sergeant
+            in the 654th Topographic Engineers from 1943 to 1946. Crozier was part of the American
+            First Army under General Omar Bradley. He donated a collection of photos, photo maps and
+            maps created during World War II to the Geography and Map Division. The collection
+            consists of 36-page booklet that describes the process of aerial reconnaissance and
+            mapping, 15 aerial photographs, and 20 maps. Perhaps the most unique items are a
+            captured German map that depicts Caen and a rare commemorative map of the U.S. and
+            Russian contact at the Elbe River in 1945.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230829140203.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="710" source="lcnaf">
+               <part>Germany. Heer. Abteilung für Kriegskarten- und Vermessungswesen.</part>
+            </corpname>
+            <corpname encodinganalog="710" source="lcnaf">
+               <part>United States. Army. Army, 1st.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Maps.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="730" source="lcnaf">
+               <part>Man who wins battles, is the man who gets there "fustest with the mostest intelligence"</part>
+            </title>
+         </controlaccess>
+         <controlaccess>
+            <head>Form/Genre</head>
+            <genreform encodinganalog="655" source="lcgft">
+               <part>Maps.</part>
+            </genreform>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> Bob Crozier donated the materials as a gift to the Division in 1993.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p> The collection was arranged and described by Ryan Moore in 2017. </p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p> The status of copyright of the Bob Crozier World War II military intelligence map and
+            photograph collection is governed by the Copyright Law of the United States (Title 17,
+            U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p> The Bob Crozier World War II military intelligence map and photograph collection is
+            open to research. Researchers are advised to contact the Geography &amp; Map Reading
+            Room prior to visiting. Many collections are stored off-site and advance notice is
+            needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p> Researchers wishing to cite this collection should include the following information:
+            Container number, Bob Crozier World War II military intelligence map and photograph
+            collection, Geography &amp; Map Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The collection consists of 36-page booklet that describes the process of aerial
+            reconnaissance and mapping, 15 aerial photographs, and 20 maps.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Collection</head>
+         <p>The collection is organized into seven series</p>
+         <list listtype="unordered" mark="circle">
+            <item>
+               <ref show="replace" actuate="onrequest" target="ser1">Series I</ref> Booklet </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="ser2">Series II</ref> Aerial Photos </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="ser3">Series III</ref>
+               Photo-Maps</item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="ser4">Series IV</ref> France Field
+               Operational Road Maps </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="ser5">Series V</ref> Captured German
+               Maps Depicting Caen and Surrouding Regions </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="ser6">Series VI</ref> Celebratory
+               Maps of First United States Army in Europe </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="ser7">Series VII</ref> Various War
+               Maps </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <unittitle id="ser1" encodinganalog="245$a">Booklet </unittitle>
+            </did>
+            <scopecontent>
+               <p> 36-page booklet describes the duties of the pilots and the photo lab
+                  capabilities.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">1</container>
+                  <unittitle encodinganalog="245$a"> Prepared by the Reconnaissance Organization
+                     Serving the First Army <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <didnote encodinganalog="500"> 30th Photo RCN.SQ., 67th TAC.RCN.GP., France
+                     1944</didnote>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="ser2" encodinganalog="245$a"> Aerial Photographs </unittitle>
+            </did>
+            <scopecontent>
+               <p> 15 aerial photographs of France and Germany.</p>
+               <p> Photographs used to help create maps.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">2</container>
+                  <unittitle encodinganalog="245$a"> Photograph of France Sheet 34/18. SE <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <didnote encodinganalog="500"> See: Map France 100,000 "Bayeux, St. Lo, Vire" Road
+                     Map 23.</didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">3-8</container>
+                  <unittitle encodinganalog="245$a"> Six Photographs of "Rhine River Bank Study" Map
+                        <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944
+                  </unitdate>
+               </did>
+               <odd>
+                  <p> See: Map "Rhine River Study" Sheet G.</p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">9-12</container>
+                  <unittitle encodinganalog="245$a"> Four Photographs of Koblenz, Germany, 1:25,000
+                     Sheet 5611 <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <didnote encodinganalog="500"> See: Map "Koblenz" Sheet 5611.</didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">13-16</container>
+                  <unittitle encodinganalog="245$a"> Four Photographs of the Ruhr River Sheet 5611
+                        <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944
+                  </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="ser3" encodinganalog="245$a"> Photo Maps </unittitle>
+            </did>
+            <scopecontent>
+               <p> Crozier: "All maps were compiled from aerial photos created by the 30th photo
+                  reeonnaisanoe squadron flying P-38s Lightning. The scale depends on the height in
+                  which the sortie took place. Cameras ranged from 24 inch for mappinq to 36-40 inch
+                  for larqe scale. Shutter speads were extremely fast in their time- up to 1/800
+                  second."</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">17</container>
+                  <unittitle encodinganalog="245$a"> Cherbourg, Sheet E-24 <date normal="1944"> 1944
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:25,000 </materialspec>
+               </did>
+               <odd>
+                  <p> "As I recall, our first combat field map printed while in England,
+                     highlighting primary and secondary roads and railroads. Note how secondary
+                     roads often dead end!" </p>
+                  <p> Gridded map </p>
+                  <p> Restricted </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">18</container>
+                  <unittitle encodinganalog="245$a"> Northwestern Germany Photomap, Series Z, Sheet
+                     Q-13 <date normal="1945"> 1945 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1945"> 1945 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:10,000 </materialspec>
+                  <didnote encodinganalog="500"> Shows Rhine River turn at Neuwied. </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">19</container>
+                  <unittitle encodinganalog="245$a"> Rhine River Photomap, Section X, Sheet B-5
+                        <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:9,000 </materialspec>
+                  <didnote encodinganalog="500"> Rhine River at Koeln. </didnote>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="ser4" encodinganalog="245$a"> France Field Operational Road Maps
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p> Five maps showing roads and railroads in Normandy and adjacent areas.</p>
+               <p> Towns and cities indicate population size.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">20</container>
+                  <unittitle encodinganalog="245$a"> Bayeux, St. Lo, Vire, Road Map Sheet No. 23
+                        <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:100,000 </materialspec>
+                  <didnote encodinganalog="500"> Crozier: "This map shows the three Omaha Beach
+                     critical military, first day objectives, i.e.: Town of Isigny, Trevieres, and
+                     Pointe de Hoc Fort at St. Pierre de Mont. All fell on June 6; St. Lo fell on
+                     July 18."</didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">21</container>
+                  <unittitle encodinganalog="245$a"> Vire, Domfront, Mayenne, Road Map Sheet No. 44
+                        <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:100,000 </materialspec>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">22</container>
+                  <unittitle encodinganalog="245$a"> Alencon, Argentan, La Ferte-Mace, Road Map
+                     Sheet No. 45 <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:100,000 </materialspec>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">23</container>
+                  <unittitle encodinganalog="245$a"> Mamers, Laigle, Nogent, Le-Rotrou, Road Map
+                     Sheet No. 46 <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:100,000 </materialspec>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">24</container>
+                  <unittitle encodinganalog="245$a"> Dreux, Verneuil, Nogent-Le-Rotrou, Road Map
+                     Sheet No. 47 <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:100,000 </materialspec>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="ser5" encodinganalog="245$a"> Captured German Maps Depicting Caen and
+                  Surrounding Regions </unittitle>
+            </did>
+            <scopecontent>
+               <p> Two captured German maps. </p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">25</container>
+                  <unittitle encodinganalog="245$a">Bildplan, Balleroy, Frankreich 1:25,000,
+                     XIV-12/3-4, Balleroy Nr. 3-4 <date normal="1943"> 1943 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1943"> 1943 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:25,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Verm. u. Kart. Abt. 501.</p>
+                  <p> Reverse signed by Crozier </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">26</container>
+                  <unittitle encodinganalog="245$a"> Deutsche Heerskarte, Caen, Frankreich
+                     1:200,000, Nr. 14 <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:200,000 </materialspec>
+               </did>
+               <odd>
+                  <p> Crozier; "Captured German map showing all our allied beachheads. Dated shortly
+                     before invasion.</p>
+                  <p> Reverse signed by Crozier </p>
+                  <p> Colored map with legend in German.</p>
+               </odd>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="ser6" encodinganalog="245$a"> Celebratory Maps of First United States
+                  Army in Europe </unittitle>
+            </did>
+            <scopecontent>
+               <p> Two celebratory maps. </p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">27</container>
+                  <unittitle encodinganalog="245$a"> Operations of First United States Army in
+                     Europe, June 6, 1944 to May 9, 1945 <date normal="1945"> 1945 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1945"> 1945
+                  </unitdate>
+               </did>
+               <odd>
+                  <p> Maps depicts the drive from Normandy to Leipzeig, including the Normandy
+                     assault, St. Lo, Northern France pursuit, Siegfried Line, Ardennes
+                     Counteroffensive, Crossing of the Rhine, and Ruhr Pocket.</p>
+                  <p> Names of commanding officers on border. </p>
+                  <p> Divisional crests illustrated. </p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">28</container>
+                  <unittitle encodinganalog="245$a"> Special Map Showing Contact Between Gen.
+                     Hodges' First U.S. Army and Gen. Jadov's Fifth U.S.S.R. Army, 25 April <date normal="1945"> 1945 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1945"> 1945
+                  </unitdate>
+               </did>
+               <odd>
+                  <p> Crozier: "U.S./Russian [contact] at the Elbe. Rare. Perhaps 300 printed."</p>
+                  <p> From map: Elements of 69th U.S. Division met elements of 58th U.S.S.R.
+                     Division at Torgau, Germany 25 April 1954 at 1640b. </p>
+                  <p> German Twelfth Army depicted. </p>
+               </odd>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="ser7" encodinganalog="245$a"> Various War Maps </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">29</container>
+                  <unittitle encodinganalog="245$a"> Rhine River Bank Study G <date normal="1944">
+                        1945 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1945 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:12,500 </materialspec>
+               </did>
+               <odd>
+                  <p> North of Koeln</p>
+                  <p> Wall height along bank, river width and deep, jetty and harbors depicted.</p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">30</container>
+                  <unittitle encodinganalog="245$a"> Innsbruck and Environs <date normal="1944">
+                        1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:9,000 </materialspec>
+               </did>
+               <odd>
+                  <p> City street map </p>
+                  <p> Reverse list buildings and street index</p>
+               </odd>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">31</container>
+                  <unittitle encodinganalog="245$a"> Road and Bridge Data - First U.S. Army,
+                     Nideggen, Germany 1:25,000, Sheet 5304 <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:25,000 </materialspec>
+                  <didnote encodinganalog="500"> Includes legend and index </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">32</container>
+                  <unittitle encodinganalog="245$a"> Dresden, Germany 1:300,000, Sheet N52 <date normal="1945"> 1945 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1945"> 1945 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:300,000 </materialspec>
+                  <didnote encodinganalog="500"> Copied from a German road map dated 1938.
+                  </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">33</container>
+                  <unittitle encodinganalog="245$a"> Cadzand 1, Holland 1:25,000, Sheet 451-1 <date normal="1943"> 1943 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1943"> 1943 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:25:000 </materialspec>
+                  <didnote encodinganalog="500"> Legend and glossary </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">34</container>
+                  <unittitle encodinganalog="245$a"> Cadzand 2, Holland 1:25,000, Sheet 451-2 <date normal="1943"> 1943 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1943"> 1943 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:25:000 </materialspec>
+                  <didnote encodinganalog="500"> Legend and glossary </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">35</container>
+                  <unittitle encodinganalog="245$a"> Koblenz, Germany 1:25,000, Sheet 5611 <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:25,000 </materialspec>
+                  <didnote encodinganalog="500"> Legend, abbreviations, index </didnote>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="item">36</container>
+                  <unittitle encodinganalog="245$a"> Theix, France 1:25,000, Sheet No. 22/30 S.W.
+                        <date normal="1944"> 1944 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1944"> 1944 </unitdate>
+                  <materialspec localtype="scale" encodinganalog="255"> 1:25,000 </materialspec>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

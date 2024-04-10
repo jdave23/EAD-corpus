@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms007037">loc.mss/eadmss.ms007037</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Thomas T. Craven Papers</titleproper>
+            <subtitle>A Finding Aid to the Papers in the Naval Historical
+			 Foundation Collection in the Library of Congress </subtitle>
+            <author>Prepared by Joseph K. Brooks <lb/>
+                        </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="1992" encodinganalog="260$c" era="ce" calendar="gregorian">1992</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm84061733">https://lccn.loc.gov/mm84061733</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Title, controlaccess updated</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2007">2007</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a"> Thomas T. Craven Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1842/1969">1842-1969</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1917/1945">1917-1945</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1842/1969"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1842-1969</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1917/1945"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1917-1945</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS61733</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Craven, Thomas T. (Thomas
+			 Tingey), 1873-1950</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">500 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">2 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">.6 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+		       </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Naval officer.
+		  Correspondence, family papers, and subject files relating primarily to his
+		  convoy duty and command of United States Naval Aviation Forces in Europe during
+		  World War I, and his command of a gunboat flotilla on the Yangtze River in
+		  China during 1929-1931. </abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20201216131645.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Byrd, Richard Evelyn, 1888-1957--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Cone, Hutchinson Ingham, 1871-1941--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Cooke, Morris Llewellyn, 1872-1960--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Craven, Thomas T. (Thomas Tingey), 1873-1950.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Daniels, Josephus, 1862-1948--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Earle, Ralph, 1874-1939--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hooper, Stanford Caldwell, 1884-1955--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hoover, Herbert, 1874-1964--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Kimmel, Husband Edward, 1882-1968.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Knox, Dudley Wright, 1877-1960--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Knox, Frank, 1874-1944--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sarnoff, David, 1891-1971--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sims, William Sowden, 1858-1936--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Watson, Edward H. (Edward Howe), 1873-1942.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>New York State Maritime Academy.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States Naval Academy--Curricula.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Bureau of the Budget. Federal Coordinating Service.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy--Foreign service--China--Yangtze River.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy. Destroyer Squadron 11.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy. Naval Aviation Forces.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Navy. Pacific Fleet.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Aircraft carriers.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Budget--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Courts-martial and courts of inquiry.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Fisheries--Alaska.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Gunboats.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Merchant marine--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Naval convoys--Atlantic Ocean.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Naval convoys--Mediterranean Sea.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Navy-yards and naval stations, American--Corrupt practices.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Pearl Harbor (Hawaii), Attack on, 1941.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Radio--Law and legislation--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Shipwrecks--California--Honda, Point.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1914-1918--Naval operations, American.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Naval operations, American.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Naval officers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The papers of Thomas T. Craven were deposited in the Library of
+		  Congress by the Naval Historical Foundation in 1984 and converted to a gift in
+		  1998.</p>
+      </acqinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Thomas T.
+		  Craven is governed by the Copyright Law of the United States (Title 17,
+		  U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Thomas T. Craven are open to research. Researchers are
+		  advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Thomas T. Craven Papers, Naval
+		  Historical Foundation Collection, Manuscript Division, Library of Congress,
+		  Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1873, July 8</datesingle>
+               <event>Born, Vallejo, Calif.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1896</datesingle>
+               <event>Graduated, United States Naval Academy, Annapolis, Md.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1901</datesingle>
+               <event>Married Antoinette Merritt</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1908</datesingle>
+               <event>Served as gunnery officer, <emph render="italic">South
+				Carolina</emph> (battleship)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1915</datesingle>
+               <event>Attended Naval War College, Newport, R.I.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1916</fromdate>
+                              <todate>1918</todate>
+                           </daterange>
+               <event>Commanded <emph render="italic">Sacramento</emph>
+				(gunboat)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1918</datesingle>
+               <event>Commanded United States Naval Aviation Forces in
+				Europe</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1919</fromdate>
+                              <todate>1921</todate>
+                           </daterange>
+               <event>Director of naval aviation; ordered conversion of the
+				<emph render="italic">Jupiter</emph> (collier) into the <emph render="italic">Langley</emph> (aircraft carrier)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1922</datesingle>
+               <event>Commanded Destroyer Squadron Fifteen in early charting of
+				Atlantic Ocean floor using sound equipment</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1923</datesingle>
+               <event>Defended Edward H. Watson in court-martial resulting from mass
+				shipwreck at Point Honda, Calif.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1927</fromdate>
+                              <todate>1928</todate>
+                           </daterange>
+               <event>Director of naval communications</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1928</datesingle>
+               <event>Promoted to rear admiral; commanded Great Lakes Naval Training
+				Station, Great Lakes, Ill.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1929</fromdate>
+                              <todate>1931</todate>
+                           </daterange>
+               <event>Commander, Yangtze Patrol, China</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1931</fromdate>
+                              <todate>1933</todate>
+                           </daterange>
+               <event>Chief coordinator, Federal Coordinating Service, Bureau of the
+				Budget</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1935</datesingle>
+               <event>Commander, Battleship Division One</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1937</datesingle>
+               <event>Commandant, Thirteenth Naval District, Bremerton,
+				Wash.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1937</datesingle>
+               <event>Retired from active naval service</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1942</fromdate>
+                              <todate>1946</todate>
+                           </daterange>
+               <event>Recalled to active duty; superintendent, New York State
+				Maritime Academy, Fort Schuyler, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1950, Apr. 5</datesingle>
+               <event>Died, St. Albans, N.Y.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Thomas Tingey Craven (1873-1950), naval officer, span
+		  the years 1842-1969, with the bulk of the material concentrated in the period
+		  1917-1945. Craven is noted as the director of naval aviation who ordered the
+		  conversion of the coal-carrying ship <emph render="italic">Jupiter</emph> into
+		  the <emph render="italic">Langley</emph>, the United States Navy's first
+		  aircraft carrier. The collection is organized into family papers, general
+		  correspondence, subject files, and writings. The family papers include
+		  biographical and genealogical material, clippings, and correspondence. Of
+		  special interest are a letter of 1842 written by Craven's grandfather and
+		  namesake Thomas T. Craven, and a letter from Craven to his wife Antoinette
+		  relating his experiences and impressions during the 1908 visit of the
+		  battleship <emph render="italic">South Carolina</emph> to Japan.</p>
+         <p> Well represented in the Subject File are documents related to
+		  Craven's World War I convoy duty in Atlantic and Mediterranean waters while
+		  captain of the gunboat Sacramento from 1917 to 1918, his command of the United
+		  States Naval Aviation Forces in Europe in 1918, and his command of a gunboat
+		  flotilla on the Yangtze River in China from 1929 to 1931. Documents relating to
+		  Craven's World War I service include convoy sailing orders, reports about naval
+		  accidents and incidents, and correspondence and memoranda relating to United
+		  States Naval Aviation Forces in Europe. Correspondents from the latter period
+		  include Hutchinson I. Cone and Ralph Earle. As commander of the Yangtze Patrol
+		  (1929-1931), Craven corresponded with diplomats, missionaries, military
+		  colleagues, and Chinese officials. Correspondents from this period include
+		  Morris Llewellyn Cooke, H. G. C. Hallock, Lieu Ven Tae (or Liu Wen-tau), M.
+		  Yonai, Marshal Liu Hsiang, and Allen N. Cameron. Other topics include Craven's
+		  service as defense counsel in the court-martial of Edward H. Watson, commander
+		  of a destroyer squadron that shipwrecked at Point Pedernales (or Point Honda)
+		  on the California coast in 1923, resulting in the loss of twenty-three men and
+		  seven ships; and Craven's efforts in behalf of a protégé, Husband E. Kimmel,
+		  who was under investigation after the 1942 Japanese attack on his Pacific Fleet
+		  command at Pearl Harbor.</p>
+         <p> The General Correspondence includes letters discussing Craven's
+		  service as chief coordinator of the Federal Coordinating Service during the
+		  Herbert Hoover administration, curriculum reform at the United States Naval
+		  Academy, the New York State Maritime Academy, the Merchant Marine, Alaska
+		  fisheries, aircraft carriers, radio communications policy, corrupt practices in
+		  naval shipyards, and other topics. Correspondents not already cited include
+		  Richard E. Byrd, Josephus Daniels, Stanford C. Hooper, Herbert Hoover, Dudley
+		  W. Knox, Frank Knox, David Sarnoff, and William S. Sims.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged alphabetically by type of material.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Family papers </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Biographical material, 
+				   <date>1921-1943, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1921-1943, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Craven, Antoinette (wife), 
+				   <date>1924-1950, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1924-1950, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Family history material, 
+				   <date>
+					 1920-1969, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1920-1969, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Letters</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1842, 1872, </date> with cover letter, 
+					  <date>1944</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1842, 1872, </unitdate>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1908-1931, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1908-1931, undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">General correspondence</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"B-G" miscellaneous, 
+				   <date>1914-1945</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1914-1945</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Hooper, Stanford C., 
+				   <date>1922-1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1922-1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Hoover, Herbert, 
+				   <date>1927-1943</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927-1943</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"H-J" miscellaneous, 
+				   <date>1908-1945, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1908-1945, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Kimmel, Husband E., 
+				   <date>1936</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Knox, Dudley W., 
+				   <date>1931-1945</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1945</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"K-P" miscelllaneous, 
+				   <date>1907-1945, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1907-1945, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"R-Y" miscellaneous, 
+				   <date>1920-1945, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1920-1945, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Subject file</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Aircraft carriers, 
+				   <date>1943</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Awards, medals, and honors, 
+				   <date>1919-1921</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919-1921</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Convoy duty, sailing orders, and
+				  related material, 
+				   <date>1917</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1917</unitdate>
+                  <physdesc encodinganalog="300$a"/>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                                 <emph render="italic">Nahma</emph> (armed yacht) incident, 
+				   <date>1917</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1917</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Naval cruises, souvenir books,
+				  and rosters, 
+				   <date>1908-1925</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1908-1925</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                                 <emph render="italic">Olympia</emph> (cruiser) grounding, 
+				   <date>1917</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1917</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Passport, 
+				   <date>1918</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1918</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Pearl Harbor attack
+				  investigation, 
+				   <date>1942-1944</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1944</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Point Honda (Calif.) naval
+				  disaster, 
+				   <date>1923</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1923</unitdate>
+                  <physdesc encodinganalog="300$a"/>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Puget Sound Navy Yard, Bremerton,
+				  Wash., 
+				   <date>1936-1937</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1936-1937</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Retirements, 
+				   <date>1937, 1944-1945</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937, 1944-1945</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">United States Naval Aviation
+				  Forces in Europe</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+					  <date>1918-1919</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1918-1919</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Notebook, 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Whiting, Kenneth, 
+				   <date>
+					 1943</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1943</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Yangtze Patrol, 
+				   <date>1929-1931</date>  
+				                             <ref show="replace" actuate="onrequest" target="yang1">
+                                    <emph render="italic">See also Oversize</emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929-1931</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Writings, 
+				 <date>1919-1953, undated</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919-1953, undated</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a">Subject file</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a" id="yang1">Yangtze Patrol, 
+				   <date>1929 </date> (Container 2)</unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929 </unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms007102">loc.mss/eadmss.ms007102</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Arnold Moss Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Laura J. Kells <lb/>
+                        </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2007" encodinganalog="260$c" era="ce" calendar="gregorian">2007</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm75033738">https://lccn.loc.gov/mm75033738</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Title, controlaccess updated</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2007">2007</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Arnold Moss Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1935/1987">1935-1987</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1953/1987">(bulk 1953-1987)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1935/1987"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1935-1987</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1953/1987"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1953-1987)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS33738</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Moss, Arnold,
+			 1910-1989</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300"> 2,100
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">11 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">4.4 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+		       </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Actor, director,
+		  theatrical producer, and crossword puzzle maker. Correspondence, contracts,
+		  scripts, playbills and programs, financial records, speeches, writings, drafts
+		  of crossword puzzles, and printed matter documenting Moss's career primarily as
+		  a stage actor, producer, and director.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20190801095258.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Burton, Philip, 1904- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Malamud, Bernard--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Miller, Arthur, 1915-2005--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Moss, Arnold, 1910-1989.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Prince, Harold, 1928-2019--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Shaw, Bernard, 1866-1950. Back to Methuselah (1946)</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Library of Congress.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Shakespeare Festival Players</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Department of State.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Acting.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Crossword puzzles.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Drama.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Repertory theater.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Theater--Africa.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Theater--Far East.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Theater--Latin America.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Theater--Production and direction.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Universities and colleges.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Actors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Crossword puzzle makers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Theatrical producers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Arnold Moss, actor, director, theatrical producer, and
+		  crossword puzzle maker, were presented by him to the Library of Congress as
+		  gifts during the years 1966-1975 and as deposits 1975-1987. The deposits were
+		  converted to gifts in 1999.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Arnold Moss were arranged and described in 1999. The
+		  finding aid was revised in 2007.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Items have been transferred from the Manuscript Division to other
+		  custodial divisions of the Library. Some photographs have been transferred to
+		  the Prints and Photographs Division. Sound recordings have been transferred to
+		  the Motion Picture, Broadcasting, and Recorded Sound Division. All transfers
+		  are identified in these divisions as part of the Arnold Moss Papers. </p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of Arnold Moss in these papers
+		  and in other collections of papers in the custody of the Library of Congress
+		  has been dedicated to the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Arnold Moss are open to research. Researchers are
+		  advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Arnold Moss Papers, Manuscript
+		  Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1910, Jan. 28</datesingle>
+               <event>Born, Brooklyn, N. Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1928</datesingle>
+               <event>A.B., College of the City of New York (later City College of
+				the City University of New York), New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1929</fromdate>
+                              <todate>1931</todate>
+                           </daterange>
+               <event>Apprenticeship, Eva Le Gallienne's Civic Repertory Theatre,
+				New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1931</datesingle>
+               <event>Broadway debut, 
+				<title localtype="simple">
+                                 <part>Wonder Boy</part>
+                              </title>, Alvin Theatre, New York, N.Y. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1933</datesingle>
+               <event>Married Stella Reynolds</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1933</fromdate>
+                              <todate>1940</todate>
+                           </daterange>
+               <event>Instructor, Speech and Theatre Department, Brooklyn College,
+				Brooklyn, N.Y. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1934</datesingle>
+               <event>A.M., Columbia University, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1940</datesingle>
+               <event>First major role on Broadway, 
+				<title localtype="simple">
+                                 <part>The Fifth Column</part>
+                              </title>, Alvin Theatre, New York,
+				N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1946</datesingle>
+               <event>Film debut, 
+				<title localtype="simple">
+                                 <part>Temptation</part>
+                              </title> 
+                           </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1954</fromdate>
+                              <todate>1974</todate>
+                           </daterange>
+               <event>Appeared in programs of dramatic readings and performances as
+				part of the Gertrude Clarke Whittall Poetry and Literature Series, Library of
+				Congress</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1957</fromdate>
+                              <todate>1958</todate>
+                           </daterange>
+               <event>Adapted, coproduced, and acted in George Bernard Shaw's 
+				<title localtype="simple">
+                                 <part>Back to Methuselah </part>
+                              </title>on tour and on Broadway, New
+				York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1959</datesingle>
+               <event>Founded, directed, and starred in Shakespeare Festival
+				Players, a touring repertory company </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1961</datesingle>
+               <event>American specialist in theater, Department of State, Central
+				America and South America </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1964</datesingle>
+               <event>American specialist in theater, Department of State, Africa
+				and the Far East</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1973</datesingle>
+               <event>Ph.D., New York University, New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1973</fromdate>
+                              <todate>1974</todate>
+                           </daterange>
+               <event>Visiting professor, Department of Dramatic Arts, University of
+				Connecticut, Storrs, Conn.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1975</datesingle>
+               <chronitemset>
+                              <event>Visiting professor, Pace University, New York, N.Y.</event>
+                              <event>Writer, actor, "CBS Radio Mystery Theatre"</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1976</datesingle>
+               <event>Visiting professor, Eminent Scholar Program, College of
+				William and Mary, Williamsburg, Va. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1977</datesingle>
+               <event>Visiting professor, Purdue University, West Lafayette,
+				Ind.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1983</fromdate>
+                              <todate>1984</todate>
+                           </daterange>
+               <event>National Visiting Scholar, Academy of Motion Picture Arts and
+				Sciences </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1989, Dec. 15</datesingle>
+               <event>Died, New York, N.Y.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Arnold Moss (1910-1989) span the years 1935-1987 with
+		  the bulk of the material covering the period 1953-1987. Although Moss's acting
+		  career included roles in film and on radio and television, with related work as
+		  a narrator and an announcer, the main focus of his work was on the stage.
+		  Likewise, the main focus of the Moss Papers is on his roles in the theater as
+		  an actor, director, producer, and educator. Moss gained particular acclaim for
+		  his performances in the plays of William Shakespeare. This collection of his
+		  papers consists of three series: 
+		  <ref show="replace" actuate="onrequest" target="Corr">General
+			 Correspondence</ref>, 
+		  <ref show="replace" actuate="onrequest" target="Thea">Theater
+			 File</ref>, and 
+		  <ref show="replace" actuate="onrequest" target="Subj">Subject
+			 File</ref>.</p>
+         <p> The 
+		  <ref show="replace" actuate="onrequest" target="Corr">General
+			 Correspondence</ref> series, 1954-1987, documents Moss's interests and
+		  activities primarily as they relate to his career. The major portion consists
+		  of letters received from friends and professional colleagues, although copies
+		  of letters sent are also included. Topics include efforts to gain employment as
+		  an actor, his work at colleges and universities, and his affiliation with
+		  professional organizations. Prominent correspondents include Philip Burton,
+		  Bernard Malamud, Arthur Miller, and Harold Prince.</p>
+         <p> The 
+		  <ref show="replace" actuate="onrequest" target="Thea">Theater
+			 File</ref>, 1953-1987, comprises the largest portion of the papers and reflects
+		  the range of Moss's stage work. There are lengthy files on George Bernard
+		  Shaw's play, 
+		<title localtype="simple">
+                           <part>Back to Methuselah</part>
+                        </title>, which Moss adapted into a shorter
+		version and coproduced with the Theatre Guild for a tour and Broadway run in
+		1957-1958. Moss also acted in the production, playing Shaw. The following year
+		Moss founded and starred in a touring repertory company called the Shakespeare
+		Festival Players. Records relating to the company include contracts, an
+		itinerary, financial files, and press clippings. Also documented in the file is
+		Moss's position as an American specialist in theater for the United States
+		Department of State. He toured countries in Central and South America and later
+		in Africa and the Far East giving performances and lectures. Files on concert
+		readings relate to the one-man programs of dramatic readings such as "A Goodly
+		Heritage," "The Seven Ages of Man," and "Windows on America" that Moss
+		performed at colleges and universities and at civic and cultural organizations
+		from the 1950s into the 1980s. For twenty years, Moss performed annually at the
+		Library of Congress as part of the Gertrude Clarke Whittall Poetry and
+		Literature Series, and the related files contain correspondence, scripts,
+		programs, and production notes. Most scripts are filed in a separate scripts
+		section because Moss used the scripts for more than one production. The scripts
+		are annotated, and many contain lighting and sound cues and stage diagrams.</p>
+         <p> The 
+		  <ref show="replace" actuate="onrequest" target="Subj">Subject
+			 File</ref>, 1935-1987, contains material relating to Moss's other activities,
+		  his organizational affiliations, and his academic studies. Files on film, sound
+		  recordings, and television containing information in these areas are limited,
+		  and these aspects of his career are not well documented in the collection.</p>
+         <p> In addition to his work in the performing arts, Moss created
+		  crossword puzzles appearing in the 
+		<title localtype="simple">
+                           <part>New York Times Magazine</part>
+                        </title> and other publications. The
+		crossword puzzle files contain correspondence with the 
+		<title localtype="simple">
+                           <part>New York Times </part>
+                        </title>puzzle editors and drafts of the puzzles.
+		Speeches and writings files contain drafts of published and unpublished
+		articles and speeches primarily relating to the theater. The file on New York
+		University contains material on the doctoral degree which Moss started in the
+		1930s and completed in the 1970s with a dissertation on professional actors as
+		guest artists in college and university theatrical productions.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in three series: </p>
+         <list>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="Corr">General
+				Correspondence, 1954-1987</ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="Thea">Theater File,
+				1953-1987</ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="Subj">Subject File,
+				1935-1987</ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-2</container>
+               <unittitle encodinganalog="245$a" id="Corr">General Correspondence, 
+				 <date normal="1954/1987">1954-1987</date>  
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1954/1987">1954-1987</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Letters received and a few letters sent. </p>
+            </scopecontent>
+            <arrangement>
+               <p>Arranged alphabetically by name of correspondent.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"A" miscellaneous, 
+				   <date>1960-1963, 1971-1986, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960-1963, 1971-1986, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Burton, Philip, 
+				   <date>1970-1975, 1982-1986</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1970-1975, 1982-1986</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"B-G" miscellaneous, 
+				   <date>1958-1986, undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958-1986, undated </unitdate>
+                  <physdesc encodinganalog="300$a">(6
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Hamilton, Thomas H., 
+				   <date>1961-1962</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961-1962</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Hewitt, Alan, 
+				   <date>1967-1973, 1983-1986</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1967-1973, 1983-1986</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"H-K" miscellaneous, 
+				   <date>1954-1986, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1954-1986, undated</unitdate>
+                  <physdesc encodinganalog="300$a">(3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Library of Congress, 
+				   <date>1968, 1973-1974, 1982-1985</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1968, 1973-1974, 1982-1985</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"L" miscellaneous, 
+				   <date>1954, 1962-1979</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1954, 1962-1979</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Malamud, Bernard, 
+				   <date>1971-1972</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1971-1972</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Maleska, Eugene T., 
+				   <date>1974, 1983-1986</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1974, 1983-1986</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Miller, Arthur, 
+				   <date>1969-1970, 1980</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1969-1970, 1980</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Miller, Claire Glass, 
+				   <date>1975-1978</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1975-1978</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"M-O" miscellaneous, 
+				   <date>1963-1984, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1963-1984, undated</unitdate>
+                  <physdesc encodinganalog="300$a">(3
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Picon, Molly, 
+				   <date>1975-1978</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1975-1978</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Prince, Harold, 
+				   <date>1972-1978, 1986</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1972-1978, 1986</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"P" miscellaneous, 
+				   <date>1959, 1971-1982, undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959, 1971-1982, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">"R-Z" miscellaneous, 
+				   <date>1959-1987, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959-1987, undated</unitdate>
+                  <physdesc encodinganalog="300$a">(5
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Unidentified, 
+				   <date>1971, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1971, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2-9</container>
+               <unittitle encodinganalog="245$a" id="Thea">Theater File, 
+				 <date normal="1953/1987">1953-1987</date>  
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1953/1987">1953-1987</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Scripts, correspondence, playbills and programs, clippings,
+				contracts, financial records, and other material relating to Moss's work in the
+				theater. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by title or type of production.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a"> 
+				                             <title localtype="simple">
+                                    <part>Back To Methuselah</part>
+                                 </title>
+                              </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Box office statements, 
+					  <date>1957-1958</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957-1958</unitdate>
+                     <physdesc encodinganalog="300$a"> (2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Contracts and agreements, 
+					  <date>1957-1958</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957-1958</unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">Becker and London, 
+						 <date>1957-1960</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957-1960</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous, 
+						 <date>1953-1966</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1966</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">Society of Authors, 
+						 <date>1956-1966</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956-1966</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">Theatre Guild, 
+						 <date>1953-1958, undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1958, undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Financial matters, 
+					  <date>1957-1958, undated </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957-1958, undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Miscellany, 
+					  <date>1958, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Press clippings, 
+					  <date>1957-1958, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957-1958, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Printed matter, 
+					  <date>1958</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Productions by others of Moss's
+					 adaptation, 
+					  <date>1959-1966</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959-1966</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a" id="moss3">Scripts, 
+					  <date>1956-1958 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956-1958 </unitdate>
+                     <physdesc encodinganalog="300$a">(4
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Concert readings, 
+				   <date>1957-1987, undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957-1987, undated </unitdate>
+                  <physdesc encodinganalog="300$a">(4
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Library of Congress
+				  performances</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Basler, Roy, retirement, 
+					  <date>1974</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1974</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+					  <date>1960-1976, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960-1976, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Dramatic readings </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">"Come, Woo Me!" 
+						 <date>1963, undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1963, undated</unitdate>
+                        <physdesc encodinganalog="300$a">1963,
+						undated</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <title localtype="simple">
+                                          <part>Love's Labour's Lost</part>
+                                       </title>, 
+						 <date>1959, undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959, undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">"One Man In His Time: Edwin
+						Arlington Robinson," 
+						 <date>1969</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1969</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">"Parents and Children," 
+						 <date>1968</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1968</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">"The Year That Trembled:
+						1865," 
+						 <date>1965, undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1965, undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Miscellany, 
+					  <date>1960-1966, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960-1966, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Press, 
+					  <date>1957-1967, 1973, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957-1967, 1973, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Programs, 
+					  <date>1954-1973, 1981</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1954-1973, 1981</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous productions and
+				  performances</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <title localtype="simple">
+                                       <part>Follies</part>
+                                    </title>, 
+					  <date>1972</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1972</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <title localtype="simple">
+                                       <part>King Lear</part>
+                                    </title>, University of Kentucky, Lexington,
+					 Ky., 
+					  <date>1967-1968</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1967-1968</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <title localtype="simple">
+                                       <part>Love's Labour's Lost</part>
+                                    </title>, Otterbein College,
+					 Westerville, Ohio, 
+					  <date>1964</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1964</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Poetry Society of America, 
+					  <date>1960-1969</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960-1969</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <title localtype="simple">
+                                       <part>Story of a Soldier (L'Histoire du Soldat)</part>
+                                    </title>, 
+					  <date>1953-1956</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1953-1956</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Various roles, 
+					  <date>1958-1984, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958-1984, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Notes, sketches, minutes, and
+				  other miscellany, 
+				   <date>1958, 1964-1976, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958, 1964-1976, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Repertory theater proposals, 
+				   <date>1960-1961, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960-1961, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Scripts </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <title localtype="simple">
+                                       <part>Back to Methuselah</part>
+                                    </title> 
+					                               <ref show="replace" actuate="onrequest" target="moss3">
+                                       <emph render="italic">See Container 3, same heading</emph>
+                                    </ref>
+                                 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <title localtype="simple">
+                                       <part>King Lear</part>
+                                    </title>, 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     <physdesc encodinganalog="300$a">(5
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <title localtype="simple">
+                                       <part>Love's Labour's Lost</part>
+                                    </title>, 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     <physdesc encodinganalog="300$a">(6
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <title localtype="simple">
+                                       <part>Macbeth</part>
+                                    </title>, 
+					  <date>1965</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1965</unitdate>
+                     <physdesc encodinganalog="300$a">(3
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a" id="moss7"> 
+					                               <title localtype="simple">
+                                       <part>Measure For Measure</part>
+                                    </title>, 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     <physdesc encodinganalog="300$a">(4
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <title localtype="simple">
+                                       <part>Merry Wives of Windsor</part>
+                                    </title>, 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a" id="moss8"> 
+					                               <title localtype="simple">
+                                       <part>The Tempest</part>
+                                    </title>, 
+					  <date>1957, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(4
+					 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Shakespeare Festival Players
+				  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Box office statements, 
+					  <date>1959</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Cast, 
+					  <date>1959, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Contracts, 
+					  <date>1958-1959</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958-1959</unitdate>
+                     <physdesc encodinganalog="300$a">(3
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+					  <date>1958-1959</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958-1959</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Financial matters, 
+					  <date>1959-1961, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959-1961, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Itinerary, 
+					  <date>1959, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Press clippings, 
+					  <date>1959</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Production material, 
+					  <date>1959, undated </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959, undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Programs, 
+					  <date>1959</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Publicity, 
+					  <date>1959, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Scripts 
+					 <ref show="replace" actuate="onrequest" target="moss7">
+                                       <emph render="italic">See Container 7</emph>, 
+						<title localtype="simple">
+                                          <part>Measure For Measure</part>
+                                       </title> 
+                                    </ref>and 
+					 <ref show="replace" actuate="onrequest" target="moss8">
+                                       <emph render="italic">Container 8</emph>, 
+						<title localtype="simple">
+                                          <part>The Tempest</part>
+                                       </title>
+                                    </ref>
+                                 </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">State Department
+				  tours</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Africa and the Far East, 
+					  <date>1964-1965, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1964-1965, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Central America and South
+					 America, 
+					  <date>1960-1962</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960-1962</unitdate>
+                     <physdesc encodinganalog="300$a">(4
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Miscellany, 
+					  <date>1962-1969 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1962-1969 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">9-11</container>
+               <unittitle encodinganalog="245$a" id="Subj">Subject File, 
+				 <date normal="1935/1937">1935-1987</date>  
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1935/1937">1935-1987</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, notes, résumés, clippings, speeches, writings,
+				draft crossword puzzles, and printed matter. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by name of organization, topic, activity,
+				or type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Actors and actresses, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">American Federation of Television
+				  and Radio Artists (AFTRA), 
+				   <date>1969-1986, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1969-1986, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">American Theatre Association
+				  (ATA)</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">General, 
+					  <date>1973-1986</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1973-1986</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">University and College Theatre
+					 Association (UCTA), 
+					  <date>1973-1974</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1973-1974</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">Biographical information, 
+				   <date>1955-1980, undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955-1980, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">City College of the City
+				  University of New York, New York, N.Y.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">General, 
+					  <date>1968, 1975-1985</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1968, 1975-1985</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Leonard Davis Center for the
+					 Performing Arts, 
+					  <date>1975-1983, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1975-1983, undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">College of William and Mary,
+				  Williamsburg, Va., 
+				   <date>1976-1977</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1976-1977</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Crossword puzzles, 
+				   <date>1967-1987, undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1967-1987, undated </unitdate>
+                  <physdesc encodinganalog="300$a">(4
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Films</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <title localtype="simple">
+                                       <part>The Fool Killer</part>
+                                    </title>, 
+					  <date>1965</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1965</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous, 
+					  <date>1951, 1964-1966</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951, 1964-1966</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">Miscellany, 
+				   <date>1937-1938, 1961-1969, 1978-1981,
+					 undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1937-1938, 1961-1969, 1978-1981,
+					 undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">10</container>
+                  <unittitle encodinganalog="245$a">New York University, New York,
+				  N.Y.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+					  <date>1935-1940, 1970-1979</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1935-1940, 1970-1979</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Dissertation material, 
+					  <date>1972, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1972, undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Phi Beta Kappa, 
+				   <date>1976-1986</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1976-1986</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Sound recordings, 
+				   <date>1956-1960, 1972-1979, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956-1960, 1972-1979, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Speeches and writings, 
+				   <date>1958-1984, undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1958-1984, undated </unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Television, 
+				   <date>circa 1967, 1971, 1977</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1967, 1971, 1977</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Unemployment insurance, 
+				   <date>1966-1970, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1966-1970, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Viennese Opera Ball, 
+				   <date>1971-1976, 1983, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1971-1976, 1983, undated</unitdate>
+                  <physdesc encodinganalog="300$a">(2
+				  folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

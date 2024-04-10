@@ -1,0 +1,2045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms012070">loc.mss/eadmss.ms012070</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Samuel Franklin Emmons Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by Brian McGuire<lb/>
+                        </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2012" encodinganalog="260$c" era="ce" calendar="gregorian">2012</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm80023747">https://lccn.loc.gov/mm80023747</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2012">2012</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Samuel Franklin Emmons
+		  Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1725/1914">1725-1914</date> 
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1861/1911">(bulk 1861-1911)</date> 
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1725/1914"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1725-1914</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1861/1911"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1861-1911)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS23747</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Emmons, Samuel Franklin,
+			 1841-1911</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">14,000
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">41 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">16.4 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">1 microfilm reel</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <language langcode="fre" encodinganalog="041">French</language>
+                        <language langcode="ger" encodinganalog="041">German</language>
+                        <language langcode="spa" encodinganalog="041">Spanish</language>
+                        <language langcode="ita" encodinganalog="041">Italian.</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English, with
+		French, German, Spanish,
+		and Italian.
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address> 
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Geologist. Diaries and
+		  field notes, letterbooks, correspondence, family papers, subject files,
+		  photographs, printed matter, and miscellaneous material relating chiefly to
+		  Emmons's family and his career as a geologist.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20211103094817.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Bartlett, Suzanne Earle Ogden-Jones Emmons, 1861-1954. Suzanne Earle Ogden-Jones Emmons Bartlett papers. 1897-1913.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Emmons family.</part>
+            </famname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Emmons, Samuel Franklin, 1841-1911.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Evans, N. Henry--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>King, Clarence, 1842-1901.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Markoe, Sophie D. Sophie D. Markoe papers. 1852-1911.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Geological Survey (U.S.)</part>
+            </corpname>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>United States Geological Exploration of the Fortieth Parallel (1867-1881)</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Formations (Geology)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Geology.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Mineral industries.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Mines and mineral resources.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>West (U.S.)--Discovery and exploration.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Geologists.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Samuel Franklin Emmons, geologist, were given to the
+		  Library of Congress by his widow, Suzanne Earle Ogden-Jones Emmons Bartlett, in
+		  1947-1948, following a fire in the facility where the papers had been stored
+		  that damaged a considerable amount of the material. In 1958, her daughter, Mrs.
+		  Armistead Peter III, gave additional papers from her mother's estate.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>In 1959, the Emmons Papers were housed and a shelf list was prepared.
+		  In 1981, papers relating to Paul W. Bartlett and Bessie McPherson were
+		  transferred from this collection to a separate collection of Paul W. Bartlett
+		  Papers. The Emmons Papers were rehoused and reorganized in 2006. The finding
+		  aid was revised in 2012.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of Samuel Franklin Emmons in
+		  these papers and in other collections of papers in the custody of the Library
+		  of Congress has been dedicated to the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Samuel Franklin Emmons are open to research. Researchers
+		  are advised to contact the Manuscript Reading Room prior to visiting. Many
+		  collections are stored off-site and advance notice is needed to retrieve these
+		  items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Microfilm</head>
+         <p>A microfilm edition of part of these papers is available on one reel.
+		  Consult reference staff in the Manuscript Division concerning availability for
+		  purchase or interlibrary loan. To promote preservation of the originals,
+		  researchers are required to consult the microfilm edition as available.</p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container or reel number, Samuel Franklin Emmons Papers,
+		  Manuscript Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1841, Mar. 29</datesingle>
+               <event>Born, Boston, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1861</datesingle>
+               <event>Graduated, Harvard College, Boston, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1862</fromdate>
+                              <todate>1865</todate>
+                           </daterange>
+               <event>Attended Ecole Imperiale des Mines, France</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1867</fromdate>
+                              <todate>1877</todate>
+                           </daterange>
+               <event>Member, United States Geological Exploration of the Fortieth
+				Parallel</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1872</datesingle>
+               <event>Exposed a diamond swindle in the Vermillion Creek Basin,
+				Wyo.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1876</datesingle>
+               <event>Married Weltha Anita Steeves</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1877</datesingle>
+               <event>Joined American Institute of Mining Engineers</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1879</fromdate>
+                              <todate>1909</todate>
+                           </daterange>
+               <event> Geologist, United States Geological Survey</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1882</datesingle>
+               <event>Published <title localtype="simple">
+                                 <part>Abstract of a Report upon the Geology and Mining
+							Industry of Leadville, Lake Co., Colorado. Extract from the Annual
+							Report of the Director of the U.S. Geological Survey-1880-81.</part>
+                              </title> Washington, D.C.: Government Printing Office</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1885</datesingle>
+               <event>Published with G. F. Becker <title localtype="simple">
+                                 <part>Geological Sketches of the Precious
+							Metal Deposits of the Western United States, with Notes on Lead Smelting
+							at Leadville. Extract from the Tenth Census of the United States, Vol.
+							XIII "Statistics and Technology of the Precious Metals."
+						</part>
+                              </title>Washington, D.C.: Government Printing Office</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1889</datesingle>
+               <event>Married Sophie Dallas Markoe</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1891</datesingle>
+               <event>General secretary, 5th International Geological
+				Congress</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1903</datesingle>
+               <chronitemset>
+                              <event>President, Geological Society of America</event>
+                              <event>Married Suzanne Earle</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1911, Mar. 28</datesingle>
+               <event>Died, Washington, D.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Samuel Franklin Emmons (1841-1911) span the years
+		  1725-1913, with the bulk of the material concentrated in the period 1861-1911.
+		  The collection consists of diaries and field notes, letterbooks,
+		  correspondence, family papers, subject files, financial records, photographs,
+		  printed matter, and scrapbooks. Some material is in French, German, Spanish,
+		  and Italian. The collection was damaged by fire and water prior to being
+		  received by the Library and much of it is in fragile or decayed condition. </p>
+         <p>The papers treat Emmons's education, personal life, and business
+		  ventures, but the focus is on his explorations in the western United States, on
+		  geological formations and mines and mining, and on the United States Geological
+		  Survey that Emmons cofounded with Clarence King (1842-1901). Prominent in the
+		  collection are files pertaining to the United States Geological Exploration of
+		  the Fortieth Parallel, 1867-1876. There is considerable family material,
+		  including correspondence with his uncle, N. Henry Evans, and papers relating to
+		  his wives, Sophie D. Markoe and Suzanne Earle Odgen-Jones Emmons Bartlett.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in nine series: </p>
+         <list>
+            <item>
+			                        <ref show="replace" actuate="onrequest" target="diar">
+                   Diaries and
+				Field Notes, 1861-1910 
+               </ref>
+                        </item>
+            <item>
+			                        <ref show="replace" actuate="onrequest" target="lett">
+                   Letterbooks,
+				1884-1909 
+               </ref>
+                        </item>
+            <item>
+			                        <ref show="replace" actuate="onrequest" target="corr">
+                   Correspondence,
+				1861-1912 
+               </ref>
+                        </item>
+            <item>
+			                        <ref show="replace" actuate="onrequest" target="fin">
+                   Financial
+				Records, 1867-1911 
+               </ref>
+                        </item>
+            <item>
+			                        <ref show="replace" actuate="onrequest" target="subj">
+                   Subject File,
+				1725-1912 
+               </ref>
+                        </item>
+            <item>
+			                        <ref show="replace" actuate="onrequest" target="sophie">
+                   Sophie D.
+				Markoe Papers, 1852-1911 
+               </ref>
+                        </item>
+            <item>
+			                        <ref show="replace" actuate="onrequest" target="suz">
+                   Suzanne Earle
+				Ogden-Jones Emmons Bartlett Papers, 1897-1914 
+               </ref>
+                        </item>
+            <item>
+			                        <ref show="replace" actuate="onrequest" target="scrap">
+                   Scrapbooks,
+				1871-1905 
+               </ref>
+                        </item>
+            <item>
+			                        <ref show="replace" actuate="onrequest" target="ov">
+                   Oversize,
+				1866-1907 
+               </ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-6</container>
+               <unittitle encodinganalog="245$a" id="diar"> Diaries and Field Notes,
+				
+				 <date normal="1861/1910">1861-1910</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1861/1910">1861-1910</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Diary volumes and field notes.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p> Diaries are arranged chronologically. Field notes are arranged by
+				expedition.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Diaries </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1861-1870</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1861-1870</unitdate>
+                     <physdesc encodinganalog="300$a">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1871-1886</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1871-1886</unitdate>
+                     <physdesc encodinganalog="300$a">(8 folders)</physdesc>
+                  </did>
+                  <altformavail encodinganalog="530">
+                     <p>
+                                    <emph render="italic">
+                                       <emph render="italic">Diary of 1872 is
+					 available on microfilm. Shelf no. 16,978</emph>
+                                    </emph>
+                                 </p>
+                  </altformavail>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1887-1897</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1887-1897</unitdate>
+                     <physdesc encodinganalog="300$a">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1898-1905</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1898-1905</unitdate>
+                     <physdesc encodinganalog="300$a">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1907-1910</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1907-1910</unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Field notes</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Expeditions</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>1869-1872</date>  
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1869-1872</unitdate>
+                        <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>1872-1879</date>  
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1872-1879</unitdate>
+                        <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Acari mines, 
+					  <date>1897</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1897</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Dolliver Mountain Co., 
+					  <date>1902</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1902</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Unidentified, 
+					  <date>1907-1908, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1907-1908, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">7-8</container>
+               <unittitle encodinganalog="245$a" id="lett">Letterbooks, 
+				 <date normal="1884/1909">1884-1909</date> 
+                           </unittitle>
+               <unitdate normal="1884/1909" encodinganalog="245$f" era="ce" calendar="gregorian">1884-1909</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>General letterbooks containing copies of incoming and outgoing
+				correspondence on business, financial, and legal matters.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>General letterbooks are arranged chronologically. Letterbook for
+				the New Pedrara Onyx Co. and an index are filed at the end of the series.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">General</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1884-1900</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1884-1900</unitdate>
+                     <physdesc encodinganalog="300$a">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1909</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1909</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">New Pedrara Onyx Co., 
+				   <date>
+					 1893-1898</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1893-1898</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Index, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Letters from letterbooks, 
+				   <date>
+					 1893-1897, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+					 1893-1897, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">8-16</container>
+               <unittitle encodinganalog="245$a" id="corr">Correspondence, 
+				 <date normal="1861/1912">1861-1912</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1861/1912">1861-1912</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent and received by Emmons and family members.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Correspondence of Samuel Franklin Emmons is arranged
+				chronologically. Correspondence of other Emmons family members is arranged
+				alphabetically by name of family member.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">Emmons, Samuel
+				  Franklin</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1861-1875</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1861-1875</unitdate>
+                     <physdesc encodinganalog="300$a">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1876-1885</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1876-1885</unitdate>
+                     <physdesc encodinganalog="300$a">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1886-1891</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886-1891</unitdate>
+                     <physdesc encodinganalog="300$a">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1891-1893</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1891-1893</unitdate>
+                     <physdesc encodinganalog="300$a">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1894-1902</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1894-1902</unitdate>
+                     <physdesc encodinganalog="300$a">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1903-1909</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1903-1909</unitdate>
+                     <physdesc encodinganalog="300$a">(7 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1910-1912, undated</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1910-1912, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Incomplete letters and loose
+					 pages, 
+					  <date>1884-1910, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1884-1910, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Fragments, 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">Other family members</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Brewster, Frank, 
+					  <date>1886-1888, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886-1888, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Brewster, G. W. Wales, 
+					  <date>1864, 1894-1902</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1864, 1894-1902</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Brewster, Paul O., 
+					  <date>1892</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1892</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Brewster, Robert G., 
+					  <date>1889, 1898-1909</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1889, 1898-1909</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Bullitt, James F., 
+					  <date>1899</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1899</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Emmons, Elise, 
+					  <date>1888</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1888</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">[Emmons?], Elizabeth and
+					 Emilie, 
+					  <date>1897, 1907</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1897, 1907</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Emmons, N. Henry</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>1861-1862</date>  
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1861-1862</unitdate>
+                        <physdesc encodinganalog="300$a"> (2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">16</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>1862-1865, 1897-1902, undated</date>  
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1862-1865, 1897-1902, undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">[Emmons?], Nelson, 
+					  <date>1898</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1898</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">16-20</container>
+               <unittitle encodinganalog="245$a" id="fin">Financial Records, 
+				 <date normal="1867/1911">1867-1911</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1867/1911">1867-1911</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Expense records, account books, ledgers, and miscellany.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of material and chronologically thereunder.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Expense record books, 
+				   <date>1893-1905 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1893-1905 </unitdate>
+                  <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a">Ledgers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1878-1891</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1878-1891</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1892-1909</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1892-1909</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Miscellany</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1867-1885</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1867-1885</unitdate>
+                     <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1886-1893</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886-1893</unitdate>
+                     <physdesc encodinganalog="300$a"> (5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1894-1911, undated</date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1894-1911, undated</unitdate>
+                     <physdesc encodinganalog="300$a"> (6 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Petty cash books, 
+				   <date>1878-1891</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1878-1891</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">20-37</container>
+               <unittitle encodinganalog="245$a" id="subj">Subject File, 
+				 <date normal="1725/1912">1725-1912</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1725/1912">1725-1912</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Reports and writings, printed matter, photographs, educational and
+				training materials, financial and legal records, congressional hearing records,
+				commemorative material, address and appointment books, genealogical and social
+				records, drawings and music.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material or topic.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Autographs, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Address books and cards, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Appointments, 
+				   <date>1883-1906</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1883-1906</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Awards, 
+				   <date>1882-1903</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1882-1903</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Book lists, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">Calling cards, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title localtype="simple">
+                                    <part>Diamond Discovery of 1872</part>
+                                 </title>, by Emmons, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Drawings, 
+				   <date>undated</date>  
+				                             <ref show="replace" actuate="onrequest" target="draw">
+                                    <emph render="italic">See Oversize</emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">Ecole Imperiale des Mines,
+				  France</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">Cours de Machines, by [?]
+					 Callon, 
+					  <date>1858</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1858</unitdate>
+                     <physdesc encodinganalog="300$a"> (3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">Graduation certificate, 
+					  <date>1864</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1864</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">Miscellany, 
+					  <date>1862-1865</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1862-1865</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">European trip, 
+				   <date>1861-1862</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1861-1862</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">Family heights and weights, 
+				   <date>1906-1908</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1906-1908</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">Genealogical material</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+					  <date>1725, 1847, 1873, 1893-1904,
+						undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1725, 1847, 1873, 1893-1904,
+						undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">Notebook, 
+					  <date>1892</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1892</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">Notes, 
+					  <date>undated</date>  
+					                               <ref show="replace" actuate="onrequest" target="note1">
+                                       <emph render="italic">See also Oversize</emph>
+                                    </ref>
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     <physdesc encodinganalog="300$a">(3 folders) </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <unittitle encodinganalog="245$a">International Congress of
+				  Geologists</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">3rd Congress, 
+					  <date>1885</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1885</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">5th Congress, 
+					  <date>1888-1891</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1888-1891</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <unittitle encodinganalog="245$a">Legal papers, 
+				   <date>1872-1911, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1872-1911, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Maps, 
+				   <date>1893-1907, undated</date>  
+				                             <ref show="replace" actuate="onrequest" target="map1">
+                                    <emph render="italic">See also Oversize</emph>
+                                 </ref>
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1893-1907, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Mines and mining</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">Leadville, Colo.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">Miscellany, 
+						 <date>1894-1896, undated </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1894-1896, undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">Specimens, 
+						 <date>undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">Mexican mines, 
+					  <date>1896-1903, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1896-1903, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">Miscellany, 
+					  <date>1866-1867, 1894, undated</date>  
+					                               <ref show="replace" actuate="onrequest" target="misc1">
+                                       <emph render="italic">See also Oversize</emph>
+                                    </ref>
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1866-1867, 1894, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">New Pedrara Onyx
+					 Co.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">Correspondence, 
+						 <date>1893-1895</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1893-1895</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">Financial records, 
+						 <date>1894</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1894</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Maps, 
+						 <date>undated </date>  
+						                                 <ref show="replace" actuate="onrequest" target="map1">
+                                          <emph render="italic">See Oversize</emph>
+                                       </ref>
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Minutes, 
+						 <date>1893-1900, undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1893-1900, undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Miscellany, 
+						 <date>1866, 1873-1906, undated</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1866, 1873-1906, undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">Musical scores, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">Notes, 
+				   <date>1862, 1872, 1894, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1862, 1872, 1894, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">25</container>
+                  <unittitle encodinganalog="245$a">Office of the Chief of
+				  Engineers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">Correspondence, 
+					  <date>1873-1876</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1873-1876</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">Financial records, 
+					  <date>1871-1876</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1871-1876</unitdate>
+                     <physdesc encodinganalog="300$a"> (2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">U.S. Geological Exploration of
+					 the Fortieth Parallel, 
+					  <date>1867-1876 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1867-1876 </unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">26</container>
+                  <unittitle encodinganalog="245$a">Photographs</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">Bivouvac, 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">European art and architecture
+					 album, 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">Family, 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">Freiburg, Germany, 
+					  <date>1864</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1864</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">Miscellany, 
+					  <date>1864, 1879, undated</date>  
+					                               <ref show="replace" actuate="onrequest" target="photo1">
+                                       <emph render="italic">See also Oversize</emph>
+                                    </ref>
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1864, 1879, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(1 folder)</physdesc>
+                     <container localtype="box">27</container>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">Morse, W. G., 
+					  <date>1872, 1894, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1872, 1894, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">Washington, D.C., group
+					 portrait, 
+					  <date>1887</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1887</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">Printed matter</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">28</container>
+                     <unittitle encodinganalog="245$a">Books, 
+					  <date>1868-1905, undated </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1868-1905, undated </unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">29</container>
+                     <unittitle encodinganalog="245$a">Miscellany, 
+					  <date>1864-1911, undated </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1864-1911, undated </unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">29</container>
+                     <unittitle encodinganalog="245$a">Newspaper clippings, 
+					  <date>1864-1911, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1864-1911, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">29</container>
+                     <unittitle encodinganalog="245$a">Pamphlets and
+					 booklets</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">About Emmons, 
+						 <date>1911-1912</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1911-1912</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">By Emmons, 
+						 <date>1890-1906</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1890-1906</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">On geology and
+						mining</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">29</container>
+                           <unittitle encodinganalog="245$a">In English</unittitle>
+                           <physdesc encodinganalog="300$a">(1 folder)</physdesc>
+                           <container localtype="box">30</container>
+                           <physdesc encodinganalog="300">(5 folders)</physdesc>
+                           <container localtype="box">31</container>
+                           <physdesc encodinganalog="300">(4 folders)</physdesc>
+                           <container localtype="box">32</container>
+                           <physdesc encodinganalog="300">(1 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">32</container>
+                           <unittitle encodinganalog="245$a">In French</unittitle>
+                           <physdesc encodinganalog="300$a">(3
+						  folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">33</container>
+                           <unittitle encodinganalog="245$a">In German</unittitle>
+                           <physdesc encodinganalog="300$a">(4
+						  folders)</physdesc>
+                           <container localtype="box">34</container>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">34</container>
+                           <unittitle encodinganalog="245$a">In Spanish and
+						  Italian</unittitle>
+                           <physdesc encodinganalog="300$a">(1 folder)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">34</container>
+                  <unittitle encodinganalog="245$a">Reports</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">34</container>
+                     <unittitle encodinganalog="245$a">
+                                    <title localtype="simple">
+                                       <part>Economic Geology of the Cananea
+									Mountains</part>
+                                    </title>, 
+					  <date>1908</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1908</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">34</container>
+                     <unittitle encodinganalog="245$a">Miscellany, 
+					  <date>1876, 1885, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1876, 1885, undated</unitdate>
+                     <container localtype="box">34</container>
+                     <physdesc encodinganalog="300$a">(1 folder)</physdesc>
+                     <container localtype="box">35</container>
+                     <physdesc encodinganalog="300$a">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">35</container>
+                     <unittitle encodinganalog="245$a">Raft River Mountains
+					 (incomplete), 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">35</container>
+                  <unittitle encodinganalog="245$a">United States Geological
+				  Survey</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">35</container>
+                     <unittitle encodinganalog="245$a">Director’s report, 
+					  <date>1881</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1881</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">35</container>
+                     <unittitle encodinganalog="245$a">Financial records, 
+					  <date>1885, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1885, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">35</container>
+                     <unittitle encodinganalog="245$a">King, Clarence, 
+					  <date>1873-1902, undated</date>  
+					                               <ref show="replace" actuate="onrequest" target="king1">
+                                       <emph render="italic">See also Oversize</emph>
+                                    </ref>
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1873-1902, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">35</container>
+                     <unittitle encodinganalog="245$a">Miscellany, 
+					  <date>1881-1904</date>  
+					                               <ref show="replace" actuate="onrequest" target="misc2">
+                                       <emph render="italic">See also Oversize</emph>
+                                    </ref>
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1881-1904</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">35</container>
+                     <unittitle encodinganalog="245$a">Office operation, 
+					  <date>1903, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1903, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">36</container>
+                     <unittitle encodinganalog="245$a">Publications, 
+					  <date>1886</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">36</container>
+                     <unittitle encodinganalog="245$a">Twentieth-anniversary dinner, 
+					  <date>1904</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1904</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">36</container>
+                  <unittitle encodinganalog="245$a">Washington Casino
+				  Association</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">36</container>
+                     <unittitle encodinganalog="245$a">Board of directors, 
+					  <date>1884</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1884</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">36</container>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">36</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>1883-1891, undated</date>  
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1883-1891, undated</unitdate>
+                        <container localtype="box">36</container>
+                        <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                        <container localtype="box">37</container>
+                        <physdesc encodinganalog="300$a">(1 folder)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">37</container>
+                     <unittitle encodinganalog="245$a">Financial records, 
+					  <date>1883-1886, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1883-1886, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">37</container>
+                     <unittitle encodinganalog="245$a">Legal papers, 
+					  <date>1883</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1883</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">37</container>
+                     <unittitle encodinganalog="245$a">Miscellany, 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">37</container>
+                     <unittitle encodinganalog="245$a">Stockholders’ meetings, 
+					  <date>1883-1888</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1883-1888</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">37-40</container>
+               <unittitle encodinganalog="245$a" id="sophie">Sophie D. Markoe
+				Papers, 
+				 <date normal="1852/1911">1852-1911</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1852/1911">1852-1911</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Autographs, quotations, and birthday greetings collected by Markoe
+				and her correspondence, diary, financial records, and society notices.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material or topic.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">37</container>
+                  <unittitle encodinganalog="245$a">Autograph book, 
+				   <date>1883-1885</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1883-1885</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">37</container>
+                  <unittitle encodinganalog="245$a">Birthday book, 
+				   <date>1881-1885</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1881-1885</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">38</container>
+                  <unittitle encodinganalog="245$a">Books of quotations</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">38</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1876-1880 </date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1876-1880 </unitdate>
+                     <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">39</container>
+                     <unittitle encodinganalog="245$a"> 
+					                               <date>1880-1888 </date>  
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1880-1888 </unitdate>
+                     <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">39</container>
+                  <unittitle encodinganalog="245$a">Correspondence, 
+				   <date>1876-1895, undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1876-1895, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40</container>
+                  <unittitle encodinganalog="245$a">Diary, 
+				   <date>1895</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1895</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title localtype="simple">
+                                    <part>Essays from the London
+								Times</part>
+                                 </title>, 
+				   <date>1852</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1852</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40</container>
+                  <unittitle encodinganalog="245$a">Financial records, 
+				   <date>1885, 1896</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1885, 1896</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40</container>
+                  <unittitle encodinganalog="245$a">Markoe, Mary G., 
+				   <date>1903-1911, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1903-1911, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40</container>
+                  <unittitle encodinganalog="245$a">Society notices, 
+				   <date>1891-1894, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1891-1894, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">40-41</container>
+               <unittitle encodinganalog="245$a" id="suz">Suzanne Earle Ogden-Jones
+				Emmons Bartlett Papers, 
+				 <date normal="1897/1914">1897-1914</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1897/1914">1897-1914</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p> Correspondence, financial records, calling cards, invitations,
+				and miscellany.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p> Arranged alphabetically by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40</container>
+                  <unittitle encodinganalog="245$a">Calling cards, 
+				   <date>undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40</container>
+                  <unittitle encodinganalog="245$a">Correspondence, 
+				   <date>1897-1913</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1897-1913</unitdate>
+                  <physdesc encodinganalog="300$a"> (2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">41</container>
+                  <unittitle encodinganalog="245$a">Financial records, 
+				   <date>1906-1913, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1906-1913, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">41</container>
+                  <unittitle encodinganalog="245$a">Invitations, 
+				   <date>1910, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1910, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">41</container>
+                  <unittitle encodinganalog="245$a">Miscellany, 
+				   <date>1910-1914, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1910-1914, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">41</container>
+               <unittitle encodinganalog="245$a" id="scrap">Scrapbooks, 
+				 <date normal="1871/1905">1871-1905</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1871/1905">1871-1905</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>One volume covers the United States Geological Exploration of the
+				Fortieth Parallel with general volumes and newspaper clippings. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>General volumes and newspaper clippings are arranged
+				chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">41</container>
+                  <unittitle encodinganalog="245$a">United States Geological
+				  Exploration of the Fortieth Parallel, 
+				   <date>1871-1879</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1871-1879</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">41</container>
+                  <unittitle encodinganalog="245$a">General, 
+				   <date>1889-1905</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1889-1905</unitdate>
+                  <physdesc encodinganalog="300$a"> (2 vols.)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">41</container>
+                  <unittitle encodinganalog="245$a">Loose clippings, 
+				   <date>1886, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a" id="ov">Oversize, 
+				 <date normal="1866/1907">1866-1907</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1866/1907">1866-1907</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Drawings, genealogical notes, maps, photographs, and a
+				presidential proclamation.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged and described according to the series and folders from
+				which the items were removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Subject File</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="draw">Drawings, 
+					  <date>undated </date>  (Container 21)</unittitle>
+                     <unitdate era="ce" calendar="gregorian">undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a">Genealogical
+					 material</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 1</container>
+                        <unittitle encodinganalog="245$a" id="note1">Notes, 
+						 <date>undated </date>  (Container 23)</unittitle>
+                        <unitdate era="ce" calendar="gregorian">undated </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="map1">Maps, 
+					  <date>1893-1907 </date>  (Container 24)</unittitle>
+                     <unitdate era="ce" calendar="gregorian">1893-1907 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="misc1">Mines and
+					 mining</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 1</container>
+                        <unittitle encodinganalog="245$a">Miscellany, plate Chinese
+						coal-bearing rocks, 
+						 <date>1866 </date>  (Container 24)</unittitle>
+                        <unitdate era="ce" calendar="gregorian">1866 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 1</container>
+                        <unittitle encodinganalog="245$a" id="map2">New Pedrara Onyx
+						Co., map, 
+						 <date>undated </date> (Container 24)</unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="photo1">Photographs,
+					 miscellany, 
+					  <date>undated </date> (Container 26)</unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a">United States Geological
+					 Survey</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 1</container>
+                        <unittitle encodinganalog="245$a" id="king1">King, Clarence,
+						genealogical chart, 
+						 <date>1891 </date> (Container 35)</unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1891 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 1</container>
+                        <unittitle encodinganalog="245$a" id="misc2">Miscellany,
+						proclamation by President Benjamin Harrison, 
+						 <date>1890 </date> (Container 35)</unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1890 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,2627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms013016">loc.mss/eadmss.ms013016</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Montgomery Family Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Audrey Walker</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78056630">https://lccn.loc.gov/mm78056630</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-06">2023 June</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2013">2013</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Montgomery Family Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1771/1974">1771-1974</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1858/1974">1858-1974</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1771/1974"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1771-1974</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1858/1974"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1858-1974</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS56630</unitid>
+         <origination label="Creator">
+            <famname encodinganalog="100" source="lcnaf">
+               <part>Montgomery family</part>
+            </famname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">12,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">33 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">13.2 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Correspondence, speeches and writings,
+            financial papers, newspaper clippings and miscellany of various members of the
+            Montgomery family, especially Giles Foster Montgomery (1835-1888) and Emily Redington
+            Montgomery (1839-1898). Includes papers of allied Peck and Perkins families relating to
+            the experiences of members in the Civil War.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220930165511.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Borglum, Gutzon, 1867-1941--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Borglum, Mary--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Cummings, Homer S. (Homer Stillé), 1870-1956--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Draper, Ernest Gallaudet, 1885-1954--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Franklin, John L. (John Lester), 1856-1901--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lansing, Robert, 1864-1928--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lodge, Henry Cabot, 1850-1924--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Meyer, Eugene, 1875-1959--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Montgomery family.</part>
+            </famname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Montgomery, Emily Redington, 1839-1898. Emily Redington Montgomery
+                  papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Montgomery, George Redington, 1870-1945. George Redington Montgomery
+                  papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Montgomery, Giles Foster, 1835-1888. Giles Foster Montgomery papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Montgomery, Marshall Hugh, 1909-2000. Marshall Hugh Montgomery papers.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Peck family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Peck, Frank Henry, 1836-1864--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Perkins family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Perkins, Newton William, 1839-1902--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Trowbridge, J. A. (James A.), Jr.--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Armenia America Society.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Aubrey G. Langston &amp; Co.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Inter-allied Commission on Mandates in Turkey. American Section.</part>
+            </corpname>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>Paris Peace Conference (1919-1920)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army--Military life.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Connecticut Infantry Regiment, 12th (1861-1865)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Connecticut Infantry Regiment, 13th (1862-1866)</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Banks and banking--New York (State)--New York.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Missions--Turkey.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Securities--New York (State)--New York.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Connecticut--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Fort Jackson (La.)--History--Siege, 1862.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Fort Saint Philip (La.)--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Louisiana--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New Orleans (La.)--History--Capture, 1862.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New Orleans (La.)--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Turkey--Social conditions.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865--Campaigns.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Virginia--History--Civil War, 1861-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Washington (D.C.)--History--Civil War, 1861-1865.</part>
+            </geogname>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of the Montgomery family were given to the Library of Congress by Marshall
+            H. Montgomery in 1975.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of the Montgomery family were arranged and described in 1978. The finding aid
+            was revised in 2012. The finding aid was updated in 2023 by Maria Farmer as part of a
+            division-wide remediation project by the Inclusive Description Working Group. </p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p> Some photographs have been transferred to the Library's Prints and Photographs Division
+            where they are identified as part of these papers.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of the Montgomery family is governed
+            by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of the Montgomery family are open to research. Researchers are advised to
+            contact the Manuscript Reading Room prior to visiting. Many collections are stored
+            off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Montgomery Family Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <bioghist encodinganalog="545">
+            <head>Giles Foster Montgomery</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1835, Nov. 8</datesingle>
+                  <event>Born, Walden, Vt.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1860</datesingle>
+                  <event>Graduated, Middlebury College, Middlebury, Vt.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1863</datesingle>
+                  <chronitemset>
+                     <event>Graduated, Lane Seminary, Cincinnati, Ohio</event>
+                     <event> Married Emily Redington</event>
+                     <event>Sailed to Turkey as a missionary</event>
+                  </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1864</datesingle>
+                  <event>Stationed at Adana, Turkey</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1865</datesingle>
+                  <event>Transferred to Marash, Turkey</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1883</datesingle>
+                  <event>Returned to Adana, Turkey</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1885</datesingle>
+                  <event>Assumed pastorate, Phoenix, Oswego Co., N.Y.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1886</datesingle>
+                  <event>Returned to Adana, Turkey</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1888</datesingle>
+                  <event>Died, Adana, Turkey</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist encodinganalog="545">
+            <head>Emily Redington Montgomery</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1839, Aug. 2</datesingle>
+                  <event>Born, Moscow, N.Y.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1863</datesingle>
+                  <chronitemset>
+                     <event> Married Giles Foster Montgomery</event>
+                     <event>Sailed to Turkey as missionary</event>
+                  </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1876</datesingle>
+                  <event>Visited the United States </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1877</datesingle>
+                  <event>Returned to Marash, Turkey</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1883</datesingle>
+                  <event>Transferred to Adana, Turkey</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1884</datesingle>
+                  <event> Returned to the United States </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1887</datesingle>
+                  <event>Returned to Adana, Turkey</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1888</datesingle>
+                  <event>Moved to New Haven, Conn.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1892</datesingle>
+                  <event>Returned to Turkey</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1898, Feb. 19</datesingle>
+                  <event> Died, Beirut, Syria</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist encodinganalog="545">
+            <head>George Redington Montgomery</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1870, June 17</datesingle>
+                  <event>Born, Marash, Turkey</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1892</datesingle>
+                  <event>A.B., Yale University, New Haven, Conn.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1894</datesingle>
+                  <event>LL.B., Yale University, New Haven, Conn.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1897</datesingle>
+                  <event>War correspondent, London <emph render="italic">Standard,</emph> and
+                     special correspondent, London <title localtype="simple">
+                        <part>Daily Graphic,</part>
+                     </title> London England</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1897</fromdate>
+                     <todate>1898</todate>
+                  </daterange>
+                  <event>Student, University of Berlin, Berlin, Germany</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1900</datesingle>
+                  <event>B.D., Yale University, New Haven, Conn.</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1900</fromdate>
+                     <todate>1904</todate>
+                  </daterange>
+                  <event> Lecturer, Department of Philosophy, Yale University, New Haven,
+                     Conn.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1901</datesingle>
+                  <chronitemset>
+                     <event>Ph.D., Yale University, New Haven, Conn.</event>
+                     <event>Ordained Congregationalist minister</event>
+                  </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1901</fromdate>
+                     <todate>1904</todate>
+                  </daterange>
+                  <event> Pastor, Olivet Church, Bridgeport, Conn.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1902 </datesingle>
+                  <event>Married Emily E. Emerson (died 1903)</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1903 </datesingle>
+                  <event>Published <title localtype="simple">
+                        <part> The Place of Values.</part>
+                     </title> Bridgeport, Conn.: G. R. Montgomery </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1904</fromdate>
+                     <todate>1905</todate>
+                  </daterange>
+                  <event>Professor of philosophy, Carleton College, Northfield, Minn.</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1906</fromdate>
+                     <todate>1916</todate>
+                  </daterange>
+                  <event>Assistant minister, Madison Square Presbyterian Church, New York, N.Y.
+                  </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1907</datesingle>
+                  <event>Married Helen M. Perkins</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1910</datesingle>
+                  <event>Published <title localtype="simple">
+                        <part>The Unexplored Self.</part>
+                     </title> New York: G. P. Putnam's Sons </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1911</fromdate>
+                     <todate>1918</todate>
+                  </daterange>
+                  <event>Lecturer, New York University, New York, N.Y.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1916</datesingle>
+                  <event>Special assistant to the United States ambassador, Constantinople,
+                     Turkey</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1917</datesingle>
+                  <event>Air service, Paris, France</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1918</datesingle>
+                  <chronitemset>
+                     <event>Secretary of Paris Division, YMCA</event>
+                     <event>Attached to Paris Peace Conference</event>
+                  </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1919</datesingle>
+                  <event>Technical adviser, Inter-allied Commission on Mandates in Turkey
+                     (King-Crane Commission)</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1919</fromdate>
+                     <todate>1920</todate>
+                  </daterange>
+                  <event>Assistant professor of French, Yale University, New Haven, Conn. </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1920</fromdate>
+                     <todate>1923</todate>
+                  </daterange>
+                  <event>Director, Armenia America Society</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1925</fromdate>
+                     <todate>1940</todate>
+                  </daterange>
+                  <event>Pastor, Noroton Presbyterian Church, Darien, Conn. </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1929</fromdate>
+                     <todate>1945</todate>
+                  </daterange>
+                  <event>Editorial writer, Stamford <title localtype="simple">
+                        <part>Advocate</part>
+                     </title>
+                  </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1940</fromdate>
+                     <todate>1945</todate>
+                  </daterange>
+                  <event>Pastor emeritus, Noroton Presbyterian Church, Darien, Conn.</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1942</datesingle>
+                  <event>Published <title localtype="simple">
+                        <part>English Language Sounds. </part>
+                     </title>Stamford, Conn.: R. Montgomery Publishing Co. </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1945, Nov. 29</datesingle>
+                  <event>Died, Stamford, Conn. </event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+         <bioghist encodinganalog="545">
+            <head>Marshall Hugh Montgomery</head>
+            <chronlist>
+               <listhead>
+                  <head01>Date</head01>
+                  <head02>Event</head02>
+               </listhead>
+               <chronitem>
+                  <datesingle>1909, May 16</datesingle>
+                  <event> Born, New York</event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1931</datesingle>
+                  <event>B.A., Middlebury College, Middlebury, Vt. </event>
+               </chronitem>
+               <chronitem>
+                  <datesingle>1933</datesingle>
+                  <event>Married Prudence B. Ingham </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1931</fromdate>
+                     <todate>1940</todate>
+                  </daterange>
+                  <event>Discount banker, New York Hanseatic Corp. </event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1940</fromdate>
+                     <todate>1951</todate>
+                  </daterange>
+                  <event>Secretary, D. W. Rich &amp; Co.</event>
+               </chronitem>
+               <chronitem>
+                  <daterange>
+                     <fromdate>1951</fromdate>
+                     <todate>1974</todate>
+                  </daterange>
+                  <chronitemset>
+                     <event>Vice president, Aubrey G. Langston &amp; Co.</event>
+                     <event>Member, American Stock Exchange</event>
+                  </chronitemset>
+               </chronitem>
+               <chronitem>
+                  <datesingle>2000, Oct. 11</datesingle>
+                  <event>Died, Delray Beach, Fla.</event>
+               </chronitem>
+            </chronlist>
+         </bioghist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p> The papers of the Montgomery family record the activities of five generations of the
+            family and also include two smaller groups of papers belonging to the Peck and Perkins
+            families that were merged with the Montgomery family by the marriage of George Redington
+            Montgomery to Helen M. Perkins in 1907. The collection spans the years 1771-1974, with
+            the bulk of the material from 1858 to 1974, and is organized into three series: <ref show="replace" actuate="onrequest" target="Peck">Peck Family Papers</ref>, <ref show="replace" actuate="onrequest" target="Perk">Perkins Family Papers</ref>, and
+               <ref show="replace" actuate="onrequest" target="Mont">Montgomery Family Papers
+            </ref>. Included are correspondence, speeches and writings, financial papers, newspaper
+            clippings, a large assemblage of miscellany, and a special segment of correspondence and
+            papers relating to the work of the Inter-allied Commission on Mandates in Turkey
+            (King-Crane Commission) after World War I and the Armenia-America Society.</p>
+         <p> The <ref show="replace" actuate="onrequest" target="Peck">Peck Family Papers</ref> are
+            primarily those of Frank Henry Peck, a maternal cousin of Helen Perkins Montgomery.
+            Although the Peck Family Papers cover the years 1771-1946, most are concentrated within
+            the period 1856-1864 and consist of correspondence between Frank Peck and his mother and
+            brother. The letters written between 1856 and 1857 are concerned with his first job as a
+            teacher following his graduation from Yale University. The first of the Civil War
+            letters, written in the spring of 1862 after he had joined the 12th Connecticut Infantry
+            Regiment, reflect the anxiety and trepidation that the new recruit felt in anticipation
+            of his first encounter with the enemy. Later letters contain accounts of troop
+            activities and reconnoitering expeditions, and the letters of April 19 and 30 and May 4,
+            1862, describe in detail the bombardment of Fort Jackson and Fort Saint Philip, and
+            finally, the capitulation of the city of New Orleans. Some of the letters written during
+            this period are good sources for impressions and accounts of the military occupation of
+            New Orleans. </p>
+         <p>The <ref show="replace" actuate="onrequest" target="Perk">Perkins Family Papers</ref>
+            span the years 1832-1953, but the nucleus of the series is the Civil War correspondence
+            of Newton William Perkins written between 1861 and 1866. Perkins, the father of Helen
+            Perkins Montgomery, was a colonel and later brevet major with the 13th Connecticut
+            Infantry Regiment. His letters, written from on board various ships and from different
+            camps, trace the movement of his regiment from Connecticut to New Orleans and back to
+            Washington, D.C., and Virginia as changes were made in the strategy of the war. The
+            letters also recount his daily duties and experiences and describe the general hardships
+            endured by the soldiers. Some regimental muster rolls and papers from his service as
+            provost marshal are included in the collection. </p>
+         <p>The series of <ref show="replace" actuate="onrequest" target="Mont">Montgomery Family
+               Papers</ref> extend from 1858 to 1974 and are centered around George Redington
+            Montgomery and Marshall Hugh Montgomery. The closeness that existed between the members
+            of the family is reflected in <ref target="montfam">family correspondence</ref> forming
+            about one third of the series. The letters generally relate to family matters, but also
+            touch on other areas. Emily Redington Montgomery's letters to her children are
+            significant for their glimpses of Turkey during the awakening of national consciousness
+            among the countries of the Ottoman Empire. They contain references to the treatment of
+            non-Muslims, mention uprisings in various towns, and provide insight into the
+            difficulties of operating a Christian mission school in Turkey during the reign of
+            Abdul-Hamid II, Sultan of the Turks. George Redington Montgomery's letters to his family
+            during 1918-1919 report his observations on America's participation in the Paris Peace
+            Conference after World War I and comment on the attitudes and objectives of the Allied
+            Powers at the conference. </p>
+         <p>The bulk of the <ref target="montgencor">general correspondence</ref> in the Montgomery
+            Family Papers series consists of letters received and a few copies of letters sent by
+            George Redington Montgomery; Mary Borglum (daughter of Giles Foster Montgomery and Emily
+            Redington Montgomery) and her husband, Gutzon Borglum; and Marshall Hugh Montgomery.
+            Those of George Montgomery relate to the development of his career and to his church
+            activities. Correspondents include James Trowbridge, Robert Lansing, John L. Franklin,
+            Ernest Gallaudet Draper, Eugene Meyer, Homer S. Cummings, and Henry Cabot Lodge
+            (1850-1924). Most of Mary's letters are to and from friends, although some of the later
+            ones pertain to her financial problems. The letters of Marshall are a commentary on his
+            standing in the community. They show his support of community and public service
+            projects, his participation in local government, and his interest in local history. </p>
+         <p>The <ref target="montbus">business papers</ref> in the Montgomery Family Papers contain
+            correspondence and printed matter covering the thirty years Marshall Hugh Montgomery
+            served as a dealer in securities on Wall Street where he pioneered the use of repurchase
+            agreements. For the most part, the papers contain little information on specific
+            financial dealings. Those representing his years with D. W. Rich &amp; Company are
+            mainly letters exchanged with members of the firm while he was on military leave during
+            the World War II. The letters kept him abreast of developments in the office and up to
+            date on his financial interests in the company. The papers accumulated during his years
+            with Aubrey G. Langston &amp; Company are more typical of the kinds of activities and
+            duties he performed with the company. There are telex messages, internal correspondence,
+            notices of meetings of financial associations, lists of banks and corporations for which
+            Aubrey G. Langston &amp; Company purchased securities, and drafts of business letters,
+            including two that explain how repurchase agreements worked. </p>
+         <p>The <ref target="montsubj">subject files</ref> in the Montgomery Family Papers relate to
+            Turkey. In May 1919 George Rediington Montgomery was authorized to accompany Henry
+            Churchill King and Charles Richard Crane on a trip to Turkey to study political and
+            economic conditions and to ascertain the views of the people regarding the settlement of
+            the Near Eastern question. The papers of the King-Crane Commission consist primarily of
+            the notes he took at the towns where the commission heard testimony. Some working papers
+            used in preparing the commission's report and a copy of the report as published in the
+            December 2, 1922, issue of Editor and Publisher are also included in the collection. </p>
+         <p>The treatment of the Armenians and other Christians was a recurring problem prior to and
+            during the dissolution of the Ottoman Empire. The question of a homeland for the
+            Armenians arose again following the defeat of Turkey and the need to settle the
+            situation in the Near East at the end of World War I. In 1920 the Armenia-America
+            Society was formed to secure American support for the Armenian cause. George Redington
+            Montgomery became its director. His collection of Armenia-America Society papers
+            documents the activities of that organization in the United States and abroad, including
+            the final appeal of the society to the Lausanne Conference of 1923 and the trip of
+            George Montgomery to Russia on behalf of the Armenians. </p>
+         <p>The <ref target="montmisc">miscellany</ref> section of the Montgomery Family Papers
+            contains an extensive record of the family's activities. It includes newspaper clippings
+            about members of the family, their scholastic records, memorabilia from high school and
+            college days, diplomas, military papers, and other personal material. </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in three series: </p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Peck"> Peck Family Papers, 1771-1946
+               </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Perk"> Perkins Family Papers,
+                  1832-1953 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="Mont"> Montgomery Family Papers,
+                  1858-1974 </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a" id="Peck">Peck Family Papers, <date normal="1771/1946">1771-1946 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1771/1946">1771-1946 </unitdate>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a" id="peckfam">Family Correspondence,
+                        <date>1841-1864</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1841-1864</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Family letters sent and received. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged alphabetically by name of writer and therein chronologically.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Anna Peck</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">David J. Peck</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Frank Henry Peck, 1856-1864 </unittitle>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Other family members</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a" id="peckgencor">General Correspondence,
+                        <date>1854-1916</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1854-1916</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Letters sent and received. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged chronologically.</p>
+               </arrangement>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a" id="peckmisc">Miscellany, <date>1771-1946</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1771-1946</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Miscellaneous personal items. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged alphabetically by name of family member.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">David J. Peck</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Frank Henry Peck </unittitle>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Other family members</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">2-3</container>
+               <unittitle encodinganalog="245$a" id="Perk">Perkins Family Papers, <date normal="1832/1953">1832-1953</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1832/1953">1832-1953</unitdate>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a" id="perkfam">Family Correspondence,
+                        <date>1832-1953</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1832-1953</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Family letters sent and received. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged alphabetically by name of writer and therein chronologically.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Abigail Peck Perkins</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Newton William Perkins,
+                           <date>1861-1901</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1861-1901</unitdate>
+                     <physdesc encodinganalog="300$a">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Theresa H. Perkins</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Other family members</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a" id="perkgencor">General Correspondence,
+                        <date>1862-1909</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1862-1909</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Letters sent and received. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged chronologically.</p>
+               </arrangement>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a" id="perkfin">Financial Papers,
+                        <date>1877-1912</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1877-1912</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Account book, bills and receipts, and financial diaries. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged by name of family member. </p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Abigail Peck Perkins</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Accounts for cottage at Short Beach,
+                           Conn., and tax receipts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Financial diaries, <date>1904-1911,</date>
+                           and account book, <date>1904-1912</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1904-1911,</unitdate>
+                        <unitdate era="ce" calendar="gregorian">1904-1912</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Estate of</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Newton William Perkins</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a" id="perkmisc">Miscellany, <date>1840-1912</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1840-1912</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Birth certificates, clippings, and military papers. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged by type of material.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Clippings</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Military papers</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Newton William Perkins</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">13th Regiment, Connecticut</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Obituaries, Newton William
+                        Perkins</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">4-33</container>
+               <unittitle encodinganalog="245$a" id="Mont">Montgomery Family Papers, <date normal="1858/1974">1858-1974</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian" normal="1858/1974">1858-1974</unitdate>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a" id="montdiar">Diaries, <date>1866-1927</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1866-1927</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Diaries of family members. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged alphabetically by name of family member.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Giles Foster Montgomery, <date>1866, Nov.
+                           17-Dec. 14</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1866, Nov.
+                        17-Dec. 14</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Marshall Hugh Montgomery, <date>1927, Jan.
+                           1-Mar. 18</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927, Jan.
+                        1-Mar. 18</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Roger E. Montgomery, <date>1916, Dec. 5-1917,
+                           Apr. 19</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1916, Dec.
+                        5-1917, Apr. 19</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">4-12</container>
+                  <unittitle encodinganalog="245$a" id="montfam">Family Correspondence,
+                        <date>1874-1973</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1874-1973</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Family letters sent and received. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged alphabetically by name of writer and therein chronologically.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Gutzon Borglum</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Lincoln Borglum</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Louella Borglum</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Mary Ellis Borglum</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Mary Montgomery Borglum </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1883-1907 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1883-1907 </unitdate>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1921-1955 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1921-1955 </unitdate>
+                        <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Margaret M. Hanna</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Estelle H. Ingham</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Eleanor B. Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Emily Emerson Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Emily Redington Montgomery,
+                           <date>1885-1898</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1885-1898</unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Ernest E. Montgomery </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">George Redington Montgomery,
+                           <date>1885-1945</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1885-1945</unitdate>
+                     <physdesc encodinganalog="300$a">(6 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Giles B. and Jill R. Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Giles Foster Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Giles N. Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Helen Perkins Montgomery,
+                           <date>1908-1931</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1908-1931</unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Louise A. Montgomery, <date>1901-1960</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1901-1960</unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Marshall Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Marshall D. and Elizabeth C. Montgomery,
+                           <date> June 2, 2003 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> June 2, 2003
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Marshall F. Montgomery,
+                           <date>1885-1956</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1885-1956</unitdate>
+                     <physdesc encodinganalog="300$a">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Marshall Hugh Montgomery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1918-1932</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1918-1932</unitdate>
+                        <physdesc encodinganalog="300$a"> (2 folders) </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1933-1945, Nov. </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1933-1945,
+                           Nov. </unitdate>
+                        <physdesc encodinganalog="300$a"> (5 folders) </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1963-1973</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1963-1973</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Prudence I. Montgomery </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">10</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1931-1939 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1939 </unitdate>
+                        <physdesc encodinganalog="300$a"> (2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">10</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1943-1973</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1973</unitdate>
+                        <physdesc encodinganalog="300$a"> (5 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Roger E. Montgomery, <date>1910-1973</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1910-1973</unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">William O. Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Grace Perkins Moore</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Winthrop P. Moore</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Abigail Peck Perkins</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Beth Perkins Richardson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Helen D. Richardson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Robert K. Richardson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">William A. Robinson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">Mrs. Frederick V. Ruston</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">John L. Tincher</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">Other family members</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">12</container>
+                        <unittitle encodinganalog="245$a">A-M</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">12</container>
+                        <unittitle encodinganalog="245$a">N-Y and unidentified</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">12</container>
+                  <unittitle encodinganalog="245$a" id="montgencor">General Correspondence,
+                        <date>1858-1973</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1858-1973</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Letters received and copies of letters sent. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged alphabetically by name of family member and therein
+                     chronologically</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">Gutzen Borglum</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">Mary Montgomery Borglum</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">12</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1868-1911 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1868-1911 </unitdate>
+                        <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">13</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1912-1952</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1912-1952</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">Emily Redington Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">George Redington Montgomery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">13</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1879-1937</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1879-1937</unitdate>
+                        <physdesc encodinganalog="300$a"> (5 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1938-1946</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1938-1946</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Giles B. and Jill Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Giles Foster Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Giles N. and Eleanor Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Helen Perkins Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Marshall F. Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">14</container>
+                     <unittitle encodinganalog="245$a">Marshall Hugh Montgomery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">14</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1918-1947 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1918-1947 </unitdate>
+                        <physdesc encodinganalog="300$a">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1948-1973 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948-1973 </unitdate>
+                        <physdesc encodinganalog="300$a">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Prudence I. Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Roger E. Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">Other family members</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">16</container>
+                  <unittitle encodinganalog="245$a" id="montbus">Business Papers (Marshall Hugh
+                     Montgomery), <date>1931-1974</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1974</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Business correspondence and printed matter. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged by name of firm and therein chronologically.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">New York Hanseatic Corp.,
+                           <date>1931-1939</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931-1939</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">D. W. Rich &amp; Co., <date>1940-1949</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1949</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">Aubrey G. Langston &amp; Co.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">16</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1951-1974 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951-1974 </unitdate>
+                        <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">16</container>
+                        <unittitle encodinganalog="245$a">Statement submitted to the United States
+                           House Banking and Currency Committee by Aubrey G. Langston, <date>1957
+                           </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1957
+                        </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a" id="montspeech">Speeches and Writings File,
+                        <date>1880-1971</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1880-1971</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Speeches, book reviews, typescripts and printed copies of articles, newspaper
+                     columns and editorials, poems, and sermons. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged alphabetically by name of writer and therein by type of material.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Giles Foster Montgomery, lecture notes and
+                        sermon</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Giles N. Montgomery, articles</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">George Redington Montgomery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Articles</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Books</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">17</container>
+                           <unittitle encodinganalog="245$a">
+                              <title localtype="simple">
+                                 <part>Talking English </part>
+                              </title>
+                              <date>(1989)</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">(1989)</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">17</container>
+                           <unittitle encodinganalog="245$a">
+                              <title localtype="simple">
+                                 <part>English Language Sounds </part>
+                              </title>
+                              <date>(1942)</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">(1942)</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">17</container>
+                           <unittitle encodinganalog="245$a">
+                              <title localtype="simple">
+                                 <part>The Unexplored Self </part>
+                              </title>(1910), reviews</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">17</container>
+                           <unittitle encodinganalog="245$a">"Visualizing in the Algebra of Logic,"
+                              unpublished manuscript</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Editorials</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">News columns in London <title localtype="simple">
+                              <part>Standard,</part>
+                           </title> covering Turko-Greek War, <date>Apr. 20-May 25, 1897</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Apr. 20-May
+                           25, 1897</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Poems</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Sermons</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Other writings</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Marshall F. Montgomery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Speeches and sermons</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Other writings</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Marshall Hugh Montgomery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Articles</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Some War Letters of Pvt. Marshall H. Montgomery, Italy </part>
+                           </title>
+                           <date>1944-1945 (1945)</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1945
+                           (1945)</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Other writings</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Roger E. Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Helen and Robert Richardson</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">18-20</container>
+                  <unittitle encodinganalog="245$a" id="montfin">Financial Papers,
+                        <date>1892-1973</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1892-1973</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Bankbooks, bills and receipts, canceled checks, income tax records, insurance
+                     policies, and mortgages and other property records. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged alphabetically by name of family member and therein by type of
+                     material.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Mary Montgomery Borglum</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Emily Redington Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">George Redington Montgomery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Accounts for <title localtype="simple">
+                              <part> The Unexplored Self</part>
+                           </title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Bills and receipts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Book orders for <title localtype="simple">
+                              <part> English Language Sounds</part>
+                           </title>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Deeds, leases, and mortgages</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Estate of</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Income tax records</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Helen Perkins Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Marshall F. Montgomery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Bills and receipts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">Income tax records </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">Marshall Hugh Montgomery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">19</container>
+                        <unittitle encodinganalog="245$a">Bills and receipts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">19</container>
+                        <unittitle encodinganalog="245$a">Contracts</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">19</container>
+                        <unittitle encodinganalog="245$a">Income tax records</unittitle>
+                        <physdesc encodinganalog="300$a"> (2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">19</container>
+                        <unittitle encodinganalog="245$a">Insurance policies </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">20</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">Prudence I. Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">Other family members</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">20-23</container>
+                  <unittitle encodinganalog="245$a" id="montsubj">Subject File,
+                        <date>1919-1923</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919-1923</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Correspondence, notes, and memoranda. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged chronologically under two subjects, the King-Crane Commission and
+                     Armenia-America Society.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">King-Crane Commission </unittitle>
+                     <physdesc encodinganalog="300$a">(3 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">Armenia-America Society</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">21</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1919-1921</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919-1921</unitdate>
+                        <physdesc encodinganalog="300$a"> (6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">22</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1922-1923, n.d.</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1922-1923,
+                           n.d.</unitdate>
+                        <physdesc encodinganalog="300$a"> (6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">Minutes of Executive Committee meetings
+                           and annual meetings, <date>1920-1923</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1920-1923</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container localtype="box">23-33</container>
+                  <unittitle encodinganalog="245$a" id="montmisc">Miscellany, <date>1860-1974</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1860-1974</unitdate>
+               </did>
+               <scopecontent encodinganalog="520">
+                  <p>Birth certificates, biographical and genealogical notes, military papers,
+                     school records and papers, drawings, greeting cards, invitations, printed
+                     matter, and souvenir programs and other memorabilia. </p>
+               </scopecontent>
+               <arrangement encodinganalog="351$a">
+                  <p>Arranged by name of family member and therein by type of material.</p>
+               </arrangement>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">Anne Montgomery Bijur</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">Gutzon Borglum, Czech-Slovak Training Camp,
+                        Stamford, Conn.</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">Lincoln Borglum</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">Mary Ellis Borglum</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">Mary Montgomery Borglum</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">Clippings</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">Hillhouse High School, New Haven,
+                           Conn.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">23</container>
+                        <unittitle encodinganalog="245$a">University of Berlin, Berlin, Germany
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">Wellesley College, Wellesley,
+                           Mass.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">Memorabilia</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous manuscripts and
+                           fragments</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">Solon H. Borglum</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">G. Dallas and Margaret M. Hanna</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">Estelle H. Ingham</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">Eleanor B. Montgomery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">Clippings</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">24</container>
+                        <unittitle encodinganalog="245$a">School papers</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Souvenir dance programs</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Trip to Europe, <date>June-July
+                              1937</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">June-July
+                           1937</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">Emily Emerson Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">Emily Redington Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">Ernest E. Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">George Redington Montgomery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Biographies</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Clippings</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Church programs of worship and related
+                           material</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Funeral and obituaries</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Last will and testament</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">25</container>
+                        <unittitle encodinganalog="245$a">Printed material and memorabilia relating
+                           to Yale University, New Haven, Conn.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">26</container>
+                        <unittitle encodinganalog="245$a">Passports and credentials</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">26</container>
+                        <unittitle encodinganalog="245$a">School records and diplomas</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">26</container>
+                        <unittitle encodinganalog="245$a">Unidentified manuscripts and
+                           fragments</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">26</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">Giles B. and Jill Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">Giles Foster Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">Giles N. Montgomery, school
+                        papers</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">Helen Perkins Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">Louise A. Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">Marshall Montgomery </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">Marshall D. Montgomery, school papers and
+                        memorabilia</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">Marshall D. and Elizabeth C.
+                        Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">Marshall F. Montgomery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Biography</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Certificates, diplomas</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Clippings</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Estate of</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Last will and testament</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Tours and lectures</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">Marshall Hugh Montgomery</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Automobile registrations, licenses,
+                           etc.</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Awards, honors</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Birth certificates, vaccination records,
+                           passports</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Biographical data</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Clippings</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">27</container>
+                        <unittitle encodinganalog="245$a">Historical societies </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">28</container>
+                        <unittitle encodinganalog="245$a">Invitations</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">28</container>
+                        <unittitle encodinganalog="245$a">Medical reports</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">28</container>
+                        <unittitle encodinganalog="245$a">Membership, identification, and credit
+                           cards</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">28</container>
+                        <unittitle encodinganalog="245$a">Memorabilia</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">28</container>
+                        <unittitle encodinganalog="245$a">Memorabilia, trips </unittitle>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">28</container>
+                        <unittitle encodinganalog="245$a">Middlebury College, Middlebury,
+                           Vt.</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">28</container>
+                           <unittitle encodinganalog="245$a">Alumni papers</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">28</container>
+                           <unittitle encodinganalog="245$a">Chi Psi fraternity</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">28</container>
+                           <unittitle encodinganalog="245$a">Souvenir programs and
+                              memorabilia</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">Printed material</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">Scholastic records</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">29</container>
+                        <unittitle encodinganalog="245$a">School papers</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">29</container>
+                           <unittitle encodinganalog="245$a">Grammar and high school</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">29</container>
+                           <unittitle encodinganalog="245$a">Middlebury College, Middlebury,
+                              Vt.</unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">29</container>
+                              <unittitle encodinganalog="245$a">Freshman year</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">29</container>
+                              <unittitle encodinganalog="245$a">Sophomore year</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">29</container>
+                              <unittitle encodinganalog="245$a">Junior year</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">30</container>
+                              <unittitle encodinganalog="245$a">Senior year</unittitle>
+                              <physdesc encodinganalog="300$a"> (2 folders)</physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">30</container>
+                           <unittitle encodinganalog="245$a">Souvenir dance programs</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">30</container>
+                           <unittitle encodinganalog="245$a">Wills and power of attorney</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">30</container>
+                           <unittitle encodinganalog="245$a">World War II</unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">30</container>
+                              <unittitle encodinganalog="245$a">Clippings</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">30</container>
+                              <unittitle encodinganalog="245$a">Military record</unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">30</container>
+                           <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">30</container>
+                     <unittitle encodinganalog="245$a">Marshall Hugh and Giles N. Montgomery,
+                        drawings </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">31</container>
+                     <unittitle encodinganalog="245$a">Prudence I. Montgomery </unittitle>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">31</container>
+                     <unittitle encodinganalog="245$a">Roger E. Montgomery, scrapbook
+                        (photocopy)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">31</container>
+                     <unittitle encodinganalog="245$a">William O. Montgomery</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">31</container>
+                     <unittitle encodinganalog="245$a">Beth Perkins Richardson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">31</container>
+                     <unittitle encodinganalog="245$a">Robert K. Richardson</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">31</container>
+                     <unittitle encodinganalog="245$a">General</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">31</container>
+                        <unittitle encodinganalog="245$a">Christmas cards</unittitle>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                        <container localtype="box">32</container>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">32</container>
+                        <unittitle encodinganalog="245$a">Clippings, other family
+                           members</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">32</container>
+                        <unittitle encodinganalog="245$a">Correspondence with Library of
+                           Congress</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">32</container>
+                        <unittitle encodinganalog="245$a">Directory lists</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">32</container>
+                        <unittitle encodinganalog="245$a">Family genealogy</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">32</container>
+                        <unittitle encodinganalog="245$a">Greeting cards </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">33</container>
+                        <unittitle encodinganalog="245$a">Index to Montgomery family
+                           correspondence</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">33</container>
+                        <unittitle encodinganalog="245$a">Invitations, other family
+                           members</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">33</container>
+                        <unittitle encodinganalog="245$a">Registers accompanying Montgomery family
+                           papers</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">33</container>
+                        <unittitle encodinganalog="245$a">Printed material</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">33</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

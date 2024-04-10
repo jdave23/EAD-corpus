@@ -1,0 +1,1915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms013026">loc.mss/eadmss.ms013026</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Benjamin Gerig Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm86061974">https://lccn.loc.gov/mm86061974</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-10">2023 October</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2013">2013</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Benjamin Gerig Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1927/1974">1927-1974</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1930/1968">1930-1968</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1927/1974"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1927-1974</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1930/1968"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1930-1968</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS61974</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Gerig, Benjamin, 1894-1976</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">2,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">6 containers plus 2 classified</physdesc>
+         <physdesc label="Extent" encodinganalog="300">2.6 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Diplomat. Correspondence, reports,
+            memoranda, printed material, and other papers pertaining to Gerig's service with the
+            League of Nations primarily as commissioner-general of the pavilion at the New York
+            World's Fair in 1939 and 1940, his work with the Department of State in a number of
+            positions involving international organizations and the administration of trust
+            territories, and his membership on the United Nations Trusteeship Council.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20220928172152.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bowman, Isaiah, 1878-1950--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bunche, Ralph J. (Ralph Johnson), 1904-1971--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Cordier, Andrew W. (Andrew Wellington), 1901-1975--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Dulles, John Foster, 1888-1959--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Erp, J. W. T. van--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Field, Noel Haviland, 1904-1970--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Gerig, Benjamin, 1894-1976.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Gerig, Mary, 1898-1960--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Gerig, Pearl--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hiss, Alger--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jessup, Philip C. (Philip Caryl), 1897-1986--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lester, Sean, 1888-1959--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Lodge, Henry Cabot, Jr., 1902-1985--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Manship, Paul, 1885-1966--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Morley, Felix M. (Felix Muskett), 1894-1982--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pickard, Bertram, 1892-1973--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sweetser, Arthur, 1888-1968--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sweetser, Ruth Gregory--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Tomlinson, John D. (John Doren), 1903-1981--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Walters, F. P. (Francis Paul), 1888- --Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>Conversations on International Organization (1944 : Washington, D.C.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>League of Nations.</part>
+            </corpname>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>New York World's Fair (1939-1940 : New York, N.Y.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Preparatory Commission of the United Nations.</part>
+            </corpname>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>United Nations Conference on International Organization (1945 : San Francisco,
+                  Calif.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United Nations Visiting Mission to Trust Territories in West Africa.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United Nations.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United Nations. Trusteeship Council.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Department of State.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Colonies--Africa.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Colonies.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>International agencies.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>International organization.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>International trusteeships--Africa, West.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>International trusteeships.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Mandates.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Nuclear weapons--Testing.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Race relations.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Soviet Union--Colonies.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Diplomats.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of Orie Benjamin Gerig, diplomat, were given to the Library of Congress in
+            1986 by his son, John Gerig.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Benjamin Gerig were processed in 1995 by Mary A. Lacy and revised in 1999 by Patrick Kerwin. The finding aid
+            was revised again in 2012. The finding aid was updated in 2023 by Maria Farmer as part
+            of a division-wide remediation project by the Inclusive Description Working Group.</p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p> Some photographs have been transferred to the Library’s Prints and Photographs Division
+            where they are identified as part of these papers. </p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Benjamin Gerig in these papers
+            and in other papers in the custody of the Library of Congress is governed by the
+            Copyright Law of the United States (Title 17, U.S.C.). </p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Benjamin Gerig are open to research. Researchers are advised to contact
+            the Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use. </p>
+      </accessrestrict>
+      <accessrestrict encodinganalog="506">
+         <head>Security Classified Documents</head>
+         <p>Government regulations control the use of security classified material in this
+            collection. Manuscript Division staff can furnish information concerning access to and
+            use of classified materials.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Benjamin Gerig Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1894, Jan. 18 </datesingle>
+               <event>Born, Smithville, Ohio </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1917</datesingle>
+               <event>B.A., Goshen College, Goshen, Ind.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1921</fromdate>
+                  <todate>1923</todate>
+               </daterange>
+               <event>Instructor of political economy, University of Illinois, Chicago, Ill.
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1922</datesingle>
+               <chronitemset>
+                  <event>A.M., University of Illinois, Chicago, Ill.</event>
+                  <event>Married Mary Blosser (died 1960) </event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1923</fromdate>
+                  <todate>1928</todate>
+               </daterange>
+               <event>Professor of economics, Simmons College, Boston, Mass. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1928</fromdate>
+                  <todate>1929</todate>
+               </daterange>
+               <chronitemset>
+                  <event>Fellow, Post-graduate Institute of International Studies, Geneva,
+                     Switzerland</event>
+                  <event>D.Sc., political science, Université de Genève, Geneva, Switzerland</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1930</datesingle>
+               <event>Published <title localtype="simple">
+                     <part>The Open Door and the Mandates System.</part>
+                  </title> London: G. Allen &amp; Unwin Ltd. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1930</fromdate>
+                  <todate>1939</todate>
+               </daterange>
+               <event>Member, Information and Mandates Section, League of Nations Secretariat
+               </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1939</fromdate>
+                  <todate>1940</todate>
+               </daterange>
+               <event>Commissioner-General, League of Nations Pavilion, New York World's Fair, New
+                  York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1940</fromdate>
+                  <todate>1942</todate>
+               </daterange>
+               <event>Associate professor of government, Haverford College, Haverford, Pa. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1942</datesingle>
+               <chronitemset>
+                  <event>Lecturer, political science, University of Pennsylvania, Philadelphia,
+                     Pa.</event>
+                  <event>Divisional assistant, Division of Special Research, State
+                     Department</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1944</datesingle>
+               <event>Technical advisor, United States delegation, Dumbarton Oaks Conference,
+                  Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1944</fromdate>
+                  <todate>1961</todate>
+               </daterange>
+               <event>Chief, Division of Dependent Area Affairs, State Department</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1945 </datesingle>
+               <chronitemset>
+                  <event>Adviser, United States delegation, United Nations Conference on
+                     International Organization, San Francisco, Calif.</event>
+                  <event>Principal advisor to United States representative and alternate delegate,
+                     Executive Committee, Preparatory Commission of the United Nations, London,
+                     England </event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1945</fromdate>
+                  <todate>1961</todate>
+               </daterange>
+               <event>Chief, Division of Department Area Affairs; associate chief, Division of
+                  International Organization Affairs, State Department\</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1946</datesingle>
+               <event>Adviser, United States delegation, United Nations General Assembly, first
+                  session </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1947</fromdate>
+                  <todate>1953</todate>
+               </daterange>
+               <event>Chairman, Interdepartmental Committee of United States Government on
+                  Non-self-governing Territories</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1948</datesingle>
+               <event>United States representative, United Nations Special Committee on Information
+                  from Non-self-governing Territories, Geneva, Switzerland; adviser, United States
+                  delegation, United Nations General Assembly, Paris, France</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1960</datesingle>
+               <event>Superior Service Award for service as director, Office of Dependent Area
+                  Affairs, State Department </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1961</datesingle>
+               <chronitemset>
+                  <event>Retired, State Department</event>
+                  <event>Honorary doctor of laws, Haverford College, Haverford, Pa.</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1963</datesingle>
+               <event>Married Pearl Van Pelt Harris </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1966</datesingle>
+               <event>Coauthor, <title localtype="simple">
+                     <part> International Peace Observation,</part>
+                  </title> a History and Forecast. Baltimore: Johns Hopkins Press</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1976, Feb. 26 </datesingle>
+               <event>Died, Venice, Fla.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Benjamin Orig Gerig (1894-1976) span the years 1927-1974, with the bulk of
+            the items concentrated in the period 1930-1968. The collection contains correspondence,
+            reports, memoranda, printed matter, and other material documenting Gerig's service with
+            the League of Nations, 1930-1940; the Department of State in a number of positions
+            relating to international organizations and the administration of the trust territories,
+            1942-1961; and with the Trusteeship Council of the United Nations, 1947-1953. Gerig was
+            deeply involved in preparations for the formation of the United Nations and served as an
+            advisor to United States delegations to conferences at Dumbarton Oaks and San Francisco,
+            1944-1945, the Preparatory Commission of the United Nations in London, and the first
+            session of the General Assembly in 1946. The Gerig Papers are arranged by general
+            correspondence, speeches and writings, subject files, and classified material. </p>
+         <p>General correspondence, 1930-1974, contains personal and professional correspondence
+            between Gerig and friends, family, and associates, predominantly those connected with
+            the League of Nations and the State Department. Correspondents include Isaiah Bowman,
+            Ralph J. Bunche, Andrew W. Cordier, John Foster Dulles, J. W. T. van Erp, Noel Haviland
+            Field, Philip C. Jessup, Sean Lester, Henry Cabot Lodge, P. W. Martin, Felix M. Morley,
+            Bertram Pickard, John D. Tomlinson, and F. P. Walters. Letters of appreciation and
+            recommendation for Gerig were written by Warren R. Austin, Archibald MacLeish, Mike
+            Mansfield, Leo Pasvolsky, Dean Rusk, Edward R. Stettinius, and Adlai E. Stevenson.
+            Additional correspondence, particularly with League officials, is found in the subject
+            file. Letters that Gerig wrote on the versos of committee reports commenting on his work
+            on the Preparatory Commission of the United Nations in London are located in the subject
+            file with other Preparatory Commission material. </p>
+         <p>The largest group of general correspondence is between Gerig and his first wife Mary and
+            second wife Pearl and longtime friend and colleague Arthur Sweetser and his wife Ruth
+            Gregory Sweetser, with whom the Gerigs shared a summer home in Kitty Hawk, North
+            Carolina. A letter from Gerig to Sweetser, dated from Geneva, January 1, 1950, comments
+            on the Alger Hiss conviction and John Foster Dulles's testimony. Much of the
+            correspondence was written after Gerig's retirement from the State Department in 1961.
+            Arrangement of the general correspondence is alphabetical by name and chronological
+            therein.</p>
+         <p> Among the speeches and writings, 1930-1969, are drafts and notes as well as published
+            speeches and articles. The speeches include remarks given on League of Nations Day,
+            1939; an address on dependent peoples delivered as deputy United States representative
+            on the United Nations Trusteeship Council, 1948; an address on the role of the United
+            Nations in African developments, 1960; and outlines of remarks on the colonial question
+            and the United Nations, international organizations, and sovereignty. Writings include
+            publications by the Geneva Research Information Committee in <title localtype="simple">
+               <part> Geneva Special Studies,</part>
+            </title> 1930-1931; a statement on progress in the French Cameroons in the State
+            Department <title localtype="simple">
+               <part>Bulletin,</part>
+            </title> 1956; and typescripts on the United States and the colonial question,
+            1955-1956. Arrangement is alphabetical by type of material and chronological therein. </p>
+         <p>The subject file, 1927-1969, consists of correspondence, telegrams, memoranda, reports,
+            press releases, and printed matter dealing with Gerig's activities with the League of
+            Nations, his work in planning for a new international organization and transferring to
+            it League of Nations assets, and dependent area affairs and colonial policy, especially
+            as it related to African nations, in the State Department and the United Nations
+            Trusteeship Council. Arrangement is alphabetical by name of person or organization,
+            topic, or type of material, and chronological therein. </p>
+         <p>Much of the material in the subject file, especially that on the origins of the United
+            Nations, is security classified. Material in the classified portion has been arranged
+            according to the organization of the unclassified Gerig Papers. Notices in the
+            unclassified portion alert researchers that sensitive matter has been removed. Folder
+            titles given in the container list for the classified segment duplicate the pertinent
+            folder titles from the unclassified portion. </p>
+         <p>Material documenting Gerig's tenure with the League of Nations is almost exclusively
+            connected with his assignment as commissioner-general of the pavilion at the New York
+            World's Fair in 1939 and 1940; correspondence with League officials predominantly
+            concerns pavilion business and arrangements for Gerig's move from Geneva to New York.
+            The files contain documents concerning building arrangements and contracts, insurance
+            and shipping, and correspondence regarding exhibits, including correspondence with Paul
+            Manship concerning his sculpture for the pavilion and damage suffered during its
+            display.</p>
+         <p> Gerig was employed by the State Department in 1943 as an expert on trusteeship and
+            colonial questions and served as advisor to United States delegations to Dumbarton Oaks
+            and San Francisco conferences. In 1943, he chaired a group that wrote an early draft
+            charter for the United Nations. Numerous early drafts are found in the State Department
+            portion of the subject file. Files of the Office of Special Political Affairs include
+            proposals regarding a new court of international justice, considerations regarding the
+            location of the international organization, and papers prepared and initialed by State
+            Department consultant Quincy Wright on the legal foundations of the postwar order,
+            representation and voting, international policing and military sanctions, and trust
+            territories. </p>
+         <p>In 1943, Gerig served as advisor to the United States delegation to the Dumbarton Oaks
+            conference of four "great powers;" the full United Nations Conference on International
+            Organization at San Francisco, April-June 1945; and the Preparatory Commission of the
+            United Nations, London, England, September-November 1945. Much of the material in the
+            files generated at these conferences concerns the transfer of the League of Nations and
+            its assets to the United Nations. Correspondents include Alger Hiss, director of the
+            Office of Special Political Affairs. Gerig prepared a memorandum at Senator Arthur
+            Vandenberg's request explaining the points at which the Dumbarton Oaks proposals were an
+            improvement over the League of Nations Covenant in terms of security, economic and
+            social cooperation, and general organization. San Francisco Conference documents include
+            comments and proposed amendments concerning the Dumbarton Oaks proposals submitted by
+            national delegations to the conference, drafts and suggested changes to article five of
+            the chapter relative to trusteeship, and reports. </p>
+         <p>Gerig served as deputy United States representative on the Trusteeship Council of the
+            United Nations and travelled in Africa as chairman of the United Nations Visiting
+            Mission to Trust Territories in West Africa in 1958. Files related to West Africa
+            contain reports and correspondence relevant to the mission and letters and writings on
+            West Africa, especially Cameroon. Gerig was offered an ambassadorship to West Cameroon
+            which he declined because of his wife's failing health. He was also named to delegations
+            celebrating the independence of both Cameroon and Togo. As chief of the Division of
+            Dependent Area Affairs, his files contain memoranda and correspondence regarding
+            colonial policy, foreign service dispatches, and reports, speeches, publications and
+            clippings on dependent area affairs. </p>
+         <p>Material in the United Nations file includes working papers and press releases on the
+            operations of the mandate system under the League of Nations, on non-self-governing
+            territories, race relations and the territories, press releases of statements by Gerig
+            on Ruanda-Urundi (present-day Rwanda and Burundi), Cameroon, and Togo, nuclear tests in
+            trust territories, the growth of Soviet colonialism, and Trusteeship Council verbatim
+            records pertaining to Ruanda-Urundi, trust territories, and General Assembly
+            resolutions. Also included are draft articles on international trusteeship, telegrams,
+            and memoranda regarding trusteeship questions. </p>
+         <p>The subject file also includes correspondence with Felix Morley and others at Haverford
+            College and the University of Pennsylvania concerning academic appointments, 1942, and
+            an honorary doctorate awarded by Haverford College in 1961; a pamphlet by Jacob B. Meyer
+            on conscientious objectors in World War I, including Gerig; and State Department
+            personnel records, such as letters of appointment, some signed by Presidents Truman and
+            Eisenhower, travel orders, efficiency and performance ratings, certificates, press
+            releases, and the superior service award Gerig received in 1960. Biographical material
+            concerns the deaths of Arthur and Ruth Sweetser as well as correspondence and material
+            gathered by Sweetser at the time of Gerig's heart attack and Mary Gerig's death in 1961. </p>
+         <p>Some photographs, including portraits of Gerig, have been retained in the subject file.
+            Photographs of the League of Nations, 1931, of the League of Nations Pavilion, 1939, of
+            Trusteeship Council representatives, 1960, and of the United Nations visiting mission to
+            West Africa in 1949 have been transferred to the Library's Prints and Photographs
+            Division. </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged as general correspondence, speeches and writings, subject
+            files, and classified material. </p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">General correspondence </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Letters to family, <date>1942-1945</date>
+                     <ref show="replace" actuate="onrequest" target="Letters3">
+                        <emph render="italic">See also Container 4,</emph> Committee reports,
+                        annotated with letters home</ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1945</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"A" miscellaneous, <date>1946</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Bowman, Isaiah, <date>1944</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"B-L" miscellaneous, <date>1930,
+                        1940-1971</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930,
+                     1940-1971</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Morley, Felix, <date>1944</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"M" miscellaneous, <date>1940-1945, 1952-1962,
+                        1968</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940-1945,
+                     1952-1962, 1968</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Pickard, Bertram, <date>1940</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"P-R" miscellaneous, <date>1943-1946,
+                        1958-1961</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1946,
+                     1958-1961</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Stettinius, Edward R., <date>1944-1945</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1945</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Sweetser, Arthur and Ruth, <date>1940,
+                        1946-1950, 1956-1967</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1940, 1946-1950,
+                     1956-1967</unitdate>
+                  <physdesc encodinganalog="300$a">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">"S-W" miscellaneous, <date>1952, 1962,
+                        1974</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1952, 1962,
+                     1974</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Speeches and writings</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Speeches</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">"Address on League of Nations Day," New York,
+                        N.Y., <date> 1939</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> 1939</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">"The Colonial Question and the United
+                        Nations," <date> undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">International organizations and sovereignty,
+                        Kew, London, <date>circa 1963</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa
+                        1963</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">"The Role of the United Nations in African
+                        Developments," <date>circa 1960</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa
+                        1960</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">"A Square Deal for Dependent Peoples,"
+                        Newark, N.J., <date>1948</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1948</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">United Nations and international relations,
+                        Sarasota, Fla., <date>1969</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1969</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Writings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">"Colonialism in the Modern World,"
+                           <date>undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Geneva special studies,
+                           <date>1930-1931</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1930-1931</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">"Progress in the French Cameroons,"
+                           <date>1956</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">"United States Attitude on the Colonial
+                        Question," <date>1955</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">"United States Policy and the Colonial
+                        Question," <date>1956</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Subject file</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Academic appointments and awards</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Haverford College, Haverford, Pa.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a">Honorary doctorate of laws,
+                              <date>1961</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a">Leave of absence for State Department
+                           work, <date>1942</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">University of Pennsylvania, Philadelphia,
+                        Pa., appointment as lecturer, Wharton School, <date>1942</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Conference on the United States and the United
+                     Nations, Washington, D.C., <date>1961</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1961</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Conscientious objectors in World War I, memoirs
+                     of Jacob B. Meyer mentioning Gerig's service, <date>1967</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1967</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Death of Mary Gerig and illness of Benjamin
+                     Gerig, correspondence and biographical tributes collected by Arthur Sweetser,
+                        <date>1960-1963 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960-1963
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Dumbarton Oaks Conference, Washington,
+                     D.C.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Conversations, minutes, and documents,
+                           <date>1944</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">Notebook </unittitle>
+                        <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Formulation Group, <date>1944</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">Drafts and proposals </unittitle>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">Memoranda and reports</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Memoranda and drafts, <date>1942-1943</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1943</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Memorandum responding to Arthur Vandenberg,
+                           <date> 1944-1945</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+                        1944-1945</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Opening remarks, <date>1944</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> Papers re Dumbarton Oaks, San Francisco, and
+                        London conferences, <date>undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Reactions to Dumbarton Oaks proposals,
+                           <date>1944-1945 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1945
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">United Nations charter, drafts</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Early, <date>1943</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Revised, <date>1943-1944</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1944</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Institut Universitaire de Hautes Études
+                     Internationales, Geneva, Switzerland, <date>1927, 1951, 1958-1961, 1969 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1927, 1951,
+                     1958-1961, 1969 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">League of Nations</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Contracts for temporary engagement,
+                           <date>1929-1930</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929-1930</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">New York World's Fair, Pavilion</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Addresses and publications,
+                              <date>1939</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Building arrangements, <date>1939</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939</unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">3</container>
+                           <unittitle encodinganalog="245$a">Contracts </unittitle>
+                           <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">3</container>
+                           <unittitle encodinganalog="245$a">Correspondence </unittitle>
+                           <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Cables and telegrams,
+                              <date>1939-1941</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939-1941</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">3</container>
+                           <unittitle encodinganalog="245$a">General, <date>1939-1941</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939-1941</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">3</container>
+                           <unittitle encodinganalog="245$a">Personal, <date>1939-1940</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939-1940</unitdate>
+                           <physdesc encodinganalog="300$a"> (2 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Exhibits, <date> 1939, undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> 1939,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Insurance in New York, 1938-1940,
+                           including correspondence with Paul Manship regarding damage to his
+                           sculpture</unittitle>
+                        <physdesc encodinganalog="300$a"> (2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Shipping papers, <date>1939 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1939 </unitdate>
+                        <container localtype="box">3</container>
+                        <physdesc encodinganalog="300$a">(1 folder)</physdesc>
+                        <container localtype="box">4</container>
+                        <physdesc encodinganalog="300$a">(1 folder)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">"World peace procedure," pamphlet by Arthur
+                        Sweetser, <date>circa 1929</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa
+                        1929</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Personal, including photographs, <date>1945,
+                        1956, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945, 1956,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Photographs, official, <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Preparatory Commission of the United Nations,
+                     London, England</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Handbooks, <date>1945</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous correspondence and memoranda,
+                           <date>1945</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Transfer of League of Nations and its assets
+                        to the United Nations</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">Committee reports, agenda, correspondence,
+                              <date>1945-1946</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945-1946</unitdate>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle id="Letters3" encodinganalog="245$a">Committee reports, annotated
+                           with Gerig's letters written on verso to Mary Gerig and children,
+                              <date>1945</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">League of Nations Supervisory Commission,
+                           reports, <date>1944-1946</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1946</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">Telegrams and airgrams, <date>1946 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946
+                        </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">State Department</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Africa</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">Cameroon ambassadorial appointment,
+                              <date>1959</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">Cameroon and Togo, independence
+                           celebrations, <date>1959-1960</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959-1960</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">Informal Conference on Africa South of the
+                           Sahara, <date>1955</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">Publications, <date>1956-1959</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956-1959</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Colonial policy</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">Memoranda and correspondence, including
+                           Alger Hiss letter of 1945 on Yalta Conference <date>1944-1955,
+                              1961</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1955,
+                           1961</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">Newspaper clippings, <date>1947,
+                              1955-1960, 1966-1967, undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947,
+                           1955-1960, 1966-1967, undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">Dependent Area Affairs</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">Foreign Service dispatches received,
+                              <date>1955, 1960</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955,
+                           1960</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">Reports, speeches, publications,
+                              <date>1943-1959</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1959</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Division of International Security and
+                        Organization, Office of Special Political Affairs</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Draft reports regarding the new
+                           international organization, <date>1943-1944</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1944</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Reports, memoranda, and letters by Quincy
+                           Wright regarding international organizations and/or territories,
+                              <date>1943-1944, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1944,
+                           undated </unitdate>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Personnel files</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Appointments</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">5</container>
+                           <unittitle encodinganalog="245$a">Miscellaneous appointments and travel
+                              orders, <date>1942-1947</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1947</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">5</container>
+                           <unittitle encodinganalog="245$a">United Nations Trusteeship Council,
+                              including letters from Harry S. Truman and Dwight D. Eisenhower
+                                 <date>1947, 1952-1953</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1947,
+                              1952-1953</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Awards</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">5</container>
+                           <unittitle encodinganalog="245$a">Certificates, <date> 1949-1954</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+                              1949-1954</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">5</container>
+                           <unittitle encodinganalog="245$a">Superior service, including photograph,
+                                 <date>1960</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1960</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Efficiency/performance ratings,
+                              <date>1943-1959</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1959</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Personnel actions, notifications, and
+                           press releases, <date> 1942-1961</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+                           1942-1961</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Stevenson, Adlai E., on foreign policy,
+                           <date>1963-1965</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1963-1965</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Sweetser, Arthur and Ruth, death of, letters to
+                     Gerig, tributes, and obituaries, <date>1968-1969 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1968-1969
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">United Nations</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Colonialism, territories, race relations,
+                           <date>1951-1955, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1951-1955,
+                        undated </unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Handbook, first session, <date>1946</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Trusteeship Council</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Poem, <date>undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Press releases of statements by Gerig,
+                              <date>1956</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1956</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Verbatim records, <date>1955-1956 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1955-1956
+                        </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a">Visiting Mission to Trust Territories in
+                           West Africa (1958) chaired by Gerig, correspondence and printed matter,
+                              <date>1949, 1958-1959, undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1949,
+                           1958-1959, undated</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Trusteeship questions, <date>1944-1946,
+                           undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1946,
+                        undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">United Nations Conference on International
+                     Organization, San Francisco, Calif.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Comments and proposed amendments concerning
+                        the Dumbarton Oaks proposals, notebook, <date>1945 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 </unitdate>
+                     <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Discussions re article five of Trusteeship
+                        Chapter, <date>1945 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 </unitdate>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">General Assembly right to discuss,
+                           <date>1945</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Reports on conference developments,
+                           <date>1945 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">CL 1</container>
+               <unittitle encodinganalog="245$a">Classified</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">CL 1</container>
+                  <unittitle encodinganalog="245$a">Subject file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">CL 1</container>
+                     <unittitle encodinganalog="245$a">Dumbarton Oaks Conference, Washington,
+                        D.C.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">Conversations, minutes, and documents,
+                              <date>1944</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Miscellaneous (Container 2)</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Notebook (Container 2) </unittitle>
+                           <physdesc>(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">Formulation Group, <date>1944</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Drafts and proposals (Container 2) </unittitle>
+                           <physdesc>(2 folders) </physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Memoranda and reports (Container
+                              2)</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">Memoranda and drafts,
+                              <date>1942-1943</date> (Container 2) </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1942-1943</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">Papers re Dumbarton Oaks, San Francisco,
+                           and London conferences, <date>undated</date> (Container 2) </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">Reactions to Dumbarton Oaks proposals,
+                              <date>undated</date> (Container 2) </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">United Nations charter, drafts</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Early, <date>1943</date> (Container
+                              3)</unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Revised, <date>1943-1944 </date>
+                              (Container 3) </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1944
+                           </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">CL 1</container>
+                     <unittitle encodinganalog="245$a">Preparatory Commission of the United Nations,
+                        London, England</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">Miscellaneous correspondence and
+                           memoranda, <date>1945 </date> (Container 4) </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+                        </unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Transfer of League of Nations and its
+                              assets to the United Nations</unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">CL 1</container>
+                              <unittitle encodinganalog="245$a">Committee reports, agenda,
+                                 correspondence, <date>1946 </date> (folder 2) (Container 4) </unittitle>
+                              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946
+                              </unitdate>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">CL 1</container>
+                              <unittitle encodinganalog="245$a">Telegrams and airgrams,
+                                    <date>1946</date> (Container 4) </unittitle>
+                              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1946</unitdate>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">CL 1</container>
+                     <unittitle encodinganalog="245$a">State Department</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">Africa</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Cameroon and Togo, independence
+                              celebrations, <date>1959-1960</date> (Container 4) </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1959-1960</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">Colonial policy</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Memoranda and correspondence,
+                                 <date>1944-1955, 1961</date> (Container 4) </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944-1955,
+                              1961</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">Division of International Security and
+                           Organization, Office of Special Political Affairs</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Draft reports regarding the new
+                              international organization, <date>1943-1944</date> (Container 5) </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1943-1944</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">Personnel files</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Appointments</unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">CL 1</container>
+                              <unittitle encodinganalog="245$a">Miscellaneous appointments and
+                                 travel orders, <date>1945</date> (Container 5) </unittitle>
+                              <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945</unitdate>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">United Nations</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Trusteeship questions, <date>1945
+                              </date> (Container 6) </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+                           </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">CL 1</container>
+                        <unittitle encodinganalog="245$a">United Nations Conference on International
+                           Organization, San Francisco, Calif.</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Discussions re article five of
+                              Trusteeship Chapter, <date>1945 </date> (Container 6) </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1945
+                           </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">CL 1</container>
+                           <unittitle encodinganalog="245$a">Reports on conference developments,
+                                 <date>May-June 1945 </date> (Container 6) </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">May-June
+                              1945 </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">TS 1</container>
+               <unittitle encodinganalog="245$a">Top secret</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">TS 1</container>
+                  <unittitle encodinganalog="245$a">Subject file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">TS 1</container>
+                     <unittitle encodinganalog="245$a">Dumbarton Oaks Conference, Washington,
+                        D.C.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">TS 1</container>
+                        <unittitle encodinganalog="245$a">Conversations, minutes, and documents,
+                              <date>1944</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">TS 1</container>
+                           <unittitle encodinganalog="245$a">Notebook (Container 2)</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">TS 1</container>
+                        <unittitle encodinganalog="245$a">Formulation Group, <date>1944</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1944</unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">TS 1</container>
+                           <unittitle encodinganalog="245$a">Memoranda and reports (Container
+                              2)</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">TS 1</container>
+                     <unittitle encodinganalog="245$a"> United Nations Conference on International
+                        Organization, San Francisco, Calif.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">TS 1</container>
+                        <unittitle encodinganalog="245$a">Reports on conference developments,
+                              <date>May-June 1945 </date> (Container 6) </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">May-June 1945
+                        </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

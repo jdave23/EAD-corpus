@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms016012">loc.mss/eadmss.ms016012</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Eugene Edwin Johnston Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by Pang H. Xiong</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+                           <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+               Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2016" encodinganalog="260$c" era="ce" calendar="gregorian">2016</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm2014085926">https://lccn.loc.gov/mm2014085926</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2016">2016</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Eugene Edwin Johnston Papers  <date altrender="Span Dates" localtype="inclusive" normal="1912/2008">1912-2008</date> 
+                        <date altrender="Bulk Dates" localtype="bulk" normal="1940/1963">(bulk 1940-1963)</date> 
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1912/2008"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1912-2008</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1940/1963"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1940-1963)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS85926</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Johnston, Eugene Edwin,
+               1915-2006</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">2,000 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">4 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">1.6 linear feet</physdesc>
+         <physdesc label="Extent" encodinganalog="300">182 digital files (9.68 GB)</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in English
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852">
+                        <corpname>
+                           <part>
+                Manuscript Division,  Library of Congress</part>
+                        </corpname>
+                        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Army officer. Correpondence,
+            military papers, writings, photographs, awards, certificates, maps, printed matter,
+            digital files, and other papers relating to Johnston's military career, particularly his
+            service with the 92nd Infantry Division during World War II.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230629192426.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Johnston family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Johnston, Alta Ross, 1919-2000--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Johnston, Carolyn, 1948- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Johnston, Eugene Edwin, 1915-2006.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Smith, Nancy Johnston, 1945- --Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army--African American troops.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army--Foreign service--Austria.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army--Foreign service--Taiwan.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army--Foreign service--Thailand.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army--Medals, badges, decorations, etc.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Infantry Division, 92nd.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Infantry Regiment, 350th.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>African American soldiers.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Bronze Star Medal (U.S.)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Genealogy.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Italy.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Participation, African American.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--United States.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Armed Forces--African Americans.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Race relations.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Army officers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The papers of Eugene Edwin Johnston, army officer, were given to the Library of
+               Congress in 2014.</p>
+      </acqinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Audiocassettes have been transferred to the Motion Picture, Broadcasting, and
+               Recorded Sound Division where they are identified as part of the Eugene Edwin
+               Johnston Papers. One book, <title>
+                           <part>My Father's War: Fighting with the Buffalo Soldiers
+                  in World War II,</part>
+                        </title> has been made available as part of the Manuscript
+               Division Reading Room reference collection.</p>
+      </separatedmaterial>
+      <relatedmaterial encodinganalog="544 1">
+         <head>Related Material</head>
+         <p>Related collections in the Manuscript Division include the  <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms008096">United States Army 92nd
+                  Infantry Division Collection</ref> .</p>
+      </relatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Eugene Edwin Johnston is
+               governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Eugene Edwin Johnston are open to research. Researchers are advised to
+               contact the Manuscript Reading Room prior to visiting. Many collections are stored
+               off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <altformavail encodinganalog="530">
+         <head>Digital Format</head>
+         <p>Digital files were received as part of the papers of Eugene Edwin Johnston. Reference
+               copies were created from the original digital media. Advanced notice is required for
+               access to digital content; consult reference staff in the Manuscript Division for
+               more information.</p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+               Container number or digital ID number, Eugene Edwin Johnston Papers, Manuscript Division, Library of
+               Congress, Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1915, Oct. 10</datesingle>
+               <event>Born, Chattanooga, Tenn. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1933</datesingle>
+               <event>Graduated, Chattanooga High School, Chattanooga, Tenn.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1940</datesingle>
+               <event>Enlisted in United States Army, and assigned to medical detachment hospital,
+                  Fort Oglethorpe, Ga.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1942</datesingle>
+               <chronitemset>
+                              <event>Graduated, Officer Candidate School, Fort Benning, Ga.</event>
+                              <event>Assigned to 371st Infantry Regiment, 92nd Infantry Division, Camp Robinson, Ark.</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1943</datesingle>
+               <chronitemset>
+                              <event>Operations and training staff officer, 92nd Infantry Division, Fort Huachuca, Ariz.</event>
+                              <event>Married Alta Ross</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1944</fromdate>
+                              <todate>1945</todate>
+                           </daterange>
+               <event>Served as rifle company commander and heavy weapons company
+                  commander, 92nd Infantry Division, North Apennines and
+                  Po Valley campaigns, Italy</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1945</datesingle>
+               <chronitemset>
+                              <event>Promoted to captain</event>
+                              <event>Awarded Bronze Star Medal, Italy</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1946</datesingle>
+               <event>Promoted to major</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1948</datesingle>
+               <event>S-3 (Operations), 11th Infantry Regiment, 5th Infantry Division, Fort Jackson, S.C.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1950</fromdate>
+                              <todate>1953</todate>
+                           </daterange>
+               <event>Assigned to 350th Infantry Regiment, Austria</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1953</fromdate>
+                              <todate>1955</todate>
+                           </daterange>
+               <event>Army advisor, National Guard, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1956</fromdate>
+                              <todate>1957</todate>
+                           </daterange>
+               <event>Military advisor, Military Assistance Advisory Group, Taiwan</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1958</fromdate>
+                              <todate>1960</todate>
+                           </daterange>
+               <event>S-4 (Logistics), Combat Development Experimentation Command, 1st Brigade, 10th Infantry, Fort Ord, Calif. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1961</fromdate>
+                              <todate>1962</todate>
+                           </daterange>
+               <event>Military advisor, Joint United States Military Advisory Group,
+                  Thailand</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1962</datesingle>
+               <event>Recalled from Thailand to assist in re-activation of 1st Armored Division,
+                  Fort Hood, Tex.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1963</datesingle>
+               <event>Retired from U.S. Army as lieutenant colonel</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>2006, Mar. 12</datesingle>
+               <event>Died, Cleveland, Tenn.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Eugene Edwin Johnston (1915-2006) span the years 1912-2008, with the bulk
+            of the material concentrated in the period 1940-1963. Correspondence, military papers,
+            writings, photographs, awards, certificates, maps, printed matter, digital files, and
+            other papers document Johnston's military career and focus on his service with the 92nd
+            Infantry Division. The papers are in English. The collection is arranged alphabetically
+            by topic or type of material and therein chronologically.</p>
+         <p>Johnston served with the 92nd Infantry Division, nicknamed the Buffalo Soldiers
+            Division, during World War II, and the division saw heavy combat in northern Italy from
+            1944 to 1945. Included in the papers are Johnston's Buffalo Soldier patch, a publication
+            about the division, and documentation regarding his award of a Bronze Star Medal in
+            1945. As a white, commanding officer in a primarily African-American unit of the
+            segregated United States Army, Johnston wrote to his wife about his dealings with the
+            troops. He was proud of their accomplishments and recommended some for decorations.
+            There are glimpses of the racial dynamics and tensions in the division in Johnston's
+            early correspondence. The full extent of Johnston's experience with the division is
+            discussed in the oral history interviews conducted by Carolyn Johnston, daughter of
+            Eugene Edwin Johnston, from 2001 to 2005. In 2012, Carolyn Johnston used the oral
+            history interviews in her publication <title>
+                           <part>My Father's War: Fighting with the Buffalo
+               Soldiers in World War II.</part>
+                        </title> The oral history interviews are located in the
+            digital files. In addition, Johnston's military papers and personnel 201 file chronicle
+            his service in Austria with the 350th Infantry Regiment from 1950 to 1953 and his role
+            as a military advisor in Taiwan from 1956 to 1957 and in Thailand from 1961 to 1962.</p>
+         <p>Correspondents include Johnston's wife, Alta Ross Johnston, and his daughters, Carolyn
+            Ross Johnston and Nancy Jean Johnston Smith. Many letters from the World War II era are
+            in V-mail format.</p>
+         <p>The digital files mainly consist of images of Johnston's correspondence. The images were
+            created in 2014 and are in PDF format. Not all correspondence is digitized. Also
+            included are WAV files containing audio recordings of Johnston's oral history interviews
+            from 2001 to 2005.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged alphabetically by topic or type of material and therein chronologically.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">92nd Infantry Division related material,
+                   <date>circa 1945, 2001, 2008</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">circa 1945, 2001, 2008</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Bronze Star Medal award,  <date>1945</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1945</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Correspondence,  <date>1938-1945, 1957-1963,
+                     1998, 2004 </date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1938-1945, 1957-1963,
+                     1998, 2004 </unitdate>
+               <physdesc>(5 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Diary of Fred Johnston (father),  <date>1912-1913, 1926-1928</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1912-1913, 1926-1928</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Education and training file,  <date>1934,
+                     1958-1962, 1975</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1934,
+                     1958-1962, 1975</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Genealogical file,  <date>1979,
+                     undated</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1979,
+                     undated</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Maps,  <date>1944-1948,
+                     1961-1963, undated</date> 
+                              <ref target="OVmaps">
+                                 <emph render="italic">See Oversize</emph>
+                              </ref>
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1944-1948,
+                     1961-1963, undated</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Miscellany,  <date>1961,
+                  undated</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1961,
+                  undated</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">2</container>
+               <unittitle encodinganalog="245$a">Military papers
+                  </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">1940-1966</unittitle>
+                  <physdesc>(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">1969-1970, 1980-1984, 1991</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Obituary,  <date>2006</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">2006</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Oil tankers,  <date>1975,
+                  undated</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1975,
+                  undated</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Personnel 201 file,
+                   <date>1944-1963</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">1944-1963</unitdate>
+               <physdesc>(4 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Photograph albums,
+                   <date>circa 1940-1963, undated</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">circa 1940-1963, undated</unitdate>
+               <physdesc>(2 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Photographs,  <date>circa 1940-circa
+                  1963, undated</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">circa 1940-circa
+                  1963, undated</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">4</container>
+               <unittitle encodinganalog="245$a">Writings,  <date>circa 1957, 1984-1989,
+                     undated</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245 $f">circa 1957, 1984-1989,
+                     undated</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a">Oversize</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle id="OVmaps" encodinganalog="245$a">Maps, 
+                      <date>1944-1948, 1961-1963, undated</date> 
+                     (Container 1)</unittitle>
+                  <unitdate encodinganalog="245 $f">1944-1948, 1961-1963, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="df"/>
+               <unittitle encodinganalog="245$a" id="digfiles">Digital files
+               </unittitle>
+               <unitid label="Digital ID:">mss85926_106_001</unitid>
+               <unitid label="Digital ID:">mss85926_106_002</unitid>
+            </did>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Correspondence,  <date>1938-1945, 1961-1963</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1938-1945, 1961-1963</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Oral history interview recordings,  <date>circa 2001-circa 2005</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">circa 2001-circa 2005</unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

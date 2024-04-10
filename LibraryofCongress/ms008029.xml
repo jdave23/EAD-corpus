@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms008029">loc.mss/eadmss.ms008029</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Anna Maria Evans Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress
+			 </subtitle>
+            <author>Prepared by T. Michael Womack </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2008" encodinganalog="260$c" era="ce" calendar="gregorian">2008</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm98084259">https://lccn.loc.gov/mm98084259</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="updated"/>
+                        <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Title, controlaccess updated</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2008">2008</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Anna Maria Evans Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1835/1914">1835-1914</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1855/1895">(bulk 1855-1895)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1835/1914"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1835-1914</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1855/1895"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1855-1895)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS84259</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Evans, Anna Maria, ca.
+			 1828-ca. 1905</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300"> 550 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">3 containers plus 1 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">1.2 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English
+		       </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part>
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Housewife and member of
+		  the Society of Friends (Quaker). Correspondence and printed matter pertaining
+		  to religious activities, education, domestic matters, and the impact of the
+		  Civil War on Evans's family and friends.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20180827084143.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bean, Roanna Fox--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Cartland, Gertrude Whittier, 1822-1911--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Evans, Anna Maria, approximately 1828-approximately 1905.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Evans, Flora Anna--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Evans, Thomas, -1902.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jones, Sam P. (Sam Porter), 1847-1906.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Moody, Dwight Lyman, 1837-1899.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Morrell, M. H.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Thompson, Susan T.--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Evangelistic work--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Missionaries.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Religious institutions--Massachusetts--Boston.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Religious tolerance--Society of Friends.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Slavery--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Society of Friends--Missions.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Society of Friends.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Temperance--Religious aspects--Society of Friends.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Women's rights--Religious aspects--Society of Friends.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>California--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Iowa--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Minnesota--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Rochester (N.H.)--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Civil War, 1861-1865.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Quakers.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p> The papers of Anna Maria Roberts Evans, member of the Society of
+		  Friends (Quakers), were purchased by the Library of Congress in 1998.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Anna Maria Evans were arranged and described in 1999.
+		  The finding aid was revised in 2008.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Anna Maria
+		  Evans is governed by the Copyright Law of the United States (Title 17,
+		  U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Anna Maria
+		  Evans are open to research.
+		  Researchers are advised to contact the Manuscript Reading Room prior to
+		  visiting. Many collections are stored off-site and advance notice is needed to
+		  retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Container number, Anna Maria Evans Papers, Manuscript
+		  Division, Library of Congress, Washington, D.C. </p>
+      </prefercite>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p> The papers of Anna Maria Roberts Evans (circa 1828-circa 1905) span the
+		  years 1835-1914, with the bulk of the items concentrated in the period between
+		  1855 and 1895. The collection consists principally of correspondence relating
+		  to the Society of Friends (Quakers). Anna Maria Evans, the primary individual
+		  in the collection and an active member of the Society of Friends, lived near
+		  Rochester, New Hampshire, where she and her husband, Thomas H. Evans, owned an
+		  apple orchard. Most of the letters were written by her female relatives and
+		  friends living in New England. The letters discuss details of everyday life,
+		  faith and religious activities, and to some extent touch upon Quaker
+		  involvement in the abolition of slavery, women's rights, religious tolerance,
+		  and temperance during the second half of the nineteenth century.</p>
+         <p> The letters of Roanna Fox Bean, a close friend of Evans, span a
+		  fifty-year period from their student days in the 1850s at the Friends' Boarding
+		  School in Providence, Rhode Island, to Bean's death in 1905. Bean and her
+		  husband James, an Indian agent and real estate developer, lived at various
+		  times in Iowa, Minnesota, and California. Her letters include accounts of life
+		  in these locales. Other letters were from women who were Quaker missionaries or
+		  wives of Quaker officials both in the United States and overseas, including
+		  Gertrude W. Cartland, M. H. Morrell, and Susan T. Thompson. Education figures
+		  prominently throughout the collection, especially in the letters of Elizabeth
+		  V. Roberts, an early graduate of the State Normal School in Moorhead,
+		  Minnesota. The subject of mental illness is mentioned periodically in letters
+		  from various members of the family.</p>
+         <p> The death of the Evanses' young son Winslow in 1881 while at boarding
+		  school is recorded in a file under his name. Their daughter Flora Anna, who
+		  worked in and around Boston, was active in the revival movement of the late
+		  nineteenth century and wrote frequently of her involvement in religious
+		  organizations and attendance at revivals, particularly those of Dwight L. Moody
+		  and Sam Jones. </p>
+         <p>The Civil War is also an important subject in the collection. Although
+		  pacifists, thousands of Quaker men of draft age were conscripted during the
+		  war. Most served despite their moral opposition, though some chose flight to
+		  Canada. Letters in the collection recount such decisions, along with reports of
+		  suffering and loss of life caused by the war and the prayers of those at home
+		  for the safe return of their loved ones. Other letters chronicle war relief
+		  efforts, especially among African American refugees fleeing the South, and
+		  contain favorable references to President Abraham Lincoln.</p>
+         <p> The pursuit of arable land in conjunction with the nation's westward
+		  expansion is documented in numerous letters. In addition to offering religious
+		  instruction, many of these Quaker settlements promoted advancements in
+		  education, farming methods, and social reform for the benefit of believer and
+		  non-believer alike. A miscellany file contains a Roberts family genealogy and
+		  material relating to Evans's education. There is also a file of printed matter
+		  consisting of advertisements, handbills, inserts, programs, receipts, and
+		  religious tracts. Among the oversize items are religious printed matter and
+		  broadsides advertising dry goods and furniture.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged alphabetically by type of material and
+		  therein alphabetically by correspondent.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Letters received</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Evans, Anna Maria
+				  Roberts</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Armstrong, Jennie, 
+					  <date>1889</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1889</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Barton, Maria Varney, 
+					  <date>1865, 1876</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865, 1876</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Bean, Roanna Fox, 
+					  <date>1854-1856, 1866-1898, 1905, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1854-1856, 1866-1898, 1905, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(7
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Beede, Abigail, 
+					  <date>1873-1899, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1873-1899, undated</unitdate>
+                     <physdesc encodinganalog="300$a">(3
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Beede, Huldah M., 
+					  <date>1889-1891</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1889-1891</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Cartland, Gertrude W., 
+					  <date>1880-1889</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1880-1889</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Dillingham, Pruda Austin
+					 (stepsister), 
+					  <date>1886-1889</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886-1889</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Evans, Flora Anna
+					 (daughter)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>1881-1888</date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1881-1888</unitdate>
+                        <physdesc encodinganalog="300$a">(3
+						folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a"> 
+						                                 <date>1889, 1895-1897, undated </date> 
+                                    </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1889, 1895-1897, undated </unitdate>
+                        <physdesc encodinganalog="300$a">(5
+						folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Evans, Thomas H. (husband), 
+					  <date>1869</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1869</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Goddard, Mary J., 
+					  <date>1881-1887</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1881-1887</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Hoag, Susan Beede, 
+					  <date>1875, 1899-1900</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1875, 1899-1900</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Jenkins, Lydia E., 
+					  <date>1881-1885</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1881-1885</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Jones, M. F., 
+					  <date>1853-1857, 1873</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1853-1857, 1873</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Kelly, Abigail H., 
+					  <date>1865, 1881-1885, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865, 1881-1885, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Meader, Elizabeth, 
+					  <date>1865</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Meader, Susan L., 
+					  <date>1875-1878, 1888, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1875-1878, 1888, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous, 
+					  <date>1850, 1865-1890, 1897-1898, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1850, 1865-1890, 1897-1898, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Moore, Caroline M. Varney
+					 ("Carrie"), 
+					  <date>1863, 1869-1879</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1863, 1869-1879</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Morrell, M. H., 
+					  <date>
+						1879-1890</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+						1879-1890</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Paige, Lizzie J., 
+					  <date>1877, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1877, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Pinkham, Lucinda, 
+					  <date>1871-1883, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1871-1883, undated</unitdate>
+                     <physdesc encodinganalog="300$a"> (2
+					 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Pinkham, M. Beede, 
+					  <date>1855-1856, 1863-1866, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1855-1856, 1863-1866, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Quimby, Elizabeth S., 
+					  <date>1863, 1880-1890, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1863, 1880-1890, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Roberts, Edith A. ("Edie"), 
+					  <date>1892-1896</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1892-1896</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Roberts, Edward Everett
+					 (brother), 
+					  <date>undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Roberts, Elizabeth V., 
+					  <date>1885-1896</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1885-1896</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Roberts, Jessie (father), 
+					  <date>1865-1876</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1865-1876</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Roberts, Martha Austin
+					 (stepmother), 
+					  <date>1876, 1884, undated</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1876, 1884, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Roberts, Mary H., 
+					  <date>1841, 1875-1882</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1841, 1875-1882</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Roberts, Olive A., 
+					  <date>1866-1869</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1866-1869</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Roberts, Sarah Beede (mother), 
+					  <date>1853, 1859</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1853, 1859</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Thompson, Susan T., 
+					  <date>1882-1884</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1882-1884</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Varney, Cynthia, 
+					  <date>
+						1890</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+						1890</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Varney, Eliza P., 
+					  <date>1877-1880, 1887</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1877-1880, 1887</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Varney, Lydia E., 
+					  <date>1857</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1857</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Wiggin, A. Huldah, 
+					  <date>1892-1897</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1892-1897</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Wiggin, Samuel Beede, 
+					  <date>1858</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1858</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Evans, Flora Anna, 
+				   <date>1872, 1881-1899, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1872, 1881-1899, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Evans, Thomas H., 
+				   <date>1856-1889, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1856-1889, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Evans, Winslow (son), 
+				   <date>1875-1881, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1875-1881, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous family members, 
+				   <date>1838, 1846, 1863-1865, 1874-1880, 1887-1903, 1912-1914,
+					 undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1838, 1846, 1863-1865, 1874-1880, 1887-1903, 1912-1914,
+					 undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Roberts, Jesse and Sarah Beede, 
+				   <date>1835, 1849-1879, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1835, 1849-1879, undated</unitdate>
+                  <physdesc encodinganalog="300$a">(4
+				  folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Roberts, Martha Austin, 
+				   <date>1878-1882</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1878-1882</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Unidentified, 
+				   <date>1859, undated</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1859, undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Miscellany, 
+				 <date>1853, undated</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1853, undated</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">3</container>
+               <unittitle encodinganalog="245$a">Printed matter, 
+				 <date>1857-1894, undated</date>  
+				                          <ref show="replace" actuate="onrequest" target="print1">
+                                 <emph render="italic">See also Oversize</emph>
+                              </ref>
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1857-1894, undated</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a" id="print1">Printed matter, 
+				 <date>1886-1887, undated</date>  (Container 3)</unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1886-1887, undated</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

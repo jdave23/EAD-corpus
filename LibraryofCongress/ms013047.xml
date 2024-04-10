@@ -1,0 +1,2261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms013047">loc.mss/eadmss.ms013047</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper>Henry D. Flood Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress </subtitle>
+            <author>Prepared by Manuscript Division Staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+                           <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+               Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2012" encodinganalog="260$c" era="ce" calendar="gregorian">2012</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm78020859">https://lccn.loc.gov/mm78020859</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2013">2013</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Henry D. Flood Papers  <date altrender="Span Dates" localtype="inclusive" normal="1870/1921">1870-1921</date> 
+                        <date altrender="Bulk Dates" localtype="bulk" normal="1901/1921">(bulk 1901-1921)</date> 
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1870/1921"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1870-1921</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1901/1921"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1901-1921)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS20859</unitid>
+         <origination label="Creator">
+                        <persname encodinganalog="100" source="lcnaf">
+                           <part>Flood, Henry D. (Henry Delaware),
+               1865-1921</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">32,500 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">88 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">36.2 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <descriptivenote>
+                           <p>Collection material in English
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852">
+                        <corpname>
+                           <part>
+                Manuscript Division,  Library of Congress</part>
+                        </corpname>
+                        <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Lawyer, state legislator, and U.S.
+            representative from Virginia. Correspondence, legislative bills, resolutions, newspaper
+            articles, and other papers relating chiefly to political affairs in Virginia and Flood’s
+            legislative career. </abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20201228154333.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Byrd, Harry F. (Harry Flood), 1887-1966--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Byrd, Richard Evelyn, 1888-1957--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Flood, Henry D. (Henry Delaware), 1865-1921.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Quinn, John, 1839-1903--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Ryan, Thomas Fortune, 1851-1928--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Trinkle, E. Lee (Elbert Lee), 1876-1939--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Woolley, Robert Wickliffe, 1871-1958--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>National Fertilizer Development Center (U.S.)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. War Department.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Agricultural laws and legislation--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Fertilizer industry--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Fertilizers--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Finance, Public--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Prohibition--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Revenue--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Roads--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Tariff--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Taxation--United States.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Foreign relations--1865-1921.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Military policy.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--1865-1933.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Virginia--Politics and government--1865-1950.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Lawyers.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Legislators--Virginia.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Representatives, U.S. Congress--Virginia.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The papers of Henry D. Flood, lawyer, state legislator, and U.S. representative from
+               Virginia, were given to the Library of Congress by his widow, Anna Portner Flood, and her son, Bolling Byrd Flood, in 1951. Additional material was transferred from the Lyndon Baines Johnson
+               Library, Austin, Tex., between 1980 and 1981.  </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The Henry D. Flood Papers were processed circa 1951 and expanded in 1984. The finding
+               aid was revised in 2012. </p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Henry D. Flood is governed by
+               the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Henry D. Flood are open to research. Researchers are advised to contact
+               the Manuscript Reading Room prior to visiting. Many collections are stored off-site
+               and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+               Container number, Henry D. Flood Papers, Manuscript Division, Library of Congress,
+               Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1865, Sept. 2 </datesingle>
+               <event>Born, Appomattox County, Va. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>circa 1885 </datesingle>
+               <event>Educated at Washington &amp; Lee University, Lexington, Va., and University of
+                  Virginia, Charlottesville, Va.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1886</datesingle>
+               <event>LL.B.; admitted to the bar</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1887</fromdate>
+                              <todate>1891</todate>
+                           </daterange>
+               <event>Member, Virginia house of delegates</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1891</fromdate>
+                              <todate>1903</todate>
+                           </daterange>
+               <event>Member, Virginia senate</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1891</datesingle>
+               <event>Elected prosecuting attorney for Appomattox County, Va. (also in 1895 and
+                  1899) </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1892</datesingle>
+               <event>Presidential elector, 10th Congressional District, Va.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1901</fromdate>
+                              <todate>1902</todate>
+                           </daterange>
+               <event>Member, Virginia Constitutional Convention</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1901</fromdate>
+                              <todate>1921</todate>
+                           </daterange>
+               <event>U.S. representative from Virginia; chairman, Foreign Affairs Committee,
+                  62nd-65th Congresses</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1904</fromdate>
+                              <todate>1914</todate>
+                           </daterange>
+               <event>Member, Board of Visitors, University of Virginia, Charlottesville,
+                  Va.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1921, Dec. 8</datesingle>
+               <event>Died, Washington, D.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Henry Delaware Flood (official name: Henry De La Warr Flood, 1865-1921) span the years 1870-1921, with the bulk
+            of the material concentrated in the period 1901-1921. The collection consists of
+            correspondence, legislative bills, resolutions, newspaper articles, and other papers
+            relating chiefly to political affairs in Virginia during Flood’s career in state
+            politics and as a representative in Congress. The papers are organized into six series:
+               <ref show="replace" actuate="onrequest" target="Gen">General Correspondence</ref>, <ref show="replace" actuate="onrequest" target="Sent">Letters Sent</ref>, 
+            <ref show="replace" actuate="onrequest" target="appt">Political Appointments</ref>, 
+            <ref show="replace" actuate="onrequest" target="Subj">Subject File</ref>, <ref show="replace" actuate="onrequest" target="Book">Condolence Books</ref>, and <ref show="replace" actuate="onrequest" target="Add">Addition</ref>.
+         </p>
+         <p>Subjects include bills introduced, army and military matters, campaign materials,
+            diplomatic and foreign affairs, the establishment of the national fertilizer development
+            center at Muscle Shoals, Alabama, prohibition, revenue and taxes, roads, tariffs, War
+            Department matters, and agricultural legislation. Correspondents include Harry Flood
+            Byrd, Richard Evelyn Byrd, John Quinn, Thomas Fortune Ryan, E. Lee Trinkle, and Robert
+            Wickliffe Woolley.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in six series:</p>
+         <list>
+            <item>
+                           <ref show="replace" actuate="onrequest" target="Gen">General Correspondence, 1870-1921</ref>
+                        </item>
+            <item>
+                           <ref show="replace" actuate="onrequest" target="Sent">Letters Sent, 1899-1903</ref>
+                        </item>
+            <item>
+                           <ref show="replace" actuate="onrequest" target="appt">Political Appointments, 1917-1920</ref>
+                        </item>
+            <item>
+                           <ref show="replace" actuate="onrequest" target="Subj">Subject File, circa 1898-1921</ref>
+                        </item>
+            <item>
+                           <ref show="replace" actuate="onrequest" target="Book">Condolence Books, 1921</ref>
+                        </item>
+            <item>
+                           <ref show="replace" actuate="onrequest" target="Add">Addition, 1912-1918</ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-60</container>
+               <unittitle encodinganalog="245$a" id="Gen">General Correspondence,  <date normal="1870/1921">1870-1921</date> 
+                           </unittitle>
+               <unitdate normal="1870/1921">1870-1921</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent and received.  </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically by month for the period 1870-1912 and by day from 1913 to
+                  1921. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1870-1892, Aug. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1870-1892, Aug. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1892, Sept.-1893, Dec. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1892, Sept.-1893, Dec. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1894 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1894 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1895, Jan.-1896, Jan. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1895, Jan.-1896, Jan. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1896, Feb.-Dec. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1896, Feb.-Dec. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1897, Jan.-Oct. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1897, Jan.-Oct. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1897, Nov.-1898, Feb. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1897, Nov.-1898, Feb. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">8</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1898, Mar.-1899, Feb. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1898, Mar.-1899, Feb. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">9</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1899 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1899 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Mar.-July </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Mar.-July </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Aug.-Dec. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Aug.-Dec. </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1900 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1900 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">11</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Jan.-Apr. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Jan.-Apr. </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>May-Aug. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">May-Aug. </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Sept.-Nov. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Sept.-Nov. </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1900, Dec. 1900-1901, Mar. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1900, Dec. 1900-1901, Mar. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1901 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1901 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">15</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Apr.-July </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Apr.-July </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Aug.-Dec. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Aug.-Dec. </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1902 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1902 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Jan.-Mar. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Jan.-Mar. </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Apr.-July </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Apr.-July </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Aug.-Nov. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Aug.-Nov. </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">20</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1902, Dec.-1903, Feb. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1902, Dec.-1903, Feb. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1903 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1903 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">21</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Feb.-Apr. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Feb.-Apr. </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">22</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Apr.-Aug. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Apr.-Aug. </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">23</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Sept.-Dec. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Sept.-Dec. </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1904 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1904 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">24</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Jan.-Mar. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Jan.-Mar. </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">25</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Apr.-May </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Apr.-May </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">26</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>May-Aug. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">May-Aug. </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">27</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Sept.-Nov. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Sept.-Nov. </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">28</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1904, Dec.-1905, Apr.  </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1904, Dec.-1905, Apr.  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">29</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1905, May-Dec. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1905, May-Dec. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">30</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1906 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1906 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">31</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1907 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1907 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">31</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Jan.-June </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Jan.-June </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">32</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>July-Nov. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">July-Nov. </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">33</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1907, Dec.-1908, Mar. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1907, Dec.-1908, Mar. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">34</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1908, Apr.-Aug. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1908, Apr.-Aug. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">35</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1908, Sept.-1909, Jan. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1908, Sept.-1909, Jan. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">36</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1909 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1909 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">36</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Feb.-Aug. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Feb.-Aug. </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">37</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1909, Sept.-1910 Feb. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1909, Sept.-1910 Feb. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">38</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1910 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1910 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">38</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Mar.-July </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Mar.-July </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">39</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Aug.-Dec. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Aug.-Dec. </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">40</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1911 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1911 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">40</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Jan.-Apr. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Jan.-Apr. </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">41</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>May-July </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">May-July </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">42</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Aug.-Nov. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Aug.-Nov. </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">43</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1911, Dec.-1912, Feb. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1911, Dec.-1912, Feb. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">44</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1912 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1912 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">44</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>Mar.-June </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">Mar.-June </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">45</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>July-Oct. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">July-Oct. </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">46</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1912, Nov.-1913, 20 Feb.  </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1912, Nov.-1913, 20 Feb.  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">47</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1913 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1913 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">47</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>21 Feb.-20 May </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">21 Feb.-20 May </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">48</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>21 May-22 Sept.</date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">21 May-22 Sept.</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">49</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>23 Sept.-11 Dec. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">23 Sept.-11 Dec. </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">50</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1913, 12 Dec.-1914, 18 Mar.  </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1913, 12 Dec.-1914, 18 Mar.  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">51</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1914 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1914 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">51</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>19 Mar.-30 June  </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">19 Mar.-30 June  </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">52</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>July-Dec. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">July-Dec. </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">53</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1915, Jan.-Sept. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1915, Jan.-Sept. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">54</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1915, Oct. 15-1916, Mar. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1915, Oct. 15-1916, Mar. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">55</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1916, Apr.-1919, Dec. </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1916, Apr.-1919, Dec. </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">56</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1920-1921 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1920-1921 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">57-60</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>Undated </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">Undated </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">61-65</container>
+               <unittitle encodinganalog="245$a" id="Sent">Letters Sent,  <date normal="1899/1903">1899-1903</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1899/1903">1899-1903</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Alphabetical.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged chronologically and therein alphabetically by name of correspondent.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">61</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1899, Aug.-1901, June  </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1899, Aug.-1901, June  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1901, A-Z </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1901, A-Z </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">62</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1902 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1902 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">62</container>
+                     <unittitle encodinganalog="245$a">A-P </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">63</container>
+                     <unittitle encodinganalog="245$a">R-Y and miscellaneous  </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">64</container>
+                  <unittitle encodinganalog="245$a">
+                                 <date>1903 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1903 </unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">64</container>
+                     <unittitle encodinganalog="245$a">A-M </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">65</container>
+                     <unittitle encodinganalog="245$a">T-Y </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">66-68</container>
+               <unittitle encodinganalog="245$a" id="appt">Political Appointments,  <date normal="1917/1920">1917-1920</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1917/1920">1917-1920</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent and received.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically arrangement by name of appointee. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">66</container>
+                  <unittitle encodinganalog="245$a">A-F </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">67</container>
+                  <unittitle encodinganalog="245$a">G-L  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">68</container>
+                  <unittitle encodinganalog="245$a">M-R </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">69-84</container>
+               <unittitle encodinganalog="245$a" id="Subj">Subject File,  <date normal="1898/1921">circa
+                     1898-1921</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1898/1921">circa
+                     1898-1921</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, reports, maps, statistical and printed matter, and a broad variety
+                  of miscellaneous material.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by topic, name of person, organization. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Agriculture, relief for farmers </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">American Legion </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Amherst, public building </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Amorphous graphite, tariff </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Annapolis, Md., U.S. Naval Academy  </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Anti-Saloon League </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Appomattox Road </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Armenia </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Army, sale of surplus supplies </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Augusta, 1920 </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">69</container>
+                  <unittitle encodinganalog="245$a">Bath County </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">70</container>
+                  <unittitle encodinganalog="245$a">Bergdoll Committee </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">70</container>
+                  <unittitle encodinganalog="245$a">Bills, miscellaneous </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">70</container>
+                  <unittitle encodinganalog="245$a">Bills introduced by Flood, 59th-64th Congresses,
+                     67th Congress </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">70</container>
+                  <unittitle encodinganalog="245$a">Bill to give effect to the fifth article of the
+                     treaty between United States and Great Britain,  <date>11 Jan. 1909 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">11 Jan. 1909 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">70</container>
+                  <unittitle encodinganalog="245$a">Bonus to soldiers </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">70</container>
+                  <unittitle encodinganalog="245$a">Botetourt </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">70</container>
+                  <unittitle encodinganalog="245$a">Buckingham </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">70</container>
+                  <unittitle encodinganalog="245$a">Budget </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">70</container>
+                  <unittitle encodinganalog="245$a">Buena Vista </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">70</container>
+                  <unittitle encodinganalog="245$a">Byrd, Richard Evelyn  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">71</container>
+                  <unittitle encodinganalog="245$a">Campaign </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">71</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1912 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1912 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">71</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1921, house of delegates </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1921, house of delegates </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">71</container>
+                     <unittitle encodinganalog="245$a">Expenses,  <date>1920 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1920 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">71</container>
+                     <unittitle encodinganalog="245$a">Finances,  <date>1920 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1920 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">71</container>
+                     <unittitle encodinganalog="245$a">Letters and data,  <date>1914 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1914 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">71</container>
+                     <unittitle encodinganalog="245$a">Literature, national </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">71</container>
+                     <unittitle encodinganalog="245$a">Literature, Virginia </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">71</container>
+                     <unittitle encodinganalog="245$a">Material,  <date>1920 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1920 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">71</container>
+                     <unittitle encodinganalog="245$a">Material, miscellaneous correspondence
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">71</container>
+                     <unittitle encodinganalog="245$a">Material, miscellaneous  </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">71</container>
+                  <unittitle encodinganalog="245$a">Census, Virginia </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">71</container>
+                  <unittitle encodinganalog="245$a">Census, positions <date>1920 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1920 </unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">72</container>
+                  <unittitle encodinganalog="245$a">China </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">72</container>
+                  <unittitle encodinganalog="245$a">Chairmanship, Democratic state party, Virginia
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">72</container>
+                  <unittitle encodinganalog="245$a">Coal administrator, Virginia </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">72</container>
+                  <unittitle encodinganalog="245$a">Committee, Democratic state party, Virginia
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">72</container>
+                  <unittitle encodinganalog="245$a">Common Good, Virginia Association for the
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">72</container>
+                  <unittitle encodinganalog="245$a">Congressional investigations </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">72</container>
+                  <unittitle encodinganalog="245$a">Covington, Va., post office </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">73</container>
+                  <unittitle encodinganalog="245$a">Dairy, Dupont County </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">73</container>
+                  <unittitle encodinganalog="245$a">Diplomatic and consular positions </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">73</container>
+                  <unittitle encodinganalog="245$a">Diplomatic and consular positions, Vincent
+                     O'Sullivan </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">73</container>
+                  <unittitle encodinganalog="245$a">Eldon Farm </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">73</container>
+                     <unittitle encodinganalog="245$a">General </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">73</container>
+                     <unittitle encodinganalog="245$a">Tenants </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">73</container>
+                  <unittitle encodinganalog="245$a">Election laws, Virginia </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">73</container>
+                  <unittitle encodinganalog="245$a">Election returns, state,  <date>1920 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1920 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">73</container>
+                  <unittitle encodinganalog="245$a">Eulogies </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">73</container>
+                  <unittitle encodinganalog="245$a">Exemption of religious sects </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">73</container>
+                  <unittitle encodinganalog="245$a">Expenses in the War Department </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Farm loan system </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Ferguson, S. L., campaign, state senate
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Fess-Capper bill </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Fess home economics bill </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Fluvanna,  <date>1920
+                     </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1920
+                     </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Foreign service bill </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Glover murder case </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Goldsmith, Robert </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Government employees from Virginia,  <date>1920 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1920 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Governorship campaign,  <date>1921</date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1921</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Governorship, Trinkle-Anderson  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Harris-Dillard Hardware Co. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Harvey, Colonel George </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Highland,  <date>1920
+                     </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1920
+                     </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">House of delegates, elections, <date> 1921 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f"> 1921 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Immigration bill </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">74</container>
+                  <unittitle encodinganalog="245$a">Invitations </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Irish question </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Iron ore  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Jones, C. E. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Kenyon and Kendricks bills </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Knox resolution,  <date>1921 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1921 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Korea </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Labor </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Lexington public building bill,  <date>1908 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1908 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Liberty Loan information </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Lieutenant governor,  <date>1921 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1921 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Linthicum fishing bill </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Lithuania </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">75</container>
+                  <unittitle encodinganalog="245$a">Maine, memorial tablets from </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">76</container>
+                  <unittitle encodinganalog="245$a">Military questions </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">76</container>
+                  <unittitle encodinganalog="245$a">Military training, universal </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">76</container>
+                  <unittitle encodinganalog="245$a">Minority report from Subcommittee No. 3,
+                         <date>1919-1921 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1919-1921 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">76</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">76</container>
+                     <unittitle encodinganalog="245$a">Bills </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">76</container>
+                     <unittitle encodinganalog="245$a">Resolutions and bills presented to Congress
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">77</container>
+                  <unittitle encodinganalog="245$a">Muscle Shoals bill </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">77</container>
+                  <unittitle encodinganalog="245$a">Natural Bridge Highway </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">77</container>
+                  <unittitle encodinganalog="245$a">Natural Bridge of Virginia, sale of </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">77</container>
+                  <unittitle encodinganalog="245$a">Negro company bylaws </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">77</container>
+                  <unittitle encodinganalog="245$a">Negro question </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">77</container>
+                  <unittitle encodinganalog="245$a">Nelson,  <date>1920
+                     </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1920
+                     </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">77</container>
+                  <unittitle encodinganalog="245$a">Newspapers, letters to </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">77</container>
+                  <unittitle encodinganalog="245$a">Newspaper articles and letters </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">77</container>
+                  <unittitle encodinganalog="245$a">Newspaper correspondence, 1920 campaign
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">77</container>
+                  <unittitle encodinganalog="245$a">Notes of investigations by Congress </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Peace resolution </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Peace treaty and League of Nations </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Pensions </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Petitions, 1918 campaign </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Pollution of the Niagra River </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Primary election laws </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Prohibition </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Proposed bills and resolutions </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Purchase of American embassies abroad
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Railroad bill,  <date>1921 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1921 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Railroads </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Real estate </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Redistricting </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">78</container>
+                  <unittitle encodinganalog="245$a">Revenue bill </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">78</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1919 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1919 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">78</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1921 </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1921 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">79</container>
+                  <unittitle encodinganalog="245$a">Rifle range, Virginia </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">79</container>
+                  <unittitle encodinganalog="245$a">Roads, <date>1916,
+                        1917, 1919 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1916,
+                        1917, 1919 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">79</container>
+                  <unittitle encodinganalog="245$a">Ryan, Thomas </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">79</container>
+                  <unittitle encodinganalog="245$a">Salaries, increase of postal, etc. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">79</container>
+                  <unittitle encodinganalog="245$a">Sales tax </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">79</container>
+                  <unittitle encodinganalog="245$a">Saunders, E. E., Supreme Court of Appeals of
+                     Virginia </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">79</container>
+                  <unittitle encodinganalog="245$a">Senate, Swanson v. Davis,  <date>1922 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1922 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">79</container>
+                  <unittitle encodinganalog="245$a">Senatorship,  <date>1910 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1910 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">79</container>
+                  <unittitle encodinganalog="245$a">Sheppard-Towner bill </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">79</container>
+                  <unittitle encodinganalog="245$a">Smith-Towner bill </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">80</container>
+                  <unittitle encodinganalog="245$a">Soldier bills </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">80</container>
+                  <unittitle encodinganalog="245$a">Speakers </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">80</container>
+                  <unittitle encodinganalog="245$a">Speeches by Flood </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">80</container>
+                  <unittitle encodinganalog="245$a">State appointments </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">80</container>
+                  <unittitle encodinganalog="245$a">State Department, consular positions
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">Staunton </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">81</container>
+                     <unittitle encodinganalog="245$a">Political situation </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">81</container>
+                     <unittitle encodinganalog="245$a">Public buildings </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">Staunton Fair </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Staunton News</part>
+                                 </title>
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">Strode candidacy,  <date>1916 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1916 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">Subcommittee No. 3, general </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">Suffrage, alien </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">Swanson, Claude A. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">Tariff bills </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">Taxes </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">
+                                 <title>
+                                    <part>Times-Virginian,</part>
+                                 </title> Appomattox, Va. </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">Tobacco </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">Tobacco legislation </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">81</container>
+                  <unittitle encodinganalog="245$a">Townsend, B. D. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">82</container>
+                  <unittitle encodinganalog="245$a">Trinkle, E. Lee, campaign for governorship,
+                         <date>1921 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1921 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">82</container>
+                  <unittitle encodinganalog="245$a">Virginia, University of </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">82</container>
+                  <unittitle encodinganalog="245$a">Virginia Military Institute, Lexington <date>1914 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1914 </unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">82</container>
+                  <unittitle encodinganalog="245$a">Virginia legislative resolution </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">82</container>
+                  <unittitle encodinganalog="245$a">Virginia newspapers </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">82</container>
+                  <unittitle encodinganalog="245$a">War Department, Flood </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">82</container>
+                  <unittitle encodinganalog="245$a">War expenditures </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">82</container>
+                     <unittitle encodinganalog="245$a">Subcommittee, general </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">82</container>
+                     <unittitle encodinganalog="245$a">Investigation by H.R. </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">83</container>
+                  <unittitle encodinganalog="245$a">Waynesboro, public building </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">83</container>
+                  <unittitle encodinganalog="245$a">West Brothers </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">83</container>
+                  <unittitle encodinganalog="245$a">West Point, N.Y., U.S. Military Academy,
+                     applications for appointment </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">83</container>
+                  <unittitle encodinganalog="245$a">West Virginia debt </unittitle>
+                  <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  <container localtype="box">84</container>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">85</container>
+               <unittitle encodinganalog="245$a" id="Book">Condolence Books,  <date normal="1921">1921</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1921">1921</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters, telegrams, and calling cards of sympathy and condolence on the death of
+                  Flood.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">85</container>
+                  <unittitle encodinganalog="245$a">Letters of condolence,  <date>1921 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1921 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">85</container>
+                  <unittitle encodinganalog="245$a">Calling cards and telegrams of condolence,
+                         <date>1921 </date> 
+                              </unittitle>
+                  <unitdate encodinganalog="245 $f">1921 </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">86</container>
+               <unittitle encodinganalog="245$a" id="Add">Addition,  <date normal="1912/1918">1912-1918</date> 
+                           </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1912/1918">1912-1918</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Letters sent and received and miscellaneous material.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged by type of material and therein chronologically.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">86</container>
+                  <unittitle encodinganalog="245$a">General correspondence </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">86</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1912, 25 Apr.-1917, 28 Feb. </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1912, 25 Apr.-1917, 28 Feb. </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">87</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1917, 1 Mar.-1917, 31 May </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1917, 1 Mar.-1917, 31 May </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">88</container>
+                     <unittitle encodinganalog="245$a">
+                                    <date>1917, 1 June-1918, 3 Dec., undated
+                        </date> 
+                                 </unittitle>
+                     <unitdate encodinganalog="245 $f">1917, 1 June-1918, 3 Dec., undated
+                        </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">88</container>
+                  <unittitle encodinganalog="245$a">Miscellany </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

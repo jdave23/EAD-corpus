@@ -1,0 +1,3434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+                  <recordid xmlns:mets="http://www.loc.gov/METS/" encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms012105">loc.mss/eadmss.ms012105</recordid>
+                  <filedesc xmlns:mets="http://www.loc.gov/METS/">
+         <titlestmt>
+            <titleproper encodinganalog="245$a">David Rapaport Papers</titleproper>
+            <subtitle>A Finding Aid to the Papers in the Sigmund Freud Collection
+			 in the Library of Congress</subtitle>
+            <author encodinganalog="245$c">Prepared by David Mathisen and Brian
+			 McGuire<lb/>Revised and expanded by Margaret McAleer</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+			                        <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division,
+			 Library of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C. </addressline>
+            </address>
+            <date normal="2012" encodinganalog="260$c" era="ce" calendar="gregorian">2012</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+                           <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+                        </controlnote>
+            <controlnote id="contactNote">
+                           <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">http://hdl.loc.gov/loc.mss/mss.contact</ref>
+                           </p>
+                        </controlnote>
+            <controlnote id="lccnNote">
+                           <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm79037325">https://lccn.loc.gov/mm79037325</ref>
+                           </p>
+                        </controlnote>
+         </notestmt>
+      </filedesc>
+                  <maintenancestatus xmlns:mets="http://www.loc.gov/METS/" value="revised">revised</maintenancestatus>
+                  <maintenanceagency xmlns:mets="http://www.loc.gov/METS/" countrycode="US">
+                     <agencycode>us-dlc</agencycode>
+                     <agencyname>Library of Congress</agencyname>
+                  </maintenanceagency>
+                  <languagedeclaration xmlns:mets="http://www.loc.gov/METS/">
+                     <language langcode="eng" encodinganalog="040$b">English</language>
+                     <script scriptcode="Latn">Latin</script>
+                  </languagedeclaration>
+                  <maintenancehistory xmlns:mets="http://www.loc.gov/METS/">
+                     <maintenanceevent>
+                        <eventtype value="revised"/>
+                        <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+                        <agenttype value="machine"/>
+                        <agent>ead3_converter_mfer.xsl</agent>
+                        <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+                     </maintenanceevent>
+                     <maintenanceevent>
+                        <eventtype value="created"/>
+                        <eventdatetime standarddatetime="2012">2012</eventdatetime>
+                        <agenttype value="human"/>
+                        <agent>Library of Congress, Washington, D.C.</agent>
+                        <eventdescription>Finding aid encoded by Library of Congress Manuscript Division</eventdescription>
+                     </maintenanceevent>
+                  </maintenancehistory>
+               </control>
+   <archdesc xmlns:mets="http://www.loc.gov/METS/" level="collection" relatedencoding="MARC21"
+             localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">David Rapaport Papers 
+		   <date altrender="Span Dates" localtype="inclusive" normal="1911/1997">1911-1997</date>  
+		                      <date altrender="Bulk Dates" localtype="bulk" normal="1948/1960">(bulk 1948-1960)</date>  
+                     </unittitle>
+         <unitdate label="Span Dates" unitdatetype="inclusive" normal="1911/1997"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1911-1997</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1948/1960"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">(bulk 1948-1960)</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS37325</unitid>
+         <origination label="Creator">
+                        <persname source="lcnaf" encodinganalog="100">
+                           <part>Rapaport,
+			 David</part>
+                        </persname>
+                     </origination>
+         <physdesc label="Extent" encodinganalog="300">23,500
+		  items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">91 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">43 linear feet</physdesc>
+         <langmaterial label="Language">
+                        <language encodinganalog="041" langcode="eng">English</language>
+                        <language encodinganalog="041" langcode="hun">Hungarian</language>
+                        <descriptivenote>
+                           <p>Collection material in
+		English and
+		Hungarian
+         </p>
+                        </descriptivenote>
+                     </langmaterial>
+         <repository label="Location" encodinganalog="852"> 
+		                      <corpname>
+                           <part> 
+                Manuscript Division,  Library of
+			 Congress</part>
+                        </corpname> 
+		                      <address>
+               <addressline>Washington, D.C.</addressline>
+            </address> 
+                     </repository>
+         <abstract label="Summary" encodinganalog="520$a">Psychologist and
+		  author. Correspondence, drafts of speeches, lectures, and writings, memoranda,
+		  reports, legal documents, and printed matter concerning Rapaport's research and
+		  writings in the fields of psychology and psychoanalysis and his association
+		  with the Austen Riggs Center, Stockbridge, Massachusetts.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230703115439.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bettelheim, Bruno--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Burnham, John C. (John Chynoweth), 1929-2017--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Escalona, Sibylle K. (Sibylle Korsch), 1915- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Fenichel, Hanna--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Freud, Anna, 1895-1982--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Gill, Merton M. (Merton Max), 1914-1994--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hartmann, Heinz, 1894-1970--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Kubie, Lawrence S. (Lawrence Schlesinger), 1896-1973--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Mayman, Martin--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Menninger, Karl A. (Karl Augustus), 1893-1990--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Rapaport, David.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Schafer, Roy--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Sterba, Richard F.--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Strasser, Elvira Rapaport. Elvira Rapaport Strasser papers. 1941-1997.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Wolff, Peter H.--Correspondence.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Austen Riggs Center.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Behaviorism (Psychology)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Consciousness.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Ego (Psychology)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Emotions.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Kibbutzim.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Memory.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Mental health facilities--Massachusetts--Stockbridge.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Motivation (Psychology)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychoanalysis.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychological tests.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychology.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Spiritualism.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Thought and thinking.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Hungary--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Palestine--Social life and customs.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Authors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Psychologists.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Provenance</head>
+         <p>The papers of David Rapaport, psychologist and author, were deposited
+		  in the Library of Congress by his wife, Elvira Rapaport Strasser, between 1962
+		  and 1997. Strasser and her daughter, Juliet Rapaport Phillips, converted these
+		  deposits to gifts between 1962 and 1998. Additional material was given by
+		  Phillips in 1976 and 1996 and by the Sigmund Freud Archives between 1961 and
+		  1976.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>Part I of the papers of David Rapaport was arranged and described
+		  between 1963 and 1970. Additional material was processed as Part II in 2002.
+		  The finding aid was revised in 2010 and again in 2012.</p>
+      </processinfo>
+      <separatedmaterial>
+         <head>Transfers</head>
+         <p>Audio recordings have been transferred to the Library's Motion
+		  Picture, Broadcasting, and Recorded Sound Division where they are identified as
+		  part of these papers.separatedmat</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>Copyright in the unpublished writings of David Rapaport in these
+		  papers and in other collections of papers in the custody of the Library of
+		  Congress has been dedicated to the public.</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>Restrictions apply governing the use, photoduplication, or publication
+		  of items in this collection. Consult reference staff in the Manuscript Division
+		  for information concerning these restrictions. In addition, many collections
+		  are stored off-site and advance notice is needed to retrieve these items for
+		  research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the
+		  following information: Roman numeral designating the Part followed by a colon
+		  and container number, David Rapaport Papers, Sigmund Freud Collection,
+		  Manuscript Division, Library of Congress, Washington, D.C.</p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1911, Sept. 30</datesingle>
+               <event>Born, Munkács, Hungary</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1932</datesingle>
+               <chronitemset>
+                              <event>Leader in Hashomer Hatzair, a Zionist youth movement</event>
+                              <event>Married Elvira Strasser (died 1998)</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1933</datesingle>
+               <event>Graduated with degree in mathematics and experimental physics,
+				Royal Hungarian University, Budapest, Hungary</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1933</fromdate>
+                              <todate>1935</todate>
+                           </daterange>
+               <event>Worked as a surveyor in a kibbutz in Palestine</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1935</fromdate>
+                              <todate>1938</todate>
+                           </daterange>
+               <event>Analysand of Imre Hermann</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1938</datesingle>
+               <chronitemset>
+                              <event>Ph.D. in psychology, Royal Hungarian University, Budapest,
+				  Hungary</event>
+                              <event>Immigrated to the United States</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1939</fromdate>
+                              <todate>1940</todate>
+                           </daterange>
+               <event>Staff psychologist, Osawatomie State Hospital, Osawatomie,
+				Kans.</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1940</fromdate>
+                              <todate>1948</todate>
+                           </daterange>
+               <event>Staff psychologist, research director, and administrator,
+				Menninger Foundation, Topeka, Kans.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1942</datesingle>
+               <event>Published <title localtype="simple">
+                                 <part>Emotions and Memory</part>
+                              </title>. Baltimore: Williams and Wilkins Co. </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1944</fromdate>
+                              <todate>1948</todate>
+                           </daterange>
+               <event>Consultant, United States Surgeon General's Committee on
+				Clinical Psychology</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1945</fromdate>
+                              <todate>1946</todate>
+                           </daterange>
+               <event>Published with Merton Max Gill and Roy Schafer <title localtype="simple">
+                                 <part>Diagnostic Psychological Testing.</part>
+                              </title> Chicago: The Year Book Publishers </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1945</fromdate>
+                              <todate>1949</todate>
+                           </daterange>
+               <event>Founder and secretary, Division of Clinical and Abnormal
+				Psychology, American Psychological Association </event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1946</fromdate>
+                              <todate>1948</todate>
+                           </daterange>
+               <chronitemset>
+                              <event>Clinical professor of psychology, University of Kansas,
+				  Lawrence, Kans. </event>
+                              <event>Consultant, Veterans Administration Hospital, Topeka,
+				  Kans.</event>
+                           </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                              <fromdate>1948</fromdate>
+                              <todate>1960</todate>
+                           </daterange>
+               <event>Research associate, Austen Riggs Center, Stockbridge,
+				Mass.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1951</datesingle>
+               <event>Published <title localtype="simple">
+                                 <part>Organization and Pathology of Thought.</part>
+                              </title> New York: Columbia University Press</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1960</datesingle>
+               <event>Published <title localtype="simple">
+                                 <part>The Structure of Psychoanalytic Theory: A Systematizing
+				  Attempt.</part>
+                              </title> New York: International Universities Press</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1960, Dec. 14</datesingle>
+               <event>Died, Stockridge, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1967</datesingle>
+               <event>Publication of <title localtype="simple">
+                                 <part>Collected Papers of David Rapaport,</part>
+                              </title> edited by Merton Max Gill. New York: Basic Books </event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of David Rapaport (1911-1960) span the years 1911-1997,
+		  with the bulk of the material dating from 1948 to 1960. The collection
+		  documents Rapaport's research and writings in the fields of psychology and
+		  psychoanalysis largely as a research associate at the Austen Riggs Center in
+		  Stockbridge, Massachusetts. The papers are in English and Hungarian and are
+		  organized in two parts. Part I contains material received by the Library
+		  between 1962 and 1970 and is arranged in five series: 
+		  <ref show="replace" actuate="onrequest" target="igencorrespond">
+                General
+			 Correspondence 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="iforcorrespond">
+                Foreign
+			 Correspondence 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="iriggscent">
+                Austen
+			 Riggs Center 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="imiscorrespond">
+                Miscellaneous Correspondence 
+            </ref>, and 
+		  <ref show="replace" actuate="onrequest" target="ispeewritlectfile">
+                Speeches, Writings, and Lectures File 
+            </ref>. Part II
+		  comprises an addition to the collection and is organized in four series: 
+		  <ref show="replace" actuate="onrequest" target="iidavrappap">
+                 David
+			 Rapaport Papers 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="iielvrapstrasspap">
+                Elvira Rapaport Strasser Papers 
+            </ref>, 
+		  <ref show="replace" actuate="onrequest" target="iiformclose">
+                Formerly
+			 Closed 
+            </ref>, and 
+		  <ref show="replace" actuate="onrequest" target="iiclose">
+                Closed
+			  
+            </ref>material. </p>
+         <p>Rapaport's correspondence dates primarily from 1948 to 1960 during his
+		  years at the Austen Riggs Center. It focuses on his research and writings in
+		  psychology and psychoanalysis including his development of diagnostic
+		  psychological testing and his efforts to clarify and systematize psychoanalytic
+		  theory. The 
+		  <ref show="replace" actuate="onrequest" target="igencorrespond">
+                General
+			 Correspondence 
+            </ref> series contains Rapaport's extensive correspondence with
+		  psychologists, psychoanalysts, and professional organizations in the United
+		  States. Correspondence with colleagues overseas is located in the 
+		  <ref show="replace" actuate="onrequest" target="iforcorrespond">
+                Foreign
+			 Correspondence 
+            </ref> series. Prominent correspondents include Bruno Bettelheim,
+		  John C. Burnham, Sibylle K. Escalona, Hanna Fenichel, Anna Freud, Merton Max
+		  Gill, Heinz Hartmann, Lawrence S. Kubie, Karl A. Menninger, Martin Mayman, Roy
+		  Schafer, Richard F. Sterba, and Peter H. Wolff. Routine correspondence
+		  including invitations to speak and requests for reprints is filed in the 
+		  <ref show="replace" actuate="onrequest" target="imiscorrespond">
+                Miscellaneous Correspondence 
+            </ref> series. The 
+		  <ref show="replace" actuate="onrequest" target="iriggscent">
+                Austen
+			 Riggs Center 
+            </ref> series largely concerns administrative matters pertaining to
+		  committees, funding, programs, research associates, staff, and trustees. </p>
+         <p>The 
+		  <ref show="replace" actuate="onrequest" target="ispeewritlectfile">
+                Speeches, Writings, and Lectures File 
+            </ref> series
+		  documents Rapaport's prolific writing career, his extensive teaching
+		  experience, and his numerous speaking engagements. Drafts of articles, books,
+		  book reviews, lectures, and speeches, transcripts of discussions,
+		  correspondence with colleagues, and research material explore his research
+		  interests in psychological diagnostic testing, ego psychology, emotions and
+		  memory, metapsychology, motivation, psychoanalytic theory, and thought
+		  processes. </p>
+         <p>Part II contains an addition to the Rapaport Papers. Included are
+		  photocopies of outgoing letters, largely dated 1950-1960, and a lengthy letter
+		  to friends describing a trip to his native Hungary in 1960. Also included are a
+		  series of dream notes made by Rapaport as part of his research on
+		  consciousness. The addition further includes two of his early psychological
+		  works published in Hungary prior to his immigration to the United States. </p>
+         <p>The bulk of Part II consists of the papers of Rapaport's wife, 
+		  <ref show="replace" actuate="onrequest" target="iielvrapstrasspap">
+                Elvira Rapaport Strasser 
+            </ref>, a mathematician and
+		  university professor, who resumed use of her maiden name in the early 1970s.
+		  Her papers document programs and scholarships established in her husband's name
+		  at the Austen Riggs Center and the Hebrew University of Jerusalem. The bulk of
+		  her papers was closed until April 2003 and is now available in the 
+		  <ref show="replace" actuate="onrequest" target="iiformclose">
+                Formerly
+			 Closed 
+            </ref> series. Among the formerly closed material is correspondence with
+		  her husband's colleagues including Merton Max Gill, exchanges with fellow
+		  mathematicians, and letters from Hungarian friends and family members. The 
+		  <ref show="replace" actuate="onrequest" target="iiformclose">
+                Formerly
+			 Closed 
+            </ref> series also contains her unpublished memoirs describing her early
+		  life in Hungary, her experiences on a kibbutz in Palestine in 1933-1935, and
+		  her immigration to the United States in 1938.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>The collection is arranged in two parts composed of nine series:</p>
+         <p>Part I:</p>
+         <list listtype="unordered" mark="circle">
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="igencorrespond">
+                   General Correspondence, 1948-1960 
+               </ref> 
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="iforcorrespond">
+                   Foreign Correspondence, 1948-1960 
+               </ref> 
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="iriggscent">
+                   Austen
+				Riggs Center, 1948-1960 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="imiscorrespond">
+                   Miscellaneous Correspondence, 1938-1960 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="ispeewritlectfile">
+                   Speeches, Writings, and Lectures File,
+				1911-1960 
+               </ref>
+                        </item>
+         </list>
+         <p>Part II:</p>
+         <list listtype="unordered" mark="circle">
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="iidavrappap">
+                   David
+				Rapaport Papers, 1936-1993  
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="iielvrapstrasspap">
+                   Elvira Rapaport Strasser Papers,
+				1941-1997 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="iiformclose">
+                   Formerly
+				Closed, 1934-1996 
+               </ref>
+                        </item>
+            <item> 
+			                        <ref show="replace" actuate="onrequest" target="iiclose">
+                   Closed,
+				1942 
+               </ref>
+                        </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Box</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">I:1-33</container>
+               <unittitle id="igencorrespond" encodinganalog="245$a">Part I: General
+				Correspondence, 
+				 <date normal="1948/1960">1948-1960</date>  
+                           </unittitle>
+               <unitdate normal="1948/1960" encodinganalog="245$f" era="ce" calendar="gregorian">1948-1960</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence with psychologists, psychoanalysts, and
+				professional organizations. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by name of correspondent or
+				organization.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:1</container>
+                  <unittitle encodinganalog="245$a">Adams-Anderson</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:2</container>
+                  <unittitle encodinganalog="245$a">Anderson-Bergman</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:3</container>
+                  <unittitle encodinganalog="245$a">Bergman-Bibring</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:4</container>
+                  <unittitle encodinganalog="245$a">Bibring-Burnham</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:5</container>
+                  <unittitle encodinganalog="245$a">Burnham-Cort</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:6</container>
+                  <unittitle encodinganalog="245$a">Craig-Eissler</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:7</container>
+                  <unittitle encodinganalog="245$a">Eitingon-Fenichel</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:8</container>
+                  <unittitle encodinganalog="245$a">Fenichel-Fremont</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:9</container>
+                  <unittitle encodinganalog="245$a">Freyberg-Gill</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:10</container>
+                  <unittitle encodinganalog="245$a">Gill-Goldberg</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:11</container>
+                  <unittitle encodinganalog="245$a">Goldstein-Harms</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:12</container>
+                  <unittitle encodinganalog="245$a">Hartmann-Holman</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:13</container>
+                  <unittitle encodinganalog="245$a">Holt</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:14</container>
+                  <unittitle encodinganalog="245$a">Holzberg-Julay</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:15</container>
+                  <unittitle encodinganalog="245$a">Kagan-Klein</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:16</container>
+                  <unittitle encodinganalog="245$a">Klein-Kobler</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:17</container>
+                  <unittitle encodinganalog="245$a">Koch-Levitt</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:18</container>
+                  <unittitle encodinganalog="245$a">Levitt-Lustman</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:19</container>
+                  <unittitle encodinganalog="245$a">McBee-Mendelschen</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:20</container>
+                  <unittitle encodinganalog="245$a">Menninger Foundation</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:21</container>
+                  <unittitle encodinganalog="245$a">Menninger Foundation</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:22</container>
+                  <unittitle encodinganalog="245$a">Mundy-Perry</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:23</container>
+                  <unittitle encodinganalog="245$a">Pertschonok-Powdermaker</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:24</container>
+                  <unittitle encodinganalog="245$a">Powers-Reichard</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:25</container>
+                  <unittitle encodinganalog="245$a">Reider-Romano</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:26</container>
+                  <unittitle encodinganalog="245$a">Rosenbaum-Schafer</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:27</container>
+                  <unittitle encodinganalog="245$a">Scheerer-Schwartz</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:28</container>
+                  <unittitle encodinganalog="245$a">Schwartz-Sharma</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:29</container>
+                  <unittitle encodinganalog="245$a">Shepard-Stagner</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:30</container>
+                  <unittitle encodinganalog="245$a">Staiman-Troup</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:31</container>
+                  <unittitle encodinganalog="245$a">University of California-Western
+				  News</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:32</container>
+                  <unittitle encodinganalog="245$a">Westley-Wolff</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:33</container>
+                  <unittitle encodinganalog="245$a">Wolff-Zinberg</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">I:34-40</container>
+               <unittitle id="iforcorrespond" encodinganalog="245$a">Part I: Foreign
+				Correspondence, 
+				 <date normal="1948/1960">1948-1960</date>  
+                           </unittitle>
+               <unitdate normal="1948/1960" encodinganalog="245$f" era="ce" calendar="gregorian">1948-1960</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence with foreign psychologists and psychoanalysts. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by country and therein alphabetically by
+				name of correspondent.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:34</container>
+                  <unittitle encodinganalog="245$a">Argentina-England</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:35</container>
+                  <unittitle encodinganalog="245$a">England-France</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:36</container>
+                  <unittitle encodinganalog="245$a">France-India</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:37</container>
+                  <unittitle encodinganalog="245$a">Israel </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">A-I</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:38</container>
+                     <unittitle encodinganalog="245$a">K-Z</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:39</container>
+                  <unittitle encodinganalog="245$a">Italy-South Africa</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:40</container>
+                  <unittitle encodinganalog="245$a">South
+				  Africa-Switzerland</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">I:41-44</container>
+               <unittitle id="iriggscent" encodinganalog="245$a">Part I: Austen
+				Riggs Center, 
+				 <date normal="1948/1960">1948-1960</date>  
+                           </unittitle>
+               <unitdate normal="1948/1960" encodinganalog="245$f" era="ce" calendar="gregorian">1948-1960</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, memoranda, reports, notes, and printed matter
+				concerning administrative matters. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by subject or type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:41</container>
+                  <unittitle encodinganalog="245$a">Activities-Czeisler</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:42</container>
+                  <unittitle encodinganalog="245$a">Field
+				  Foundation-Rapaport</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:43</container>
+                  <unittitle encodinganalog="245$a">Rapaport-Social Problems
+				  Council</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:44</container>
+                  <unittitle encodinganalog="245$a">Social Problems
+				  Council-Trustees</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">I:45-46</container>
+               <unittitle id="imiscorrespond" encodinganalog="245$a">Part I:
+				Miscellaneous Correspondence, 
+				 <date normal="1938/1960">1938-1960</date>  
+                           </unittitle>
+               <unitdate normal="1938/1960" encodinganalog="245$f" era="ce" calendar="gregorian">1938-1960</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence of a comparatively brief duration including
+				invitations to speak and requests for reprints. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by name of correspondent.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:45</container>
+                  <unittitle encodinganalog="245$a">A-K</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:46</container>
+                  <unittitle encodinganalog="245$a">L-Z</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">I:47-76</container>
+               <unittitle id="ispeewritlectfile" encodinganalog="245$a">Part I:
+				Speeches, Writings, and Lectures File, 
+				 <date normal="1911/1960">1911-1960</date>  
+                           </unittitle>
+               <unitdate normal="1911/1960" encodinganalog="245$f" era="ce" calendar="gregorian">1911-1960</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Drafts of articles, book reviews, books, lectures, and speeches,
+				transcripts of discussions and conference proceedings, correspondence,
+				research, and notes. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Unarranged.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:47</container>
+                  <unittitle encodinganalog="245$a">"The Theory of Ego Autonomy,"
+				  1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Letter to <title localtype="simple">
+                                    <part>Contemporary Psychology</part>
+                                 </title>, 1957</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Symposium on Cognition, Boulder,
+				  Colo., 1957</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Discussion of C. E. Osgood's
+				  paper, "A Behavioristic Analysis of Perception and Language as Cognitive
+				  Phenomena," 1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Cognition, Cognitive
+				  Organizations and Consciousness," 1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Strachey, Alix, correspondence,
+				  1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Questions and answers
+				  </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:48</container>
+                  <unittitle encodinganalog="245$a">Lectures, Albert Einstein College
+				  of Medicine, New York, N.Y., 1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lectures, New York Society of
+				  Freudian Psychologists, New York, N.Y., 1960</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Elementary Metapsychology," 1957
+				  </unittitle>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Austen Riggs Center, Stockbridge,
+				  Mass., lecture to fellows on metapsychology, 1959</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:49</container>
+                  <unittitle encodinganalog="245$a">"The Conceptual Model of
+				  Psychoanalysis," 1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Mass Communications Seminar,
+				  Viking Fund, New York, N.Y., 1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Projective Techniques and the
+				  Theory of Thinking," 1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"On the Psychoanalytic Theory of
+				  Affects," 1952-1953 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Trophy and Triumph,"
+				  1939</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Symposium on the Theory of the
+				  Therapeutic Results of Psychoanalysis, 1937</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Two Short Supplementary Notes,"
+				  1929</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Study of Defense Mechanisms
+				  and Its Importance for Psychoanalytic Technique," 1940</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Some Remarks on Freud's Place in
+				  the History of Science," 1946 </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Review of <title localtype="simple">
+                                    <part>New Ways in Psychoanalysis</part>
+                                 </title> by Karen Horney, 1939</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Psychoanalysis of Character,"
+				  1941</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Present Trends in Psychoanalytic
+				  Theory and Practice on Masturbation," 1938</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Ego Strength and Ego Weakness,"
+				  1938</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"On the Economic Function of
+				  Screen-Memories Anorexia," 1945</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Brief Psychotherapy Concerning
+				  the Anxiety of the Dead," 1922</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"A Dream Analysis,"
+				  1929</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Early Stages of Ego Development"
+				  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Economics of Pseudologia
+				  Phantastica"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Reviews of the <title localtype="simple">
+                                    <part>Collected Papers of Otto Fenichel</part>
+                                 </title>, 1954-1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:50</container>
+                  <unittitle encodinganalog="245$a">"Shall the Rorschach Method Be
+				  Standardized?" 1938</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Histamine in the Treatment of
+				  Psychosis: A Psychiatric and Objective Psychological Study," 1940</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Some Considerations in
+				  Connection with the Application of Metrazol Shock Treatment in the Psychosis of
+				  General Paresis," 1941</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Teleology and the Emotions,"
+				  1941</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>Emotions and Memory</part>
+                                 </title>, 1942-1947</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Scatter: Intelligence
+				  Testing and Clinical Diagnosis," 1944</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Principles Underlying
+				  Non-Projective Tests of Personality," 1946</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Psychological Testing, Its
+				  Practical and Its Heuristic Significance," 1947</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Technological Growth and the
+				  Psychology of Man," 1949</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Scientific Basis of Clinical
+				  Psychology," 1948</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"In Memoriam: Kurt Lewin,"
+				  1947</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Theoretical Implications of
+				  Diagnostic Testing Procedures," 1950 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Diagnostic Testing in
+				  Psychiatric Practice," 1950</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>Organization and Pathology of Thought</part>
+                                 </title> 
+                              </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Chapter outline,
+					 1951</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence,
+					 1950-1953</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Reviews, 1951-1953</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"On the Psychoanalytic Theory of
+				  Motivation," 1960</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"On Metapsychology,"
+				  1959</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:51</container>
+                  <unittitle encodinganalog="245$a">"An Historical Survey of
+				  Psychoanalytic Ego Psychology," 1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Toward a Theory of Thinking,"
+				  1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Paul Schilder's Contribution to
+				  the Theory of Thought-Processes," 1951 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Josiah Macy Jr. Foundation, Third
+				  Conference on Problems of Consciousness, 1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"States of Consciousness: A
+				  Psychopathological and Psychodynamic View," 1951 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Problems of Consciousness,"
+				  review, 1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>Medical Psychology</part>
+                                 </title> reviews, 1953-1954 </unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>A History of Experimental Psychology,</part>
+                                 </title> review, 1950</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Book reviews,
+				  1939-1945</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"A Study of Thinking,"
+				  1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>Energy Structure in Psychoanalysis</part>
+                                 </title>, review, 1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:52</container>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>Personality and Psychotherapy</part>
+                                 </title>, review, 1950</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>The Principles of Psychology,</part>
+                                 </title> review, 1950</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>The Psychology of Thought and Judgment,</part>
+                                 </title> review, 1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>Personality: In Nature, Society and Culture,</part>
+                                 </title> review, 1948</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>Psychoanalytic Explorations in Art,</part>
+                                 </title> review, 1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>Learning Theory and Personality Dynamics,</part>
+                                 </title> review, 1950</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>The Emotions: Outline of a Theory,</part>
+                                 </title> review, 1948</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>The Psychology of Imagination,</part>
+                                 </title> review, 1948</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>The Psychology of Thinking,</part>
+                                 </title> review, 1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>Cybernetics,</part>
+                                 </title> review, 1950</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">H. H. Wieck's <title localtype="simple">
+                                    <part>Zur Psychologie und Psychopathologie,</part>
+                                 </title> review, 1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Scatter in a Battery of Tests,"
+				  1940</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Concept Formation and
+				  Personality Research," 1945</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Diagnosing Schizophrenia by
+				  Psychological Tests," 1945</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Theoretical and Practical
+				  Conclusions of a Testing Program Conducted Over Two Years, Including a Battery
+				  of Seven Tests," 1945</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Tests," Menninger Foundation,
+				  1946</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Technological Growth and the
+				  Psychology of Man," 1947</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Autonomy of the Ego,"
+				  1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Paul Schilder's Contribution to
+				  the Theory of Thought Processes," 1951 </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Projective Techniques on the
+				  Theory of Thinking," 1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"On the Psychoanalytic Theory of
+				  Affects," 1953</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Discussion of C. E. Osgood's
+				  paper, 1957</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Study of Kibbutz Education
+				  and Its Bearing on the Theory of Development," 1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:53</container>
+                  <unittitle encodinganalog="245$a">"An Historical Survey of
+				  Psychoanalytic Ego Psychology," 1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Autonomy," 1956 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"On Metapsychology," 1959
+				  </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:54</container>
+                  <unittitle encodinganalog="245$a">"The Traditional View of Art,"
+				  1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hoaxes</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Australian hoax,
+					 1952</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Australian News and Information
+					 Bureau, 1952-1953</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Baker, Sidney J.,
+					 1952-1954</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Harris, Max, 1953</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hornadge, W.,
+					 1952-1953</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">McAuley, James,
+					 1952-1953</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">The National Press Printing,
+					 Melbourne, Australia, 1952</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Stewart, Harold, 1952-1957
+					 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Orpheus,</part>
+                                    </title> by Harold Stewart</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Clare, John</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Picard, Roger, "Literary
+					 Artifices and Hoaxes"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"Piltdown Man"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Radio Times</part>
+                                    </title>, 1954</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Toscanini, Arturo,
+					 "Tchaikovsky's Fifth"</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wolcott, Alexander</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Wolf boy</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Pehriad, Kohmar</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">MacDougall, Curtis</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"The Man Who Never
+					 Was"</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ficke, Gladys</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Abraham, Karl</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Heseltine, Philip</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Kipling, Rudyard</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ficke, Arthur Davison
+				  </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:55</container>
+                  <unittitle encodinganalog="245$a">Bynner, Witter</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Harris, Max</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">DuPre, George </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Kris, Ernst</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Kris, Ernst, seminar, New Haven,
+				  Conn., 1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hoaxes</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Wilson, Edmund, review of <title localtype="simple">
+                                    <part>The Sweeniad</part>
+                                 </title> 
+                              </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cassel Hospital, Richmond,
+				  England </unittitle>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bibring, Edward, theory of
+				  depression </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:56</container>
+                  <unittitle encodinganalog="245$a">Report on Vannevar Bush's <title localtype="simple">
+                                    <part>Science, the Endless Frontier</part>
+                                 </title> 
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Research plan for study of
+				  amnesia, circa 1943-1944</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Theory of Attention
+				  Cathexis," 1959</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Theory of Ego Autonomy,"
+				  1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Bergman, Paul, "The Role of Faith
+				  in Psychotherapy," 1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Berman, Leo, "Problems in Working
+				  Toward an Integration of Individual and Group Psychology," 1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Activity and passivity
+				  </unittitle>
+                  <physdesc encodinganalog="300">(8 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a"> 
+                                 <title localtype="simple">
+                                    <part>Freud's Influence on American Psychology</part>
+                                 </title> 
+                              </unittitle>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  <container localtype="box">I:57</container>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Motivation," 1960 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  <container localtype="box">I:58</container>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:59</container>
+                  <unittitle encodinganalog="245$a">"Psychoanalysis as a
+				  Developmental Psychology" </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  <container localtype="box">I:60</container>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"States of Consciousness"
+				  </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Psychoanalytic Theory of
+				  Consciousness and a Study of Dreams" </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:61</container>
+                  <unittitle encodinganalog="245$a">Dream seminars, 1953-1956
+				  </unittitle>
+                  <physdesc encodinganalog="300">(21 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:62</container>
+                  <unittitle encodinganalog="245$a">Ego psychology seminar, 1951
+				  </unittitle>
+                  <physdesc encodinganalog="300">(9 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Present-Day Conceptions of the
+				  Development and Functions of the Ego," 1953</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Outline of "Ego Psychology,"
+				  1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Psychoanalytic Theory of the
+				  Ego," Harvard University, Cambridge, Mass., 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"A Survey of Psychoanalytic Ego
+				  Psychology," Denver, Colo.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:63</container>
+                  <unittitle encodinganalog="245$a">"Present-Day Psychoanalytic Ego
+				  Psychology and Its Clinical Relevance," 1953 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Clinical Implications of Ego
+				  Psychology," 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Present-Day Ego Psychology,"
+				  1956-1957 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Eissler, K. R., "The Effect of
+				  the Structure of the Ego on Psychoanalytic Technique," 1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Outline on the Problem of
+				  Emotions"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Worcester State Hospital,
+				  Worcester, Mass., "The Problem of the Psychological Energy Concept,"
+				  1957</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ginsburg, Sol </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"The Role of Work: A
+					 Contribution to Psychology," 1953</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">"The Role of Values in
+					 Psychotherapy," 1951 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Harvard University, Cambridge,
+				  Mass., lectures, 1954 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:64</container>
+                  <unittitle encodinganalog="245$a">Group theory, 1954 </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Piaget, Jean, paper,
+				  1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hungarian translations,
+				  1943</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Hungarian
+				  Spirit"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Identification," excerpt from
+				  letter,1955 </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Pittsfield High School,
+				  Pittsfield, Mass., "We Can Be Individuals," 1950</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The History of the Awakening of
+				  Insight" </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Interpersonal Relationships,
+				  Communication and Psychodynamics," 1951 </unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Jacobson, Edith, "Theory of
+				  Affects," 1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Cognition: Styles, Controls and
+				  Cognitive Attitudes," 1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Conversation with George Klein, 9
+				  Feb. 1957 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Remarks on paper by Robert Jay
+				  Lifton, 1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:65</container>
+                  <unittitle encodinganalog="245$a">Loewald, Hans, "On the
+				  Therapeutic Action of Psychoanalysis," 1956-1957</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Some Problems of Prevention of
+				  Maladjustment," 1951-1954 </unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Some Social, Cultural and
+				  Clinical Aspects of the Prevention of Maladjustment," 1950</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Metapsychology</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Address before the New York
+					 Psychoanalytic Society, New York, N.Y., 1958 </unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence with Merton Max
+					 Gill, 1954</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"A Reassessment of the Concept of
+				  Metapsychological Explanation," 1954</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Drafts </unittitle>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:66</container>
+                     <unittitle encodinganalog="245$a">Notes, 1955 </unittitle>
+                     <physdesc encodinganalog="300">(6 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Scientific Methodology of
+				  Psychoanalysis, 1944-1948 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:67</container>
+                  <unittitle encodinganalog="245$a">Mittelmann, Béla,
+				  memoriam</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Multiple Personality,"
+				  1942</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"On Personality Testing,"
+				  1947</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Piaget, Jean, "Play, Dreams and
+				  Imitation in Childhood" </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Psychoanalysis as a
+				  Psychology"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Washburn University, Topeka,
+				  Kans., lectures on clinical psychology, 1943</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Present Professional Status of
+				  the Clinical Psychologist"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"To What End
+				  Psychology"</unittitle>
+                  <physdesc encodinganalog="300">(12 folders)</physdesc>
+                  <container localtype="box">I:68</container>
+                  <physdesc encodinganalog="300">(1 folder)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Renneker, Richard E.,
+				  paper</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Reaction Time and Succession in
+				  the Rorschach Ink-Blot Test"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Rorschach testing,
+				  1937</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Psychiatric Implications of
+				  Rorschach Studies With Metrazol and Sodium Amytal"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Rorschach Ink-Blot Test and
+				  General Psychology"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Superego," 1958 </unittitle>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"On the Organization of
+				  Thought-Processes," Philadelphia, Pa., 1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Time," fragments of a
+				  paper</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Time Experience," circa
+				  1947-1948</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:69</container>
+                  <unittitle encodinganalog="245$a">"A Review and Preliminary Remarks
+				  on the Problems of the Psychology of Research" </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Research assistant,
+				  pre-1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Letters to Shmuel Golan on the
+				  history of psychology, 1956-1957</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Theory of Affects and Some
+				  Nosological Problems," 1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Notes on
+				  Anti-Semitism"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Autonomy of the Ego,"
+				  1950-1957 </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Bearing of the Concepts
+				  Autonomy and Activity-Passivity on Therapy," 1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Chicago, Ill., conference,
+				  1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notes from a conference on
+				  cognition, Boulder, Colo. 1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"States of Consciousness,"
+				  1950-1951 </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Psychoanalytic Theory of
+				  Cognition and Consciousness," 1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Theory of Creative Activity,"
+				  1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Creativity," 1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Interpretation of Dreams,"
+				  1949-1959 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:70</container>
+                  <unittitle encodinganalog="245$a">"Early Stages of Ego
+				  Development," 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ego psychology, various outlines
+				  and lectures </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1951-1956 </unittitle>
+                     <physdesc encodinganalog="300">(12 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:71</container>
+                     <unittitle encodinganalog="245$a">1956-1958 </unittitle>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Emotion," 1948-1950</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Psychoanalytic Theory of
+				  Emotions," 1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Suggested references for an
+				  unidentified paper of Erik Erikson's</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Problems of Etiology and
+				  Nosology"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Psychoanalytic Theory,"
+				  1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Problem of Autonomy,"
+				  1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Psychoanalytic Theory of
+				  Action and Structure Development," 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Psychoanalytic Theory of
+				  Thinking," 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Psychoanalytic Theory of
+				  Affect," 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Psychoanalytic Theory of
+				  Consciousness," 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Psychoanalytic Theory of The
+				  Ego," 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Psychoanalytic Approach to
+				  Communication," 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Harvard University, Cambridge,
+				  Mass., outlines of lectures, 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Hebrew University of Jerusalem,
+				  Jerusalem, Israel, 1953</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lecture to patients, "Psychology
+				  of Imagination Interpersonal Relations and Psychodynamics," 1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"A Psychologist Visiting Israel,"
+				  1953</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Theory and Investigation of
+				  Memory and Learning Reconsidered," 1953</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lecture trips, 1954-1956
+				  </unittitle>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:72</container>
+                  <unittitle encodinganalog="245$a">"A Review of Some Developments in
+				  Life Sciences," circa 1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Memory Phenomena in Clinical
+				  Observations," 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Metapsychological
+				  papers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1947-1957 </unittitle>
+                     <physdesc encodinganalog="300">(10 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:73</container>
+                     <unittitle encodinganalog="245$a">1957-1960 </unittitle>
+                     <physdesc encodinganalog="300">(9 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Freud and Present-Day
+				  Developmental Psychology," working notes, 1949</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Cognition material</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Affects </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:74</container>
+                  <unittitle encodinganalog="245$a">"Dynamics of Personality and
+				  Abnormal Behavior," 1950 </unittitle>
+                  <physdesc encodinganalog="300">(7 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Lecture in Philadelphia, Pa.,
+				  notes on discussion, 1953</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Polarization Versus
+				  Spectrum"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Economic Problem of
+				  Institutional Psychiatric Practice," brief outline</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Hospital Life of Psychiatric
+				  Patients," Patient and Staff Organization, Austen Riggs Center, Stockbridge,
+				  Mass., 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Patient and Staff Organization,
+				  Austen Riggs Center, Stockbridge, Mass., 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Some Problems in Psychoanalysis
+				  and Psychopathology"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Psychoanalytic Model,"
+				  1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Psychoanalysis Versus the
+				  Conditioned-Response Theory," 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Prerequisites of a
+				  Psychoanalytic Psychology," 1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Need for Theoretical
+				  Orientation in Clinical Psychology"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Some Problems Facing Psychology
+				  and Particularly Clinical Psychology," 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Organic Psychoses"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Psychoanalytic Theory of
+				  Psychoses" </unittitle>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Future research
+				  material</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Research interests, Austen Riggs
+				  Center, Stockbridge, Mass., circa 1947-1948</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Research Strategy and Tactics,"
+				  1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Clinical Research, or How to
+				  Achieve Validity Without Losing Meaningfulness," 1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Patient and Staff Organization
+				  seminar, Austen Riggs Center, Stockbridge, Mass., 1958</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notes </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Various seminars,
+					 1956-1960</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">I:75</container>
+                     <unittitle encodinganalog="245$a">Topology talk, 1948
+					 </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellaneous notes found in
+				  office</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Freud, Sigmund, activity and
+				  passivity, 1911-1937</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Seminars, Austen Riggs Center,
+				  Stockbridge, Mass., 1950-1955 </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Psychic Structure Development,"
+				  1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Psychoanalytic Theory of
+				  Thinking," Montreal, Canada, 1949</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Thinking," Yale University, New
+				  Haven, Conn., 1951</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Problems Toward a Theory of
+				  Thinking," Clark University, Worcester, Mass., 1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Theory of Thinking,
+				  Psychodynamics, and Test Rationale, Philadelphia, Pa., 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"On the Theory of Thinking,"
+				  Clark University, Worcester, Mass., 1954</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Research in the Psychology of
+				  Thought Processes," Downey, Ill.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Thought Processes in
+				  Schizophrenic Reactions," 1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"The Psychology of Thought
+				  Processes," 1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Experimental Studies into the
+				  Organization of Thought," 1956</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Time Experience"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Reports of discussions on the
+				  metapsychology of time, 1948</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">I:76</container>
+                  <unittitle encodinganalog="245$a">"Defense Versus Id
+				  Dynamics"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Ego psychology lectures,
+				  collected material </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Freud, Sigmund, his
+				  influence</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">"Conditioning and
+				  Learning"</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Metapsychology material from
+				  Rapaport and Merton Max Gill</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Working notes on
+				  superego</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Reviews</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notes and excerpts </unittitle>
+                  <physdesc encodinganalog="300">(6 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notes for paper on operational
+				  definition versus clinical method</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:1-3</container>
+               <unittitle id="iidavrappap" encodinganalog="245$a">Part II: David
+				Rapaport Papers, 
+				 <date normal="1936/1993">1936-1993
+				  </date>  
+                           </unittitle>
+               <unitdate normal="1936/1993" encodinganalog="245$f" era="ce" calendar="gregorian">1936-1993
+				  </unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, drafts of writings and lectures, notes on dreams,
+				biographical material, and bibliographies. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:1</container>
+                  <unittitle encodinganalog="245$a">Biographical and bibliographic
+				  material, circa 1950-1993</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">General
+				  correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Original letters</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">From an unidentified
+						individual, 1953</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">To</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Friends concerning trip to
+						  Hungary, 1960</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Rapaport, Béla and Helen
+						  (parents), 1948</unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Photocopies of outgoing
+					 letters, 1945-1960, undated </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany, 1961,
+					 undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notes on dreams</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1941</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1948</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Aug.-Sept. </unittitle>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">II:2</container>
+                        <unittitle encodinganalog="245$a">Oct.</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1953-1958, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Patient file, 1942 
+				  <ref show="replace" actuate="onrequest" target="conii2patfilecl">
+                                    <emph render="italic">See Closed
+					 </emph>
+                                 </ref>
+                              </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Writings and lectures</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Alvás Aluszekonysag Álmatkanság,</part>
+                                    </title> 1936 </unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Freud's Influence on American Psychology</part>
+                                    </title>, 1959</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a"> 
+                                    <title localtype="simple">
+                                       <part>Lélektan</part>
+                                    </title>, 1938</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Seminars on Elementary
+					 Metapsychology, 1957-1959</unittitle>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     <container localtype="box">II:3</container>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:3-5</container>
+               <unittitle id="iielvrapstrasspap" encodinganalog="245$a">Part II:
+				Elvira Rapaport Strasser Papers, 
+				 <date normal="1941/1997">1941-1997</date>  
+                           </unittitle>
+               <unitdate normal="1941/1997" encodinganalog="245$f" era="ce" calendar="gregorian">1941-1997</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence and printed matter. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged alphabetically by type of material.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:3</container>
+                  <unittitle encodinganalog="245$a">General
+				  correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Alphabetical file </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Fonseca, Hanna Rapaport
+						(daughter)</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">From </unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Originals</unittitle>
+                           </did>
+                           <c07 level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">1941, 1952-1982
+								</unittitle>
+                                 <physdesc encodinganalog="300">(7
+								folders)</physdesc>
+                              </did>
+                           </c07>
+                           <c07 level="file">
+                              <did>
+                                 <container localtype="box">II:4</container>
+                                 <unittitle encodinganalog="245$a">1983-1989 </unittitle>
+                                 <physdesc encodinganalog="300">(3
+								folders)</physdesc>
+                              </did>
+                           </c07>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Typed
+							 transcripts</unittitle>
+                           </did>
+                           <c07 level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">1957-1984 </unittitle>
+                                 <physdesc encodinganalog="300">(5
+								folders)</physdesc>
+                              </did>
+                           </c07>
+                           <c07 level="file">
+                              <did>
+                                 <container localtype="box">II:5</container>
+                                 <unittitle encodinganalog="245$a">1985-1989</unittitle>
+                              </did>
+                           </c07>
+                        </c06>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">To 
+						  <ref show="replace" actuate="onrequest" target="conii5fonseca">
+                                             <emph render="italic">See Containers II:6-7</emph>,
+							 Fonseca, Hanna Rapaport </ref>
+                                       </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Chronological file, 1960, 1973,
+					 1986-1997 </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany, 1980,
+				  1990-1995</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Subject file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Austen Riggs Center,
+					 Stockbridge, Mass.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Correspondence, 1962-1966,
+						1984, 1990-1997</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Printed matter, 1984,
+						1990-1996</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Friedman, Lawrence J., proposed
+					 Rapaport biography, 1990-1996</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Hebrew University of Jerusalem,
+					 Jerusalem, Israel, 1959-1970, 1990-1994, undated </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:6-14</container>
+               <unittitle id="iiformclose" encodinganalog="245$a">Part II: Formerly
+				Closed, 
+				 <date normal="1934/1996">1934-1996</date>  
+                           </unittitle>
+               <unitdate normal="1934/1996" encodinganalog="245$f" era="ce" calendar="gregorian">1934-1996</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, legal documents, and drafts of writings. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged and described according to the series, containers, and
+				folders from which the items were removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:6</container>
+                  <unittitle encodinganalog="245$a">David Rapaport Papers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Original letters</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">From</unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">Strasser, Elvira Rapaport
+							 (wife), 1935-1945, 1952 </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Elvira Rapaport Strasser
+				  Papers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">General
+					 correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Alphabetical file</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Brunner, Andrew Michael,
+						  1971-1995 </unittitle>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Dietrick, Joyce Minkler,
+						  1964-1996</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Fabian, Eli, 1963-1993
+						  </unittitle>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Fonseca, Dhiren and Kamini,
+						  1973-1996</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle id="conii5fonseca" encodinganalog="245$a">Fonseca,
+						  Hanna Rapaport</unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">1934-1937, 1952,
+							 1964-1972</unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">II:7</container>
+                              <unittitle encodinganalog="245$a">1973-1989 </unittitle>
+                              <physdesc encodinganalog="300">(2
+							 folders)</physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Fonseca, Rory, 1963-1964,
+						  1970-1995 </unittitle>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Gill, Harriet,
+						  1962-1990</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Gill, Merton Max,
+						  1962-1992</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Graf, Enid,
+						  1971-1996</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Harris, Suzanne, 1962-1974,
+						  undated </unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Hewitt, Edwin,
+						  1967-1971</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Kitschmann, Barbara,
+						  1968-1993</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">II:8</container>
+                           <unittitle encodinganalog="245$a">Kramer-Lasser, Edna,
+						  1965-1984, undated </unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Krel, Ibi, 1951, 1961-1963,
+						  undated </unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Kudelka, John and Kay,
+						  1965-1984</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Langer, Bracha,
+						  1964-1977</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Lányi, Dezsöné (Ili Radó),
+						  1971-1986, undated </unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Levinson, Hank, 1967-1993,
+						  undated </unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Márton, Zwi,
+						  1968-1972</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Maslow, Panni, 1964-1990
+						  </unittitle>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Moore, Eleanor and Neal,
+						  1965-1994</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Phillips, Juliet Rapaport
+						  (daughter)</unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">From</unittitle>
+                           </did>
+                           <c07 level="file">
+                              <did>
+                                 <unittitle encodinganalog="245$a">1960-1969</unittitle>
+                              </did>
+                           </c07>
+                           <c07 level="file">
+                              <did>
+                                 <container localtype="box">II:9</container>
+                                 <unittitle encodinganalog="245$a">1970-1992 </unittitle>
+                                 <physdesc encodinganalog="300">(6
+								folders)</physdesc>
+                              </did>
+                           </c07>
+                           <c07 level="file">
+                              <did>
+                                 <container localtype="box">II:10</container>
+                                 <unittitle encodinganalog="245$a">1993-1996</unittitle>
+                              </did>
+                           </c07>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">To, 1952-1953, 1964-1996
+							 </unittitle>
+                              <physdesc encodinganalog="300">(2
+							 folders)</physdesc>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Phillips family, 1963-1989,
+						  undated </unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Rapaport, David,
+						  1935-1953</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Roskies, Dodie, Ralph, and
+						  family, 1963, 1970-1987</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Somló, Eva and Pierre,
+						  1962-1985, undated </unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Sulyok, Ernó,
+						  1964-1981</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Wasserberger, Michel,
+						  1971-1978</unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Zippin, Frances, 1971-1993,
+						  undated </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">II:11</container>
+                        <unittitle encodinganalog="245$a">Chronological
+						file</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Incoming
+						  letters</unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <unittitle encodinganalog="245$a">1948-1949, 1958-1983
+							 </unittitle>
+                              <physdesc encodinganalog="300">(5
+							 folders)</physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">II:12</container>
+                              <unittitle encodinganalog="245$a">1984-1994, undated
+							 </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a">Outgoing letters, 1964-1994
+						  </unittitle>
+                           <physdesc encodinganalog="300">(5 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Subject file</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Legal cases</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <unittitle encodinganalog="245$a"> 
+                                          <title localtype="simple">
+                                             <part>Strasser v. Basic Books</part>
+                                          </title>, 1960-1990 </unittitle>
+                           <physdesc encodinganalog="300">(3 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">II:13</container>
+                           <unittitle encodinganalog="245$a"> 
+                                          <title localtype="simple">
+                                             <part>Strasser v. Commissioner of Internal
+							 Revenue,</part>
+                                          </title> 1963-1988, undated </unittitle>
+                           <physdesc encodinganalog="300">(4 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Writings</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Hungarian song translations,
+						1986, 1996, undated </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Memoirs, 1991-1994
+						</unittitle>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <unittitle encodinganalog="245$a">Miscellaneous,
+						1983-1995</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">II:14</container>
+                        <unittitle encodinganalog="245$a">Poetry, 1982-1996</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">II:X 15</container>
+               <unittitle id="iiclose" encodinganalog="245$a">Part II: Closed, 
+				 <date normal="1942">1942</date> 
+				                       </unittitle>
+               <unitdate normal="1942" encodinganalog="245$f" era="ce" calendar="gregorian">1942</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Patient file.</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+               <p>Arranged and described according to the series, container, and
+				folder from which the item was removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">II:X 15</container>
+                  <unittitle id="conii2patfilecl" encodinganalog="245$a">David
+				  Rapaport Papers</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Patient file, 1942 (Container
+					 II:2)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

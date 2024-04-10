@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms016058">loc.mss/eadmss.ms016058</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Leon Howard Sullivan Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2016" encodinganalog="260$c" era="ce" calendar="gregorian">2016</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm2004085101">https://lccn.loc.gov/mm2004085101</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-04">2023 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Digital files removed</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2016">2016</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Leon Howard Sullivan Papers <date altrender="Inclusive Dates" localtype="inclusive" normal="1940/2002">1940-2002</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1988/2002">1988-2002</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1940/2002"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1940-2002</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1988/2002"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1988-2002</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS85101</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Sullivan, Leon Howard, 1922-2001</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">8,400 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">24 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">9.6 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Civil rights leader, entrepreneur, and
+            minister. Correspondence, speeches, subject files, clippings, printed material, awards,
+            and other papers relating chiefly to Sullivan’s work with the International Foundation
+            for Education and Self Help.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230707174931.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Sullivan, Leon Howard, 1922-2001.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="611" relator="subject" source="lcnaf">
+               <part>African-African American Summit.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>General Motors Corporation.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>International Foundation for Education and Self Help.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>OIC International.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Opportunities Industrialization Centers of America.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>African Americans--Economic conditions.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>African Americans--Relations with Africans.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>African Americans--Social conditions.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Community development--Africa.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Economic assistance, American--Africa--Congresses.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Economic assistance, American--Africa.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Economic assistance, Domestic--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Economic development--Africa.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Medical assistance--Africa.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Medical care--Africa.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Poverty--Africa.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Social responsibility of business.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Technical assistance, American--Africa--Congresses.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Technical assistance, American--Africa.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Unemployment--Africa.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Africa--Economic conditions--1960-</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Africa--Relations--United States.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Africa--Social conditions--1960-</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>South Africa.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Economic conditions--1945-</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Relations--Africa.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Social conditions--1945-</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Civil rights leaders.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Clergy.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Entrepreneurs.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of Leon Howard Sullivan were given to the Library of Congress in 2004 and
+            2007 by Leon Sullivan’s wife, Grace Banks Sullivan. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Leon Howard Sullivan were processed in 2016 by Michael Folkerts. </p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>One VHS tape containing documentaries of notable West Virginians was transferred to the
+            Motion Picture, Broadcasting, and Recorded Sound Division where it is identified as part
+            of these papers.</p>
+      </separatedmaterial>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Other Repositories</head>
+         <p> Other papers of Leon Howard Sullivan are held by the Stuart A. Rose Manuscript,
+            Archives, and Rare Book Library at Emory University, Atlanta, Georgia.</p>
+      </separatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Leon Howard Sullivan is governed
+            by the Copyright Law of the United States (Title 17, U.S.C.). </p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Leon Howard Sullivan are open to research. Researchers are advised to
+            contact the Manuscript Reading Room prior to visiting. Many collections are stored
+            off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Leon Howard Sullivan Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1922, Oct. 6 </datesingle>
+               <event>Born, Charleston, W.V. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1943 </datesingle>
+               <event>B.A., West Virginia State College, Institute, W.V. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1945 </datesingle>
+               <event>Married Grace Banks (died 2011)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1945 </datesingle>
+               <event>Pastor, First Baptist Church, South Orange, N.J. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1947 </datesingle>
+               <event>M.A., Columbia University, New York, N.Y. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1950 </datesingle>
+               <event>Pastor, Zion Baptist Church, Philadelphia, Pa. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1962 </datesingle>
+               <event>Founder, Zion Non-Profit Charitable Trust, Philadelphia, Pa. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1964 </datesingle>
+               <event>Founder, Opportunities Industrialization Centers of America, Philadelphia, Pa.
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1969 </datesingle>
+               <event>Founder, OIC International, Philadelphia, Pa. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1971 </datesingle>
+               <event>Board member, General Motors Corp.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1977 </datesingle>
+               <event>Created Sullivan Principles promoting corporate social responsibility</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1988 </datesingle>
+               <event>Retired, Zion Baptist Church, Philadelphia, Pa. </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1988 </datesingle>
+               <event>Founder, International Foundation for Education and Self Help, Phoenix, Ariz.
+               </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1991 </datesingle>
+               <event>Awarded Presidential Medal of Freedom</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1998 </datesingle>
+               <event>Published Moving Mountains: The Principles and Purposes of Leon Sullivan.
+                  Valley Forge, Pa.: Judson Press </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1999 </datesingle>
+               <event>Received Eleanor Roosevelt Award for Human Rights</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>2001, Apr. 24 </datesingle>
+               <event>Died, Scottsdale, Ariz.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Leon Howard Sullivan (1922-2001) span the years 1940-2002 with the bulk of
+            the material concentrated in the period 1988-2002. The collection consists primarily of
+            correspondence, reports, personal files, program files, articles, and miscellaneous
+            material from Sullivan’s role as president of the International Foundation for Education
+            and Self Help (IFESH), with additional material regarding Opportunities
+            Industrialization Centers of America. The papers are arranged in three series: <ref show="replace" actuate="onrequest" target="ifesh">IFESH </ref>, <ref show="replace" actuate="onrequest" target="oic">OIC </ref>, and <ref show="replace" actuate="onrequest" target="pm">Personal Miscellany </ref>.</p>
+         <p>Leon Sullivan devoted many years of his life to the Philadelphia community, serving as
+            pastor of the Zion Baptist Church from 1950 until his retirement in 1988. In that span,
+            Sullivan founded the Zion Non-Profit Charitable Trust in 1962, Opportunities
+            Industrialization Centers of America in 1964, the OIC International in 1969, and served
+            on the board of directors for General Motors beginning in the 1970s, where he developed
+            a code of conduct for companies called the Sullivan Principles.</p>
+         <p>After his retirement, Sullivan founded the International Foundation for Education and
+            Self Help, which would extend his principles of self-help and community empowerment to
+            Africa. Through the use of assistance programs, <ref show="replace" actuate="onrequest" target="ifesh"> IFESH </ref> helped educate and train Africans in the areas of
+            health, business, and economic development in order to reduce poverty and unemployment.
+            As president, Sullivan began the African-African American Summit to bring together world
+            leaders and highlight issues facing African countries. The <ref show="replace" actuate="onrequest" target="ifesh"> IFESH </ref> series contains program files,
+            reports, summit materials, contributions, and administrative files documenting the
+            various functions of the organization.</p>
+         <p>While serving as president of <ref show="replace" actuate="onrequest" target="ifesh">
+               IFESH </ref>, Sullivan was kept abreast of the operations of Opportunities
+            Industrialization Centers of America. The <ref show="replace" actuate="onrequest" target="oic"> OIC </ref> series contains information regarding OIC International,
+            affiliates, reports, and miscellaneous administrative records. The <ref show="replace" actuate="onrequest" target="pm"> Personal Miscellany </ref> series contains
+            correspondence, press and news clippings, articles written by Sullivan, and assorted
+            material concerning General Motors, South Africa, and the Sullivan Principles. </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in three series:</p>
+         <list>
+            <item>
+               <ref show="replace" actuate="onrequest" target="ifesh"> International Foundation for
+                  Education and Self Help, 1982-2002 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="oic"> Opportunities Industrialization
+                  Centers, 1976-2001 </ref>
+            </item>
+            <item>
+               <ref show="replace" actuate="onrequest" target="pm"> Personal Miscellany, 1940-2001
+               </ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-12</container>
+               <unittitle encodinganalog="245$a" id="ifesh">International Foundation for Education
+                  and Self Help, <date>1982-2002</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1982-2002</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Program files, reports, adminstrative files, subject files, and news articles
+                  relating to the International Foundation for Education and Self Help. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Administrative file</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Board meetings, <date>1991-1993</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1991-1993</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Budgets and financial statements,
+                           <date>1992-1999</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1992-1999</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Incorporation, <date>1983-1987</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1983-1987</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Insurance, <date>1995</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1995</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">African-African American Summit</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">1st Summit, Abidjan, Côte d'Ivoire,
+                           <date>1991</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1991</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">2nd Summit, Libreville, Gabon,
+                           <date>1993</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1993</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">3rd Summit, Dakar, Senegal, <date>1995</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1995</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">4th Summit, Harare, Zimbabwe,
+                           <date>1997</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1997</unitdate>
+                     <physdesc encodinganalog="300">(5 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">5th Summit, Accra, Ghana, <date>1999</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1999</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">6th Summit, Abuja, Nigeria, <date>2001</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">2001</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Summit dinner, <date>2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">2000</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Contributions, <date>1988-2000</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1988-2000</unitdate>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">4</container>
+                  <unittitle encodinganalog="245$a">Newsletters, <date>1990-2002</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1990-2002</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Press, <date>1991-2001</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1991-2001</unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Printed matter, <date>1983-1996</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1983-1996</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Program files </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Angola projects, <date>1994-1996</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1994-1996</unitdate>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Angola projects, <date>1994-1996</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1994-1996</unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Debt for Development, <date>1988-1996</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1988-1996</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">International Fellows Program,
+                           <date>1991-1998</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1991-1998</unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany, <date>1989-2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1989-2000</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">People's Investment Fund for Africa,
+                           <date>1999-2001</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1999-2001</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">People's Investment Fund for Africa,
+                           <date>1999-2001</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1999-2001</unitdate>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Program updates and overviews,
+                           <date>1991-1995</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1991-1995</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Proposals, <date>1991-2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1991-2000</unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">8</container>
+                     <unittitle encodinganalog="245$a">Proposals, <date>1991-2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1991-2000</unitdate>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Schools for Africa, <date>1997-2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1997-2000</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Self Help Investment Plan,
+                           <date>1994-1998</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1994-1998</unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">Self Help Investment Plan,
+                           <date>1994-1998</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1994-1998</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Supporters of Sub-Saharan Africa,
+                           <date>1994-2001</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1994-2001</unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Teachers for Africa, <date>1992-2001</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1992-2001</unitdate>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">10</container>
+                     <unittitle encodinganalog="245$a">Teachers for Africa, <date>1992-2001</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1992-2001</unitdate>
+                     <physdesc encodinganalog="300">(4 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Reports, <date>1988-1999</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1988-1999</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">11</container>
+                  <unittitle encodinganalog="245$a">Reports, <date>1988-1999</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1988-1999</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Subject files</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Congress, <date>1990-2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1990-2000</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">HIV/AIDS, <date>2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">2000</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Literacy, <date>1982-1993</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1982-1993</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany, <date>1992-2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1992-2000</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">12</container>
+                     <unittitle encodinganalog="245$a">National Student's Support Council for
+                        Africa, <date>1993</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1993</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Peru, <date>1990</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1990</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Receptions, <date>1991-2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1991-2000</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Southern African Enterprise Development Fund,
+                           <date>1995-2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1995-2000</unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Unesco, <date>1996</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1996</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">World Bank, <date>1992-2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1992-2000</unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">12-16</container>
+               <unittitle encodinganalog="245$a" id="oic">Opportunities Industrialization Centers,
+                     <date>1976-2001</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1976-2001</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Program files, reports, administrative files, subject files, and news articles
+                  relating to Opportunities Industrialization Centers of America and OIC
+                  International. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Affiliates</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">American Indian, <date>1994-2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1994-2000</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">13</container>
+                     <unittitle encodinganalog="245$a">General file, <date>1991-2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1991-2000</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Greater Saginaw, Mich.,
+                           <date>1996-1998</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1996-1998</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Los Angeles, Calif., <date>1993-1998</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1993-1998</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellaneous affiliates,
+                           <date>1994-2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1994-2000</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Philadelphia, Pa., <date>1993-1997</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1993-1997</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Yakima Valley, Wash., <date>1996-1998</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1996-1998</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Articles, <date>1986, 1996</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1986, 1996</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Conferences, <date>1990-2001</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1990-2001</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Correspondence, <date>1976, 1989-2000</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1976, 1989-2000</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">14</container>
+                  <unittitle encodinganalog="245$a">
+                     <emph render="italic">Essence of OIC</emph>, <date>1996</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1996</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Executive board, <date>1989-2001</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1989-2001</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Finances, <date>1995-2001</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1995-2001</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">International, <date>1980-2000</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1980-2000</unitdate>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">15</container>
+                  <unittitle encodinganalog="245$a">International, <date>1980-2000</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1980-2000</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Miscellany, <date>1990-1998</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1990-1998</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Press, <date>1988-2000</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1988-2000</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Reports</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Annual reports, <date>1980-1995</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1980-1995</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany, <date>1989-1995</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1989-1995</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a">Proposals, <date>1989-1998</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1989-1998</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">16-24</container>
+               <unittitle encodinganalog="245$a" id="pm">Personal Miscellany, <date>1940-2001</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f">1940-2001</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, speeches, news articles, awards, reports, and writings related to
+                  Sullivan's work outside of International Foundation for Education and Self and
+                  Opportunities Industrialization Centers. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Articles, <date>1968-1996</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1968-1996</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Assault on Literacy Program, <date>1989</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1989</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Awards and tributes</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Miscellany, <date>1988-2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1988-2000</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Presidential Medal of Freedom,
+                           <date>1991</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1991</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">Tribute to Greatness: The Sullivan Years,
+                           <date>1992</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1992</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">Biographical information, <date>1988</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1988</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Book file, <date>1972, 1996-2000</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1972, 1996-2000</unitdate>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1988</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1988</unitdate>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1988</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1988</unitdate>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1989</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1989</unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1990</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1990</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1991</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1991</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1992</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1992</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1993</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1993</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">19</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>1994</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1994</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1995</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1995</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1996</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1996</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1997</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1997</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1998</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1998</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>1999</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1999</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">2000</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">20</container>
+                     <unittitle encodinganalog="245$a">
+                        <date>2000</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">2000</unitdate>
+                     <physdesc encodinganalog="300">(1 folder)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>2001</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">2001</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle encodinganalog="245$a">
+                        <date>Undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">Undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Documentary, <date>1994</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1994</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Finances, <date>1972-1996</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1972-1996</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Funeral services, <date>1994-2000</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1994-2000</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">General Motors, <date>1971-2000</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1971-2000</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">21</container>
+                  <unittitle encodinganalog="245$a">General Motors, <date>1971-2000</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1971-2000</unitdate>
+                  <physdesc encodinganalog="300">(5 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Notes, <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">undated</unitdate>
+                  <physdesc encodinganalog="300">(1 folder)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">22</container>
+                  <unittitle encodinganalog="245$a">Notes, <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">undated</unitdate>
+                  <physdesc encodinganalog="300">(1 folder)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Photograhs, <date>circa 1975-circa 1995</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">circa 1975-circa 1995</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Poems, <date>1940, 1989</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1940, 1989</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Press, <date>1990-2001</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1990-2001</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Progress Investment Associates,
+                        <date>1997-2000</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1997-2000</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Remembrances and condolences, <date>2001</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">2001</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Solicitations, <date>1989-2001</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1989-2001</unitdate>
+                  <physdesc encodinganalog="300">(1 folder)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">23</container>
+                  <unittitle encodinganalog="245$a">Solicitations, <date>1989-2001</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1989-2001</unitdate>
+                  <physdesc encodinganalog="300">(3 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">South Africa, <date>1978-1996</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1978-1996</unitdate>
+                  <physdesc encodinganalog="300">(4 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">24</container>
+                  <unittitle encodinganalog="245$a">Speeches, <date>1978-2000</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1978-2000</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Sullivan Principles, <date>circa
+                        1977-2001</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">circa 1977-2001</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Temple University, Philadelphia, Pa.,
+                        <date>1989</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1989</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Zion Baptist Church, Philadelphia, Pa.,
+                        <date>1980-1997</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1980-1997</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Zion Community Center, Philadelphia, Pa.,
+                        <date>1990-1996</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1990-1996</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle encodinganalog="245$a">Zion Non-Profit Charitable Trust,
+                        <date>1996</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f">1996</unitdate>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

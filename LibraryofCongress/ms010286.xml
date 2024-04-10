@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms010286">loc.mss/eadmss.ms010286</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Francis Baylies Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2010" encodinganalog="260$c" era="ce" calendar="gregorian">2010</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm77012096">https://lccn.loc.gov/mm77012096</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-01">2023 January</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2010">2010</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Francis Baylies Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1814/1843">1814-1843</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1814/1843"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1814-1843</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS12096</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Baylies, Francis, 1783-1852</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">150 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">5 containers</physdesc>
+         <physdesc label="Extent" encodinganalog="300">2.0 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Scholar, diplomat, politician, and
+            historian. Primarily writings by Baylies relating to the American Revolution, the
+            Confederation and the Constitution, Alexander Hamilton, and the administrations of
+            George Washington, John Adams, and Thomas Jefferson.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230326150401.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Adams, John, 1735-1826.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Baylies, Francis, 1783-1852.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hamilton, Alexander, 1757-1804--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Hamilton, Alexander, 1757-1804.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Jefferson, Thomas, 1743-1826.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Washington, George, 1732-1799.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Lexington (Sloop)</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>Massachusetts. General Court. House of Representatives.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Constitution.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Auroras.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Fisheries--Falkland Islands.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Falkland Islands--History.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Massachusetts--History--New Plymouth, 1620-1691.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Massachusetts--Politics and government.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Confederation, 1783-1789.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Constitutional period, 1789-1809.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--History--Revolution, 1775-1783.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--1775-1783.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--1783-1789.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Politics and government--1789-1809.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Diplomats.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Historians.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Politicians.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Scholars.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p> The papers of Francis Baylies, scholar, diplomat, politician, and historian, were
+            acquired by the Library of Congress in the nineteenth century. An additional item was
+            given by David C. Mearns in 1961.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of Francis Baylies were processed prior to 1950. The finding aid was revised
+            by Melinda K. Friend in 2010. The finding aid was updated in 2023 by Maria Farmer as
+            part of a division-wide remediation project by the Inclusive Description Working Group.
+         </p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Francis Baylies is governed by
+            the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Francis Baylies are open to research. Researchers are advised to contact
+            the Manuscript Reading Room prior to visiting. Many collections are stored off-site and
+            advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Francis Baylies Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1783, Oct. 16</datesingle>
+               <event>Born, Taunton, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1810</datesingle>
+               <event>Admitted to the bar and commenced law practice</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1812</fromdate>
+                  <todate>1820</todate>
+               </daterange>
+               <event>Served as register of probate, Bristol County, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1821</datesingle>
+               <event>Elected as Federalist, Seventeenth Congress</event>
+            </chronitem>
+            <chronitem>
+               <datesingle> 1822</datesingle>
+               <event>Married Elizabeth Moulton Deming (died 1868)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1823</datesingle>
+               <event>Elected as Jackson Federalist, Eighteenth Congress</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1825</datesingle>
+               <event>Elected as a Jacksonian, Nineteenth Congress</event>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1827</fromdate>
+                  <todate>1832</todate>
+               </daterange>
+               <event>Served as member of the Massachusetts house of representatives</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1830</datesingle>
+               <event>Published <title localtype="simple">
+                     <part>An Historical Memoir of the Colony of New Plymouth. . .</part>
+                  </title> Boston: Hilliard, Gray, Little, and Wilkins</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1832</datesingle>
+               <event>Served as U.S. Chargé d'Affaires to Argentina</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1835</datesingle>
+               <event>Elected to Massachusetts house of representatives</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1852, Oct. 28</datesingle>
+               <event>Died, Taunton, Mass.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The papers of Francis Baylies (1783-1852) span the years 1814-1843. The papers contain
+            Baylies's writings relating to the American Revolution, the Confederation and
+            Constitution, Alexander Hamilton, and the administrations of George Washington, John
+            Adams, and Thomas Jefferson. Other documents include transcripts of Alexander Hamilton
+            letters, drafts of letters by Baylies, copies of diplomatic and naval correspondence on
+            the voyage of the <emph render="italic">Lexington</emph> (sloop) and the Falkland
+            Islands fisheries dispute, quotations from Baylies's book on the New Plymouth Colony,
+            manuscript copies of documents relating to the business of the Massachusetts house of
+            representatives, and a speech on the aurora borealis.</p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged by type of material.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Copies of correspondence between George W. Slacum
+                  and the secretary of state, <date>1831-1832</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1831-1832</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Correspondence, <date>1827-1831, 1840 </date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1827-1831, 1840
+               </unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Manuscript quotations from <title localtype="simple">
+                     <part>An Historical Memoir of the Colony of New Plymouth. . .</part>
+                  </title>, <date>circa 1843</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1843</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Writings</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Unpublished manuscripts</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">"History of the American Revolution,
+                        1775-1784"</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1775-1777</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1775-1777</unitdate>
+                        <physdesc encodinganalog="300$a">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1777-1785</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1777-1785</unitdate>
+                        <physdesc encodinganalog="300$a">(5 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">On Confederation and Constitution,
+                           <date>undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">"History of the Adminstration of George
+                        Washington," <date>undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">"The Civil, Military, Legislative, Diplomatic
+                        &amp; Miscellaneous History of the Administration of Thomas Jefferson,"
+                           <date>undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">"The Civil, Military, Legislative, Diplomatic
+                        &amp; Miscellaneous History of the Administration of John Adams,"
+                           <date>undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">On Alexander Hamilton, <date>undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous, <date>circa 1814-circa
+                        1831</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">circa 1814-circa
+                     1831</unitdate>
+                  <physdesc encodinganalog="300">(2 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Essays, <date>undated</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Miscellaneous notes and notebooks,
+                     <date>undated</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Notes on</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Adams, John, <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Bristol Academy, Taunton, Mass.,
+                        <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Cobb, David, <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Formation of the nations of Western Europe,
+                        <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Hartford Convention of 1814-1815,
+                        <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Northwest Territory, <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Population, <date>undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Plays, <date>undated</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+            </did>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">5</container>
+               <unittitle encodinganalog="245$a">Speech by Baylies, "Some Remarks on the Phenomina
+                  of the Aurora Borealis," <date>undated</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+            </did>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

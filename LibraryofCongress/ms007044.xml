@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms007044">loc.mss/eadmss.ms007044</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Field-Osgood Family Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm96083744">https://lccn.loc.gov/mm96083744</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-04">2023 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-01">2020-01</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="updated"/>
+            <eventdatetime standarddatetime="2010-04">2010 April</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division, Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Title, controlaccess updated</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2007">2007</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Field-Osgood Family Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1702/1938">1702-1938</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1780/1930">1780-1930</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1702/1938"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1702-1938</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1780/1930"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1780-1930</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS83744</unitid>
+         <origination label="Creator">
+            <famname encodinganalog="100" source="lcnaf">
+               <part>Field family</part>
+            </famname>
+         </origination>
+         <origination label="Creator">
+            <famname encodinganalog="100" source="lcnaf">
+               <part>Osgood family</part>
+            </famname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">1,600 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">7 containers plus 3 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">7 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <descriptivenote>
+               <p>Collection material in English</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Correspondence, speeches and writings,
+            household financial accounts, legal papers, genealogical material, printed matter,
+            photographs, lithographs, and engravings pertaining to the families of Samuel Osgood
+            (1748-1813) and his daughter, Susan Osgood Field, of Massachusetts and New York.
+         </abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20230429073028.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC Catalog. They are grouped by name of person or organization, by subject or location, and by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Bradhurst family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Browning, Robert, 1812-1889--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Field family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Field, Chloe.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Field, Hickson W. (Hickson Woolman), 1823- --Correspondence.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Field, Susan K. Osgood. Susan K. Osgood Field papers.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Field, William B. Osgood.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Osgood family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Osgood, David, 1747-1822.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Osgood, Maria Bowne Franklin. Maria Bowne Franklin Osgood papers.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Osgood, Samuel, 1748-1813. Samuel Osgood papers.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Organizations</head>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Army. Signal Corps.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Board of Treasury.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Continental Congress.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. Postmaster General.</part>
+            </corpname>
+            <corpname encodinganalog="610" relator="subject" source="lcnaf">
+               <part>United States. War Department. Military Intelligence Division.</part>
+            </corpname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Enslaved persons--Emancipation--New York (State)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Sermons, American--18th century.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1914-1918--Photography.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1914-1918.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Young women--United States--19th century.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Andover (Mass.)--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Charleston (S.C,)--Social life and customs.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>New York (State)--Politics and government--1775-1865.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Troy (N.Y.)--Social life and customs.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Titles</head>
+            <title encodinganalog="246" source="lcnaf">
+               <part>Field family papers</part>
+            </title>
+            <title encodinganalog="246" source="lcnaf">
+               <part>Osgood family papers</part>
+            </title>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The Field-Osgood Family Papers were given to the Library of Congress by Diana Field from
+            1996 to 1998. The material was received jointly by the Manuscript Division and the
+            Prints and Photographs Division. A group of Field-Osgood family pictorial material
+            remains in the Prints and Photographs Division.</p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p>The papers of the Field-Osgood family were arranged and described in 1987 by Karen Linn
+            Femia. This finding aid was revised in 2007. The finding aid was updated in 2023 by
+            Maria Farmer as part of a division-wide remediation project by the Inclusive Description
+            Working Group.</p>
+      </processinfo>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of the Field-Osgood family is
+            governed by the Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Field-Osgood family are open to research. Researchers are advised to
+            contact the Manuscript Reading Room prior to visiting. Many collections are stored
+            off-site and advance notice is needed to retrieve these items for research use.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Field-Osgood Family Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p>The Field-Osgood Family Papers span the years 1702-1938, with the bulk of the material
+            dating from about 1780 to 1930. The papers pertain to three ancestral families of the
+            donor and are arranged in three sections: the Bradhurst family, the Field family, and
+            the Osgood family, with the Field and Osgood papers forming the bulk of the collection.
+            Many of the items were removed from deteriorating scrapbooks. With the exception of
+            occasional items of a general nature concerning the family, the material is arranged
+            alphabetically by individual family member. The papers include correspondence, financial
+            material, legal documents, genealogical material, speeches and writings, printed matter,
+            photographs, lithographs, and engravings.</p>
+         <p> Because so many individuals are represented in this collection, the topics touched upon
+            are disparate and numerous. Of major importance are the papers of Samuel Osgood
+            (1748-1813), member of the Continental Congress, one of the three members of the United
+            States Board of Treasury (1785-1789), first postmaster general, and naval officer of the
+            port of New York. A small amount of correspondence, writings, and Board of Treasury and
+            port of New York documents are in the collection. Most of the Samuel Osgood material,
+            however, relates to household financial matters. Additional household financial matter
+            is found under his wife's name, Maria Bowne Franklin Osgood, including items concerning
+            her financial obligations to Chloe Field, an African American woman. Also in the
+            collection are four sermons of David Osgood (1747-1822), three printed and one
+            holograph. One printed sermon of Joseph Lathrop (1731-1820) can be found in the folder
+            for Thaddeus Osgood. </p>
+         <p>Samuel Osgood's daughter, Susan Kittridge Osgood Field, maintained a lively
+            correspondence with her sisters, Martha Brandon Osgood, married and living near Troy,
+            New York, and Juliana Osgood, married and living in or near Andover, Massachusetts. She
+            also corresponded with Mary (a cousin?) living in Charleston, South Carolina. Nearly all
+            of the letters date from 1814 to 1821, the year she married Moses Field. The letters
+            from her sisters are full of descriptions and details of the everyday life of these
+            young women. Susan Osgood Field's correspondence is filed with the Field family
+            material. </p>
+         <p>Three items in the Field family papers merit notice: two eighteenth century manumission
+            documents from New York state and a letter of 1845 from Robert Browning to Hickson
+            Woolman Field. Also in the Field family papers are a collection of materials from the
+            United States Signal Corps on aerial photography dating from 1917 to 1918 and a group of
+            intelligence reports (circa 1918-1919) from the Military Intelligence Division of the
+            War Department. Both groups of papers relate to William B. Osgood Field. </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged alphabetically by name of family and alphabetically
+            thereunder by name of person, topic, or type of material.</p>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Bradhurst family </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Bradhurst, Samuel, appointment as ensign,
+                     eighty-second regiment, New York Infantry, <date>1828 </date>
+                     <ref show="replace" actuate="onrequest" target="bradov1">
+                        <emph render="italic">See Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1828 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Miscellany, <date>1750-1782, 1790, 1808, 1828,
+                        1847, 1873, 1916, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1750-1782, 1790,
+                     1808, 1828, 1847, 1873, 1916, undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Photographs, <date>1907-1910, undated </date>
+                     <ref show="replace" actuate="onrequest" target="photoov1">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1907-1910, undated
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Poster, sale of Bradhurst estate as building
+                     lots, New York, N.Y., <date> undated</date>
+                     <ref show="replace" actuate="onrequest" target="postov2">
+                        <emph render="italic">See Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> undated</unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">1</container>
+               <unittitle encodinganalog="245$a">Field family</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Family trees, <date> undated </date>
+                     <ref show="replace" actuate="onrequest" target="famov2">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> undated
+                  </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Field, Anne, manumission papers for Pothena,
+                        <date>1777</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1777</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Field, Augusta, <date>1887-1892</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1887-1892</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Field, Cyrus W., <date>undated</date>
+                     <ref show="replace" actuate="onrequest" target="fieldov3">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Field, David Dudley, <date>1892, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1892,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Field, Eugene, <date>1892, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1892,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Field, Hickson Woolman</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Browning, Robert, letter, <date>1845</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1845</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Miscellany, <date>1853, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1853,
+                        undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Field, Lila Sloane, <date>1921, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1921,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Field, Maunsell B., <date>1850, 1869,
+                        1874</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1850, 1869,
+                     1874</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Field, May, <date>1910</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1910</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Field, Moses, <date>1817-1818</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1817-1818</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Field, Osgood, <date> 1848, 1876, 1914,
+                        undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> 1848, 1876, 1914,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Field, Rodman, manumission papers for Elizabeth,
+                        <date>1782</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1782</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a">Field, Stephen J., <date>1890, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1890,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a" id="susan1">Field, Susan Osgood</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>1814-1821, 1830-1834 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1814-1821,
+                           1830-1834 </unitdate>
+                        <physdesc encodinganalog="300$a">(4 folders) </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">2</container>
+                        <unittitle encodinganalog="245$a">
+                           <date>Undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">Undated </unitdate>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Notebook, "Notes on the history of Rome," by
+                        Susan K. Osgood, and financial material and arithmetic notes by Walter F.
+                        Osgood, <date>1802-1821</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1802-1821</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a">Field, William B. Osgood</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Financial matter, <date>1929-1931</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1929-1931</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Military appointments, orders, and notes,
+                           <date>1918-1924, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1918-1924,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Miscellany, <date>1902-1903, 1914-1928,
+                           undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1902-1903,
+                        1914-1928, undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">"Pedigree of William Bradhurst Osgood Field,"
+                           <date>1909</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1909</unitdate>
+                     <physdesc encodinganalog="300$a"> (2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Poetry notebook, <date>1897-1898</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1897-1898</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Printed matter re World War I,
+                           <date>1914-1918</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1914-1918</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">Travel journal, <date>1901</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1901</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a">U.S. Army Signal Corps</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Aerial photography, <date> 1917-1918,
+                              undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> 1917-1918,
+                           undated </unitdate>
+                        <physdesc encodinganalog="300$a">(4 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">3</container>
+                        <unittitle encodinganalog="245$a">Lists of photographs</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">3</container>
+                           <unittitle encodinganalog="245$a">
+                              <date>1918 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1918 </unitdate>
+                           <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">4</container>
+                           <unittitle encodinganalog="245$a">
+                              <date>1919</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a">War Department</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">Military Intelligence Division</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">4</container>
+                           <unittitle encodinganalog="245$a">Country reports, <date> circa 1918
+                              </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> circa
+                              1918 </unitdate>
+                           <physdesc encodinganalog="300$a">(7 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">4</container>
+                           <unittitle encodinganalog="245$a">General information, <date> circa 1918,
+                                 1924, undated</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> circa
+                              1918, 1924, undated</unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">4</container>
+                           <unittitle encodinganalog="245$a">Intelligence summaries,
+                                 <date>1919</date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919</unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">4</container>
+                        <unittitle encodinganalog="245$a">News bureau, <date>1919</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1919</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Field, William H.</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Journal of travel in Great Britain,
+                           <date>1850-1852</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1850-1852</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Miscellany, <date>1857-1863, 1870-1883, 1891,
+                           1915, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1857-1863,
+                        1870-1883, 1891, 1915, undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">5</container>
+                  <unittitle encodinganalog="245$a">Field, William Osgood</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <date>1922-1931,
+                           undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1922-1931,
+                        undated</unitdate>
+                     <physdesc encodinganalog="300$a"> (2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a">Harvard University, Cambridge,
+                        Mass.</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">
+                           <title localtype="simple">
+                              <part>Harvard Lampoon,</part>
+                           </title>
+                           <date>1924-1926, undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1924-1926,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Instrumental music clubs, <date>1923-1931,
+                              undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1923-1931,
+                           undated</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">5</container>
+                        <unittitle encodinganalog="245$a">Miscellany, <date>1922-1930, undated
+                           </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1922-1930,
+                           undated </unitdate>
+                        <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Genealogical writings, <date>1868-1878</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1868-1878</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous family members, <date>1702, 1796,
+                        1806, 1832-1833, 1846, 1865, 1881, 1896-1916, 1924-1926, 1938,
+                        undated</date>
+                     <ref show="replace" actuate="onrequest" target="landov3">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1702, 1796, 1806,
+                     1832-1833, 1846, 1865, 1881, 1896-1916, 1924-1926, 1938, undated</unitdate>
+                  <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">6</container>
+               <unittitle encodinganalog="245$a">Osgood family</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Osgood, David</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <date>1814</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1814</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Speeches and writings</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a">"Dr. Osgood's sermon on the national fast,
+                           May 9, 1798," <date>1798</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1798</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a">Holograph sermon on I John, chapter 3,
+                           verse 2, <date>1816, 1821</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1816,
+                           1821</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a">"Mr. Osgood's Thanksgiving sermon,
+                           December 11th 1783," <date>1783</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1783</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a">"A solemn protest against the late
+                           declaration of war," <date>1812</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1812</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Osgood, "Maria, "Miss," and "Mrs.,"
+                        <date>1803-1814, undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1803-1814,
+                     undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Osgood, Maria, to Chloe Field,
+                        <date>1810-1812</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1810-1812</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Osgood, Samuel (1748-1813)</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Biographical and pictorial material,
+                           <date>1931, undated</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1931,
+                        undated</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Board of Treasury, <date>1785-1789</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1785-1789</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Correspondence, <date>1775-1798,
+                           1804-1808</date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1775-1798,
+                        1804-1808</unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Financial matter, <date>1780-1781, 1800-1813,
+                           undated</date>
+                        <ref show="replace" actuate="onrequest" target="finov3">
+                           <emph render="italic">See also Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1780-1781,
+                        1800-1813, undated</unitdate>
+                     <physdesc encodinganalog="300$a"> (4 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Port of New York custom house,
+                           <date>1808-1809 </date>
+                        <ref show="replace" actuate="onrequest" target="portov3">
+                           <emph render="italic">See also Oversize</emph>
+                        </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1808-1809
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a">Speeches and writings</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a">"A letter upon the subject of episcopacy"
+                           and response by "Philalethes," <date>1807</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1807</unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">6</container>
+                        <unittitle encodinganalog="245$a">Speech to the New York state assembly,
+                              <date>1801</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1801</unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Osgood, Samuel (1784-1862), "The real and ideal
+                     in New England," <date> undated</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> undated</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Osgood, Susan K. <ref show="replace" actuate="onrequest" target="susan1">
+                        <emph render="italic">See Containers 1-2, </emph> Field, Susan Osgood </ref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Osgood, Thaddeus, "Damnable heresies defined and
+                     described, in a sermon, preached in North Wilbraham; June 15, 1808, at the
+                     ordination of Rev. Thaddeus Osgood," by Joseph Lathrop, <date> 1821</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> 1821</unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Miscellaneous family members, <date>1731-1803,
+                        1880, undated </date>
+                     <ref show="replace" actuate="onrequest" target="memov3">
+                        <emph render="italic">See also Oversize</emph>
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1731-1803, 1880,
+                     undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a">Sloane, William Douglas, death of,
+                        <date>1915</date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1915</unitdate>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">News clippings</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Correspondence</unittitle>
+                     <physdesc encodinganalog="300$a">(2 folders)</physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="file">
+            <did>
+               <container localtype="box">OV 1</container>
+               <unittitle encodinganalog="245$a">Oversize</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Bradhurst family</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="bradov1">Bradhurst, Samuel, appointment
+                        as ensign, eighty-second regiment, New York Infantry, <date>1828 </date>
+                        (Container 1)</unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1828 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="photoov1">Photographs, <date>undated
+                        </date> (Container 1)</unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 2</container>
+                     <unittitle encodinganalog="245$a" id="postov2">Poster, sale of Bradhurst estate
+                        as building lots, New York, N.Y., <date> undated</date> (Container
+                        1)</unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">
+                        undated</unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 2</container>
+                  <unittitle encodinganalog="245$a">Field family</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 2</container>
+                     <unittitle encodinganalog="245$a" id="famov2">Family trees, <date>undated
+                        </date> (Container 1)</unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 3</container>
+                     <unittitle encodinganalog="245$a" id="fieldov3">Field, Cyrus, "Ocean Telegraph
+                        March," sheet music, cover only, with lithographic portrait, <date>undated
+                        </date> (Container 1)</unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">undated
+                     </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 3</container>
+                     <unittitle encodinganalog="245$a" id="landov3">Miscellaneous family members,
+                        document re land ownership, <date>1702 </date> (Container 6)</unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1702 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 3</container>
+                  <unittitle encodinganalog="245$a">Osgood family</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 3</container>
+                     <unittitle encodinganalog="245$a">Osgood, Samuel (1748-1813)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 3</container>
+                        <unittitle encodinganalog="245$a" id="finov3">Financial matter,
+                              <date>1784-1805 </date> (Container 6)</unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian">1784-1805
+                        </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 3</container>
+                        <unittitle encodinganalog="245$a" id="portov3">Port of New York custom
+                           house, certificate of ownership, <date> 1809 </date> (Container
+                           6)</unittitle>
+                        <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> 1809
+                        </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 3</container>
+                     <unittitle encodinganalog="245$a" id="memov3">Miscellaneous family members,
+                        Isaac Osgood, Bunker Hill Memorial Association, <date> undated </date>
+                        (Container 7)</unittitle>
+                     <unitdate encodinganalog="245$f" era="ce" calendar="gregorian"> undated
+                     </unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

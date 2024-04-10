@@ -1,0 +1,2458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Converted [March 2020] from EAD2002 to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1 : Release Date: 2019-12-16 --><?xml-model href="https://www.loc.gov/ead/EAD3/schematron/ead3.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://eadproc.loc.gov/common/validate/LC_EAD3_Schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.loc.gov/ead/ead3.xsd">
+   <control repositoryencoding="iso15511" relatedencoding="MARC21"
+            countryencoding="iso3166-1"
+            scriptencoding="iso15924"
+            dateencoding="iso8601"
+            langencoding="iso639-2b">
+      <recordid encodinganalog="856$u"
+                instanceurl="https://hdl.loc.gov/loc.mss/eadmss.ms018025">loc.mss/eadmss.ms018025</recordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Theodor Reik Papers</titleproper>
+            <subtitle>A Finding Aid to the Collection in the Library of Congress</subtitle>
+            <author>Prepared by Manuscript Division staff</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher encodinganalog="260$b">
+               <ptr show="embed" actuate="onload"
+                    href="https://hdl.loc.gov/loc.standards/ead.lclogo"/>Manuscript Division, Library
+               of Congress</publisher>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+            <date normal="2023" encodinganalog="260$c" era="ce" calendar="gregorian">2023</date>
+         </publicationstmt>
+         <notestmt>
+            <controlnote id="versionNote">
+               <p>Converted to EAD3 : Encoded Archival Description (EAD), Version 3 : Release: 1.1.1
+                  : Release Date: 2019-12-16. Validating against latest version of schema.</p>
+            </controlnote>
+            <controlnote id="contactNote">
+               <p>Contact information: <ref show="new" actuate="onrequest" href="https://hdl.loc.gov/loc.mss/mss.contact">https://hdl.loc.gov/loc.mss/mss.contact</ref>
+               </p>
+            </controlnote>
+            <controlnote id="lccnNote">
+               <p>Catalog Record: <ref show="new" actuate="onrequest" href="https://lccn.loc.gov/mm2015086021">https://lccn.loc.gov/mm2015086021</ref>
+               </p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="revised">revised</maintenancestatus>
+      <maintenanceagency countrycode="US">
+         <agencycode>us-dlc</agencycode>
+         <agencyname>Library of Congress</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng" encodinganalog="040$b">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2023-10">2023 October</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Inclusive description updates</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2022-11">2022 November</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Manuscript Division staff</agent>
+            <eventdescription>Restriction removed</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="revised"/>
+            <eventdatetime standarddatetime="2020-02">2020-02</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ead3_converter_mfer.xsl</agent>
+            <eventdescription>Converted from EAD 2002 to EAD 3 (Release 1.1.1) by
+               ead3_converter_mfer.xsl : Michael Ferrando, Library of Congress.</eventdescription>
+         </maintenanceevent>
+         <maintenanceevent>
+            <eventtype value="created"/>
+            <eventdatetime standarddatetime="2018">2018</eventdatetime>
+            <agenttype value="human"/>
+            <agent>Library of Congress, Washington, D.C.</agent>
+            <eventdescription>Finding aid encoded by Library of Congress Manuscript
+               Division</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc level="collection" relatedencoding="MARC21" localtype="register">
+      <did>
+         <head>Collection Summary</head>
+         <unittitle label="Title" encodinganalog="245$a">Theodor Reik Papers 
+            <date altrender="Inclusive Dates" localtype="inclusive" normal="1905/1994">1905-1994</date>
+            <date altrender="Bulk Dates" localtype="bulk" normal="1939/1969">1939-1969</date>
+         </unittitle>
+         <unitdate label="Inclusive Dates" unitdatetype="inclusive" normal="1905/1994"
+                   encodinganalog="245$f"
+                   era="ce"
+                   calendar="gregorian">1905-1994</unitdate>
+         <unitdate label="Bulk Dates" unitdatetype="bulk" normal="1939/1969"
+                   encodinganalog="245$g"
+                   era="ce"
+                   calendar="gregorian">1939-1969</unitdate>
+         <unitid label="ID No." encodinganalog="590" countrycode="US" repositorycode="US-DLC">MSS86021</unitid>
+         <origination label="Creator">
+            <persname encodinganalog="100" source="lcnaf">
+               <part>Reik, Theodor, 1888-1969</part>
+            </persname>
+         </origination>
+         <physdesc label="Extent" encodinganalog="300">7,500 items</physdesc>
+         <physdesc label="Extent" encodinganalog="300">18 containers plus 7 oversize</physdesc>
+         <physdesc label="Extent" encodinganalog="300">12 linear feet</physdesc>
+         <langmaterial label="Language">
+            <language encodinganalog="041" langcode="eng">English</language>
+            <language langcode="ger" encodinganalog="041">German</language>
+            <descriptivenote>
+               <p>Collection material in English and German</p>
+            </descriptivenote>
+         </langmaterial>
+         <repository label="Location" encodinganalog="852">
+            <corpname>
+               <part>Manuscript Division, Library of Congress</part>
+            </corpname>
+            <address>
+               <addressline>Washington, D.C.</addressline>
+            </address>
+         </repository>
+         <abstract label="Summary" encodinganalog="520$a">Psychoanalyst and author. Correspondence,
+            interviews, family papers, handwritten and some typed drafts of books and other
+            writings, reprints of journal articles, notes, research files, certificates, publishing
+            contracts, royalty statements, reviews of Reik's books, publicity materials,
+            photographs, honors and a tribute, brochures, programs, postcards, and news clippings
+            documenting Reik's contributions to psychoanalytic theory and practice, largely through
+            his prolific writing for professional and popular audiences.</abstract>
+      </did>
+      <controlaccess altrender=":::F005=^20221028130410.0^">
+         <head>Selected Search Terms</head>
+         <p>The following terms have been used to index the description of this collection in the LC
+            Catalog. They are grouped by name of person or organization, by subject or location, and
+            by occupation and listed alphabetically.</p>
+         <controlaccess>
+            <head>People</head>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Abraham, Karl, 1877-1925.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Adler, Guido, 1855-1941.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Eissler, K. R. (Kurt Robert), 1908-1999--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Freud, Sigmund, 1856-1939.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Graf, Max, 1873-1958.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Mahler, Gustav, 1860-1911.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Meerloo, Joost Abraham Maurits, 1903-1976--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Nydes, Jule, 1911-1967--Correspondence.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Pais, Abraham, 1918-2000--Correspondence.</part>
+            </persname>
+            <famname encodinganalog="600" relator="subject" source="unspecified">
+               <part>Reik family.</part>
+            </famname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Reik, Arthur, 1915-1988.</part>
+            </persname>
+            <persname encodinganalog="100" relator="creator" source="lcnaf">
+               <part>Reik, Theodor, 1888-1969.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Reik, Theodor, 1888-1969. Jewish wit. 1962.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Reik, Theodor, 1888-1969. Many faces of sex. 1966.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Reik, Theodor, 1888-1969. Need to be loved. 1963.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Reik, Theodor, 1888-1969. Of love and lust. 1949.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Reik, Theodor, 1888-1969. Pagan rites in Judaism: from sex initiation, magic,
+                  moon-cult, tattooing, mutilation, and other primitive rituals to family loyalty
+                  and solidarity. 1964.</part>
+            </persname>
+            <persname encodinganalog="700" source="lcnaf">
+               <part>Reik, Theodor, 1888-1969. The haunting melody; psychoanalytic experiences in
+                  life and music. 1953.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Rosé, Arnold, 1863-1946.</part>
+            </persname>
+            <persname encodinganalog="600" relator="subject" source="lcnaf">
+               <part>Walter, Bruno, 1876-1962.</part>
+            </persname>
+         </controlaccess>
+         <controlaccess>
+            <head>Subjects</head>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Couvade.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Guilt.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Humor.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Jewish wit and humor.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Judaism--Customs and practices.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Judaism--Relations.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Judaism.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Lay analysis (Psychoanalysis)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Love--Psychological aspects.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Lust--Psychological aspects.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Man-woman relationships--United States--20th century.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Man-woman relationships.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Marriage.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Masochism.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Men--Psychology.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychoanalysis--Austria.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychoanalysis--Germany.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychoanalysis--Netherlands.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychoanalysis--Practice.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychoanalysis--Research.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychoanalysis--United States.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Psychoanalysis.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Puberty rites.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Sex (Psychology)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Sex customs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Sex differences (Psychology)</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Women--California--Social life and customs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Women--New York (State)--New York--Social life and customs.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>Women--Psychology.</part>
+            </subject>
+            <subject encodinganalog="650" source="lcsh">
+               <part>World War, 1939-1945--Women--New York (State)--New York.</part>
+            </subject>
+         </controlaccess>
+         <controlaccess>
+            <head>Places</head>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>Palestine--Emigration and immigration.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Emigration and immigration.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Intellectual life--20th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Social conditions--20th century.</part>
+            </geogname>
+            <geogname encodinganalog="651" relator="subject" source="lcsh">
+               <part>United States--Social life and customs--20th century.</part>
+            </geogname>
+         </controlaccess>
+         <controlaccess>
+            <head>Occupations</head>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Authors.</part>
+            </occupation>
+            <occupation encodinganalog="656" source="itoamc">
+               <part>Psychoanalysts.</part>
+            </occupation>
+         </controlaccess>
+      </controlaccess>
+      <acqinfo encodinganalog="541">
+         <head>Acquisition Information</head>
+         <p>The papers of Theodor Reik, psychoanalyst and author, were purchased by the Library of
+            Congress in 2015. </p>
+      </acqinfo>
+      <processinfo encodinganalog="583">
+         <head>Processing History</head>
+         <p> The papers of Theodor Reik were arranged and described by Margaret McAleer and Emilia
+            Schrier in 2018. The collection came to the Library minimally organized and described in
+            2015. Most problematic were Reik's writings. Few of the folders containing drafts and
+            notes were identified by title of published work although the contents of most of them
+            seemed to have a distinct focus. For this reason, the decision was made during
+            processing to keep many of the original groupings of manuscripts and notes intact as
+            received. Efforts were made where possible to associate these unidentified folders with
+            Reik's published works. Additionally, the papers were sorted and arranged into series to
+            improve their navigation. The finding aid was updated in 2023 by Maria Farmer as part of
+            a division-wide remediation project by the Inclusive Description Working Group. </p>
+      </processinfo>
+      <separatedmaterial encodinganalog="544 0">
+         <head>Transfers</head>
+         <p>Audio recordings have been transferred to the Library's Motion Picture, Broadcasting,
+            and Recorded Sound Division where they are identified as part of the Theodor Reik
+            Papers.</p>
+      </separatedmaterial>
+      <relatedmaterial encodinganalog="544 1">
+         <head>Related Material</head>
+         <p>Related collections in the Manuscript Division include the <ref href="https://hdl.loc.gov/loc.mss/eadmss.ms004017">Sigmund Freud Papers</ref> which
+            contain Reik's correspondence with Freud and a separate <ref href="https://lccn.loc.gov/mm99084378">Theodor Reik Papers in the Sigmund Freud
+               Collection</ref>. </p>
+      </relatedmaterial>
+      <userestrict encodinganalog="540">
+         <head>Copyright Status</head>
+         <p>The status of copyright in the unpublished writings of Theodor Reik is governed by the
+            Copyright Law of the United States (Title 17, U.S.C.).</p>
+      </userestrict>
+      <accessrestrict encodinganalog="506 0">
+         <head>Access and Restrictions</head>
+         <p>The papers of Theodor Reik are open to research. Many collections are stored off-site
+            and advance notice is needed to retrieve these items for research use. Researchers are
+            advised to contact the Manuscript Reading Room prior to visiting.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+         <head>Preferred Citation</head>
+         <p>Researchers wishing to cite this collection should include the following information:
+            Container number, Theodor Reik Papers, Manuscript Division, Library of Congress,
+            Washington, D.C. </p>
+      </prefercite>
+      <bioghist encodinganalog="545">
+         <head>Biographical Note</head>
+         <chronlist>
+            <listhead>
+               <head01>Date</head01>
+               <head02>Event</head02>
+            </listhead>
+            <chronitem>
+               <datesingle>1888, May 12 </datesingle>
+               <event>Born, Vienna, Austria </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1910</datesingle>
+               <chronitemset>
+                  <event>Completed undergraduate studies in psychology and literature, University of
+                     Vienna, Vienna, Austria</event>
+                  <event>Met Sigmund Freud</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1911</datesingle>
+               <event>Admitted to the Vienna Psychoanalytic Society</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1912</datesingle>
+               <event>PhD, University of Vienna, Vienna, Austria</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1914</datesingle>
+               <chronitemset>
+                  <event>Married Eleanore (“Ella”) Oratsch (died 1934)</event>
+                  <event>Moved to Berlin, Germany, to begin analysis with Karl Abraham</event>
+                  <event>Received the first award in applied psychoanalysis for his essay “The
+                     Puberty Rites of Savages,” <title render="italic">
+                        <part>Imago, </part>
+                     </title> vol. 4 (1915): 189-222</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <daterange>
+                  <fromdate>1915</fromdate>
+                  <todate>1918</todate>
+               </daterange>
+               <event>Served in World War I</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1918</datesingle>
+               <event>Returned to Vienna, Austria</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1928</datesingle>
+               <event>Moved to Berlin, Germany</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1934</datesingle>
+               <chronitemset>
+                  <event>Moved to The Hague, Netherlands</event>
+                  <event>Married Marija Cubelic (died 1960)</event>
+               </chronitemset>
+            </chronitem>
+            <chronitem>
+               <datesingle>1938</datesingle>
+               <event>Immigrated to the United States, settling in New York, N.Y.</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1944</datesingle>
+               <event>Became a United States citizen</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1948</datesingle>
+               <event>Founded the National Psychological Association for Psychoanalysts</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1953</datesingle>
+               <event>Published <title render="italic">
+                     <part>The Haunting Melody</part>
+                  </title> (New York: Farrar, Straus, and Young)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1957</datesingle>
+               <event>Published <title render="italic">
+                     <part>Of Love and Lust: On the Psychoanalysis of Romantic and Sexual
+                        Emotions</part>
+                  </title> (New York: Farrar, Straus, and Giroux) </event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1962</datesingle>
+               <event>Published <title render="italic">
+                     <part>Jewish Wit</part>
+                  </title> (New York: Gamut Press)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1963</datesingle>
+               <event>Published <title render="italic">
+                     <part>The Need to Be Loved</part>
+                  </title> (New York: Farrar, Straus, and Co.)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1964</datesingle>
+               <event>Published <title render="italic">
+                     <part>Pagan Rites in Judaism</part>
+                  </title> (New York: Farrar, Straus, and Co.)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1966</datesingle>
+               <event>Published <title render="italic">
+                     <part>The Many Faces of Sex</part>
+                  </title> (New York: Farrar, Straus, and Giroux)</event>
+            </chronitem>
+            <chronitem>
+               <datesingle>1969, Dec. 31</datesingle>
+               <event>Died, New York, N.Y.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent encodinganalog="520">
+         <head>Scope and Content Note</head>
+         <p> The papers of Theodor Reik (1888-1969) span the years 1905-1994, with the bulk of the
+            material dating from 1939 to 1969. The collection documents Reik's contributions to
+            psychoanalytic theory and practice as a lay analyst and researcher, and as one of
+            Sigmund Freud's first students. The papers date largely after Reik's immigration to the
+            United States in 1938, but also include material from his earlier years in Austria,
+            Germany, and the Netherlands. Much of the collection focuses on Reik's prolific writing
+            for both professional and popular audiences. Many of these works explore Reik's theories
+            on the psychological differences between men and women and were published as gender
+            relations were being transformed in the postwar years. Included are partial drafts of
+            many of Reik's books, reprints and copies of his published articles, notes, and research
+            files, as well as correspondence, publishing contracts, royalty statements,
+            certificates, interviews, photographs, and news clippings. The collection is in English
+            and German, with English predominating after 1938. It is arranged in four series: <ref target="pfp">Personal and Family Papers,</ref>
+            <ref target="gmseries">Gustav Mahler,</ref>
+            <ref target="wf">Writings File,</ref> and <ref target="ov">Oversize.</ref>
+         </p>
+         <p>The <ref target="pfp">Personal and Family Papers</ref> series contains material from
+            Reik's personal files as well as those of his son Arthur Reik who served as his father's
+            literary agent and later as the literary executor for his estate. The series represents
+            a small portion of what must have once comprised Reik's personal files, but nevertheless
+            provides insights into his career and the reception of his work, particularly in the
+            United States. Highlights of the series include correspondence from colleagues,
+            publishers, and readers of Reik's books; royalty statements; book reviews and publicity
+            materials about his books; oral history interview transcripts; and newspaper articles
+            about him. Also included are certificates, 1908-1912, from Reik's studies at the
+            University of Vienna. </p>
+         <p>The <ref target="gmseries">Gustav Mahler</ref> series is the most intact portion of the
+            collection and consists of Reik's research and writings on the composer's life and work.
+            Included are concert programs, journal articles, booklets, and news clippings about
+            Mahler and performances of his works, some dating from the 1920s and 1930s, as well as
+            Reik's research notes and drafts of his writings. Among these writings are an article on
+            Sigmund Freud's analysis of the composer and a file of handwritten draft manuscripts in
+            German that eventually became <title>
+               <part>The Haunting Melody: Psychoanalytic Experiences in Life and Music</part>
+            </title> (1953), Reik's book on Mahler that explores the nature of musical associations. </p>
+         <p>The <ref target="wf">Writings File</ref> is the largest series in the collection and
+            includes drafts of some of Reik's books, articles, introductions, and speeches; printed
+            copies of his journal, newspaper, and magazine articles; three notebooks; and a large
+            volume of notes. Reik wrote in English and German, switching largely to English after
+            1938. Copies of Reik's published articles and commentary span his publishing career from
+            1911 to 1968. The series' book files, however, date largely after his immigration to the
+            United States and focus in particular on his writings on Judaism and gender relations.
+            The surviving book drafts and notes suggest several ways Reik emulated his mentor
+            Sigmund Freud's approach to writing. Reik, like Freud, preferred to compose on large
+            sheets of paper. Many of Reik's writings, therefore, are stored in the <ref target="ov">Oversize</ref> series. Also like Freud, Reik showed an apparent disregard for his
+            drafts and notes after a work was published. Reik's writing files arrived at the Library
+            minimally organized and described and in poor physical condition. Yet most of the
+            bundles of otherwise unidentified drafts and notes seemed to have distinct focuses,
+            making it possible to associate them with specific writing projects. Even so, many of
+            the books in the collection are only partially documented, at times with no more than
+            several pages or a single chapter. Exceptions are Reik's books <title>
+               <part>Jewish Wit</part>
+            </title> and <title>
+               <part>Pagan Rites in Judaism</part>
+            </title> which have more complete drafts and <title>
+               <part>The Many Faces of Sex,</part>
+            </title>
+            <title>
+               <part>The Need to Be Loved,</part>
+            </title> and Part IV in <title>
+               <part>Of Love and Lust</part>
+            </title> on Reik's theories regarding the emotional differences between men and women.
+            Files for these latter three books consist of randomly organized notes and partial
+            drafts rather than complete manuscripts. The large volume of notes stored in the book
+            files and in separately organized note files capture the unfolding of Reik's thought
+            process. According to Reik, he would record his thoughts, insights, and observations in
+            note form, often in the evenings after a full day of seeing patients. The first drafts
+            of his books grew out of these notes. Also included in the series are writings by
+            others. Some of these article-length works explore Reik's contributions to
+            psychoanalysis. Also included are writings by two women who, at one time, may have been
+            Reik's analysands. </p>
+      </scopecontent>
+      <arrangement encodinganalog="351$a">
+         <head>Arrangement of the Papers</head>
+         <p>This collection is arranged in four series:</p>
+         <list>
+            <item>
+               <ref target="pfp">Personal and Family Papers, 1908-1984</ref>
+            </item>
+            <item>
+               <ref target="gmseries">Gustav Mahler, 1905-1994</ref>
+            </item>
+            <item>
+               <ref target="wf">Writings File, 1911-1994</ref>
+            </item>
+            <item>
+               <ref target="ov">Oversize, 1911-1962</ref>
+            </item>
+         </list>
+      </arrangement>
+      <dsc dsctype="combined">
+         <head>Container List</head>
+         <thead valign="bottom">
+            <row>
+               <entry morerows="0">Container</entry>
+               <entry morerows="0">Contents</entry>
+            </row>
+         </thead>
+         <c01 level="series">
+            <did>
+               <container localtype="box">1-3</container>
+               <unittitle encodinganalog="245$a" id="pfp">Personal and Family Papers, <date normal="1908/1984">1908-1984</date>
+               </unittitle>
+               <unitdate normal="1908/1984">1908-1984</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Correspondence, interviews, certificates, publishing contracts, royalty
+                  statements, reviews of Reik's books, publicity materials, a tribute on his
+                  seventieth birthday, brochures, programs, a photograph, postcards, and news
+                  clippings from the personal files of Reik as well as those of his son Arthur who
+                  served as Reik's literary agent and later as the literary executor for his estate.
+                  Most of the material in the series dates after Reik's immigration to the United
+                  States and, although not extensive, sheds light on Reik's contributions to the
+                  growing popularity of psychoanalysis in postwar America. A small general
+                  correspondence file focuses largely on Reik's research and writing and includes
+                  several letters from colleagues, among them psychoanalysts K. R. Eissler, Joost
+                  Abraham Maurits Meerloo, and Jule Nydes. Also included are letters, some with
+                  extensive commentary, from people who read Reik's books. Among these is a letter
+                  from novelist Herbert Gold on <title>
+                     <part>Psychology of Sex Relations</part>
+                  </title> which Gold read in 1945 while serving in the army at Camp Albert C.
+                  Ritchie, Maryland. Other correspondents include physicist Abraham Pais. Posthumous
+                  correspondence is addressed to Arthur Reik and includes condolence letters on
+                  Reik's death in 1969, letters from scholars about Reik's work, and correspondence
+                  about Arthur's interest in Gustav Mahler which he shared with his father. The
+                  reception of Reik's work can be traced through book contracts and correspondence
+                  with publishers, royalty statements, book reviews, and news articles about him.
+                  <lb/>
+               </p>
+               <p>Reik's life in Europe before his immigration is documented through certificates
+                  from his studies at the University of Vienna; newspaper articles, 1913-1938, about
+                  or referring to him; and later interviews with Reik in which he discussed his
+                  family and childhood, studies at the University of Vienna, relationship with
+                  Sigmund Freud, analysis with Karl Abraham, controversies surrounding lay analysis,
+                  his research and writing on psychoanalysis, and other aspects of his life and
+                  work. A small amount of family papers includes his first wife Eleanore Oratsch
+                  Reik's residential certificate in 1915, a copy of Arthur Reik's 1936 marriage
+                  certificate, and letters from Reik to his son in 1939-1941 urging his immigration
+                  to the United States from Palestine. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by topic or type of material. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a"> Audio recordings, information concerning,
+                        <date> 1952, 1958 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1952, 1958 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a"> Books by Reik </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> Publicity and two dust jackets, <date>
+                           1935-1964 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1935-1964 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> Reviews, <date> 1919-1976 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1919-1976 </unitdate>
+                     <physdesc encodinganalog="300"> (2 folders) </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a"> Certificates </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> Reik, Arthur (son), marriage, <date> 1936
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1936 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> Reik, Eleanore Oratsch (wife), residential
+                        and passport, <date> 1915, 1930 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1915, 1930 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> Reik, Theodor </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a"> Honors, <date> 1960-1968 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1960-1968 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a"> New York State psychologist certificate,
+                              <date> 1959 </date>
+                           <ref target="OVcert">
+                              <emph render="italic">See Container OV 1,</emph> Certificate </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1959 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">1</container>
+                        <unittitle encodinganalog="245$a"> University of Vienna, Vienna, Austria,
+                              <date> 1908-1912 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1908-1912 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">1</container>
+                  <unittitle encodinganalog="245$a"> Correspondence </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> General, <date> 1935-1979, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1935-1979, undated </unitdate>
+                     <physdesc encodinganalog="300"> (5 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">1</container>
+                     <unittitle encodinganalog="245$a"> With publishers, including contracts, <date>
+                           1940-1965 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1940-1965 </unitdate>
+                     <physdesc encodinganalog="300"> (3 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> With publishers, including contracts, <date>
+                           1966-1984 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1966-1984 </unitdate>
+                     <physdesc encodinganalog="300"> (4 folders) </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a"> Executor of estate, release, <date> 1972
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1972 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a"> Interviews with Reik by </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> Delafield, [?], <date> 1945 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1945 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> Eissler, K. R., <date> 1954 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1954 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> Freeman, Erika Padan, <date> 1972 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1972 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> Swerdloff, Bluma, Columbia University, New
+                        York, N.Y., <date> 1965-1966 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1965-1966 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a"> Miscellany, <date> 1932-1954 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1932-1954 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a"> National Psychological Association for
+                     Psychoanalysts </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> General, <date> 1952-1962, 1973 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1952-1962, 1973 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> Theodor Reik Clinic for Mental Health and
+                        Research, New York, N.Y., <date> 1955-1962 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1955-1962 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">2</container>
+                  <unittitle encodinganalog="245$a"> News clippings and other printed matter
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a">Annotated by Reik, "Die Zukunfteiner
+                        Illusion," by Sigmund Freud, pp. 81-91, <date> 1927 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1927 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> Mentioning Reik, <date> 1913-1970 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1913-1970 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">2</container>
+                     <unittitle encodinganalog="245$a"> Saved by Reik, <date> 1908-1930s </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1908-1930s </unitdate>
+                     <physdesc encodinganalog="300"> (2 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a"> Saved by Reik, <date> 1940s-1962, undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1940s-1962, undated </unitdate>
+                     <physdesc encodinganalog="300"> (3 folders) </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a"> Photograph of a woman and a man, <date> undated
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a"> Postcards, ancient Egyptian and medieval
+                     European art, <date> undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a"> Programs, miscellaneous, <date> 1956-1977, 1968
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1956-1977, 1968 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a"> Royalties </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a"> Notes, <date> 1969-1971 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1969-1971 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a"> Statements, <date> 1951-1952, 1969-1982
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1951-1952, 1969-1982 </unitdate>
+                     <physdesc encodinganalog="300"> (5 folders) </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a"> Speaking engagement notices, <date> 1939,
+                        1958-1962 </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1939, 1958-1962 </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a"> Tribute on seventieth birthday, <date> 1958
+                     </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1958 </unitdate>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">3-7</container>
+               <unittitle encodinganalog="245$a" id="gmseries">Gustav Mahler, <date normal="1905/1994">1905-1994</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1905/1994">1905-1994</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Drafts of writings, notes, photographs, and collected printed matter consisting of
+                  newspaper clippings, concert programs, journal articles, and booklets stemming
+                  from Reik's research and writings on Gustav Mahler. Reik's research on the
+                  composer stretched over many years, beginning before his immigration in 1938 and
+                  culminating in the publication of <title>
+                     <part>The Haunting Melody: Psychoanalytic Experiences in Life and Music</part>
+                  </title> in 1953. Included in the series is a set of five binders containing
+                  notes, drafts, printed matter, and photographs stored in topically labeled
+                  folders. The contents of Binder A focuses largely on Mahler's biography,
+                  commemorations of the seventy-fifth anniversary of his birth and twenty-fifth
+                  anniversary of his death in 1935-1936, and writings about the composer by Guido
+                  Adler, Max Graf, Arnold Rosé, and Bruno Walter, among others. Binder B covers a
+                  wide variety of topics, including anecdotes about Mahler, his relationships with
+                  Hans von Bülow and Sigmund Freud, his religious and superstitious inclinations,
+                  his years in Vienna, and a planned memorial. Files on Mahler's symphonies and
+                  other compositions are housed in Binder C. Binders D and E contain Reik's notes on
+                  Mahler which he taped to numbered sheets. The tape has been removed, but the
+                  original order of the notes has been maintained. In addition to the binders, the
+                  series includes loose notes and drafts, largely in German, and additional printed
+                  matter including booklets, journals, reprints, catalogs, concert programs, news
+                  clippings, and a facsimile edition of Mahler's Symphony no. 10. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material. </p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">3</container>
+                  <unittitle encodinganalog="245$a">Binders <ref target="binder">
+                        <emph render="italic">See also Containers OV 1-OV 2,</emph> same heading
+                     </ref>
+                  </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">3</container>
+                     <unittitle encodinganalog="245$a"> Binder A, <date> 1928-1963 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1928-1963 </unitdate>
+                     <physdesc encodinganalog="300"> (2 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a"> Binder A, <date> 1928-1963 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1928-1963 </unitdate>
+                     <physdesc encodinganalog="300"> (3 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a"> Binder B, <date> 1912-1954 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1912-1954 </unitdate>
+                     <physdesc encodinganalog="300"> (4 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a"> Binder C, <date> 1905-1955 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1905-1955 </unitdate>
+                     <physdesc encodinganalog="300"> (4 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">4</container>
+                     <unittitle encodinganalog="245$a"> Binder D, notes 1-12, <date> undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                     <physdesc encodinganalog="300"> (3 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a"> Binder D, notes 13-31, <date> undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                     <physdesc encodinganalog="300"> (5 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">5</container>
+                     <unittitle encodinganalog="245$a"> Binder E, notes 32-51, <date> undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                     <physdesc encodinganalog="300"> (5 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a"> Binder E, notes 52-70, <date> undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                     <physdesc encodinganalog="300"> (4 folders) </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a">Loose handwritten notes and drafts, largely in
+                     German, <date> undated </date>
+                     <ref target="gm">
+                        <emph render="italic">See also Container OV 2,</emph> same heading </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> undated </unitdate>
+                  <physdesc encodinganalog="300"> (9 folders) </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a"> Miscellany, <date> 1959-1981, undated </date>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> 1959-1981, undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a"> Portrait drawings, bronze bust, and death mask,
+                     copies of, <date> undated </date>
+                     <ref target="portrait">
+                        <emph render="italic">See also Container OV 2,</emph> Copy of a portrait
+                     </ref>
+                  </unittitle>
+                  <unitdate encodinganalog="245$f"> undated </unitdate>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">6</container>
+                  <unittitle encodinganalog="245$a"> Printed matter </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">6</container>
+                     <unittitle encodinganalog="245$a"> Booklets, journals, and reprints, <date>
+                           1905, 1920-1948, undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1905, 1920-1948, undated </unitdate>
+                     <physdesc encodinganalog="300"> (2 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> Catalogs and a directory, <date> undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> Concert programs, New York Philharmonic,
+                           <date> 1959-1960 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1959-1960 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a">Facsimile edition of Mahler's Symphony no.
+                        10, <date>1924 </date>
+                        <ref target="fac">
+                           <emph render="italic">See Container OV 2,</emph> same heading </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1924 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> News clippings, <date> 1936-1984 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1936-1984 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">7-18</container>
+               <unittitle encodinganalog="245$a" id="wf">Writings File, <date normal="1911/1968">1911-1994</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1911/1968">1911-1994</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Handwritten notes, notebooks, and German and English manuscripts, handwritten and
+                  typed drafts of books and articles, copies of articles published in journals and
+                  magazines, two speeches, introductions to works by others, and a file of writings
+                  by others. Like his mentor Sigmund Freud, Reik often wrote on large sheets of
+                  paper so a significant portion of the series is stored in the <ref target="ov">Oversize</ref> series. Some of the oversize material is in fragile condition
+                  and should be handled with care. <lb/>
+               </p>
+               <p>The Writings File, with its collection of notes, early drafts, and, in some cases,
+                  near-complete book drafts, reflects Reik's writing process. Reik wrote notes on
+                  scraps of paper and grouped them into packets by topic, most numerously on Judaism
+                  and the relationship between men and women. These original groupings have been
+                  retained and are identified by the topical headings created by Reik. The notes
+                  consist largely of Reik's own reflections and observations as well as insights
+                  gleaned from psychoanalytic sessions and his readings. The topics discussed in the
+                  unidentified manuscript pages mirror those found in the note packets, with a
+                  majority of the pages focusing on the relationship between men and women. Many of
+                  these unidentified handwritten pages have no title, page number, or other
+                  identifying characteristics that might tie them to a particular article or book of
+                  Reik's, and so have been separated by language and then grouped into sets based on
+                  the original order as received. Identified manuscript drafts of books and articles
+                  are sorted by title; however, even when identified, a majority of the book drafts
+                  are incomplete and some contain only a few miscellaneous pages. <lb/>
+               </p>
+               <p>While most of the material in the series was generated after Reik's immigration to
+                  the United States in 1938 and before his death in 1969, some newspapers,
+                  magazines, and journal articles as well as writings by others extend before and
+                  after those dates. Reik began writing literary and general articles for Viennese
+                  newspapers and magazines soon after completing his doctorate in 1912, and
+                  continued publishing in newspapers and magazines after his immigration. Included
+                  in the collection is a series of articles on “Men, Women and Love” published in
+                  the <title>
+                     <part>New York Herald Tribune</part>
+                  </title> in 1958. Other topics covered in his magazine and journal articles
+                  include couvade, gender relations, guilt, humor, masochism, and puberty rites.
+                  Some of the newspaper and magazine articles are in very poor physical condition
+                  and have been photocopied for ease of use. <lb/>
+               </p>
+               <p>The file of writings by others includes article-length drafts and reprints, some
+                  of which pertain to Reik or topics of interest to him. Also included in the file
+                  are journal-like letters and manuscripts by two women who may have been Reik's
+                  analysands. Barbara Ivins' writings contain the reflections of a young woman
+                  living in wartime New York in 1944. Dorothy Jeffery's letters and manuscripts,
+                  written in 1954, discuss her thoughts on the relation between men and women, her
+                  marriage, and life in California. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged alphabetically by type of material and therein by title of topic.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">7</container>
+                  <unittitle encodinganalog="245$a"> By Reik </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">7</container>
+                     <unittitle encodinganalog="245$a"> Book drafts and notes </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Curiosities of the Self,</part>
+                           </title> miscellaneous pages, <date> circa 1965 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1965 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Fragment of a Great Confession,</part>
+                           </title> "Roads of Destiny," <date> circa 1949 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1949 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>From Thirty Years with Freud,</part>
+                           </title> "Das Echo des Sprichwörtes," <date> circa 1940 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1940 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>The Haunting Melody,</part>
+                           </title> "Aria Without Words" ("Three Women in a Man's Life"), <date>
+                              circa 1953 </date>
+                           <ref target="hm1">
+                              <emph render="italic">See Container OV 3,</emph> Handwritten and typed
+                              drafts </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1953 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Jewish Wit,</part>
+                           </title>
+                           <date> circa 1962 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1962 </unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">7</container>
+                           <unittitle encodinganalog="245$a"> Handwritten drafts and notes on large
+                              sheets <ref target="jw">
+                                 <emph render="italic">See Container OV 3,</emph> same heading
+                              </ref>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">7</container>
+                           <unittitle encodinganalog="245$a"> Typescript </unittitle>
+                           <physdesc encodinganalog="300"> (4 folders) </physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">7</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>The Many Faces of Sex,</part>
+                           </title>
+                           <date> circa 1966 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1966 </unitdate>
+                        <physdesc encodinganalog="300"> (4 folders) </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>The Many Faces of Sex,</part>
+                           </title>
+                           <date> circa 1966 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1966 </unitdate>
+                        <physdesc encodinganalog="300"> (4 folders) </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Masochism in Modern Man,</part>
+                           </title> miscellaneous pages, <date> circa 1941 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1941 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Myth and Guilt,</part>
+                           </title> preface and outline, <date>circa 1957 </date>
+                           <ref target="mg">
+                              <emph render="italic">See Container OV 3,</emph> Preface </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">circa 1957 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>The Need to Be Loved,</part>
+                           </title>
+                           <date> circa 1963 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1963 </unitdate>
+                        <physdesc encodinganalog="300"> (9 folders) </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">8</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Of Love and Lust,</part>
+                           </title>
+                           <date> circa 1957 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1957 </unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">8</container>
+                           <unittitle encodinganalog="245$a"> Part III, chapter titled "The Chip on
+                              the Shoulder" <ref target="cs">
+                                 <emph render="italic">See Container OV 4, </emph>Handwritten draft
+                              </ref>
+                           </unittitle>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">8</container>
+                           <unittitle encodinganalog="245$a"> Part IV: "The Emotional Differences of
+                              the Sexes" <ref target="eds">
+                                 <emph render="italic">See also Container OV 4, </emph>Handwritten
+                                 drafts and notes </ref>
+                           </unittitle>
+                           <physdesc encodinganalog="300"> (4 folders) </physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">9</container>
+                           <unittitle encodinganalog="245$a"> Part IV: "The Emotional Differences of
+                              the Sexes" </unittitle>
+                           <physdesc encodinganalog="300"> (1 folder) </physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Pagan Rites in Judaism,</part>
+                           </title>
+                           <date> 1963 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1963 </unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">9</container>
+                           <unittitle encodinganalog="245$a"> Handwritten draft </unittitle>
+                           <physdesc encodinganalog="300"> (4 folders) </physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">9</container>
+                           <unittitle encodinganalog="245$a"> Typescript </unittitle>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">
+                           <title>
+                              <part>Psychology of Sex Relations,</part>
+                           </title> introduction for a new edition, <date>1968 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1968 </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a">German manuscripts, handwritten on large
+                        sheets, <date>1938-1941, undated </date>
+                        <ref target="gmss">
+                           <emph render="italic">See Container OV 5,</emph> same heading </ref>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1938-1941, undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> Individual chapters or articles </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">"Comparative Psychology of the Sexes on
+                           the Street," <date>undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">"The Courage of a Coward," <date>undated </date>
+                           <ref target="cc">
+                              <emph render="italic">See Container OV 6,</emph> same heading </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">"An Experimenter and His Audience,"
+                              <date>undated </date>
+                           <ref target="eha">
+                              <emph render="italic">See Container OV 6,</emph> same heading </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a"> Freud, Sigmund, letters to Reik,
+                           transcriptions and English translations, <date> 1911-1938, 1952 </date>
+                           <ref target="Freud">
+                              <emph render="italic">See also Container OV 6,</emph> same heading
+                           </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1911-1938, 1952 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">"Guilt Feelings," <date>undated </date>
+                           <ref target="gf">
+                              <emph render="italic">See Container OV 6,</emph> same heading </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a"> "A Holy Nation," <date> undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">Partial draft on Anatole France's <title>
+                              <part>The Juggler of Notre Dame,</part>
+                           </title>
+                           <date>undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">"Sexual Psychology in an American Novel,"
+                              <date>undated </date>
+                           <ref target="span">
+                              <emph render="italic">See Container OV 6,</emph> same heading </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a">"Some Traits of Feminine Sexuality,"
+                              <date>undated </date>
+                           <ref target="stfs">
+                              <emph render="italic">See Container OV 6,</emph> same heading </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">undated </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> Insertions ("einschub"), <date> undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> Introductions to works by others, <date>
+                           1958, 1966 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1958, 1966 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> Newspaper and magazine articles, <date>
+                           1913-1961 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1913-1961 </unitdate>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a"> Originals <ref target="nwsp">
+                              <emph render="italic"> See Container OV 6,</emph> same heading</ref>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a"> Photocopies </unittitle>
+                        <physdesc encodinganalog="300"> (2 folders) </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> Notebooks </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a"> English vocabulary, <date> undated
+                           </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a"> Notes in German and English, <date>
+                              undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a"> Notes on literature and philosophy,
+                              <date> undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> undated </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">9</container>
+                     <unittitle encodinganalog="245$a"> Notes on </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a"> Freud, Sigmund, miscellaneous, <date>
+                              undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">9</container>
+                        <unittitle encodinganalog="245$a"> Judaism </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">9</container>
+                           <unittitle encodinganalog="245$a"> Set 1, from <title>
+                                 <part>Jewish Wit, </part>
+                              </title>
+                              <date> undated </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> undated </unitdate>
+                           <physdesc encodinganalog="300"> (3 folders) </physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">10</container>
+                           <unittitle encodinganalog="245$a"> Set 1, from <title>
+                                 <part>Jewish Wit, </part>
+                              </title>
+                              <date> undated </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> undated </unitdate>
+                           <physdesc encodinganalog="300"> (4 folders) </physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">10</container>
+                           <unittitle encodinganalog="245$a"> Set 2, largely from <title>
+                                 <part>Mystery on the Mountain,</part>
+                              </title>
+                              <date> undated </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> undated </unitdate>
+                           <physdesc encodinganalog="300"> (9 folders) </physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">10</container>
+                           <unittitle encodinganalog="245$a"> Set 3, partially from Part III of <title>
+                                 <part>Curiosities of the Self,</part>
+                              </title>
+                              <date> circa 1959-1961 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> circa 1959-1961 </unitdate>
+                           <physdesc encodinganalog="300"> (3 folders) </physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">11</container>
+                           <unittitle encodinganalog="245$a"> Set 3, partially from Part III of <title>
+                                 <part>Curiosities of the Self,</part>
+                              </title>
+                              <date> circa 1959-1961 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> circa 1959-1961 </unitdate>
+                           <physdesc encodinganalog="300"> (4 folders) </physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">11</container>
+                           <unittitle encodinganalog="245$a"> Set 4, bibliography, <date> undated
+                              </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> undated </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">11</container>
+                           <unittitle encodinganalog="245$a"> Set 5, "Ergänzungen zu Pagan Remnants
+                              in Judaism," <date> undated </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> undated </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">11</container>
+                           <unittitle encodinganalog="245$a"> Set 6, miscellaneous, <date> undated
+                              </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f"> undated </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">11</container>
+                        <unittitle encodinganalog="245$a"> Language, <date> undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">11</container>
+                        <unittitle encodinganalog="245$a"> Listening, <date> undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">11</container>
+                        <unittitle encodinganalog="245$a"> "Man, the Moral Climber," <date> circa
+                              1945-1953 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1945-1953 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">11</container>
+                        <unittitle encodinganalog="245$a"> Men and women, <date> circa 1945-1953
+                           </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1945-1953 </unitdate>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">11</container>
+                           <unittitle encodinganalog="245$a"> From topically labeled envelopes
+                           </unittitle>
+                        </did>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">11</container>
+                              <unittitle encodinganalog="245$a"> "Active/passive" </unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">11</container>
+                              <unittitle encodinganalog="245$a"> "[Double] standards" </unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">11</container>
+                              <unittitle encodinganalog="245$a"> "Dress" </unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">11</container>
+                              <unittitle encodinganalog="245$a"> "Homosexuality" </unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">12</container>
+                              <unittitle encodinganalog="245$a"> "Infection" </unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">12</container>
+                              <unittitle encodinganalog="245$a"> "Introduction" </unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">12</container>
+                              <unittitle encodinganalog="245$a"> "Male and female varia"
+                              </unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">12</container>
+                              <unittitle encodinganalog="245$a"> "Masochism" </unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">12</container>
+                              <unittitle encodinganalog="245$a"> "Men women" </unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">12</container>
+                              <unittitle encodinganalog="245$a"> "Men women III" </unittitle>
+                              <physdesc encodinganalog="300"> (3 folders) </physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">12</container>
+                              <unittitle encodinganalog="245$a"> "Nature" </unittitle>
+                              <physdesc encodinganalog="300"> (3 folders) </physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">12</container>
+                              <unittitle encodinganalog="245$a"> "Prehistory" </unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">13</container>
+                              <unittitle encodinganalog="245$a"> "Sex" </unittitle>
+                              <physdesc encodinganalog="300"> (4 folders) </physdesc>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">13</container>
+                              <unittitle encodinganalog="245$a"> "Varia (biology, intercourse,
+                                 emotional differences)" </unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">13</container>
+                              <unittitle encodinganalog="245$a"> "Wit" </unittitle>
+                           </did>
+                        </c06>
+                        <c06 level="file">
+                           <did>
+                              <container localtype="box">13</container>
+                              <unittitle encodinganalog="245$a"> "Young Men" </unittitle>
+                           </did>
+                        </c06>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">14</container>
+                           <unittitle encodinganalog="245$a"> From unlabeled packets </unittitle>
+                           <physdesc encodinganalog="300"> (10 folders) </physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">15</container>
+                           <unittitle encodinganalog="245$a"> From unlabeled packets </unittitle>
+                           <physdesc encodinganalog="300"> (5 folders) </physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a"> Readings, bibliographic notes, <date>
+                              undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a"> "Technik," <date> undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a"> Various topics, <date> circa 1941-1964
+                           </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> circa 1941-1964 </unitdate>
+                        <physdesc encodinganalog="300"> (2 folders) </physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">15</container>
+                        <unittitle encodinganalog="245$a"> "Wert der Neurose," <date> undated
+                           </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> undated </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">16</container>
+                     <unittitle encodinganalog="245$a"> Reprints and copies of journal articles,
+                           <date> 1911-1968 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f"> 1911-1968 </unitdate>
+                     <physdesc encodinganalog="300"> (7 folders) </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a"> Speeches </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a"> "From a speech to students," <date> 1962
+                           </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> 1962 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a"> Speech on psychoanalysis, <date>undated </date>
+                           <ref target="speech">
+                              <emph render="italic"> See Container OV 6,</emph> same heading </ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">undated </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Torn fragments, <date>undated </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Unidentified English manuscripts </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Set 1, <date>1966-circa 1969 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1966-circa 1969 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Set 2, <date> undated</date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f"> undated</unitdate>
+                        <physdesc encodinganalog="300">(3 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Sets 3-4, <date>undated </date>
+                           <ref target="set34">
+                              <emph render="italic">See also Container OV 7,</emph> same
+                              heading</ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">undated </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">17</container>
+                        <unittitle encodinganalog="245$a">Sets 5-7, <date>undated </date>
+                           <ref target="set57">
+                              <emph render="italic">See Container OV 7, </emph> same heading</ref>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">undated </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">17</container>
+                  <unittitle encodinganalog="245$a">By others </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Berlin, Jeffrey B., <date>1971-1982 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1971-1982 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Ivins, Barbara, <date>1944 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1944 </unitdate>
+                     <physdesc encodinganalog="300">(3 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Jeffery, Dorothy, <date>1954 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1954 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">17</container>
+                     <unittitle encodinganalog="245$a">Kraus, Karl, <title>
+                           <part>Die Fackel,</part>
+                        </title>
+                        <date>1928 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1928 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Miscellaneous </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">B-D, <date>1951-1994 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1951-1994 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">E-J, <date>1948-1968 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1948-1968 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">K-M, <date>1945-1968 </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1945-1968 </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">N-S, <date>1950-1952, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1950-1952, undated </unitdate>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">18</container>
+                        <unittitle encodinganalog="245$a">T-Z, <date>1952-1975, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1952-1975, undated </unitdate>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">
+                        <title>
+                           <part>Pan</part>
+                        </title> issues, <date>1911-1913 </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1911-1913 </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Sherman, Murray H., <date>1974, undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1974, undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">18</container>
+                     <unittitle encodinganalog="245$a">Unidentified, <date>1914, 1978, undated
+                        </date>
+                     </unittitle>
+                     <unitdate encodinganalog="245$f">1914, 1978, undated </unitdate>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <container localtype="box">OV 1-OV 7</container>
+               <unittitle encodinganalog="245$a" id="ov">Oversize, <date normal="1911/1962">1911-1962</date>
+               </unittitle>
+               <unitdate encodinganalog="245$f" era="ce" calendar="Gregorian" normal="1911/1962">1911-1962</unitdate>
+            </did>
+            <scopecontent encodinganalog="520">
+               <p>Drafts of handwritten manuscripts on oversize sheets of paper, often filed with
+                  accompanying notes and printed matter; newspaper and magazine clippings of
+                  articles by Reik; and a certificate. </p>
+            </scopecontent>
+            <arrangement encodinganalog="351$a">
+               <p>Arranged according to the series, containers, and folders from which the items
+                  were removed.</p>
+            </arrangement>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Personal and Family Papers </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="OVcert">Certificate as psychologist,
+                        awarded by the University of the State of New York, <date>1959 </date>
+                        (Container 1, New York State psychologist certificate) </unittitle>
+                     <unitdate encodinganalog="245$f">1959 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 1</container>
+                  <unittitle encodinganalog="245$a">Gustav Mahler </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 1</container>
+                     <unittitle encodinganalog="245$a" id="binder">Binders (Containers 3-6, same
+                        heading)</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 1</container>
+                        <unittitle encodinganalog="245$a">Large sheets of handwritten notes and
+                           drafts, with related concert programs, reprints, and news clippings, from
+                           Binders A-C, <date>1925-1947, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1925-1947, undated </unitdate>
+                        <physdesc encodinganalog="300">(6 folders)</physdesc>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 2</container>
+                        <unittitle encodinganalog="245$a">Large sheets of handwritten notes and
+                           drafts, with relate typed drafts, concert programs, reprints, and news
+                           clippings, from Binder C, <date>1933-1950, undated </date>
+                        </unittitle>
+                        <unitdate encodinganalog="245$f">1933-1950, undated </unitdate>
+                        <physdesc encodinganalog="300">(2 folders)</physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 2</container>
+                     <unittitle encodinganalog="245$a" id="gm">Loose handwritten notes and drafts on
+                        large sheets, largely in German, <date>undated </date> (Container 6, same
+                        heading)</unittitle>
+                     <unitdate encodinganalog="245$f">undated </unitdate>
+                     <physdesc encodinganalog="300">(2 folders)</physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 2</container>
+                     <unittitle encodinganalog="245$a" id="portrait">Copy of a portrait drawing and
+                        published photograph of a bronze bust, <date>undated </date> (Container 6,
+                        Portrait drawings)</unittitle>
+                     <unitdate encodinganalog="245$f">undated </unitdate>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 2</container>
+                     <unittitle encodinganalog="245$a" id="fac">Facsimile edition of Mahler's
+                        Symphony no. 10, <date>1924 </date> (Container 7, same heading)</unittitle>
+                     <unitdate encodinganalog="245$f">1924 </unitdate>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container localtype="box">OV 3</container>
+                  <unittitle encodinganalog="245$a">Writings File </unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container localtype="box">OV 3</container>
+                     <unittitle encodinganalog="245$a">By Reik </unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 3</container>
+                        <unittitle encodinganalog="245$a">Book drafts and notes </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 3</container>
+                           <unittitle encodinganalog="245$a" id="hm1">Handwritten and typed drafts,
+                              some on large sheets, of the chapter "Aria Without Words" ("Three
+                              Women in a Man's Life"), <date>circa 1953 </date> (Container 7, <title>
+                                 <part>The Haunting Melody</part>
+                              </title>) </unittitle>
+                           <unitdate encodinganalog="245$f">circa 1953 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 3</container>
+                           <unittitle encodinganalog="245$a" id="jw">Handwritten drafts and notes on
+                              large sheets, <date>circa 1962 </date> (Container 7, <title>
+                                 <part>Jewish Wit</part>
+                              </title>)</unittitle>
+                           <unitdate encodinganalog="245$f">circa 1962 </unitdate>
+                           <physdesc encodinganalog="300">(7 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 3</container>
+                           <unittitle encodinganalog="245$a" id="mg">Preface and outline on large
+                              sheets, <date>circa 1957 </date> (Container 8, <title>
+                                 <part>Myth and Guilt</part>
+                              </title>)</unittitle>
+                           <unitdate encodinganalog="245$f">circa 1957 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 4</container>
+                           <unittitle encodinganalog="245$a" id="cs">Handwritten draft on large
+                              sheets of "The Chip on the Shoulder" from Part III, <date>circa 1957
+                              </date> (Container 8, <title>
+                                 <part>Of Love and Lust</part>
+                              </title>)</unittitle>
+                           <unitdate encodinganalog="245$f">circa 1957 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 4</container>
+                           <unittitle encodinganalog="245$a" id="eds">Handwritten drafts and notes
+                              from Part IV: "The Emotional Differences of the Sexes," <date>circa
+                                 1957 </date> (Container 8, <title>
+                                 <part>Of Love and Lust</part>
+                              </title>)</unittitle>
+                           <unitdate encodinganalog="245$f">circa 1957 </unitdate>
+                           <physdesc encodinganalog="300">(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 5</container>
+                        <unittitle encodinganalog="245$a" id="gmss">German manuscripts, handwritten
+                           on large sheets (Container 9, same heading)</unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 5</container>
+                           <unittitle encodinganalog="245$a">Set 1, dated drafts with journal-like
+                              entries and some Gustav Mahler-related notes, <date>1938-1941 </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">1938-1941 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 5</container>
+                           <unittitle encodinganalog="245$a">Set 2, drafts on Judaism, largely on
+                              Jewish humor, <date>undated </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">undated </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 5</container>
+                           <unittitle encodinganalog="245$a">Set 3, miscellaneous drafts from <title>
+                                 <part>Der Überraschte Psychologe, </part>
+                              </title> writings on Jewish humor, and other works, <date>undated
+                              </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">undated </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 5</container>
+                           <unittitle encodinganalog="245$a">Set 4, miscellaneous drafts, including
+                              ones titled "Der Kleine König," "Ein Denkexperiment," "Kindermunde,"
+                              and "Neo. Psych.," <date>undated </date>
+                           </unittitle>
+                           <unitdate encodinganalog="245$f">undated </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 6</container>
+                        <unittitle encodinganalog="245$a">Individual chapters or articles,
+                           handwritten drafts on large sheets </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 6</container>
+                           <unittitle encodinganalog="245$a" id="cc">"The Courage of a Coward,"
+                                 <date>undated </date> (Container 9, same heading)</unittitle>
+                           <unitdate encodinganalog="245$f">undated </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 6</container>
+                           <unittitle encodinganalog="245$a" id="eha">"An Experimenter and His
+                              Audience," <date>undated </date> (Container 9, same
+                              heading)</unittitle>
+                           <unitdate encodinganalog="245$f">undated </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 6</container>
+                           <unittitle encodinganalog="245$a" id="Freud">Freud, Sigmund, letters to
+                              Reik, handwritten English translations, <date>1911-1938 </date>
+                              (Container 9, same heading)</unittitle>
+                           <unitdate encodinganalog="245$f">1911-1938 </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 6</container>
+                           <unittitle encodinganalog="245$a" id="gf">"Guilt Feeling," <date>undated
+                              </date> (Container 9, same heading) </unittitle>
+                           <unitdate encodinganalog="245$f">undated </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 6</container>
+                           <unittitle encodinganalog="245$a" id="span">"Sexual Psychology in an
+                              American Novel," <date>undated </date> (Container 9, same heading) </unittitle>
+                           <unitdate encodinganalog="245$f">undated </unitdate>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 6</container>
+                           <unittitle encodinganalog="245$a" id="stfs">"Some Traits of Feminine
+                              Sexuality," <date>undated </date> (Container 9, same heading) </unittitle>
+                           <unitdate encodinganalog="245$f">undated </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 6</container>
+                        <unittitle encodinganalog="245$a">Newspaper and magazine articles
+                        </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 6</container>
+                           <unittitle encodinganalog="245$a" id="nwsp">Originals, <date>1913-1961
+                              </date> (Container 9, same heading)</unittitle>
+                           <unitdate encodinganalog="245$f">1913-1961 </unitdate>
+                           <physdesc encodinganalog="300">(4 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 6</container>
+                        <unittitle encodinganalog="245$a">Speeches </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 6</container>
+                           <unittitle encodinganalog="245$a" id="speech">Speech on psychoanalysis,
+                              handwritten on large sheets, <date>undated </date> (Container 9, same
+                              heading)</unittitle>
+                           <unitdate encodinganalog="245$f">undated </unitdate>
+                        </did>
+                     </c05>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container localtype="box">OV 7</container>
+                        <unittitle encodinganalog="245$a">Unidentified English manuscripts,
+                           handwritten on large sheets//*[local-name()='did' and
+                           count(child::*[local-name()='unittitle'])=0] </unittitle>
+                     </did>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 7</container>
+                           <unittitle encodinganalog="245$a" id="set34">Sets 3-4, <date>undated
+                              </date> (Container 17, same heading)</unittitle>
+                           <unitdate encodinganalog="245$f">undated </unitdate>
+                           <physdesc>(2 folders)</physdesc>
+                        </did>
+                     </c05>
+                     <c05 level="file">
+                        <did>
+                           <container localtype="box">OV 7</container>
+                           <unittitle encodinganalog="245$a" id="set57">Sets 5-7, <date>undated
+                              </date> (Container 17, same heading)</unittitle>
+                           <unitdate encodinganalog="245$f">undated </unitdate>
+                           <physdesc>(8 folders)</physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>
